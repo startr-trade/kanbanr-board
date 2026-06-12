@@ -1,0 +1,4 @@
+code: MS-001
+name: P0 — Remove the biggest friction
+description: Lowest-friction wins that make kanbanr pleasant for a solo dev to adopt. See docs/ROADMAP.md.
+depends_on: []

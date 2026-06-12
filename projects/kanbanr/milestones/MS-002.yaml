@@ -1,0 +1,5 @@
+code: MS-002
+name: P1 — Make it pleasant to live in
+description: Day-to-day usefulness once the friction is gone.
+depends_on:
+- MS-001

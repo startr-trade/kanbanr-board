@@ -1,0 +1,5 @@
+code: MS-003
+name: P2 — Nice to have
+description: Polish and quality-of-life; do after P0/P1.
+depends_on:
+- MS-002

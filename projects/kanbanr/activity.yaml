@@ -1,3 +1,6 @@
+- time: 2026-06-12T07:18:12.431099373Z
+  actor: kanbanr-dev
+  message: update document
 - time: 2026-06-12T07:18:12.411439786Z
   actor: kanbanr-dev
   message: add document asset guides/getting-started-diagram.png

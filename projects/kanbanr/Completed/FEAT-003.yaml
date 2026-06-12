@@ -1,0 +1,20 @@
+code: FEAT-003
+title: Recent activity view (from git history)
+status: Completed
+milestone: MS-002
+todo_lists:
+- code: TL-001
+  description: Changelog activity stream
+  tasks:
+  - key: T1
+    text: core::activity changelog (per-project activity.yaml, capped)
+    state: Completed
+  - key: T2
+    text: CLI appends activity per write + `kanbanr activity` command
+    state: Completed
+  - key: T3
+    text: View daemon /activity endpoint + web 'Recent activity' panel
+    state: Completed
+  created_at: 2026-06-12T04:49:05.347005976Z
+created_at: 2026-06-12T03:36:36.370141322Z
+updated_at: 2026-06-12T04:49:05.399812525Z

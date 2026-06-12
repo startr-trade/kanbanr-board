@@ -1,0 +1,3 @@
+- time: 2026-06-12T04:49:05.474222278Z
+  actor: kanbanr-dev
+  message: complete FEAT-015 (view-only single runtime) + FEAT-003 (activity)

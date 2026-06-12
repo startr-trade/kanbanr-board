@@ -1,0 +1,23 @@
+name: demo
+description: Demo Claude development project
+statuses:
+- Deferred
+- Planned
+- Scheduled
+- Completed
+default_state: Planned
+transitions:
+  Completed:
+  - Scheduled
+  Deferred:
+  - Planned
+  Planned:
+  - Scheduled
+  - Deferred
+  Scheduled:
+  - Completed
+  - Planned
+displayed_states:
+- Planned
+- Scheduled
+- Completed

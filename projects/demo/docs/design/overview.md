@@ -1,0 +1,2 @@
+# Architecture Overview
+kanbanr is a client/server tool: the CLI talks to the server over HTTP with a JWT; the server owns the YAML data and renders a read-only monitor. Feature items are epics holding persistent todo-lists.

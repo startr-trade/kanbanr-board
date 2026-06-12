@@ -1,0 +1,4 @@
+code: MS-001
+name: Foundations
+description: Core scaffolding
+depends_on: []

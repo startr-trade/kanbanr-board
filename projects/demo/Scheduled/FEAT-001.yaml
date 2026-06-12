@@ -1,0 +1,24 @@
+code: FEAT-001
+title: Project scaffolding
+status: Scheduled
+milestone: MS-001
+todo_lists:
+- code: TL-001
+  description: 'session 1: workspace'
+  tasks:
+  - key: T1
+    text: Create Cargo workspace
+    state: Completed
+  - key: T2
+    text: Add CI
+    state: Completed
+  created_at: 2026-06-12T01:01:33.906857087Z
+- code: TL-002
+  description: 'session 2: vite app'
+  tasks:
+  - key: T1
+    text: Scaffold Vite + React
+    state: InProgress
+  created_at: 2026-06-12T01:01:33.946404885Z
+created_at: 2026-06-12T01:01:33.876217884Z
+updated_at: 2026-06-12T01:04:05.114542048Z

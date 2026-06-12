@@ -1,3 +1,6 @@
+- time: 2026-06-12T05:20:18.595908156Z
+  actor: kanbanr-dev
+  message: 'track: rename-status (done) + remote-sync conflict safety (in progress)'
 - time: 2026-06-12T05:14:52.942544841Z
   actor: kanbanr-dev
   message: 'update config: workflow'

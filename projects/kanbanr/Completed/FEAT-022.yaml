@@ -1,6 +1,6 @@
 code: FEAT-022
 title: 'Remote sync: conflict warnings + data-loss guidance'
-status: In Progress
+status: Completed
 milestone: MS-002
 todo_lists:
 - code: TL-001
@@ -8,10 +8,10 @@ todo_lists:
   tasks:
   - key: T1
     text: git::sync_all reports failures; CLI prints resolution commands
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'USER_GUIDE + SKILL: remotes/conflicts/data-safety guidance'
-    state: NotStarted
+    state: Completed
   created_at: 2026-06-12T05:20:18.574495817Z
 created_at: 2026-06-12T05:20:18.562924316Z
-updated_at: 2026-06-12T05:20:18.594248347Z
+updated_at: 2026-06-12T05:22:13.912619429Z

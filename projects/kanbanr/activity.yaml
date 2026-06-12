@@ -1,3 +1,6 @@
+- time: 2026-06-12T07:05:55.981237715Z
+  actor: kanbanr-dev
+  message: configure doc folder
 - time: 2026-06-12T07:04:50.322254653Z
   actor: kanbanr-dev
   message: 'plan: open-source release prep (license, community files, CI/release, screenshot tooling)'

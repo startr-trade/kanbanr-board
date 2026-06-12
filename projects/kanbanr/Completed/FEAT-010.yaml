@@ -1,6 +1,6 @@
 code: FEAT-010
 title: Export / snapshot a whole project
-status: In Progress
+status: Completed
 milestone: MS-003
 kind: null
 priority: null
@@ -16,7 +16,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: build + verify
-    state: InProgress
+    state: Completed
   created_at: 2026-06-12T05:42:34.263503569Z
 created_at: 2026-06-12T03:36:36.382036263Z
-updated_at: 2026-06-12T05:42:34.295159256Z
+updated_at: 2026-06-12T05:45:54.523024934Z

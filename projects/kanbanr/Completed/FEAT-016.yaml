@@ -1,6 +1,6 @@
 code: FEAT-016
 title: Documentation binary/image assets
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: null
 priority: null
@@ -16,7 +16,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 'CLI: binary `doc add --file`; web: render relative images'
-    state: InProgress
+    state: Completed
   created_at: 2026-06-12T05:42:34.376832245Z
 created_at: 2026-06-12T04:35:50.233331526Z
-updated_at: 2026-06-12T05:42:34.418509755Z
+updated_at: 2026-06-12T05:54:11.473011846Z

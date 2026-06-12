@@ -1,0 +1,19 @@
+code: FEAT-008
+title: Filter / search in the UI
+status: Completed
+milestone: MS-003
+kind: null
+priority: null
+due: null
+labels: []
+depends_on: []
+todo_lists:
+- code: TL-001
+  description: filter
+  tasks:
+  - key: T1
+    text: board search/filter across code, title, kind, priority, labels
+    state: Completed
+  created_at: 2026-06-12T05:54:11.493217057Z
+created_at: 2026-06-12T03:36:36.378691112Z
+updated_at: 2026-06-12T05:54:11.506083433Z

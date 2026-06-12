@@ -1,29 +1,34 @@
 code: FEAT-006
 title: 'Model fields: priority, due dates, labels, cross-feature deps'
-status: In Progress
+status: Completed
 milestone: MS-002
+kind: null
+priority: null
+due: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: model fields
   tasks:
   - key: T1
     text: 'core: add kind/priority/due/labels/depends_on to FeatureItem (serde defaults)'
-    state: InProgress
+    state: Completed
   - key: T2
     text: edit_feature + dispatch + batch carry the new fields
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'cross-feature depends_on: validate existence + reject cycles'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'CLI flags: --kind --priority --due --labels --depends-on'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'web: kind/priority/labels badges + dependencies on the feature page'
-    state: NotStarted
+    state: Completed
   - key: T6
     text: tests
-    state: NotStarted
+    state: Completed
   created_at: 2026-06-12T05:23:58.337201346Z
 created_at: 2026-06-12T03:36:36.375537631Z
-updated_at: 2026-06-12T05:23:58.389509378Z
+updated_at: 2026-06-12T05:54:11.467451682Z

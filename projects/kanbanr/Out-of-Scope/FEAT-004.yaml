@@ -1,7 +1,7 @@
 code: FEAT-004
 title: Web token refresh
-status: Planned
+status: Out-of-Scope
 milestone: MS-002
 todo_lists: []
 created_at: 2026-06-12T03:36:36.371518475Z
-updated_at: 2026-06-12T03:36:36.371518475Z
+updated_at: 2026-06-12T04:25:45.560715717Z

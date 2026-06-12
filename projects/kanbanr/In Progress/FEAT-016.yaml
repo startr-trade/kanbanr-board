@@ -1,0 +1,22 @@
+code: FEAT-016
+title: Documentation binary/image assets
+status: In Progress
+milestone: MS-002
+kind: null
+priority: null
+due: null
+labels: []
+depends_on: []
+todo_lists:
+- code: TL-001
+  description: doc assets
+  tasks:
+  - key: T1
+    text: 'core: write/read_doc_bytes; daemon: /docs/raw with content-type'
+    state: Completed
+  - key: T2
+    text: 'CLI: binary `doc add --file`; web: render relative images'
+    state: InProgress
+  created_at: 2026-06-12T05:42:34.376832245Z
+created_at: 2026-06-12T04:35:50.233331526Z
+updated_at: 2026-06-12T05:42:34.418509755Z

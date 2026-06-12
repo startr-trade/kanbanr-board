@@ -1,3 +1,6 @@
+- time: 2026-06-12T05:42:34.421284595Z
+  actor: kanbanr-dev
+  message: move FEAT-010/020/016 to In Progress (active work)
 - time: 2026-06-12T05:37:04.965482309Z
   actor: kanbanr-dev
   message: 'agents delivered: FEAT-005 (MCP decision), FEAT-007 (CI), FEAT-011 (TLS guidance); FEAT-017 hooks in progress'

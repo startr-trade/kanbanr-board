@@ -1,0 +1,22 @@
+code: FEAT-020
+title: Filterable activity streams (per-item / per-kind / maintenance)
+status: In Progress
+milestone: MS-002
+kind: null
+priority: null
+due: null
+labels: []
+depends_on: []
+todo_lists:
+- code: TL-001
+  description: activity streams
+  tasks:
+  - key: T1
+    text: activity entries tagged with item (ref) + ?ref= and ?ongoing= filters on the daemon
+    state: Completed
+  - key: T2
+    text: 'web: per-item + maintenance activity views'
+    state: InProgress
+  created_at: 2026-06-12T05:42:34.312880879Z
+created_at: 2026-06-12T05:02:27.038925541Z
+updated_at: 2026-06-12T05:42:34.357074508Z

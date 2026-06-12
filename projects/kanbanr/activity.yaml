@@ -1,3 +1,6 @@
+- time: 2026-06-12T07:05:56.041105228Z
+  actor: kanbanr-dev
+  message: update document
 - time: 2026-06-12T07:05:56.018923874Z
   actor: kanbanr-dev
   message: configure doc folder

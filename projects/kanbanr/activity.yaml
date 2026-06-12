@@ -1,3 +1,6 @@
+- time: 2026-06-12T07:45:04.001171232Z
+  actor: kanbanr-dev
+  message: 'feat: docs Mermaid diagrams + per-folder image embedding (verified via screenshots)'
 - time: 2026-06-12T07:36:53.695931086Z
   actor: kanbanr-dev
   message: add document asset guides/getting-started-diagram.png

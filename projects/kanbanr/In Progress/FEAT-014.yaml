@@ -10,7 +10,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: compile-verify the scaffolded extension
-  tasks: []
+  tasks:
+  - key: T1
+    text: cd editor/vscode && npm install
+    state: NotStarted
   created_at: 2026-06-12T06:01:37.071145013Z
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-06-12T06:01:37.071175516Z
+updated_at: 2026-06-12T06:01:46.65143046Z

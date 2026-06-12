@@ -1,3 +1,6 @@
+- time: 2026-06-12T07:12:10.839075953Z
+  actor: kanbanr-dev
+  message: update document
 - time: 2026-06-12T07:12:10.778387503Z
   actor: kanbanr-dev
   message: add document asset design/architecture.png

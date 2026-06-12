@@ -1,0 +1,15 @@
+code: FEAT-023
+title: Package as a Claude Code plugin (skill + hooks + commands) + cross-platform hooks
+status: Planned
+milestone: MS-002
+kind: feature
+priority: high
+due: null
+labels:
+- distribution
+- oss
+- hooks
+depends_on: []
+todo_lists: []
+created_at: 2026-06-12T05:55:15.926501653Z
+updated_at: 2026-06-12T05:55:15.935529844Z

@@ -1,6 +1,6 @@
 code: FEAT-001
 title: Local / serverless mode
-status: Scheduled
+status: Completed
 milestone: MS-001
 todo_lists:
 - code: TL-001
@@ -8,25 +8,25 @@ todo_lists:
   tasks:
   - key: T1
     text: Move git module into kanbanr-core (shared by server + CLI)
-    state: InProgress
+    state: Completed
   - key: T2
     text: Add core dispatch(method,path,body,store)->Value mapping routes to Store
-    state: NotStarted
+    state: Completed
   - key: T3
     text: Refactor server routes to call core dispatch (single source, no drift)
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'CLI: Backend enum Remote|Local + selection (--local / KANBANR_LOCAL / auto-detect)'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'CLI LocalBackend: dispatch + git commit + local identity (config identity, whoami)'
-    state: NotStarted
+    state: Completed
   - key: T6
     text: 'Tests: core dispatch unit + CLI local-mode integration (no server)'
-    state: NotStarted
+    state: Completed
   - key: T7
     text: 'Docs: note local mode in SKILL / USER_GUIDE / DESIGN'
-    state: NotStarted
+    state: Completed
   created_at: 2026-06-12T03:43:10.279310298Z
 created_at: 2026-06-12T03:36:36.367263841Z
-updated_at: 2026-06-12T03:43:10.313151192Z
+updated_at: 2026-06-12T04:01:21.99855462Z

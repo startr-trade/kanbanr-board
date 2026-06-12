@@ -3,7 +3,7 @@ description: kanbanr's own development board — dogfooding the tool to track it
 statuses:
 - Deferred
 - Planned
-- Scheduled
+- In Progress
 - Completed
 - Ongoing
 - No Action
@@ -12,8 +12,15 @@ statuses:
 default_state: Planned
 transitions:
   Completed:
-  - Scheduled
+  - In Progress
   Deferred:
+  - Planned
+  - Ongoing
+  - No Action
+  - Not Applicable
+  - Out-of-Scope
+  In Progress:
+  - Completed
   - Planned
   - Ongoing
   - No Action
@@ -24,27 +31,20 @@ transitions:
   Not Applicable:
   - Planned
   Ongoing:
-  - Scheduled
+  - In Progress
   - Planned
   Out-of-Scope:
   - Planned
   Planned:
-  - Scheduled
+  - In Progress
   - Deferred
-  - Ongoing
-  - No Action
-  - Not Applicable
-  - Out-of-Scope
-  Scheduled:
-  - Completed
-  - Planned
   - Ongoing
   - No Action
   - Not Applicable
   - Out-of-Scope
 displayed_states:
 - Planned
-- Scheduled
+- In Progress
 - Completed
 no_op_states:
 - No Action

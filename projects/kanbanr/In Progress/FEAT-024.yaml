@@ -1,0 +1,31 @@
+code: FEAT-024
+title: Open-source release prep (license, community files, CI/release, screenshots)
+status: In Progress
+milestone: MS-002
+kind: chore
+priority: null
+due: null
+labels: []
+depends_on: []
+todo_lists:
+- code: TL-001
+  description: remaining manual release steps (only the user can do)
+  tasks:
+  - key: T1
+    text: Pick GitHub <owner>, create repo, run the sed find/replace for <owner>
+    state: NotStarted
+  - key: T2
+    text: Fill copyright/contact placeholders in LICENSE-*, CODE_OF_CONDUCT, SECURITY
+    state: NotStarted
+  - key: T3
+    text: Secrets sweep (remove data/security.yaml; decide what data/ to publish); make repo public
+    state: NotStarted
+  - key: T4
+    text: Reserve crate name; set up crates.io publishing (token or Trusted Publishing)
+    state: NotStarted
+  - key: T5
+    text: git tag v0.1.0 && push -> verify Release binaries + GHCR image; date the changelog
+    state: NotStarted
+  created_at: 2026-06-12T07:04:50.287647306Z
+created_at: 2026-06-12T07:04:50.266080455Z
+updated_at: 2026-06-12T07:04:50.320383564Z

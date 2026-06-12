@@ -5,6 +5,7 @@ statuses:
 - Planned
 - Scheduled
 - Completed
+- Ongoing
 - No Action
 - Not Applicable
 - Out-of-Scope
@@ -14,6 +15,7 @@ transitions:
   - Scheduled
   Deferred:
   - Planned
+  - Ongoing
   - No Action
   - Not Applicable
   - Out-of-Scope
@@ -21,17 +23,22 @@ transitions:
   - Planned
   Not Applicable:
   - Planned
+  Ongoing:
+  - Scheduled
+  - Planned
   Out-of-Scope:
   - Planned
   Planned:
   - Scheduled
   - Deferred
+  - Ongoing
   - No Action
   - Not Applicable
   - Out-of-Scope
   Scheduled:
   - Completed
   - Planned
+  - Ongoing
   - No Action
   - Not Applicable
   - Out-of-Scope

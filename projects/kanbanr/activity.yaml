@@ -1,3 +1,6 @@
+- time: 2026-06-12T05:04:54.902313555Z
+  actor: kanbanr-dev
+  message: 'update config: workflow'
 - time: 2026-06-12T05:02:27.06042149Z
   actor: kanbanr-dev
   message: 'plan: filterable/per-item activity streams incl. a maintenance feed (extends FEAT-003)'

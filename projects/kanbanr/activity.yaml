@@ -1,3 +1,6 @@
+- time: 2026-06-12T04:54:09.404276199Z
+  actor: kanbanr-dev
+  message: 'plan: enforcement hooks to make the kanbanr contract reliable (FEAT-017)'
 - time: 2026-06-12T04:49:05.474222278Z
   actor: kanbanr-dev
   message: complete FEAT-015 (view-only single runtime) + FEAT-003 (activity)

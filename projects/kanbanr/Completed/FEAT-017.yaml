@@ -1,6 +1,6 @@
 code: FEAT-017
 title: 'Enforcement: make ''go through kanbanr'' reliable (hooks)'
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: null
 priority: null
@@ -13,7 +13,10 @@ todo_lists:
   tasks:
   - key: T1
     text: sample SessionStart + Stop hooks + settings snippet + README
-    state: InProgress
+    state: Completed
+  - key: T2
+    text: installed into ~/.claude/settings.json (SessionStart + Stop) + validated
+    state: Completed
   created_at: 2026-06-12T05:37:04.945135944Z
 created_at: 2026-06-12T04:54:09.403493902Z
-updated_at: 2026-06-12T05:37:04.963157589Z
+updated_at: 2026-06-12T05:48:14.845693293Z

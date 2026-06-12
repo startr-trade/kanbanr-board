@@ -1,3 +1,6 @@
+- time: 2026-06-12T05:48:14.847537935Z
+  actor: kanbanr-dev
+  message: 'FEAT-017 done: enforcement hooks built + installed into ~/.claude/settings.json (live next session)'
 - time: 2026-06-12T05:45:54.779276294Z
   actor: kanbanr-dev
   message: FEAT-010 verified (project export); build green

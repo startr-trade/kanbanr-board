@@ -1,0 +1,17 @@
+code: FEAT-019
+title: Docs & contract sync (ongoing)
+status: Scheduled
+milestone: MS-004
+todo_lists:
+- code: TL-001
+  description: 'occurrence: view-only single-runtime pivot'
+  tasks:
+  - key: T1
+    text: Sync SKILL/USER_GUIDE/DESIGN/README/Dockerfile to the view-only model
+    state: Completed
+  - key: T2
+    text: (standing) keep SKILL.md & docs in sync whenever the system changes
+    state: NotStarted
+  created_at: 2026-06-12T05:01:00.002877784Z
+created_at: 2026-06-12T05:00:59.989897872Z
+updated_at: 2026-06-12T05:01:00.021648489Z

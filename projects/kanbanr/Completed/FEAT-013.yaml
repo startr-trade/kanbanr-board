@@ -1,6 +1,6 @@
 code: FEAT-013
 title: Theme & polish (light theme, mobile, a11y)
-status: In Progress
+status: Completed
 milestone: MS-003
 kind: null
 priority: null
@@ -9,4 +9,4 @@ labels: []
 depends_on: []
 todo_lists: []
 created_at: 2026-06-12T03:36:36.38823541Z
-updated_at: 2026-06-12T05:58:39.360017644Z
+updated_at: 2026-06-12T06:01:29.651224317Z

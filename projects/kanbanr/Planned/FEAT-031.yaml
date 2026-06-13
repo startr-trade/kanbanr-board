@@ -1,0 +1,14 @@
+code: FEAT-031
+title: 'Ownership: assignee/team fields + by-owner views'
+status: Planned
+milestone: MS-005
+kind: feature
+priority: medium
+due: null
+labels:
+- enterprise
+- phase-2
+depends_on: []
+todo_lists: []
+created_at: 2026-06-13T05:33:18.648762015Z
+updated_at: 2026-06-13T05:33:18.652549583Z

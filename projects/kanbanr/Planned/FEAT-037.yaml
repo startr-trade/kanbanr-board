@@ -1,0 +1,15 @@
+code: FEAT-037
+title: Schema versioning, access scope & doctor
+status: Planned
+milestone: MS-005
+kind: feature
+priority: low
+due: null
+labels:
+- enterprise
+- integrity
+- phase-3
+depends_on: []
+todo_lists: []
+created_at: 2026-06-13T05:33:18.681055591Z
+updated_at: 2026-06-13T05:33:18.683587976Z

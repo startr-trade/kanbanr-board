@@ -1,0 +1,5 @@
+code: MS-005
+name: P3 — Enterprise-Scale Coordination
+description: 'Multi-project, cross-project dependencies, derived ready/blocked, portfolio rollups, and safe concurrent use. Full design: `docs/proposals/enterprise-scale.md`.'
+depends_on:
+- MS-003

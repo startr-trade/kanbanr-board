@@ -1,0 +1,15 @@
+code: FEAT-030
+title: Portfolio/Program hierarchy + cross-project board & rollups
+status: Planned
+milestone: MS-005
+kind: feature
+priority: medium
+due: null
+labels:
+- enterprise
+- portfolio
+- phase-2
+depends_on: []
+todo_lists: []
+created_at: 2026-06-13T05:33:18.642894646Z
+updated_at: 2026-06-13T05:33:18.645714829Z

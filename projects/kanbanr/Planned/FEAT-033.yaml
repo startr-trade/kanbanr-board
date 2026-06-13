@@ -1,0 +1,15 @@
+code: FEAT-033
+title: 'Store scale: lazy specs + per-project index'
+status: Planned
+milestone: MS-005
+kind: refactor
+priority: medium
+due: null
+labels:
+- enterprise
+- performance
+- phase-2
+depends_on: []
+todo_lists: []
+created_at: 2026-06-13T05:33:18.660667123Z
+updated_at: 2026-06-13T05:33:18.663077117Z

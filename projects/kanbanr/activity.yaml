@@ -1,3 +1,7 @@
+- time: 2026-06-18T16:27:04.150627341Z
+  actor: Venkatraman B
+  message: move feature FEAT-028
+  item: FEAT-028
 - time: 2026-06-13T05:33:18.684354495Z
   actor: Venkatraman B
   message: Add P3 Enterprise-Scale Coordination milestone + phased feature items (see docs/proposals/enterprise-scale.md)

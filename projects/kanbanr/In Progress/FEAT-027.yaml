@@ -1,6 +1,6 @@
 code: FEAT-027
 title: Derived dependency state (ready/blocked/graph/impact)
-status: Planned
+status: In Progress
 milestone: MS-005
 kind: feature
 priority: high
@@ -12,4 +12,4 @@ labels:
 depends_on: []
 todo_lists: []
 created_at: 2026-06-13T05:33:18.628280089Z
-updated_at: 2026-06-13T05:33:18.630470069Z
+updated_at: 2026-06-18T17:52:14.226649436Z

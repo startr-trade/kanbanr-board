@@ -1,6 +1,6 @@
 code: FEAT-026
 title: Cross-project dependencies (qualified refs + global graph)
-status: Planned
+status: In Progress
 milestone: MS-005
 kind: feature
 priority: high
@@ -12,4 +12,4 @@ labels:
 depends_on: []
 todo_lists: []
 created_at: 2026-06-13T05:33:18.623833353Z
-updated_at: 2026-06-13T05:33:18.62606722Z
+updated_at: 2026-06-18T17:25:51.769159849Z

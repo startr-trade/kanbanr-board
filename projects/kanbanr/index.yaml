@@ -25,7 +25,7 @@
   labels: []
   depends_on: []
   done: 0
-  total: 8
+  total: 9
 - code: FEAT-001
   status: Completed
   milestone: MS-001

@@ -42,25 +42,8 @@
   depends_on: []
   done: 0
   total: 5
-- code: FEAT-034
-  status: Completed
-  milestone: MS-005
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - enterprise
-  - concurrency
-  - phase-3
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-035
-  status: In Progress
+  status: Completed
   milestone: MS-005
   kind: feature
   priority: low
@@ -489,6 +472,23 @@
   - enterprise
   - performance
   - phase-2
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-034
+  status: Completed
+  milestone: MS-005
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - enterprise
+  - concurrency
+  - phase-3
   depends_on: []
   done: 0
   total: 0

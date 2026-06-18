@@ -1,14 +1,16 @@
 code: FEAT-032
 title: 'Query: rich filters + full-text + cross-project'
-status: Planned
+status: In Progress
 milestone: MS-005
 kind: feature
 priority: medium
 due: null
+assignee: null
+team: null
 labels:
 - enterprise
 - phase-2
 depends_on: []
 todo_lists: []
 created_at: 2026-06-13T05:33:18.655510873Z
-updated_at: 2026-06-13T05:33:18.658199936Z
+updated_at: 2026-06-18T19:07:10.743395711Z

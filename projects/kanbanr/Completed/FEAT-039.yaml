@@ -1,6 +1,6 @@
 code: FEAT-039
 title: 'Workflow state-chart: explicit terminal states + Mermaid I/O (YAML is truth)'
-status: In Progress
+status: Completed
 milestone: MS-003
 kind: feature
 priority: null
@@ -11,4 +11,4 @@ labels: []
 depends_on: []
 todo_lists: []
 created_at: 2026-06-18T18:42:27.864668161Z
-updated_at: 2026-06-18T18:44:01.107891991Z
+updated_at: 2026-06-18T19:04:00.10765744Z

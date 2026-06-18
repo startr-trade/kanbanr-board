@@ -38,7 +38,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: 'CHANGELOG: add MS-005 enterprise-scale features'
-    state: NotStarted
+    state: Completed
   - key: T9
     text: 'THIRD_PARTY: note new fs2 dependency'
     state: NotStarted
@@ -48,4 +48,4 @@ todo_lists:
   tasks: []
   created_at: 2026-06-18T19:40:43.397456991Z
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-06-18T19:41:29.162499538Z
+updated_at: 2026-06-18T19:41:29.695264202Z

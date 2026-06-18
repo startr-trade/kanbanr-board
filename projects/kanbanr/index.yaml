@@ -80,7 +80,7 @@
   done: 0
   total: 5
 - code: FEAT-030
-  status: In Progress
+  status: Completed
   milestone: MS-005
   kind: feature
   priority: medium
@@ -90,21 +90,6 @@
   labels:
   - enterprise
   - portfolio
-  - phase-2
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-033
-  status: Completed
-  milestone: MS-005
-  kind: refactor
-  priority: medium
-  due: null
-  assignee: null
-  team: null
-  labels:
-  - enterprise
-  - performance
   - phase-2
   depends_on: []
   done: 0
@@ -422,6 +407,21 @@
   team: null
   labels:
   - enterprise
+  - phase-2
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-033
+  status: Completed
+  milestone: MS-005
+  kind: refactor
+  priority: medium
+  due: null
+  assignee: null
+  team: null
+  labels:
+  - enterprise
+  - performance
   - phase-2
   depends_on: []
   done: 0

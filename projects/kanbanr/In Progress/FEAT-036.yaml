@@ -1,14 +1,18 @@
 code: FEAT-036
 title: Eventing / notifications on state change
-status: Planned
+status: In Progress
 milestone: MS-005
 kind: feature
 priority: low
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels:
 - enterprise
 - phase-3
 depends_on: []
 todo_lists: []
 created_at: 2026-06-13T05:33:18.675860407Z
-updated_at: 2026-06-13T05:33:18.678315888Z
+updated_at: 2026-06-18T19:27:09.852103022Z

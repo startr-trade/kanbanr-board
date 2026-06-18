@@ -4,7 +4,11 @@ status: In Progress
 milestone: MS-002
 kind: chore
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists:
@@ -27,5 +31,9 @@ todo_lists:
     text: git tag v0.1.0 && push -> verify Release binaries + GHCR image; date the changelog
     state: NotStarted
   created_at: 2026-06-12T07:04:50.287647306Z
+- code: TL-002
+  description: post-MS-005 OSS scaffolding validation
+  tasks: []
+  created_at: 2026-06-18T19:40:43.397456991Z
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-06-12T07:04:50.320383564Z
+updated_at: 2026-06-18T19:40:43.397472103Z

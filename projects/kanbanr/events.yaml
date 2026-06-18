@@ -1,0 +1,8 @@
+- time: 2026-06-18T19:38:27.806216622Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-036
+  message: feature FEAT-036 completed Completed
+  detail:
+    status: Completed
+    terminal: true

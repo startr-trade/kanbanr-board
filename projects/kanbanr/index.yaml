@@ -1,5 +1,5 @@
 - code: FEAT-043
-  status: Planned
+  status: In Progress
   milestone: MS-002
   kind: feature
   priority: medium
@@ -46,7 +46,7 @@
   done: 4
   total: 9
 - code: FEAT-042
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: feature
   priority: high
@@ -61,7 +61,7 @@
   - skill
   - cli
   depends_on: []
-  done: 4
+  done: 6
   total: 6
 - code: FEAT-001
   status: Completed

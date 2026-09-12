@@ -21,13 +21,13 @@ todo_lists:
   tasks:
   - key: T1
     text: 'core: source provenance on features + stable key'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'core: batch source/original snapshot, duplicate-source skip (cascading), dry_run preview'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'CLI: batch --dry-run preview, file-source revision, kanbanr sources [--write]'
-    state: NotStarted
+    state: InProgress
   - key: T4
     text: 'web: feature page shows provenance (+ source no longer present)'
     state: NotStarted
@@ -39,4 +39,4 @@ todo_lists:
     state: NotStarted
   created_at: 2026-09-12T20:50:02.830382084Z
 created_at: 2026-09-12T20:50:02.829960708Z
-updated_at: 2026-09-12T20:50:06.204729839Z
+updated_at: 2026-09-12T20:57:17.946658491Z

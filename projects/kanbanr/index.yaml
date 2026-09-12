@@ -61,7 +61,7 @@
   - skill
   - cli
   depends_on: []
-  done: 0
+  done: 2
   total: 6
 - code: FEAT-001
   status: Completed

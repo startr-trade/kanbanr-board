@@ -27,7 +27,7 @@
   done: 4
   total: 9
 - code: FEAT-043
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: feature
   priority: medium
@@ -43,7 +43,7 @@
   - skill
   depends_on:
   - FEAT-042
-  done: 5
+  done: 7
   total: 7
 - code: FEAT-001
   status: Completed

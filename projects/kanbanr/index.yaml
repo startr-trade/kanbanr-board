@@ -21,9 +21,9 @@
   milestone: MS-002
   kind: feature
   priority: medium
-  start: null
+  start: 2026-09-15
   due: null
-  estimate_days: null
+  estimate_days: 2.0
   assignee: null
   team: null
   labels:

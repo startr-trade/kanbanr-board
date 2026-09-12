@@ -1,3 +1,6 @@
+- time: 2026-09-12T20:00:12.350933603Z
+  actor: Venkatraman B
+  message: 'Scope FEAT: sibling <project>.kanbanr data folder'
 - time: 2026-09-12T19:36:58.18155854Z
   actor: Venkatraman B
   message: 'FEAT-040 done: docs default to kanbanr'

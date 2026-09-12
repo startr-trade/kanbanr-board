@@ -29,13 +29,13 @@ todo_lists:
     state: Completed
   - key: T5
     text: Hooks (.sh/.ps1) resolve data dir via kanbanr where; hooks README
-    state: InProgress
+    state: Completed
   - key: T6
     text: Skill activation asks user; USER_GUIDE + CHANGELOG
-    state: NotStarted
+    state: InProgress
   - key: T7
     text: 'Gates: fmt, clippy -D warnings, workspace tests'
     state: NotStarted
   created_at: 2026-09-12T20:00:12.280843369Z
 created_at: 2026-09-12T20:00:12.258104044Z
-updated_at: 2026-09-12T20:10:49.189726714Z
+updated_at: 2026-09-12T20:12:31.878967634Z

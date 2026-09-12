@@ -1,3 +1,6 @@
+- time: 2026-09-12T20:06:23.30331773Z
+  actor: Venkatraman B
+  message: 'FEAT-041: core resolution done'
 - time: 2026-09-12T20:00:12.350933603Z
   actor: Venkatraman B
   message: 'Scope FEAT: sibling <project>.kanbanr data folder'

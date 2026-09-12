@@ -43,7 +43,7 @@
   - skill
   depends_on:
   - FEAT-042
-  done: 2
+  done: 5
   total: 7
 - code: FEAT-001
   status: Completed

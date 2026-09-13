@@ -1,3 +1,6 @@
+- time: 2026-09-13T05:10:46.886568293Z
+  actor: Venkatraman B
+  message: 'Bug FEAT-045: Stop hook reminder never reaches Claude'
 - time: 2026-09-13T04:50:27.790883178Z
   actor: Venkatraman B
   message: 'FEAT-044 done: automatic Claude Code hook setup'

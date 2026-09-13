@@ -26,24 +26,6 @@
   depends_on: []
   done: 4
   total: 9
-- code: FEAT-044
-  status: Completed
-  milestone: MS-002
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - cli
-  - skill
-  - hooks
-  - onboarding
-  depends_on: []
-  done: 5
-  total: 5
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -627,6 +609,24 @@
   - FEAT-042
   done: 7
   total: 7
+- code: FEAT-044
+  status: Completed
+  milestone: MS-002
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - cli
+  - skill
+  - hooks
+  - onboarding
+  depends_on: []
+  done: 5
+  total: 5
 - code: FEAT-018
   status: Ongoing
   milestone: MS-004
@@ -669,3 +669,19 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-045
+  status: In Progress
+  milestone: MS-004
+  kind: bug
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - hooks
+  - skill
+  depends_on: []
+  done: 1
+  total: 2

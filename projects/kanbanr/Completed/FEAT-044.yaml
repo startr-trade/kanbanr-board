@@ -1,6 +1,6 @@
 code: FEAT-044
 title: Install the Claude Code hooks automatically (kanbanr init + kanbanr hooks)
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: feature
 priority: high
@@ -30,10 +30,10 @@ todo_lists:
     state: Completed
   - key: T4
     text: skill, hooks README, USER_GUIDE, CHANGELOG
-    state: InProgress
+    state: Completed
   - key: T5
     text: gates + install
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-13T04:40:58.26766025Z
 created_at: 2026-09-13T04:40:58.267557454Z
-updated_at: 2026-09-13T04:49:42.035032647Z
+updated_at: 2026-09-13T04:50:27.783952187Z

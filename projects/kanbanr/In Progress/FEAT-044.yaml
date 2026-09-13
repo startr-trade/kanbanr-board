@@ -21,19 +21,19 @@ todo_lists:
   tasks:
   - key: T1
     text: 'CLI hooks module: settings path, safe merge (order-preserving, atomic), idempotency, plugin detection, uninstall'
-    state: InProgress
+    state: Completed
   - key: T2
     text: kanbanr hooks install|status|uninstall; init installs automatically (--no-hooks)
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'tests: merge unit tests + init end-to-end'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: skill, hooks README, USER_GUIDE, CHANGELOG
-    state: NotStarted
+    state: InProgress
   - key: T5
     text: gates + install
     state: NotStarted
   created_at: 2026-09-13T04:40:58.26766025Z
 created_at: 2026-09-13T04:40:58.267557454Z
-updated_at: 2026-09-13T04:40:58.267733591Z
+updated_at: 2026-09-13T04:49:42.035032647Z

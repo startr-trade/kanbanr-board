@@ -1,0 +1,24 @@
+code: FEAT-052
+title: Method, docs, contribution bar and dogfooding
+status: Planned
+milestone: MS-006
+kind: docs
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- skill
+- docs
+depends_on:
+- FEAT-046
+- FEAT-047
+- FEAT-048
+- FEAT-049
+- FEAT-050
+- FEAT-051
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410538489Z
+updated_at: 2026-09-24T18:45:46.410591192Z

@@ -1,0 +1,19 @@
+code: FEAT-050
+title: 'Surfacing: feature show, query --goal, monitor sections'
+status: Planned
+milestone: MS-006
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- core
+- web
+depends_on:
+- FEAT-047
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410342636Z
+updated_at: 2026-09-24T18:45:46.410436064Z

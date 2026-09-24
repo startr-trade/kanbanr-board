@@ -1,0 +1,21 @@
+code: FEAT-057
+title: 'Code tied to the why: trace, why, ADRs, Zachman matrix'
+status: Planned
+milestone: MS-006
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- traceability
+- adr
+- cli
+depends_on:
+- FEAT-056
+- FEAT-049
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410955975Z
+updated_at: 2026-09-24T18:45:46.411014792Z

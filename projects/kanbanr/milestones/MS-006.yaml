@@ -1,0 +1,5 @@
+code: MS-006
+name: P4 — Reasoning, evidence and traceability
+description: Why each item exists, what must be true (requirements), how it is verified (tests), and the links from code back to all three.
+depends_on:
+- MS-002

@@ -1,0 +1,20 @@
+code: FEAT-046
+title: 'Project charter: purpose, goals, stakeholders (charter.yaml)'
+status: Planned
+milestone: MS-006
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- charter
+- core
+- cli
+- web
+depends_on: []
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410082006Z
+updated_at: 2026-09-24T18:45:46.410086629Z

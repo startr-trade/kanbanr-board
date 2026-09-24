@@ -1,0 +1,19 @@
+code: FEAT-055
+title: Lessons learned with confidence decay
+status: Planned
+milestone: MS-006
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- memory
+- cli
+depends_on:
+- FEAT-053
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410784426Z
+updated_at: 2026-09-24T18:45:46.410842372Z

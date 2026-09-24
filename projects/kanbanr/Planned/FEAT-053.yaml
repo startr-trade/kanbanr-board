@@ -1,0 +1,21 @@
+code: FEAT-053
+title: 'Measurement: transition history, defects, test capture hook, report'
+status: Planned
+milestone: MS-006
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- core
+- cli
+- hooks
+- metrics
+depends_on:
+- FEAT-047
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410618944Z
+updated_at: 2026-09-24T18:45:46.410675959Z

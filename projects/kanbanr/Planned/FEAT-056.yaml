@@ -1,0 +1,20 @@
+code: FEAT-056
+title: 'SCM traceability: branch per item, commit trailers, git hooks'
+status: Planned
+milestone: MS-006
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- scm
+- cli
+- hooks
+depends_on:
+- FEAT-047
+todo_lists: []
+created_at: 2026-09-24T18:45:46.410870932Z
+updated_at: 2026-09-24T18:45:46.410928025Z

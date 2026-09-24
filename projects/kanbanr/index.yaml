@@ -1,3 +1,221 @@
+- code: FEAT-046
+  status: In Progress
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - charter
+  - core
+  - cli
+  - web
+  depends_on: []
+  done: 0
+  total: 6
+- code: FEAT-047
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - cli
+  - definition
+  depends_on:
+  - FEAT-046
+  done: 0
+  total: 0
+- code: FEAT-048
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - cli
+  - governance
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-049
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - doctor
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-050
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - web
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-051
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - cli
+  - config
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-052
+  status: Planned
+  milestone: MS-006
+  kind: docs
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - skill
+  - docs
+  depends_on:
+  - FEAT-046
+  - FEAT-047
+  - FEAT-048
+  - FEAT-049
+  - FEAT-050
+  - FEAT-051
+  done: 0
+  total: 0
+- code: FEAT-053
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - cli
+  - hooks
+  - metrics
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-054
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - metrics
+  - docs
+  depends_on:
+  - FEAT-053
+  done: 0
+  total: 0
+- code: FEAT-055
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - memory
+  - cli
+  depends_on:
+  - FEAT-053
+  done: 0
+  total: 0
+- code: FEAT-056
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - scm
+  - cli
+  - hooks
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
+- code: FEAT-057
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - traceability
+  - adr
+  - cli
+  depends_on:
+  - FEAT-056
+  - FEAT-049
+  done: 0
+  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002
@@ -683,223 +901,5 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-046
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - charter
-  - core
-  - cli
-  - web
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-047
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - cli
-  - definition
-  depends_on:
-  - FEAT-046
-  done: 0
-  total: 0
-- code: FEAT-048
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - cli
-  - governance
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-049
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - doctor
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-050
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - web
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-051
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - cli
-  - config
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-052
-  status: Planned
-  milestone: MS-006
-  kind: docs
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - skill
-  - docs
-  depends_on:
-  - FEAT-046
-  - FEAT-047
-  - FEAT-048
-  - FEAT-049
-  - FEAT-050
-  - FEAT-051
-  done: 0
-  total: 0
-- code: FEAT-053
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - cli
-  - hooks
-  - metrics
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-054
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - metrics
-  - docs
-  depends_on:
-  - FEAT-053
-  done: 0
-  total: 0
-- code: FEAT-055
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - memory
-  - cli
-  depends_on:
-  - FEAT-053
-  done: 0
-  total: 0
-- code: FEAT-056
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - scm
-  - cli
-  - hooks
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
-- code: FEAT-057
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - traceability
-  - adr
-  - cli
-  depends_on:
-  - FEAT-056
-  - FEAT-049
   done: 0
   total: 0

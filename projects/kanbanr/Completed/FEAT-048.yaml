@@ -1,6 +1,6 @@
 code: FEAT-048
 title: 'Approval gates: review, approve, start gate, merge gate'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: high
@@ -21,16 +21,16 @@ todo_lists:
   tasks:
   - key: T1
     text: 'core: Approval{by,at,rev} + content hash + ApprovalState (none/current/lapsed)'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'core: start gate in move_feature_on (active statuses only) + recorded --unapproved reason'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'dispatch+CLI: review (decision brief), approve, move --unapproved'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'tests: lapse on edit, gate refuses, override recorded, terminal moves ungated'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-24T19:24:33.08883304Z
 created_at: 2026-09-24T18:45:46.410178899Z
-updated_at: 2026-09-24T19:24:33.088841828Z
+updated_at: 2026-09-24T19:30:20.21503816Z

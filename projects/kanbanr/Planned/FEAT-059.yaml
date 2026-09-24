@@ -1,0 +1,18 @@
+code: FEAT-059
+title: 'Defect: events.yaml is always one write behind git'
+status: Planned
+milestone: MS-004
+kind: bug
+priority: low
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- eventing
+- defect
+depends_on: []
+todo_lists: []
+created_at: 2026-09-24T19:30:20.215044326Z
+updated_at: 2026-09-24T19:30:20.215047799Z

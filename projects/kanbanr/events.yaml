@@ -1,3 +1,11 @@
+- time: 2026-09-24T19:29:41.68421894Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-049
+  message: feature FEAT-049 moved to Planned
+  detail:
+    status: Planned
+    terminal: false
 - time: 2026-09-24T19:29:41.63864953Z
   project: kanbanr
   kind: feature_moved

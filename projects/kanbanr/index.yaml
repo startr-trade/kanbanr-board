@@ -1,3 +1,20 @@
+- code: FEAT-049
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - doctor
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
 - code: FEAT-050
   status: Planned
   milestone: MS-006
@@ -191,7 +208,7 @@
   done: 4
   total: 9
 - code: FEAT-048
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: feature
   priority: high
@@ -206,25 +223,8 @@
   - governance
   depends_on:
   - FEAT-047
-  done: 0
+  done: 4
   total: 4
-- code: FEAT-049
-  status: Planned
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - doctor
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -917,6 +917,22 @@
   assignee: null
   team: null
   labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-059
+  status: Planned
+  milestone: MS-004
+  kind: bug
+  priority: low
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - eventing
+  - defect
   depends_on: []
   done: 0
   total: 0

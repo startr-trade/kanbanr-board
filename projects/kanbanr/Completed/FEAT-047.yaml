@@ -1,6 +1,6 @@
 code: FEAT-047
 title: 'Feature definition block: six dimensions, requirements, tests'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: high
@@ -21,19 +21,19 @@ todo_lists:
   tasks:
   - key: T1
     text: 'models: FeatureDefinition/Zachman/Requirement/QualityScenario/TestRef/TestState + the three-place meta rule'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'store: set_feature_definition{,_on} + literal sites; requirement ids via next_key'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'batch: definition on feature.add/feature.edit; dispatch PUT .../definition + commit message'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'CLI: feature define --file|--clear|--template --kind'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'tests: meta round-trip, legacy yaml byte-identical, move keeps it, mirror hash stability'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-24T19:01:33.38831255Z
 created_at: 2026-09-24T18:45:46.410091344Z
-updated_at: 2026-09-24T19:01:33.388324248Z
+updated_at: 2026-09-24T19:24:02.997227499Z

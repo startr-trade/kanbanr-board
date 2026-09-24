@@ -1,0 +1,19 @@
+code: FEAT-058
+title: 'Chore: Rust edition 2024, toolchain pin and MSRV'
+status: Planned
+milestone: MS-004
+kind: chore
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- build
+- toolchain
+- chore
+depends_on: []
+todo_lists: []
+created_at: 2026-09-24T19:06:45.256534589Z
+updated_at: 2026-09-24T19:06:45.256540568Z

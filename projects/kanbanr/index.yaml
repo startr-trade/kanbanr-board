@@ -50,28 +50,6 @@
   - FEAT-047
   done: 0
   total: 0
-- code: FEAT-052
-  status: In Progress
-  milestone: MS-006
-  kind: docs
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - skill
-  - docs
-  depends_on:
-  - FEAT-046
-  - FEAT-047
-  - FEAT-048
-  - FEAT-049
-  - FEAT-050
-  - FEAT-051
-  done: 0
-  total: 5
 - code: FEAT-053
   status: Planned
   milestone: MS-006
@@ -223,6 +201,28 @@
   depends_on: []
   done: 4
   total: 9
+- code: FEAT-052
+  status: In Progress
+  milestone: MS-006
+  kind: docs
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - skill
+  - docs
+  depends_on:
+  - FEAT-046
+  - FEAT-047
+  - FEAT-048
+  - FEAT-049
+  - FEAT-050
+  - FEAT-051
+  done: 2
+  total: 5
 - code: FEAT-001
   status: Completed
   milestone: MS-001

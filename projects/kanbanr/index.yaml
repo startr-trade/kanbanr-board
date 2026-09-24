@@ -1,5 +1,5 @@
 - code: FEAT-047
-  status: Planned
+  status: In Progress
   milestone: MS-006
   kind: feature
   priority: high
@@ -15,7 +15,7 @@
   depends_on:
   - FEAT-046
   done: 0
-  total: 0
+  total: 5
 - code: FEAT-048
   status: Planned
   milestone: MS-006
@@ -226,24 +226,6 @@
   depends_on: []
   done: 4
   total: 9
-- code: FEAT-046
-  status: Completed
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - charter
-  - core
-  - cli
-  - web
-  depends_on: []
-  done: 6
-  total: 6
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -861,6 +843,24 @@
   depends_on: []
   done: 2
   total: 2
+- code: FEAT-046
+  status: Completed
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - charter
+  - core
+  - cli
+  - web
+  depends_on: []
+  done: 6
+  total: 6
 - code: FEAT-018
   status: Ongoing
   milestone: MS-004

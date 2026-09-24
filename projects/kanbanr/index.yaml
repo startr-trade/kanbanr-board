@@ -227,7 +227,7 @@
   done: 4
   total: 9
 - code: FEAT-046
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: feature
   priority: high
@@ -242,7 +242,7 @@
   - cli
   - web
   depends_on: []
-  done: 0
+  done: 6
   total: 6
 - code: FEAT-001
   status: Completed

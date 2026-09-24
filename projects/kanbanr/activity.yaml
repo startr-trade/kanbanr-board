@@ -1,3 +1,6 @@
+- time: 2026-09-24T18:49:01.567995484Z
+  actor: Venkatraman B
+  message: 'FEAT-050: unified search across the graph (troubleshooting)'
 - time: 2026-09-24T18:47:28.642548647Z
   actor: Venkatraman B
   message: Record monitor-surface decision on FEAT-050

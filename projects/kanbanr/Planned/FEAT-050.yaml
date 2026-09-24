@@ -1,5 +1,5 @@
 code: FEAT-050
-title: 'Surfacing: feature show, query --goal, monitor sections'
+title: 'Surfacing and search: feature show, unified query, monitor sections'
 status: Planned
 milestone: MS-006
 kind: feature
@@ -16,4 +16,4 @@ depends_on:
 - FEAT-047
 todo_lists: []
 created_at: 2026-09-24T18:45:46.410342636Z
-updated_at: 2026-09-24T18:47:28.641391969Z
+updated_at: 2026-09-24T18:49:01.566778289Z

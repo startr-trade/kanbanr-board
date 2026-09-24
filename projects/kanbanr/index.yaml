@@ -180,6 +180,23 @@
   - FEAT-049
   done: 0
   total: 0
+- code: FEAT-058
+  status: Planned
+  milestone: MS-004
+  kind: chore
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - build
+  - toolchain
+  - chore
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002
@@ -900,23 +917,6 @@
   assignee: null
   team: null
   labels: []
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-058
-  status: Planned
-  milestone: MS-004
-  kind: chore
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - build
-  - toolchain
-  - chore
   depends_on: []
   done: 0
   total: 0

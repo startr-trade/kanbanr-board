@@ -1,20 +1,3 @@
-- code: FEAT-049
-  status: In Progress
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - doctor
-  depends_on:
-  - FEAT-047
-  done: 0
-  total: 0
 - code: FEAT-050
   status: Planned
   milestone: MS-006
@@ -225,6 +208,23 @@
   - FEAT-047
   done: 0
   total: 4
+- code: FEAT-049
+  status: Planned
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - doctor
+  depends_on:
+  - FEAT-047
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

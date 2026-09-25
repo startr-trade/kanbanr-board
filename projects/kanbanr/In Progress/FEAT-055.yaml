@@ -50,42 +50,48 @@ definition:
     tests:
     - name: lessons::tests::a_lesson_is_recorded_once_with_its_provenance
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
   - id: R-2
     kind: functional
     text: WHILE a lesson is not reaffirmed, THE SYSTEM SHALL reduce the confidence it reports as time passes.
     tests:
     - name: lessons::tests::confidence_decays_until_something_reaffirms_it
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
   - id: R-3
     kind: functional
     text: WHEN a lesson is contradicted, THE SYSTEM SHALL reduce its confidence by more than an affirmation raises it.
     tests:
     - name: lessons::tests::contradiction_costs_more_than_affirmation
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
   - id: R-4
     kind: functional
     text: IF a lesson's confidence falls below the threshold, THEN THE SYSTEM SHALL retire it from what is surfaced while keeping the record.
     tests:
     - name: lessons::tests::a_lesson_below_the_threshold_retires_but_is_kept
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
   - id: R-5
     kind: functional
     text: WHEN lessons are asked for in the context of an item, THE SYSTEM SHALL return those whose tags, kind or goals match that item, most believed first.
     tests:
     - name: lessons::tests::lessons_are_matched_to_the_item_about_to_be_worked_on
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
     - name: cli_lessons_are_captured_matched_and_can_be_contradicted
       kind: e2e
-      state: planned
+      state: green
+      checked_rev: 03c7abf59311
   started_unapproved: 'auto-pilot: definition written before the work and left for review'
 history:
 - at: 2026-09-25T08:06:13.613725065Z
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-25T08:06:13.635883599Z
+updated_at: 2026-09-25T08:11:55.206515059Z

@@ -1,3 +1,7 @@
+- time: 2026-09-25T18:45:12.113459027Z
+  actor: Venkatraman B
+  message: define feature FEAT-065
+  item: FEAT-065
 - time: 2026-09-25T18:44:39.768114202Z
   actor: Venkatraman B
   message: FEAT-064 done
@@ -678,6 +682,3 @@
 - time: 2026-06-12T07:05:55.981237715Z
   actor: kanbanr-dev
   message: configure doc folder
-- time: 2026-06-12T07:04:50.322254653Z
-  actor: kanbanr-dev
-  message: 'plan: open-source release prep (license, community files, CI/release, screenshot tooling)'

@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:26:09.843419166Z
+  actor: Venkatraman B
+  message: update document
 - time: 2026-09-25T11:26:09.832488343Z
   actor: Venkatraman B
   message: update document
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:45:54.779276294Z
   actor: kanbanr-dev
   message: FEAT-010 verified (project export); build green
-- time: 2026-06-12T05:42:34.421284595Z
-  actor: kanbanr-dev
-  message: move FEAT-010/020/016 to In Progress (active work)

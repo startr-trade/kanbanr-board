@@ -55,11 +55,11 @@ definition:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
     - name: scm::tests::references_are_read_at_whatever_level_the_author_wrote
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-2
     kind: functional
     text: IF a commit references nothing, THEN THE SYSTEM SHALL reject it unless the message records a reason with `[no-ref] <why>`.
@@ -67,11 +67,11 @@ definition:
     - name: scm::tests::the_escape_has_to_say_why
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-3
     kind: functional
     text: WHEN git writes a commit on the author's behalf, THE SYSTEM SHALL let it through without a reference.
@@ -79,7 +79,7 @@ definition:
     - name: scm::tests::commits_git_writes_itself_carry_no_reference
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-4
     kind: functional
     text: WHILE the checked-out branch is the default branch or names no item, THE SYSTEM SHALL refuse the commit and name the command that puts the work on the right branch.
@@ -87,7 +87,7 @@ definition:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-5
     kind: functional
     text: WHEN `kanbanr start` is run for an item, THE SYSTEM SHALL create or switch to that item's branch from the default branch and move the item into an active status.
@@ -95,11 +95,11 @@ definition:
     - name: scm::tests::branch_names_round_trip_to_the_item_they_belong_to
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-6
     kind: functional
     text: WHERE a branch is a spike, THE SYSTEM SHALL allow commits on it and refuse to finish it.
@@ -107,7 +107,7 @@ definition:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-7
     kind: functional
     text: WHEN a Bash command is about to run a git commit that would be rejected, THE SYSTEM SHALL deny it beforehand and state the reference to use.
@@ -115,7 +115,7 @@ definition:
     - name: tests::the_commit_guard_recognizes_a_commit_and_reads_its_message
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-8
     kind: nfr
     text: THE SYSTEM SHALL preserve any git hook a repository already has when it installs its own.
@@ -130,7 +130,7 @@ definition:
     - name: scm::tests::hooks_install_without_clobbering_what_was_there
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   - id: R-9
     kind: nfr
     text: IF the kanbanr CLI is not on PATH, THEN THE SYSTEM SHALL let the commit proceed rather than blocking it.
@@ -145,11 +145,11 @@ definition:
     - name: scm::tests::hooks_install_without_clobbering_what_was_there
       kind: unit
       state: green
-      checked_rev: 0f495e3f452b
+      checked_rev: a3d8f0788748
   started_unapproved: user asked for the planned milestone items to be completed on auto-pilot; the definition is written up front and left for review
 history:
 - at: 2026-09-25T01:28:33.988992057Z
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410870932Z
-updated_at: 2026-09-25T11:23:21.918937554Z
+updated_at: 2026-09-25T18:44:31.735371407Z

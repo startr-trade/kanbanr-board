@@ -135,25 +135,6 @@
   - FEAT-051
   done: 2
   total: 5
-- code: FEAT-053
-  status: Completed
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - cli
-  - hooks
-  - metrics
-  depends_on:
-  - FEAT-047
-  done: 5
-  total: 5
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -877,6 +858,25 @@
   - FEAT-047
   done: 4
   total: 4
+- code: FEAT-053
+  status: Completed
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - cli
+  - hooks
+  - metrics
+  depends_on:
+  - FEAT-047
+  done: 5
+  total: 5
 - code: FEAT-058
   status: Completed
   milestone: MS-004

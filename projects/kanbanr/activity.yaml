@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:58:32.924434716Z
+  actor: Venkatraman B
+  message: 'defect: the capped logs discard raw history, against the charter''s constraint'
 - time: 2026-09-25T18:58:13.985802945Z
   actor: Venkatraman B
   message: update project charter
@@ -680,6 +683,3 @@
 - time: 2026-06-12T07:05:56.041105228Z
   actor: kanbanr-dev
   message: update document
-- time: 2026-06-12T07:05:56.018923874Z
-  actor: kanbanr-dev
-  message: configure doc folder

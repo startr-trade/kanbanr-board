@@ -1,3 +1,17 @@
+- id: L-12
+  lesson: A cap on a raw log is data loss wearing the costume of housekeeping — cap the view instead, and rotate the file so writes stay cheap
+  kind: pitfall
+  at: 2026-09-25T18:58:32.922347645Z
+  from_item: FEAT-066
+  evidence: activity.yaml has been pinned at its 200-entry cap; the retro asks for 1000 entries and cannot receive more than 200, which is why every pre-method wave reports 'no recorded moves' rather than 'older than the log'
+  tags:
+  - storage
+  - measurement
+  goals:
+  - G-2
+  confidence: 0.6
+  last_affirmed: 2026-09-25T18:58:32.922347645Z
+  status: candidate
 - id: L-11
   lesson: Installing a guardrail is a separate act from building it — re-run the installer after adding one, or it exists only in the code
   kind: pitfall

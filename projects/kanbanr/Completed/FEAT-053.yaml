@@ -1,6 +1,6 @@
 code: FEAT-053
 title: 'Measurement: transition history, defects, test capture hook, report'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: medium
@@ -22,19 +22,19 @@ todo_lists:
   tasks:
   - key: T1
     text: 'core: transition history appended on moves; Defect block (severity, introduced_by, escaped, root cause)'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'core: report over history/definitions — throughput, cycle time, WIP, escape rate, coverage'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'CLI: kanbanr report --since; kanbanr tests --write (missing test names)'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'hook: PostToolUse test capture flipping TDD states from real runs'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: tests + gates
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-25T00:56:25.674695428Z
 definition:
   statement: Derived flow and quality numbers for a board, so completion is measured from what happened rather than from what was claimed
@@ -128,4 +128,4 @@ definition:
       state: green
       checked_rev: 171ab5a991d7
 created_at: 2026-09-24T18:45:46.410618944Z
-updated_at: 2026-09-25T01:16:54.314902229Z
+updated_at: 2026-09-25T01:17:21.751253667Z

@@ -136,7 +136,7 @@
   done: 2
   total: 5
 - code: FEAT-053
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: feature
   priority: medium
@@ -152,7 +152,7 @@
   - metrics
   depends_on:
   - FEAT-047
-  done: 0
+  done: 5
   total: 5
 - code: FEAT-001
   status: Completed

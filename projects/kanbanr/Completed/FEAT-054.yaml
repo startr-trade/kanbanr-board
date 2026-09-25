@@ -1,6 +1,6 @@
 code: FEAT-054
 title: Wave retrospectives
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: medium
@@ -20,19 +20,19 @@ todo_lists:
   tasks:
   - key: T1
     text: 'core: retro.rs — wave selection and the derived numbers'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'record what the board cannot infer: split_from on an item'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'route + CLI: kanbanr retro [--since|--label|--write|--due]'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'eventing: milestone-completed; Stop hook surfaces a retro that is due'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: tests + gates
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-25T07:47:42.633700767Z
 definition:
   statement: An honest account of how a wave actually went, for the developer planning the next one, so that the lesson survives the wave
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410703195Z
-updated_at: 2026-09-25T07:56:01.027824814Z
+updated_at: 2026-09-25T07:56:13.516310502Z

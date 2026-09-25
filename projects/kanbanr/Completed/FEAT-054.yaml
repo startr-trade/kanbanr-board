@@ -54,7 +54,7 @@ definition:
     - name: retro::tests::the_numbers_come_from_the_board_and_nowhere_else
       kind: unit
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   - id: R-2
     kind: functional
     text: WHERE an item joined a wave after the wave began, THE SYSTEM SHALL classify it by what the item itself records — a defect, a split from a named item, or newly discovered — and count it as unclassified rather than guessing.
@@ -62,7 +62,7 @@ definition:
     - name: retro::tests::scope_growth_counts_only_what_items_record
       kind: unit
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   - id: R-3
     kind: functional
     text: IF an item carries no transition history, THEN THE SYSTEM SHALL recover its moves from the activity log and report it as having no history when neither source has them.
@@ -70,7 +70,7 @@ definition:
     - name: retro::tests::history_falls_back_to_the_activity_log
       kind: unit
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   - id: R-4
     kind: functional
     text: WHEN the last item of a milestone that was not yet finished reaches a terminal status, THE SYSTEM SHALL emit a milestone-completed event.
@@ -78,7 +78,7 @@ definition:
     - name: eventing::tests::finishing_the_last_item_completes_the_milestone
       kind: unit
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   - id: R-5
     kind: functional
     text: WHILE a finished milestone has no retrospective document, THE SYSTEM SHALL report that retrospective as due.
@@ -86,7 +86,7 @@ definition:
     - name: retro::tests::a_finished_wave_with_no_document_is_due
       kind: unit
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   - id: R-6
     kind: functional
     text: WHEN a retrospective is written to a document, THE SYSTEM SHALL keep the computed facts and any written narrative in separate labelled sections.
@@ -94,11 +94,11 @@ definition:
     - name: cli_retro_reports_facts_and_writes_a_document
       kind: e2e
       state: green
-      checked_rev: b94bdd463d31
+      checked_rev: 34ad27ff8923
   started_unapproved: 'auto-pilot: definition written before the work and left for review'
 history:
 - at: 2026-09-25T07:47:42.616178971Z
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410703195Z
-updated_at: 2026-09-25T08:00:29.726714158Z
+updated_at: 2026-09-25T08:02:39.947012952Z

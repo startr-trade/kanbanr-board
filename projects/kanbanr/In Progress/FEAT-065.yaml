@@ -1,6 +1,6 @@
 code: FEAT-065
 title: 'The board governs the agent: generated CLAUDE.md block and a docs-location guard'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: null
 priority: null
@@ -74,5 +74,10 @@ definition:
     - name: tests::the_docs_guard_allows_deliverables_and_stops_the_rest
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+history:
+- at: 2026-09-25T18:45:12.142939987Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-25T18:40:41.098924471Z
-updated_at: 2026-09-25T18:45:12.11170908Z
+updated_at: 2026-09-25T18:45:12.142939987Z

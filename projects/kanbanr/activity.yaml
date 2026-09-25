@@ -1,3 +1,7 @@
+- time: 2026-09-25T18:45:12.145171668Z
+  actor: Venkatraman B
+  message: move feature FEAT-065
+  item: FEAT-065
 - time: 2026-09-25T18:45:12.113459027Z
   actor: Venkatraman B
   message: define feature FEAT-065
@@ -677,8 +681,5 @@
   actor: kanbanr-dev
   message: configure doc folder
 - time: 2026-06-12T07:05:56.000353794Z
-  actor: kanbanr-dev
-  message: configure doc folder
-- time: 2026-06-12T07:05:55.981237715Z
   actor: kanbanr-dev
   message: configure doc folder

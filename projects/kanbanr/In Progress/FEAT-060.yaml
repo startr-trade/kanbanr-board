@@ -1,6 +1,6 @@
 code: FEAT-060
 title: 'Defect: retro counts planned work as growth and current evidence as absent'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -48,11 +48,16 @@ definition:
     - name: retro::tests::evidence_recorded_during_the_wave_still_counts
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: a defect in work just merged; fixing it now with the definition written first'
 defect:
   severity: medium
   introduced_by: FEAT-054
   found_in: dogfooding on kanbanr's own board, minutes after merge
   root_cause: 'two defaults chosen without testing them against a real board: a created_at fallback for the wave start, and the report''s HEAD-staleness rule reused in a historical account'
   escaped: true
+history:
+- at: 2026-09-25T07:57:11.379570613Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-25T07:56:53.754347314Z
-updated_at: 2026-09-25T07:57:11.3508344Z
+updated_at: 2026-09-25T07:57:11.379570613Z

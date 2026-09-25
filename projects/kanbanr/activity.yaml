@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:21:59.263107653Z
+  actor: Venkatraman B
+  message: update document
 - time: 2026-09-25T18:16:42.488759476Z
   actor: Venkatraman B
   message: 'FEAT-024: the board moved beside the repo; the data question is closed'
@@ -684,10 +687,6 @@
   message: move feature FEAT-023
   item: FEAT-023
 - time: 2026-06-12T06:01:29.653006153Z
-  actor: kanbanr-dev
-  message: move feature FEAT-013
-  item: FEAT-013
-- time: 2026-06-12T05:58:39.36187141Z
   actor: kanbanr-dev
   message: move feature FEAT-013
   item: FEAT-013

@@ -133,8 +133,8 @@
   - hooks
   depends_on:
   - FEAT-047
-  done: 0
-  total: 0
+  done: 4
+  total: 5
 - code: FEAT-001
   status: Completed
   milestone: MS-001

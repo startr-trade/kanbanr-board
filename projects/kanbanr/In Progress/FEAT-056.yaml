@@ -15,7 +15,26 @@ labels:
 - hooks
 depends_on:
 - FEAT-047
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — SCM traceability
+  tasks:
+  - key: T1
+    text: 'core: trailer grammar, reference validation, branch naming (scm.rs)'
+    state: Completed
+  - key: T2
+    text: 'CLI: git install-hooks/uninstall-hooks/check-msg/check-branch/status'
+    state: Completed
+  - key: T3
+    text: 'CLI: start (branch + move), finish (gated), commit (trailer filled in)'
+    state: Completed
+  - key: T4
+    text: 'Claude Code PreToolUse guard: deny a commit that would be rejected, with the fix'
+    state: Completed
+  - key: T5
+    text: tests, skill update, gates; adopt the hooks on kanbanr's own repo
+    state: InProgress
+  created_at: 2026-09-25T01:29:27.04855068Z
 definition:
   statement: A recorded link from every code change to the item that justifies it, for whoever reads this code later, so that a change can always be traced to a reason someone agreed to
   goals:
@@ -133,4 +152,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410870932Z
-updated_at: 2026-09-25T01:29:14.552420652Z
+updated_at: 2026-09-25T01:29:27.048598373Z

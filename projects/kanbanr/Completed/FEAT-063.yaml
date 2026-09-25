@@ -1,6 +1,6 @@
 code: FEAT-063
 title: 'Defect: retro demands retrospectives for waves the board never watched, and reports changelog timestamps as cycle time'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — claim only what was recorded
+  tasks:
+  - key: T1
+    text: a wave the board never watched is not due a retro
+    state: Completed
+  - key: T2
+    text: changelog spans reported apart from cycle time, as approximate
+    state: Completed
+  - key: T3
+    text: a finished wave with no date says so instead of 'still running'
+    state: Completed
+  created_at: 2026-09-25T08:16:15.21020547Z
 definition:
   statement: A retrospective that claims exactly what the board recorded and no more, for whoever reads it, so that a number's precision matches its evidence
   goals:
@@ -59,5 +72,8 @@ history:
 - at: 2026-09-25T08:14:05.378562063Z
   from: Planned
   to: In Progress
+- at: 2026-09-25T08:16:15.21023207Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-25T08:13:48.251597224Z
-updated_at: 2026-09-25T08:16:15.186703318Z
+updated_at: 2026-09-25T08:16:15.21023207Z

@@ -1,3 +1,18 @@
+- id: L-6
+  lesson: A best-effort fallback must be labelled where it is read, not just where it is written — an approximate number printed beside a measured one is read as measured
+  kind: pitfall
+  at: 2026-09-25T08:16:15.210321117Z
+  from_item: FEAT-063
+  evidence: the activity-log fallback offered 'p50 5m' for waves that took weeks, because it timed board writes, and the Stop hook then demanded retros for waves with nothing recorded
+  tags:
+  - measurement
+  - report
+  - ux
+  goals:
+  - G-2
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:16:15.210321117Z
+  status: candidate
 - id: L-5
   lesson: Name a tracked test exactly as the runner prints it, module path included, or the capture hook silently records nothing
   kind: practice

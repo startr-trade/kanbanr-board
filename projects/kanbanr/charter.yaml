@@ -49,4 +49,5 @@ constraints:
 - The CLI is the single writer; the web monitor is read-only
 - Sharing happens through a git remote, which is also the access boundary
 - One binary, installable without a toolchain beyond cargo
+- Raw data is never discarded — it is captured as files and kept; every summary, count and report is derived from it
 adopted_at: 2026-09-25T00:29:29.629348328Z

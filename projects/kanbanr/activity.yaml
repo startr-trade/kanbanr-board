@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:23:28.87758239Z
+  actor: Venkatraman B
+  message: record an architecture decision
 - time: 2026-09-25T11:23:21.922397015Z
   actor: Venkatraman B
   message: record 54 test result(s) from a run
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:01:00.023424243Z
   actor: kanbanr-dev
   message: model ongoing/recurring + triggered work (tech-debt, docs-sync); land the security cleanup
-- time: 2026-06-12T04:56:54.107590375Z
-  actor: kanbanr-dev
-  message: 'FEAT-012: /healthz + request logging on the view daemon'

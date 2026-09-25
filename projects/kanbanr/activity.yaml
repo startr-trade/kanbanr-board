@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:24:39.743874865Z
+  actor: Venkatraman B
+  message: update document
 - time: 2026-09-25T11:23:52.1061199Z
   actor: Venkatraman B
   message: remove document
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:14:52.942544841Z
   actor: kanbanr-dev
   message: 'update config: workflow'
-- time: 2026-06-12T05:04:54.93417339Z
-  actor: kanbanr-dev
-  message: keep ongoing items off the dashboard (move to non-displayed Ongoing status)

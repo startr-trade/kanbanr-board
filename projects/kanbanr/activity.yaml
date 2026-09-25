@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:25:19.169475306Z
+  actor: Venkatraman B
+  message: update document
 - time: 2026-09-25T11:24:48.960229488Z
   actor: Venkatraman B
   message: record an architecture decision
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:23:58.392119227Z
   actor: kanbanr-dev
   message: 'start FEAT-006: richer model fields'
-- time: 2026-06-12T05:22:13.914012817Z
-  actor: kanbanr-dev
-  message: 'complete FEAT-022: remote sync conflict warnings + data-loss guidance'

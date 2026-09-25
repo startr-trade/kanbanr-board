@@ -1,3 +1,17 @@
+- id: L-8
+  lesson: Dogfood the layout you recommend — `kanbanr where` had been suggesting the sibling board folder to every user while this project itself sat on the legacy one
+  kind: practice
+  at: 2026-09-25T18:16:42.487006492Z
+  from_item: FEAT-024
+  evidence: the board lived at <repo>/data, protected only by a gitignore line, until it was moved to ../kanbanr.kanbanr; the tool's own `suggested_data_dir` had named that path all along
+  tags:
+  - dogfooding
+  - layout
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-25T18:16:42.487006492Z
+  status: candidate
 - id: L-7
   lesson: Number a new record from the files on disk, not only from the ones the parser understands — a document written before the schema existed is invisible to the parser and very visible to a reader
   kind: pitfall

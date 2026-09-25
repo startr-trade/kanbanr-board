@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:16:42.488759476Z
+  actor: Venkatraman B
+  message: 'FEAT-024: the board moved beside the repo; the data question is closed'
 - time: 2026-09-25T12:58:09.727594573Z
   actor: Venkatraman B
   message: 'FEAT-024: owner slug and contacts are filled; the remaining steps are account-level'
@@ -688,6 +691,3 @@
   actor: kanbanr-dev
   message: move feature FEAT-013
   item: FEAT-013
-- time: 2026-06-12T05:55:15.937432906Z
-  actor: kanbanr-dev
-  message: 'plan: package as a Claude Code plugin + cross-platform hooks (FEAT-023)'

@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:35:10.371190869Z
+  actor: Venkatraman B
+  message: record a lesson
 - time: 2026-09-25T18:32:01.706145581Z
   actor: Venkatraman B
   message: 'FEAT-052: docs audited, stale content moved to the board'
@@ -678,10 +681,6 @@
   message: add task to FEAT-014/TL-001
   item: FEAT-014
 - time: 2026-06-12T06:01:46.693647482Z
-  actor: kanbanr-dev
-  message: add task to FEAT-014/TL-001
-  item: FEAT-014
-- time: 2026-06-12T06:01:46.654521807Z
   actor: kanbanr-dev
   message: add task to FEAT-014/TL-001
   item: FEAT-014

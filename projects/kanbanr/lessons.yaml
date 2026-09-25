@@ -1,3 +1,17 @@
+- id: L-11
+  lesson: Installing a guardrail is a separate act from building it — re-run the installer after adding one, or it exists only in the code
+  kind: pitfall
+  at: 2026-09-25T18:35:10.370139984Z
+  from_item: FEAT-056
+  evidence: the PreToolUse commit guard shipped in FEAT-056 and was never registered on this machine; hooks install had been run before the guard existed and nothing re-checked
+  tags:
+  - hooks
+  - guardrails
+  goals:
+  - G-3
+  confidence: 0.6
+  last_affirmed: 2026-09-25T18:35:10.370139984Z
+  status: candidate
 - id: L-10
   lesson: A diagram that fails to parse renders as nothing, and nothing reads as a missing image rather than an error — so it survives review until a human notices months later
   kind: pitfall

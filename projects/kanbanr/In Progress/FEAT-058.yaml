@@ -1,6 +1,6 @@
 code: FEAT-058
 title: 'Chore: Rust edition 2024, toolchain pin and MSRV'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: chore
 priority: medium
@@ -14,7 +14,20 @@ labels:
 - toolchain
 - chore
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — edition and toolchain
+  tasks:
+  - key: T1
+    text: rust-toolchain.toml pin + rust-version MSRV + Dockerfile base
+    state: InProgress
+  - key: T2
+    text: cargo fix --edition; edition 2024; review if-let scrutinee scopes around the write lock
+    state: NotStarted
+  - key: T3
+    text: gates + legacy invariant; flip R-1..R-3 tests green
+    state: NotStarted
+  created_at: 2026-09-25T00:38:58.978959526Z
 definition:
   statement: Move the workspace to Rust 1.98.1 and edition 2024, pinned, so the maintainer, Docker and CI build the same way and stop drifting apart.
   goals:
@@ -63,4 +76,4 @@ definition:
     at: 2026-09-25T00:38:58.963722367Z
     rev: 6c356c99317f58b7
 created_at: 2026-09-24T19:06:45.256534589Z
-updated_at: 2026-09-25T00:38:58.963769959Z
+updated_at: 2026-09-25T00:38:58.978968408Z

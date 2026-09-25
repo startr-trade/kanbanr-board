@@ -124,7 +124,7 @@
   done: 0
   total: 0
 - code: FEAT-058
-  status: Planned
+  status: In Progress
   milestone: MS-004
   kind: chore
   priority: medium
@@ -139,7 +139,7 @@
   - chore
   depends_on: []
   done: 0
-  total: 0
+  total: 3
 - code: FEAT-059
   status: Planned
   milestone: MS-004

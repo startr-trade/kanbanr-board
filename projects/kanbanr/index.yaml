@@ -64,25 +64,6 @@
   - FEAT-051
   done: 2
   total: 5
-- code: FEAT-057
-  status: Completed
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - traceability
-  - adr
-  - cli
-  depends_on:
-  - FEAT-056
-  - FEAT-049
-  done: 6
-  total: 6
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -877,6 +858,25 @@
   - FEAT-047
   done: 5
   total: 5
+- code: FEAT-057
+  status: Completed
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - traceability
+  - adr
+  - cli
+  depends_on:
+  - FEAT-056
+  - FEAT-049
+  done: 6
+  total: 6
 - code: FEAT-058
   status: Completed
   milestone: MS-004

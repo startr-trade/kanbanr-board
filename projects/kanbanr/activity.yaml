@@ -1,3 +1,6 @@
+- time: 2026-09-25T12:58:09.727594573Z
+  actor: Venkatraman B
+  message: 'FEAT-024: owner slug and contacts are filled; the remaining steps are account-level'
 - time: 2026-09-25T11:26:54.026529354Z
   actor: Venkatraman B
   message: 'FEAT-057: tasks done, decisions recorded'
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:55:15.937432906Z
   actor: kanbanr-dev
   message: 'plan: package as a Claude Code plugin + cross-platform hooks (FEAT-023)'
-- time: 2026-06-12T05:54:11.531328659Z
-  actor: kanbanr-dev
-  message: FEAT-006/016/020 web done; FEAT-008 search + FEAT-009 markdown niceties

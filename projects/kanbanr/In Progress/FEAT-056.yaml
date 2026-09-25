@@ -1,6 +1,6 @@
 code: FEAT-056
 title: 'SCM traceability: branch per item, commit trailers, git hooks'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: feature
 priority: high
@@ -115,5 +115,10 @@ definition:
     - name: hooks_install_without_clobbering_what_was_there
       kind: unit
       state: planned
+  started_unapproved: user asked for the planned milestone items to be completed on auto-pilot; the definition is written up front and left for review
+history:
+- at: 2026-09-25T01:28:33.988992057Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-24T18:45:46.410870932Z
-updated_at: 2026-09-25T01:28:33.963335744Z
+updated_at: 2026-09-25T01:28:33.988992057Z

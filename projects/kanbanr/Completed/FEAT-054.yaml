@@ -93,12 +93,12 @@ definition:
     tests:
     - name: cli_retro_reports_facts_and_writes_a_document
       kind: e2e
-      state: green
-      checked_rev: 34ad27ff8923
+      state: red
+      checked_rev: 91ccf6a787cc
   started_unapproved: 'auto-pilot: definition written before the work and left for review'
 history:
 - at: 2026-09-25T07:47:42.616178971Z
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410703195Z
-updated_at: 2026-09-25T08:02:39.947012952Z
+updated_at: 2026-09-25T08:04:51.004750793Z

@@ -17,5 +17,87 @@ depends_on:
 - FEAT-056
 - FEAT-049
 todo_lists: []
+definition:
+  statement: A path from any line of code back to the requirement, decision and goal that justify it, for whoever reads this code later, so that the reason a thing exists outlives the session that wrote it
+  goals:
+  - G-4
+  - G-2
+  zachman:
+    what: The links between goals, items, requirements, tests, documents, decisions and commits — and the gaps in them
+    how: The board's manifest is canonical; the commit trailer is the durable machine link; a code annotation is a convenience for the reader; the traceability view is derived on demand, never stored
+    where: kanbanr-core (adr.rs, trace.rs), the CLI (trace, why, adr), and the commit-msg hook that validates the new trailer levels
+    when: Asked on demand, and enforced at commit time
+    who: Whoever inherits this code — including Claude in a later session, which has no memory of why
+    why: Code could be traced to an item at best, never to the requirement or decision behind it, and architecture decisions sat outside the graph entirely
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a decision is recorded, THE SYSTEM SHALL store it as a document whose front-matter names what it affects, the requirements that drive it and the qualities it trades, and whose body carries context, the decision, the alternatives, the consequences and how compliance is checked.
+    tests:
+    - name: adr::tests::a_decision_round_trips_with_its_front_matter_and_sections
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN one decision supersedes another, THE SYSTEM SHALL record the link on both documents, mark the older one superseded, and report the items that rested on it.
+    tests:
+    - name: adr::tests::superseding_writes_both_sides_and_names_what_rested_on_it
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN asked to trace a goal, an item or a requirement, THE SYSTEM SHALL report what hangs below it — requirements, tests, documents and decisions — and SHALL name what is missing rather than omitting it.
+    tests:
+    - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
+      kind: unit
+      state: planned
+    - name: cli_trace_and_why_follow_the_chain_in_both_directions
+      kind: e2e
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN asked why a line of code exists, THE SYSTEM SHALL answer from the annotation on it or the trailer of the commit that wrote it, printing the chain from requirement to goal to purpose, and SHALL say plainly when the line carries no reference at all.
+    tests:
+    - name: cli_trace_and_why_follow_the_chain_in_both_directions
+      kind: e2e
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a commit references a document or a decision that does not exist, THEN THE SYSTEM SHALL reject the commit and name what it could not find.
+    tests:
+    - name: scm::tests::a_trailer_may_name_a_document_or_a_decision
+      kind: unit
+      state: planned
+    - name: cli_trace_and_why_follow_the_chain_in_both_directions
+      kind: e2e
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHILE a decision is superseded, THE SYSTEM SHALL report the items and requirements still resting on it.
+    tests:
+    - name: adr::tests::superseding_writes_both_sides_and_names_what_rested_on_it
+      kind: unit
+      state: planned
+  - id: R-7
+    kind: functional
+    text: WHEN a Zachman view is asked for, THE SYSTEM SHALL derive the matrix from what the items and decisions already record and SHALL report the columns that nothing addresses.
+    tests:
+    - name: trace::tests::the_zachman_view_reports_the_columns_nothing_addresses
+      kind: unit
+      state: planned
+  - id: R-8
+    kind: nfr
+    text: IF the code repository cannot be read, THEN THE SYSTEM SHALL still report everything the board knows rather than failing.
+    iso25010:
+    - Reliability
+    scenario:
+      stimulus: A trace or a why is asked for outside a git checkout, or where git is unavailable
+      environment: A board read from the data folder with no code repository beside it
+      response: The board-side chain is printed in full, and the commit evidence is reported as unavailable rather than as absent
+      measure: trace::tests::tracing_downward_reports_the_chain_and_its_gaps runs with no repository and still returns the requirements, tests, documents and decisions
+    tests:
+    - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
+      kind: unit
+      state: planned
 created_at: 2026-09-24T18:45:46.410955975Z
-updated_at: 2026-09-24T18:45:46.411014792Z
+updated_at: 2026-09-25T11:06:00.310169229Z

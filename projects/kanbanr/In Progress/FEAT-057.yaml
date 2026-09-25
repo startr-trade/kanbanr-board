@@ -16,7 +16,29 @@ labels:
 depends_on:
 - FEAT-056
 - FEAT-049
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — code tied to the why
+  tasks:
+  - key: T1
+    text: 'core: adr.rs — front-matter, scaffolded sections, list, supersede, history'
+    state: InProgress
+  - key: T2
+    text: 'core: trace.rs — downward chain with named gaps, and the derived Zachman view'
+    state: NotStarted
+  - key: T3
+    text: 'CLI: trace, why (annotation then blame then trailer), adr new/list/supersede/history'
+    state: NotStarted
+  - key: T4
+    text: 'trailer levels Docs:/ADR: validated by the commit hook'
+    state: NotStarted
+  - key: T5
+    text: 'doctor: orphans, superseded references, unsupported decisions'
+    state: NotStarted
+  - key: T6
+    text: tests, skill, gates
+    state: NotStarted
+  created_at: 2026-09-25T11:06:00.374857158Z
 definition:
   statement: A path from any line of code back to the requirement, decision and goal that justify it, for whoever reads this code later, so that the reason a thing exists outlives the session that wrote it
   goals:
@@ -105,4 +127,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410955975Z
-updated_at: 2026-09-25T11:06:00.347612409Z
+updated_at: 2026-09-25T11:06:00.374882037Z

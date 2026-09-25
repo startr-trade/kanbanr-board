@@ -1,6 +1,6 @@
 code: FEAT-061
 title: 'Defect: finishing the last task completes an item without recording the move'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: test it, and pin that a status rename records nothing
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-25T08:02:39.970154565Z
 definition:
   statement: A recorded transition for every status change, however it happened, so that flow numbers describe the items that finished normally rather than only the ones moved by hand
@@ -57,9 +57,13 @@ defect:
   found_in: the first retro run on kanbanr's own board
   root_cause: history was appended in move_feature_on only; the auto-complete path assigns the status directly
   escaped: true
+  fixed_by: FEAT-061
 history:
 - at: 2026-09-25T08:01:12.769858479Z
   from: Planned
   to: In Progress
+- at: 2026-09-25T08:03:02.418092739Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-25T08:02:52.425636693Z
+updated_at: 2026-09-25T08:03:02.418107191Z

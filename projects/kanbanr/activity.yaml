@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:23:28.889519456Z
+  actor: Venkatraman B
+  message: record an architecture decision
 - time: 2026-09-25T11:23:28.87758239Z
   actor: Venkatraman B
   message: record an architecture decision
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:02:27.06042149Z
   actor: kanbanr-dev
   message: 'plan: filterable/per-item activity streams incl. a maintenance feed (extends FEAT-003)'
-- time: 2026-06-12T05:01:00.023424243Z
-  actor: kanbanr-dev
-  message: model ongoing/recurring + triggered work (tech-debt, docs-sync); land the security cleanup

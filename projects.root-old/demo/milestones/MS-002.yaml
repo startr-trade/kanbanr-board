@@ -1,5 +1,0 @@
-code: MS-002
-name: Auth
-description: Authentication
-depends_on:
-- MS-001

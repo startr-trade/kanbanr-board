@@ -1,6 +1,6 @@
 code: FEAT-056
 title: 'SCM traceability: branch per item, commit trailers, git hooks'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: high
@@ -33,7 +33,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: tests, skill update, gates; adopt the hooks on kanbanr's own repo
-    state: InProgress
+    state: Completed
   created_at: 2026-09-25T01:29:27.04855068Z
 definition:
   statement: A recorded link from every code change to the item that justifies it, for whoever reads this code later, so that a change can always be traced to a reason someone agreed to
@@ -152,4 +152,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410870932Z
-updated_at: 2026-09-25T01:29:27.048598373Z
+updated_at: 2026-09-25T01:31:01.173031034Z

@@ -65,7 +65,7 @@
   done: 2
   total: 5
 - code: FEAT-057
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: feature
   priority: high
@@ -81,7 +81,7 @@
   depends_on:
   - FEAT-056
   - FEAT-049
-  done: 0
+  done: 6
   total: 6
 - code: FEAT-001
   status: Completed

@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:26:54.026529354Z
+  actor: Venkatraman B
+  message: 'FEAT-057: tasks done, decisions recorded'
 - time: 2026-09-25T11:26:16.201474685Z
   actor: Venkatraman B
   message: 'update config: default-state'
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:54:11.531328659Z
   actor: kanbanr-dev
   message: FEAT-006/016/020 web done; FEAT-008 search + FEAT-009 markdown niceties
-- time: 2026-06-12T05:48:14.847537935Z
-  actor: kanbanr-dev
-  message: 'FEAT-017 done: enforcement hooks built + installed into ~/.claude/settings.json (live next session)'

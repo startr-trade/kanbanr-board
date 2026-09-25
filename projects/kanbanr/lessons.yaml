@@ -1,3 +1,17 @@
+- id: L-7
+  lesson: Number a new record from the files on disk, not only from the ones the parser understands — a document written before the schema existed is invisible to the parser and very visible to a reader
+  kind: pitfall
+  at: 2026-09-25T11:26:54.022837384Z
+  from_item: FEAT-057
+  evidence: the first `adr new` handed ADR-0001 to a new decision while the project's existing 0001-no-accounts.md already held it
+  tags:
+  - schema
+  - docs
+  goals:
+  - G-4
+  confidence: 0.6
+  last_affirmed: 2026-09-25T11:26:54.022837384Z
+  status: candidate
 - id: L-6
   lesson: A best-effort fallback must be labelled where it is read, not just where it is written — an approximate number printed beside a measured one is read as measured
   kind: pitfall

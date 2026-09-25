@@ -100,20 +100,6 @@
   - FEAT-051
   done: 2
   total: 5
-- code: FEAT-060
-  status: Completed
-  milestone: MS-006
-  kind: defect
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 3
-  total: 3
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -905,6 +891,20 @@
   - build
   - toolchain
   - chore
+  depends_on: []
+  done: 3
+  total: 3
+- code: FEAT-060
+  status: Completed
+  milestone: MS-006
+  kind: defect
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
   depends_on: []
   done: 3
   total: 3

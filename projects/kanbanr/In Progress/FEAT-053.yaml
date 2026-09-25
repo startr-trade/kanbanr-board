@@ -1,0 +1,40 @@
+code: FEAT-053
+title: 'Measurement: transition history, defects, test capture hook, report'
+status: In Progress
+milestone: MS-006
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- core
+- cli
+- hooks
+- metrics
+depends_on:
+- FEAT-047
+todo_lists:
+- code: TL-001
+  description: session 1 — measurement
+  tasks:
+  - key: T1
+    text: 'core: transition history appended on moves; Defect block (severity, introduced_by, escaped, root cause)'
+    state: InProgress
+  - key: T2
+    text: 'core: report over history/definitions — throughput, cycle time, WIP, escape rate, coverage'
+    state: NotStarted
+  - key: T3
+    text: 'CLI: kanbanr report --since; kanbanr tests --write (missing test names)'
+    state: NotStarted
+  - key: T4
+    text: 'hook: PostToolUse test capture flipping TDD states from real runs'
+    state: NotStarted
+  - key: T5
+    text: tests + gates
+    state: NotStarted
+  created_at: 2026-09-25T00:56:25.674695428Z
+created_at: 2026-09-24T18:45:46.410618944Z
+updated_at: 2026-09-25T00:56:25.674704528Z

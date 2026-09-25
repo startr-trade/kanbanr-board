@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A report whose warnings are worth reading, for the developer glancing at it, so that the one that matters is not buried under one that always fires
+  goals:
+  - G-5
+  zachman:
+    what: Duration formatting and the stale-evidence summary
+    how: Render sub-day durations in hours; summarise staleness with a count and the oldest date rather than enumerating every requirement
+    where: The CLI's report rendering
+    when: Every time the report is printed
+    who: Whoever reads the report — and stops reading it if it cries wolf
+    why: 0.0 days reads as a broken metric, and 27 stale warnings that a single test run clears is exactly the check people learn to skip
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE a duration is under one day, THE SYSTEM SHALL express it in hours and name the unit.
+    tests:
+    - name: tests::durations_read_the_way_a_person_would_say_them
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN more than a few requirements carry evidence from an earlier revision, THE SYSTEM SHALL report how many and how old rather than listing them all, and SHALL say that re-running the suite refreshes it.
+    tests:
+    - name: tests::stale_evidence_is_summarised_rather_than_enumerated
+      kind: unit
+      state: planned
 created_at: 2026-09-25T08:03:46.205395173Z
-updated_at: 2026-09-25T08:03:46.205420482Z
+updated_at: 2026-09-25T08:03:46.222672399Z

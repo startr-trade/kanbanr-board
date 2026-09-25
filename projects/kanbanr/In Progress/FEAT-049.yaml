@@ -1,0 +1,35 @@
+code: FEAT-049
+title: EARS + ISO 25010 validation and doctor gap checks
+status: In Progress
+milestone: MS-006
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- core
+- doctor
+depends_on:
+- FEAT-047
+todo_lists:
+- code: TL-001
+  description: session 1 — validation and gap reporting
+  tasks:
+  - key: T1
+    text: 'core: ears.rs classify (5 patterns, never rejects) + ISO 25010 vocabulary with normalize'
+    state: InProgress
+  - key: T2
+    text: 'doctor: scan_definitions with the adoption/terminal/displayed scope gate, aggregated per item'
+    state: NotStarted
+  - key: T3
+    text: 'doctor: per-requirement checks incl. unsupported claims (measure with no test, tag with no scenario)'
+    state: NotStarted
+  - key: T4
+    text: 'tests: EARS table, flood test (completed items silent), kind shapes, exempt honoured'
+    state: NotStarted
+  created_at: 2026-09-25T00:31:35.646827559Z
+created_at: 2026-09-24T18:45:46.410265263Z
+updated_at: 2026-09-25T00:31:35.646836694Z

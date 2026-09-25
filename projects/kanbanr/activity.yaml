@@ -1,3 +1,6 @@
+- time: 2026-09-25T00:31:35.64833698Z
+  actor: Venkatraman B
+  message: Start FEAT-049 (EARS/ISO validation + gap checks)
 - time: 2026-09-25T00:31:23.032677245Z
   actor: Venkatraman B
   message: define feature FEAT-058

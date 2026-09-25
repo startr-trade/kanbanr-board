@@ -1,0 +1,36 @@
+code: FEAT-051
+title: TDD test states, kanbanr check, TOGAF workflow preset
+status: In Progress
+milestone: MS-006
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- core
+- cli
+- config
+depends_on:
+- FEAT-047
+todo_lists:
+- code: TL-001
+  description: session 1 — TDD states, check, TOGAF
+  tasks:
+  - key: T1
+    text: 'core+batch: set_test_state{,_on} and the test.state op'
+    state: InProgress
+  - key: T2
+    text: 'CLI: kanbanr test state; kanbanr check [CODE] [--file] --json'
+    state: NotStarted
+  - key: T3
+    text: 'config: togaf preset + project init --workflow / config workflow --togaf'
+    state: NotStarted
+  - key: T4
+    text: tests + gates
+    state: NotStarted
+  created_at: 2026-09-25T00:51:57.083638559Z
+created_at: 2026-09-24T18:45:46.410463278Z
+updated_at: 2026-09-25T00:51:57.083648158Z

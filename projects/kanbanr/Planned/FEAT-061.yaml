@@ -1,0 +1,16 @@
+code: FEAT-061
+title: 'Defect: finishing the last task completes an item without recording the move'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-25T08:01:12.70928397Z
+updated_at: 2026-09-25T08:01:12.709289128Z

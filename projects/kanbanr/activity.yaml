@@ -1,3 +1,6 @@
+- time: 2026-09-25T08:01:12.711213521Z
+  actor: Venkatraman B
+  message: 'defect: auto-completion leaves no transition behind'
 - time: 2026-09-25T08:00:42.315654091Z
   actor: Venkatraman B
   message: FEAT-060 done

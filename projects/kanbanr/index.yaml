@@ -184,23 +184,6 @@
   depends_on: []
   done: 4
   total: 9
-- code: FEAT-049
-  status: Completed
-  milestone: MS-006
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - core
-  - doctor
-  depends_on:
-  - FEAT-047
-  done: 4
-  total: 4
 - code: FEAT-052
   status: In Progress
   milestone: MS-006
@@ -890,6 +873,23 @@
   - core
   - cli
   - governance
+  depends_on:
+  - FEAT-047
+  done: 4
+  total: 4
+- code: FEAT-049
+  status: Completed
+  milestone: MS-006
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - core
+  - doctor
   depends_on:
   - FEAT-047
   done: 4

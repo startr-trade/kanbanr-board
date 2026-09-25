@@ -58,5 +58,9 @@ definition:
     - name: integration::image_boots_and_serves
       kind: e2e
       state: planned
+  approval:
+    by: 'Venkatraman B (delegated: auto-pilot)'
+    at: 2026-09-25T00:38:58.963722367Z
+    rev: 6c356c99317f58b7
 created_at: 2026-09-24T19:06:45.256534589Z
-updated_at: 2026-09-25T00:31:23.030912133Z
+updated_at: 2026-09-25T00:38:58.963769959Z

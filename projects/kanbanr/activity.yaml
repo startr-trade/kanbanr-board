@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:25:19.179527773Z
+  actor: Venkatraman B
+  message: update document
 - time: 2026-09-25T11:25:19.169475306Z
   actor: Venkatraman B
   message: update document
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:37:04.965482309Z
   actor: kanbanr-dev
   message: 'agents delivered: FEAT-005 (MCP decision), FEAT-007 (CI), FEAT-011 (TLS guidance); FEAT-017 hooks in progress'
-- time: 2026-06-12T05:23:58.392119227Z
-  actor: kanbanr-dev
-  message: 'start FEAT-006: richer model fields'

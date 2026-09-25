@@ -1,6 +1,6 @@
 code: FEAT-060
 title: 'Defect: retro counts planned work as growth and current evidence as absent'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — fix the two counts
+  tasks:
+  - key: T1
+    text: wave starts at the first transition, not the earliest creation
+    state: Completed
+  - key: T2
+    text: evidence counts as recorded; staleness stays the report's question
+    state: Completed
+  - key: T3
+    text: regression tests + re-run against the real board
+    state: Completed
+  created_at: 2026-09-25T08:00:29.756026826Z
 definition:
   statement: A retrospective whose two headline counts are true, for anyone reading it to plan the next wave, so that the report does not manufacture a scope problem and hide real evidence
   goals:
@@ -64,4 +77,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T07:56:53.754347314Z
-updated_at: 2026-09-25T08:00:29.726657691Z
+updated_at: 2026-09-25T08:00:29.756072927Z

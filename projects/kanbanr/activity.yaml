@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:22:19.514966694Z
+  actor: Venkatraman B
+  message: configure doc folder
 - time: 2026-09-25T18:21:59.263107653Z
   actor: Venkatraman B
   message: update document
@@ -686,7 +689,3 @@
   actor: kanbanr-dev
   message: move feature FEAT-023
   item: FEAT-023
-- time: 2026-06-12T06:01:29.653006153Z
-  actor: kanbanr-dev
-  message: move feature FEAT-013
-  item: FEAT-013

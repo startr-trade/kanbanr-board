@@ -12,5 +12,38 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A retrospective that claims exactly what the board recorded and no more, for whoever reads it, so that a number's precision matches its evidence
+  goals:
+  - G-2
+  zachman:
+    what: Which waves are due a retro, how changelog-derived durations are reported, and how an unknown finish date is shown
+    how: A wave with no recorded transitions is not due; changelog durations are counted separately as approximate; an unknown finish date says so
+    where: kanbanr-core/src/retro.rs and the CLI's rendering
+    when: Whenever the Stop hook asks, and whenever a retro is printed
+    who: Whoever is being asked to write a retrospective they have no material for
+    why: The hook demanded retros for three waves that finished before the method existed, and two of them offered five- and nineteen-minute cycle times that were really the gaps between board edits
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF no item of a finished wave has a recorded transition, THEN THE SYSTEM SHALL not report that wave as owing a retrospective.
+    tests:
+    - name: retro::tests::a_wave_the_board_never_watched_is_not_due
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a duration is derived from the activity log rather than from recorded transitions, THE SYSTEM SHALL report it separately as approximate and SHALL keep it out of the cycle-time figures.
+    tests:
+    - name: retro::tests::changelog_timestamps_are_reported_as_approximate
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN every item of a wave is finished but no finish timestamp was recorded, THE SYSTEM SHALL say the date is unknown rather than that the wave is still running.
+    tests:
+    - name: retro::tests::a_finished_wave_without_a_timestamp_says_so
+      kind: unit
+      state: planned
 created_at: 2026-09-25T08:13:48.251597224Z
-updated_at: 2026-09-25T08:13:48.251602619Z
+updated_at: 2026-09-25T08:14:05.329846409Z

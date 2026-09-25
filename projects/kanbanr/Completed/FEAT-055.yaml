@@ -1,6 +1,6 @@
 code: FEAT-055
 title: Lessons learned with confidence decay
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: medium
@@ -20,16 +20,16 @@ todo_lists:
   tasks:
   - key: T1
     text: 'core: lessons.yaml, decay, affirm/contradict, matching'
-    state: InProgress
+    state: Completed
   - key: T2
     text: 'routes + batch op + CLI: lesson add/affirm/contradict, lessons [--for]'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'surfacing: SessionStart hook, Charter page beside the goals'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: tests + gates
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-25T08:06:13.635869293Z
 definition:
   statement: Lessons that survive the session that produced them, for whoever starts the next piece of work, so that the same mistake is not rediscovered at full price
@@ -93,5 +93,8 @@ history:
 - at: 2026-09-25T08:06:13.613725065Z
   from: Planned
   to: In Progress
+- at: 2026-09-25T08:12:10.11037873Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-25T08:11:55.206515059Z
+updated_at: 2026-09-25T08:12:10.11037873Z

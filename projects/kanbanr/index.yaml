@@ -84,7 +84,7 @@
   done: 2
   total: 5
 - code: FEAT-055
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: feature
   priority: medium
@@ -98,7 +98,7 @@
   - cli
   depends_on:
   - FEAT-053
-  done: 0
+  done: 4
   total: 4
 - code: FEAT-001
   status: Completed

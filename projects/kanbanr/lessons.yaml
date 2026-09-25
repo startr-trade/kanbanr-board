@@ -1,0 +1,70 @@
+- id: L-5
+  lesson: Name a tracked test exactly as the runner prints it, module path included, or the capture hook silently records nothing
+  kind: practice
+  at: 2026-09-25T08:12:10.110247921Z
+  from_item: FEAT-053
+  evidence: FEAT-056's two NFR tests stayed unproven until the names were changed to scm::tests::…
+  tags:
+  - tdd
+  - evidence
+  goals:
+  - G-2
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:12:10.110247921Z
+  status: candidate
+- id: L-4
+  lesson: A warning that fires on everything trains the reader to skip the line it is on
+  kind: pitfall
+  at: 2026-09-25T08:12:10.110070845Z
+  from_item: FEAT-062
+  evidence: stale evidence listed 27 requirements because every commit moves HEAD; the code comments warn about exactly this
+  tags:
+  - report
+  - ux
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:12:10.110070845Z
+  status: candidate
+- id: L-3
+  lesson: A guardrail that matches a token anywhere in prose will fire on the text that explains it
+  kind: pitfall
+  at: 2026-09-25T08:12:10.101130237Z
+  from_item: FEAT-056
+  evidence: the first commit using `kanbanr commit` explained `[no-ref]` in the body and was waved through as an escape, with a valid trailer present
+  tags:
+  - scm
+  - validation
+  goals:
+  - G-4
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:12:10.101130237Z
+  status: candidate
+- id: L-2
+  lesson: When adding a derived field, find every path that writes the thing it derives from — auto-completion bypassed the one place history was recorded
+  kind: pitfall
+  at: 2026-09-25T08:12:10.100921066Z
+  from_item: FEAT-061
+  evidence: cycle time was blind to the normal way items finish, and looked fine because hand-moved items had history
+  tags:
+  - measurement
+  - schema
+  goals:
+  - G-2
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:12:10.100921066Z
+  status: candidate
+- id: L-1
+  lesson: Run a new report against the real board before calling it done — both of its counts were wrong in ways no fixture showed
+  kind: pitfall
+  at: 2026-09-25T08:12:10.100749575Z
+  from_item: FEAT-060
+  evidence: the first retro run on MS-006 reported 11 of 12 planned items as scope growth and 1 of 23 requirements proven; both passed their unit tests
+  tags:
+  - measurement
+  - report
+  goals:
+  - G-2
+  confidence: 0.6
+  last_affirmed: 2026-09-25T08:12:10.100749575Z
+  status: candidate

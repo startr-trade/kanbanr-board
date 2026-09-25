@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A recorded transition for every status change, however it happened, so that flow numbers describe the items that finished normally rather than only the ones moved by hand
+  goals:
+  - G-2
+  zachman:
+    what: The history entry an auto-completion did not write
+    how: The auto-complete branch appends the same Transition a manual move does; a status rename still records nothing, because nothing moved
+    where: kanbanr-core/src/store.rs, set_task_state_on
+    when: Whenever the last open task of an item is completed
+    who: Anyone reading cycle time, which is currently blind to the normal path
+    why: Auto-completion is how most items reach a terminal status, so the measurement added in FEAT-053 was missing precisely where it mattered
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN completing a task auto-completes its item, THE SYSTEM SHALL append the same transition a manual move records.
+    tests:
+    - name: auto_completion_records_the_move_like_any_other
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a status is renamed, THE SYSTEM SHALL leave the items' histories unchanged.
+    tests:
+    - name: auto_completion_records_the_move_like_any_other
+      kind: unit
+      state: planned
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-25T08:01:12.709289128Z
+updated_at: 2026-09-25T08:01:12.725317397Z

@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — record the auto-completion
+  tasks:
+  - key: T1
+    text: append the transition when the last task completes the item
+    state: Completed
+  - key: T2
+    text: test it, and pin that a status rename records nothing
+    state: NotStarted
+  created_at: 2026-09-25T08:02:39.970154565Z
 definition:
   statement: A recorded transition for every status change, however it happened, so that flow numbers describe the items that finished normally rather than only the ones moved by hand
   goals:
@@ -50,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-25T08:01:12.769858479Z
+updated_at: 2026-09-25T08:02:39.97016449Z

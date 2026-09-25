@@ -1,3 +1,6 @@
+- time: 2026-09-25T11:24:48.949854593Z
+  actor: Venkatraman B
+  message: record an architecture decision
 - time: 2026-09-25T11:24:39.743874865Z
   actor: Venkatraman B
   message: update document
@@ -688,6 +691,3 @@
 - time: 2026-06-12T05:20:18.595908156Z
   actor: kanbanr-dev
   message: 'track: rename-status (done) + remote-sync conflict safety (in progress)'
-- time: 2026-06-12T05:14:52.942544841Z
-  actor: kanbanr-dev
-  message: 'update config: workflow'

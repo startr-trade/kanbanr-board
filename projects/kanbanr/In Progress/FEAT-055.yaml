@@ -1,6 +1,6 @@
 code: FEAT-055
 title: Lessons learned with confidence decay
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: feature
 priority: medium
@@ -66,5 +66,10 @@ definition:
     - name: cli_lessons_are_captured_matched_and_can_be_contradicted
       kind: e2e
       state: planned
+  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+history:
+- at: 2026-09-25T08:06:13.613725065Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-25T08:06:13.584833962Z
+updated_at: 2026-09-25T08:06:13.613725065Z

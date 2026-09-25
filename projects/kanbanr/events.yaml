@@ -1,3 +1,11 @@
+- time: 2026-09-25T08:06:13.629883993Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-055
+  message: feature FEAT-055 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
 - time: 2026-09-25T08:03:46.284005743Z
   project: kanbanr
   kind: feature_moved

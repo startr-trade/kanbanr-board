@@ -14,7 +14,23 @@ labels:
 - cli
 depends_on:
 - FEAT-053
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — lessons
+  tasks:
+  - key: T1
+    text: 'core: lessons.yaml, decay, affirm/contradict, matching'
+    state: InProgress
+  - key: T2
+    text: 'routes + batch op + CLI: lesson add/affirm/contradict, lessons [--for]'
+    state: NotStarted
+  - key: T3
+    text: 'surfacing: SessionStart hook, Charter page beside the goals'
+    state: NotStarted
+  - key: T4
+    text: tests + gates
+    state: NotStarted
+  created_at: 2026-09-25T08:06:13.635869293Z
 definition:
   statement: Lessons that survive the session that produced them, for whoever starts the next piece of work, so that the same mistake is not rediscovered at full price
   goals:
@@ -72,4 +88,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-25T08:06:13.613725065Z
+updated_at: 2026-09-25T08:06:13.635883599Z

@@ -36,5 +36,87 @@ todo_lists:
     text: tests + gates
     state: NotStarted
   created_at: 2026-09-25T00:56:25.674695428Z
+definition:
+  statement: Derived flow and quality numbers for a board, so completion is measured from what happened rather than from what was claimed
+  goals:
+  - G-2
+  - G-0
+  zachman:
+    what: Transition history on every item, a defect record, and a report derived from both plus the test evidence
+    how: Moves append to history[]; a PostToolUse hook reads real test output and flips test state with the revision it saw; report/tests read, never assert
+    where: kanbanr-core (report.rs, store history + defect), the CLI (report, capture, defect, tests), the user's Claude Code settings for the hook
+    when: Continuously — history on each move, evidence on each test run, the report on demand or per wave
+    who: The developer reading the numbers; Claude, which must quote them rather than estimate
+    why: A board that records intent but no evidence can report a feature done with nothing proving it works, and can say nothing about what the work cost
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a feature item moves to a different status, THE SYSTEM SHALL append that move to the item's history with the time, the status left and the status entered.
+    tests:
+    - name: report::tests::moves_are_recorded_and_counted
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE an item has a recorded history, THE SYSTEM SHALL derive its cycle time from the first active move to the last terminal one, and report no number at all when there is no history.
+    tests:
+    - name: report::tests::cycle_time_spans_the_first_active_move_to_the_last_terminal_one
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a defect records the work that introduced it, THE SYSTEM SHALL derive whether it escaped from whether that work had already reached a terminal status.
+    tests:
+    - name: report::tests::a_defect_escapes_when_the_work_it_came_from_was_already_done
+      kind: unit
+      state: planned
+    - name: cli_capture_report_and_defect_escape
+      kind: e2e
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a command's output contains results for tests the board tracks, THE SYSTEM SHALL record each one's outcome against its requirement, stamped with the project revision it was observed at.
+    tests:
+    - name: tests::test_output_is_read_from_the_formats_a_run_actually_prints
+      kind: unit
+      state: planned
+    - name: cli_capture_report_and_defect_escape
+      kind: e2e
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a test recorded as passing no longer exists in the project, THEN THE SYSTEM SHALL report it and, on request, return that result to planned.
+    tests:
+    - name: cli_capture_report_and_defect_escape
+      kind: e2e
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHILE a green result is older than the project's current revision, THE SYSTEM SHALL report it as stale evidence rather than counting it as proof.
+    tests:
+    - name: report::tests::coverage_counts_green_tests_and_flags_evidence_from_an_older_revision
+      kind: unit
+      state: planned
+  - id: R-7
+    kind: nfr
+    text: THE SYSTEM SHALL leave every existing board file byte-identical when it only reads it.
+    iso25010:
+    - Compatibility
+    scenario:
+      stimulus: A board written before this change is read by the new binary
+      environment: kanbanr's own data folder, 45 items, none with history
+      response: Every yaml file is unchanged and the report degrades to 'no completed item has a recorded history yet'
+      measure: 'legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty'
+    tests:
+    - name: 'legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty'
+      kind: manual
+      state: planned
+  - id: R-8
+    kind: functional
+    text: WHEN the kanbanr hooks are installed, THE SYSTEM SHALL register the capture hook on Bash alongside the existing hooks, leaving other tools' hooks and their order untouched.
+    tests:
+    - name: hooks::tests::install_merges_into_existing_settings_keeping_order_and_other_hooks
+      kind: unit
+      state: planned
 created_at: 2026-09-24T18:45:46.410618944Z
-updated_at: 2026-09-25T00:56:25.674704528Z
+updated_at: 2026-09-25T01:16:15.865556039Z

@@ -15,5 +15,56 @@ labels:
 depends_on:
 - FEAT-053
 todo_lists: []
+definition:
+  statement: Lessons that survive the session that produced them, for whoever starts the next piece of work, so that the same mistake is not rediscovered at full price
+  goals:
+  - G-1
+  - G-0
+  zachman:
+    what: A per-project list of lessons, each with where it came from, what evidence backs it, and how much it is currently believed
+    how: Captured in flight or promoted from a retro; confidence decays with age unless reaffirmed, contradiction costs more than affirmation, and a lesson that falls below the threshold retires instead of being deleted
+    where: projects/<id>/lessons.yaml, the CLI, the SessionStart hook, and the Charter page beside the goals
+    when: Written when the lesson is learned; read before work starts, not after it goes wrong
+    who: Claude, which must read the matching lessons before starting an item; the developer, who can contradict one that turned out to be wrong
+    why: A lesson learned mid-execution exists only in a transcript, so the next session pays for it again
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a lesson is recorded, THE SYSTEM SHALL keep where it came from and what evidence supports it, and SHALL refuse to store the same lesson twice.
+    tests:
+    - name: lessons::tests::a_lesson_is_recorded_once_with_its_provenance
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE a lesson is not reaffirmed, THE SYSTEM SHALL reduce the confidence it reports as time passes.
+    tests:
+    - name: lessons::tests::confidence_decays_until_something_reaffirms_it
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a lesson is contradicted, THE SYSTEM SHALL reduce its confidence by more than an affirmation raises it.
+    tests:
+    - name: lessons::tests::contradiction_costs_more_than_affirmation
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF a lesson's confidence falls below the threshold, THEN THE SYSTEM SHALL retire it from what is surfaced while keeping the record.
+    tests:
+    - name: lessons::tests::a_lesson_below_the_threshold_retires_but_is_kept
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN lessons are asked for in the context of an item, THE SYSTEM SHALL return those whose tags, kind or goals match that item, most believed first.
+    tests:
+    - name: lessons::tests::lessons_are_matched_to_the_item_about_to_be_worked_on
+      kind: unit
+      state: planned
+    - name: cli_lessons_are_captured_matched_and_can_be_contradicted
+      kind: e2e
+      state: planned
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-24T18:45:46.410842372Z
+updated_at: 2026-09-25T08:06:13.584833962Z

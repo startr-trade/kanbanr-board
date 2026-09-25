@@ -83,23 +83,6 @@
   - FEAT-051
   done: 2
   total: 5
-- code: FEAT-055
-  status: Completed
-  milestone: MS-006
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - memory
-  - cli
-  depends_on:
-  - FEAT-053
-  done: 4
-  total: 4
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -859,6 +842,23 @@
   - FEAT-053
   done: 5
   total: 5
+- code: FEAT-055
+  status: Completed
+  milestone: MS-006
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - memory
+  - cli
+  depends_on:
+  - FEAT-053
+  done: 4
+  total: 4
 - code: FEAT-056
   status: Completed
   milestone: MS-006
@@ -968,6 +968,20 @@
   status: Out-of-Scope
   milestone: MS-002
   kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-063
+  status: Planned
+  milestone: MS-006
+  kind: defect
   priority: null
   start: null
   due: null

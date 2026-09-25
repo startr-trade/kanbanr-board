@@ -1,5 +1,5 @@
 - code: FEAT-050
-  status: Planned
+  status: In Progress
   milestone: MS-006
   kind: feature
   priority: high
@@ -14,7 +14,7 @@
   depends_on:
   - FEAT-047
   done: 0
-  total: 0
+  total: 5
 - code: FEAT-051
   status: Planned
   milestone: MS-006

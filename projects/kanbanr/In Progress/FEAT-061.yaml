@@ -1,6 +1,6 @@
 code: FEAT-061
 title: 'Defect: finishing the last task completes an item without recording the move'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -38,11 +38,16 @@ definition:
     - name: auto_completion_records_the_move_like_any_other
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: a defect in work just merged'
 defect:
   severity: high
   introduced_by: FEAT-053
   found_in: the first retro run on kanbanr's own board
   root_cause: history was appended in move_feature_on only; the auto-complete path assigns the status directly
   escaped: true
+history:
+- at: 2026-09-25T08:01:12.769858479Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-25T08:01:12.743057098Z
+updated_at: 2026-09-25T08:01:12.769858479Z

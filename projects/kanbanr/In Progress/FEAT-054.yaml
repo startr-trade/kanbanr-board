@@ -14,7 +14,26 @@ labels:
 - docs
 depends_on:
 - FEAT-053
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — wave retrospectives
+  tasks:
+  - key: T1
+    text: 'core: retro.rs — wave selection and the derived numbers'
+    state: InProgress
+  - key: T2
+    text: 'record what the board cannot infer: split_from on an item'
+    state: NotStarted
+  - key: T3
+    text: 'route + CLI: kanbanr retro [--since|--label|--write|--due]'
+    state: NotStarted
+  - key: T4
+    text: 'eventing: milestone-completed; Stop hook surfaces a retro that is due'
+    state: NotStarted
+  - key: T5
+    text: tests + gates
+    state: NotStarted
+  created_at: 2026-09-25T07:47:42.633700767Z
 definition:
   statement: An honest account of how a wave actually went, for the developer planning the next one, so that the lesson survives the wave
   goals:
@@ -76,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410703195Z
-updated_at: 2026-09-25T07:47:42.616178971Z
+updated_at: 2026-09-25T07:47:42.633713163Z

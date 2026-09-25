@@ -30,21 +30,24 @@ definition:
     tests:
     - name: retro::tests::a_wave_the_board_never_watched_is_not_due
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 1d995be23e75
   - id: R-2
     kind: functional
     text: WHERE a duration is derived from the activity log rather than from recorded transitions, THE SYSTEM SHALL report it separately as approximate and SHALL keep it out of the cycle-time figures.
     tests:
     - name: retro::tests::changelog_timestamps_are_reported_as_approximate
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 1d995be23e75
   - id: R-3
     kind: functional
     text: WHEN every item of a wave is finished but no finish timestamp was recorded, THE SYSTEM SHALL say the date is unknown rather than that the wave is still running.
     tests:
     - name: retro::tests::a_finished_wave_without_a_timestamp_says_so
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 1d995be23e75
   started_unapproved: 'auto-pilot: the tool asked for something it cannot support; fixing the claim'
 defect:
   severity: medium
@@ -57,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T08:13:48.251597224Z
-updated_at: 2026-09-25T08:14:05.378562063Z
+updated_at: 2026-09-25T08:16:15.186703318Z

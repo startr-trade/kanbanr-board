@@ -1,6 +1,6 @@
 code: FEAT-054
 title: Wave retrospectives
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: feature
 priority: medium
@@ -70,5 +70,10 @@ definition:
     - name: cli_retro_reports_facts_and_writes_a_document
       kind: e2e
       state: planned
+  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+history:
+- at: 2026-09-25T07:47:42.616178971Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-24T18:45:46.410703195Z
-updated_at: 2026-09-25T07:47:42.59092401Z
+updated_at: 2026-09-25T07:47:42.616178971Z

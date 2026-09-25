@@ -1,6 +1,6 @@
 code: FEAT-064
 title: A wave's lessons are part of its retrospective
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: null
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — lessons in their wave
+  tasks:
+  - key: T1
+    text: 'core: a retro carries the lessons of its wave, retired ones included'
+    state: Completed
+  - key: T2
+    text: render them into the document above the narrative, pointing at the live rows
+    state: Completed
+  created_at: 2026-09-25T18:44:39.766187192Z
 definition:
   statement: A wave's lessons shown in that wave's retrospective, for whoever reads it to plan the next one, so that what was learned is found where a reader looks for it
   goals:
@@ -58,5 +68,8 @@ history:
 - at: 2026-09-25T18:40:56.596711824Z
   from: Planned
   to: In Progress
+- at: 2026-09-25T18:44:39.766210151Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-25T18:40:41.098914606Z
-updated_at: 2026-09-25T18:44:31.735250406Z
+updated_at: 2026-09-25T18:44:39.766210151Z

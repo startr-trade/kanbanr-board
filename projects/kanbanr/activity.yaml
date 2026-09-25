@@ -1,3 +1,6 @@
+- time: 2026-09-25T18:44:39.768114202Z
+  actor: Venkatraman B
+  message: FEAT-064 done
 - time: 2026-09-25T18:44:31.739258393Z
   actor: Venkatraman B
   message: record 58 test result(s) from a run
@@ -678,7 +681,3 @@
 - time: 2026-06-12T07:04:50.322254653Z
   actor: kanbanr-dev
   message: 'plan: open-source release prep (license, community files, CI/release, screenshot tooling)'
-- time: 2026-06-12T06:02:55.187775876Z
-  actor: kanbanr-dev
-  message: update task T2 (FEAT-014/TL-001)
-  item: FEAT-014

@@ -40,14 +40,16 @@ definition:
     tests:
     - name: tests::auto_completion_records_the_move_like_any_other
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 34ad27ff8923
   - id: R-2
     kind: functional
     text: WHEN a status is renamed, THE SYSTEM SHALL leave the items' histories unchanged.
     tests:
     - name: tests::auto_completion_records_the_move_like_any_other
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 34ad27ff8923
   started_unapproved: 'auto-pilot: a defect in work just merged'
 defect:
   severity: high
@@ -60,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-25T08:02:52.407386329Z
+updated_at: 2026-09-25T08:02:52.425636693Z

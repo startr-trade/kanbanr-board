@@ -1,3 +1,7 @@
+- time: 2026-09-25T18:40:56.59818404Z
+  actor: Venkatraman B
+  message: move feature FEAT-064
+  item: FEAT-064
 - time: 2026-09-25T18:40:56.571973436Z
   actor: Venkatraman B
   message: define feature FEAT-064
@@ -678,8 +682,4 @@
 - time: 2026-06-12T06:02:55.153976916Z
   actor: kanbanr-dev
   message: update task T1 (FEAT-014/TL-001)
-  item: FEAT-014
-- time: 2026-06-12T06:01:46.760148021Z
-  actor: kanbanr-dev
-  message: add task to FEAT-014/TL-001
   item: FEAT-014

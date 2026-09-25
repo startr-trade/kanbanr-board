@@ -1,6 +1,6 @@
 code: FEAT-064
 title: A wave's lessons are part of its retrospective
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: null
 priority: null
@@ -49,5 +49,10 @@ definition:
     - name: retro::tests::a_waves_lessons_are_part_of_its_retrospective
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+history:
+- at: 2026-09-25T18:40:56.596711824Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-25T18:40:41.098914606Z
-updated_at: 2026-09-25T18:40:56.570140751Z
+updated_at: 2026-09-25T18:40:56.596711824Z

@@ -2,6 +2,8 @@
 id: ADR-0001
 status: accepted
 date: 2026-07-02
+affects:
+- FEAT-015
 quality:
 - Security
 - Maintainability

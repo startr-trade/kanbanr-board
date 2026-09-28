@@ -1,3 +1,17 @@
+- id: L-18
+  lesson: 'One fact, one place: a convenience script that derives a path instead of asking the tool breaks the day someone renames it'
+  kind: pitfall
+  at: 2026-09-28T10:56:19.150249403Z
+  from_item: FEAT-072
+  evidence: the Makefile, the screenshot script and compose each reconstructed the board folder as <repo>.kanbanr; renaming it to kanbanr-board broke all three while the CLI, which reads the .kanbanr marker, was unaffected
+  tags:
+  - layout
+  - tooling
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-28T10:56:19.150249403Z
+  status: candidate
 - id: L-17
   lesson: Restart every long-running process that reads the data right after a storage or layout migration — a stale reader reports missing data, not a stale read
   kind: practice

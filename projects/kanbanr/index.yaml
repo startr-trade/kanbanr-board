@@ -53,21 +53,7 @@
   labels: []
   depends_on: []
   done: 5
-  total: 9
-- code: FEAT-081
-  status: Completed
-  milestone: MS-006
-  kind: defect
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 3
-  total: 3
+  total: 12
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -1202,6 +1188,20 @@
   depends_on: []
   done: 2
   total: 2
+- code: FEAT-081
+  status: Completed
+  milestone: MS-006
+  kind: defect
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 3
+  total: 3
 - code: FEAT-018
   status: Ongoing
   milestone: MS-004
@@ -1229,7 +1229,7 @@
   labels: []
   depends_on: []
   done: 1
-  total: 2
+  total: 8
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002

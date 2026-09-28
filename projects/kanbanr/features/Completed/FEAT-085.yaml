@@ -1,6 +1,6 @@
 code: FEAT-085
 title: 'Defect: kanbanr init silently repoints a folder that already has a board'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: init reads the existing marker and refuses when it names a different project or board, printing both pointers
-    state: NotStarted
+    state: Completed
   - key: T2
     text: --force repoints and reports what it replaced; an identical re-init stays idempotent
-    state: NotStarted
+    state: Completed
   - key: T3
     text: integration test against the real binary, since the defect was the call site writing unconditionally
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T16:33:51.642709366Z
 definition:
   statement: An init that will not silently repoint a folder at a different board, for anyone running it inside a project that already has one, so that the only pointer to a board is never overwritten by accident
@@ -79,5 +79,8 @@ history:
 - at: 2026-09-28T16:33:51.608282613Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:38:54.578998799Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T16:31:38.230257467Z
-updated_at: 2026-09-28T16:38:43.80433093Z
+updated_at: 2026-09-28T16:38:54.578998799Z

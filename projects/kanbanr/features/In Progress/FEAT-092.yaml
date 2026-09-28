@@ -72,10 +72,19 @@ definition:
     - name: skill/kanbanr/SKILL.md names the TOGAF preset and when to offer it
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T17:44:53.110490634Z
+    rev: c4777ccd43d1b95e
+  approvals:
+  - at: 2026-09-28T17:44:53.110490634Z
+    by: Venkatraman B
+    verdict: approved
+    rev: c4777ccd43d1b95e
   started_unapproved: 'auto-pilot: the user said yes to sharing the EARS/ISO vocabulary and asked what the tool recommends about Zachman and TOGAF'
 history:
 - at: 2026-09-28T17:43:35.827441613Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:43:46.522179306Z
+updated_at: 2026-09-28T17:44:53.110490634Z

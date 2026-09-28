@@ -38,6 +38,15 @@ definition:
     - name: 'tools/screenshots: portfolio-dark.png captured and inspected'
       kind: manual
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T18:25:51.688880076Z
+    rev: 0de4c0e8b8614c79
+  approvals:
+  - at: 2026-09-28T18:25:51.688880076Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 0de4c0e8b8614c79
 defect:
   severity: medium
   introduced_by: FEAT-030
@@ -45,4 +54,4 @@ defect:
   root_cause: tokens --surface and --surface-2 were never defined, so their light fallbacks applied in both themes; nothing checked for undefined tokens and no dark screenshot existed
   escaped: true
 created_at: 2026-09-28T18:25:35.263060258Z
-updated_at: 2026-09-28T18:25:44.668143782Z
+updated_at: 2026-09-28T18:25:51.688880076Z

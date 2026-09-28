@@ -1,0 +1,16 @@
+code: FEAT-094
+title: 'Defect: the commit guard will not let you finish an interrupted merge'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T18:04:25.294479275Z
+updated_at: 2026-09-28T18:04:25.29449577Z

@@ -1111,3 +1111,6 @@
   actor: Venkatraman B
   message: test doctor::tests::an_unreconciled_bypass_outlives_the_terminal_gate of FEAT-080/R-3 is now green
   item: FEAT-080
+- time: 2026-09-28T18:04:25.296223342Z
+  actor: Venkatraman B
+  message: scope the merge-recovery guard defect

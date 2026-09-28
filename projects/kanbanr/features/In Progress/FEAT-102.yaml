@@ -40,9 +40,16 @@ definition:
       kind: unit
       state: green
   started_unapproved: restores behaviour already agreed and shipped (FEAT-044/054/055); broken hooks affect every session, ratify on review
+defect:
+  severity: high
+  introduced_by: FEAT-065
+  found_in: review during FEAT-101
+  root_cause: test-fixture stub scripts (exit 0) landed over the shipped scripts in c5b38a5, reachable because ~/.claude/skills/kanbanr is a symlink into the repo; nothing checked the shipped files' content
+  escaped: true
+  fixed_by: hooks::tests::shipped_scripts_are_not_stubs
 history:
 - at: 2026-09-28T19:20:50.675558868Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:20:44.727093541Z
-updated_at: 2026-09-28T19:21:39.800930818Z
+updated_at: 2026-09-28T19:21:46.876838706Z

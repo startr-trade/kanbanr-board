@@ -586,3 +586,6 @@
 - time: 2026-09-28T16:07:05.440933908Z
   actor: Venkatraman B
   message: the docs sync and the sweep are done
+- time: 2026-09-28T16:09:18.209171207Z
+  actor: Venkatraman B
+  message: scope the guard's substring-match defect

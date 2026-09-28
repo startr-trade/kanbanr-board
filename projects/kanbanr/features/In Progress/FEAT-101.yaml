@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: Register via hooks install (per event+script), plugin and snippet; tests
     state: NotStarted
+  - key: T3
+    text: Narrow .gitignore; swap this checkout to the shipped hooks; docs and changelog
+    state: NotStarted
   created_at: 2026-09-28T19:20:30.164302762Z
 definition:
   statement: Session-summary hooks that ship with kanbanr and are registered by `kanbanr hooks install`, for every project tracked with kanbanr, so that session history reaches the board on any machine rather than only on the one where the scripts were written
@@ -76,4 +79,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:14:40.501220304Z
-updated_at: 2026-09-28T19:20:30.209766406Z
+updated_at: 2026-09-28T19:20:30.233945533Z

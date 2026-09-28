@@ -90,8 +90,8 @@
   team: null
   labels: []
   depends_on: []
-  done: 3
-  total: 6
+  done: 6
+  total: 7
 - code: FEAT-001
   status: Completed
   milestone: MS-001

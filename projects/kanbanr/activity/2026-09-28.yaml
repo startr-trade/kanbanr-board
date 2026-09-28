@@ -397,3 +397,7 @@
   actor: Venkatraman B
   message: test review%20page%3A%20each%20item%20is%20a%20details%20element%20with%20a%20summary%20carrying%20code%2C%20title%20and%20approval%20state%3B%20the%20first%20is%20open of FEAT-076/R-1 is now green
   item: FEAT-076
+- time: 2026-09-28T12:18:00.080981032Z
+  actor: Venkatraman B
+  message: test review%20page%3A%20the%20approve%20button%20is%20inside%20the%20details%20body%2C%20not%20in%20the%20summary of FEAT-076/R-3 is now green
+  item: FEAT-076

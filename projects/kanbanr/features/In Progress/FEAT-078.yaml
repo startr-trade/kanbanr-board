@@ -1,6 +1,6 @@
 code: FEAT-078
 title: 'Defect: the review queue asks for agreement on work that is already finished'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -53,11 +53,16 @@ definition:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: found verifying FEAT-077; the queue and the doctor disagreed on the live board'
 defect:
   severity: medium
   introduced_by: FEAT-067
   found_in: the monitor, verifying the FEAT-077 fix
   root_cause: the queue was written as a new filter over all features instead of reusing the scope gate the doctor already had, so the same question acquired two answers
   escaped: true
+history:
+- at: 2026-09-28T12:22:21.512013026Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:13:34.815962411Z
+updated_at: 2026-09-28T12:22:21.512013026Z

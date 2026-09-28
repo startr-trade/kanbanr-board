@@ -1,6 +1,6 @@
 code: FEAT-093
 title: 'Defect: a failed batch leaves the board mutated and uncommitted'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: all or nothing
+  tasks:
+  - key: T1
+    text: no flush on failure; documents queued and written only after every op succeeds, with snapshots so a failing write puts earlier ones back
+    state: Completed
+  - key: T2
+    text: a restore that cannot complete names each file left changed and uncommitted
+    state: Completed
+  created_at: 2026-09-28T18:16:41.51231956Z
 definition:
   statement: A batch that either commits or changes nothing, for anyone driving the board through bundles, so that a failed operation cannot leave writes outside version control
   goals:
@@ -59,5 +69,8 @@ history:
 - at: 2026-09-28T18:14:18.474450167Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T18:16:41.512339183Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:14:18.474450167Z
+updated_at: 2026-09-28T18:16:41.512339183Z

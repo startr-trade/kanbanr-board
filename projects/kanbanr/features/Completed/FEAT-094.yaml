@@ -1,6 +1,6 @@
 code: FEAT-094
 title: 'Defect: the commit guard will not let you finish an interrupted merge'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: let a merge be completed
+  tasks:
+  - key: T1
+    text: scm::merge_in_progress, asked of git so it works in a linked worktree
+    state: Completed
+  - key: T2
+    text: the Claude guard and the pre-commit hook skip branch rules during a merge; proven by completing this item's own merge with git commit on master
+    state: Completed
+  created_at: 2026-09-28T18:16:41.51234406Z
 definition:
   statement: A commit guard that lets an interrupted merge be completed, for anyone merging an item's branch, so that the recovery path is not the one thing the guard forbids
   goals:
@@ -51,5 +61,8 @@ history:
 - at: 2026-09-28T18:14:32.37297586Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T18:16:41.512356359Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T18:04:25.294479275Z
-updated_at: 2026-09-28T18:14:32.37297586Z
+updated_at: 2026-09-28T18:16:41.512356359Z

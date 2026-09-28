@@ -1,6 +1,6 @@
 code: FEAT-095
 title: 'Release guardrails: the tag is checked, and a re-run publish is not a failure'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: null
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: record the guardrails already merged in 4da3494
+  tasks:
+  - key: T1
+    text: 'tag job: v-prefixed semver, version equal to the workspace, pre-releases do not move latest'
+    state: Completed
+  - key: T2
+    text: idempotent crates.io publish tolerating only 'already exists', token via CARGO_REGISTRY_TOKEN
+    state: Completed
+  created_at: 2026-09-28T18:16:41.512360769Z
 definition:
   statement: A release that refuses a bad tag before it builds anything and treats a re-run publish as success, for whoever cuts a release, so that a wrong release never ships and a right one never fails for having shipped already
   goals:
@@ -60,5 +70,8 @@ history:
 - at: 2026-09-28T18:07:24.550530799Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T18:16:41.51239421Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T18:07:14.401982056Z
-updated_at: 2026-09-28T18:08:13.708135588Z
+updated_at: 2026-09-28T18:16:41.51239421Z

@@ -31,5 +31,11 @@ definition:
     - name: tests::the_guard_lets_a_merge_be_completed
       kind: unit
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-056
+  found_in: finishing a merge whose message the commit-msg hook rejected
+  root_cause: the default-branch rule does not distinguish a merge commit from an ordinary one
+  escaped: true
 created_at: 2026-09-28T18:04:25.294479275Z
-updated_at: 2026-09-28T18:07:14.472571405Z
+updated_at: 2026-09-28T18:07:14.530496848Z

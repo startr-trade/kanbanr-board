@@ -30,7 +30,7 @@ definition:
     tests:
     - name: web/src/pages/PortfolioPage.tsx renders a pager per lane and slices cards by the page size
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL count the whole lane in its header, not the visible page, so that pagination does not understate how much work a lane holds.
@@ -44,4 +44,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:35:33.295604745Z
-updated_at: 2026-09-28T17:35:33.340384606Z
+updated_at: 2026-09-28T17:35:33.379060211Z

@@ -1,3 +1,14 @@
+- id: L-26
+  lesson: Prove a guardrail fix by running the scenario that tripped it, not only its unit test. FEAT-094's first fix passed a test of merge_in_progress() while the pre-commit hook still refused the merge commit at its next check (branch names no item). Completing a real merge with git commit on master found it in one try.
+  kind: practice
+  at: 2026-09-28T18:16:47.775234999Z
+  from_item: FEAT-094
+  tags:
+  - guardrails
+  - testing
+  confidence: 0.6
+  last_affirmed: 2026-09-28T18:16:47.775234999Z
+  status: candidate
 - id: L-25
   lesson: Fix every instance of a bug, not the one that bit you. FEAT-082's first fix scoped inline_message to the git commit invocation and left the hook-skipping check two lines above it still scanning the whole command line — so a message explaining '[ -n $x ]' was read as passing -n, and the commit was refused. The second failure looked like a new bug and was the same one. When a defect is 'a token matched without its boundary', grep for every other match of that shape in the same function before calling it done.
   kind: pitfall

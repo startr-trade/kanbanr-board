@@ -1430,3 +1430,6 @@
   actor: Venkatraman B
   message: 'test manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths of FEAT-101/R-3 is now green'
   item: FEAT-101
+- time: 2026-09-28T19:20:30.142759039Z
+  actor: Venkatraman B
+  message: record a lesson

@@ -1,3 +1,11 @@
+- id: L-27
+  lesson: 'The capture hook records nothing when a test run is wrapped (rtk proxy cargo test): feed the output to kanbanr capture, or run cargo test bare'
+  kind: pitfall
+  at: 2026-09-28T19:20:30.142108895Z
+  from_item: FEAT-101
+  confidence: 0.6
+  last_affirmed: 2026-09-28T19:20:30.142108895Z
+  status: candidate
 - id: L-26
   lesson: Prove a guardrail fix by running the scenario that tripped it, not only its unit test. FEAT-094's first fix passed a test of merge_in_progress() while the pre-commit hook still refused the merge commit at its next check (branch names no item). Completing a real merge with git commit on master found it in one try.
   kind: practice

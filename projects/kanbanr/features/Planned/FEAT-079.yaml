@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::a_path_segment_encodes_its_slashes
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL continue to pass slashes through unescaped in query values and document paths, where they are part of the value.
@@ -46,4 +46,4 @@ defect:
   root_cause: one encoder used for both whole paths and single segments; '/' must survive in the first and must not in the second, and the call site picked the wrong one while the receiving end's comment documented the right requirement
   escaped: true
 created_at: 2026-09-28T12:19:13.008712649Z
-updated_at: 2026-09-28T12:19:13.041715516Z
+updated_at: 2026-09-28T12:21:36.678329878Z

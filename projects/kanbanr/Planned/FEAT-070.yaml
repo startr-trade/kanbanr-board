@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A monitor that serves the UI now on disk, for anyone watching a board while the app is being rebuilt, so that a stale process cannot masquerade as a broken feature
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: The index.html the daemon serves for client-side routes
+    how: Read per request, falling back to the last known good copy if the read fails mid-rebuild
+    where: kanbanr-server, the SPA fallback
+    when: Every request that is not an asset or an API call
+    who: Whoever is watching the monitor while the UI is rebuilt — which is anyone developing it
+    why: Vite writes hashed asset names, so a cached index points at a bundle that no longer exists, and the app fails in a way that looks like a broken feature
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the built UI changes while the daemon is running, THE SYSTEM SHALL serve the new index rather than the one read at startup.
+    tests:
+    - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF the index cannot be read, THEN THE SYSTEM SHALL serve the last copy it read rather than an empty page.
+    tests:
+    - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
+      kind: integration
+      state: planned
 created_at: 2026-09-28T06:38:34.002092757Z
-updated_at: 2026-09-28T06:38:34.00210006Z
+updated_at: 2026-09-28T06:38:34.019506452Z

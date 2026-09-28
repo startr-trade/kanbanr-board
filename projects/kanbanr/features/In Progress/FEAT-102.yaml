@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: restore the hooks
-  tasks: []
+  tasks:
+  - key: T1
+    text: Restore both scripts from c5b38a5^ and add the stub guard test (observed failing on the stubs)
+    state: NotStarted
   created_at: 2026-09-28T19:21:46.90459198Z
 definition:
   statement: The real session-start and stop-check scripts restored and guarded by a test, for everyone using kanbanr's hooks, so that sessions recover the board and turns are nudged to record work again
@@ -56,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:20:44.727093541Z
-updated_at: 2026-09-28T19:21:46.904595452Z
+updated_at: 2026-09-28T19:21:46.929392094Z

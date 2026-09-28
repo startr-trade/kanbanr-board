@@ -1,6 +1,6 @@
 code: FEAT-091
 title: The portfolio's cross-project lanes are not paginated
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -38,5 +38,10 @@ definition:
     - name: web/src/pages/PortfolioPage.tsx renders a pager per lane and slices cards by the page size
       kind: manual
       state: planned
+  started_unapproved: 'auto-pilot: the user asked directly — ''portfolio should also have paginated items in the kanban columns'''
+history:
+- at: 2026-09-28T17:35:33.340384606Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T17:35:33.295604745Z
-updated_at: 2026-09-28T17:35:33.318451668Z
+updated_at: 2026-09-28T17:35:33.340384606Z

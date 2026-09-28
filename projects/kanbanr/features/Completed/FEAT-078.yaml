@@ -1,6 +1,6 @@
 code: FEAT-078
 title: 'Defect: the review queue asks for agreement on work that is already finished'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,10 +17,10 @@ todo_lists:
   tasks:
   - key: T1
     text: extract graph::is_live_work and use it in both doctor and the review queue
-    state: NotStarted
+    state: Completed
   - key: T2
     text: order in-flight work before work that has not started
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T12:23:21.703192565Z
 definition:
   statement: A review queue holding only the items where agreement still changes something, for the reviewer being asked to decide, so that the gate stays cheap enough to be read rather than rubber-stamped
@@ -83,5 +83,8 @@ history:
 - at: 2026-09-28T12:22:21.512013026Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:02:06.102082886Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:39:10.315989723Z
+updated_at: 2026-09-28T16:02:06.102082886Z

@@ -1,6 +1,6 @@
 code: FEAT-077
 title: 'Defect: an approval recorded in the monitor names a place, not a person'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,19 +17,19 @@ todo_lists:
   tasks:
   - key: T1
     text: dispatch refuses a verdict with no named approver instead of defaulting to "unknown"
-    state: NotStarted
+    state: Completed
   - key: T2
     text: /api/meta reports the board commit identity; the monitor attributes verdicts to it and withholds the action when there is none
-    state: NotStarted
+    state: Completed
   - key: T3
     text: ApprovalRecorded and ApprovalWithdrawn events, the withdrawal carrying its reason
-    state: NotStarted
+    state: Completed
   - key: T4
     text: the withdrawal reason is collected in the page, with what withdrawing does stated before it is confirmed
-    state: NotStarted
+    state: Completed
   - key: T5
     text: a failed withdrawal keeps its button, a successful one is not a warning, the stale approval chip updates, a one-entry history is no longer hidden
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T12:23:21.703186461Z
 definition:
   statement: An approval record that names the person who gave it, for anyone later asking who agreed to this, so that the agreement is evidence rather than a label
@@ -92,5 +92,8 @@ history:
 - at: 2026-09-28T12:07:12.96265894Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:02:06.102073428Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T12:06:50.947612246Z
-updated_at: 2026-09-28T12:39:07.739218349Z
+updated_at: 2026-09-28T16:02:06.102073428Z

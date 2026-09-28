@@ -1,6 +1,6 @@
 code: FEAT-076
 title: 'Defect: the review queue runs items together and its approve action does not read as a button'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: each brief becomes a <details> card with a scannable summary (code, title, approval state)
-    state: NotStarted
+    state: Completed
   - key: T2
     text: the approve action moves into the expanded body as .btn .btn-primary; the chip style keeps its cursor-less label role
-    state: NotStarted
+    state: Completed
   - key: T3
     text: npm run check:ui fails on a button styled as a chip and on a chip with an onClick, from both directions
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T12:23:21.703175883Z
 definition:
   statement: A review queue that reads as a list of separate items with a visible action, for the person being asked to agree, so that reading and approving are both obvious
@@ -79,5 +79,8 @@ history:
 - at: 2026-09-28T11:42:32.356019197Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:02:06.102050347Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T12:39:05.148019593Z
+updated_at: 2026-09-28T16:02:06.102050347Z

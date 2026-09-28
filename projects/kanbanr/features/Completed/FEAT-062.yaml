@@ -41,7 +41,7 @@ definition:
     - name: tests::durations_read_the_way_a_person_would_say_them
       kind: unit
       state: green
-      checked_rev: 137f43058627
+      checked_rev: 858f91a794f6
   - id: R-2
     kind: functional
     text: WHEN more than a few requirements carry evidence from an earlier revision, THE SYSTEM SHALL report how many and how old rather than listing them all, and SHALL say that re-running the suite refreshes it.
@@ -49,7 +49,7 @@ definition:
     - name: tests::stale_evidence_is_summarised_rather_than_enumerated
       kind: unit
       state: green
-      checked_rev: 137f43058627
+      checked_rev: 858f91a794f6
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:51.351930183Z
@@ -70,4 +70,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-25T08:03:46.205395173Z
-updated_at: 2026-09-28T07:02:37.596874414Z
+updated_at: 2026-09-28T07:07:26.633161659Z

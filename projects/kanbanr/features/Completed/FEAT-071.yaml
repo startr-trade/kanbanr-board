@@ -48,7 +48,7 @@ definition:
     - name: tests::status_change_moves_the_files
       kind: unit
       state: green
-      checked_rev: 137f43058627
+      checked_rev: 858f91a794f6
   - id: R-2
     kind: functional
     text: WHERE a board still keeps status folders at its root, THE SYSTEM SHALL read it unchanged and SHALL move those folders under features/ on the next write.
@@ -56,7 +56,7 @@ definition:
     - name: tests::a_board_with_status_folders_at_the_root_is_migrated_on_the_next_write
       kind: unit
       state: green
-      checked_rev: 137f43058627
+      checked_rev: 858f91a794f6
   - id: R-3
     kind: nfr
     text: THE SYSTEM SHALL never leave an item file in neither location while migrating.
@@ -71,7 +71,7 @@ definition:
     - name: tests::a_board_with_status_folders_at_the_root_is_migrated_on_the_next_write
       kind: unit
       state: green
-      checked_rev: 137f43058627
+      checked_rev: 858f91a794f6
   started_unapproved: 'auto-pilot: the user proposed this layout and asked for it'
 history:
 - at: 2026-09-28T06:58:07.783898876Z
@@ -81,4 +81,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T06:47:33.271111269Z
-updated_at: 2026-09-28T07:03:04.13894453Z
+updated_at: 2026-09-28T07:07:26.633248315Z

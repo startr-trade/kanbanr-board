@@ -11,7 +11,26 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: a verdict names the person who gave it
+  tasks:
+  - key: T1
+    text: dispatch refuses a verdict with no named approver instead of defaulting to "unknown"
+    state: NotStarted
+  - key: T2
+    text: /api/meta reports the board commit identity; the monitor attributes verdicts to it and withholds the action when there is none
+    state: NotStarted
+  - key: T3
+    text: ApprovalRecorded and ApprovalWithdrawn events, the withdrawal carrying its reason
+    state: NotStarted
+  - key: T4
+    text: the withdrawal reason is collected in the page, with what withdrawing does stated before it is confirmed
+    state: NotStarted
+  - key: T5
+    text: a failed withdrawal keeps its button, a successful one is not a warning, the stale approval chip updates, a one-entry history is no longer hidden
+    state: NotStarted
+  created_at: 2026-09-28T12:23:21.703186461Z
 definition:
   statement: An approval record that names the person who gave it, for anyone later asking who agreed to this, so that the agreement is evidence rather than a label
   goals:
@@ -65,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:06:50.947612246Z
-updated_at: 2026-09-28T12:21:36.665885157Z
+updated_at: 2026-09-28T12:23:21.703191693Z

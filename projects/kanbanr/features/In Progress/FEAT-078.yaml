@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: the queue asks only where agreement still matters
+  tasks:
+  - key: T1
+    text: extract graph::is_live_work and use it in both doctor and the review queue
+    state: NotStarted
+  - key: T2
+    text: order in-flight work before work that has not started
+    state: NotStarted
+  created_at: 2026-09-28T12:23:21.703192565Z
 definition:
   statement: A review queue holding only the items where agreement still changes something, for the reviewer being asked to decide, so that the gate stays cheap enough to be read rather than rubber-stamped
   goals:
@@ -65,4 +75,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:23:06.845678821Z
+updated_at: 2026-09-28T12:23:21.703194563Z

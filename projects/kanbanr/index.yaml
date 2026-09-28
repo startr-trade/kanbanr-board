@@ -63,7 +63,7 @@
   done: 3
   total: 5
 - code: FEAT-059
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: bug
   priority: low
@@ -76,8 +76,8 @@
   - eventing
   - defect
   depends_on: []
-  done: 0
-  total: 0
+  done: 2
+  total: 2
 - code: FEAT-001
   status: Completed
   milestone: MS-001

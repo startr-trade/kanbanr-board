@@ -1,6 +1,6 @@
 code: FEAT-059
 title: 'Defect: events.yaml is always one write behind git'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: bug
 priority: low
@@ -13,7 +13,17 @@ labels:
 - eventing
 - defect
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — the event belongs in its own commit
+  tasks:
+  - key: T1
+    text: split eventing::emit into record (before the commit) and deliver_all (after)
+    state: Completed
+  - key: T2
+    text: 'e2e: the board repo is clean after the last write and the event is in that commit'
+    state: Completed
+  created_at: 2026-09-28T06:44:37.135703501Z
 definition:
   statement: An event log committed with the change it describes, for anyone who expects a clean board repo after a session, so that the last events of a session are versioned like everything else
   goals:
@@ -60,9 +70,19 @@ definition:
     verdict: approved
     rev: fdaeeb9f174aaf87
   started_unapproved: 'auto-pilot: small pre-existing defect on the way to the log restructure'
+defect:
+  severity: low
+  introduced_by: FEAT-036
+  found_in: the board repo being dirty after every session
+  root_cause: eventing was designed as a post-commit tail step, which is right for delivery and wrong for the log
+  escaped: true
+  fixed_by: FEAT-059
 history:
 - at: 2026-09-28T06:43:01.111708046Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T06:44:37.135728796Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-28T06:44:18.543106017Z
+updated_at: 2026-09-28T06:44:37.135737058Z

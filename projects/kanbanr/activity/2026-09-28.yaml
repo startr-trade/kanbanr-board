@@ -681,3 +681,6 @@
   actor: Venkatraman B
   message: approve definition of FEAT-084
   item: FEAT-084
+- time: 2026-09-28T16:31:38.231463363Z
+  actor: Venkatraman B
+  message: scope the init marker-clobber defect

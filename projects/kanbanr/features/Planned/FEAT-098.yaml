@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A commit guard that reads a quoted message to its real end, for anyone quoting text inside a commit message, so that a valid commit is not refused because of punctuation
+  goals:
+  - G-4
+  - G-5
+  zachman:
+    what: Where the guard decides an inline -m message ends
+    how: Honour backslash escapes inside double quotes when scanning for the closing quote
+    where: api/crates/kanbanr-cli/src/main.rs (inline_message)
+    when: Before every git commit Claude Code runs
+    who: Anyone whose commit message quotes a phrase
+    why: The scan stopped at the first quote character, including an escaped one, so the trailer after it was never seen and a correct commit was refused
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a double-quoted inline message contains a backslash-escaped quote, THE SYSTEM SHALL treat it as part of the message and read to the closing unescaped quote.
+    tests:
+    - name: tests::an_escaped_quote_does_not_end_the_message
+      kind: unit
+      state: planned
 created_at: 2026-09-28T18:26:54.089434026Z
-updated_at: 2026-09-28T18:26:54.089461115Z
+updated_at: 2026-09-28T18:26:54.114249212Z

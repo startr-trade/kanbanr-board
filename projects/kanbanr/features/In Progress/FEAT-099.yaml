@@ -53,10 +53,19 @@ definition:
     - name: 'hook: a second SessionStart sweep summarises nothing new'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T18:44:26.824051624Z
+    rev: c5e53663b5e53d45
+  approvals:
+  - at: 2026-09-28T18:44:26.824051624Z
+    by: Venkatraman B
+    verdict: approved
+    rev: c5e53663b5e53d45
   started_unapproved: the user approved this design in conversation ('Yes, please'); recording it before building
 history:
 - at: 2026-09-28T18:42:42.008775512Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T18:42:41.955946894Z
-updated_at: 2026-09-28T18:42:42.008775512Z
+updated_at: 2026-09-28T18:44:26.824051624Z

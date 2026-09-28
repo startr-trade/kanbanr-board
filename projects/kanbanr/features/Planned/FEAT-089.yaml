@@ -12,5 +12,53 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: An update path that is HTTPS end to end, redirects included, for anyone running self-update, so that the bytes which become the binary on their PATH arrive over a channel that was authenticated
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: The scheme of every request and every redirect hop the updater follows
+    how: Refuse a non-https URL before sending; turn off automatic redirect following and check each hop's scheme in code; pin the protocol in the installer scripts on both request and redirect
+    where: api/crates/kanbanr-cli/src/self_update.rs, scripts/install.sh, scripts/install.ps1
+    when: On every request self-update makes
+    who: Anyone updating over a network they do not control
+    why: ureq follows five redirects automatically with no scheme restriction, and a release download IS a redirect — so the bytes that become the binary arrived from a hop nothing had checked. Checksums do not save it, because the checksum file arrives over the same channel
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF a URL the updater is asked to fetch is not https, THEN THE SYSTEM SHALL refuse it before sending the request, and SHALL name the URL it refused.
+    tests:
+    - name: self_update::tests::only_https_is_fetched_and_a_downgrade_redirect_is_refused
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a response redirects, THE SYSTEM SHALL follow it only when the target is https, SHALL abort naming the target otherwise, and SHALL bound the number of hops.
+    tests:
+    - name: self_update::tests::only_https_is_fetched_and_a_downgrade_redirect_is_refused
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: nfr
+    text: THE SYSTEM SHALL send the GitHub token only to api.github.com, and SHALL NOT carry it across a redirect.
+    iso25010:
+    - Security
+    scenario:
+      stimulus: api.github.com redirects to another host
+      environment: A token is present in the environment
+      response: The redirect is followed without the Authorization header
+      measure: self_update::tests::only_https_is_fetched_and_a_downgrade_redirect_is_refused asserts the header is set for api.github.com alone and dropped on any redirect
+    tests:
+    - name: self_update::tests::only_https_is_fetched_and_a_downgrade_redirect_is_refused
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHERE the installer scripts fetch over the network, THE SYSTEM SHALL pin the protocol to https for both the request and any redirect.
+    tests:
+    - name: 'ci.yml installers: the scripts pin https on request and redirect'
+      kind: integration
+      state: planned
 created_at: 2026-09-28T17:11:23.572072975Z
-updated_at: 2026-09-28T17:11:23.572072975Z
+updated_at: 2026-09-28T17:11:23.597165027Z

@@ -68,8 +68,13 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-28T12:45:05.71384318Z
-    rev: 7c1d597e685c3be9
+    at: 2026-09-28T16:00:52.178243526Z
+    rev: 97a075efcce5b201
+  approvals:
+  - at: 2026-09-28T16:00:52.178243526Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 97a075efcce5b201
   started_unapproved: 'auto-pilot: the user reported the same complaint a second time — the previous fix changed the class, not the appearance'
 defect:
   severity: medium
@@ -82,4 +87,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:46:29.141154526Z
+updated_at: 2026-09-28T16:00:52.178243526Z

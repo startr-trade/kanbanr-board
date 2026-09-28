@@ -62,22 +62,6 @@
   - FEAT-051
   done: 3
   total: 5
-- code: FEAT-059
-  status: Completed
-  milestone: MS-004
-  kind: bug
-  priority: low
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - eventing
-  - defect
-  depends_on: []
-  done: 2
-  total: 2
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -908,6 +892,22 @@
   depends_on: []
   done: 3
   total: 3
+- code: FEAT-059
+  status: Completed
+  milestone: MS-004
+  kind: bug
+  priority: low
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - eventing
+  - defect
+  depends_on: []
+  done: 2
+  total: 2
 - code: FEAT-060
   status: Completed
   milestone: MS-006

@@ -1,6 +1,6 @@
 code: FEAT-070
 title: 'Defect: the monitor serves a stale index.html after the UI is rebuilt'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — serve the index that is on disk
+  tasks:
+  - key: T1
+    text: read index.html per request, keeping the last good copy as a mid-rebuild fallback
+    state: Completed
+  - key: T2
+    text: 'integration test: rebuild under a running daemon; a missing index serves the last copy'
+    state: Completed
+  created_at: 2026-09-28T06:41:31.02654032Z
 definition:
   statement: A monitor that serves the UI now on disk, for anyone watching a board while the app is being rebuilt, so that a stale process cannot masquerade as a broken feature
   goals:
@@ -52,5 +62,8 @@ history:
 - at: 2026-09-28T06:38:34.069812422Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T06:41:31.026564541Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T06:38:34.002092757Z
-updated_at: 2026-09-28T06:41:31.002956595Z
+updated_at: 2026-09-28T06:41:31.026564541Z

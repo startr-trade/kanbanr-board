@@ -1,3 +1,18 @@
+- id: L-14
+  lesson: When a feature 'stops working' in a long-running process, check what the process is actually serving before reading the feature's code
+  kind: practice
+  at: 2026-09-28T06:41:31.026792762Z
+  from_item: FEAT-070
+  evidence: diagrams reported as not rendering were fine; the daemon had cached an index.html from five rebuilds earlier that pointed at a deleted bundle
+  tags:
+  - ux
+  - daemon
+  - debugging
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-28T06:41:31.026792762Z
+  status: candidate
 - id: L-13
   lesson: Never record a user's agreement on their behalf — an approval is the one thing in the system that is worthless if the agent can produce it
   kind: pitfall

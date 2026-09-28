@@ -55,7 +55,7 @@
   done: 8
   total: 12
 - code: FEAT-087
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: defect
   priority: null
@@ -66,7 +66,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
+  done: 3
   total: 3
 - code: FEAT-001
   status: Completed
@@ -1312,7 +1312,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 7
+  done: 9
   total: 10
 - code: FEAT-004
   status: Out-of-Scope

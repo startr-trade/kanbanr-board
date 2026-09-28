@@ -1,6 +1,6 @@
 code: FEAT-087
 title: 'Defect: the released Linux binary would not run on Debian stable'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: Linux legs move to ubuntu-22.04 / ubuntu-22.04-arm (glibc 2.35), so the binaries run on bookworm and newer
-    state: NotStarted
+    state: Completed
   - key: T2
     text: verify-install's two images are now stated as bracketing the claimed range (2.36 and 2.39), not an arbitrary pair
-    state: NotStarted
+    state: Completed
   - key: T3
     text: docs/INSTALL.md names the floor and quotes the linker error, so it is not read as a corrupt download
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T16:47:19.695204951Z
 definition:
   statement: A released Linux binary that starts on the distributions we tell people it supports, for anyone installing it, so that the one-line install does not end in a linker error
@@ -63,5 +63,8 @@ history:
 - at: 2026-09-28T16:47:19.644700114Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:48:12.078193821Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T16:46:53.848512353Z
-updated_at: 2026-09-28T16:47:19.695215751Z
+updated_at: 2026-09-28T16:48:12.078193821Z

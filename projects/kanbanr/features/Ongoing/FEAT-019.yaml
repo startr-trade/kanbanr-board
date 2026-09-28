@@ -45,10 +45,10 @@ todo_lists:
     state: Completed
   - key: T7
     text: 'docs/INSTALL.md: the one-liner, rate limits and GH_TOKEN, the three fallbacks, published targets, the glibc floor, and why crates.io carries the CLI without the UI'
-    state: NotStarted
+    state: Completed
   - key: T8
     text: README and USER_GUIDE lead with the one-liner and link INSTALL.md; the guide documents init refusing to repoint an existing board
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T16:06:37.36352926Z
 created_at: 2026-06-12T05:00:59.989897872Z
-updated_at: 2026-09-28T16:47:19.695219674Z
+updated_at: 2026-09-28T16:48:12.078202478Z

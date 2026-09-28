@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: a control that looks like a control
+  tasks:
+  - key: T1
+    text: a --control surface token, raised, with hover/active/focus-visible states; .btn no longer reuses the label surface
+    state: NotStarted
+  - key: T2
+    text: .btn-danger for withdrawal — an action that removes something, distinct from the primary action
+    state: NotStarted
+  - key: T3
+    text: check:ui compares the .btn and .chip backgrounds, verified against the real revert
+    state: NotStarted
+  created_at: 2026-09-28T12:42:29.604790697Z
 definition:
   statement: A control that is recognisable as a control before anyone touches it, for the person looking for the action, so that the affordance does not depend on hovering
   goals:
@@ -65,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:29.571455144Z
+updated_at: 2026-09-28T12:42:29.604801966Z

@@ -1,6 +1,6 @@
 code: FEAT-093
 title: 'Defect: a failed batch leaves the board mutated and uncommitted'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -48,11 +48,16 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 29d95afd678bbb27
+  started_unapproved: approval lapsed only because the test name was corrected to the path cargo prints; the approved behaviour is unchanged
 defect:
   severity: high
   introduced_by: FEAT-011
   found_in: a batch with one stale task key, closing FEAT-080
   root_cause: batch applies operations in place and only commits at the end, so an early return leaves applied writes outside git
   escaped: true
+history:
+- at: 2026-09-28T18:14:18.474450167Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:14:18.009545735Z
+updated_at: 2026-09-28T18:14:18.474450167Z

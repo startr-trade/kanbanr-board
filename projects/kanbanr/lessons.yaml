@@ -1,3 +1,17 @@
+- id: L-13
+  lesson: Never record a user's agreement on their behalf — an approval is the one thing in the system that is worthless if the agent can produce it
+  kind: pitfall
+  at: 2026-09-28T06:04:38.684966736Z
+  from_item: FEAT-069
+  evidence: Claude ran `kanbanr approve FEAT-068` while defining it, which the skill explicitly forbids; the approval was recorded as 'by unknown' and there was no command to withdraw it
+  tags:
+  - approval
+  - method
+  goals:
+  - G-3
+  confidence: 0.6
+  last_affirmed: 2026-09-28T06:04:38.684966736Z
+  status: candidate
 - id: L-12
   lesson: A cap on a raw log is data loss wearing the costume of housekeeping — cap the view instead, and rotate the file so writes stay cheap
   kind: pitfall

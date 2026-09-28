@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: IF a commit supplies its message by file or editor rather than inline, THEN THE SYSTEM SHALL extract nothing and allow the command, leaving the check to the commit-msg hook.
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:11:07.891920649Z
+updated_at: 2026-09-28T16:11:15.602647985Z

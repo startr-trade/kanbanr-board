@@ -1,6 +1,6 @@
 code: FEAT-059
 title: 'Defect: events.yaml is always one write behind git'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: low
@@ -48,5 +48,10 @@ definition:
     - name: cli_event_log_is_committed_with_the_change
       kind: e2e
       state: planned
+  started_unapproved: 'auto-pilot: small pre-existing defect on the way to the log restructure'
+history:
+- at: 2026-09-28T06:43:01.111708046Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-28T06:43:01.080114601Z
+updated_at: 2026-09-28T06:43:01.111708046Z

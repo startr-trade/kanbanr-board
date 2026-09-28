@@ -38,7 +38,7 @@ definition:
     tests:
     - name: 'web: npm run check:ui (scripts/check-affordance.mjs)'
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL keep the approve control inside the expanded brief, so that approving follows reading it.
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T12:18:00.080066588Z
+updated_at: 2026-09-28T12:21:36.653259489Z

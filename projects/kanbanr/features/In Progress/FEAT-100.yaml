@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: Update the skill description and quickstart/everyday docs
     state: NotStarted
+  - key: T3
+    text: Walk the interview on a scratch repo and record evidence
+    state: NotStarted
   created_at: 2026-09-28T19:12:46.449721471Z
 definition:
   statement: A plan-mode setup interview for anyone starting a project with kanbanr through Claude, so that the board, charter and process are agreed in one approval before any other work begins
@@ -78,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:11:15.938923111Z
-updated_at: 2026-09-28T19:12:46.49088479Z
+updated_at: 2026-09-28T19:12:46.510813055Z

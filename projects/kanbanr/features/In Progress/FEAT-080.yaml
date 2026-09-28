@@ -11,7 +11,29 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: a bypass stays asked until it is answered
+  tasks:
+  - key: T1
+    text: a `ratified` verdict and ApprovalState, derived from the log's last verdict so the two cannot disagree
+    state: NotStarted
+  - key: T2
+    text: kanbanr ratify <CODE>, refusing an item that never took the bypass
+    state: NotStarted
+  - key: T3
+    text: doctor reports an unreconciled bypass past the terminal gate, naming the remedy
+    state: NotStarted
+  - key: T4
+    text: 'ratified renders differently everywhere: export, feature show, the review queue'
+    state: NotStarted
+  - key: T5
+    text: 'the CLI resolves a verdict''s author from the commit identity and refuses when there is none — it had been writing by: unknown in local mode'
+    state: NotStarted
+  - key: T6
+    text: the six unreconciled items ratified, with the mis-attributed first attempt withdrawn on the record rather than rewritten
+    state: NotStarted
+  created_at: 2026-09-28T18:00:25.69702855Z
 definition:
   statement: A recorded bypass that stays visible until someone answers it, and an approval record that can tell agreement before the work from agreement after it, for anyone auditing whether the gate was honoured, so that finishing is not how a question stops being asked
   goals:
@@ -75,4 +97,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T17:59:40.714820196Z
+updated_at: 2026-09-28T18:00:25.697039549Z

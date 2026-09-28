@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A header where each destination is offered once, for anyone navigating the monitor, so that two identical links do not invite a choice that does not exist
+  goals:
+  - G-5
+  zachman:
+    what: The duplicate Projects link in the app shell's header
+    how: The contextual strip drops its own Projects link, leaving the global nav as the single way up; check:ui fails on two links sharing a destination and a label
+    where: web/src/App.tsx, web/scripts/check-affordance.mjs
+    when: On every page inside a project
+    who: Anyone using the monitor, who sees the same word twice and has to work out that it means the same thing
+    why: Two navigations were added at different times, each correct alone, and nothing looked at the header as one thing
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE the app shell offers navigation, THE SYSTEM SHALL offer each destination at most once, so that no two links share both a destination and a label.
+    tests:
+    - name: 'web: npm run check:ui asserts no two app-shell links share a destination and a label'
+      kind: integration
+      state: planned
 created_at: 2026-09-28T16:13:36.939544943Z
-updated_at: 2026-09-28T16:13:36.939550734Z
+updated_at: 2026-09-28T16:13:36.959358345Z

@@ -59,6 +59,10 @@ definition:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T17:57:54.600767541Z
+    rev: 3224fbe2d43a4cee
   approvals:
   - at: 2026-09-28T17:56:28.781721151Z
     by: unknown
@@ -69,6 +73,11 @@ definition:
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
+    rev: 3224fbe2d43a4cee
+  - at: 2026-09-28T17:57:54.600767541Z
+    by: Venkatraman B
+    verdict: ratified
+    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
     rev: 3224fbe2d43a4cee
   started_unapproved: 'auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work'
 defect:
@@ -85,4 +94,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T17:57:54.579643175Z
+updated_at: 2026-09-28T17:57:54.600767541Z

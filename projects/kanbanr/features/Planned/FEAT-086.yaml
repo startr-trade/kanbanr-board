@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A guard that tells passing a flag apart from writing about one, for anyone whose commit message discusses the tooling, so that describing a bug is not mistaken for committing one
+  goals:
+  - G-4
+  - G-5
+  zachman:
+    what: How the guard decides a command skips the commit hooks
+    how: Read the commit invocation's tokens that sit outside quoted spans; the decision is one named function the guard and its test share
+    where: api/crates/kanbanr-cli/src/main.rs (skips_hooks, unquoted_tokens)
+    when: Before every git commit Claude Code runs
+    who: Anyone whose commit message quotes a command line — which, on this project, is most of them
+    why: FEAT-082 fixed one instance of a token matched without its boundary and left its twin two lines above; the next refusal looked like a new bug and was the same one
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the guard checks whether a command skips the commit hooks, THE SYSTEM SHALL consider only tokens outside quoted spans of the commit invocation, so that a flag named inside a message is not read as passed.
+    tests:
+    - name: tests::skipping_hooks_is_detected_as_a_flag_not_as_prose
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: nfr
+    text: THE SYSTEM SHALL express the decision once, so that a test cannot pass against a reimplementation while the code it guards is wrong.
+    iso25010:
+    - Maintainability
+    scenario:
+      stimulus: The hook-skipping rule changes
+      environment: The commit guard
+      response: The test changes with it, because it calls the same function
+      measure: tests::skipping_hooks_is_detected_as_a_flag_not_as_prose calls skips_hooks directly rather than restating its logic
+    tests:
+    - name: tests::skipping_hooks_is_detected_as_a_flag_not_as_prose
+      kind: unit
+      state: planned
 created_at: 2026-09-28T16:37:20.735297973Z
-updated_at: 2026-09-28T16:37:20.735304513Z
+updated_at: 2026-09-28T16:37:20.752898662Z

@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A review queue holding only the items where agreement still changes something, for the reviewer being asked to decide, so that the gate stays cheap enough to be read rather than rubber-stamped
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: Which items the review queue offers for agreement
+    how: The queue applies the same scope gate the doctor uses — not terminal, not a no-op disposition — and orders what remains so in-flight work comes first
+    where: core/dispatch.rs (GET /projects/{p}/review)
+    when: Whenever the review queue is read, by `kanbanr review --pending` or the monitor
+    who: The reviewer, who was shown six items when two were decisions
+    why: Approving must be cheap or it becomes theatre; asking for four retroactive signatures beside two real decisions teaches clicking without reading, and does it on the items where a signature means least
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the review queue is read, THE SYSTEM SHALL exclude items in a terminal or no-op status, so that agreement is only sought where it can still change what happens.
+    tests:
+    - name: tests::the_review_queue_asks_only_where_agreement_still_matters
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the review queue holds items in different statuses, THE SYSTEM SHALL order work already in progress before work that has not started.
+    tests:
+    - name: tests::the_review_queue_asks_only_where_agreement_still_matters
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: nfr
+    text: THE SYSTEM SHALL decide the review queue's scope and the doctor's scope from one shared rule, so that the two surfaces cannot report different answers to the same question.
+    iso25010:
+    - Maintainability
+    scenario:
+      stimulus: A status is added to the workflow, or the scope rule changes
+      environment: Any board
+      response: Both the doctor and the review queue change together
+      measure: the test asserts the queue's membership matches the doctor's scope gate on the same fixture
+    tests:
+    - name: tests::the_review_queue_asks_only_where_agreement_still_matters
+      kind: unit
+      state: planned
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:13:27.655131137Z
+updated_at: 2026-09-28T12:13:34.796124427Z

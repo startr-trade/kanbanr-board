@@ -1,0 +1,16 @@
+code: FEAT-076
+title: 'Defect: the review queue runs items together and its approve action does not read as a button'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T11:42:32.284950218Z
+updated_at: 2026-09-28T11:42:32.284956246Z

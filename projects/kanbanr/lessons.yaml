@@ -1,3 +1,14 @@
+- id: L-23
+  lesson: 'Recognise a token with its boundary, never as a substring. Three defects on this board are the same mistake: [no-ref] matched in prose so a commit explaining the escape was read as taking it (FEAT-056); a test name''s / was passed into a route by a whole-path encoder used on one segment (FEAT-079); and the commit guard found ''-m'' anywhere in a command line, refusing correct commits and blocking a Python script that merely mentioned the flag (FEAT-082). Writing the rule down after the first one did not stop the next two — so when parsing anything out of free text, state what the boundary is before writing the match.'
+  kind: pitfall
+  at: 2026-09-28T16:11:07.917895211Z
+  from_item: FEAT-082
+  tags:
+  - parsing
+  - guardrails
+  confidence: 0.6
+  last_affirmed: 2026-09-28T16:11:07.917895211Z
+  status: candidate
 - id: L-22
   lesson: Write the requirement as the property the user needs, not as the shape of the fix. FEAT-076/R-2's test was "no action element carries the chip class" — so changing the class satisfied it while the button still looked exactly like a tag, and the user reported the same complaint twice. The property was "recognisable as a control without hovering"; .btn and .chip had always declared the same background, which nothing compared. A test written from the fix passes on the next instance of the same bug.
   kind: pitfall

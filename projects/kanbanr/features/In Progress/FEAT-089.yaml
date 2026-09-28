@@ -1,6 +1,6 @@
 code: FEAT-089
 title: Updates must be fetched over HTTPS, redirects included
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -60,5 +60,10 @@ definition:
     - name: 'ci.yml installers: the scripts pin https on request and redirect'
       kind: integration
       state: planned
+  started_unapproved: 'auto-pilot: the user asked directly — ''We need to make sure that the application can reach github using https. http for updates are not good'''
+history:
+- at: 2026-09-28T17:11:23.634290076Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T17:11:23.572072975Z
-updated_at: 2026-09-28T17:11:23.597165027Z
+updated_at: 2026-09-28T17:11:23.634290076Z

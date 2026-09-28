@@ -44,7 +44,7 @@ definition:
     tests:
     - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE an action removes something that was recorded, THE SYSTEM SHALL distinguish it from the primary action on the page.
@@ -78,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:29.604801966Z
+updated_at: 2026-09-28T12:42:29.620840882Z

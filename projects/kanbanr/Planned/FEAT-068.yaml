@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A warning that stops once it has been answered, for whoever reads check and doctor, so that agreeing to a definition visibly resolves the escape it was recorded against
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The condition under which an unapproved start is reported
+    how: The record stays; the warning is gated on the approval state, and returns if the approval lapses
+    where: kanbanr-core doctor and the CLI's check report
+    when: Every time check or doctor runs
+    who: The person who just approved twelve definitions and was told eleven of them are still not ready
+    why: The warning asked the reader to review and approve what was built; they did, and it kept asking
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE an item's definition is approved and current, THE SYSTEM SHALL not warn that work started without approval.
+    tests:
+    - name: doctor::tests::an_answered_escape_stops_warning
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF an approved definition changes, THEN THE SYSTEM SHALL warn about the unapproved start again, because the agreement no longer covers what was built.
+    tests:
+    - name: doctor::tests::an_answered_escape_stops_warning
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL keep the recorded reason on the item whether or not it is being warned about.
+    tests:
+    - name: doctor::tests::an_answered_escape_stops_warning
+      kind: unit
+      state: planned
 created_at: 2026-09-28T06:04:12.641757243Z
-updated_at: 2026-09-28T06:04:12.641763032Z
+updated_at: 2026-09-28T06:04:12.658839848Z

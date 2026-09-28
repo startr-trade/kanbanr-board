@@ -38,7 +38,7 @@ definition:
     tests:
     - name: docs/INSTALL.md names the glibc floor and quotes the startup error
       kind: manual
-      state: planned
+      state: green
   started_unapproved: 'auto-pilot: the published Linux binary would not start on Debian stable'
 defect:
   severity: high
@@ -51,4 +51,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:46:53.848512353Z
-updated_at: 2026-09-28T16:47:19.644700114Z
+updated_at: 2026-09-28T16:47:19.67755026Z

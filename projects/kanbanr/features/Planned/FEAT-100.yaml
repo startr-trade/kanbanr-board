@@ -1,0 +1,58 @@
+code: FEAT-100
+title: 'Setup interview: kanbanr init runs through plan mode'
+status: Planned
+milestone: MS-006
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A plan-mode setup interview for anyone starting a project with kanbanr through Claude, so that the board, charter and process are agreed in one approval before any other work begins
+  goals:
+  - G-3
+  - G-5
+  - G-2
+  zachman:
+    what: The skill's activation procedure for an untracked project
+    how: The skill calls EnterPlanMode, gathers answers with AskUserQuestion, writes a setup plan with exact commands, and executes it only after ExitPlanMode is approved
+    where: skill/kanbanr/SKILL.md (Activation), docs/src/getting-started/quickstart.md
+    when: The first time a user asks Claude to set up or start using kanbanr in a folder with no .kanbanr marker
+    who: A developer adopting kanbanr on a new or existing project
+    why: 'Setup today is piecemeal: the charter is asked for before its board exists, and workflow and git hooks are left to be found later, so work starts before purpose and process are agreed'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the user asks Claude to set up kanbanr in a folder that is not yet tracked, THE SYSTEM SHALL enter plan mode before running any command that writes.
+    tests:
+    - name: 'manual: setup request on an untracked scratch repo enters plan mode first'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE in the setup interview, THE SYSTEM SHALL collect the board folder, project name, commit identity, charter, workflow and enforcement choices, and write them into the plan with the exact commands that will run.
+    tests:
+    - name: 'manual: the setup plan names every collected choice and its command'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN the setup plan is approved by exiting plan mode, THE SYSTEM SHALL run the full setup, save the plan as a board doc and verify it with doctor before starting any other work.
+    tests:
+    - name: 'manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean'
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF the folder already carries a .kanbanr marker whose board exists, THEN THE SYSTEM SHALL skip the interview and recover the board instead.
+    tests:
+    - name: 'manual: a tracked folder goes straight to recovery'
+      kind: manual
+      state: planned
+created_at: 2026-09-28T19:11:15.938923111Z
+updated_at: 2026-09-28T19:11:15.938929881Z

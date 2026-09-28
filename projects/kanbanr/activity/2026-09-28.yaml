@@ -650,3 +650,7 @@
 - time: 2026-09-28T16:17:15.358333212Z
   actor: Venkatraman B
   message: scope the one-line install and the embedded monitor
+- time: 2026-09-28T16:17:35.736733456Z
+  actor: Venkatraman B
+  message: define feature FEAT-084
+  item: FEAT-084

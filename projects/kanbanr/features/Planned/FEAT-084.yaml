@@ -12,5 +12,60 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A single command that installs kanbanr and shows the monitor over a board, for someone trying it for the first time, so that neither Node nor Rust nor Docker is in the way
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: Whether the shipped binary can serve the monitor, and whether there is a one-line way to get it
+    how: Embed the built SPA in the binary (compressed, overridden by an explicit --ui-dir) and publish install.sh / install.ps1 plus checksums from the release workflow
+    where: api/crates/kanbanr-server (asset serving), api/crates/kanbanr-cli (build), install.sh, install.ps1, .github/workflows/release.yml
+    when: On first install, and on every release
+    who: Someone evaluating kanbanr, who currently downloads a binary and gets an API with no web view and no explanation
+    why: The project's stated constraint is one binary installable without a toolchain; the monitor needs a second one, and the release tarball ships the binary alone, so the web view silently is not there
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the daemon starts without an explicit UI directory, THE SYSTEM SHALL serve the monitor from assets embedded in the binary.
+    tests:
+    - name: view_daemon::the_monitor_is_served_from_the_binary_with_no_ui_dir
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a UI directory is given explicitly, THE SYSTEM SHALL serve from it rather than from the embedded assets, so that developing against a live build is unchanged.
+    tests:
+    - name: view_daemon::an_explicit_ui_dir_overrides_the_embedded_monitor
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a build cannot include the web assets, THE SYSTEM SHALL say so at startup rather than serving an API that silently has no monitor.
+    tests:
+    - name: the daemon prints what is missing and how to supply it when built without assets
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN the install script runs, THE SYSTEM SHALL detect the platform, verify the downloaded asset against a published checksum, and print the commands that follow.
+    tests:
+    - name: install.sh is run in a clean container for each published target
+      kind: manual
+      state: planned
+  - id: R-5
+    kind: nfr
+    text: THE SYSTEM SHALL keep the embedded assets compressed, so that the binary grows by roughly the assets' compressed size rather than their raw size.
+    iso25010:
+    - Performance Efficiency
+    scenario:
+      stimulus: The SPA is embedded in the release binary
+      environment: A release build of kanbanr-cli
+      response: The binary grows by about 1 MB, not 3.4 MB
+      measure: the release binary stays under 14 MB (12 MB today; web/dist is 3.4 MB raw, 0.9 MB gzipped) — asserted by a size check in the release workflow
+    tests:
+    - name: release workflow asserts the packaged binary stays under the size ceiling
+      kind: manual
+      state: planned
 created_at: 2026-09-28T16:17:15.357031677Z
-updated_at: 2026-09-28T16:17:15.357031677Z
+updated_at: 2026-09-28T16:17:35.735502773Z

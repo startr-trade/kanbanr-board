@@ -1,6 +1,6 @@
 code: FEAT-081
 title: 'Defect: a button styled as a button still looked like a chip'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -53,11 +53,16 @@ definition:
     - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
       kind: integration
       state: planned
+  started_unapproved: 'auto-pilot: the user reported the same complaint a second time — the previous fix changed the class, not the appearance'
 defect:
   severity: medium
   introduced_by: FEAT-076
   found_in: reported by the user, second time for the same complaint
   root_cause: the requirement was written as a class name rather than as the property it was about, so both the fix and the guardrail satisfied the letter; .btn and .chip had always declared the same background, which no one had compared
   escaped: false
+history:
+- at: 2026-09-28T12:42:29.571455144Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:14.785379183Z
+updated_at: 2026-09-28T12:42:29.571455144Z

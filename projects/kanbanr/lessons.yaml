@@ -1,3 +1,17 @@
+- id: L-16
+  lesson: Never bulk-rewrite test paths with a blind find-and-replace — it double-applied on some lines and missed a status whose name I had not listed
+  kind: pitfall
+  at: 2026-09-28T07:03:04.139168135Z
+  from_item: FEAT-071
+  evidence: a scripted replacement produced features/features/Scheduled and skipped 'In Progress'; reverting and patching ten specific lines took less time than debugging it
+  tags:
+  - refactoring
+  - tests
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-28T07:03:04.139168135Z
+  status: candidate
 - id: L-15
   lesson: A bounded read that returns early must still apply its bound — the truncate came after the loop, so an early return handed back a whole extra day
   kind: pitfall

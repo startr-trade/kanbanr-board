@@ -1,6 +1,6 @@
 code: FEAT-071
 title: Status folders belong under features/
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: null
 priority: null
@@ -11,7 +11,23 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — the layout
+  tasks:
+  - key: T1
+    text: one helper decides where a status folder is; creation and reads use it
+    state: Completed
+  - key: T2
+    text: migrate on the first write, never leaving a file in neither place
+    state: Completed
+  - key: T3
+    text: doctor notices a folder that matches no status and no part of the layout
+    state: Completed
+  - key: T4
+    text: tests + migrate this board
+    state: Completed
+  created_at: 2026-09-28T07:03:04.138912559Z
 definition:
   statement: A project folder whose top level lists kinds of thing rather than states of one, for anyone reading the board on disk, so that the layout grows with the model and not with the workflow
   goals:
@@ -61,5 +77,8 @@ history:
 - at: 2026-09-28T06:58:07.783898876Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T07:03:04.13894453Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T06:47:33.271111269Z
-updated_at: 2026-09-28T07:02:37.596693694Z
+updated_at: 2026-09-28T07:03:04.13894453Z

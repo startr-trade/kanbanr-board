@@ -215,3 +215,6 @@
 - time: 2026-09-28T07:02:37.601980375Z
   actor: Venkatraman B
   message: record 84 test result(s) from a run
+- time: 2026-09-28T07:03:04.140890141Z
+  actor: Venkatraman B
+  message: 'FEAT-071: status folders live under features/'

@@ -1,3 +1,18 @@
+- id: L-17
+  lesson: Restart every long-running process that reads the data right after a storage or layout migration — a stale reader reports missing data, not a stale read
+  kind: practice
+  at: 2026-09-28T08:17:30.770886043Z
+  from_item: FEAT-072
+  evidence: a serve daemon started 23 minutes before FEAT-071 moved status folders under features/ served a board with zero items, which read as data loss; the third stale-process failure in one session after a cached index.html and an unregistered hook
+  tags:
+  - daemon
+  - migration
+  - ux
+  goals:
+  - G-5
+  confidence: 0.6
+  last_affirmed: 2026-09-28T08:17:30.770886043Z
+  status: candidate
 - id: L-16
   lesson: Never bulk-rewrite test paths with a blind find-and-replace — it double-applied on some lines and missed a status whose name I had not listed
   kind: pitfall

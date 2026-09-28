@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: One place that knows where the board is, for anyone who renames or relocates one, so that a convention is not enforced as a rule by scripts that guessed it
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: The board path used by the Makefile, the screenshot script and compose
+    how: Each asks `kanbanr where`, which reads the marker; the old derivation remains only as a fallback for a clone with no CLI
+    where: Makefile, tools/screenshots/capture.sh, docker/docker-compose.yml and the release guide
+    when: Whenever one of those is run
+    who: Anyone whose board is not named after its repository — which is anyone who renames one
+    why: Three call sites rebuilt a path the marker already records, so renaming a board broke all three while the CLI was unaffected
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a convenience target needs the board, THE SYSTEM SHALL take the path the CLI resolves rather than reconstructing it from a folder name.
+    tests:
+    - name: make -n serve and make -n docker-up print the path `kanbanr where` resolves, for a board not named after its repository
+      kind: manual
+      state: green
+  - id: R-2
+    kind: functional
+    text: IF the CLI is not installed, THEN THE SYSTEM SHALL fall back to the conventional path rather than failing with an empty value.
+    tests:
+    - name: the Makefile and capture.sh fall back to <repo>.kanbanr when `kanbanr where` produces nothing
+      kind: manual
+      state: green
+  - id: R-3
+    kind: functional
+    text: WHERE a tool cannot resolve the path itself, THE SYSTEM SHALL have it passed in and SHALL document how.
+    tests:
+    - name: make docker-up passes KANBANR_DATA_DIR to compose, and the compose file documents the direct invocation
+      kind: manual
+      state: green
 created_at: 2026-09-28T10:56:51.08349747Z
-updated_at: 2026-09-28T10:56:51.083504072Z
+updated_at: 2026-09-28T10:56:51.10038707Z

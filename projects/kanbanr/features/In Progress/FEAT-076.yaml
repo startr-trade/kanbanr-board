@@ -1,6 +1,6 @@
 code: FEAT-076
 title: 'Defect: the review queue runs items together and its approve action does not read as a button'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -46,11 +46,16 @@ definition:
     - name: 'review page: the approve button is inside the details body, not in the summary'
       kind: manual
       state: planned
+  started_unapproved: 'auto-pilot: the reviewer cannot find the action they are being asked to take'
 defect:
   severity: medium
   introduced_by: FEAT-067
   found_in: the user reviewing twelve definitions on the page
   root_cause: an action was given the label style while a button style already existed, and the items had no container to separate them
   escaped: true
+history:
+- at: 2026-09-28T11:42:32.356019197Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T11:42:32.325160837Z
+updated_at: 2026-09-28T11:42:32.356019197Z

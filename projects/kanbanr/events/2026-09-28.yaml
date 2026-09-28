@@ -94,3 +94,11 @@
   detail:
     status: Deferred
     terminal: false
+- time: 2026-09-28T11:42:32.368939496Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-076
+  message: feature FEAT-076 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

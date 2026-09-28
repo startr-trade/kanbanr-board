@@ -813,3 +813,7 @@
   actor: Venkatraman B
   message: test self_update%3A%3Atests%3A%3Aa_rebuilt_release_at_the_same_version_is_an_update of FEAT-088/R-1 is now green
   item: FEAT-088
+- time: 2026-09-28T17:06:30.210636281Z
+  actor: Venkatraman B
+  message: test self_update%3A%3Atests%3A%3Aa_rebuilt_release_at_the_same_version_is_an_update of FEAT-088/R-2 is now green
+  item: FEAT-088

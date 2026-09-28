@@ -1,3 +1,6 @@
+- time: 2026-09-28T06:38:34.004730833Z
+  actor: Venkatraman B
+  message: 'defect: the monitor serves a stale index after the UI is rebuilt'
 - time: 2026-09-28T06:37:35.324562332Z
   actor: Venkatraman B
   message: 'FEAT-069: withdrawal built'
@@ -681,7 +684,3 @@
   actor: Venkatraman B
   message: move feature FEAT-034
   item: FEAT-034
-- time: 2026-06-18T19:26:27.163461197Z
-  actor: Venkatraman B
-  message: move feature FEAT-032
-  item: FEAT-032

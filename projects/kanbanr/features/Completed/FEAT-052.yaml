@@ -89,9 +89,18 @@ definition:
     - name: kanbanr doctor reports no definition gaps on items created since the charter was adopted
       kind: manual
       state: green
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T08:20:50.694275862Z
+    rev: 12f12b11870d55c5
+  approvals:
+  - at: 2026-09-28T08:20:50.694275862Z
+    by: reviewed in the monitor
+    verdict: approved
+    rev: 12f12b11870d55c5
 history:
 - at: 2026-09-28T07:09:03.121397907Z
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410538489Z
-updated_at: 2026-09-28T07:09:03.121397907Z
+updated_at: 2026-09-28T08:20:50.694275862Z

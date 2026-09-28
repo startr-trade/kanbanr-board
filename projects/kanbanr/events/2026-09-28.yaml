@@ -1,0 +1,56 @@
+- time: 2026-09-28T05:55:51.667259173Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-067
+  message: feature FEAT-067 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:04:38.732714447Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-068
+  message: feature FEAT-068 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:31:37.981501013Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-069
+  message: feature FEAT-069 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:38:34.086776335Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-070
+  message: feature FEAT-070 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:43:01.128517107Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-059
+  message: feature FEAT-059 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:45:15.484291357Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-066
+  message: feature FEAT-066 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false
+- time: 2026-09-28T06:58:07.794825153Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-071
+  message: feature FEAT-071 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

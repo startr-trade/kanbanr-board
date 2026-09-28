@@ -409,3 +409,7 @@
   actor: Venkatraman B
   message: test eventing%3A%3Atests%3A%3Aa_withdrawn_approval_is_an_event of FEAT-077/R-2 is now green
   item: FEAT-077
+- time: 2026-09-28T12:18:00.117904729Z
+  actor: Venkatraman B
+  message: test the%20review%20page%20and%20feature%20page%20read%20api.approver%28meta%29%20and%20disable%20the%20action%20when%20it%20is%20null of FEAT-077/R-3 is now green
+  item: FEAT-077

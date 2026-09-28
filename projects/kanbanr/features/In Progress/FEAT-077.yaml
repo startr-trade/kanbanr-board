@@ -45,7 +45,7 @@ definition:
     tests:
     - name: the review page and feature page read api.approver(meta) and disable the action when it is null
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN a withdrawal is being recorded, THE SYSTEM SHALL collect its reason within the page, showing what withdrawing does before it is confirmed.
@@ -65,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:06:50.947612246Z
-updated_at: 2026-09-28T12:18:00.10459004Z
+updated_at: 2026-09-28T12:18:00.116963622Z

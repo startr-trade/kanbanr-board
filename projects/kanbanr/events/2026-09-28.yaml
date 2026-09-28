@@ -482,3 +482,11 @@
     by: Venkatraman B
     reason: ''
     status: In Progress
+- time: 2026-09-28T18:07:24.571723979Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-095
+  message: feature FEAT-095 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

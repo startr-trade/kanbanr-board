@@ -1,6 +1,6 @@
 code: FEAT-095
 title: 'Release guardrails: the tag is checked, and a re-run publish is not a failure'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -46,5 +46,10 @@ definition:
     - name: release.yml crates job tolerates only 'already exists on crates.io'
       kind: manual
       state: planned
+  started_unapproved: the code is already merged, in 4da3494 under FEAT-080's trailer; this item records it so it has a history of its own
+history:
+- at: 2026-09-28T18:07:24.550530799Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T18:07:14.401982056Z
-updated_at: 2026-09-28T18:07:14.427439752Z
+updated_at: 2026-09-28T18:07:24.550530799Z

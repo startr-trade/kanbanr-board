@@ -1,6 +1,6 @@
 code: FEAT-102
 title: 'Defect: the shipped session-start and stop-check hooks were replaced by empty stubs'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -39,5 +39,10 @@ definition:
     - name: hooks::tests::shipped_scripts_are_not_stubs
       kind: unit
       state: planned
+  started_unapproved: restores behaviour already agreed and shipped (FEAT-044/054/055); broken hooks affect every session, ratify on review
+history:
+- at: 2026-09-28T19:20:50.675558868Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T19:20:44.727093541Z
-updated_at: 2026-09-28T19:20:44.727107493Z
+updated_at: 2026-09-28T19:20:50.675558868Z

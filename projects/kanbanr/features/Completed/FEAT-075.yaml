@@ -59,6 +59,16 @@ definition:
       kind: unit
       state: green
       checked_rev: c025d5eba151
+  approval:
+    by: unknown
+    at: 2026-09-28T17:56:28.756539283Z
+    rev: 80b517530d0ebe40
+  approvals:
+  - at: 2026-09-28T17:56:28.756539283Z
+    by: unknown
+    verdict: ratified
+    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
+    rev: 80b517530d0ebe40
   started_unapproved: 'auto-pilot: the gate is blocking a deliberate deferral'
 defect:
   severity: medium
@@ -75,4 +85,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T11:28:43.037498825Z
-updated_at: 2026-09-28T11:31:02.594115221Z
+updated_at: 2026-09-28T17:56:28.756539283Z

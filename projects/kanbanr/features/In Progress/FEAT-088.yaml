@@ -60,6 +60,20 @@ definition:
     - name: self_update::tests::nothing_checks_for_updates_unless_asked
       kind: unit
       state: planned
+  - id: R-7
+    kind: functional
+    text: WHEN the binary reports its version, THE SYSTEM SHALL also name the commit it was built from, so that an installed binary can be matched against the release page without running anything.
+    tests:
+    - name: 'release.yml: the binary names the commit it was built from, and is neither dirty nor unknown'
+      kind: integration
+      state: planned
+  - id: R-8
+    kind: functional
+    text: WHERE a rebuild is reported, THE SYSTEM SHALL distinguish a rebuild of the same commit from a tag that now names different source.
+    tests:
+    - name: self_update::tests::a_rebuilt_release_at_the_same_version_is_an_update
+      kind: unit
+      state: planned
   - id: R-6
     kind: nfr
     text: WHEN the binary makes an outbound HTTPS request, THE SYSTEM SHALL verify the server's certificate against a bundled root store.
@@ -69,10 +83,10 @@ definition:
       stimulus: self-update contacts api.github.com and the release download host
       environment: Any supported platform, with no system certificate configuration
       response: The connection is established and the certificate verified, or refused
-      measure: self_update::tests::the_http_agent_is_built_with_tls asserts the agent is constructed with a TLS backend, and `cargo tree` shows rustls in the CLI's dependency graph
+      measure: ci.yml fails the build when cargo tree -p kanbanr-cli -e normal -i rustls finds no TLS backend
     tests:
-    - name: self_update::tests::the_http_agent_is_built_with_tls
-      kind: unit
+    - name: 'ci.yml: cargo tree -p kanbanr-cli -e normal -i rustls'
+      kind: integration
       state: planned
   started_unapproved: 'auto-pilot: the user asked for it directly — ''Please do a self-update feature. It should look at the checksum represented by the current version against the checksum in github'''
 history:
@@ -80,4 +94,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:57:32.036471598Z
-updated_at: 2026-09-28T16:57:41.584717368Z
+updated_at: 2026-09-28T17:06:30.173499385Z

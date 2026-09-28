@@ -1,0 +1,62 @@
+- time: 2026-09-12T19:35:20.22852737Z
+  actor: Venkatraman B
+  message: 'Scope: docs default to kanbanr (skill contract)'
+- time: 2026-09-12T19:36:48.449991841Z
+  actor: Venkatraman B
+  message: edit feature FEAT-040
+  item: FEAT-040
+- time: 2026-09-12T19:36:58.18155854Z
+  actor: Venkatraman B
+  message: 'FEAT-040 done: docs default to kanbanr'
+- time: 2026-09-12T20:00:12.350933603Z
+  actor: Venkatraman B
+  message: 'Scope FEAT: sibling <project>.kanbanr data folder'
+- time: 2026-09-12T20:06:23.30331773Z
+  actor: Venkatraman B
+  message: 'FEAT-041: core resolution done'
+- time: 2026-09-12T20:10:49.306698247Z
+  actor: Venkatraman B
+  message: 'FEAT-041: CLI + tests done'
+- time: 2026-09-12T20:12:31.881978676Z
+  actor: Venkatraman B
+  message: 'FEAT-041: hooks done'
+- time: 2026-09-12T20:21:47.244943898Z
+  actor: Venkatraman B
+  message: 'FEAT-041 done: sibling <project>.kanbanr board folder'
+- time: 2026-09-12T20:50:03.044519147Z
+  actor: Venkatraman B
+  message: Schedule FEAT-042 (import trackers) + FEAT-043 (GitHub mirror)
+- time: 2026-09-12T20:50:05.895043221Z
+  actor: Venkatraman B
+  message: edit feature FEAT-042
+  item: FEAT-042
+- time: 2026-09-12T20:50:05.981461628Z
+  actor: Venkatraman B
+  message: edit feature FEAT-043
+  item: FEAT-043
+- time: 2026-09-12T20:50:06.077145138Z
+  actor: Venkatraman B
+  message: move feature FEAT-042
+  item: FEAT-042
+- time: 2026-09-12T20:50:06.21028715Z
+  actor: Venkatraman B
+  message: update task T1 (FEAT-042/TL-001)
+  item: FEAT-042
+- time: 2026-09-12T20:57:17.953781389Z
+  actor: Venkatraman B
+  message: batch update
+- time: 2026-09-12T21:04:13.651451452Z
+  actor: Venkatraman B
+  message: batch update
+- time: 2026-09-12T21:06:58.75824991Z
+  actor: Venkatraman B
+  message: FEAT-042 done; start FEAT-043
+- time: 2026-09-12T21:10:43.558420722Z
+  actor: Venkatraman B
+  message: batch update
+- time: 2026-09-12T21:15:51.135953722Z
+  actor: Venkatraman B
+  message: batch update
+- time: 2026-09-12T21:31:32.145958892Z
+  actor: Venkatraman B
+  message: 'FEAT-043 done: GitHub issue mirror'

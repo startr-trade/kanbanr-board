@@ -1,0 +1,332 @@
+- time: 2026-09-25T00:29:29.630133736Z
+  actor: Venkatraman B
+  message: update project charter
+- time: 2026-09-25T00:31:23.032677245Z
+  actor: Venkatraman B
+  message: define feature FEAT-058
+  item: FEAT-058
+- time: 2026-09-25T00:31:35.64833698Z
+  actor: Venkatraman B
+  message: Start FEAT-049 (EARS/ISO validation + gap checks)
+- time: 2026-09-25T00:38:45.334183074Z
+  actor: Venkatraman B
+  message: FEAT-049 complete
+- time: 2026-09-25T00:38:58.965287743Z
+  actor: Venkatraman B
+  message: approve definition of FEAT-058
+  item: FEAT-058
+- time: 2026-09-25T00:38:58.980370739Z
+  actor: Venkatraman B
+  message: Start FEAT-058
+- time: 2026-09-25T00:42:57.41295045Z
+  actor: Venkatraman B
+  message: define feature FEAT-058
+  item: FEAT-058
+- time: 2026-09-25T00:42:57.4257987Z
+  actor: Venkatraman B
+  message: FEAT-058 tasks
+- time: 2026-09-25T00:43:37.248671002Z
+  actor: Venkatraman B
+  message: define feature FEAT-058
+  item: FEAT-058
+- time: 2026-09-25T00:46:52.363953679Z
+  actor: Venkatraman B
+  message: Start FEAT-050
+- time: 2026-09-25T00:51:11.532292682Z
+  actor: Venkatraman B
+  message: FEAT-050 complete
+- time: 2026-09-25T00:51:57.085272894Z
+  actor: Venkatraman B
+  message: Start FEAT-051
+- time: 2026-09-25T00:56:07.183770341Z
+  actor: Venkatraman B
+  message: FEAT-051 complete
+- time: 2026-09-25T00:56:25.676441568Z
+  actor: Venkatraman B
+  message: Start FEAT-053
+- time: 2026-09-25T01:16:15.867251882Z
+  actor: Venkatraman B
+  message: define feature FEAT-053
+  item: FEAT-053
+- time: 2026-09-25T01:16:32.352552919Z
+  actor: Venkatraman B
+  message: record 9 test result(s) from a run
+- time: 2026-09-25T01:16:54.316325306Z
+  actor: Venkatraman B
+  message: test legacy%20invariant%3A%20kanbanr%20board%20and%20feature%20show%20leave%20%60git%20status%60%20in%20the%20data%20repo%20empty of FEAT-053/R-7 is now green
+  item: FEAT-053
+- time: 2026-09-25T01:17:21.753135176Z
+  actor: Venkatraman B
+  message: batch update
+- time: 2026-09-25T01:28:33.965676142Z
+  actor: Venkatraman B
+  message: define feature FEAT-056
+  item: FEAT-056
+- time: 2026-09-25T01:28:33.990549764Z
+  actor: Venkatraman B
+  message: move feature FEAT-056
+  item: FEAT-056
+- time: 2026-09-25T01:28:59.504430522Z
+  actor: Venkatraman B
+  message: record 19 test result(s) from a run
+- time: 2026-09-25T01:29:14.538882702Z
+  actor: Venkatraman B
+  message: define feature FEAT-056
+  item: FEAT-056
+- time: 2026-09-25T01:29:14.554271623Z
+  actor: Venkatraman B
+  message: record 12 test result(s) from a run
+- time: 2026-09-25T01:29:27.050693987Z
+  actor: Venkatraman B
+  message: 'FEAT-056: record the session''s tasks'
+- time: 2026-09-25T01:31:01.175179459Z
+  actor: Venkatraman B
+  message: 'FEAT-056: tests and gates done'
+- time: 2026-09-25T07:47:42.59296908Z
+  actor: Venkatraman B
+  message: define feature FEAT-054
+  item: FEAT-054
+- time: 2026-09-25T07:47:42.617593307Z
+  actor: Venkatraman B
+  message: move feature FEAT-054
+  item: FEAT-054
+- time: 2026-09-25T07:47:42.635003539Z
+  actor: Venkatraman B
+  message: 'FEAT-054: plan the session'
+- time: 2026-09-25T07:56:01.030012611Z
+  actor: Venkatraman B
+  message: record 27 test result(s) from a run
+- time: 2026-09-25T07:56:13.51806592Z
+  actor: Venkatraman B
+  message: 'FEAT-054: tasks done'
+- time: 2026-09-25T07:56:53.756102717Z
+  actor: Venkatraman B
+  message: 'defect: the retro miscounts scope growth and unproven requirements'
+- time: 2026-09-25T07:57:11.333584553Z
+  actor: Venkatraman B
+  message: define feature FEAT-060
+  item: FEAT-060
+- time: 2026-09-25T07:57:11.352473557Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-060
+  item: FEAT-060
+- time: 2026-09-25T07:57:11.38105473Z
+  actor: Venkatraman B
+  message: move feature FEAT-060
+  item: FEAT-060
+- time: 2026-09-25T08:00:29.736650264Z
+  actor: Venkatraman B
+  message: record 31 test result(s) from a run
+- time: 2026-09-25T08:00:29.758254134Z
+  actor: Venkatraman B
+  message: 'FEAT-060: record the fix'
+- time: 2026-09-25T08:00:42.315654091Z
+  actor: Venkatraman B
+  message: FEAT-060 done
+- time: 2026-09-25T08:01:12.711213521Z
+  actor: Venkatraman B
+  message: 'defect: auto-completion leaves no transition behind'
+- time: 2026-09-25T08:01:12.727092892Z
+  actor: Venkatraman B
+  message: define feature FEAT-061
+  item: FEAT-061
+- time: 2026-09-25T08:01:12.744886956Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-061
+  item: FEAT-061
+- time: 2026-09-25T08:01:12.771979256Z
+  actor: Venkatraman B
+  message: move feature FEAT-061
+  item: FEAT-061
+- time: 2026-09-25T08:02:39.950108676Z
+  actor: Venkatraman B
+  message: record 31 test result(s) from a run
+- time: 2026-09-25T08:02:39.972251892Z
+  actor: Venkatraman B
+  message: 'FEAT-061: record the fix'
+- time: 2026-09-25T08:02:52.409249115Z
+  actor: Venkatraman B
+  message: define feature FEAT-061
+  item: FEAT-061
+- time: 2026-09-25T08:02:52.42783632Z
+  actor: Venkatraman B
+  message: record 2 test result(s) from a run
+- time: 2026-09-25T08:03:02.419869695Z
+  actor: Venkatraman B
+  message: FEAT-061 done
+- time: 2026-09-25T08:03:46.207226694Z
+  actor: Venkatraman B
+  message: 'defect: the report''s two noisy outputs'
+- time: 2026-09-25T08:03:46.224551254Z
+  actor: Venkatraman B
+  message: define feature FEAT-062
+  item: FEAT-062
+- time: 2026-09-25T08:03:46.241617607Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-062
+  item: FEAT-062
+- time: 2026-09-25T08:03:46.269849254Z
+  actor: Venkatraman B
+  message: move feature FEAT-062
+  item: FEAT-062
+- time: 2026-09-25T08:04:51.007301646Z
+  actor: Venkatraman B
+  message: record 4 test result(s) from a run
+- time: 2026-09-25T08:05:23.76423554Z
+  actor: Venkatraman B
+  message: record 35 test result(s) from a run
+- time: 2026-09-25T08:05:34.850460345Z
+  actor: Venkatraman B
+  message: 'FEAT-062: record the fix'
+- time: 2026-09-25T08:06:13.586696183Z
+  actor: Venkatraman B
+  message: define feature FEAT-055
+  item: FEAT-055
+- time: 2026-09-25T08:06:13.615746215Z
+  actor: Venkatraman B
+  message: move feature FEAT-055
+  item: FEAT-055
+- time: 2026-09-25T08:06:13.637683231Z
+  actor: Venkatraman B
+  message: 'FEAT-055: plan the session'
+- time: 2026-09-25T08:11:55.210463994Z
+  actor: Venkatraman B
+  message: record 41 test result(s) from a run
+- time: 2026-09-25T08:12:10.112160432Z
+  actor: Venkatraman B
+  message: 'FEAT-055: the lessons this session actually produced'
+- time: 2026-09-25T08:13:48.253913944Z
+  actor: Venkatraman B
+  message: 'defect: the retro asks for waves it cannot describe, and dresses changelog timestamps as cycle time'
+- time: 2026-09-25T08:14:05.331480194Z
+  actor: Venkatraman B
+  message: define feature FEAT-063
+  item: FEAT-063
+- time: 2026-09-25T08:14:05.350188701Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-063
+  item: FEAT-063
+- time: 2026-09-25T08:14:05.381107926Z
+  actor: Venkatraman B
+  message: move feature FEAT-063
+  item: FEAT-063
+- time: 2026-09-25T08:16:15.189919826Z
+  actor: Venkatraman B
+  message: record 44 test result(s) from a run
+- time: 2026-09-25T08:16:15.212557991Z
+  actor: Venkatraman B
+  message: 'FEAT-063: record the fix and the lesson'
+- time: 2026-09-25T11:06:00.311910459Z
+  actor: Venkatraman B
+  message: define feature FEAT-057
+  item: FEAT-057
+- time: 2026-09-25T11:06:00.350399543Z
+  actor: Venkatraman B
+  message: move feature FEAT-057
+  item: FEAT-057
+- time: 2026-09-25T11:06:00.377051632Z
+  actor: Venkatraman B
+  message: 'FEAT-057: plan the session'
+- time: 2026-09-25T11:21:49.035244383Z
+  actor: Venkatraman B
+  message: 'FEAT-024: the contact placeholders are filled'
+- time: 2026-09-25T11:23:21.922397015Z
+  actor: Venkatraman B
+  message: record 54 test result(s) from a run
+- time: 2026-09-25T11:23:28.87758239Z
+  actor: Venkatraman B
+  message: record an architecture decision
+- time: 2026-09-25T11:23:28.889519456Z
+  actor: Venkatraman B
+  message: record an architecture decision
+- time: 2026-09-25T11:23:52.096801223Z
+  actor: Venkatraman B
+  message: remove document
+- time: 2026-09-25T11:23:52.1061199Z
+  actor: Venkatraman B
+  message: remove document
+- time: 2026-09-25T11:24:39.743874865Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T11:24:48.949854593Z
+  actor: Venkatraman B
+  message: record an architecture decision
+- time: 2026-09-25T11:24:48.960229488Z
+  actor: Venkatraman B
+  message: record an architecture decision
+- time: 2026-09-25T11:25:19.169475306Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T11:25:19.179527773Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T11:26:09.832488343Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T11:26:09.843419166Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T11:26:16.201474685Z
+  actor: Venkatraman B
+  message: 'update config: default-state'
+- time: 2026-09-25T11:26:54.026529354Z
+  actor: Venkatraman B
+  message: 'FEAT-057: tasks done, decisions recorded'
+- time: 2026-09-25T12:58:09.727594573Z
+  actor: Venkatraman B
+  message: 'FEAT-024: owner slug and contacts are filled; the remaining steps are account-level'
+- time: 2026-09-25T18:16:42.488759476Z
+  actor: Venkatraman B
+  message: 'FEAT-024: the board moved beside the repo; the data question is closed'
+- time: 2026-09-25T18:21:59.263107653Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T18:22:19.514966694Z
+  actor: Venkatraman B
+  message: configure doc folder
+- time: 2026-09-25T18:22:19.524733528Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T18:31:20.823986369Z
+  actor: Venkatraman B
+  message: configure doc folder
+- time: 2026-09-25T18:31:20.831056647Z
+  actor: Venkatraman B
+  message: update document
+- time: 2026-09-25T18:32:01.706145581Z
+  actor: Venkatraman B
+  message: 'FEAT-052: docs audited, stale content moved to the board'
+- time: 2026-09-25T18:35:10.371190869Z
+  actor: Venkatraman B
+  message: record a lesson
+- time: 2026-09-25T18:40:41.100434139Z
+  actor: Venkatraman B
+  message: scope the two items that tie the board to the agent's configuration
+- time: 2026-09-25T18:40:56.571973436Z
+  actor: Venkatraman B
+  message: define feature FEAT-064
+  item: FEAT-064
+- time: 2026-09-25T18:40:56.59818404Z
+  actor: Venkatraman B
+  message: move feature FEAT-064
+  item: FEAT-064
+- time: 2026-09-25T18:44:31.739258393Z
+  actor: Venkatraman B
+  message: record 58 test result(s) from a run
+- time: 2026-09-25T18:44:39.768114202Z
+  actor: Venkatraman B
+  message: FEAT-064 done
+- time: 2026-09-25T18:45:12.113459027Z
+  actor: Venkatraman B
+  message: define feature FEAT-065
+  item: FEAT-065
+- time: 2026-09-25T18:45:12.145171668Z
+  actor: Venkatraman B
+  message: move feature FEAT-065
+  item: FEAT-065
+- time: 2026-09-25T18:58:13.985802945Z
+  actor: Venkatraman B
+  message: update project charter
+- time: 2026-09-25T18:58:32.924434716Z
+  actor: Venkatraman B
+  message: 'defect: the capped logs discard raw history, against the charter''s constraint'

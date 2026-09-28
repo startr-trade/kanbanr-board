@@ -1,3 +1,15 @@
+- id: L-15
+  lesson: A bounded read that returns early must still apply its bound — the truncate came after the loop, so an early return handed back a whole extra day
+  kind: pitfall
+  at: 2026-09-28T06:51:43.363485519Z
+  from_item: FEAT-066
+  evidence: read(limit=7) returned 10 entries because the early return skipped the truncate; caught by the test that asked for a window spanning day files
+  tags:
+  - storage
+  - correctness
+  confidence: 0.6
+  last_affirmed: 2026-09-28T06:51:43.363485519Z
+  status: candidate
 - id: L-14
   lesson: When a feature 'stops working' in a long-running process, check what the process is actually serving before reading the feature's code
   kind: practice

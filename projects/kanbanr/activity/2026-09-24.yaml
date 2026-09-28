@@ -1,0 +1,50 @@
+- time: 2026-09-24T18:45:46.412839301Z
+  actor: Venkatraman B
+  message: 'Scope MS-006: reasoning, evidence and traceability (FEAT-046..057)'
+- time: 2026-09-24T18:46:03.261929757Z
+  actor: Venkatraman B
+  message: Start FEAT-046 (charter)
+- time: 2026-09-24T18:47:28.642548647Z
+  actor: Venkatraman B
+  message: Record monitor-surface decision on FEAT-050
+- time: 2026-09-24T18:49:01.567995484Z
+  actor: Venkatraman B
+  message: 'FEAT-050: unified search across the graph (troubleshooting)'
+- time: 2026-09-24T18:59:52.610870832Z
+  actor: Venkatraman B
+  message: 'FEAT-050: drill-down search over one address space'
+- time: 2026-09-24T19:00:33.863089018Z
+  actor: Venkatraman B
+  message: 'FEAT-046 complete: project charter'
+- time: 2026-09-24T19:01:33.389537393Z
+  actor: Venkatraman B
+  message: Start FEAT-047 (definition block)
+- time: 2026-09-24T19:06:45.257802743Z
+  actor: Venkatraman B
+  message: 'Scope: Rust edition 2024 + toolchain pin (chore)'
+- time: 2026-09-24T19:11:55.389644409Z
+  actor: Venkatraman B
+  message: 'FEAT-058: pin latest stable 1.98.1, MSRV nuance'
+- time: 2026-09-24T19:24:02.998627561Z
+  actor: Venkatraman B
+  message: 'FEAT-047 complete: definition block'
+- time: 2026-09-24T19:24:33.090051861Z
+  actor: Venkatraman B
+  message: Start FEAT-048 (approval gates)
+- time: 2026-09-24T19:29:41.611953751Z
+  actor: Venkatraman B
+  message: move feature FEAT-049
+  item: FEAT-049
+- time: 2026-09-24T19:29:41.658148736Z
+  actor: Venkatraman B
+  message: move feature FEAT-049
+  item: FEAT-049
+- time: 2026-09-24T19:30:20.216495796Z
+  actor: Venkatraman B
+  message: FEAT-048 complete; note events.yaml lag defect
+- time: 2026-09-24T19:30:42.756922497Z
+  actor: Venkatraman B
+  message: Start FEAT-052 (method in the skill)
+- time: 2026-09-24T19:32:04.798438595Z
+  actor: Venkatraman B
+  message: 'FEAT-052: skill enforcement contract'

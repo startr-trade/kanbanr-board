@@ -1,3 +1,15 @@
+- id: L-22
+  lesson: Write the requirement as the property the user needs, not as the shape of the fix. FEAT-076/R-2's test was "no action element carries the chip class" — so changing the class satisfied it while the button still looked exactly like a tag, and the user reported the same complaint twice. The property was "recognisable as a control without hovering"; .btn and .chip had always declared the same background, which nothing compared. A test written from the fix passes on the next instance of the same bug.
+  kind: pitfall
+  at: 2026-09-28T12:42:44.3359885Z
+  from_item: FEAT-081
+  tags:
+  - requirements
+  - guardrails
+  - web
+  confidence: 0.6
+  last_affirmed: 2026-09-28T12:42:44.3359885Z
+  status: candidate
 - id: L-21
   lesson: A greppable rule belongs in a script, not a review habit. FEAT-076's fix was a one-word class change; what makes it stay fixed is `npm run check:ui`, which fails on a button styled as a chip and on a chip with an onClick. It catches the exact regression that shipped, from both directions, and the next reintroduction looks perfectly ordinary in a diff without it.
   kind: practice

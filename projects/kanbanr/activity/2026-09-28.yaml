@@ -638,3 +638,6 @@
   actor: Venkatraman B
   message: test web%3A%20npm%20run%20check%3Aui%20asserts%20no%20two%20app-shell%20links%20share%20a%20destination%20and%20a%20label of FEAT-083/R-1 is now green
   item: FEAT-083
+- time: 2026-09-28T16:15:15.395206669Z
+  actor: Venkatraman B
+  message: record the duplicate-link fix

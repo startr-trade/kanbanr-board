@@ -374,3 +374,7 @@
   actor: Venkatraman B
   message: record defect details for FEAT-077
   item: FEAT-077
+- time: 2026-09-28T12:07:12.963608405Z
+  actor: Venkatraman B
+  message: move feature FEAT-077
+  item: FEAT-077

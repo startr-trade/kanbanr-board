@@ -1,3 +1,7 @@
+- time: 2026-09-28T05:55:51.653751745Z
+  actor: Venkatraman B
+  message: move feature FEAT-067
+  item: FEAT-067
 - time: 2026-09-28T05:55:51.621924531Z
   actor: Venkatraman B
   message: define feature FEAT-067
@@ -682,6 +686,3 @@
 - time: 2026-06-12T07:18:12.411439786Z
   actor: kanbanr-dev
   message: add document asset guides/getting-started-diagram.png
-- time: 2026-06-12T07:18:12.39197563Z
-  actor: kanbanr-dev
-  message: update document

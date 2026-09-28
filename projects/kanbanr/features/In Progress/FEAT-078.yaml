@@ -48,7 +48,7 @@ definition:
       stimulus: A status is added to the workflow, or the scope rule changes
       environment: Any board
       response: Both the doctor and the review queue change together
-      measure: the test asserts the queue's membership matches the doctor's scope gate on the same fixture
+      measure: tests::the_review_queue_asks_only_where_agreement_still_matters asserts the queue's membership equals graph::is_live_work for every status on one fixture
     tests:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
@@ -65,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:22:21.512013026Z
+updated_at: 2026-09-28T12:23:06.807145335Z

@@ -8,8 +8,18 @@ item, and every surface that lists it excludes terminal statuses — the doctor'
 FEAT-049, and the review queue does as of FEAT-078.
 
 So the lifecycle of a bypass is: recorded, reported while the work is in flight, and then **silently
-gone** the moment the item completes. FEAT-072, FEAT-073 and FEAT-075 on this board were each built
-under a recorded escape and are now listed by nothing.
+gone** the moment the item completes.
+
+**Counted properly, the gap is narrower than it first looked — and more interesting.** Of 35 items on
+this board that started under a recorded bypass, **29 were approved afterwards**: the ordinary
+approve action, used late, already reconciles them. Only **6** never were, all now Completed —
+`FEAT-072`, `FEAT-073`, `FEAT-075`, `FEAT-082`, `FEAT-083`, `FEAT-087`. Producing that list took a
+script, which is the actual complaint: no surface answers the question.
+
+That reframes the decision. Retroactive approval is not a hypothetical option — it is what has been
+happening, 29 times, recorded with the same `approved` verdict as agreement given *before* the work.
+The approval record therefore cannot distinguish "we agreed, then built" from "we built, then
+agreed", and that distinction is the entire reason the gate exists.
 
 Its shape is the one this project keeps finding: **silence read as absence**. A clean `doctor` is
 supposed to mean "nothing needs attention", and here it means "the things that needed attention

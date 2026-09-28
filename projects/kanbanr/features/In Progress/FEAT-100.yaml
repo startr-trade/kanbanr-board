@@ -1,6 +1,6 @@
 code: FEAT-100
 title: 'Setup interview: kanbanr init runs through plan mode'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: null
 priority: null
@@ -63,5 +63,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 55b2d8fd06d8422a
+history:
+- at: 2026-09-28T19:12:46.408694133Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T19:11:15.938923111Z
-updated_at: 2026-09-28T19:12:46.363680681Z
+updated_at: 2026-09-28T19:12:46.408694133Z

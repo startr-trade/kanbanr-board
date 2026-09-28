@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A cross-project board that shows what each project's board shows, for anyone looking across projects, so that parked or dismissed work does not reappear as waiting or delivered
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: Which features the cross-project board includes
+    how: Filter by the project's displayed_states before assigning a lane, with the web board's empty-list rule
+    where: api/crates/kanbanr-core/src/portfolio.rs
+    when: Whenever the portfolio board is built
+    who: Anyone reading the portfolio
+    why: Every feature was placed in a lane, so Deferred FEAT-074 showed as Not started and no-op items showed as Done
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE a feature's status is not among its project's displayed states, THE SYSTEM SHALL omit it from the cross-project board.
+    tests:
+    - name: tests::the_cross_project_board_shows_only_what_each_board_shows
+      kind: unit
+      state: planned
 created_at: 2026-09-28T18:25:35.263074564Z
-updated_at: 2026-09-28T18:25:35.263077507Z
+updated_at: 2026-09-28T18:25:44.566482721Z

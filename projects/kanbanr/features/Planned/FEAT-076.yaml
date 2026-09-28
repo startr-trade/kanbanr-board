@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A review queue that reads as a list of separate items with a visible action, for the person being asked to agree, so that reading and approving are both obvious
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: Separation between items in the review queue, and an approve control that looks like a control
+    how: Each brief becomes a collapsible card; the action uses the stylesheet's existing button style with a primary variant instead of the label style
+    where: web/src/pages/ReviewPage.tsx, FeaturePage.tsx and styles.css
+    when: Whenever definitions are waiting for agreement
+    who: The reviewer, who was scrolling one long column and could not tell the action from a tag
+    why: The approval gate's premise is that agreeing must be cheap, and an action styled as a label is not findable
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the review queue holds more than one item, THE SYSTEM SHALL present each as a separately collapsible card whose summary names the item and its approval state.
+    tests:
+    - name: 'review page: each item is a details element with a summary carrying code, title and approval state; the first is open'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE an element performs an action, THE SYSTEM SHALL style it as a button rather than as a label.
+    tests:
+    - name: no action element in the monitor carries the chip class; approve and withdraw use btn
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL keep the approve control inside the expanded brief, so that approving follows reading it.
+    tests:
+    - name: 'review page: the approve button is inside the details body, not in the summary'
+      kind: manual
+      state: planned
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T11:42:32.284956246Z
+updated_at: 2026-09-28T11:42:32.304064439Z

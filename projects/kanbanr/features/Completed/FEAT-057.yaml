@@ -59,7 +59,7 @@ definition:
     - name: adr::tests::a_decision_round_trips_with_its_front_matter_and_sections
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-2
     kind: functional
     text: WHEN one decision supersedes another, THE SYSTEM SHALL record the link on both documents, mark the older one superseded, and report the items that rested on it.
@@ -67,7 +67,7 @@ definition:
     - name: adr::tests::superseding_writes_both_sides_and_names_what_rested_on_it
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-3
     kind: functional
     text: WHEN asked to trace a goal, an item or a requirement, THE SYSTEM SHALL report what hangs below it — requirements, tests, documents and decisions — and SHALL name what is missing rather than omitting it.
@@ -75,11 +75,11 @@ definition:
     - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
     - name: cli_trace_and_why_follow_the_chain_in_both_directions
       kind: e2e
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-4
     kind: functional
     text: WHEN asked why a line of code exists, THE SYSTEM SHALL answer from the annotation on it or the trailer of the commit that wrote it, printing the chain from requirement to goal to purpose, and SHALL say plainly when the line carries no reference at all.
@@ -87,7 +87,7 @@ definition:
     - name: cli_trace_and_why_follow_the_chain_in_both_directions
       kind: e2e
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-5
     kind: functional
     text: IF a commit references a document or a decision that does not exist, THEN THE SYSTEM SHALL reject the commit and name what it could not find.
@@ -95,11 +95,11 @@ definition:
     - name: scm::tests::a_trailer_may_name_a_document_or_a_decision
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
     - name: cli_trace_and_why_follow_the_chain_in_both_directions
       kind: e2e
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-6
     kind: functional
     text: WHILE a decision is superseded, THE SYSTEM SHALL report the items and requirements still resting on it.
@@ -107,7 +107,7 @@ definition:
     - name: adr::tests::superseding_writes_both_sides_and_names_what_rested_on_it
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-7
     kind: functional
     text: WHEN a Zachman view is asked for, THE SYSTEM SHALL derive the matrix from what the items and decisions already record and SHALL report the columns that nothing addresses.
@@ -115,7 +115,7 @@ definition:
     - name: trace::tests::the_zachman_view_reports_the_columns_nothing_addresses
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-8
     kind: nfr
     text: IF the code repository cannot be read, THEN THE SYSTEM SHALL still report everything the board knows rather than failing.
@@ -130,7 +130,7 @@ definition:
     - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:46.183624658Z
@@ -144,4 +144,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410955975Z
-updated_at: 2026-09-28T08:33:48.172646536Z
+updated_at: 2026-09-28T11:30:41.715659009Z

@@ -44,7 +44,7 @@ definition:
     - name: retro::tests::planned_together_is_not_scope_growth
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-2
     kind: functional
     text: WHEN items were created together and work then began, THE SYSTEM SHALL count only the items created after the first transition as growth.
@@ -52,11 +52,11 @@ definition:
     - name: retro::tests::planned_together_is_not_scope_growth
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
     - name: retro::tests::scope_growth_counts_only_what_items_record
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-3
     kind: functional
     text: WHERE a requirement was recorded green during the wave, THE SYSTEM SHALL count it as proven whatever revision the project is at now.
@@ -64,7 +64,7 @@ definition:
     - name: retro::tests::evidence_recorded_during_the_wave_still_counts
       kind: unit
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:47.424852436Z
@@ -82,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T07:56:53.754347314Z
-updated_at: 2026-09-28T08:33:48.172664309Z
+updated_at: 2026-09-28T11:30:41.715676335Z

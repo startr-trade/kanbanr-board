@@ -47,7 +47,7 @@ definition:
     - name: cli_event_log_is_committed_with_the_change
       kind: e2e
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   - id: R-2
     kind: nfr
     text: THE SYSTEM SHALL keep webhook delivery after the commit, so no network call can delay or fail a durable write.
@@ -62,7 +62,7 @@ definition:
     - name: cli_event_log_is_committed_with_the_change
       kind: e2e
       state: green
-      checked_rev: 5a86594f316f
+      checked_rev: c025d5eba151
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:43:50.180672321Z
@@ -94,4 +94,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-28T08:33:48.172653406Z
+updated_at: 2026-09-28T11:30:41.715665637Z

@@ -41,7 +41,7 @@ definition:
       state: planned
   - id: R-3
     kind: functional
-    text: BEFORE this is built, THE SYSTEM SHALL have an accepted ADR recording which of the four options was chosen and what it costs.
+    text: WHEN a reconciliation mechanism is added, THE SYSTEM SHALL already carry an accepted ADR recording which of the four options was chosen and what it costs.
     tests:
     - name: kanbanr adr list names an accepted decision whose affects includes FEAT-080
       kind: manual
@@ -61,4 +61,4 @@ definition:
       kind: unit
       state: green
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T12:46:50.832447183Z
+updated_at: 2026-09-28T12:47:01.811960987Z

@@ -1,6 +1,6 @@
 code: FEAT-072
 title: 'Defect: an older binary reads a newer board as empty instead of saying so'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -53,11 +53,16 @@ definition:
     - name: daemon_reports_the_schema_version_it_understands
       kind: integration
       state: planned
+  started_unapproved: 'auto-pilot: closing the last way a stale reader can present as data loss'
 defect:
   severity: high
   introduced_by: FEAT-071
   found_in: the user's dashboard showing no items at all
   root_cause: a storage layout change that did not bump the schema version, so an older reader could not tell a moved board from an empty one
   escaped: true
+history:
+- at: 2026-09-28T08:27:56.838301736Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T08:17:16.539625741Z
-updated_at: 2026-09-28T08:27:56.806049883Z
+updated_at: 2026-09-28T08:27:56.838301736Z

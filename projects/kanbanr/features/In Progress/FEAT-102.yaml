@@ -31,7 +31,7 @@ definition:
     tests:
     - name: 'manual: session-start.sh piped a SessionStart payload in this repo prints the board'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: IF a shipped hook script is a stub that does nothing, THEN THE SYSTEM SHALL fail the test suite.
@@ -45,4 +45,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:20:44.727093541Z
-updated_at: 2026-09-28T19:21:39.772908038Z
+updated_at: 2026-09-28T19:21:39.800930818Z

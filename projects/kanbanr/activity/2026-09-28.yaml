@@ -1476,3 +1476,7 @@
   actor: Venkatraman B
   message: test hooks::tests::shipped_scripts_are_not_stubs of FEAT-102/R-2 is now green
   item: FEAT-102
+- time: 2026-09-28T19:21:39.802321153Z
+  actor: Venkatraman B
+  message: 'test manual: session-start.sh piped a SessionStart payload in this repo prints the board of FEAT-102/R-1 is now green'
+  item: FEAT-102

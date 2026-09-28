@@ -825,3 +825,7 @@
   actor: Venkatraman B
   message: test self_update%3A%3Atests%3A%3Aa_checksum_mismatch_aborts_and_leaves_the_binary_alone of FEAT-088/R-3 is now green
   item: FEAT-088
+- time: 2026-09-28T17:06:30.262178647Z
+  actor: Venkatraman B
+  message: test self_update%3A%3Atests%3A%3Athe_replacement_is_staged_beside_the_target_and_renamed of FEAT-088/R-4 is now green
+  item: FEAT-088

@@ -59,6 +59,16 @@ definition:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
       state: green
+  approval:
+    by: unknown
+    at: 2026-09-28T17:56:28.781721151Z
+    rev: 3224fbe2d43a4cee
+  approvals:
+  - at: 2026-09-28T17:56:28.781721151Z
+    by: unknown
+    verdict: ratified
+    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
+    rev: 3224fbe2d43a4cee
   started_unapproved: 'auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work'
 defect:
   severity: high
@@ -74,4 +84,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:15:56.705454431Z
+updated_at: 2026-09-28T17:56:28.781721151Z

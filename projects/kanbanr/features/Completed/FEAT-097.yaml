@@ -1,6 +1,6 @@
 code: FEAT-097
 title: 'Defect: the portfolio shows items that their own board hides'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,14 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: displayed states
+  tasks:
+  - key: T1
+    text: cross_project_board applies each project's displayed_states before assigning lanes
+    state: Completed
+  created_at: 2026-09-28T18:27:13.359310635Z
 definition:
   statement: A cross-project board that shows what each project's board shows, for anyone looking across projects, so that parked or dismissed work does not reappear as waiting or delivered
   goals:
@@ -52,5 +59,8 @@ history:
 - at: 2026-09-28T18:26:19.191829664Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T18:27:13.35931384Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T18:25:35.263074564Z
-updated_at: 2026-09-28T18:26:19.191829664Z
+updated_at: 2026-09-28T18:27:13.35931384Z

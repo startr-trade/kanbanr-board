@@ -1,6 +1,6 @@
 code: FEAT-096
 title: 'Defect: the portfolio is unreadable in dark mode'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: dark mode
+  tasks:
+  - key: T1
+    text: lanes, cards and bars use the theme's defined tokens, matching the project board
+    state: Completed
+  - key: T2
+    text: check:ui fails on undefined tokens; dark portfolio screenshot; rollup labels no longer clipped
+    state: Completed
+  created_at: 2026-09-28T18:27:13.359281253Z
 definition:
   statement: A portfolio that is readable in both themes, for anyone who uses the monitor in dark mode, so that the view across projects is not the one page that breaks
   goals:
@@ -58,5 +68,8 @@ history:
 - at: 2026-09-28T18:26:06.731346523Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T18:27:13.359305854Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T18:25:35.263060258Z
-updated_at: 2026-09-28T18:26:06.731346523Z
+updated_at: 2026-09-28T18:27:13.359305854Z

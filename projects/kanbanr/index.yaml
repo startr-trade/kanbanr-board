@@ -55,7 +55,7 @@
   done: 8
   total: 12
 - code: FEAT-096
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: defect
   priority: null
@@ -66,10 +66,10 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
-  total: 0
+  done: 2
+  total: 2
 - code: FEAT-097
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: defect
   priority: null
@@ -80,8 +80,8 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
-  total: 0
+  done: 1
+  total: 1
 - code: FEAT-001
   status: Completed
   milestone: MS-001

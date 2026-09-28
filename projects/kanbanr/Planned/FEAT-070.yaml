@@ -39,5 +39,11 @@ definition:
     - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
       kind: integration
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-002
+  found_in: the user reporting that diagrams do not render
+  root_cause: index.html cached at startup while vite writes new hashed asset names on every build
+  escaped: true
 created_at: 2026-09-28T06:38:34.002092757Z
-updated_at: 2026-09-28T06:38:34.019506452Z
+updated_at: 2026-09-28T06:38:34.039250632Z

@@ -33,8 +33,13 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-28T18:08:16.075343407Z
-    rev: 26189c726fc03577
+    at: 2026-09-28T18:14:19.641044217Z
+    rev: 81f323b9669a1aa4
+  approvals:
+  - at: 2026-09-28T18:14:19.641044217Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 81f323b9669a1aa4
 defect:
   severity: medium
   introduced_by: FEAT-056
@@ -42,4 +47,4 @@ defect:
   root_cause: the default-branch rule does not distinguish a merge commit from an ordinary one
   escaped: true
 created_at: 2026-09-28T18:04:25.294479275Z
-updated_at: 2026-09-28T18:14:06.353581492Z
+updated_at: 2026-09-28T18:14:19.641044217Z

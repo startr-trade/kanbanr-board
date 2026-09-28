@@ -333,3 +333,11 @@
     by: Venkatraman B
     reason: ''
     status: In Progress
+- time: 2026-09-28T17:16:43.471281348Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-090
+  message: feature FEAT-090 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

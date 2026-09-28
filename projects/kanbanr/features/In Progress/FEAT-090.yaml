@@ -1,6 +1,6 @@
 code: FEAT-090
 title: The docs become an mdBook, published to GitHub Pages
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -53,5 +53,10 @@ definition:
     - name: 'web: npm run check:docs over docs/src'
       kind: integration
       state: planned
+  started_unapproved: 'auto-pilot: the user asked directly — ''I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'''
+history:
+- at: 2026-09-28T17:16:43.452973628Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:16:43.413116019Z
+updated_at: 2026-09-28T17:16:43.452973628Z

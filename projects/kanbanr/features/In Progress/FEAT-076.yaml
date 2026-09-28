@@ -59,6 +59,15 @@ definition:
     - name: 'review page: the approve button is inside the details body, not in the summary'
       kind: manual
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T12:39:05.148019593Z
+    rev: dc1ed745e5bcc361
+  approvals:
+  - at: 2026-09-28T12:39:05.148019593Z
+    by: Venkatraman B
+    verdict: approved
+    rev: dc1ed745e5bcc361
   started_unapproved: 'auto-pilot: the reviewer cannot find the action they are being asked to take'
 defect:
   severity: medium
@@ -71,4 +80,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T12:23:21.7031855Z
+updated_at: 2026-09-28T12:39:05.148019593Z

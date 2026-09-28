@@ -13,61 +13,56 @@ labels: []
 depends_on: []
 todo_lists: []
 definition:
-  statement: A decision on what reconciling a recorded bypass means, and whatever that decision implies, for anyone asking whether this board's gate was honoured, so that work built without prior agreement is not simply forgotten
+  statement: A recorded bypass that stays visible until someone answers it, and an approval record that can tell agreement before the work from agreement after it, for anyone auditing whether the gate was honoured, so that finishing is not how a question stops being asked
   goals:
   - G-3
   - G-0
   zachman:
-    what: What happens to `started_unapproved` after the work it excuses reaches a terminal status
-    how: Undecided by design — the four options are set out in the spec, and the choice is an ADR because it turns on what an approval record is allowed to claim
-    where: Undecided; probably core/doctor.rs and the approvals model, depending on the option chosen
-    when: When work started under a recorded bypass reaches a terminal status
-    who: Anyone auditing whether the gate was honoured — and the maintainer, who currently has no list to work from
-    why: The bypass is honestly recorded and then listed by nothing once the item completes, so it is never reconciled. FEAT-072, FEAT-073 and FEAT-075 are in that position today; the record survives on each item, but finding them requires already knowing which to ask about
+    what: What happens to `started_unapproved` after the work it excuses reaches a terminal status, and how after-the-fact agreement is recorded
+    how: A `ratified` verdict distinct from `approved`, derived into its own ApprovalState from the log's last verdict; doctor reports an unreconciled bypass past the terminal gate that silences every other check
+    where: core/models.rs, core/store.rs, core/doctor.rs, core/export.rs, core/dispatch.rs, cli (kanbanr ratify)
+    when: When work started under a bypass reaches a terminal status, and when someone agrees to it afterwards
+    who: Anyone auditing whether the gate was honoured — and the maintainer, who had no list to work from
+    why: The bypass was honestly recorded and then listed by nothing once the item completed. Worse, the 29 items already reconciled by approving them late were recorded with the same verdict as prior agreement, so the record could not tell 'we agreed, then built' from 'we built, then agreed' — the one distinction the gate exists to draw
   requirements:
   - id: R-1
     kind: functional
-    text: WHEN work that started under a recorded bypass reaches a terminal status, THE SYSTEM SHALL keep that bypass discoverable without the reader already knowing which item to ask about.
+    text: WHEN agreement is given to work that started under a recorded bypass, THE SYSTEM SHALL record it as a verdict distinct from approval given before the work.
     tests:
-    - name: a fixture item completed with started_unapproved set is reachable from a listing, not only from its own page
+    - name: tests::agreement_after_the_work_is_recorded_as_a_different_verdict
       kind: unit
       state: planned
   - id: R-2
     kind: functional
-    text: THE SYSTEM SHALL distinguish, in the approval record, agreement given before work from agreement given after it, so that ratification cannot be read as prior agreement.
+    text: WHERE an item did not start under a recorded bypass, THE SYSTEM SHALL refuse to ratify it, so that ratification cannot become a shortcut around review.
     tests:
-    - name: a verdict recorded after the work is terminal is distinguishable from one recorded before it
+    - name: tests::agreement_after_the_work_is_recorded_as_a_different_verdict
       kind: unit
       state: planned
   - id: R-3
     kind: functional
-    text: WHEN a reconciliation mechanism is added, THE SYSTEM SHALL already carry an accepted ADR recording which of the four options was chosen and what it costs.
+    text: WHILE a recorded bypass is unanswered, THE SYSTEM SHALL report it even after the item reaches a terminal status, so that finishing does not silence the question.
     tests:
-    - name: kanbanr adr list names an accepted decision whose affects includes FEAT-080
-      kind: manual
+    - name: doctor::tests::an_unreconciled_bypass_outlives_the_terminal_gate
+      kind: unit
       state: planned
   - id: R-4
-    kind: nfr
-    text: THE SYSTEM SHALL NOT weaken or remove the `--unapproved` escape, which is what keeps the gate honest under pressure.
-    iso25010:
-    - Maintainability
-    scenario:
-      stimulus: The reconciliation mechanism is added
-      environment: Any board with items started under a recorded bypass
-      response: Starting work with `--unapproved` still succeeds and still records its reason
-      measure: tests::the_start_gate_refuses_unapproved_work_but_never_blocks_closing_it continues to pass unchanged
+    kind: functional
+    text: WHEN a ratified definition changes afterwards, THE SYSTEM SHALL lapse the agreement exactly as it lapses an approval, because it no longer covers what was built.
     tests:
-    - name: tests::the_start_gate_refuses_unapproved_work_but_never_blocks_closing_it
+    - name: tests::agreement_after_the_work_is_recorded_as_a_different_verdict
       kind: unit
-      state: green
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN a verdict is recorded from the command line without an explicit author, THE SYSTEM SHALL attribute it to the data folder's commit identity, and SHALL refuse when there is none.
+    tests:
+    - name: tests::agreement_after_the_work_is_recorded_as_a_different_verdict
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-28T16:01:19.732103816Z
     rev: 51055251688e472d
-  approvals:
-  - at: 2026-09-28T16:01:19.732103816Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 51055251688e472d
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T17:48:25.448184581Z
+updated_at: 2026-09-28T17:58:39.049282385Z

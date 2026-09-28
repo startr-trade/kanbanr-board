@@ -1,0 +1,16 @@
+code: FEAT-088
+title: Self-update that notices a rebuilt release, not just a new version
+status: Planned
+milestone: MS-004
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T16:57:32.036471598Z
+updated_at: 2026-09-28T16:57:32.036471598Z

@@ -794,3 +794,6 @@
 - time: 2026-09-28T16:48:12.079846033Z
   actor: Venkatraman B
   message: the install page and the glibc fix are done
+- time: 2026-09-28T16:57:32.038026268Z
+  actor: Venkatraman B
+  message: scope self-update, including the same-version rebuild case

@@ -1,3 +1,6 @@
+- time: 2026-09-28T06:07:08.010244446Z
+  actor: Venkatraman B
+  message: FEAT-067 and FEAT-068 done
 - time: 2026-09-28T06:06:43.481734646Z
   actor: Venkatraman B
   message: 'FEAT-068: the escape warning stops once it is answered'
@@ -685,7 +688,3 @@
   actor: Venkatraman B
   message: move feature FEAT-037
   item: FEAT-037
-- time: 2026-06-18T18:34:31.070348157Z
-  actor: Venkatraman B
-  message: move feature FEAT-031
-  item: FEAT-031

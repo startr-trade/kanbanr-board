@@ -1,6 +1,6 @@
 code: FEAT-067
 title: Review and approve in the monitor, not the terminal
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: null
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — review in the monitor
+  tasks:
+  - key: T1
+    text: 'daemon: report the write mode; serve the pending-review queue it computes'
+    state: Completed
+  - key: T2
+    text: 'web: a Review tab rendering each brief with an approve button when writes are on'
+    state: Completed
+  - key: T3
+    text: kanbanr review --ui and --pending; integration test for both daemon modes
+    state: Completed
+  created_at: 2026-09-28T06:07:08.008247288Z
 definition:
   statement: Reviewing and approving a definition in the monitor, for the person whose agreement the gate is asking for, so that the gate is cheap enough to use rather than cheap enough to escape
   goals:
@@ -76,5 +89,8 @@ history:
 - at: 2026-09-28T05:55:51.651775268Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T06:07:08.00827588Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T05:55:32.265624927Z
-updated_at: 2026-09-28T06:02:38.007979481Z
+updated_at: 2026-09-28T06:07:08.00827588Z

@@ -52,7 +52,7 @@ definition:
     tests:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
-      state: planned
+      state: green
   started_unapproved: 'auto-pilot: found verifying FEAT-077; the queue and the doctor disagreed on the live board'
 defect:
   severity: medium
@@ -65,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:23:06.833037891Z
+updated_at: 2026-09-28T12:23:06.845678821Z

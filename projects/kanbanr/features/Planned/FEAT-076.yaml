@@ -46,5 +46,11 @@ definition:
     - name: 'review page: the approve button is inside the details body, not in the summary'
       kind: manual
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-067
+  found_in: the user reviewing twelve definitions on the page
+  root_cause: an action was given the label style while a button style already existed, and the items had no container to separate them
+  escaped: true
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T11:42:32.304064439Z
+updated_at: 2026-09-28T11:42:32.325160837Z

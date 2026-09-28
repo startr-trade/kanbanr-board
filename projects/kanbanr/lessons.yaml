@@ -39,9 +39,12 @@
   tags:
   - parsing
   - guardrails
-  confidence: 0.6
-  last_affirmed: 2026-09-28T16:11:07.917895211Z
-  status: candidate
+  confidence: 0.7495644274633698
+  last_affirmed: 2026-09-28T18:26:54.15871941Z
+  status: active
+  history:
+  - at: 2026-09-28T18:26:54.15871941Z
+    verdict: affirmed
 - id: L-22
   lesson: Write the requirement as the property the user needs, not as the shape of the fix. FEAT-076/R-2's test was "no action element carries the chip class" — so changing the class satisfied it while the button still looked exactly like a tag, and the user reported the same complaint twice. The property was "recognisable as a control without hovering"; .btn and .chip had always declared the same background, which nothing compared. A test written from the fix passes on the next instance of the same bug.
   kind: pitfall

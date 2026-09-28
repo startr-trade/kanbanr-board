@@ -1,0 +1,43 @@
+code: FEAT-102
+title: 'Defect: the shipped session-start and stop-check hooks were replaced by empty stubs'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: The real session-start and stop-check scripts restored and guarded by a test, for everyone using kanbanr's hooks, so that sessions recover the board and turns are nudged to record work again
+  goals:
+  - G-1
+  - G-0
+  zachman:
+    what: The two shipped hook scripts
+    how: Restore from the commit before the stubs landed; a test reads the shipped files and rejects a stub
+    where: skill/kanbanr/hooks/session-start.sh, stop-check.sh, api/crates/kanbanr-cli/src/hooks.rs tests
+    when: Every SessionStart and Stop
+    who: Every kanbanr user with the hooks installed
+    why: The scripts were silently replaced by `exit 0` stubs, so board recovery and the record-your-work nudge stopped while status still reported them healthy
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a session starts in a tracked folder, THE SYSTEM SHALL print the board through the shipped session-start script.
+    tests:
+    - name: 'manual: session-start.sh piped a SessionStart payload in this repo prints the board'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a shipped hook script is a stub that does nothing, THEN THE SYSTEM SHALL fail the test suite.
+    tests:
+    - name: hooks::tests::shipped_scripts_are_not_stubs
+      kind: unit
+      state: planned
+created_at: 2026-09-28T19:20:44.727093541Z
+updated_at: 2026-09-28T19:20:44.727107493Z

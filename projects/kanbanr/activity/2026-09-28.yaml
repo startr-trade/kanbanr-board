@@ -471,3 +471,6 @@
   actor: Venkatraman B
   message: edit feature FEAT-078
   item: FEAT-078
+- time: 2026-09-28T12:24:22.039616257Z
+  actor: Venkatraman B
+  message: record the unreconciled-bypass gap for a decision

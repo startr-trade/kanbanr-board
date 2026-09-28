@@ -1,0 +1,16 @@
+code: FEAT-080
+title: A recorded bypass is never reconciled once the work completes
+status: Planned
+milestone: MS-006
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T12:24:22.038510663Z
+updated_at: 2026-09-28T12:24:22.038510663Z

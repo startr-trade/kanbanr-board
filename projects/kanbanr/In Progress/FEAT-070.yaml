@@ -31,14 +31,16 @@ definition:
     tests:
     - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
       kind: integration
-      state: planned
+      state: green
+      checked_rev: add0c4c824ff
   - id: R-2
     kind: functional
     text: IF the index cannot be read, THEN THE SYSTEM SHALL serve the last copy it read rather than an empty page.
     tests:
     - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
       kind: integration
-      state: planned
+      state: green
+      checked_rev: add0c4c824ff
   started_unapproved: 'auto-pilot: fixing what is blocking the user from seeing the UI at all'
 defect:
   severity: medium
@@ -51,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T06:38:34.002092757Z
-updated_at: 2026-09-28T06:38:34.069812422Z
+updated_at: 2026-09-28T06:41:31.002956595Z

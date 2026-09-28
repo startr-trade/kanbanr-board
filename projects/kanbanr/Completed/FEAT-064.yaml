@@ -42,11 +42,11 @@ definition:
     - name: retro::tests::a_waves_lessons_are_part_of_its_retrospective
       kind: unit
       state: green
-      checked_rev: eccfb018cb28
+      checked_rev: add0c4c824ff
     - name: cli_retro_reports_facts_and_writes_a_document
       kind: e2e
       state: green
-      checked_rev: eccfb018cb28
+      checked_rev: add0c4c824ff
   - id: R-2
     kind: functional
     text: WHEN a lesson records the retrospective that promoted it, THE SYSTEM SHALL include that lesson in that retrospective.
@@ -54,7 +54,7 @@ definition:
     - name: retro::tests::a_waves_lessons_are_part_of_its_retrospective
       kind: unit
       state: green
-      checked_rev: eccfb018cb28
+      checked_rev: add0c4c824ff
   - id: R-3
     kind: functional
     text: WHERE a lesson has since retired, THE SYSTEM SHALL still list it in the retrospective of the wave that produced it, marked as retired.
@@ -62,7 +62,7 @@ definition:
     - name: retro::tests::a_waves_lessons_are_part_of_its_retrospective
       kind: unit
       state: green
-      checked_rev: eccfb018cb28
+      checked_rev: add0c4c824ff
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:53.448754067Z
@@ -76,4 +76,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-25T18:40:41.098914606Z
-updated_at: 2026-09-28T06:36:26.289268934Z
+updated_at: 2026-09-28T06:41:31.003138394Z

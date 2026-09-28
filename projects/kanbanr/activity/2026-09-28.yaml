@@ -788,3 +788,6 @@
   actor: Venkatraman B
   message: test docs%2FINSTALL.md%20names%20the%20glibc%20floor%20and%20quotes%20the%20startup%20error of FEAT-087/R-2 is now green
   item: FEAT-087
+- time: 2026-09-28T16:47:19.696786722Z
+  actor: Venkatraman B
+  message: record the glibc fix and the installation page

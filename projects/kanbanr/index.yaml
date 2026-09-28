@@ -67,7 +67,7 @@
   labels: []
   depends_on: []
   done: 0
-  total: 0
+  total: 3
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -1313,7 +1313,7 @@
   labels: []
   depends_on: []
   done: 7
-  total: 8
+  total: 10
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002

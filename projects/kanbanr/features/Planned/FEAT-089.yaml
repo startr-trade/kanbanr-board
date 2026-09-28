@@ -1,0 +1,16 @@
+code: FEAT-089
+title: Updates must be fetched over HTTPS, redirects included
+status: Planned
+milestone: MS-004
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T17:11:23.572072975Z
+updated_at: 2026-09-28T17:11:23.572072975Z

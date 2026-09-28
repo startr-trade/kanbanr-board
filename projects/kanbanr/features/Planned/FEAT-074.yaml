@@ -12,5 +12,70 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A portfolio view across several boards of equal visibility, for a team that contributes to more than one project, so that access follows project membership while the view still spans projects
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: A workspace that names other boards, the reads that span them, and the distinction between a reference that is broken and one that is merely outside the reader's purview
+    how: One board repository per project, so write access is what the git host can actually grant; workspace.yaml lists boards of equal visibility; spanning reads build a store per board; writes stay single-board
+    where: workspace.yaml at a board root, kanbanr-core portfolio and graph resolution, doctor, and the CLI reads that cross projects
+    when: Whenever a read spans projects, and whenever a cross-project dependency is recorded
+    who: A team with access to several projects, and a contributor with access to one — who must not be told that what they cannot see does not exist
+    why: The data folder is both the portfolio's scope and the sharing boundary, and git offers no access control below the repository, so co-location forces one contributor set on every project in it
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a workspace names other boards, THE SYSTEM SHALL include their projects in the reads that span projects.
+    tests:
+    - name: portfolio::tests::a_workspace_spans_the_boards_it_names
+      kind: unit
+      state: planned
+    - name: cli_workspace_spans_two_boards
+      kind: e2e
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a dependency names a project in another board of the workspace, THE SYSTEM SHALL resolve it as it resolves one within a board.
+    tests:
+    - name: portfolio::tests::a_workspace_spans_the_boards_it_names
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a dependency names a project that no board in the workspace holds, THEN THE SYSTEM SHALL report it as outside this workspace rather than as non-existent, and SHALL keep it in the graph.
+    tests:
+    - name: doctor::tests::a_reference_outside_the_workspace_is_unverifiable_not_broken
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a dependency on a project the workspace cannot see is recorded, THE SYSTEM SHALL refuse it unless the author records that they intend it.
+    tests:
+    - name: tests::a_dependency_the_workspace_cannot_see_is_refused_by_default
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL keep every write to a single board, so that access remains what the git host grants on that repository.
+    tests:
+    - name: cli_workspace_spans_two_boards
+      kind: e2e
+      state: planned
+  - id: R-6
+    kind: nfr
+    text: THE SYSTEM SHALL read a board that names no other boards exactly as it does today.
+    iso25010:
+    - Compatibility
+    scenario:
+      stimulus: Every existing read is run against a board with no boards list in its workspace file
+      environment: kanbanr's own board, which names no others
+      response: Portfolio, ready, blocked, graph, impact and query return what they returned before, and no file is rewritten
+      measure: cli_workspace_spans_two_boards asserts a single-board workspace answers identically, and the legacy-load invariant leaves git status empty in the board repo
+    tests:
+    - name: cli_workspace_spans_two_boards
+      kind: e2e
+      state: planned
 created_at: 2026-09-28T11:22:34.774893648Z
-updated_at: 2026-09-28T11:22:34.774893648Z
+updated_at: 2026-09-28T11:23:19.286387407Z

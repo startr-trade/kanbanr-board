@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A summary of every Claude Code session saved on the board, for the maintainer returning after a restart, so that what happened in a session is readable without replaying its transcript
+  goals:
+  - G-1
+  - G-5
+  zachman:
+    what: 'Session summaries: when they are made, from what, and where they are kept'
+    how: PostCompact saves the compaction summary; SessionEnd and SessionStart summarise un-summarised transcripts in the background from their condensed conversation; results are written with kanbanr doc add
+    where: .claude/hooks/session-summary.sh, .claude/hooks/summarise_session.py, .claude/settings.json, board docs/sessions/
+    when: After a compaction, when a session ends, and at the next start for any session that was missed
+    who: The maintainer, after an IDE restart or a crash
+    why: The hook as added piped a 13M-token transcript into a fresh session at the moment the context was already full, wrote untracked files to the repo root, @-imported them into CLAUDE.md, and did nothing for sessions that never compacted
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a session is compacted, THE SYSTEM SHALL save the compaction summary to the board without a further model call.
+    tests:
+    - name: 'hook: a synthetic PostCompact payload writes a sessions/ doc'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a session starts, THE SYSTEM SHALL summarise every earlier session in the project that has no summary, in the background.
+    tests:
+    - name: 'hook: SessionStart summarises this project''s un-summarised transcript to the board'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL name each summary with its date, time and session id prefix, so that several sessions in one day do not collide.
+    tests:
+    - name: 'hook: SessionStart summarises this project''s un-summarised transcript to the board'
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHILE the summariser runs, THE SYSTEM SHALL NOT trigger the project's hooks or persist a session of its own.
+    tests:
+    - name: 'hook: a second SessionStart sweep summarises nothing new'
+      kind: manual
+      state: planned
 created_at: 2026-09-28T18:42:41.955946894Z
-updated_at: 2026-09-28T18:42:41.955953238Z
+updated_at: 2026-09-28T18:42:41.984228866Z

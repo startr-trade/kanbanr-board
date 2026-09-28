@@ -11,7 +11,26 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: share what is shareable; claim only what is used
+  tasks:
+  - key: T1
+    text: 'extract ears-classifier: own licence, README whose example is a compiled test, one dependency'
+    state: NotStarted
+  - key: T2
+    text: kanbanr-core re-exports it as `ears`, so no call site changes
+    state: NotStarted
+  - key: T3
+    text: release.yml publishes only it, with a comment on why kanbanr-cli and kanbanr-core are deliberately absent
+    state: NotStarted
+  - key: T4
+    text: 'the method chapter: Zachman''s columns not its rows; TOGAF as an opt-in workflow preset; neither recommended'
+    state: NotStarted
+  - key: T5
+    text: the skill qualifies the six dimensions and describes the TOGAF preset it previously never mentioned
+    state: NotStarted
+  created_at: 2026-09-28T17:43:46.522168228Z
 definition:
   statement: The parts of kanbanr that are useful without kanbanr published on their own, and an honest account of which frameworks it borrows from, for anyone evaluating or reusing it, so that neither the library nor the method claims more than it does
   goals:
@@ -59,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:43:35.866789562Z
+updated_at: 2026-09-28T17:43:46.522179306Z

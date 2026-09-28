@@ -39,5 +39,54 @@ todo_lists:
     text: 'Dogfood: kanbanr charter + define open items'
     state: NotStarted
   created_at: 2026-09-24T19:30:42.755725753Z
+definition:
+  statement: A method the tooling demands rather than merely supports, and documentation that describes the tool as it is, so that the practice survives a session that has forgotten it
+  goals:
+  - G-2
+  - G-3
+  - G-5
+  zachman:
+    what: The skill's contract, the guide and design notes, the contribution bar, and this project's own board as the demonstration
+    how: The skill states the contract; CI checks a contribution's definition without board access; the documentation is audited mechanically against what the code actually has
+    where: skill/kanbanr/SKILL.md, docs/, CONTRIBUTING.md, .github/, and the board's own notes and decisions
+    when: Whenever the method or the surface changes — documentation is part of the change, not a follow-up
+    who: Claude, held to the method without being reminded; a contributor, held to the same bar; the maintainer reading either
+    why: The machinery is inert unless something demands the content, and a guide that describes a tool from two milestones ago is worse than none
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL state the method in the skill, so an agent is held to it without being reminded.
+    tests:
+    - name: 'skill states the contract: charter at activation, the one bar, approval before work, evidence not intent'
+      kind: manual
+      state: green
+  - id: R-2
+    kind: functional
+    text: WHEN a contribution is offered without board access, THE SYSTEM SHALL check its definition against the same bar and fail when it falls short.
+    tests:
+    - name: cli_check_file_holds_a_contribution_to_the_same_bar
+      kind: e2e
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL document every command the CLI has and every module the design describes.
+    tests:
+    - name: 'mechanical audit: every command in `kanbanr --help` appears in the user guide, and every core module in the design note'
+      kind: manual
+      state: green
+  - id: R-4
+    kind: functional
+    text: WHERE a document belongs to the project's reasoning rather than to what the repository ships, THE SYSTEM SHALL keep it on the board.
+    tests:
+    - name: the method document, the assessment, the proposals and the decisions are board documents; the repo keeps README, USER_GUIDE, DESIGN, CHANGELOG, CONTRIBUTING
+      kind: manual
+      state: green
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL hold this project's own board to the method it describes, so the board is the demonstration.
+    tests:
+    - name: kanbanr doctor reports no definition gaps on items created since the charter was adopted
+      kind: manual
+      state: green
 created_at: 2026-09-24T18:45:46.410538489Z
-updated_at: 2026-09-25T18:32:01.695301008Z
+updated_at: 2026-09-28T07:07:06.104508442Z

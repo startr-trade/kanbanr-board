@@ -44,14 +44,14 @@ definition:
     tests:
     - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
       kind: integration
-      state: green
+      state: planned
   - id: R-2
     kind: functional
     text: WHERE an action removes something that was recorded, THE SYSTEM SHALL distinguish it from the primary action on the page.
     tests:
     - name: 'web/src/pages/FeaturePage.tsx: the withdraw trigger and its confirm both carry btn-danger'
       kind: manual
-      state: green
+      state: planned
   - id: R-3
     kind: nfr
     text: WHEN a guardrail is written for a user-visible requirement, THE SYSTEM SHALL check the property the requirement is about rather than the shape of the fix that satisfied it once.
@@ -61,19 +61,14 @@ definition:
       stimulus: The control surface is reverted to the label surface
       environment: The web monitor's stylesheet
       response: The affordance check fails
-      measure: check:ui was run against that exact revert and exited 1, naming the shared background
+      measure: 'web: npm run check:ui asserts .btn and .chip do not share a background — run against that exact revert, it exited 1 naming the shared background (ADR-0008)'
     tests:
     - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
       kind: integration
-      state: green
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:45:05.71384318Z
-    rev: 7c1d597e685c3be9
-  approvals:
-  - at: 2026-09-28T12:45:05.71384318Z
-    by: Venkatraman B
-    verdict: approved
     rev: 7c1d597e685c3be9
   started_unapproved: 'auto-pilot: the user reported the same complaint a second time — the previous fix changed the class, not the appearance'
 defect:
@@ -87,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:45:05.71384318Z
+updated_at: 2026-09-28T12:46:29.088898302Z

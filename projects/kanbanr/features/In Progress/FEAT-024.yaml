@@ -47,5 +47,46 @@ todo_lists:
   description: post-MS-005 OSS scaffolding validation
   tasks: []
   created_at: 2026-06-18T19:40:43.397456991Z
+definition:
+  statement: A repository someone else can clone, trust and contribute to, for whoever finds this project, so that publishing it is a decision rather than a scramble
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: Licensing, community files, CI and a release workflow, and the account-level steps only the owner can take
+    how: Everything that can be prepared in the repository is prepared and checked in; what needs an account is listed as the owner's remaining steps
+    where: The repository root, .github/, and docs/OPEN_SOURCING.md
+    when: Before the first tagged release
+    who: The maintainer, for the account steps; anyone cloning it, for everything else
+    why: An unpublished project accumulates assumptions that only its author can resolve, and they are cheapest to remove before anyone arrives
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL carry dual MIT and Apache-2.0 licensing, declared in the workspace manifest.
+    tests:
+    - name: LICENSE-MIT and LICENSE-APACHE exist and api/Cargo.toml declares `MIT OR Apache-2.0`
+      kind: manual
+      state: green
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL name the same owner and the same contact address everywhere it refers to itself.
+    tests:
+    - name: no occurrence of a previous owner slug or a `<your-…>` placeholder remains in any tracked file
+      kind: manual
+      state: green
+  - id: R-3
+    kind: functional
+    text: IF a secret has ever been written into the board, THEN THE SYSTEM SHALL keep it out of both repositories.
+    tests:
+    - name: '`git ls-files | grep security.yaml` is empty in the code repo and in the board repo, and the file is deleted'
+      kind: manual
+      state: green
+  - id: R-4
+    kind: functional
+    text: WHEN a version is tagged, THE SYSTEM SHALL publish binaries and a container image without further manual steps.
+    tests:
+    - name: release.yml builds binaries and pushes the GHCR image from the tag
+      kind: manual
+      state: planned
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-25T18:16:42.486889093Z
+updated_at: 2026-09-28T07:07:06.120241794Z

@@ -14,5 +14,39 @@ labels:
 - defect
 depends_on: []
 todo_lists: []
+definition:
+  statement: An event log committed with the change it describes, for anyone who expects a clean board repo after a session, so that the last events of a session are versioned like everything else
+  goals:
+  - G-0
+  - G-2
+  zachman:
+    what: The order in which the event log is written relative to the commit
+    how: Recording the event moves before the commit; webhook delivery stays after it
+    where: kanbanr-core eventing, and the CLI's write path
+    when: Every mutating write
+    who: Whoever looks at the board repo after a session and finds it dirty
+    why: Eventing ran entirely after the commit, so a session's final events stayed uncommitted until some later write swept them up
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a mutating write produces an event, THE SYSTEM SHALL include that event in the same commit as the change it describes.
+    tests:
+    - name: cli_event_log_is_committed_with_the_change
+      kind: e2e
+      state: planned
+  - id: R-2
+    kind: nfr
+    text: THE SYSTEM SHALL keep webhook delivery after the commit, so no network call can delay or fail a durable write.
+    iso25010:
+    - Reliability
+    scenario:
+      stimulus: A write happens while a configured webhook endpoint is slow or unreachable
+      environment: A board with a webhook URL configured
+      response: The change and its event log are committed first; delivery is attempted afterwards and its failure changes nothing
+      measure: cli_event_log_is_committed_with_the_change asserts the commit contains the event with no webhook configured, and the split in eventing keeps recording and delivering as separate calls
+    tests:
+    - name: cli_event_log_is_committed_with_the_change
+      kind: e2e
+      state: planned
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-24T19:30:20.215047799Z
+updated_at: 2026-09-28T06:43:01.080114601Z

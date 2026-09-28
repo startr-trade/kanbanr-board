@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A control that is recognisable as a control before anyone touches it, for the person looking for the action, so that the affordance does not depend on hovering
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The visual distinction between the control vocabulary (.btn) and the label vocabulary (.chip)
+    how: A control surface token of its own, raised, with hover/active/focus states, plus a danger variant for withdrawal; the affordance check compares the two surfaces rather than only the class name
+    where: web/src/styles.css, web/src/pages/FeaturePage.tsx, web/scripts/check-affordance.mjs
+    when: Wherever the monitor offers an action
+    who: The reviewer, who reported the same complaint twice because the first fix changed the class and not the appearance
+    why: FEAT-076/R-2 was satisfied to the letter — the class was no longer `chip` — while the thing it existed to achieve was not, because both rules declared the same background; and the guardrail written alongside it checked the letter too
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE an element performs an action, THE SYSTEM SHALL render it on a surface distinct from the label vocabulary, so that it is recognisable as a control without hovering.
+    tests:
+    - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE an action removes something that was recorded, THE SYSTEM SHALL distinguish it from the primary action on the page.
+    tests:
+    - name: 'web/src/pages/FeaturePage.tsx: the withdraw trigger and its confirm both carry btn-danger'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: nfr
+    text: WHEN a guardrail is written for a user-visible requirement, THE SYSTEM SHALL check the property the requirement is about rather than the shape of the fix that satisfied it once.
+    iso25010:
+    - Interaction Capability
+    scenario:
+      stimulus: The control surface is reverted to the label surface
+      environment: The web monitor's stylesheet
+      response: The affordance check fails
+      measure: check:ui was run against that exact revert and exited 1, naming the shared background
+    tests:
+    - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
+      kind: integration
+      state: planned
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:14.747257151Z
+updated_at: 2026-09-28T12:42:14.7627853Z

@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: outside the quotes
+  tasks:
+  - key: T1
+    text: 'unquoted_tokens: tokens outside quoted spans, because a message lives inside them and a flag does not'
+    state: NotStarted
+  - key: T2
+    text: skips_hooks as one named function the guard and its test share
+    state: NotStarted
+  - key: T3
+    text: the test first carried its own copy of the logic and passed while the code was wrong — rewritten to call the real function
+    state: NotStarted
+  created_at: 2026-09-28T16:37:29.868553502Z
 definition:
   statement: A guard that tells passing a flag apart from writing about one, for anyone whose commit message discusses the tooling, so that describing a bug is not mistaken for committing one
   goals:
@@ -58,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:37:20.735297973Z
-updated_at: 2026-09-28T16:37:29.849991539Z
+updated_at: 2026-09-28T16:37:29.868562561Z

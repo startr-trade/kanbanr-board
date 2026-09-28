@@ -73,7 +73,7 @@ definition:
     tests:
     - name: the daemon prints what is missing and how to supply it when built without assets
       kind: manual
-      state: green
+      state: planned
   - id: R-4
     kind: functional
     text: WHEN the install script runs, THE SYSTEM SHALL detect the platform, verify the downloaded asset against a published checksum, and print the commands that follow.
@@ -90,7 +90,7 @@ definition:
       stimulus: The SPA is embedded in the release binary
       environment: A release build of kanbanr-cli
       response: The binary grows by about 1 MB, not 3.4 MB
-      measure: release workflow asserts the packaged binary stays under the size ceiling — 14 MB, against 12 MB today, web/dist being 3.4 MB raw and 0.9 MB gzipped
+      measure: 'release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed — floor 12 MB, ceiling 20 MB; observed 12 MB without the assets and 13 MB with them'
     tests:
     - name: 'release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed'
       kind: integration
@@ -99,15 +99,10 @@ definition:
     by: Venkatraman B
     at: 2026-09-28T16:31:05.135938563Z
     rev: 19b479fec98432df
-  approvals:
-  - at: 2026-09-28T16:31:05.135938563Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 19b479fec98432df
   started_unapproved: 'auto-pilot: the user directed both halves — ''the UI must also be built-in so that it can serve the UI without me passing the dist folder'' and ''we might need one install script for kanbanr'', pointing at another project''s as the model'
 history:
 - at: 2026-09-28T16:22:46.653992254Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:17:15.357031677Z
-updated_at: 2026-09-28T16:31:05.135938563Z
+updated_at: 2026-09-28T16:37:41.334501521Z

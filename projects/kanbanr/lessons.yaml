@@ -1,3 +1,14 @@
+- id: L-25
+  lesson: Fix every instance of a bug, not the one that bit you. FEAT-082's first fix scoped inline_message to the git commit invocation and left the hook-skipping check two lines above it still scanning the whole command line — so a message explaining '[ -n $x ]' was read as passing -n, and the commit was refused. The second failure looked like a new bug and was the same one. When a defect is 'a token matched without its boundary', grep for every other match of that shape in the same function before calling it done.
+  kind: pitfall
+  at: 2026-09-28T16:36:52.412143988Z
+  from_item: FEAT-082
+  tags:
+  - parsing
+  - guardrails
+  confidence: 0.6
+  last_affirmed: 2026-09-28T16:36:52.412143988Z
+  status: candidate
 - id: L-24
   lesson: A guardrail must be observed failing before it counts — twice in one session a check I wrote passed against the exact bug it was written for. check:ui's first affordance rule compared class names while .btn and .chip shared a background; its first duplicate-link rule used <Link[^>]*> which stops at the > inside className={({isActive}) => ...}, so it matched nothing at all and reported success. Both were caught only by deliberately reintroducing the defect. ADR-0008 makes the revert part of writing the check.
   kind: practice

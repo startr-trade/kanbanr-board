@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Documentation as one navigable, searchable book published to GitHub Pages, for anyone reading about kanbanr, so that finding something does not depend on knowing which file it is in
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: The shape and delivery of the product documentation
+    how: An mdBook under docs/ with a curated SUMMARY, content split along the existing top-level headings, mermaid rendered by the pinned preprocessor, and a docs workflow that builds on every PR and deploys to Pages from main
+    where: docs/book.toml, docs/src/**, .github/workflows/docs.yml, web/scripts/check-mermaid.mjs
+    when: On every push and pull request that touches docs/
+    who: Anyone reading the documentation, and the maintainer, for whom a 32 KB file has stopped having a visible shape
+    why: Five standalone files give no search, no navigation and no sense of the whole; the section numbering in DESIGN.md has already rotted to 9, 11, 10, which is what appending to an unseeable file does
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL build the documentation as an mdBook whose every page is reachable from the table of contents.
+    tests:
+    - name: 'docs: every file under src is listed in SUMMARY.md, and every SUMMARY entry exists'
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the documentation is restructured, THE SYSTEM SHALL carry every line of the original documents into the book, so that a move cannot silently drop content.
+    tests:
+    - name: 'docs: the split parts account for every line of the originals'
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a change touches the documentation, THE SYSTEM SHALL build the book, and SHALL deploy it only from the default branch.
+    tests:
+    - name: docs.yml builds on pull_request and deploys only when the event is not a pull request
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL continue to reject a mermaid diagram that does not parse, at the book's new paths.
+    tests:
+    - name: 'web: npm run check:docs over docs/src'
+      kind: integration
+      state: planned
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:16:43.383364164Z
+updated_at: 2026-09-28T17:16:43.413116019Z

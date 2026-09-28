@@ -696,3 +696,7 @@
   actor: Venkatraman B
   message: define feature FEAT-085
   item: FEAT-085
+- time: 2026-09-28T16:33:51.557992274Z
+  actor: Venkatraman B
+  message: test local_mode%3A%3Ainit_refuses_to_repoint_a_folder_that_already_has_a_board of FEAT-085/R-1 is now green
+  item: FEAT-085

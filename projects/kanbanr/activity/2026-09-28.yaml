@@ -967,3 +967,7 @@
 - time: 2026-09-28T17:43:35.781029658Z
   actor: Venkatraman B
   message: scope the standalone crate and the framework claims
+- time: 2026-09-28T17:43:35.803264285Z
+  actor: Venkatraman B
+  message: define feature FEAT-092
+  item: FEAT-092

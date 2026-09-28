@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: The parts of kanbanr that are useful without kanbanr published on their own, and an honest account of which frameworks it borrows from, for anyone evaluating or reusing it, so that neither the library nor the method claims more than it does
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: What is published to crates.io, and what the documentation claims about Zachman and TOGAF
+    how: Extract ears-classifier as a standalone crate re-exported by kanbanr-core; publish only it; state in the method chapter and the skill which half of each framework is used
+    where: api/crates/ears-classifier, api/crates/kanbanr-core, .github/workflows/release.yml, docs/src/using/the-method.md, skill/kanbanr/SKILL.md
+    when: On release, and whenever someone asks what the method rests on
+    who: Someone who wants EARS classification without a board, and anyone deciding whether the method obliges them to adopt a framework
+    why: The shareable piece was buried in a 17,500-line crate; the release was set to publish the two crates that should not be; the docs named Zachman for half of it; and the skill could not see the TOGAF preset at all
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL provide EARS classification and the ISO 25010 vocabulary as a crate that depends on nothing of kanbanr.
+    tests:
+    - name: readme::the_readme_example_is_true
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN crates are published, THE SYSTEM SHALL publish only the standalone library, because a published CLI cannot carry the built web assets.
+    tests:
+    - name: release.yml publishes ears-classifier and no other crate
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE the documentation names a framework, THE SYSTEM SHALL state which part of it is used and which is not.
+    tests:
+    - name: docs/src/using/the-method.md distinguishes Zachman's columns from its rows and describes the TOGAF preset as opt-in
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHERE a workflow preset exists, THE SYSTEM SHALL describe it in the skill, so that a feature Claude cannot see is not a feature that may as well not exist.
+    tests:
+    - name: skill/kanbanr/SKILL.md names the TOGAF preset and when to offer it
+      kind: manual
+      state: planned
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:43:35.779738005Z
+updated_at: 2026-09-28T17:43:35.801450892Z

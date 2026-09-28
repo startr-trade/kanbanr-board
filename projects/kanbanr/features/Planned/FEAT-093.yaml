@@ -39,5 +39,11 @@ definition:
     - name: batch::tests::a_failed_batch_leaves_the_board_untouched
       kind: unit
       state: planned
+defect:
+  severity: high
+  introduced_by: FEAT-011
+  found_in: a batch with one stale task key, closing FEAT-080
+  root_cause: batch applies operations in place and only commits at the end, so an early return leaves applied writes outside git
+  escaped: true
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:07:14.452552779Z
+updated_at: 2026-09-28T18:07:14.50106922Z

@@ -50,6 +50,10 @@ definition:
       kind: unit
       state: green
       checked_rev: 3440c4072e9b
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T06:02:49.799972955Z
+    rev: a61566e0bba63180
   started_unapproved: 'auto-pilot: a defect in work just merged'
 defect:
   severity: high
@@ -66,4 +70,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-25T08:01:12.70928397Z
-updated_at: 2026-09-28T05:54:23.540588712Z
+updated_at: 2026-09-28T06:02:49.800008054Z

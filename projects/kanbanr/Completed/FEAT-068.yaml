@@ -59,11 +59,9 @@ definition:
       kind: unit
       state: green
       checked_rev: eccfb018cb28
-  approvals:
-  - at: 2026-09-28T06:36:43.3335384Z
-    by: unknown
-    verdict: withdrawn
-    reason: test the withdrawal path on a real item, then re-approve
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T06:37:14.628391043Z
     rev: 7c83ccca65087a44
 defect:
   severity: medium
@@ -80,4 +78,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T06:04:12.641757243Z
-updated_at: 2026-09-28T06:36:43.3335384Z
+updated_at: 2026-09-28T06:37:14.628431881Z

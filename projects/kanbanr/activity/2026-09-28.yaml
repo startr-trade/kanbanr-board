@@ -630,3 +630,7 @@
   actor: Venkatraman B
   message: record defect details for FEAT-083
   item: FEAT-083
+- time: 2026-09-28T16:15:15.344176211Z
+  actor: Venkatraman B
+  message: move feature FEAT-083
+  item: FEAT-083

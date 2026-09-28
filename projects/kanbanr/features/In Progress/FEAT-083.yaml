@@ -1,6 +1,6 @@
 code: FEAT-083
 title: 'Defect: the header shows Projects twice on any project page'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -31,11 +31,16 @@ definition:
     - name: 'web: npm run check:ui asserts no two app-shell links share a destination and a label'
       kind: integration
       state: planned
+  started_unapproved: 'auto-pilot: a duplicated link the user reported in the monitor'
 defect:
   severity: low
   introduced_by: FEAT-044
   found_in: reported by the user, in the monitor
   root_cause: two navigations added at different times, each correct in isolation; nothing checked the header as a whole
   escaped: true
+history:
+- at: 2026-09-28T16:15:15.342693991Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T16:13:36.939544943Z
-updated_at: 2026-09-28T16:13:36.987896877Z
+updated_at: 2026-09-28T16:15:15.342693991Z

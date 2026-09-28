@@ -1,3 +1,17 @@
+- id: L-19
+  lesson: A gate that fires on a transition nobody calls starting work will be escaped for non-events, and an escape used for non-events stops meaning anything
+  kind: pitfall
+  at: 2026-09-28T11:31:02.594440986Z
+  from_item: FEAT-075
+  evidence: deferring FEAT-074 was refused for want of an approval; the alternatives were approving work nobody intended to start or recording an --unapproved reason for a deliberate parking
+  tags:
+  - approval
+  - gates
+  goals:
+  - G-3
+  confidence: 0.6
+  last_affirmed: 2026-09-28T11:31:02.594440986Z
+  status: candidate
 - id: L-18
   lesson: 'One fact, one place: a convenience script that derives a path instead of asking the tool breaks the day someone renames it'
   kind: pitfall

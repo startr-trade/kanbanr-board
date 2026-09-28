@@ -1,6 +1,6 @@
 code: FEAT-075
 title: 'Defect: the approval gate fires when an item is parked, not only when work starts'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — narrow the gate
+  tasks:
+  - key: T1
+    text: the gate reads displayed_states instead of inferring activity by elimination
+    state: Completed
+  - key: T2
+    text: 'test: parking needs no approval, starting still does, the escape still works'
+    state: Completed
+  created_at: 2026-09-28T11:31:02.594087698Z
 definition:
   statement: A start gate that fires when work starts and not when an item is parked, for whoever is deferring something deliberately, so that the escape stays reserved for the case it was built for
   goals:
@@ -54,11 +64,15 @@ defect:
   severity: medium
   introduced_by: FEAT-048
   found_in: deferring FEAT-074
-  root_cause: the gate inferred 'active' by elimination instead of reading displayed_states, which already carries that meaning
+  root_cause: the gate inferred active status by elimination instead of reading displayed_states, which already carries that meaning
   escaped: true
+  fixed_by: FEAT-075
 history:
 - at: 2026-09-28T11:28:43.107679843Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T11:31:02.594107382Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T11:28:43.037498825Z
-updated_at: 2026-09-28T11:30:41.715506478Z
+updated_at: 2026-09-28T11:31:02.594115221Z

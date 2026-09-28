@@ -62,12 +62,17 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-09-28T16:01:19.732103816Z
-    rev: 51055251688e472d
+    at: 2026-09-28T17:58:53.993940972Z
+    rev: 2a79fa7eaa44aef9
+  approvals:
+  - at: 2026-09-28T17:58:53.993940972Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 2a79fa7eaa44aef9
   started_unapproved: 'auto-pilot: the user chose all three options — a distinct verdict, doctor exempt from the terminal gate, and the six ratified in bulk'
 history:
 - at: 2026-09-28T17:58:39.090048665Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T17:58:39.090048665Z
+updated_at: 2026-09-28T17:58:53.993940972Z

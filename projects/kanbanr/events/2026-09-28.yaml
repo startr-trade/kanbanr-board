@@ -473,3 +473,12 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-09-28T17:58:53.997949446Z
+  project: kanbanr
+  kind: approval_recorded
+  feature: FEAT-080
+  message: Venkatraman B approved FEAT-080
+  detail:
+    by: Venkatraman B
+    reason: ''
+    status: In Progress

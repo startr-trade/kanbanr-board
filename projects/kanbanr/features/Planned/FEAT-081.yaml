@@ -53,5 +53,11 @@ definition:
     - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
       kind: integration
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-076
+  found_in: reported by the user, second time for the same complaint
+  root_cause: the requirement was written as a class name rather than as the property it was about, so both the fix and the guardrail satisfied the letter; .btn and .chip had always declared the same background, which no one had compared
+  escaped: false
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:14.7627853Z
+updated_at: 2026-09-28T12:42:14.785379183Z

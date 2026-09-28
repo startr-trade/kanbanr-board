@@ -1,6 +1,6 @@
 code: FEAT-080
 title: A recorded bypass is never reconciled once the work completes
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: null
 priority: null
@@ -64,5 +64,10 @@ definition:
     by: Venkatraman B
     at: 2026-09-28T16:01:19.732103816Z
     rev: 51055251688e472d
+  started_unapproved: 'auto-pilot: the user chose all three options — a distinct verdict, doctor exempt from the terminal gate, and the six ratified in bulk'
+history:
+- at: 2026-09-28T17:58:39.090048665Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T17:58:39.049282385Z
+updated_at: 2026-09-28T17:58:39.090048665Z

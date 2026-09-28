@@ -1114,3 +1114,6 @@
 - time: 2026-09-28T18:04:25.296223342Z
   actor: Venkatraman B
   message: scope the merge-recovery guard defect
+- time: 2026-09-28T18:07:14.403242521Z
+  actor: Venkatraman B
+  message: scope the release guardrails that landed under FEAT-080's trailer

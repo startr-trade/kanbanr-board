@@ -31,22 +31,17 @@ definition:
     tests:
     - name: batch::tests::a_failed_batch_leaves_the_board_untouched
       kind: unit
-      state: green
+      state: planned
   - id: R-2
     kind: functional
     text: IF a failed batch cannot be restored, THEN THE SYSTEM SHALL say so and name what is left uncommitted, rather than reporting only the failing operation.
     tests:
     - name: batch::tests::a_failed_batch_leaves_the_board_untouched
       kind: unit
-      state: green
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:08:15.299247665Z
-    rev: a7c857dabf32282b
-  approvals:
-  - at: 2026-09-28T18:08:15.299247665Z
-    by: Venkatraman B
-    verdict: approved
     rev: a7c857dabf32282b
 defect:
   severity: high
@@ -55,4 +50,4 @@ defect:
   root_cause: batch applies operations in place and only commits at the end, so an early return leaves applied writes outside git
   escaped: true
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:13:29.523571737Z
+updated_at: 2026-09-28T18:13:29.547851691Z

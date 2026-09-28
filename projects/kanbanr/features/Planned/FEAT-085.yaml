@@ -38,7 +38,7 @@ definition:
     tests:
     - name: local_mode::init_refuses_to_repoint_a_folder_that_already_has_a_board
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN init is given an explicit override, THE SYSTEM SHALL repoint the marker and SHALL report what it replaced.
@@ -53,4 +53,4 @@ defect:
   root_cause: init writes the marker unconditionally; the only pointer from a project to its board is treated as scratch state rather than as data
   escaped: true
 created_at: 2026-09-28T16:31:38.230257467Z
-updated_at: 2026-09-28T16:33:51.556711631Z
+updated_at: 2026-09-28T16:33:51.574216689Z

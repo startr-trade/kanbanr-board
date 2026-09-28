@@ -61,5 +61,14 @@ definition:
     - name: vsce package, then install the .vsix in a clean VS Code and run the commands
       kind: manual
       state: planned
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T08:20:46.118690404Z
+    rev: 21a582f7a22a29e8
+  approvals:
+  - at: 2026-09-28T08:20:46.118690404Z
+    by: reviewed in the monitor
+    verdict: approved
+    rev: 21a582f7a22a29e8
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-09-28T07:07:06.136177847Z
+updated_at: 2026-09-28T08:20:46.118690404Z

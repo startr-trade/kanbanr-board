@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::the_cross_project_board_shows_only_what_each_board_shows
       kind: unit
-      state: planned
+      state: green
 defect:
   severity: medium
   introduced_by: FEAT-030
@@ -39,4 +39,4 @@ defect:
   root_cause: the cross-project board placed every feature in a lane without applying the project's displayed_states
   escaped: true
 created_at: 2026-09-28T18:25:35.263074564Z
-updated_at: 2026-09-28T18:25:44.627573206Z
+updated_at: 2026-09-28T18:25:44.689487955Z

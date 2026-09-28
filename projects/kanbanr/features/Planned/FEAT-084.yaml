@@ -62,10 +62,10 @@ definition:
       stimulus: The SPA is embedded in the release binary
       environment: A release build of kanbanr-cli
       response: The binary grows by about 1 MB, not 3.4 MB
-      measure: the release binary stays under 14 MB (12 MB today; web/dist is 3.4 MB raw, 0.9 MB gzipped) — asserted by a size check in the release workflow
+      measure: release workflow asserts the packaged binary stays under the size ceiling — 14 MB, against 12 MB today, web/dist being 3.4 MB raw and 0.9 MB gzipped
     tests:
     - name: release workflow asserts the packaged binary stays under the size ceiling
       kind: manual
       state: planned
 created_at: 2026-09-28T16:17:15.357031677Z
-updated_at: 2026-09-28T16:17:35.735502773Z
+updated_at: 2026-09-28T16:18:01.203806805Z

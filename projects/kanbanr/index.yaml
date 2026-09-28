@@ -1,3 +1,17 @@
+- code: FEAT-071
+  status: Planned
+  milestone: MS-004
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002
@@ -1079,20 +1093,6 @@
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-071
-  status: Planned
-  milestone: MS-004
   kind: null
   priority: null
   start: null

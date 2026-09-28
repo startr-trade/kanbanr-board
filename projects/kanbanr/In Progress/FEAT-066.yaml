@@ -60,10 +60,19 @@ definition:
     - name: retro::tests::a_period_older_than_the_log_is_named_as_such
       kind: unit
       state: planned
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T06:49:15.640688742Z
+    rev: 9e4d00cb8ea09a86
+  approvals:
+  - at: 2026-09-28T06:49:15.640688742Z
+    by: reviewed in the monitor
+    verdict: approved
+    rev: 9e4d00cb8ea09a86
   started_unapproved: 'auto-pilot: the user asked for the folder/file-per-day layout and for the existing files to be expanded'
 history:
 - at: 2026-09-28T06:45:15.472486836Z
   from: Planned
   to: In Progress
 created_at: 2026-09-25T18:58:32.922174399Z
-updated_at: 2026-09-28T06:45:15.472486836Z
+updated_at: 2026-09-28T06:49:15.640688742Z

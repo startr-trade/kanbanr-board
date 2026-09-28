@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A batch that either commits or changes nothing, for anyone driving the board through bundles, so that a failed operation cannot leave writes outside version control
+  goals:
+  - G-0
+  - G-1
+  zachman:
+    what: What a failed batch leaves behind in the data folder
+    how: Snapshot the data repo's state before applying the bundle and restore it on failure; if restoration fails, name what is uncommitted
+    where: core/batch.rs, core/store.rs (the write path)
+    when: Whenever an operation in a bundle fails after earlier ones applied
+    who: Claude, which drives nearly every write through batch, and anyone restoring the board from git
+    why: A failed batch applied its first five operations, auto-completed an item, rewrote the index — and committed none of it, so the changes were invisible to git and would have been swept into the next unrelated commit
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF an operation in a batch fails, THEN THE SYSTEM SHALL restore the data folder to its state before the batch ran, so that no partial change remains.
+    tests:
+    - name: batch::tests::a_failed_batch_leaves_the_board_untouched
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a failed batch cannot be restored, THEN THE SYSTEM SHALL say so and name what is left uncommitted, rather than reporting only the failing operation.
+    tests:
+    - name: batch::tests::a_failed_batch_leaves_the_board_untouched
+      kind: unit
+      state: planned
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:01:40.920261824Z
+updated_at: 2026-09-28T18:07:14.452552779Z

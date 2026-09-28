@@ -673,3 +673,7 @@
 - time: 2026-09-28T16:29:31.67181895Z
   actor: Venkatraman B
   message: record the embedded-monitor and installer work
+- time: 2026-09-28T16:30:41.621846088Z
+  actor: Venkatraman B
+  message: test the%20daemon%20prints%20what%20is%20missing%20and%20how%20to%20supply%20it%20when%20built%20without%20assets of FEAT-084/R-3 is now green
+  item: FEAT-084

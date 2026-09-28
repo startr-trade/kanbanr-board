@@ -48,10 +48,19 @@ definition:
     - name: cli_event_log_is_committed_with_the_change
       kind: e2e
       state: planned
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T06:43:50.180672321Z
+    rev: fdaeeb9f174aaf87
+  approvals:
+  - at: 2026-09-28T06:43:50.180672321Z
+    by: reviewed in the monitor
+    verdict: approved
+    rev: fdaeeb9f174aaf87
   started_unapproved: 'auto-pilot: small pre-existing defect on the way to the log restructure'
 history:
 - at: 2026-09-28T06:43:01.111708046Z
   from: Planned
   to: In Progress
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-28T06:43:01.111708046Z
+updated_at: 2026-09-28T06:43:50.180672321Z

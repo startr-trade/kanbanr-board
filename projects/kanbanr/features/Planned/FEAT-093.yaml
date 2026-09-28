@@ -1,0 +1,16 @@
+code: FEAT-093
+title: 'Defect: a failed batch leaves the board mutated and uncommitted'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T18:01:40.920256228Z
+updated_at: 2026-09-28T18:01:40.920261824Z

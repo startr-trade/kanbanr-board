@@ -456,3 +456,12 @@
     by: Venkatraman B
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
     status: Completed
+- time: 2026-09-28T17:57:54.66621042Z
+  project: kanbanr
+  kind: approval_withdrawn
+  feature: FEAT-087
+  message: Venkatraman B withdrew the approval of FEAT-087 — recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
+  detail:
+    by: Venkatraman B
+    reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
+    status: Completed

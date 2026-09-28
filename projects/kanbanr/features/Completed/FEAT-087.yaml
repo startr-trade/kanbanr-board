@@ -52,15 +52,16 @@ definition:
     - name: docs/INSTALL.md names the glibc floor and quotes the startup error
       kind: manual
       state: green
-  approval:
-    by: unknown
-    at: 2026-09-28T17:56:28.823380619Z
-    rev: aad2145f8302e86e
   approvals:
   - at: 2026-09-28T17:56:28.823380619Z
     by: unknown
     verdict: ratified
     reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
+    rev: aad2145f8302e86e
+  - at: 2026-09-28T17:57:54.662752541Z
+    by: Venkatraman B
+    verdict: withdrawn
+    reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
     rev: aad2145f8302e86e
   started_unapproved: 'auto-pilot: the published Linux binary would not start on Debian stable'
 defect:
@@ -77,4 +78,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T16:46:53.848512353Z
-updated_at: 2026-09-28T17:56:28.823380619Z
+updated_at: 2026-09-28T17:57:54.662752541Z

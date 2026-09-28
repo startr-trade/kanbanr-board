@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: An init that will not silently repoint a folder at a different board, for anyone running it inside a project that already has one, so that the only pointer to a board is never overwritten by accident
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: What `kanbanr init` does when a .kanbanr marker already exists
+    how: Read the existing marker first; refuse when it names a different project or data folder, naming both pointers and the two ways forward; --force repoints and reports what it replaced
+    where: api/crates/kanbanr-cli/src/main.rs (init)
+    when: Whenever init runs in a folder that is already tracked
+    who: Anyone who runs init in an existing project — including this tool's own author, while verifying CI steps locally
+    why: The marker is the only pointer from a project to its board. Overwriting it makes a full board read as empty, and nothing was lost here only because FEAT-073 had made the marker a tracked file
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF a .kanbanr marker already names a different project or data folder, THEN THE SYSTEM SHALL refuse to initialise and SHALL print both the current and the proposed pointer.
+    tests:
+    - name: tests::init_refuses_to_repoint_a_folder_that_already_has_a_board
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE an existing marker matches what init would write, THE SYSTEM SHALL proceed, so that re-running init stays idempotent.
+    tests:
+    - name: tests::init_refuses_to_repoint_a_folder_that_already_has_a_board
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN init is given an explicit override, THE SYSTEM SHALL repoint the marker and SHALL report what it replaced.
+    tests:
+    - name: tests::init_refuses_to_repoint_a_folder_that_already_has_a_board
+      kind: unit
+      state: planned
 created_at: 2026-09-28T16:31:38.230257467Z
-updated_at: 2026-09-28T16:31:38.230263841Z
+updated_at: 2026-09-28T16:31:38.247211438Z

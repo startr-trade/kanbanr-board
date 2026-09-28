@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: restore the hooks
+  tasks: []
+  created_at: 2026-09-28T19:21:46.90459198Z
 definition:
   statement: The real session-start and stop-check scripts restored and guarded by a test, for everyone using kanbanr's hooks, so that sessions recover the board and turns are nudged to record work again
   goals:
@@ -52,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:20:44.727093541Z
-updated_at: 2026-09-28T19:21:46.876838706Z
+updated_at: 2026-09-28T19:21:46.904595452Z

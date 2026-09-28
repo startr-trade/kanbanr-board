@@ -1,6 +1,6 @@
 code: FEAT-073
 title: 'Defect: convenience scripts derive the board path instead of asking the CLI'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — ask, do not guess
+  tasks:
+  - key: T1
+    text: Makefile and capture.sh take the path from `kanbanr where`, falling back to the convention
+    state: Completed
+  - key: T2
+    text: make docker-up passes it to compose; the compose file documents the direct form
+    state: Completed
+  - key: T3
+    text: the release guide says <name>.kanbanr, not this board's name
+    state: Completed
+  created_at: 2026-09-28T10:57:08.989770664Z
 definition:
   statement: One place that knows where the board is, for anyone who renames or relocates one, so that a convention is not enforced as a rule by scripts that guessed it
   goals:
@@ -57,5 +70,8 @@ history:
 - at: 2026-09-28T10:56:51.15187022Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T10:57:08.989795995Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T10:56:51.08349747Z
-updated_at: 2026-09-28T10:56:51.15187022Z
+updated_at: 2026-09-28T10:57:08.989795995Z

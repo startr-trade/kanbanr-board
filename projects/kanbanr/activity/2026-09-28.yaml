@@ -1408,3 +1408,6 @@
   actor: Venkatraman B
   message: update task T3 (FEAT-100/TL-001)
   item: FEAT-100
+- time: 2026-09-28T19:14:40.502593832Z
+  actor: Venkatraman B
+  message: 'Scope FEAT-101: ship the session-summary hooks'

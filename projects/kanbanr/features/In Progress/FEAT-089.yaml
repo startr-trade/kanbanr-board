@@ -60,10 +60,19 @@ definition:
     - name: 'ci.yml installers: the scripts pin https on request and redirect'
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T17:11:48.533033024Z
+    rev: df7da01f691a6e4d
+  approvals:
+  - at: 2026-09-28T17:11:48.533033024Z
+    by: Venkatraman B
+    verdict: approved
+    rev: df7da01f691a6e4d
   started_unapproved: 'auto-pilot: the user asked directly — ''We need to make sure that the application can reach github using https. http for updates are not good'''
 history:
 - at: 2026-09-28T17:11:23.634290076Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:11:23.572072975Z
-updated_at: 2026-09-28T17:11:23.634290076Z
+updated_at: 2026-09-28T17:11:48.533033024Z

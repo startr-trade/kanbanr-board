@@ -53,5 +53,11 @@ definition:
     - name: web/src/pages/FeaturePage.tsx uses an in-page textarea, not window.prompt
       kind: manual
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-067
+  found_in: the monitor, by the user asking what the withdraw button does
+  root_cause: the UI's approve action was written as a self-describing literal rather than reading the identity the CLI already resolves; dispatch then defaulted a missing approver to "unknown", so no layer refused an unattributable verdict
+  escaped: true
 created_at: 2026-09-28T12:06:50.947612246Z
-updated_at: 2026-09-28T12:07:00.88527444Z
+updated_at: 2026-09-28T12:07:12.934991749Z

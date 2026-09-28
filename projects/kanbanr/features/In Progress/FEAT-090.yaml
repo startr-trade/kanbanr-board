@@ -11,7 +11,35 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: the docs become a book
+  tasks:
+  - key: T1
+    text: split USER_GUIDE and DESIGN along their own headings into 19 chapters; every source line accounted for (621+9=630, 352+5=357)
+    state: NotStarted
+  - key: T2
+    text: book.toml, SUMMARY.md and an introduction; CI asserts every page is in the table of contents and every entry exists
+    state: NotStarted
+  - key: T3
+    text: docs.yml builds on every PR and deploys to Pages only from the default branch
+    state: NotStarted
+  - key: T4
+    text: 'diagram-open.js and mermaid-fix.css: a click opens a diagram full size in its own tab, where the browser''s zoom already works'
+    state: NotStarted
+  - key: T5
+    text: screenshots regenerated, adding charter, review, gantt and workflow — pages the method is practised on that no image showed
+    state: NotStarted
+  - key: T6
+    text: 'tools/demo/portfolio.sh: three projects with real cross-project dependencies, as the worked example and the portfolio screenshot fixture'
+    state: NotStarted
+  - key: T7
+    text: CONTRIBUTING.md becomes a pointer to its chapter; the changelog chapter is synced by tools/docs/sync.sh with CI failing on drift
+    state: NotStarted
+  - key: T8
+    text: check-mermaid fails when its globs match nothing, instead of reporting a silent pass
+    state: NotStarted
+  created_at: 2026-09-28T17:29:26.639838605Z
 definition:
   statement: Documentation as one navigable, searchable book published to GitHub Pages, for anyone reading about kanbanr, so that finding something does not depend on knowing which file it is in
   goals:
@@ -84,4 +112,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:29:26.620623702Z
+updated_at: 2026-09-28T17:29:26.63985186Z

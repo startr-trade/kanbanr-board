@@ -1117,3 +1117,7 @@
 - time: 2026-09-28T18:07:14.403242521Z
   actor: Venkatraman B
   message: scope the release guardrails that landed under FEAT-080's trailer
+- time: 2026-09-28T18:07:14.429644663Z
+  actor: Venkatraman B
+  message: define feature FEAT-095
+  item: FEAT-095

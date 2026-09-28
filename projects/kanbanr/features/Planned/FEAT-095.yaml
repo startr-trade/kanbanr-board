@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release that refuses a bad tag before it builds anything and treats a re-run publish as success, for whoever cuts a release, so that a wrong release never ships and a right one never fails for having shipped already
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: The release workflow's handling of its tag and of crates.io publication
+    how: A tag job every other job needs, validating shape, version agreement and pre-release status; an idempotent publish that tolerates only 'already exists'
+    where: .github/workflows/release.yml
+    when: On every pushed v* tag, and on any re-run of one
+    who: The maintainer cutting a release, and anyone pulling :latest
+    why: Everything downstream derives from the tag, so a bad one produces a complete wrong release rather than an error; and a re-run publish failed on a version that was correctly already there
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF a release tag is not v-prefixed semver or names a version other than the workspace version, THEN THE SYSTEM SHALL refuse the release before any artifact is built.
+    tests:
+    - name: 'release.yml tag job, run locally against the real workspace: v0.1.0 accepted, 0.1.0 and v0.2.0 refused'
+      kind: manual
+      state: green
+  - id: R-2
+    kind: functional
+    text: WHERE a release tag is a pre-release, THE SYSTEM SHALL NOT move the latest image tag.
+    tests:
+    - name: release.yml image job tags latest only when the tag job reports prerelease=false
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a crate version is already published, THEN THE SYSTEM SHALL treat the publish step as successful, and SHALL fail on any other publish error.
+    tests:
+    - name: release.yml crates job tolerates only 'already exists on crates.io'
+      kind: manual
+      state: planned
 created_at: 2026-09-28T18:07:14.401982056Z
-updated_at: 2026-09-28T18:07:14.401982056Z
+updated_at: 2026-09-28T18:07:14.427439752Z

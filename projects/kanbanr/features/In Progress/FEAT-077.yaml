@@ -38,7 +38,7 @@ definition:
     tests:
     - name: eventing::tests::a_withdrawn_approval_is_an_event
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHERE the monitor offers to record a verdict, THE SYSTEM SHALL attribute it to the board's commit identity, and WHERE no identity is configured SHALL withhold the action and say how to set one.
@@ -65,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:06:50.947612246Z
-updated_at: 2026-09-28T12:18:00.092119945Z
+updated_at: 2026-09-28T12:18:00.10459004Z

@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A test name that contains a slash addressing the test it names, for anyone recording evidence, so that a passing test can be recorded as passing
+  goals:
+  - G-2
+  - G-0
+  zachman:
+    what: Percent-encoding of the requirement id and test name in the test-state route
+    how: A segment encoder that escapes `/`, used where a free-text value is a path segment; the existing whole-path encoder stays for query values and document paths
+    where: api/crates/kanbanr-cli/src/main.rs (urlencode_segment and the test-state caller)
+    when: Whenever a test's TDD state is recorded
+    who: Anyone recording evidence — and the reader of `kanbanr check`, who was told a passing test was unproven
+    why: Integration and manual tests are named after the file that runs them, so slashes are the normal case, not the exception; and the failure was silent, which made the evidence rule look broken instead of the transport
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a requirement id or test name is placed in a route, THE SYSTEM SHALL encode it as a single path segment, so that a name containing a slash still addresses the test it names.
+    tests:
+    - name: tests::a_path_segment_encodes_its_slashes
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL continue to pass slashes through unescaped in query values and document paths, where they are part of the value.
+    tests:
+    - name: tests::a_path_segment_encodes_its_slashes
+      kind: unit
+      state: planned
 created_at: 2026-09-28T12:19:13.008712649Z
-updated_at: 2026-09-28T12:19:13.008719573Z
+updated_at: 2026-09-28T12:19:13.02248273Z

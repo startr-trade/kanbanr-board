@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 name: kanbanr
 description: kanbanr's own development board — dogfooding the tool to track its roadmap (see docs/ROADMAP.md).
 statuses:

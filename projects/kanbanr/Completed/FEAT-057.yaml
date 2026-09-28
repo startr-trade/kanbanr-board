@@ -131,6 +131,10 @@ definition:
       kind: unit
       state: green
       checked_rev: 3440c4072e9b
+  approval:
+    by: reviewed in the monitor
+    at: 2026-09-28T06:02:46.183624658Z
+    rev: 925abc9fdb808e1a
   started_unapproved: 'auto-pilot: definition written before the work and left for review'
 history:
 - at: 2026-09-25T11:06:00.347612409Z
@@ -140,4 +144,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410955975Z
-updated_at: 2026-09-28T05:54:23.540572487Z
+updated_at: 2026-09-28T06:02:46.183710579Z

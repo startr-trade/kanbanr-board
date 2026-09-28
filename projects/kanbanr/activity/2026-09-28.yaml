@@ -878,3 +878,6 @@
 - time: 2026-09-28T17:14:57.544040719Z
   actor: Venkatraman B
   message: record the https-only work
+- time: 2026-09-28T17:16:43.393305334Z
+  actor: Venkatraman B
+  message: scope the docs mdbook

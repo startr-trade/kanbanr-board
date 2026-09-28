@@ -48,10 +48,19 @@ definition:
     - name: web/src/pages/PortfolioPage.tsx renders a pager per lane and slices cards by the page size
       kind: manual
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T17:35:47.428291966Z
+    rev: 91744df35598a595
+  approvals:
+  - at: 2026-09-28T17:35:47.428291966Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 91744df35598a595
   started_unapproved: 'auto-pilot: the user asked directly — ''portfolio should also have paginated items in the kanban columns'''
 history:
 - at: 2026-09-28T17:35:33.340384606Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:35:33.295604745Z
-updated_at: 2026-09-28T17:35:33.420845467Z
+updated_at: 2026-09-28T17:35:47.428291966Z

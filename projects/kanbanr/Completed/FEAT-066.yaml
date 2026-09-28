@@ -1,6 +1,6 @@
 code: FEAT-066
 title: 'Defect: the activity and event logs discard raw history at 200 entries'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,23 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — a folder per log, a file per day
+  tasks:
+  - key: T1
+    text: 'core: daylog — append to today, read bounded newest-first, split an existing single file'
+    state: Completed
+  - key: T2
+    text: activity and eventing delegate to it; the 200-entry cap is gone
+    state: Completed
+  - key: T3
+    text: retro reads the whole log and names the boundary instead of reporting silence
+    state: Completed
+  - key: T4
+    text: tests + migrate this board
+    state: Completed
+  created_at: 2026-09-28T06:52:28.094455087Z
 definition:
   statement: Raw activity and event logs that are never truncated, for anyone who needs to know what actually happened, so that a summary can be bounded without the data being lost
   goals:
@@ -75,9 +91,19 @@ definition:
     verdict: approved
     rev: 9e4d00cb8ea09a86
   started_unapproved: 'auto-pilot: the user asked for the folder/file-per-day layout and for the existing files to be expanded'
+defect:
+  severity: high
+  introduced_by: FEAT-003
+  found_in: reading the retro of a pre-method wave
+  root_cause: a cap on a raw log, which deleted history the charter says is never discarded
+  escaped: true
+  fixed_by: FEAT-066
 history:
 - at: 2026-09-28T06:45:15.472486836Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T06:52:28.094494815Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-25T18:58:32.922174399Z
-updated_at: 2026-09-28T06:52:28.060442494Z
+updated_at: 2026-09-28T06:52:28.094503023Z

@@ -18,6 +18,9 @@ todo_lists:
   - key: T1
     text: Rewrite the skill's Activation as a plan-mode setup interview
     state: NotStarted
+  - key: T2
+    text: Update the skill description and quickstart/everyday docs
+    state: NotStarted
   created_at: 2026-09-28T19:12:46.449721471Z
 definition:
   statement: A plan-mode setup interview for anyone starting a project with kanbanr through Claude, so that the board, charter and process are agreed in one approval before any other work begins
@@ -75,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:11:15.938923111Z
-updated_at: 2026-09-28T19:12:46.470121699Z
+updated_at: 2026-09-28T19:12:46.49088479Z

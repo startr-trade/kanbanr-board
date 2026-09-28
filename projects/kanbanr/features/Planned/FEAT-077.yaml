@@ -1,0 +1,16 @@
+code: FEAT-077
+title: 'Defect: an approval recorded in the monitor names a place, not a person'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T12:06:50.947612246Z
+updated_at: 2026-09-28T12:06:50.94761777Z

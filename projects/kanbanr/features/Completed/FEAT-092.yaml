@@ -1,6 +1,6 @@
 code: FEAT-092
 title: Publish the EARS/ISO vocabulary as its own crate, and say what the frameworks actually are
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: null
 priority: null
@@ -17,19 +17,19 @@ todo_lists:
   tasks:
   - key: T1
     text: 'extract ears-classifier: own licence, README whose example is a compiled test, one dependency'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: kanbanr-core re-exports it as `ears`, so no call site changes
-    state: NotStarted
+    state: Completed
   - key: T3
     text: release.yml publishes only it, with a comment on why kanbanr-cli and kanbanr-core are deliberately absent
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'the method chapter: Zachman''s columns not its rows; TOGAF as an opt-in workflow preset; neither recommended'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: the skill qualifies the six dimensions and describes the TOGAF preset it previously never mentioned
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T17:43:46.522168228Z
 definition:
   statement: The parts of kanbanr that are useful without kanbanr published on their own, and an honest account of which frameworks it borrows from, for anyone evaluating or reusing it, so that neither the library nor the method claims more than it does
@@ -86,5 +86,8 @@ history:
 - at: 2026-09-28T17:43:35.827441613Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T17:46:07.84526557Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:44:53.110490634Z
+updated_at: 2026-09-28T17:46:07.84526557Z

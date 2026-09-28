@@ -289,3 +289,6 @@
 - time: 2026-09-28T08:33:54.996312772Z
   actor: Venkatraman B
   message: 'update config: default-state'
+- time: 2026-09-28T08:34:44.873589633Z
+  actor: Venkatraman B
+  message: 'FEAT-072: a stale reader says so'

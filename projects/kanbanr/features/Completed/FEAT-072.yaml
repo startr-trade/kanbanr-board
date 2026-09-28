@@ -1,6 +1,6 @@
 code: FEAT-072
 title: 'Defect: an older binary reads a newer board as empty instead of saying so'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -11,7 +11,23 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — fail loudly, not empty
+  tasks:
+  - key: T1
+    text: bump the schema version, and say in the constant what a bump means
+    state: Completed
+  - key: T2
+    text: one config read guards every loader; a newer board is refused by name
+    state: Completed
+  - key: T3
+    text: doctor reports the newer direction; the daemon reports the schema it understands
+    state: Completed
+  - key: T4
+    text: tests both directions + the daemon
+    state: Completed
+  created_at: 2026-09-28T08:34:44.872126867Z
 definition:
   statement: A reader that says a board was written by a newer version, for anyone whose dashboard has gone empty, so that a stale process is never mistaken for lost data
   goals:
@@ -64,9 +80,13 @@ defect:
   found_in: the user's dashboard showing no items at all
   root_cause: a storage layout change that did not bump the schema version, so an older reader could not tell a moved board from an empty one
   escaped: true
+  fixed_by: FEAT-072
 history:
 - at: 2026-09-28T08:27:56.838301736Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T08:34:44.872158743Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T08:17:16.539625741Z
-updated_at: 2026-09-28T08:33:48.172489883Z
+updated_at: 2026-09-28T08:34:44.872165494Z

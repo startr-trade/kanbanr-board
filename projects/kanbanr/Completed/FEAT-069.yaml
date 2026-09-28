@@ -1,6 +1,6 @@
 code: FEAT-069
 title: An approval can be withdrawn
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: null
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — withdrawal
+  tasks:
+  - key: T1
+    text: 'core: an append-only approval log; withdrawal clears the current approval'
+    state: Completed
+  - key: T2
+    text: CLI kanbanr unapprove; route; a Withdraw button and the history on the feature page
+    state: Completed
+  - key: T3
+    text: 'test: the record survives, the content hash does not move, the gate applies again'
+    state: Completed
+  created_at: 2026-09-28T06:37:35.322340208Z
 definition:
   statement: A way to take back an approval, for the reviewer who changes their mind or was never asked, so that agreement means something that can be revised rather than something irreversible
   goals:
@@ -72,5 +85,8 @@ history:
 - at: 2026-09-28T06:31:37.964842123Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T06:37:35.322396507Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T06:04:38.684778738Z
-updated_at: 2026-09-28T06:37:10.612662222Z
+updated_at: 2026-09-28T06:37:35.322396507Z

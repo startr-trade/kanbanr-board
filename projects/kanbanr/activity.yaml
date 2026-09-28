@@ -1,3 +1,6 @@
+- time: 2026-09-28T06:37:35.324562332Z
+  actor: Venkatraman B
+  message: 'FEAT-069: withdrawal built'
 - time: 2026-09-28T06:37:14.630051871Z
   actor: Venkatraman B
   message: approve definition of FEAT-068
@@ -682,7 +685,3 @@
   actor: Venkatraman B
   message: move feature FEAT-032
   item: FEAT-032
-- time: 2026-06-18T19:07:10.800503017Z
-  actor: Venkatraman B
-  message: move feature FEAT-034
-  item: FEAT-034

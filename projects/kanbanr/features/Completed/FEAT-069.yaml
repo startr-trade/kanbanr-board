@@ -44,7 +44,7 @@ definition:
     - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: green
-      checked_rev: 858f91a794f6
+      checked_rev: 4eddd78b1445
   - id: R-2
     kind: functional
     text: WHEN an approval is given or withdrawn, THE SYSTEM SHALL append it to the item's approval record with who, when and why, and SHALL never remove an earlier entry.
@@ -52,7 +52,7 @@ definition:
     - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: green
-      checked_rev: 858f91a794f6
+      checked_rev: 4eddd78b1445
   - id: R-3
     kind: functional
     text: WHILE an approval is withdrawn, THE SYSTEM SHALL apply the start gate to that item again.
@@ -60,7 +60,7 @@ definition:
     - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: green
-      checked_rev: 858f91a794f6
+      checked_rev: 4eddd78b1445
   - id: R-4
     kind: nfr
     text: THE SYSTEM SHALL leave the definition's content hash unchanged when an approval is recorded or withdrawn.
@@ -75,7 +75,7 @@ definition:
     - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: green
-      checked_rev: 858f91a794f6
+      checked_rev: 4eddd78b1445
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:37:10.612610824Z
@@ -89,4 +89,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T06:04:38.684778738Z
-updated_at: 2026-09-28T07:07:26.633235488Z
+updated_at: 2026-09-28T08:21:42.911950651Z

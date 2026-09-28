@@ -67,7 +67,7 @@ definition:
     - name: cli_check_file_holds_a_contribution_to_the_same_bar
       kind: e2e
       state: green
-      checked_rev: 858f91a794f6
+      checked_rev: 4eddd78b1445
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL document every command the CLI has and every module the design describes.
@@ -103,4 +103,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410538489Z
-updated_at: 2026-09-28T08:20:50.694275862Z
+updated_at: 2026-09-28T08:21:42.911665597Z

@@ -31,7 +31,7 @@ definition:
     tests:
     - name: readme::the_readme_example_is_true
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN crates are published, THE SYSTEM SHALL publish only the standalone library, because a published CLI cannot carry the built web assets.
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:43:35.827441613Z
+updated_at: 2026-09-28T17:43:35.866789562Z

@@ -51,7 +51,7 @@ definition:
     tests:
     - name: 'web/src/pages/FeaturePage.tsx: the withdraw trigger and its confirm both carry btn-danger'
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: nfr
     text: WHEN a guardrail is written for a user-visible requirement, THE SYSTEM SHALL check the property the requirement is about rather than the shape of the fix that satisfied it once.
@@ -78,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:42:14.747250223Z
-updated_at: 2026-09-28T12:42:29.620840882Z
+updated_at: 2026-09-28T12:42:29.636822572Z

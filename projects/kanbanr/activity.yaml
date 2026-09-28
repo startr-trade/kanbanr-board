@@ -1,3 +1,6 @@
+- time: 2026-09-28T05:55:32.267472884Z
+  actor: Venkatraman B
+  message: scope reviewing and approving in the monitor
 - time: 2026-09-28T05:54:32.08614964Z
   actor: Venkatraman B
   message: 'FEAT-065: project-scoped hooks, the generated block, the docs guard'
@@ -681,6 +684,3 @@
 - time: 2026-06-12T07:12:10.839075953Z
   actor: kanbanr-dev
   message: update document
-- time: 2026-06-12T07:12:10.778387503Z
-  actor: kanbanr-dev
-  message: add document asset design/architecture.png

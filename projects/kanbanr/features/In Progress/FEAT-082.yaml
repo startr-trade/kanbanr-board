@@ -1,6 +1,6 @@
 code: FEAT-082
 title: 'Defect: the commit guard reads a stray -m out of prose and refuses a correct commit'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -46,11 +46,16 @@ definition:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work'
 defect:
   severity: high
   introduced_by: FEAT-056
   found_in: committing the docs sync — the guard refused a commit that carried a valid trailer
   root_cause: 'a token recognised without its boundary: find("-m") matches two characters anywhere in a command line, the third instance of this shape after the [no-ref] prose match and the unencoded path segment'
   escaped: true
+history:
+- at: 2026-09-28T16:11:07.891920649Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:09:18.248028331Z
+updated_at: 2026-09-28T16:11:07.891920649Z

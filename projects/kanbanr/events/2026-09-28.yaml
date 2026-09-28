@@ -197,3 +197,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-09-28T16:11:07.90800811Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-082
+  message: feature FEAT-082 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

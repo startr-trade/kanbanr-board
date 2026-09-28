@@ -38,7 +38,7 @@ definition:
     tests:
     - name: batch::tests::a_failed_batch_leaves_the_board_untouched
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:08:15.299247665Z
@@ -55,4 +55,4 @@ defect:
   root_cause: batch applies operations in place and only commits at the end, so an early return leaves applied writes outside git
   escaped: true
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:13:29.503549616Z
+updated_at: 2026-09-28T18:13:29.523571737Z

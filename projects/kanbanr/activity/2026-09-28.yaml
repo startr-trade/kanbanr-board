@@ -1246,3 +1246,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-097
   item: FEAT-097
+- time: 2026-09-28T18:26:06.732859408Z
+  actor: Venkatraman B
+  message: move feature FEAT-096
+  item: FEAT-096

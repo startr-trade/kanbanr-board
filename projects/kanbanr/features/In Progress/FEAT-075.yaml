@@ -1,6 +1,6 @@
 code: FEAT-075
 title: 'Defect: the approval gate fires when an item is parked, not only when work starts'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -46,11 +46,16 @@ definition:
     - name: tests::the_start_gate_fires_on_starting_work_and_not_on_parking
       kind: unit
       state: planned
+  started_unapproved: 'auto-pilot: the gate is blocking a deliberate deferral'
 defect:
   severity: medium
   introduced_by: FEAT-048
   found_in: deferring FEAT-074
   root_cause: the gate inferred 'active' by elimination instead of reading displayed_states, which already carries that meaning
   escaped: true
+history:
+- at: 2026-09-28T11:28:43.107679843Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T11:28:43.037498825Z
-updated_at: 2026-09-28T11:28:43.077954043Z
+updated_at: 2026-09-28T11:28:43.107679843Z

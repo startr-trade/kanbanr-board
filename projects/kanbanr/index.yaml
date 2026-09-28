@@ -29,7 +29,7 @@
   done: 0
   total: 0
 - code: FEAT-069
-  status: Planned
+  status: In Progress
   milestone: MS-006
   kind: null
   priority: null
@@ -92,20 +92,6 @@
   - FEAT-051
   done: 3
   total: 5
-- code: FEAT-065
-  status: Completed
-  milestone: MS-006
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 7
-  total: 7
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -1006,6 +992,20 @@
   depends_on: []
   done: 2
   total: 2
+- code: FEAT-065
+  status: Completed
+  milestone: MS-006
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 7
+  total: 7
 - code: FEAT-067
   status: Completed
   milestone: MS-006

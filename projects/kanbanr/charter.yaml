@@ -19,11 +19,11 @@ goals:
   statement: Any line of code can be traced back to the requirement and goal it serves
   measure: '`kanbanr why <file>` answers for code written after the method was adopted'
 - id: G-5
-  statement: The tool stays low-friction enough that it is never worth bypassing
-  measure: a routine update is one batch call; the board is never edited by hand to save time
+  statement: The tool stays low-friction enough that it is never worth bypassing — getting it, keeping it current, and finding out how it works included
+  measure: a routine update is one batch call and the board is never edited by hand to save time; installing is one command with nothing to build afterwards; staying current is one command; and a question about the tool is answered from a searchable book rather than by reading source
 - id: G-0
   statement: The system stays operable and maintainable
-  measure: maintenance work links here honestly rather than inventing a delivery goal
+  measure: maintenance work links here honestly rather than inventing a delivery goal; and what is shipped can be shown to work — a release is verified by installing it, every published artifact carries a checksum and the commit it was built from, and updates travel over an authenticated channel
 non_goals:
 - An enterprise/team PM platform — the bar is one developer plus their Claude, on one machine
 - Horizontal scaling, or multiple server instances over one data dir

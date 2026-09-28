@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::skipping_hooks_is_detected_as_a_flag_not_as_prose
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: nfr
     text: THE SYSTEM SHALL express the decision once, so that a test cannot pass against a reimplementation while the code it guards is wrong.
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:37:20.735297973Z
-updated_at: 2026-09-28T16:37:29.791294045Z
+updated_at: 2026-09-28T16:37:29.832880062Z

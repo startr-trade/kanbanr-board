@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: ship the summary hooks
-  tasks: []
+  tasks:
+  - key: T1
+    text: Move scripts and prompt into skill/kanbanr/hooks; marker/jq/python guards; portable detach
+    state: NotStarted
   created_at: 2026-09-28T19:20:30.164302762Z
 definition:
   statement: Session-summary hooks that ship with kanbanr and are registered by `kanbanr hooks install`, for every project tracked with kanbanr, so that session history reaches the board on any machine rather than only on the one where the scripts were written
@@ -70,4 +73,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:14:40.501220304Z
-updated_at: 2026-09-28T19:20:30.164306969Z
+updated_at: 2026-09-28T19:20:30.186464094Z

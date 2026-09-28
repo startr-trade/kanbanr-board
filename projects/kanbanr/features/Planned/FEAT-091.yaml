@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Cross-project lanes that stay readable however many projects are in the portfolio, for someone looking across all of them, so that the view meant to give an overview does not become the longest scroll in the product
+  goals:
+  - G-5
+  zachman:
+    what: Pagination of the cross-project board's lanes
+    how: The same per-lane pagination and remembered page size the project board's columns use; the lane header keeps counting the whole lane
+    where: web/src/pages/PortfolioPage.tsx
+    when: Whenever the portfolio is viewed
+    who: Anyone looking across projects — the more projects, the worse it was
+    why: A portfolio lane aggregates every project's work in one disposition, so it is the longest column in the product, and it was the one column with no pagination
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE the cross-project board renders a lane, THE SYSTEM SHALL paginate its cards with the same page sizes the project board offers.
+    tests:
+    - name: web/src/pages/PortfolioPage.tsx renders a pager per lane and slices cards by the page size
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL count the whole lane in its header, not the visible page, so that pagination does not understate how much work a lane holds.
+    tests:
+    - name: web/src/pages/PortfolioPage.tsx renders a pager per lane and slices cards by the page size
+      kind: manual
+      state: planned
 created_at: 2026-09-28T17:35:33.295604745Z
-updated_at: 2026-09-28T17:35:33.295611348Z
+updated_at: 2026-09-28T17:35:33.318451668Z

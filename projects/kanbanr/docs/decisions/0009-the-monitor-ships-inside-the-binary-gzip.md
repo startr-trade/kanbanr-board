@@ -57,9 +57,12 @@ install-cli` — so no deployment can hide a broken embed behind a stale `--ui-d
 - **`build.rs` runs `npm run build`.** Always correct, and it puts Node back in the build path for
   everyone compiling from source — the toolchain this is meant to remove. Rejected: it moves the
   cost onto contributors to spare users, when the two can simply be separated.
-- **Commit `web/dist`.** No Node anywhere, including a `cargo install` from crates.io. Rejected: a
-  generated artifact in the repository, a diff nobody can review, and ~0.9 MB of churn in git
-  history per UI change.
+- **Commit `web/dist`.** No Node anywhere, including a `cargo install` from crates.io. Rejected by
+  the maintainer explicitly — *"I don't want to have the UI published in crates.io. It is better
+  packaged as the archive and installed as part of the install script."* The costs that make it the
+  wrong trade: a generated artifact in the repository, a diff nobody can review, and ~0.9 MB of
+  churn in git history per UI change. crates.io therefore carries the CLI, and the archive carries
+  the complete product.
 - **Serve the gzipped bytes on the wire** with `Content-Encoding`, skipping the startup
   decompression. Rejected as a false economy: the monitor binds localhost, so there is nothing to
   gain on the wire, and it would put content-negotiation into the serving path for a saving of
@@ -92,3 +95,4 @@ installer and the container image are the paths we support for users. The binary
   monitor is actually served, so the claim is checked from the outside as a stranger would meet it.
 - A build with no assets was run deliberately: the binary returned to 12 MB and the daemon printed
   what was missing and how to supply it (FEAT-084/R-3).
+

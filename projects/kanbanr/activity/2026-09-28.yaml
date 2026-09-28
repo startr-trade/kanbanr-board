@@ -496,3 +496,6 @@
   actor: Venkatraman B
   message: approve definition of FEAT-079
   item: FEAT-079
+- time: 2026-09-28T12:42:14.748510194Z
+  actor: Venkatraman B
+  message: scope the button-affordance defect the user reported twice

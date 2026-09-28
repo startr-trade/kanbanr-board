@@ -1,0 +1,16 @@
+code: FEAT-081
+title: 'Defect: a button styled as a button still looked like a chip'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T12:42:14.747250223Z
+updated_at: 2026-09-28T12:42:14.747257151Z

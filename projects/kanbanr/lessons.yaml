@@ -1,3 +1,14 @@
+- id: L-21
+  lesson: A greppable rule belongs in a script, not a review habit. FEAT-076's fix was a one-word class change; what makes it stay fixed is `npm run check:ui`, which fails on a button styled as a chip and on a chip with an onClick. It catches the exact regression that shipped, from both directions, and the next reintroduction looks perfectly ordinary in a diff without it.
+  kind: practice
+  at: 2026-09-28T12:25:21.964388006Z
+  from_item: FEAT-076
+  tags:
+  - web
+  - guardrails
+  confidence: 0.6
+  last_affirmed: 2026-09-28T12:25:21.964388006Z
+  status: candidate
 - id: L-20
   lesson: 'When a second surface produces the same record as an existing one, make it read the first one''s source — do not write an equivalent. Three of the four defects in this review were that: the monitor invented an approver string instead of reading the commit identity `kanbanr approve` resolves; the review queue invented a scope filter instead of reusing the gate `doctor` had; and the test-state caller picked the whole-path encoder while the route it targets documented needing the segment one. Each looked correct in its own diff.'
   kind: pitfall

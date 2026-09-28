@@ -490,3 +490,12 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-09-28T18:08:13.71314211Z
+  project: kanbanr
+  kind: approval_recorded
+  feature: FEAT-095
+  message: Venkatraman B approved FEAT-095
+  detail:
+    by: Venkatraman B
+    reason: ''
+    status: In Progress

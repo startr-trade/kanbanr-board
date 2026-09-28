@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A commit guard that reads its evidence from the command it was given, for anyone committing correctly, so that a valid commit is never refused and an invalid one is never waved through on a sentence
+  goals:
+  - G-4
+  - G-5
+  zachman:
+    what: How the pre-commit guard locates the commit message inside a shell command line
+    how: Extraction is scoped to the identified `git commit` invocation and matches -m/--message as a shell token, including the attached forms; no inline message means the guard defers to the commit-msg hook
+    where: api/crates/kanbanr-cli/src/main.rs (inline_message, run_guard)
+    when: Before every `git commit` Claude Code is about to run
+    who: Anyone whose commit message happens to contain two characters that look like a flag
+    why: A guard that refuses correct work, and blocks commands that are not commits at all, gets turned off — and ADR-0004 already says a guardrail that cannot do its job steps aside rather than blocking
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the guard looks for an inline commit message, THE SYSTEM SHALL match -m and --message as shell tokens of the commit invocation, and SHALL NOT match those characters occurring inside prose or another flag.
+    tests:
+    - name: tests::the_guard_reads_only_a_real_message_flag
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a commit supplies its message by file or editor rather than inline, THEN THE SYSTEM SHALL extract nothing and allow the command, leaving the check to the commit-msg hook.
+    tests:
+    - name: tests::the_guard_reads_only_a_real_message_flag
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a message is given inline in the attached forms -m"…" or --message=…, THE SYSTEM SHALL read it, so that the check is not skipped by a spelling of the same flag.
+    tests:
+    - name: tests::the_guard_reads_only_a_real_message_flag
+      kind: unit
+      state: planned
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:09:18.208119634Z
+updated_at: 2026-09-28T16:09:18.224879965Z

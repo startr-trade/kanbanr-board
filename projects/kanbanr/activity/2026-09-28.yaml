@@ -589,3 +589,7 @@
 - time: 2026-09-28T16:09:18.209171207Z
   actor: Venkatraman B
   message: scope the guard's substring-match defect
+- time: 2026-09-28T16:09:18.225975875Z
+  actor: Venkatraman B
+  message: define feature FEAT-082
+  item: FEAT-082

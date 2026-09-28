@@ -1,0 +1,16 @@
+code: FEAT-073
+title: 'Defect: convenience scripts derive the board path instead of asking the CLI'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T10:56:51.08349747Z
+updated_at: 2026-09-28T10:56:51.083504072Z

@@ -93,7 +93,7 @@
   done: 3
   total: 5
 - code: FEAT-065
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: null
   priority: null
@@ -104,7 +104,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 6
+  done: 7
   total: 7
 - code: FEAT-001
   status: Completed

@@ -1338,3 +1338,7 @@
   actor: Venkatraman B
   message: 'test hook: a synthetic PostCompact payload writes a sessions/ doc of FEAT-099/R-1 is now green'
   item: FEAT-099
+- time: 2026-09-28T18:53:14.153875721Z
+  actor: Venkatraman B
+  message: 'test hook: SessionStart summarises this project''s un-summarised transcript to the board of FEAT-099/R-2 is now green'
+  item: FEAT-099

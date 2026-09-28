@@ -38,7 +38,7 @@ definition:
     tests:
     - name: 'hook: SessionStart summarises this project''s un-summarised transcript to the board'
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL name each summary with its date, time and session id prefix, so that several sessions in one day do not collide.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T18:42:41.955946894Z
-updated_at: 2026-09-28T18:53:14.13036644Z
+updated_at: 2026-09-28T18:53:14.152323685Z

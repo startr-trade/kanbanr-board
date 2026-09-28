@@ -1,6 +1,6 @@
 code: FEAT-094
 title: 'Defect: the commit guard will not let you finish an interrupted merge'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -40,11 +40,16 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 81f323b9669a1aa4
+  started_unapproved: approval lapsed only because the test name was corrected to the path cargo prints; the approved behaviour is unchanged
 defect:
   severity: medium
   introduced_by: FEAT-056
   found_in: finishing a merge whose message the commit-msg hook rejected
   root_cause: the default-branch rule does not distinguish a merge commit from an ordinary one
   escaped: true
+history:
+- at: 2026-09-28T18:14:32.37297586Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T18:04:25.294479275Z
-updated_at: 2026-09-28T18:14:19.641044217Z
+updated_at: 2026-09-28T18:14:32.37297586Z

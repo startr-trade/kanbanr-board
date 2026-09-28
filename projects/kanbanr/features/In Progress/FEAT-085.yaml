@@ -1,6 +1,6 @@
 code: FEAT-085
 title: 'Defect: kanbanr init silently repoints a folder that already has a board'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -46,11 +46,16 @@ definition:
     - name: local_mode::init_refuses_to_repoint_a_folder_that_already_has_a_board
       kind: integration
       state: green
+  started_unapproved: 'auto-pilot: found by clobbering this repository''s own board pointer while verifying CI steps; the only pointer to a board is data'
 defect:
   severity: high
   introduced_by: FEAT-002
   found_in: running init locally to verify the installer's own CI steps
   root_cause: init writes the marker unconditionally; the only pointer from a project to its board is treated as scratch state rather than as data
   escaped: true
+history:
+- at: 2026-09-28T16:33:51.608282613Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T16:31:38.230257467Z
-updated_at: 2026-09-28T16:33:51.591557048Z
+updated_at: 2026-09-28T16:33:51.608282613Z

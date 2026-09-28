@@ -239,3 +239,11 @@
     by: Venkatraman B
     reason: ''
     status: In Progress
+- time: 2026-09-28T16:33:51.62622419Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-085
+  message: feature FEAT-085 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

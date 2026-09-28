@@ -67,10 +67,19 @@ definition:
     - name: release workflow asserts the packaged binary stays under the size ceiling
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T16:25:38.852729046Z
+    rev: 0d443f8a211fc421
+  approvals:
+  - at: 2026-09-28T16:25:38.852729046Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 0d443f8a211fc421
   started_unapproved: 'auto-pilot: the user directed both halves — ''the UI must also be built-in so that it can serve the UI without me passing the dist folder'' and ''we might need one install script for kanbanr'', pointing at another project''s as the model'
 history:
 - at: 2026-09-28T16:22:46.653992254Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:17:15.357031677Z
-updated_at: 2026-09-28T16:22:46.653992254Z
+updated_at: 2026-09-28T16:25:38.852729046Z

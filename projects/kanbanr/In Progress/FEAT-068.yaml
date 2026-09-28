@@ -1,6 +1,6 @@
 code: FEAT-068
 title: 'Defect: the unapproved-start warning keeps firing after the approval that answers it'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -50,5 +50,9 @@ definition:
     by: unknown
     at: 2026-09-28T06:04:12.681751634Z
     rev: 7c83ccca65087a44
+history:
+- at: 2026-09-28T06:04:38.716461543Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T06:04:12.641757243Z
-updated_at: 2026-09-28T06:04:12.681794624Z
+updated_at: 2026-09-28T06:04:38.716461543Z

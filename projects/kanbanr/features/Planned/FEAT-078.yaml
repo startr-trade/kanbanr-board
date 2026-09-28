@@ -1,0 +1,16 @@
+code: FEAT-078
+title: 'Defect: the review queue asks for agreement on work that is already finished'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-28T12:13:27.655123026Z
+updated_at: 2026-09-28T12:13:27.655131137Z

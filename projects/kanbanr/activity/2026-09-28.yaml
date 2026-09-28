@@ -619,3 +619,6 @@
 - time: 2026-09-28T16:11:15.65312307Z
   actor: Venkatraman B
   message: record the guard fix
+- time: 2026-09-28T16:13:36.940917425Z
+  actor: Venkatraman B
+  message: scope the duplicated header link

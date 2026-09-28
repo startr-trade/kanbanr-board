@@ -41,7 +41,7 @@ definition:
   statement: A self-update that can tell a rebuilt release from an unchanged one, for anyone running an installed binary, so that an interim fix published under the same version is not invisible
   goals:
   - G-5
-  - G-0
+  - G-6
   zachman:
     what: Whether the running binary is the one the release currently publishes — by version and by checksum
     how: The release publishes each target's binary checksum beside the archives, covered by SHA256SUMS; --check compares the running executable's hash against it when the tags match; installation verifies twice and moves the new binary in by atomic rename
@@ -128,4 +128,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:57:32.036471598Z
-updated_at: 2026-09-28T17:11:46.732678156Z
+updated_at: 2026-09-28T17:19:16.383830931Z

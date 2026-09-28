@@ -1350,3 +1350,6 @@
   actor: Venkatraman B
   message: 'test hook: a second SessionStart sweep summarises nothing new of FEAT-099/R-4 is now green'
   item: FEAT-099
+- time: 2026-09-28T18:53:14.215418885Z
+  actor: Venkatraman B
+  message: 'close FEAT-099: session summaries on the board'

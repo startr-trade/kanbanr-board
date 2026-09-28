@@ -45,7 +45,7 @@ definition:
     tests:
     - name: doctor::tests::an_unreconciled_bypass_outlives_the_terminal_gate
       kind: unit
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN a ratified definition changes afterwards, THE SYSTEM SHALL lapse the agreement exactly as it lapses an approval, because it no longer covers what was built.
@@ -75,4 +75,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:24:22.038510663Z
-updated_at: 2026-09-28T17:59:40.693719526Z
+updated_at: 2026-09-28T17:59:40.714820196Z

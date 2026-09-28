@@ -1097,3 +1097,7 @@
   actor: Venkatraman B
   message: test tests%3A%3Aagreement_after_the_work_is_recorded_as_a_different_verdict of FEAT-080/R-5 is now green
   item: FEAT-080
+- time: 2026-09-28T17:59:40.716002457Z
+  actor: Venkatraman B
+  message: test doctor%3A%3Atests%3A%3Aan_unreconciled_bypass_outlives_the_terminal_gate of FEAT-080/R-3 is now green
+  item: FEAT-080

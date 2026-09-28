@@ -46,5 +46,11 @@ definition:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
       state: planned
+defect:
+  severity: high
+  introduced_by: FEAT-056
+  found_in: committing the docs sync — the guard refused a commit that carried a valid trailer
+  root_cause: 'a token recognised without its boundary: find("-m") matches two characters anywhere in a command line, the third instance of this shape after the [no-ref] prose match and the unencoded path segment'
+  escaped: true
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:09:18.224879965Z
+updated_at: 2026-09-28T16:09:18.248028331Z

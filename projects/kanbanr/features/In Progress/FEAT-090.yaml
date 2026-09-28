@@ -104,12 +104,17 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-09-28T17:24:42.508918702Z
-    rev: 75f5ddd084b5ad66
+    at: 2026-09-28T17:36:07.070668973Z
+    rev: 3ae6d19149207472
+  approvals:
+  - at: 2026-09-28T17:36:07.070668973Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 3ae6d19149207472
   started_unapproved: 'auto-pilot: the user asked directly — ''I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'''
 history:
 - at: 2026-09-28T17:16:43.452973628Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:29:26.63985186Z
+updated_at: 2026-09-28T17:36:07.070668973Z

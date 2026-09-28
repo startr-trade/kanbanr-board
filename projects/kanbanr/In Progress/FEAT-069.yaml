@@ -28,21 +28,21 @@ definition:
     kind: functional
     text: WHEN an approval is withdrawn, THE SYSTEM SHALL remove it so the item is no longer treated as agreed, and SHALL return the item to what is awaiting review.
     tests:
-    - name: lib::tests::an_approval_can_be_withdrawn_and_the_record_survives
+    - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: planned
   - id: R-2
     kind: functional
     text: WHEN an approval is given or withdrawn, THE SYSTEM SHALL append it to the item's approval record with who, when and why, and SHALL never remove an earlier entry.
     tests:
-    - name: lib::tests::an_approval_can_be_withdrawn_and_the_record_survives
+    - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: planned
   - id: R-3
     kind: functional
     text: WHILE an approval is withdrawn, THE SYSTEM SHALL apply the start gate to that item again.
     tests:
-    - name: lib::tests::an_approval_can_be_withdrawn_and_the_record_survives
+    - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: planned
   - id: R-4
@@ -54,9 +54,9 @@ definition:
       stimulus: An approval is given, withdrawn, and given again
       environment: Any item with a definition
       response: The content hash is the same throughout, so the record of who agreed never itself lapses an agreement
-      measure: lib::tests::an_approval_can_be_withdrawn_and_the_record_survives compares content_rev before and after both events
+      measure: tests::an_approval_can_be_withdrawn_and_the_record_survives compares content_rev before and after both events
     tests:
-    - name: lib::tests::an_approval_can_be_withdrawn_and_the_record_survives
+    - name: tests::an_approval_can_be_withdrawn_and_the_record_survives
       kind: unit
       state: planned
   approval:
@@ -69,4 +69,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T06:04:38.684778738Z
-updated_at: 2026-09-28T06:32:30.29981203Z
+updated_at: 2026-09-28T06:36:43.293133114Z

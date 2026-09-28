@@ -401,3 +401,7 @@
   actor: Venkatraman B
   message: test review%20page%3A%20the%20approve%20button%20is%20inside%20the%20details%20body%2C%20not%20in%20the%20summary of FEAT-076/R-3 is now green
   item: FEAT-076
+- time: 2026-09-28T12:18:00.093028714Z
+  actor: Venkatraman B
+  message: test tests%3A%3Aa_verdict_with_no_named_approver_is_refused of FEAT-077/R-1 is now green
+  item: FEAT-077

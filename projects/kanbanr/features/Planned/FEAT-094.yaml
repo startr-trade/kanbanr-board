@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A commit guard that lets an interrupted merge be completed, for anyone merging an item's branch, so that the recovery path is not the one thing the guard forbids
+  goals:
+  - G-5
+  zachman:
+    what: Whether the pre-commit guard allows a commit that completes a merge on the default branch
+    how: Treat a commit made while MERGE_HEAD exists as a merge commit and let it through; keep refusing ordinary commits to the default branch
+    where: cli/main.rs (run_guard)
+    when: When a merge message is rejected and the merge must be finished with git commit
+    who: Anyone merging to the default branch, which is the normal end of every item
+    why: The guard permits a one-command merge but blocks `git commit` completing an interrupted one, so the only way out is to abort and redo the merge
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE a merge is in progress, THE SYSTEM SHALL allow the commit that completes it on any branch, and SHALL continue to refuse ordinary commits to the default branch.
+    tests:
+    - name: tests::the_guard_lets_a_merge_be_completed
+      kind: unit
+      state: planned
 created_at: 2026-09-28T18:04:25.294479275Z
-updated_at: 2026-09-28T18:04:25.29449577Z
+updated_at: 2026-09-28T18:07:14.472571405Z

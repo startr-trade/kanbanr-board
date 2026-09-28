@@ -1029,3 +1029,7 @@
   actor: Venkatraman B
   message: ratify FEAT-072 — built under a recorded bypass, agreed to after the fact
   item: FEAT-072
+- time: 2026-09-28T17:57:54.498988915Z
+  actor: Venkatraman B
+  message: withdraw the approval of FEAT-073
+  item: FEAT-073

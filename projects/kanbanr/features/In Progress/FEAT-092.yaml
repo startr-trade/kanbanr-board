@@ -1,6 +1,6 @@
 code: FEAT-092
 title: Publish the EARS/ISO vocabulary as its own crate, and say what the frameworks actually are
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -53,5 +53,10 @@ definition:
     - name: skill/kanbanr/SKILL.md names the TOGAF preset and when to offer it
       kind: manual
       state: planned
+  started_unapproved: 'auto-pilot: the user said yes to sharing the EARS/ISO vocabulary and asked what the tool recommends about Zachman and TOGAF'
+history:
+- at: 2026-09-28T17:43:35.827441613Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-28T17:43:35.779738005Z
-updated_at: 2026-09-28T17:43:35.801450892Z
+updated_at: 2026-09-28T17:43:35.827441613Z

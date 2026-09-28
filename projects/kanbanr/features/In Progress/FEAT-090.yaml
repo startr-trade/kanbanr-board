@@ -53,10 +53,19 @@ definition:
     - name: 'web: npm run check:docs over docs/src'
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T17:24:42.508918702Z
+    rev: 75f5ddd084b5ad66
+  approvals:
+  - at: 2026-09-28T17:24:42.508918702Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 75f5ddd084b5ad66
   started_unapproved: 'auto-pilot: the user asked directly — ''I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'''
 history:
 - at: 2026-09-28T17:16:43.452973628Z
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:16:43.452973628Z
+updated_at: 2026-09-28T17:24:42.508918702Z

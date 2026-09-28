@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A portfolio that is readable in both themes, for anyone who uses the monitor in dark mode, so that the view across projects is not the one page that breaks
+  goals:
+  - G-5
+  zachman:
+    what: The colour tokens used by the portfolio's lanes, cards and rollup bars
+    how: Use the theme's defined tokens (--panel, --panel-2, --border, --text, --accent) as the project board does; check:ui fails on any token no theme defines
+    where: web/src/styles.css, web/scripts/check-affordance.mjs, tools/screenshots
+    when: Whenever the portfolio is viewed in dark mode
+    who: Anyone using the monitor in dark mode
+    why: The page referenced --surface and --surface-2, which do not exist, so their light fallbacks applied in both themes and dark mode showed white cards with light text
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL style the portfolio only with colour tokens the theme defines for both light and dark modes.
+    tests:
+    - name: 'web: npm run check:ui fails when styles.css uses an undefined token'
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the portfolio is shown in dark mode, THE SYSTEM SHALL render its lanes and cards with the same surfaces as the project board.
+    tests:
+    - name: 'tools/screenshots: portfolio-dark.png captured and inspected'
+      kind: manual
+      state: planned
 created_at: 2026-09-28T18:25:35.263060258Z
-updated_at: 2026-09-28T18:25:35.263067627Z
+updated_at: 2026-09-28T18:25:44.54376651Z

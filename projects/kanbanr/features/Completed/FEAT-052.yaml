@@ -1,6 +1,6 @@
 code: FEAT-052
 title: Method, docs, contribution bar and dogfooding
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: docs
 priority: high
@@ -34,10 +34,10 @@ todo_lists:
     state: Completed
   - key: T4
     text: CONTRIBUTING bar, PR template, method doc as a kanbanr doc
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'Dogfood: kanbanr charter + define open items'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-24T19:30:42.755725753Z
 definition:
   statement: A method the tooling demands rather than merely supports, and documentation that describes the tool as it is, so that the practice survives a session that has forgotten it
@@ -89,5 +89,9 @@ definition:
     - name: kanbanr doctor reports no definition gaps on items created since the charter was adopted
       kind: manual
       state: green
+history:
+- at: 2026-09-28T07:09:03.121397907Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-24T18:45:46.410538489Z
-updated_at: 2026-09-28T07:07:26.632970644Z
+updated_at: 2026-09-28T07:09:03.121397907Z

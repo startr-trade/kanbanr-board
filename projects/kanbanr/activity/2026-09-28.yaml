@@ -964,3 +964,6 @@
 - time: 2026-09-28T17:36:33.275565611Z
   actor: Venkatraman B
   message: close FEAT-091
+- time: 2026-09-28T17:43:35.781029658Z
+  actor: Venkatraman B
+  message: scope the standalone crate and the framework claims

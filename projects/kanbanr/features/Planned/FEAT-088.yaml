@@ -12,5 +12,67 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A self-update that can tell a rebuilt release from an unchanged one, for anyone running an installed binary, so that an interim fix published under the same version is not invisible
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: Whether the running binary is the one the release currently publishes — by version and by checksum
+    how: The release publishes each target's binary checksum beside the archives, covered by SHA256SUMS; --check compares the running executable's hash against it when the tags match; installation verifies twice and moves the new binary in by atomic rename
+    where: api/crates/kanbanr-cli/src/self_update.rs, .github/workflows/release.yml, docs/INSTALL.md
+    when: When someone asks — never on a timer or as a side effect of another command
+    who: Anyone who installed from a release and wants to know whether it has since been rebuilt
+    why: A version comparison cannot see an asset re-uploaded under the same tag, which is exactly how an interim fix ships; another installer compares tags only and would report 'nothing to do'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the resolved release tag matches the running version, THE SYSTEM SHALL compare the running binary's checksum against the one the release publishes for this platform, and SHALL report an available update when they differ.
+    tests:
+    - name: self_update::tests::a_rebuilt_release_at_the_same_version_is_an_update
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN an update is reported, THE SYSTEM SHALL say whether it is a new version or a rebuild of the running one.
+    tests:
+    - name: self_update::tests::a_rebuilt_release_at_the_same_version_is_an_update
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a downloaded archive or the binary extracted from it does not match its published checksum, THEN THE SYSTEM SHALL abort without installing, and SHALL offer no way to proceed.
+    tests:
+    - name: self_update::tests::a_checksum_mismatch_aborts_and_leaves_the_binary_alone
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a new binary is installed, THE SYSTEM SHALL put it in place by an atomic rename, so that an interrupted update cannot leave a partly written executable on the path.
+    tests:
+    - name: self_update::tests::the_replacement_is_staged_beside_the_target_and_renamed
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL check for updates only when asked, and SHALL NOT check as a side effect of another command or on a schedule.
+    tests:
+    - name: self_update::tests::nothing_checks_for_updates_unless_asked
+      kind: unit
+      state: planned
+  - id: R-6
+    kind: nfr
+    text: WHEN the binary makes an outbound HTTPS request, THE SYSTEM SHALL verify the server's certificate against a bundled root store.
+    iso25010:
+    - Security
+    scenario:
+      stimulus: self-update contacts api.github.com and the release download host
+      environment: Any supported platform, with no system certificate configuration
+      response: The connection is established and the certificate verified, or refused
+      measure: self_update::tests::the_http_agent_is_built_with_tls asserts the agent is constructed with a TLS backend, and `cargo tree` shows rustls in the CLI's dependency graph
+    tests:
+    - name: self_update::tests::the_http_agent_is_built_with_tls
+      kind: unit
+      state: planned
 created_at: 2026-09-28T16:57:32.036471598Z
-updated_at: 2026-09-28T16:57:32.036471598Z
+updated_at: 2026-09-28T16:57:32.05734835Z

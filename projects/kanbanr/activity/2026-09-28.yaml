@@ -797,3 +797,7 @@
 - time: 2026-09-28T16:57:32.038026268Z
   actor: Venkatraman B
   message: scope self-update, including the same-version rebuild case
+- time: 2026-09-28T16:57:32.058719141Z
+  actor: Venkatraman B
+  message: define feature FEAT-088
+  item: FEAT-088

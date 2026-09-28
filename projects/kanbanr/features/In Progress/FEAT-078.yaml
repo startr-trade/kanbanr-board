@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN the review queue holds items in different statuses, THE SYSTEM SHALL order work already in progress before work that has not started.
@@ -65,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T12:23:06.807145335Z
+updated_at: 2026-09-28T12:23:06.820309657Z

@@ -1,3 +1,15 @@
+- id: L-20
+  lesson: 'When a second surface produces the same record as an existing one, make it read the first one''s source — do not write an equivalent. Three of the four defects in this review were that: the monitor invented an approver string instead of reading the commit identity `kanbanr approve` resolves; the review queue invented a scope filter instead of reusing the gate `doctor` had; and the test-state caller picked the whole-path encoder while the route it targets documented needing the segment one. Each looked correct in its own diff.'
+  kind: pitfall
+  at: 2026-09-28T12:25:21.955506924Z
+  from_item: FEAT-077
+  tags:
+  - monitor
+  - duplication
+  - approval
+  confidence: 0.6
+  last_affirmed: 2026-09-28T12:25:21.955506924Z
+  status: candidate
 - id: L-19
   lesson: A gate that fires on a transition nobody calls starting work will be escaped for non-events, and an escape used for non-events stops meaning anything
   kind: pitfall

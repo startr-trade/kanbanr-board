@@ -36,8 +36,8 @@ definition:
     kind: functional
     text: WHERE an element performs an action, THE SYSTEM SHALL style it as a button rather than as a label.
     tests:
-    - name: no action element in the monitor carries the chip class; approve and withdraw use btn
-      kind: manual
+    - name: 'web: npm run check:ui (scripts/check-affordance.mjs)'
+      kind: integration
       state: planned
   - id: R-3
     kind: functional
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T11:42:32.284950218Z
-updated_at: 2026-09-28T11:42:32.356019197Z
+updated_at: 2026-09-28T12:17:48.707657768Z

@@ -647,3 +647,6 @@
 - time: 2026-09-28T16:15:56.707012824Z
   actor: Venkatraman B
   message: close the guard and duplicate-link defects
+- time: 2026-09-28T16:17:15.358333212Z
+  actor: Venkatraman B
+  message: scope the one-line install and the embedded monitor

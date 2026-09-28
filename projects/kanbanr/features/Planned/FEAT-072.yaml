@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A reader that says a board was written by a newer version, for anyone whose dashboard has gone empty, so that a stale process is never mistaken for lost data
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: A schema version that storage changes bump, and a load-time refusal when a board is newer than the reader
+    how: The version is stamped on every write; a load whose version exceeds what this binary understands fails with both numbers named; doctor and the daemon report it too
+    where: kanbanr-core config and store, doctor, and the view daemon
+    when: On every project load, and at daemon startup
+    who: Whoever sees an empty board and has to decide whether their data is gone
+    why: A layout change left an older running daemon reading nothing and reporting it as an empty board, which reads as data loss
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a storage layout changes, THE SYSTEM SHALL record the new schema version on every board it writes.
+    tests:
+    - name: tests::a_board_newer_than_the_reader_is_refused_by_name
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a board's schema version is newer than the reader understands, THEN THE SYSTEM SHALL refuse to read it and SHALL name both versions and the remedy.
+    tests:
+    - name: tests::a_board_newer_than_the_reader_is_refused_by_name
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a board's schema version is older, THE SYSTEM SHALL keep reading it unchanged.
+    tests:
+    - name: tests::a_board_newer_than_the_reader_is_refused_by_name
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN the view daemon is asked what it can do, THE SYSTEM SHALL report the schema version it understands, so a monitor can explain an empty board instead of showing one.
+    tests:
+    - name: daemon_reports_the_schema_version_it_understands
+      kind: integration
+      state: planned
 created_at: 2026-09-28T08:17:16.539625741Z
-updated_at: 2026-09-28T08:17:16.539649527Z
+updated_at: 2026-09-28T08:27:56.785610469Z

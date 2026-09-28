@@ -45,7 +45,7 @@ definition:
     tests:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
-      state: planned
+      state: green
   started_unapproved: 'auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work'
 defect:
   severity: high
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:11:15.620440431Z
+updated_at: 2026-09-28T16:11:15.636523076Z

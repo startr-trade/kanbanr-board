@@ -1426,3 +1426,7 @@
 - time: 2026-09-28T19:20:22.183318366Z
   actor: Venkatraman B
   message: record 2 test result(s) from a run
+- time: 2026-09-28T19:20:30.126986774Z
+  actor: Venkatraman B
+  message: 'test manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths of FEAT-101/R-3 is now green'
+  item: FEAT-101

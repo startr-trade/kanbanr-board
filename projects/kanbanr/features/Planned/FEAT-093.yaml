@@ -41,8 +41,13 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-28T18:08:15.299247665Z
-    rev: a7c857dabf32282b
+    at: 2026-09-28T18:14:18.009545735Z
+    rev: 29d95afd678bbb27
+  approvals:
+  - at: 2026-09-28T18:14:18.009545735Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 29d95afd678bbb27
 defect:
   severity: high
   introduced_by: FEAT-011
@@ -50,4 +55,4 @@ defect:
   root_cause: batch applies operations in place and only commits at the end, so an early return leaves applied writes outside git
   escaped: true
 created_at: 2026-09-28T18:01:40.920256228Z
-updated_at: 2026-09-28T18:14:06.33265822Z
+updated_at: 2026-09-28T18:14:18.009545735Z

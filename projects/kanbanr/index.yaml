@@ -893,7 +893,7 @@
   done: 3
   total: 3
 - code: FEAT-059
-  status: Completed
+  status: In Progress
   milestone: MS-004
   kind: bug
   priority: low

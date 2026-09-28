@@ -1,6 +1,6 @@
 code: FEAT-059
 title: 'Defect: events.yaml is always one write behind git'
-status: Completed
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: low
@@ -84,5 +84,8 @@ history:
 - at: 2026-09-28T06:44:37.135728796Z
   from: In Progress
   to: Completed
+- at: 2026-09-28T08:21:54.470770605Z
+  from: Completed
+  to: In Progress
 created_at: 2026-09-24T19:30:20.215044326Z
-updated_at: 2026-09-28T08:21:42.911849962Z
+updated_at: 2026-09-28T08:21:54.470770605Z

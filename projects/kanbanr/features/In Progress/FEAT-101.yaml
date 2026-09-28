@@ -31,14 +31,16 @@ definition:
     tests:
     - name: hooks::tests::install_registers_session_summary
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 190187661e2b
   - id: R-2
     kind: functional
     text: WHEN kanbanr hooks uninstall runs, THE SYSTEM SHALL remove the session-summary entries and leave other hooks alone.
     tests:
     - name: hooks::tests::uninstall_removes_session_summary
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 190187661e2b
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL keep the session-summary scripts under version control, and ignore only the machine-local parts of .claude/.
@@ -64,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:14:40.501220304Z
-updated_at: 2026-09-28T19:15:43.021084566Z
+updated_at: 2026-09-28T19:20:22.18161437Z

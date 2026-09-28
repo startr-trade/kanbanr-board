@@ -875,3 +875,6 @@
   actor: Venkatraman B
   message: test self_update%3A%3Atests%3A%3Aonly_https_is_fetched_and_a_downgrade_redirect_is_refused of FEAT-089/R-3 is now green
   item: FEAT-089
+- time: 2026-09-28T17:14:57.544040719Z
+  actor: Venkatraman B
+  message: record the https-only work

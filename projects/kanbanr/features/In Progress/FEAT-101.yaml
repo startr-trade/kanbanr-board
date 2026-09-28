@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: ship the summary hooks
+  tasks: []
+  created_at: 2026-09-28T19:20:30.164302762Z
 definition:
   statement: Session-summary hooks that ship with kanbanr and are registered by `kanbanr hooks install`, for every project tracked with kanbanr, so that session history reaches the board on any machine rather than only on the one where the scripts were written
   goals:
@@ -66,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:14:40.501220304Z
-updated_at: 2026-09-28T19:20:30.125482635Z
+updated_at: 2026-09-28T19:20:30.164306969Z

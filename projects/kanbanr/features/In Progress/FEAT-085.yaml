@@ -59,6 +59,15 @@ definition:
     - name: local_mode::init_refuses_to_repoint_a_folder_that_already_has_a_board
       kind: integration
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-28T16:38:43.80433093Z
+    rev: 0ee0844bd39c9758
+  approvals:
+  - at: 2026-09-28T16:38:43.80433093Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 0ee0844bd39c9758
   started_unapproved: 'auto-pilot: found by clobbering this repository''s own board pointer while verifying CI steps; the only pointer to a board is data'
 defect:
   severity: high
@@ -71,4 +80,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:31:38.230257467Z
-updated_at: 2026-09-28T16:33:51.642719741Z
+updated_at: 2026-09-28T16:38:43.80433093Z

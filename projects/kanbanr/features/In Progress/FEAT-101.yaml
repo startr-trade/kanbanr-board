@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Move scripts and prompt into skill/kanbanr/hooks; marker/jq/python guards; portable detach
-    state: NotStarted
+    state: Completed
   - key: T2
     text: Register via hooks install (per event+script), plugin and snippet; tests
     state: NotStarted
@@ -79,4 +79,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:14:40.501220304Z
-updated_at: 2026-09-28T19:20:30.233945533Z
+updated_at: 2026-09-28T19:20:30.257365221Z

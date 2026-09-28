@@ -38,7 +38,7 @@ definition:
     tests:
     - name: tests::the_guard_reads_only_a_real_message_flag
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHERE a message is given inline in the attached forms -m"…" or --message=…, THE SYSTEM SHALL read it, so that the check is not skipped by a spelling of the same flag.
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:11:15.602647985Z
+updated_at: 2026-09-28T16:11:15.620440431Z

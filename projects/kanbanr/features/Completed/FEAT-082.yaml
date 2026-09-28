@@ -1,6 +1,6 @@
 code: FEAT-082
 title: 'Defect: the commit guard reads a stray -m out of prose and refuses a correct commit'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: commit_invocation() splits out the git commit part so the message is read from that alone
-    state: NotStarted
+    state: Completed
   - key: T2
     text: match -m / --message as shell tokens, including -m"…" and --message=…, excluding other long flags that start with -m
-    state: NotStarted
+    state: Completed
   - key: T3
     text: prove the test fails on the old logic (it returned the fragment "essage") — ADR-0008
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-28T16:11:15.651969591Z
 definition:
   statement: A commit guard that reads its evidence from the command it was given, for anyone committing correctly, so that a valid commit is never refused and an invalid one is never waved through on a sentence
@@ -70,5 +70,8 @@ history:
 - at: 2026-09-28T16:11:07.891920649Z
   from: Planned
   to: In Progress
+- at: 2026-09-28T16:15:56.705454431Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-28T16:09:18.208110922Z
-updated_at: 2026-09-28T16:11:15.651979661Z
+updated_at: 2026-09-28T16:15:56.705454431Z

@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: paginate the lanes
+  tasks:
+  - key: T1
+    text: per-lane pager and page-size selector, sharing the project board's stored preference
+    state: NotStarted
+  - key: T2
+    text: the lane header counts the whole lane; changing the size resets every lane to page 1
+    state: NotStarted
+  created_at: 2026-09-28T17:35:33.420836409Z
 definition:
   statement: Cross-project lanes that stay readable however many projects are in the portfolio, for someone looking across all of them, so that the view meant to give an overview does not become the longest scroll in the product
   goals:
@@ -44,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:35:33.295604745Z
-updated_at: 2026-09-28T17:35:33.400769246Z
+updated_at: 2026-09-28T17:35:33.420845467Z

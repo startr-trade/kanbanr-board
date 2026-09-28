@@ -239,3 +239,6 @@
 - time: 2026-09-28T07:09:03.122797795Z
   actor: Venkatraman B
   message: 'FEAT-052: the bar, the docs and the dogfooding are done'
+- time: 2026-09-28T08:17:16.540900708Z
+  actor: Venkatraman B
+  message: 'defect: an older binary reads a migrated board as empty'

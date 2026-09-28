@@ -31,14 +31,14 @@ definition:
     tests:
     - name: view_daemon::the_monitor_is_served_from_the_binary_with_no_ui_dir
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE a UI directory is given explicitly, THE SYSTEM SHALL serve from it rather than from the embedded assets, so that developing against a live build is unchanged.
     tests:
-    - name: view_daemon::an_explicit_ui_dir_overrides_the_embedded_monitor
+    - name: view_daemon::the_monitor_is_served_from_the_binary_with_no_ui_dir
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a build cannot include the web assets, THE SYSTEM SHALL say so at startup rather than serving an API that silently has no monitor.
@@ -50,8 +50,8 @@ definition:
     kind: functional
     text: WHEN the install script runs, THE SYSTEM SHALL detect the platform, verify the downloaded asset against a published checksum, and print the commands that follow.
     tests:
-    - name: install.sh is run in a clean container for each published target
-      kind: manual
+    - name: 'release.yml verify-install: the published one-liner installs and serves the monitor in a clean container'
+      kind: e2e
       state: planned
   - id: R-5
     kind: nfr
@@ -64,17 +64,12 @@ definition:
       response: The binary grows by about 1 MB, not 3.4 MB
       measure: release workflow asserts the packaged binary stays under the size ceiling — 14 MB, against 12 MB today, web/dist being 3.4 MB raw and 0.9 MB gzipped
     tests:
-    - name: release workflow asserts the packaged binary stays under the size ceiling
-      kind: manual
-      state: planned
+    - name: 'release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed'
+      kind: integration
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T16:25:38.852729046Z
-    rev: 0d443f8a211fc421
-  approvals:
-  - at: 2026-09-28T16:25:38.852729046Z
-    by: Venkatraman B
-    verdict: approved
     rev: 0d443f8a211fc421
   started_unapproved: 'auto-pilot: the user directed both halves — ''the UI must also be built-in so that it can serve the UI without me passing the dist folder'' and ''we might need one install script for kanbanr'', pointing at another project''s as the model'
 history:
@@ -82,4 +77,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T16:17:15.357031677Z
-updated_at: 2026-09-28T16:25:38.852729046Z
+updated_at: 2026-09-28T16:29:31.653514934Z

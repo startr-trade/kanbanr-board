@@ -11,7 +11,29 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: session 1 — the board governs the agent
+  tasks:
+  - key: T1
+    text: 'core: claude.rs — the generated block, merged between markers, leaving the rest of the file alone'
+    state: Completed
+  - key: T2
+    text: 'CLI: kanbanr claude sync [--show|--file], and the docs-location guard deciding from a path only'
+    state: Completed
+  - key: T3
+    text: 'unit tests: block replacement, and the guard''s allow-list of shipped documentation'
+    state: Completed
+  - key: T4
+    text: 'e2e: claude sync writes and refreshes; the guard denies a loose note and allows a README'
+    state: InProgress
+  - key: T5
+    text: register the guard as a PreToolUse hook — awaiting the user's decision on global scope
+    state: NotStarted
+  - key: T6
+    text: skill + gates + merge
+    state: NotStarted
+  created_at: 2026-09-28T05:34:43.411243215Z
 definition:
   statement: The project's own reasoning placed in front of the agent working on it, and the documentation rule enforced rather than requested, so that instructions and board cannot drift apart
   goals:
@@ -80,4 +102,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-25T18:40:41.098924471Z
-updated_at: 2026-09-25T18:45:12.142939987Z
+updated_at: 2026-09-28T05:34:43.411279353Z

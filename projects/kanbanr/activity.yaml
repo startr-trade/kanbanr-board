@@ -1,3 +1,6 @@
+- time: 2026-09-28T05:34:43.413214599Z
+  actor: Venkatraman B
+  message: 'FEAT-065: record the session''s tasks — code written, waiting on a decision about the guard''s scope'
 - time: 2026-09-25T18:58:32.924434716Z
   actor: Venkatraman B
   message: 'defect: the capped logs discard raw history, against the charter''s constraint'
@@ -678,8 +681,5 @@
   actor: kanbanr-dev
   message: update document
 - time: 2026-06-12T07:05:56.062019508Z
-  actor: kanbanr-dev
-  message: update document
-- time: 2026-06-12T07:05:56.041105228Z
   actor: kanbanr-dev
   message: update document

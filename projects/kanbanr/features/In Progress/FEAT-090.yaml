@@ -53,14 +53,30 @@ definition:
     - name: 'web: npm run check:docs over docs/src'
       kind: integration
       state: planned
+  - id: R-5
+    kind: functional
+    text: WHERE a diagram is rendered in the book, THE SYSTEM SHALL let the reader open it full size, so that a diagram wider than the content column is legible.
+    tests:
+    - name: 'docs: book.toml loads diagram-open.js and mermaid-fix.css; a built page carries a clickable pre.mermaid'
+      kind: manual
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHEN a page is added to the monitor, THE SYSTEM SHALL capture it in the documentation's screenshots, so that the images do not show the tool as it was two milestones ago.
+    tests:
+    - name: 'tools/screenshots: every route in the monitor''s tab bar has a captured image'
+      kind: manual
+      state: planned
+  - id: R-7
+    kind: functional
+    text: WHERE the documentation describes cross-project work, THE SYSTEM SHALL provide a runnable example that builds a portfolio with real cross-project dependencies, because this project's own board has a single project and demonstrates none of it.
+    tests:
+    - name: tools/demo/portfolio.sh builds three projects whose impact and blocked views cross project boundaries
+      kind: manual
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:24:42.508918702Z
-    rev: 75f5ddd084b5ad66
-  approvals:
-  - at: 2026-09-28T17:24:42.508918702Z
-    by: Venkatraman B
-    verdict: approved
     rev: 75f5ddd084b5ad66
   started_unapproved: 'auto-pilot: the user asked directly — ''I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'''
 history:
@@ -68,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T17:16:43.383364164Z
-updated_at: 2026-09-28T17:24:42.508918702Z
+updated_at: 2026-09-28T17:29:26.620623702Z

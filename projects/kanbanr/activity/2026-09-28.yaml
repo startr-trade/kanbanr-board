@@ -829,3 +829,7 @@
   actor: Venkatraman B
   message: test self_update%3A%3Atests%3A%3Athe_replacement_is_staged_beside_the_target_and_renamed of FEAT-088/R-4 is now green
   item: FEAT-088
+- time: 2026-09-28T17:06:30.280776005Z
+  actor: Venkatraman B
+  message: test self_update%3A%3Atests%3A%3Anothing_checks_for_updates_unless_asked of FEAT-088/R-5 is now green
+  item: FEAT-088

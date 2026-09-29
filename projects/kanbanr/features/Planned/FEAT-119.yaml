@@ -47,5 +47,14 @@ definition:
     - name: sprint_planning_warns_over_capacity
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:36:44.867893807Z
+    rev: 27c0704812f48421
+  approvals:
+  - at: 2026-09-29T17:36:44.867893807Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 27c0704812f48421
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T17:32:38.855740878Z
+updated_at: 2026-09-29T17:36:44.867893807Z

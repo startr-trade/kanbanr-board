@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: points on items (absent stays absent on disk), --points, PATCH points
-    state: NotStarted
+    state: Completed
   - key: T2
     text: estimate_unit and cadence in config (skipped when default), config cadence command and route, require_cadence naming the switch
     state: NotStarted
@@ -66,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856084488Z
-updated_at: 2026-09-29T19:08:30.052744044Z
+updated_at: 2026-09-29T19:08:30.078751146Z

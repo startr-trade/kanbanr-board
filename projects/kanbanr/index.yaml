@@ -41,7 +41,7 @@
   done: 8
   total: 12
 - code: FEAT-110
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: defect
   priority: null
@@ -52,7 +52,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
+  done: 1
   total: 1
 - code: FEAT-001
   status: Completed

@@ -1,6 +1,6 @@
 code: FEAT-109
 title: 'Ratify from the Review page: work finished without agreement is listed with a Ratify button'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: null
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Method doc, skill, changelog
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T09:09:27.272450538Z
 definition:
   statement: A Review page that lists work finished without agreement and ratifies it in one click, for the person who agrees to the work, so that after-the-fact agreement needs no terminal
@@ -65,5 +65,8 @@ history:
 - at: 2026-09-29T09:06:08.438240164Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T09:09:27.396054967Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:09:27.373311294Z
+updated_at: 2026-09-29T09:09:27.396054967Z

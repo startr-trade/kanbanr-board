@@ -265,3 +265,7 @@
   actor: Venkatraman B
   message: test the_review_queue_lists_work_finished_without_agreement of FEAT-109/R-1 is now green
   item: FEAT-109
+- time: 2026-09-29T09:09:27.251381138Z
+  actor: Venkatraman B
+  message: 'test manual: ratify an unratified item from the Review page and see doctor go quiet of FEAT-109/R-2 is now green'
+  item: FEAT-109

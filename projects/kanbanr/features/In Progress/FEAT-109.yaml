@@ -38,7 +38,7 @@ definition:
     tests:
     - name: 'manual: ratify an unratified item from the Review page and see doctor go quiet'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T09:06:08.393312044Z
@@ -53,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:09:27.226198016Z
+updated_at: 2026-09-29T09:09:27.249155229Z

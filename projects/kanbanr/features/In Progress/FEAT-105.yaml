@@ -55,9 +55,16 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 526480bc5d8453e8
+defect:
+  severity: high
+  introduced_by: FEAT-056
+  found_in: katalog setup (FEAT-100 walk)
+  root_cause: default_branch assumed main when no branch existed and trusted init.defaultBranch over the repo; nothing handled a repository with no commits
+  escaped: true
+  fixed_by: cli_the_first_commit_of_a_new_repo_is_allowed
 history:
 - at: 2026-09-29T07:30:40.235961108Z
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473866523Z
-updated_at: 2026-09-29T07:32:23.691258627Z
+updated_at: 2026-09-29T07:32:23.720975217Z

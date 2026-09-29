@@ -57,7 +57,7 @@
   done: 8
   total: 12
 - code: FEAT-122
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: null
   priority: null
@@ -72,7 +72,7 @@
   - FEAT-119
   - FEAT-120
   - FEAT-121
-  done: 2
+  done: 3
   total: 3
 - code: FEAT-001
   status: Completed

@@ -1,6 +1,6 @@
 code: FEAT-122
 title: Scrum and agile presets, and a setup kick-start with a working agreement
-status: In Progress
+status: Completed
 milestone: MS-008
 kind: null
 priority: null
@@ -27,7 +27,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Setup interview kick-start in the skill; the Scrum sequence probed end to end in a scratch repo; docs and changelog
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T19:29:53.471676203Z
 definition:
   statement: Ready-made Scrum and agile setups with a working agreement generated from the gates, for anyone starting an iterative project, so that the process is running from the first session
@@ -76,5 +76,8 @@ history:
 - at: 2026-09-29T19:24:27.86572599Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T19:29:53.644198618Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.856388743Z
-updated_at: 2026-09-29T19:29:53.616791796Z
+updated_at: 2026-09-29T19:29:53.644198618Z

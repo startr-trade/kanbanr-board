@@ -31,7 +31,7 @@ definition:
     tests:
     - name: tests::the_docs_guard_ignores_paths_outside_the_repo
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN the guard refuses an in-repo file, THE SYSTEM SHALL suggest a board path built from the repo-relative path.
@@ -57,4 +57,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:37:14.91003206Z
+updated_at: 2026-09-29T17:38:32.17413664Z

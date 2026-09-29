@@ -39,7 +39,7 @@ definition:
     tests:
     - name: finish_reaches_a_terminal_through_an_allowed_edge
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN every task completes and the terminal gate fails, THE SYSTEM SHALL leave the item where it is and report why.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.854203312Z
-updated_at: 2026-09-29T18:45:11.636728014Z
+updated_at: 2026-09-29T18:45:11.659809401Z

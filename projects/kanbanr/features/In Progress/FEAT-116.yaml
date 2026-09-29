@@ -1,6 +1,6 @@
 code: FEAT-116
 title: 'Presets as data: default, scheduled, togaf, pdca, design-control; import and export'
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: null
 priority: null
@@ -57,5 +57,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 85b8be4b031f6a05
+history:
+- at: 2026-09-29T18:45:11.961128382Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T17:32:38.854576938Z
-updated_at: 2026-09-29T17:36:04.520141275Z
+updated_at: 2026-09-29T18:45:11.961128382Z

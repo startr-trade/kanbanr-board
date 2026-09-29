@@ -49,5 +49,14 @@ definition:
     - name: 'manual: sign off from the Review page'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:36:24.05893304Z
+    rev: 886755d86b6723de
+  approvals:
+  - at: 2026-09-29T17:36:24.05893304Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 886755d86b6723de
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T17:32:38.855103273Z
+updated_at: 2026-09-29T17:36:24.05893304Z

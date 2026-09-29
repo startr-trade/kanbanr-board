@@ -52,9 +52,16 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 3242ce2bce7ba76b
+defect:
+  severity: medium
+  introduced_by: FEAT-056
+  found_in: FEAT-106 work (guard refused a Python heredoc)
+  root_cause: the guard tokenised the whole Bash command, heredoc bodies included, so documented commit text read as a commit
+  escaped: true
+  fixed_by: tests::a_heredoc_body_is_not_a_commit
 history:
 - at: 2026-09-29T09:01:17.946295333Z
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:41:04.8011067Z
-updated_at: 2026-09-29T09:04:04.285543257Z
+updated_at: 2026-09-29T09:04:04.315936512Z

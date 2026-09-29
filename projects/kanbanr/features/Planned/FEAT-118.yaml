@@ -41,5 +41,14 @@ definition:
     - name: 'manual: katalog on progressive togaf, board and doctor clean'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:36:37.580895869Z
+    rev: 4c418af8ef8a568d
+  approvals:
+  - at: 2026-09-29T17:36:37.580895869Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 4c418af8ef8a568d
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T17:32:38.85544359Z
+updated_at: 2026-09-29T17:36:37.580895869Z

@@ -1,3 +1,11 @@
+- id: L-28
+  lesson: 'Never chain commit and merge after a test run in one command: the suite reported 2 failures and the merge went ahead anyway'
+  kind: pitfall
+  at: 2026-09-29T07:33:10.026640932Z
+  from_item: FEAT-105
+  confidence: 0.6
+  last_affirmed: 2026-09-29T07:33:10.026640932Z
+  status: candidate
 - id: L-27
   lesson: 'The capture hook records nothing when a test run is wrapped (rtk proxy cargo test): feed the output to kanbanr capture, or run cargo test bare'
   kind: pitfall

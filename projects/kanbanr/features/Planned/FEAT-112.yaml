@@ -39,5 +39,14 @@ definition:
     - name: readiness_golden_matches_legacy_reports
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:35:45.823874467Z
+    rev: 0c4b6165f7096907
+  approvals:
+  - at: 2026-09-29T17:35:45.823874467Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 0c4b6165f7096907
 created_at: 2026-09-29T17:32:38.853494381Z
-updated_at: 2026-09-29T17:32:38.853497495Z
+updated_at: 2026-09-29T17:35:45.823874467Z

@@ -19,6 +19,9 @@ todo_lists:
   - key: T1
     text: 'sprints.rs: side file, SP-001 codes, add/plan/start/close with carry-over, report with a burndown derived from history, velocity'
     state: NotStarted
+  - key: T2
+    text: Evaluation context (unit, active sprint) threaded through gates; in_sprint check; sprint field on items
+    state: NotStarted
   created_at: 2026-09-29T19:19:17.651137753Z
 definition:
   statement: Sprints as timeboxes with a goal, capacity and derived burndown, for a developer and Claude working in iterations, so that work can be planned and reviewed on a cadence
@@ -75,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T19:19:17.681057146Z
+updated_at: 2026-09-29T19:19:17.706748446Z

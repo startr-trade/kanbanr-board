@@ -745,3 +745,7 @@
   actor: Venkatraman B
   message: test presets_apply_with_their_gates of FEAT-116/R-1 is now green
   item: FEAT-116
+- time: 2026-09-29T18:53:04.44250744Z
+  actor: Venkatraman B
+  message: test an_unknown_preset_is_refused of FEAT-116/R-2 is now green
+  item: FEAT-116

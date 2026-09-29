@@ -40,7 +40,7 @@ definition:
     tests:
     - name: an_unknown_preset_is_refused
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a workflow file is imported and exported, THE SYSTEM SHALL round-trip statuses, transitions and gates.
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.854576938Z
-updated_at: 2026-09-29T18:53:04.414299077Z
+updated_at: 2026-09-29T18:53:04.440886659Z

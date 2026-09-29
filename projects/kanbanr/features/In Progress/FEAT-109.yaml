@@ -18,6 +18,9 @@ todo_lists:
   - key: T1
     text: Review queue lists unratified finished work with doctor's predicate, first; test observed red
     state: NotStarted
+  - key: T2
+    text: Ratify button, chip and read-only command on the Review page; clicked in headless Chromium on a scratch board, item recorded as ratified and left the queue
+    state: NotStarted
   created_at: 2026-09-29T09:09:27.272450538Z
 definition:
   statement: A Review page that lists work finished without agreement and ratifies it in one click, for the person who agrees to the work, so that after-the-fact agreement needs no terminal
@@ -60,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:09:27.291621494Z
+updated_at: 2026-09-29T09:09:27.311360126Z

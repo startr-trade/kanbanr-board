@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'sprints.rs: side file, SP-001 codes, add/plan/start/close with carry-over, report with a burndown derived from history, velocity'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: Evaluation context (unit, active sprint) threaded through gates; in_sprint check; sprint field on items
     state: NotStarted
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T19:19:17.731454077Z
+updated_at: 2026-09-29T19:19:17.756314542Z

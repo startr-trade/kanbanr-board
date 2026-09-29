@@ -21,7 +21,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: release field on items, in_release check, routes and the release CLI with --tag; feature add --found-in
-    state: NotStarted
+    state: Completed
   - key: T3
     text: Tests observed failing under sabotage; smoke-tested end to end; docs and changelog
     state: NotStarted
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:24:27.731529745Z
+updated_at: 2026-09-29T19:24:27.756327399Z

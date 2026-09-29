@@ -52,9 +52,16 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: d1f873a9d526c1f1
+defect:
+  severity: medium
+  introduced_by: FEAT-065
+  found_in: planning MS-007 (plan mode)
+  root_cause: strip_prefix failure fell back to the absolute path, so every outside path was judged and suggested as notes/<absolute>
+  escaped: true
+  fixed_by: tests::the_docs_guard_ignores_paths_outside_the_repo
 history:
 - at: 2026-09-29T17:37:14.91003206Z
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:38:32.197183965Z
+updated_at: 2026-09-29T17:38:32.232148594Z

@@ -32,7 +32,7 @@ definition:
     tests:
     - name: start_branches_where_the_gate_says
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN finish runs, THE SYSTEM SHALL target a terminal status reachable by an allowed transition from the current status.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.854203312Z
-updated_at: 2026-09-29T18:40:57.562379349Z
+updated_at: 2026-09-29T18:45:11.636728014Z

@@ -38,7 +38,7 @@ definition:
     tests:
     - name: cadence_capabilities_are_off_unless_switched_on
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:14.999716616Z
@@ -53,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856084488Z
-updated_at: 2026-09-29T19:08:29.925030517Z
+updated_at: 2026-09-29T19:08:29.95007869Z

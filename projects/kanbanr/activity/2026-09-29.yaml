@@ -879,3 +879,7 @@
   actor: Venkatraman B
   message: test the_estimate_unit_drives_capacity_and_checks of FEAT-121/R-1 is now green
   item: FEAT-121
+- time: 2026-09-29T19:08:29.951567076Z
+  actor: Venkatraman B
+  message: test cadence_capabilities_are_off_unless_switched_on of FEAT-121/R-2 is now green
+  item: FEAT-121

@@ -1,0 +1,42 @@
+code: FEAT-107
+title: 'Defect: board columns scroll sideways inside a 1200px page while the screen has room either side'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A board that uses the width of the window, for anyone viewing a workflow with more than four columns, so that the columns fit instead of scrolling inside empty margins
+  goals:
+  - G-5
+  zachman:
+    what: The width available to board layouts in the monitor
+    how: Lift the 1200px cap for board pages only; keep it for reading pages
+    where: web/src/styles.css, web/src/App.tsx
+    when: Viewing a board whose displayed statuses need more than 1200px
+    who: Anyone using the monitor on a wide screen
+    why: A six-column TOGAF board scrolled sideways inside a 1200px box with blank space on both sides
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE the window is wide enough for every displayed column, THE SYSTEM SHALL show the board without horizontal scrolling.
+    tests:
+    - name: 'manual: katalog''s six-column TOGAF board at 1920px shows all columns without a scrollbar'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL keep reading pages at their 1200px measure.
+    tests:
+    - name: 'manual: a feature page at 1920px keeps its 1200px width'
+      kind: manual
+      state: planned
+created_at: 2026-09-29T07:33:33.11909372Z
+updated_at: 2026-09-29T07:33:33.11910373Z

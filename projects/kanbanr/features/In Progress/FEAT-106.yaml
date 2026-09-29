@@ -38,7 +38,7 @@ definition:
     tests:
     - name: 'manual: setup in a non-git folder ends with one commit on the default branch and the hooks installed'
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN setup finishes, THE SYSTEM SHALL tell the user how to view the monitor with the built-in `kanbanr serve`.
@@ -60,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-09-29T07:40:09.185414428Z
+updated_at: 2026-09-29T07:40:09.204835463Z

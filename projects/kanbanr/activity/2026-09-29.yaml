@@ -179,3 +179,7 @@
   actor: Venkatraman B
   message: 'test manual: a charter written from the skill''s shape passes kanbanr charter set on the first try of FEAT-106/R-1 is now green'
   item: FEAT-106
+- time: 2026-09-29T07:40:09.206534452Z
+  actor: Venkatraman B
+  message: 'test manual: setup in a non-git folder ends with one commit on the default branch and the hooks installed of FEAT-106/R-2 is now green'
+  item: FEAT-106

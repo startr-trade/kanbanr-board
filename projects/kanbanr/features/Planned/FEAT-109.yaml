@@ -39,5 +39,14 @@ definition:
     - name: 'manual: ratify an unratified item from the Review page and see doctor go quiet'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T09:06:08.393312044Z
+    rev: 5e823c24037d1c3d
+  approvals:
+  - at: 2026-09-29T09:06:08.393312044Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 5e823c24037d1c3d
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:05:12.483098043Z
+updated_at: 2026-09-29T09:06:08.393312044Z

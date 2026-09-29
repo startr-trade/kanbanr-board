@@ -705,3 +705,7 @@
   actor: Venkatraman B
   message: test finish_reaches_a_terminal_through_an_allowed_edge of FEAT-115/R-2 is now green
   item: FEAT-115
+- time: 2026-09-29T18:45:11.689120702Z
+  actor: Venkatraman B
+  message: test auto_advance_respects_the_gate of FEAT-115/R-3 is now green
+  item: FEAT-115

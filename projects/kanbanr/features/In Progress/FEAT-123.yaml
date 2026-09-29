@@ -13,7 +13,11 @@ labels: []
 depends_on:
 - FEAT-119
 - FEAT-120
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T19:39:35.410248688Z
 definition:
   statement: Sprint and release views in the monitor, for anyone following an iteration, so that its state and the timeline are visible at a glance
   goals:
@@ -62,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856695458Z
-updated_at: 2026-09-29T19:39:35.384840414Z
+updated_at: 2026-09-29T19:39:35.410253629Z

@@ -32,7 +32,7 @@ definition:
     tests:
     - name: a_cut_ships_only_what_is_done
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a release is cut, THE SYSTEM SHALL write release notes from the shipped items' statements and requirements.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:19:17.900530598Z
+updated_at: 2026-09-29T19:24:27.514982763Z

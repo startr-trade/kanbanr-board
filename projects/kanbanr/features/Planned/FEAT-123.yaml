@@ -41,14 +41,16 @@ definition:
     - name: 'manual: gantt with sprints and releases renders'
       kind: manual
       state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a project has sprints or releases off, THE SYSTEM SHALL hide the corresponding monitor views.
+    tests:
+    - name: 'manual: cadence views hidden on a project without sprints or releases'
+      kind: manual
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:37:03.301918341Z
     rev: 496ec7e3aba39a7f
-  approvals:
-  - at: 2026-09-29T17:37:03.301918341Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 496ec7e3aba39a7f
 created_at: 2026-09-29T17:32:38.856695458Z
-updated_at: 2026-09-29T17:51:51.025007991Z
+updated_at: 2026-09-29T17:51:51.046950375Z

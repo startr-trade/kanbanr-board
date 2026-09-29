@@ -1,6 +1,6 @@
 code: FEAT-110
 title: 'Defect: the CLI panics with a stack trace when its output is piped into head'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -45,5 +45,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 946c4ad835703165
+history:
+- at: 2026-09-29T09:31:13.599177188Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T09:29:46.040152394Z
-updated_at: 2026-09-29T09:31:13.553515475Z
+updated_at: 2026-09-29T09:31:13.599177188Z

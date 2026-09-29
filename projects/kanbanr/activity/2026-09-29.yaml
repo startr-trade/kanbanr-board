@@ -923,3 +923,7 @@
   actor: Venkatraman B
   message: test burndown_is_derived_from_history of FEAT-119/R-2 is now green
   item: FEAT-119
+- time: 2026-09-29T19:19:17.605339158Z
+  actor: Venkatraman B
+  message: test sprint_planning_warns_over_capacity of FEAT-119/R-3 is now green
+  item: FEAT-119

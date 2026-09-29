@@ -408,3 +408,11 @@
   detail:
     milestone: MS-006
     items: 44
+- time: 2026-09-29T17:39:05.582468481Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-112
+  message: feature FEAT-112 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

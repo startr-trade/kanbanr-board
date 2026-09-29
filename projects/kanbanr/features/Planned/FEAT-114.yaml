@@ -47,5 +47,14 @@ definition:
     - name: a_signoff_needs_an_identity
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:35:54.593330173Z
+    rev: 58e92c3a85baa10b
+  approvals:
+  - at: 2026-09-29T17:35:54.593330173Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 58e92c3a85baa10b
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T17:32:38.854155467Z
+updated_at: 2026-09-29T17:35:54.593330173Z

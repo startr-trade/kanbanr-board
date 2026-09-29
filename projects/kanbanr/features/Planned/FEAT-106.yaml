@@ -46,5 +46,14 @@ definition:
     - name: 'manual: the setup report names kanbanr serve / kanbanr open'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T07:29:57.480459491Z
+    rev: 1bff4559baf3a2cf
+  approvals:
+  - at: 2026-09-29T07:29:57.480459491Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 1bff4559baf3a2cf
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-09-29T07:27:39.473885989Z
+updated_at: 2026-09-29T07:29:57.480459491Z

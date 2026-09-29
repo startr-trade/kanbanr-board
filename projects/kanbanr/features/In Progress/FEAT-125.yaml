@@ -36,10 +36,17 @@ definition:
       kind: unit
       state: planned
   started_unapproved: found and fixed during FEAT-123's browser check; a hole in an approved gate
+defect:
+  severity: high
+  introduced_by: FEAT-112
+  found_in: FEAT-123 browser check of the scrum board
+  root_cause: evaluate_definition returned early for a missing definition and only reported it when the list named definition
+  escaped: true
+  fixed_by: readiness::tests::exempt_and_undefined_items
 history:
 - at: 2026-09-29T19:37:37.348961444Z
   from: Planned
   to: In Progress
   override: found and fixed during FEAT-123's browser check; a hole in an approved gate
 created_at: 2026-09-29T19:37:37.308288807Z
-updated_at: 2026-09-29T19:37:37.348961444Z
+updated_at: 2026-09-29T19:37:37.421976643Z

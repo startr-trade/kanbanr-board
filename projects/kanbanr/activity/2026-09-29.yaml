@@ -1062,3 +1062,7 @@
   actor: Venkatraman B
   message: move feature FEAT-125
   item: FEAT-125
+- time: 2026-09-29T19:37:37.42371382Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-125
+  item: FEAT-125

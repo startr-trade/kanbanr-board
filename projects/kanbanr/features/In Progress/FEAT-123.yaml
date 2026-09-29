@@ -33,7 +33,7 @@ definition:
     tests:
     - name: 'manual: sprint header and burndown screenshot'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL show sprints and releases on the Gantt timeline.
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856695458Z
-updated_at: 2026-09-29T19:29:53.733835349Z
+updated_at: 2026-09-29T19:39:35.335744821Z

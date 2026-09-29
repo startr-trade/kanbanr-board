@@ -1066,3 +1066,7 @@
   actor: Venkatraman B
   message: record defect details for FEAT-125
   item: FEAT-125
+- time: 2026-09-29T19:39:35.337192187Z
+  actor: Venkatraman B
+  message: 'test manual: sprint header and burndown screenshot of FEAT-123/R-1 is now green'
+  item: FEAT-123

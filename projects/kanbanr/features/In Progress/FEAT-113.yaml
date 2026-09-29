@@ -1,6 +1,6 @@
 code: FEAT-113
 title: 'Declarable gates: entry criteria per status, enforced block or warn'
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: null
 priority: null
@@ -70,5 +70,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: cd19b8398e69ac5b
+history:
+- at: 2026-09-29T17:53:34.867549855Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T17:32:38.853503153Z
-updated_at: 2026-09-29T17:35:51.569066801Z
+updated_at: 2026-09-29T17:53:34.867549855Z

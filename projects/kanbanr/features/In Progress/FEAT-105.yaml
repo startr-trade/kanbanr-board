@@ -1,6 +1,6 @@
 code: FEAT-105
 title: 'Defect: in a fresh repo the git hooks call the default branch `main` while HEAD is an unborn `master`, and refuse the first commit'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -55,5 +55,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 526480bc5d8453e8
+history:
+- at: 2026-09-29T07:30:40.235961108Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T07:27:39.473866523Z
-updated_at: 2026-09-29T07:29:57.460703928Z
+updated_at: 2026-09-29T07:30:40.235961108Z

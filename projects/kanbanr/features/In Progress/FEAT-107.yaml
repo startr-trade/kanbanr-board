@@ -51,9 +51,15 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: d3f44d5c6fe2a5cc
+defect:
+  severity: low
+  found_in: katalog monitor (user report)
+  root_cause: one 1200px cap for every page; the board's columns need 240px each plus gaps, so more than four statuses overflow
+  escaped: false
+  fixed_by: 'headless Chromium at 1920px: board scrollWidth == clientWidth with 6 columns; charter content 1200px'
 history:
 - at: 2026-09-29T07:35:44.306795844Z
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:33:33.11909372Z
-updated_at: 2026-09-29T07:36:41.900967637Z
+updated_at: 2026-09-29T07:36:41.930474478Z

@@ -25,7 +25,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Preset commands (--preset, --from-file, --export, --preset list); unknown preset refused; gates replaced atomically with the workflow (bug caught by the preset test); mermaid gate notes checked by the renderer
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T18:53:04.486036454Z
 definition:
   statement: Workflow presets as editable data with their gates, for anyone starting a project or bringing their own process, so that a process is chosen or loaded rather than coded
@@ -77,5 +77,8 @@ history:
 - at: 2026-09-29T18:53:04.593316121Z
   from: In Progress
   to: Completed
+- at: 2026-09-29T18:53:12.719864999Z
+  from: Completed
+  to: Completed
 created_at: 2026-09-29T17:32:38.854576938Z
-updated_at: 2026-09-29T18:53:12.693190172Z
+updated_at: 2026-09-29T18:53:12.719864999Z

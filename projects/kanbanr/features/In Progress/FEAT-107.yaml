@@ -37,7 +37,7 @@ definition:
     tests:
     - name: 'manual: a feature page at 1920px keeps its 1200px width'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T07:35:44.266236255Z
@@ -56,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:33:33.11909372Z
-updated_at: 2026-09-29T07:36:41.880810136Z
+updated_at: 2026-09-29T07:36:41.900967637Z

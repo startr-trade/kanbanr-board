@@ -115,3 +115,7 @@
   actor: Venkatraman B
   message: 'test manual: katalog''s six-column TOGAF board at 1920px shows all columns without a scrollbar of FEAT-107/R-1 is now green'
   item: FEAT-107
+- time: 2026-09-29T07:36:41.902385899Z
+  actor: Venkatraman B
+  message: 'test manual: a feature page at 1920px keeps its 1200px width of FEAT-107/R-2 is now green'
+  item: FEAT-107

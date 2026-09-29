@@ -1,6 +1,6 @@
 code: FEAT-119
 title: 'Sprints: timeboxes with a goal, capacity, burndown and carry-over'
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: null
 priority: null
@@ -63,5 +63,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: b803c6d771fd0387
+history:
+- at: 2026-09-29T19:08:30.212893596Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T17:53:12.801149746Z
+updated_at: 2026-09-29T19:08:30.212893596Z

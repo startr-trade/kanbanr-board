@@ -14,7 +14,11 @@ depends_on:
 - FEAT-112
 - FEAT-113
 - FEAT-114
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T19:00:19.683602809Z
 definition:
   statement: Next-stage guidance on every surface, for Claude and the user elaborating an item phase by phase, so that each move asks only for what that stage needs
   goals:
@@ -63,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T19:00:19.661363511Z
+updated_at: 2026-09-29T19:00:19.683604122Z

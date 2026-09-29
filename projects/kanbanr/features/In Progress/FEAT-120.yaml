@@ -19,6 +19,9 @@ todo_lists:
   - key: T1
     text: 'releases.rs: side file, add/plan/cut; ship only what is finished (moved through its end gate, or finish''s rules without gates); notes doc; carry-over with reasons'
     state: NotStarted
+  - key: T2
+    text: release field on items, in_release check, routes and the release CLI with --tag; feature add --found-in
+    state: NotStarted
   created_at: 2026-09-29T19:24:27.631573648Z
 definition:
   statement: Releases planned up front and cut from finished work, for anyone shipping increments, so that what shipped, its notes and the feedback on it are recorded together
@@ -75,4 +78,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:24:27.655906859Z
+updated_at: 2026-09-29T19:24:27.681066422Z

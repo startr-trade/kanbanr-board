@@ -41,7 +41,7 @@
   done: 8
   total: 12
 - code: FEAT-123
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: null
   priority: null
@@ -54,7 +54,7 @@
   depends_on:
   - FEAT-119
   - FEAT-120
-  done: 2
+  done: 3
   total: 3
 - code: FEAT-125
   status: In Progress

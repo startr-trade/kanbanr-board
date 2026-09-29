@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-09-29T07:32:23.740287599Z
 definition:
   statement: Git hooks that recognise a fresh repository's real default branch and let its first commit through, for anyone starting a new project under kanbanr, so that setup does not end in a repository that cannot be committed to
   goals:
@@ -67,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473866523Z
-updated_at: 2026-09-29T07:32:23.720975217Z
+updated_at: 2026-09-29T07:32:23.74028876Z

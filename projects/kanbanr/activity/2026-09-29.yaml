@@ -1106,3 +1106,7 @@
   actor: Venkatraman B
   message: update task T3 (FEAT-123/TL-001)
   item: FEAT-123
+- time: 2026-09-29T19:39:35.600507187Z
+  actor: Venkatraman B
+  message: test readiness::tests::exempt_and_undefined_items of FEAT-125/R-1 is now green
+  item: FEAT-125

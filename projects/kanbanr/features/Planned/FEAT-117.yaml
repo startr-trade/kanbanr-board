@@ -1,0 +1,53 @@
+code: FEAT-117
+title: 'Surfacing: next-gate guidance in check, doctor, the review queue and the monitor'
+status: Planned
+milestone: MS-007
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-112
+- FEAT-113
+- FEAT-114
+todo_lists: []
+definition:
+  statement: Next-stage guidance on every surface, for Claude and the user elaborating an item phase by phase, so that each move asks only for what that stage needs
+  goals:
+  - G-1
+  - G-5
+  zachman:
+    what: What each surface shows about the next stage
+    how: check/doctor/review/monitor read the next gate from the readiness engine; CLAUDE.md carries purposes
+    where: kanbanr-cli check, doctor.rs, dispatch.rs review, web Workflow/Board/Review pages, claude.rs
+    when: Whenever an item is read or checked
+    who: Claude and the user
+    why: Guidance was all-or-nothing and doctor reported every possible gap
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN check runs on an item, THE SYSTEM SHALL list what each next reachable status requires that the item lacks.
+    tests:
+    - name: check_names_what_the_next_stage_needs
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE an item is live, THE SYSTEM SHALL have doctor report only the gaps of its next gate and that gate's warns.
+    tests:
+    - name: doctor_is_phase_aware
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a gate requires a sign-off, THE SYSTEM SHALL offer it on the Review page as a button recorded as the commit identity.
+    tests:
+    - name: 'manual: sign off from the Review page'
+      kind: manual
+      state: planned
+created_at: 2026-09-29T17:32:38.85486231Z
+updated_at: 2026-09-29T17:32:38.855103273Z

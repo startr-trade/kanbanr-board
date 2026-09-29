@@ -1,0 +1,47 @@
+code: FEAT-122
+title: Scrum and agile presets, and a setup kick-start with a working agreement
+status: Planned
+milestone: MS-008
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-116
+- FEAT-119
+- FEAT-120
+- FEAT-121
+todo_lists: []
+definition:
+  statement: Ready-made Scrum and agile setups with a working agreement generated from the gates, for anyone starting an iterative project, so that the process is running from the first session
+  goals:
+  - G-5
+  - G-3
+  zachman:
+    what: Iterative-process presets and the kick-start
+    how: Two presets; interview questions; a generated working agreement
+    where: presets/scrum.yaml, presets/agile.yaml, skill/kanbanr/SKILL.md, kanbanr-cli
+    when: At project setup
+    who: A developer and Claude starting an iterative project
+    why: Kick-starting an agile or Scrum project needed hand-built configuration
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a project is set up with the scrum preset, THE SYSTEM SHALL create the first sprint and release and a working agreement listing the Definition of Ready and Done from the gates.
+    tests:
+    - name: 'manual: scrum setup kick-start in a scratch repo'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE the scrum preset is in use, THE SYSTEM SHALL refuse In Progress for an item outside the active sprint.
+    tests:
+    - name: scrum_refuses_work_outside_the_sprint
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.856388743Z
+updated_at: 2026-09-29T17:32:38.856641051Z

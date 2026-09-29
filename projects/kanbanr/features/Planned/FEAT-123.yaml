@@ -1,0 +1,45 @@
+code: FEAT-123
+title: 'Cadence views: sprint header and burndown, Releases page, sprints and releases on the timeline'
+status: Planned
+milestone: MS-008
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-119
+- FEAT-120
+todo_lists: []
+definition:
+  statement: Sprint and release views in the monitor, for anyone following an iteration, so that its state and the timeline are visible at a glance
+  goals:
+  - G-1
+  - G-5
+  zachman:
+    what: The monitor's cadence views
+    how: Read-only views over the sprint and release side files and history
+    where: web/src pages (Board, Releases new, Gantt, Schedule), dispatch.rs read routes
+    when: While iterations run
+    who: The user and reviewers
+    why: Cadence data would otherwise be visible only in the CLI
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE a sprint is active, THE SYSTEM SHALL show its goal, dates, days left, committed versus done, and burndown on the board.
+    tests:
+    - name: 'manual: sprint header and burndown screenshot'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL show sprints and releases on the Gantt timeline.
+    tests:
+    - name: 'manual: gantt with sprints and releases renders'
+      kind: manual
+      state: planned
+created_at: 2026-09-29T17:32:38.856695458Z
+updated_at: 2026-09-29T17:32:38.856949903Z

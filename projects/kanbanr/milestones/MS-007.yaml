@@ -1,0 +1,5 @@
+code: MS-007
+name: P5 — Process as configuration
+description: ''
+depends_on:
+- MS-006

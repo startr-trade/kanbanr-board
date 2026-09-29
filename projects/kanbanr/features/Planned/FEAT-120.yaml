@@ -1,0 +1,51 @@
+code: FEAT-120
+title: 'Releases: planned scope, cut from Done, notes and carry-over'
+status: Planned
+milestone: MS-008
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-113
+todo_lists: []
+definition:
+  statement: Releases planned up front and cut from finished work, for anyone shipping increments, so that what shipped, its notes and the feedback on it are recorded together
+  goals:
+  - G-2
+  - G-4
+  zachman:
+    what: Shipped increments
+    how: A side file; an item field; plan and cut commands; generated notes; carry-over
+    where: releases.rs (new), store.rs, dispatch.rs, kanbanr-cli, board docs releases/
+    when: When an increment is planned and shipped
+    who: The developer, Claude, and readers of release notes
+    why: Finished work had no grouping into releases and feedback could not name a version
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release is cut, THE SYSTEM SHALL move only its planned items that are Done to the terminal status through its gate.
+    tests:
+    - name: a_cut_ships_only_what_is_done
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a release is cut, THE SYSTEM SHALL write release notes from the shipped items' statements and requirements.
+    tests:
+    - name: a_cut_writes_release_notes
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a release is cut with unfinished planned items, THE SYSTEM SHALL carry them to the next planned release and record it.
+    tests:
+    - name: a_cut_carries_unfinished_items
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.855786965Z
+updated_at: 2026-09-29T17:32:38.856034975Z

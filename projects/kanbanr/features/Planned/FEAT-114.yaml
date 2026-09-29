@@ -1,0 +1,51 @@
+code: FEAT-114
+title: 'Sign-offs: named, content-pinned agreements a gate can require'
+status: Planned
+milestone: MS-007
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-113
+todo_lists: []
+definition:
+  statement: Named sign-offs recorded against an item's definition, for the person who agrees a stage, so that conditions kanbanr cannot see still leave an auditable record a gate can require
+  goals:
+  - G-3
+  - G-2
+  zachman:
+    what: Named agreements on an item
+    how: An appended signoff record pinned to content_rev; a CLI command and route; approval events record their status
+    where: models.rs, store.rs, dispatch.rs, kanbanr-cli
+    when: When a stage needs a human attestation
+    who: The user giving the sign-off
+    why: Process conditions such as reviews had no record on the board
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a sign-off is recorded, THE SYSTEM SHALL store who gave it, when, and the definition revision it covers.
+    tests:
+    - name: signoffs_are_recorded_with_identity_and_revision
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the definition changes after a sign-off, THE SYSTEM SHALL treat that sign-off as lapsed.
+    tests:
+    - name: a_signoff_lapses_when_the_definition_changes
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF no commit identity is configured, THEN THE SYSTEM SHALL refuse to record a sign-off.
+    tests:
+    - name: a_signoff_needs_an_identity
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.85391093Z
+updated_at: 2026-09-29T17:32:38.854155467Z

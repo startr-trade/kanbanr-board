@@ -1,0 +1,5 @@
+code: MS-008
+name: 'P6 — Cadence: sprints and releases'
+description: ''
+depends_on:
+- MS-007

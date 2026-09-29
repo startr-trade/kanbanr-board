@@ -1,0 +1,36 @@
+code: FEAT-121
+title: Estimates in story points, per project, with cadence defaults
+status: Planned
+milestone: MS-008
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-113
+todo_lists: []
+definition:
+  statement: Story-point estimates and cadence defaults chosen per project, for teams planning in points, so that capacity, velocity and the Definition of Ready use the unit the project works in
+  goals:
+  - G-5
+  zachman:
+    what: The estimate unit and cadence
+    how: An item field and two config fields; one check
+    where: models.rs, config.rs, readiness.rs, kanbanr-cli
+    when: Estimating and planning
+    who: The developer and Claude
+    why: Only day estimates existed and cadence had nowhere to live
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE a project's estimate unit is points, THE SYSTEM SHALL use points for the estimated check, capacity and velocity.
+    tests:
+    - name: the_estimate_unit_drives_capacity_and_checks
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.856084488Z
+updated_at: 2026-09-29T17:32:38.856335164Z

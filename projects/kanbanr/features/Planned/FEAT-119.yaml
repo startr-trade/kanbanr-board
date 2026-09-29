@@ -1,0 +1,51 @@
+code: FEAT-119
+title: 'Sprints: timeboxes with a goal, capacity, burndown and carry-over'
+status: Planned
+milestone: MS-008
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-113
+todo_lists: []
+definition:
+  statement: Sprints as timeboxes with a goal, capacity and derived burndown, for a developer and Claude working in iterations, so that work can be planned and reviewed on a cadence
+  goals:
+  - G-1
+  - G-5
+  zachman:
+    what: Timeboxed iterations
+    how: A side file per project; an item field; commands; a gate check; burndown from history
+    where: sprints.rs (new), store.rs, dispatch.rs, retro.rs, kanbanr-cli
+    when: Planning, running and closing an iteration
+    who: The developer and Claude
+    why: No timebox existed; milestones carry no dates
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a sprint is closed, THE SYSTEM SHALL move its unfinished items to the named next sprint or the backlog and record the carry-over.
+    tests:
+    - name: closing_a_sprint_carries_unfinished_work
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a sprint is shown, THE SYSTEM SHALL derive its burndown from the items' move history.
+    tests:
+    - name: burndown_is_derived_from_history
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF items planned into a sprint exceed its capacity, THEN THE SYSTEM SHALL warn.
+    tests:
+    - name: sprint_planning_warns_over_capacity
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.855494318Z
+updated_at: 2026-09-29T17:32:38.855740878Z

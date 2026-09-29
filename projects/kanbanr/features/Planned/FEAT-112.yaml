@@ -1,0 +1,43 @@
+code: FEAT-112
+title: 'One readiness engine: every surface asks the same question the same way'
+status: Planned
+milestone: MS-007
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: One readiness engine in core, for every surface that reports what an item is missing, so that check, finish, doctor, query and the monitor can never disagree again
+  goals:
+  - G-2
+  - G-0
+  zachman:
+    what: The evaluation of an item's gaps
+    how: A closed check vocabulary in readiness.rs; every caller goes through it; the monitor reads an endpoint
+    where: api/crates/kanbanr-core/src/readiness.rs, doctor.rs, query.rs, dispatch.rs; kanbanr-cli main.rs; web FeaturePage
+    when: Whenever any surface reports readiness
+    who: Claude and the user reading check, doctor or the monitor
+    why: Five copies of the rules had drifted apart
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL compute an item's gaps in one core function used by check, finish, doctor, check --file, query and the monitor.
+    tests:
+    - name: readiness_is_one_answer_across_surfaces
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN no gates are declared, THE SYSTEM SHALL report the same gaps as before the change.
+    tests:
+    - name: readiness_golden_matches_legacy_reports
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.853494381Z
+updated_at: 2026-09-29T17:32:38.853497495Z

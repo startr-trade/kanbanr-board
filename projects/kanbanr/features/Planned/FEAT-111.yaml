@@ -1,0 +1,43 @@
+code: FEAT-111
+title: 'Defect: the docs guard judges files outside the project repo, and suggests a malformed path'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A docs guard that only judges files inside the tracked repository, for anyone using Claude Code's plan mode in a kanbanr project, so that the harness's own files are never refused
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: Which paths the Write/Edit docs guard judges
+    how: Resolve the path against the repo root; outside it, allow; suggestions use the repo-relative path
+    where: api/crates/kanbanr-cli/src/main.rs (claude guard, belongs_on_the_board)
+    when: Every Write/Edit Claude Code makes in a tracked project
+    who: Anyone using plan mode or writing outside the repo
+    why: The guard refused the plan file in ~/.claude/plans and suggested notes//home/…
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF a Write or Edit targets a path outside the tracked repository, THEN THE SYSTEM SHALL allow it without comment.
+    tests:
+    - name: tests::the_docs_guard_ignores_paths_outside_the_repo
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the guard refuses an in-repo file, THE SYSTEM SHALL suggest a board path built from the repo-relative path.
+    tests:
+    - name: tests::the_docs_guard_suggests_a_usable_board_path
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.853476088Z
+updated_at: 2026-09-29T17:32:38.853487574Z

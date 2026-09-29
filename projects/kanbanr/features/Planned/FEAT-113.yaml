@@ -1,0 +1,65 @@
+code: FEAT-113
+title: 'Declarable gates: entry criteria per status, enforced block or warn'
+status: Planned
+milestone: MS-007
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-112
+todo_lists: []
+definition:
+  statement: Entry criteria declared per status and enforced on every move, for any project that follows its own process, so that guardrails are configuration rather than code
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The workflow's per-status entry criteria
+    how: gates map in ProjectConfig; effective_gates with legacy synthesis; evaluation in the store's move path; recorded overrides
+    where: config.rs, store.rs (move path, set_workflow), models.rs (Transition.override), kanbanr-cli start/move
+    when: On every status move
+    who: Any project defining its process, and Claude working under it
+    why: Guardrails were hard-coded to one start-then-finish shape
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN an item moves into a status whose gate blocks and a required check fails, THE SYSTEM SHALL refuse the move and list the failing checks.
+    tests:
+    - name: gates_block_and_list_what_is_missing
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a gate enforces warn, THE SYSTEM SHALL allow the move and report the failing checks.
+    tests:
+    - name: gates_warn_and_move
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a blocked move carries an override reason, THE SYSTEM SHALL allow it and record the reason in the item's history.
+    tests:
+    - name: an_override_is_recorded_in_history
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHILE a workflow declares no gates, THE SYSTEM SHALL make the same allow and refuse decisions as before.
+    tests:
+    - name: effective_gates_reproduce_the_legacy_gate
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a gate names an unknown check or status, THEN THE SYSTEM SHALL reject the workflow.
+    tests:
+    - name: unknown_gate_names_are_rejected
+      kind: unit
+      state: planned
+created_at: 2026-09-29T17:32:38.853503153Z
+updated_at: 2026-09-29T17:32:38.853856912Z

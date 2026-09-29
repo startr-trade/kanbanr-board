@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: Strip heredoc bodies before the guard reads a command; test observed red; old vs new binary compared on the refused command
+    state: NotStarted
   created_at: 2026-09-29T09:04:04.337491813Z
 definition:
   statement: A commit guard that ignores heredoc bodies, for anyone whose command carries text about commits, so that writing documentation does not trip a guard meant for real commits
@@ -68,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:41:04.8011067Z
-updated_at: 2026-09-29T09:04:04.337493017Z
+updated_at: 2026-09-29T09:04:04.363967123Z

@@ -48,7 +48,7 @@ definition:
     tests:
     - name: 'manual: sign off from the Review page'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:24.05893304Z
@@ -63,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T19:00:19.63788888Z
+updated_at: 2026-09-29T19:00:19.661363511Z

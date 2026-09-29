@@ -30,7 +30,7 @@ definition:
     tests:
     - name: 'manual: katalog''s six-column TOGAF board at 1920px shows all columns without a scrollbar'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL keep reading pages at their 1200px measure.
@@ -56,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:33:33.11909372Z
-updated_at: 2026-09-29T07:35:44.306795844Z
+updated_at: 2026-09-29T07:36:41.880810136Z

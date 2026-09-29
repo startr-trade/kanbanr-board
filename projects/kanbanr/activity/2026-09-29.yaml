@@ -301,3 +301,7 @@
   actor: Venkatraman B
   message: move feature FEAT-109
   item: FEAT-109
+- time: 2026-09-29T09:17:32.801989893Z
+  actor: Venkatraman B
+  message: 'test manual: a tracked folder goes straight to recovery of FEAT-100/R-4 is now green'
+  item: FEAT-100

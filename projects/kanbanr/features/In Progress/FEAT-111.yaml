@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-09-29T17:38:32.254565165Z
 definition:
   statement: A docs guard that only judges files inside the tracked repository, for anyone using Claude Code's plan mode in a kanbanr project, so that the harness's own files are never refused
   goals:
@@ -64,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:38:32.232148594Z
+updated_at: 2026-09-29T17:38:32.254566762Z

@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Gate/Enforce/Action config, Condition (check or zachman columns), effective_gates legacy synthesis, schema 3 only with gates
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'Store: one gated move for route and batch, warnings returned, override in history, set_gates + validation; terminal fallback and portfolio unified'
     state: NotStarted
@@ -88,4 +88,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853503153Z
-updated_at: 2026-09-29T18:02:03.533728422Z
+updated_at: 2026-09-29T18:02:03.557831698Z

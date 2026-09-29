@@ -40,7 +40,7 @@ definition:
     tests:
     - name: 'manual: katalog on progressive togaf, board and doctor clean'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:37.580895869Z
@@ -55,4 +55,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.566555495Z
+updated_at: 2026-09-29T19:03:10.593670599Z

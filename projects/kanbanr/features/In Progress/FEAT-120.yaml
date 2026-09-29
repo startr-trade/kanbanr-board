@@ -46,7 +46,7 @@ definition:
     tests:
     - name: a_cut_carries_unfinished_items
       kind: unit
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHERE releases are off for a project, THE SYSTEM SHALL not offer release planning, cutting or the in_release check.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:24:27.538564444Z
+updated_at: 2026-09-29T19:24:27.563392679Z

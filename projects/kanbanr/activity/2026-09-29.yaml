@@ -971,3 +971,7 @@
   actor: Venkatraman B
   message: test a_cut_writes_release_notes of FEAT-120/R-2 is now green
   item: FEAT-120
+- time: 2026-09-29T19:24:27.566082193Z
+  actor: Venkatraman B
+  message: test a_cut_carries_unfinished_items of FEAT-120/R-3 is now green
+  item: FEAT-120

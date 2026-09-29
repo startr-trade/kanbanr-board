@@ -1,6 +1,6 @@
 code: FEAT-111
 title: 'Defect: the docs guard judges files outside the project repo, and suggests a malformed path'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -52,5 +52,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: d1f873a9d526c1f1
+history:
+- at: 2026-09-29T17:37:14.91003206Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:37:14.841003166Z
+updated_at: 2026-09-29T17:37:14.91003206Z

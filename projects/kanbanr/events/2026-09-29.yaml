@@ -384,3 +384,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-09-29T17:37:14.93318026Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-111
+  message: feature FEAT-111 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

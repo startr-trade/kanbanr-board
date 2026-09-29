@@ -1,6 +1,6 @@
 code: FEAT-111
 title: 'Defect: the docs guard judges files outside the project repo, and suggests a malformed path'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'board_path_for: resolve lexically, only in-repo paths judged, repo-relative suggestion; old vs new binary compared on the plan file'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T17:38:32.254565165Z
 definition:
   statement: A docs guard that only judges files inside the tracked repository, for anyone using Claude Code's plan mode in a kanbanr project, so that the harness's own files are never refused
@@ -70,5 +70,8 @@ history:
 - at: 2026-09-29T17:37:14.91003206Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T17:38:32.300212315Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:38:32.277621311Z
+updated_at: 2026-09-29T17:38:32.300212315Z

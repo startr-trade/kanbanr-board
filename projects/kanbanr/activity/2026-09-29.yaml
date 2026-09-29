@@ -741,3 +741,7 @@
   actor: Venkatraman B
   message: move feature FEAT-116
   item: FEAT-116
+- time: 2026-09-29T18:53:04.415844618Z
+  actor: Venkatraman B
+  message: test presets_apply_with_their_gates of FEAT-116/R-1 is now green
+  item: FEAT-116

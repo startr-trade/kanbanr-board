@@ -19,6 +19,9 @@ todo_lists:
   - key: T1
     text: points on items (absent stays absent on disk), --points, PATCH points
     state: NotStarted
+  - key: T2
+    text: estimate_unit and cadence in config (skipped when default), config cadence command and route, require_cadence naming the switch
+    state: NotStarted
   created_at: 2026-09-29T19:08:29.976052244Z
 definition:
   statement: Story-point estimates and cadence defaults chosen per project, for teams planning in points, so that capacity, velocity and the Definition of Ready use the unit the project works in
@@ -60,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856084488Z
-updated_at: 2026-09-29T19:08:30.003412782Z
+updated_at: 2026-09-29T19:08:30.027347972Z

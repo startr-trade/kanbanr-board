@@ -33,7 +33,7 @@ definition:
     tests:
     - name: 'manual: the processes chapter covers every check and preset (audited against the code)'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN katalog is moved to the togaf preset, THE SYSTEM SHALL keep its existing items loadable and its charter unchanged.
@@ -55,4 +55,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:00:19.917049219Z
+updated_at: 2026-09-29T19:03:10.566555495Z

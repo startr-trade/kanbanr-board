@@ -210,3 +210,7 @@
   actor: Venkatraman B
   message: ratify FEAT-102 — built under a recorded bypass, agreed to after the fact
   item: FEAT-102
+- time: 2026-09-29T09:01:17.893693475Z
+  actor: Venkatraman B
+  message: approve definition of FEAT-108
+  item: FEAT-108

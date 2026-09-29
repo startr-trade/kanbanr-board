@@ -34,7 +34,7 @@ definition:
     tests:
     - name: check_names_what_the_next_stage_needs
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHILE an item is live, THE SYSTEM SHALL have doctor report only the gaps of its next gate and that gate's warns.
@@ -63,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T18:53:31.853262815Z
+updated_at: 2026-09-29T19:00:19.614006944Z

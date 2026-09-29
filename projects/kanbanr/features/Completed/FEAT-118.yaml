@@ -1,6 +1,6 @@
 code: FEAT-118
 title: Method, docs and ADR-0010 for process as configuration; katalog on progressive TOGAF
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: null
 priority: null
@@ -25,7 +25,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: katalog moved to the progressive togaf preset (schema 3) and its CLAUDE.md refreshed with stage purposes
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T19:03:10.618931852Z
 definition:
   statement: The method, docs and decision record for declarable processes, for anyone adopting or extending a process, so that the reasoning and usage are documented where people look
@@ -67,5 +67,8 @@ history:
 - at: 2026-09-29T19:00:19.917049219Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T19:03:10.772307496Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.746430557Z
+updated_at: 2026-09-29T19:03:10.772307496Z

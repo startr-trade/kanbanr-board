@@ -1,6 +1,6 @@
 code: FEAT-112
 title: 'One readiness engine: every surface asks the same question the same way'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: null
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Monitor cards read the readiness route; client-side rules removed; verified in headless Chromium on a scratch board
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T17:51:22.412704225Z
 definition:
   statement: One readiness engine in core, for every surface that reports what an item is missing, so that check, finish, doctor, query and the monitor can never disagree again
@@ -69,5 +69,8 @@ history:
 - at: 2026-09-29T17:39:05.553855279Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T17:51:22.548283382Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.853494381Z
-updated_at: 2026-09-29T17:51:22.524317466Z
+updated_at: 2026-09-29T17:51:22.548283382Z

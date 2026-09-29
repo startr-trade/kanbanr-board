@@ -183,3 +183,11 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-09-29T09:17:32.879876969Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-100
+  message: feature FEAT-100 completed Completed
+  detail:
+    status: Completed
+    terminal: true

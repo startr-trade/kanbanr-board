@@ -38,7 +38,7 @@ definition:
     tests:
     - name: tests::the_docs_guard_suggests_a_usable_board_path
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:37:14.841003166Z
@@ -57,4 +57,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853476088Z
-updated_at: 2026-09-29T17:38:32.17413664Z
+updated_at: 2026-09-29T17:38:32.197183965Z

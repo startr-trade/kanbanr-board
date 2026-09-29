@@ -27,7 +27,7 @@
   done: 0
   total: 0
 - code: FEAT-104
-  status: Planned
+  status: In Progress
   milestone: MS-006
   kind: defect
   priority: null

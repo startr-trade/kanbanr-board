@@ -1,6 +1,6 @@
 code: FEAT-104
 title: 'Defect: `kanbanr open` tells you to serve with --ui-dir web/dist, though the monitor is built in'
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: defect
 priority: null
@@ -40,5 +40,9 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: bb3b190b25858e81
+history:
+- at: 2026-09-29T07:29:57.523680093Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-29T07:27:39.47385526Z
-updated_at: 2026-09-29T07:29:57.440425837Z
+updated_at: 2026-09-29T07:29:57.523680093Z

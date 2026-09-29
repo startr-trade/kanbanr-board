@@ -26,20 +26,6 @@
   depends_on: []
   done: 0
   total: 0
-- code: FEAT-104
-  status: In Progress
-  milestone: MS-006
-  kind: defect
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-105
   status: Planned
   milestone: MS-006
@@ -110,6 +96,20 @@
   depends_on: []
   done: 2
   total: 3
+- code: FEAT-104
+  status: In Progress
+  milestone: MS-006
+  kind: defect
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

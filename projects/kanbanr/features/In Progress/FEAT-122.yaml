@@ -22,6 +22,9 @@ todo_lists:
   - key: T1
     text: scrum and agile presets; workflow files carry cadence and unit; presets that use sprints switch them on, others leave the cadence alone
     state: NotStarted
+  - key: T2
+    text: Working agreement generated from the gates (--agreement, --write-agreement); in_sprint enforced under scrum (observed failing under sabotage)
+    state: NotStarted
   created_at: 2026-09-29T19:29:53.471676203Z
 definition:
   statement: Ready-made Scrum and agile setups with a working agreement generated from the gates, for anyone starting an iterative project, so that the process is running from the first session
@@ -71,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856388743Z
-updated_at: 2026-09-29T19:29:53.502212827Z
+updated_at: 2026-09-29T19:29:53.532666982Z

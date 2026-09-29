@@ -1074,3 +1074,7 @@
   actor: Venkatraman B
   message: 'test manual: gantt with sprints and releases renders of FEAT-123/R-2 is now green'
   item: FEAT-123
+- time: 2026-09-29T19:39:35.386286017Z
+  actor: Venkatraman B
+  message: 'test manual: cadence views hidden on a project without sprints or releases of FEAT-123/R-3 is now green'
+  item: FEAT-123

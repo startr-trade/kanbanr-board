@@ -47,7 +47,7 @@ definition:
     tests:
     - name: 'manual: cadence views hidden on a project without sprints or releases'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:17.193042305Z
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856695458Z
-updated_at: 2026-09-29T19:39:35.360012521Z
+updated_at: 2026-09-29T19:39:35.384840414Z

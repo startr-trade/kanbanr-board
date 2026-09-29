@@ -47,5 +47,14 @@ definition:
     - name: a_cut_carries_unfinished_items
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:36:52.019391696Z
+    rev: c5384efe6ae29fa0
+  approvals:
+  - at: 2026-09-29T17:36:52.019391696Z
+    by: Venkatraman B
+    verdict: approved
+    rev: c5384efe6ae29fa0
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T17:32:38.856034975Z
+updated_at: 2026-09-29T17:36:52.019391696Z

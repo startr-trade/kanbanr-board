@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Charter schema (validated with charter set; caught a colon that broke the YAML), non-goal check, new-repo steps, monitor hint
-    state: NotStarted
+    state: Completed
   - key: T2
     text: Next real setup run confirms the report names kanbanr serve / open (R-3)
     state: NotStarted
@@ -70,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-09-29T07:40:09.262694871Z
+updated_at: 2026-09-29T07:40:09.28216636Z

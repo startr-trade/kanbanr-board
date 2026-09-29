@@ -19,6 +19,9 @@ todo_lists:
   - key: T1
     text: start targets the branch-gate status and refuses leaps with the path; non-git folders move without a branch; first_active_status skips no-ops
     state: NotStarted
+  - key: T2
+    text: finish targets a reachable terminal; declared gates replace the legacy preflight
+    state: NotStarted
   created_at: 2026-09-29T18:45:11.715898229Z
 definition:
   statement: Start, finish and auto-advance that follow the project's workflow and gates, for anyone using a process other than the default, so that the branch appears when code starts and finishing works from any valid stage
@@ -68,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.854203312Z
-updated_at: 2026-09-29T18:45:11.740323963Z
+updated_at: 2026-09-29T18:45:11.763735849Z

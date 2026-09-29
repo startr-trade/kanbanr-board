@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T09:09:27.272450538Z
 definition:
   statement: A Review page that lists work finished without agreement and ratifies it in one click, for the person who agrees to the work, so that after-the-fact agreement needs no terminal
   goals:
@@ -53,4 +57,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:09:27.249155229Z
+updated_at: 2026-09-29T09:09:27.272451796Z

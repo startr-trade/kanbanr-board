@@ -1,6 +1,6 @@
 code: FEAT-125
 title: 'Defect: a gate that does not name `definition` lets an item with no definition through'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: defect
 priority: null
@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: A missing definition fails any check that reads it; regression tests on the engine and the scrum Ready gate
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T19:39:35.651717181Z
 definition:
   statement: A readiness engine that treats a missing definition as a gap for every check that reads it, for any process whose gates do not name `definition`, so that an item that has said nothing cannot pass a gate that asks what it says
@@ -55,5 +55,8 @@ history:
   from: Planned
   to: In Progress
   override: found and fixed during FEAT-123's browser check; a hole in an approved gate
+- at: 2026-09-29T19:39:35.704294537Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T19:37:37.308288807Z
-updated_at: 2026-09-29T19:39:35.678208539Z
+updated_at: 2026-09-29T19:39:35.704294537Z

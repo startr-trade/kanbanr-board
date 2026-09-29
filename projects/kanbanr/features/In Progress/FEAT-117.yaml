@@ -24,6 +24,9 @@ todo_lists:
   - key: T2
     text: check prints the next stage; doctor stage-aware under declared gates (observed failing under sabotage); readiness routes carry next; review queue lists sign-offs; CLAUDE.md stage purposes
     state: NotStarted
+  - key: T3
+    text: 'Monitor: card next-stage chip, Workflow page from the daemon''s diagram plus a Stages section, Review Sign off buttons (clicked in headless Chromium)'
+    state: NotStarted
   created_at: 2026-09-29T19:00:19.683602809Z
 definition:
   statement: Next-stage guidance on every surface, for Claude and the user elaborating an item phase by phase, so that each move asks only for what that stage needs
@@ -73,4 +76,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T19:00:19.732663747Z
+updated_at: 2026-09-29T19:00:19.758170082Z

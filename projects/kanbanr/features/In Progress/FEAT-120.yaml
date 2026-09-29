@@ -39,7 +39,7 @@ definition:
     tests:
     - name: a_cut_writes_release_notes
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a release is cut with unfinished planned items, THE SYSTEM SHALL carry them to the next planned release and record it.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:24:27.514982763Z
+updated_at: 2026-09-29T19:24:27.538564444Z

@@ -53,7 +53,7 @@ definition:
     tests:
     - name: releases_only_where_switched_on
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:13.937313596Z
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855786965Z
-updated_at: 2026-09-29T19:24:27.563392679Z
+updated_at: 2026-09-29T19:24:27.601624496Z

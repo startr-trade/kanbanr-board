@@ -31,7 +31,7 @@ definition:
     tests:
     - name: the_review_queue_lists_work_finished_without_agreement
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN the user clicks Ratify on a writable monitor, THE SYSTEM SHALL record the ratification as the board's commit identity and drop the item from the queue.
@@ -53,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T09:05:12.483092266Z
-updated_at: 2026-09-29T09:06:08.438240164Z
+updated_at: 2026-09-29T09:09:27.226198016Z

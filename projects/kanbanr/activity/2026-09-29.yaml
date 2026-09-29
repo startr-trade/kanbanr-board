@@ -927,3 +927,7 @@
   actor: Venkatraman B
   message: test sprint_planning_warns_over_capacity of FEAT-119/R-3 is now green
   item: FEAT-119
+- time: 2026-09-29T19:19:17.629061227Z
+  actor: Venkatraman B
+  message: test burn_rate_reports_only_where_sprints_are_on of FEAT-119/R-4 is now green
+  item: FEAT-119

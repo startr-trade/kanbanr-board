@@ -56,7 +56,12 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-09-29T17:36:44.867893807Z
-    rev: 27c0704812f48421
+    at: 2026-09-29T17:53:12.801149746Z
+    rev: b803c6d771fd0387
+  approvals:
+  - at: 2026-09-29T17:53:12.801149746Z
+    by: Venkatraman B
+    verdict: approved
+    rev: b803c6d771fd0387
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T17:51:50.812386528Z
+updated_at: 2026-09-29T17:53:12.801149746Z

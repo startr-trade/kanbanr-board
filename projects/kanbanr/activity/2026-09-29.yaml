@@ -2,3 +2,7 @@
   actor: Venkatraman B
   message: 'test manual: setup request on an untracked scratch repo enters plan mode first of FEAT-100/R-1 is now green'
   item: FEAT-100
+- time: 2026-09-29T07:27:39.438257823Z
+  actor: Venkatraman B
+  message: 'test manual: the setup plan names every collected choice and its command of FEAT-100/R-2 is now green'
+  item: FEAT-100

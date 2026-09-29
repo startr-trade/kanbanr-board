@@ -39,7 +39,7 @@ definition:
     tests:
     - name: a_signoff_lapses_when_the_definition_changes
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: IF no commit identity is configured, THEN THE SYSTEM SHALL refuse to record a sign-off.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T18:40:57.309325356Z
+updated_at: 2026-09-29T18:40:57.334662772Z

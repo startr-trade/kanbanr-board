@@ -665,3 +665,7 @@
   actor: Venkatraman B
   message: test signoffs_are_recorded_with_identity_and_revision of FEAT-114/R-1 is now green
   item: FEAT-114
+- time: 2026-09-29T18:40:57.336125904Z
+  actor: Venkatraman B
+  message: test a_signoff_lapses_when_the_definition_changes of FEAT-114/R-2 is now green
+  item: FEAT-114

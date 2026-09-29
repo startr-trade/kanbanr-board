@@ -47,14 +47,16 @@ definition:
     - name: sprint_planning_warns_over_capacity
       kind: unit
       state: planned
+  - id: R-4
+    kind: functional
+    text: WHERE sprints are off for a project, THE SYSTEM SHALL omit burndown and velocity from its reports and retros.
+    tests:
+    - name: burn_rate_reports_only_where_sprints_are_on
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:44.867893807Z
     rev: 27c0704812f48421
-  approvals:
-  - at: 2026-09-29T17:36:44.867893807Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 27c0704812f48421
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T17:51:50.789702809Z
+updated_at: 2026-09-29T17:51:50.812386528Z

@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: Refuse when only a missing legacy ./data resolves; hooks silent; check --file before any board; test observed red then green
+    state: NotStarted
   created_at: 2026-09-29T07:38:33.982158694Z
 definition:
   statement: Reads that never create a board folder, for anyone running kanbanr in a folder it does not track, so that looking around leaves no stray data behind
@@ -63,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.47383183Z
-updated_at: 2026-09-29T07:38:33.982181336Z
+updated_at: 2026-09-29T07:38:34.003005682Z

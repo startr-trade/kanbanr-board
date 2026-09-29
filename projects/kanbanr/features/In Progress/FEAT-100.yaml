@@ -59,7 +59,7 @@ definition:
     tests:
     - name: 'manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean'
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: IF the folder already carries a .kanbanr marker whose board exists, THEN THE SYSTEM SHALL skip the interview and recover the board instead.
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:11:15.938923111Z
-updated_at: 2026-09-29T07:27:39.436880377Z
+updated_at: 2026-09-29T07:27:39.454817955Z

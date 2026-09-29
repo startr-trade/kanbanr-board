@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T17:51:22.412704225Z
 definition:
   statement: One readiness engine in core, for every surface that reports what an item is missing, so that check, finish, doctor, query and the monitor can never disagree again
   goals:
@@ -57,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853494381Z
-updated_at: 2026-09-29T17:51:22.390290581Z
+updated_at: 2026-09-29T17:51:22.412705095Z

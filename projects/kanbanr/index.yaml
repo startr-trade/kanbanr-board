@@ -133,7 +133,7 @@
   depends_on:
   - FEAT-116
   - FEAT-117
-  done: 0
+  done: 1
   total: 3
 - code: FEAT-001
   status: Completed

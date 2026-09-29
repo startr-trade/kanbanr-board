@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Processes chapter (every check, preset and gate field, audited against readiness.rs and the preset files); the-method TOGAF section; skill stage-by-stage guidance; changelog
-    state: NotStarted
+    state: Completed
   - key: T2
     text: ADR-0010 accepted on the board with context, alternatives, consequences and compliance
     state: NotStarted
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.695856389Z
+updated_at: 2026-09-29T19:03:10.720942829Z

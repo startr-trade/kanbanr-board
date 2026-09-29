@@ -509,3 +509,7 @@
   actor: Venkatraman B
   message: ratify FEAT-124 — built under a recorded bypass, agreed to after the fact
   item: FEAT-124
+- time: 2026-09-29T17:51:22.365184717Z
+  actor: Venkatraman B
+  message: test readiness_is_one_answer_across_surfaces of FEAT-112/R-1 is now green
+  item: FEAT-112

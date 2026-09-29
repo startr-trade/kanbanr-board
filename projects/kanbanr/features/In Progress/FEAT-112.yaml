@@ -31,7 +31,7 @@ definition:
     tests:
     - name: readiness_is_one_answer_across_surfaces
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN no gates are declared, THE SYSTEM SHALL report the same gaps as before the change.
@@ -57,4 +57,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853494381Z
-updated_at: 2026-09-29T17:39:05.553855279Z
+updated_at: 2026-09-29T17:51:22.36358906Z

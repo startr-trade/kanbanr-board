@@ -45,7 +45,7 @@ definition:
     tests:
     - name: 'manual: setup request on an untracked scratch repo enters plan mode first'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHILE in the setup interview, THE SYSTEM SHALL collect the board folder, project name, commit identity, charter, workflow and enforcement choices, and write them into the plan with the exact commands that will run.
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-28T19:11:15.938923111Z
-updated_at: 2026-09-28T19:14:26.053531487Z
+updated_at: 2026-09-29T07:27:39.41868421Z

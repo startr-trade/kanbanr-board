@@ -829,3 +829,6 @@
   actor: Venkatraman B
   message: move feature FEAT-118
   item: FEAT-118
+- time: 2026-09-29T19:01:33.170565961Z
+  actor: Venkatraman B
+  message: record an architecture decision

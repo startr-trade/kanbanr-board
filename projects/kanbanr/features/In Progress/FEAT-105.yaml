@@ -31,7 +31,7 @@ definition:
     tests:
     - name: scm::tests::an_unborn_head_is_the_default_branch
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN the root commit is made on the default branch, THE SYSTEM SHALL allow it.
@@ -60,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473866523Z
-updated_at: 2026-09-29T07:30:40.235961108Z
+updated_at: 2026-09-29T07:32:23.647284613Z

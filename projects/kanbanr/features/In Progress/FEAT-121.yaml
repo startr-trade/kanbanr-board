@@ -31,7 +31,7 @@ definition:
     tests:
     - name: the_estimate_unit_drives_capacity_and_checks
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE a project has not switched sprints or releases on, THE SYSTEM SHALL create no sprint or release data and refuse those commands with how to switch them on.
@@ -53,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.856084488Z
-updated_at: 2026-09-29T19:03:47.959591076Z
+updated_at: 2026-09-29T19:08:29.925030517Z

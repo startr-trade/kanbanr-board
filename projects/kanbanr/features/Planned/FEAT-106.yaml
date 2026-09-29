@@ -1,0 +1,50 @@
+code: FEAT-106
+title: 'Setup interview: fixes from its first real run (katalog)'
+status: Planned
+milestone: MS-006
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A setup interview that gets the charter's shape, the non-goals and a new repository right the first time, for anyone setting up kanbanr through Claude, so that setup needs no mid-run repair
+  goals:
+  - G-5
+  - G-3
+  zachman:
+    what: The skill's Activation text
+    how: Add the exact charter schema, a non-goal check, the new-repo steps and the monitor hint
+    where: skill/kanbanr/SKILL.md, docs/src/getting-started/quickstart.md
+    when: Setting up kanbanr through Claude
+    who: A developer adopting kanbanr
+    why: The katalog run had to repair a failed charter set, reclassify goals, and could neither commit nor find the monitor
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL state the charter file's exact field names in the setup instructions.
+    tests:
+    - name: 'manual: a charter written from the skill''s shape passes kanbanr charter set on the first try'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE the project folder is not a git repository, THE SYSTEM SHALL plan git init and an initial commit before installing the git hooks.
+    tests:
+    - name: 'manual: setup in a non-git folder ends with one commit on the default branch and the hooks installed'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN setup finishes, THE SYSTEM SHALL tell the user how to view the monitor with the built-in `kanbanr serve`.
+    tests:
+    - name: 'manual: the setup report names kanbanr serve / kanbanr open'
+      kind: manual
+      state: planned
+created_at: 2026-09-29T07:27:39.473882483Z
+updated_at: 2026-09-29T07:27:39.473885989Z

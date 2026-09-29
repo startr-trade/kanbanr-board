@@ -1,0 +1,35 @@
+code: FEAT-104
+title: 'Defect: `kanbanr open` tells you to serve with --ui-dir web/dist, though the monitor is built in'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A monitor hint that names the command that works, for anyone opening the monitor before it is running, so that they start the built-in monitor rather than hunting for a development build
+  goals:
+  - G-5
+  zachman:
+    what: The 'monitor not reachable' hint and similar text
+    how: Name plain `kanbanr serve`; test the hint text
+    where: api/crates/kanbanr-cli/src/main.rs (open)
+    when: '`kanbanr open` with nothing serving'
+    who: Any kanbanr user, and Claude acting on the hint
+    why: The hint predates the embedded monitor and sent the katalog setup to another checkout's web/dist
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN kanbanr open finds no monitor running, THE SYSTEM SHALL suggest `kanbanr serve` without a --ui-dir.
+    tests:
+    - name: open_hint_names_the_built_in_monitor
+      kind: unit
+      state: planned
+created_at: 2026-09-29T07:27:39.47385526Z
+updated_at: 2026-09-29T07:27:39.473861019Z

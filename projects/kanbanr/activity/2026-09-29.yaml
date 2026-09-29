@@ -10,3 +10,6 @@
   actor: Venkatraman B
   message: 'test manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean of FEAT-100/R-3 is now green'
   item: FEAT-100
+- time: 2026-09-29T07:27:39.475672474Z
+  actor: Venkatraman B
+  message: Record what the first real setup interview (katalog) found

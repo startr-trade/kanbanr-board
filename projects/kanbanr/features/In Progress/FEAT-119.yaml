@@ -32,7 +32,7 @@ definition:
     tests:
     - name: closing_a_sprint_carries_unfinished_work
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a sprint is shown, THE SYSTEM SHALL derive its burndown from the items' move history.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855494318Z
-updated_at: 2026-09-29T19:08:30.212893596Z
+updated_at: 2026-09-29T19:19:17.555920249Z

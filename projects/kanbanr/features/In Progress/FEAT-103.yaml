@@ -48,9 +48,15 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 611f29f5a8fdb8d6
+defect:
+  severity: medium
+  found_in: katalog setup (FEAT-100 walk)
+  root_cause: Backend::with_policy runs create_dir_all(data/projects) for every command, so resolving the legacy ./data fallback created it
+  escaped: false
+  fixed_by: cli_reads_in_an_untracked_folder_create_nothing
 history:
 - at: 2026-09-29T07:36:48.386686929Z
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.47383183Z
-updated_at: 2026-09-29T07:38:33.931877986Z
+updated_at: 2026-09-29T07:38:33.962267162Z

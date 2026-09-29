@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: skill fixes
+  tasks: []
+  created_at: 2026-09-29T07:40:09.22353857Z
 definition:
   statement: A setup interview that gets the charter's shape, the non-goals and a new repository right the first time, for anyone setting up kanbanr through Claude, so that setup needs no mid-run repair
   goals:
@@ -60,4 +64,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-09-29T07:40:09.204835463Z
+updated_at: 2026-09-29T07:40:09.223539475Z

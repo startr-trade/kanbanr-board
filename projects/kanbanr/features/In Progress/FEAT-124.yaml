@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T17:42:21.943861425Z
 definition:
   statement: Session summaries that leave out whatever the user lists as confidential, for anyone whose sessions touch private matters, so that nothing on that list ever reaches the board
   goals:
@@ -45,4 +49,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:40:39.637741129Z
-updated_at: 2026-09-29T17:42:21.919663873Z
+updated_at: 2026-09-29T17:42:21.94386231Z

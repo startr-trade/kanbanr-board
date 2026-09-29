@@ -17,7 +17,10 @@ depends_on:
 todo_lists:
 - code: TL-001
   description: build
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'next_gates in the engine: forward one-step statuses with a gate, their gaps, warnings and sign-offs needed'
+    state: NotStarted
   created_at: 2026-09-29T19:00:19.683602809Z
 definition:
   statement: Next-stage guidance on every surface, for Claude and the user elaborating an item phase by phase, so that each move asks only for what that stage needs
@@ -67,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T19:00:19.683604122Z
+updated_at: 2026-09-29T19:00:19.707749639Z

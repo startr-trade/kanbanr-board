@@ -41,7 +41,7 @@ definition:
     tests:
     - name: doctor_is_phase_aware
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHERE a gate requires a sign-off, THE SYSTEM SHALL offer it on the Review page as a button recorded as the commit identity.
@@ -63,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85486231Z
-updated_at: 2026-09-29T19:00:19.614006944Z
+updated_at: 2026-09-29T19:00:19.63788888Z

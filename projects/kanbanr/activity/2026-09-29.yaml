@@ -249,3 +249,7 @@
 - time: 2026-09-29T09:05:12.484536415Z
   actor: Venkatraman B
   message: 'Record FEAT-109: ratify from the Review page'
+- time: 2026-09-29T09:05:52.698904583Z
+  actor: Venkatraman B
+  message: ratify FEAT-102 — built under a recorded bypass, agreed to after the fact
+  item: FEAT-102

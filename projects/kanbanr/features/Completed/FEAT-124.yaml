@@ -46,6 +46,15 @@ definition:
     - name: 'manual: a compaction summary with an excluded term is saved without it'
       kind: manual
       state: green
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:43:20.627514987Z
+    rev: ea0bf8644624d4ae
+  approvals:
+  - at: 2026-09-29T17:43:20.627514987Z
+    by: Venkatraman B
+    verdict: approved
+    rev: ea0bf8644624d4ae
   started_unapproved: the user asked for it directly in the session; privacy-urgent before the next summary runs
 history:
 - at: 2026-09-29T17:40:39.690451519Z
@@ -55,4 +64,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T17:40:39.637741129Z
-updated_at: 2026-09-29T17:42:21.990962773Z
+updated_at: 2026-09-29T17:43:20.627514987Z

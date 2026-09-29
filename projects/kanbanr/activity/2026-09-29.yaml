@@ -749,3 +749,7 @@
   actor: Venkatraman B
   message: test an_unknown_preset_is_refused of FEAT-116/R-2 is now green
   item: FEAT-116
+- time: 2026-09-29T18:53:04.465271693Z
+  actor: Venkatraman B
+  message: test workflow_files_round_trip of FEAT-116/R-3 is now green
+  item: FEAT-116

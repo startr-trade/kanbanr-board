@@ -47,7 +47,7 @@ definition:
     tests:
     - name: workflow_files_round_trip
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:04.520141275Z
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.854576938Z
-updated_at: 2026-09-29T18:53:04.440886659Z
+updated_at: 2026-09-29T18:53:04.463873493Z

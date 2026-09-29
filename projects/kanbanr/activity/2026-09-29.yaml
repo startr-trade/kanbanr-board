@@ -919,3 +919,7 @@
   actor: Venkatraman B
   message: test closing_a_sprint_carries_unfinished_work of FEAT-119/R-1 is now green
   item: FEAT-119
+- time: 2026-09-29T19:19:17.581582924Z
+  actor: Venkatraman B
+  message: test burndown_is_derived_from_history of FEAT-119/R-2 is now green
+  item: FEAT-119

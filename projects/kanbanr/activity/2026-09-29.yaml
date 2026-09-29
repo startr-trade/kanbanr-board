@@ -617,3 +617,7 @@
   actor: Venkatraman B
   message: test gates_warn_and_move of FEAT-113/R-2 is now green
   item: FEAT-113
+- time: 2026-09-29T18:02:03.391839748Z
+  actor: Venkatraman B
+  message: test an_override_is_recorded_in_history of FEAT-113/R-3 is now green
+  item: FEAT-113

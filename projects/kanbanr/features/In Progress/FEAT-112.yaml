@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'readiness.rs: closed Check vocabulary, labels and messages, per-surface lists (CHECK, DOCTOR, FILE, CARD, query groups)'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: check/finish, doctor, check --file and query --gap routed through it; readiness routes; cross-surface and golden tests
     state: NotStarted
@@ -70,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.853494381Z
-updated_at: 2026-09-29T17:51:22.479311011Z
+updated_at: 2026-09-29T17:51:22.501378052Z

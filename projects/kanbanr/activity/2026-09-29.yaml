@@ -613,3 +613,7 @@
   actor: Venkatraman B
   message: test gates_block_and_list_what_is_missing of FEAT-113/R-1 is now green
   item: FEAT-113
+- time: 2026-09-29T18:02:03.368165466Z
+  actor: Venkatraman B
+  message: test gates_warn_and_move of FEAT-113/R-2 is now green
+  item: FEAT-113

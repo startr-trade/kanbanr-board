@@ -1,0 +1,43 @@
+code: FEAT-109
+title: 'Ratify from the Review page: work finished without agreement is listed with a Ratify button'
+status: Planned
+milestone: MS-006
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A Review page that lists work finished without agreement and ratifies it in one click, for the person who agrees to the work, so that after-the-fact agreement needs no terminal
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The review queue and the Review page
+    how: Include unreconciled bypasses in GET …/review as `unratified`; add a Ratify action posting to the existing route
+    where: api/crates/kanbanr-core/src/dispatch.rs, doctor.rs (shared predicate), web/src/pages/ReviewPage.tsx, web/src/api.ts
+    when: Whenever an item started unapproved has not been approved or ratified
+    who: The user who gives agreement
+    why: Ratifying was CLI-only and such items never appeared on the Review page, only in doctor
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE an item carries a recorded bypass and is neither approved nor ratified, THE SYSTEM SHALL list it in the review queue as unratified, whatever its status.
+    tests:
+    - name: the_review_queue_lists_work_finished_without_agreement
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the user clicks Ratify on a writable monitor, THE SYSTEM SHALL record the ratification as the board's commit identity and drop the item from the queue.
+    tests:
+    - name: 'manual: ratify an unratified item from the Review page and see doctor go quiet'
+      kind: manual
+      state: planned
+created_at: 2026-09-29T09:05:12.483092266Z
+updated_at: 2026-09-29T09:05:12.483098043Z

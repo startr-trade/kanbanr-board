@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: Lift the cap for .board-page via :has(); measured in headless Chromium
+    state: NotStarted
   created_at: 2026-09-29T07:36:41.952730891Z
 definition:
   statement: A board that uses the width of the window, for anyone viewing a workflow with more than four columns, so that the columns fit instead of scrolling inside empty margins
@@ -66,4 +69,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:33:33.11909372Z
-updated_at: 2026-09-29T07:36:41.952731857Z
+updated_at: 2026-09-29T07:36:41.971995956Z

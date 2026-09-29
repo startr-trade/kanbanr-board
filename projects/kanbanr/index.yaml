@@ -185,20 +185,6 @@
   - FEAT-120
   done: 0
   total: 0
-- code: FEAT-124
-  status: In Progress
-  milestone: MS-006
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002
@@ -230,6 +216,20 @@
 - code: FEAT-112
   status: In Progress
   milestone: MS-007
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-124
+  status: In Progress
+  milestone: MS-006
   kind: null
   priority: null
   start: null

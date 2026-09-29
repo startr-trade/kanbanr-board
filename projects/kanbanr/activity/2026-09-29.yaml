@@ -481,3 +481,7 @@
   actor: Venkatraman B
   message: move feature FEAT-124
   item: FEAT-124
+- time: 2026-09-29T17:42:21.897016798Z
+  actor: Venkatraman B
+  message: 'test manual: excluded messages never reach the model (condensed input checked) of FEAT-124/R-1 is now green'
+  item: FEAT-124

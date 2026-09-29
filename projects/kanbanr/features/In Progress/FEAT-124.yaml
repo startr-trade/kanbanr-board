@@ -31,7 +31,7 @@ definition:
     tests:
     - name: 'manual: excluded messages never reach the model (condensed input checked)'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a summary or a compaction summary is saved, THE SYSTEM SHALL remove every line containing a term from the exclusion list first.
@@ -45,4 +45,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:40:39.637741129Z
-updated_at: 2026-09-29T17:40:39.690451519Z
+updated_at: 2026-09-29T17:42:21.895337642Z

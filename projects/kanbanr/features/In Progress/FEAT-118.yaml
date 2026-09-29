@@ -22,7 +22,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: ADR-0010 accepted on the board with context, alternatives, consequences and compliance
-    state: NotStarted
+    state: Completed
   - key: T3
     text: katalog moved to the progressive togaf preset (schema 3) and its CLAUDE.md refreshed with stage purposes
     state: NotStarted
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.720942829Z
+updated_at: 2026-09-29T19:03:10.746430557Z

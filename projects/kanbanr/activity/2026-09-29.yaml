@@ -625,3 +625,7 @@
   actor: Venkatraman B
   message: test effective_gates_reproduce_the_legacy_gate of FEAT-113/R-4 is now green
   item: FEAT-113
+- time: 2026-09-29T18:02:03.437866626Z
+  actor: Venkatraman B
+  message: test unknown_gate_names_are_rejected of FEAT-113/R-5 is now green
+  item: FEAT-113

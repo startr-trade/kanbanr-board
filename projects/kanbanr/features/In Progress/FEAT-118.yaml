@@ -20,6 +20,9 @@ todo_lists:
   - key: T1
     text: Processes chapter (every check, preset and gate field, audited against readiness.rs and the preset files); the-method TOGAF section; skill stage-by-stage guidance; changelog
     state: NotStarted
+  - key: T2
+    text: ADR-0010 accepted on the board with context, alternatives, consequences and compliance
+    state: NotStarted
   created_at: 2026-09-29T19:03:10.618931852Z
 definition:
   statement: The method, docs and decision record for declarable processes, for anyone adopting or extending a process, so that the reasoning and usage are documented where people look
@@ -62,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.644448889Z
+updated_at: 2026-09-29T19:03:10.66954014Z

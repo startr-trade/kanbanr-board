@@ -54,7 +54,7 @@
   depends_on:
   - FEAT-119
   - FEAT-120
-  done: 1
+  done: 2
   total: 3
 - code: FEAT-125
   status: In Progress

@@ -1,6 +1,6 @@
 code: FEAT-114
 title: 'Sign-offs: named, content-pinned agreements a gate can require'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: null
 priority: null
@@ -21,7 +21,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: signoff_feature + route + CLI; gate signoffs evaluated and validated; feature show lists them; tests observed failing under sabotage
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T18:40:57.382619265Z
 definition:
   statement: Named sign-offs recorded against an item's definition, for the person who agrees a stage, so that conditions kanbanr cannot see still leave an auditable record a gate can require
@@ -70,5 +70,8 @@ history:
 - at: 2026-09-29T18:37:06.03396755Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T18:40:57.48020387Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T18:40:57.455963684Z
+updated_at: 2026-09-29T18:40:57.48020387Z

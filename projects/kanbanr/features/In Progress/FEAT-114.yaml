@@ -46,7 +46,7 @@ definition:
     tests:
     - name: a_signoff_needs_an_identity
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:35:54.593330173Z
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T18:40:57.334662772Z
+updated_at: 2026-09-29T18:40:57.36016631Z

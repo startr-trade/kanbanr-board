@@ -228,7 +228,7 @@
   done: 0
   total: 0
 - code: FEAT-124
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: null
   priority: null
@@ -239,7 +239,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
+  done: 1
   total: 1
 - code: FEAT-001
   status: Completed

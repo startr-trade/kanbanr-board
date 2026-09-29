@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-09-29T07:30:34.884064079Z
 definition:
   statement: A monitor hint that names the command that works, for anyone opening the monitor before it is running, so that they start the built-in monitor rather than hunting for a development build
   goals:
@@ -52,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T07:27:39.47385526Z
-updated_at: 2026-09-29T07:30:34.866308529Z
+updated_at: 2026-09-29T07:30:34.884065454Z

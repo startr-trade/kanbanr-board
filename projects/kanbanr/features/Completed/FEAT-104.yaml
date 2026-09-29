@@ -1,6 +1,6 @@
 code: FEAT-104
 title: 'Defect: `kanbanr open` tells you to serve with --ui-dir web/dist, though the monitor is built in'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Hint, skill and docs name plain kanbanr serve; test
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T07:30:34.884064079Z
 definition:
   statement: A monitor hint that names the command that works, for anyone opening the monitor before it is running, so that they start the built-in monitor rather than hunting for a development build
@@ -58,5 +58,8 @@ history:
 - at: 2026-09-29T07:29:57.523680093Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T07:30:34.923039557Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T07:27:39.47385526Z
-updated_at: 2026-09-29T07:30:34.902250701Z
+updated_at: 2026-09-29T07:30:34.923039557Z

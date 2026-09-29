@@ -1,6 +1,6 @@
 code: FEAT-116
 title: 'Presets as data: default, scheduled, togaf, pdca, design-control; import and export'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: null
 priority: null
@@ -22,7 +22,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: Tests updated for the new default; skill and changelog
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-29T18:53:04.486036454Z
 definition:
   statement: Workflow presets as editable data with their gates, for anyone starting a project or bringing their own process, so that a process is chosen or loaded rather than coded
@@ -71,5 +71,8 @@ history:
 - at: 2026-09-29T18:45:11.961128382Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T18:53:04.593316121Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T17:32:38.854576938Z
-updated_at: 2026-09-29T18:53:04.569425395Z
+updated_at: 2026-09-29T18:53:04.593316121Z

@@ -153,7 +153,7 @@
   done: 8
   total: 12
 - code: FEAT-116
-  status: In Progress
+  status: Completed
   milestone: MS-007
   kind: null
   priority: null
@@ -166,7 +166,7 @@
   depends_on:
   - FEAT-113
   - FEAT-114
-  done: 1
+  done: 2
   total: 2
 - code: FEAT-001
   status: Completed

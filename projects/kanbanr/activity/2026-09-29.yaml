@@ -37,3 +37,7 @@
   actor: Venkatraman B
   message: test open_hint_names_the_built_in_monitor of FEAT-104/R-1 is now green
   item: FEAT-104
+- time: 2026-09-29T07:30:34.867604877Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-104
+  item: FEAT-104

@@ -1,6 +1,6 @@
 code: FEAT-106
 title: 'Setup interview: fixes from its first real run (katalog)'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: null
 priority: null
@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: Next real setup run confirms the report names kanbanr serve / open (R-3)
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'From the setup-test run: plan the .gitignore (it was improvised) and keep the machine-generated .claude/settings.json out of the initial commit'
     state: Completed
@@ -72,5 +72,8 @@ history:
 - at: 2026-09-29T07:38:39.874874074Z
   from: Planned
   to: In Progress
+- at: 2026-09-29T09:29:29.667715273Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-09-29T09:29:29.647600914Z
+updated_at: 2026-09-29T09:29:29.667715273Z

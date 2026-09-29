@@ -61,5 +61,14 @@ definition:
     - name: unknown_gate_names_are_rejected
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-29T17:35:51.569066801Z
+    rev: cd19b8398e69ac5b
+  approvals:
+  - at: 2026-09-29T17:35:51.569066801Z
+    by: Venkatraman B
+    verdict: approved
+    rev: cd19b8398e69ac5b
 created_at: 2026-09-29T17:32:38.853503153Z
-updated_at: 2026-09-29T17:32:38.853856912Z
+updated_at: 2026-09-29T17:35:51.569066801Z

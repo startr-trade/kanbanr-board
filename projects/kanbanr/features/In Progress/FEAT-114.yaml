@@ -12,7 +12,11 @@ team: null
 labels: []
 depends_on:
 - FEAT-113
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-29T18:40:57.382619265Z
 definition:
   statement: Named sign-offs recorded against an item's definition, for the person who agrees a stage, so that conditions kanbanr cannot see still leave an auditable record a gate can require
   goals:
@@ -61,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T18:40:57.36016631Z
+updated_at: 2026-09-29T18:40:57.382620181Z

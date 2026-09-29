@@ -166,7 +166,7 @@
   depends_on:
   - FEAT-113
   - FEAT-114
-  done: 0
+  done: 1
   total: 2
 - code: FEAT-001
   status: Completed

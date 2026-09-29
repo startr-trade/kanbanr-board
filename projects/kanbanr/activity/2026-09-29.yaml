@@ -621,3 +621,7 @@
   actor: Venkatraman B
   message: test an_override_is_recorded_in_history of FEAT-113/R-3 is now green
   item: FEAT-113
+- time: 2026-09-29T18:02:03.41480127Z
+  actor: Venkatraman B
+  message: test effective_gates_reproduce_the_legacy_gate of FEAT-113/R-4 is now green
+  item: FEAT-113

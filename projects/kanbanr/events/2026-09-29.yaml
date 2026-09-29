@@ -191,3 +191,19 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-09-29T09:29:29.725160314Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-106
+  message: feature FEAT-106 completed Completed
+  detail:
+    status: Completed
+    terminal: true
+- time: 2026-09-29T09:29:29.733013658Z
+  project: kanbanr
+  kind: milestone_completed
+  feature: FEAT-106
+  message: milestone MS-006 is complete — write the retro while it is fresh
+  detail:
+    milestone: MS-006
+    items: 42

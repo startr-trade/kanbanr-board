@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Signoff model on the definition, excluded from content_rev; signoff_current; approval events record their status
-    state: NotStarted
+    state: Completed
   - key: T2
     text: signoff_feature + route + CLI; gate signoffs evaluated and validated; feature show lists them; tests observed failing under sabotage
     state: NotStarted
@@ -71,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T17:32:38.85391093Z
-updated_at: 2026-09-29T18:40:57.432133993Z
+updated_at: 2026-09-29T18:40:57.455963684Z

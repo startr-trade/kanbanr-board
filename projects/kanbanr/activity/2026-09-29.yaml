@@ -1058,3 +1058,7 @@
 - time: 2026-09-29T19:37:37.30979914Z
   actor: Venkatraman B
   message: 'Record FEAT-125: a gate without ''definition'' let undefined items through'
+- time: 2026-09-29T19:37:37.351394633Z
+  actor: Venkatraman B
+  message: move feature FEAT-125
+  item: FEAT-125

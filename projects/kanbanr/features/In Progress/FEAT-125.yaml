@@ -1,6 +1,6 @@
 code: FEAT-125
 title: 'Defect: a gate that does not name `definition` lets an item with no definition through'
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: defect
 priority: null
@@ -35,5 +35,11 @@ definition:
     - name: tests::scrum_refuses_work_outside_the_sprint
       kind: unit
       state: planned
+  started_unapproved: found and fixed during FEAT-123's browser check; a hole in an approved gate
+history:
+- at: 2026-09-29T19:37:37.348961444Z
+  from: Planned
+  to: In Progress
+  override: found and fixed during FEAT-123's browser check; a hole in an approved gate
 created_at: 2026-09-29T19:37:37.308288807Z
-updated_at: 2026-09-29T19:37:37.308464627Z
+updated_at: 2026-09-29T19:37:37.348961444Z

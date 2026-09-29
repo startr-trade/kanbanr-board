@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-09-29T09:32:59.033110035Z
 definition:
   statement: A CLI that exits quietly when its reader stops reading, for anyone piping kanbanr output into head or grep -m, so that a successful command never reports a panic
   goals:
@@ -56,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-29T09:29:46.040152394Z
-updated_at: 2026-09-29T09:32:59.012021558Z
+updated_at: 2026-09-29T09:32:59.03311091Z

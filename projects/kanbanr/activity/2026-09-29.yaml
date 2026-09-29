@@ -513,3 +513,7 @@
   actor: Venkatraman B
   message: test readiness_is_one_answer_across_surfaces of FEAT-112/R-1 is now green
   item: FEAT-112
+- time: 2026-09-29T17:51:22.392263417Z
+  actor: Venkatraman B
+  message: test readiness_golden_matches_legacy_reports of FEAT-112/R-2 is now green
+  item: FEAT-112

@@ -46,6 +46,16 @@ definition:
     - name: CI rust (windows-latest) builds and runs cargo test --workspace
       kind: manual
       state: red
+  approval:
+    by: Venkatraman B
+    at: 2026-09-30T17:30:42.960031903Z
+    rev: 43e2bef1ba3ae69c
+  approvals:
+  - at: 2026-09-30T17:30:42.960031903Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 43e2bef1ba3ae69c
+    status: Planned
 defect:
   severity: high
   introduced_by: FEAT-111
@@ -53,4 +63,4 @@ defect:
   root_cause: 'three: rust job tests a binary without web/dist; board_path_for compares a text-resolved path with a symlink-resolved root; libgit2-sys 0.17 does not link advapi32 under the current MSVC'
   escaped: true
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:29:55.875790784Z
+updated_at: 2026-09-30T17:30:42.960031903Z

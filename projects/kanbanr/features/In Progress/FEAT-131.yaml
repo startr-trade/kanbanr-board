@@ -45,7 +45,7 @@ definition:
     tests:
     - name: 'make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99'
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN make ci finishes, THE SYSTEM SHALL name each check it could not verify locally.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.697764735Z
+updated_at: 2026-09-30T18:29:26.721287406Z

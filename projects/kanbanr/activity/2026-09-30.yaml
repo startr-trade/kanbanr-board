@@ -497,3 +497,7 @@
   actor: Venkatraman B
   message: test editing a run block in a workflow changes what make ci executes, with no change to the harness of FEAT-131/R-2 is now green
   item: FEAT-131
+- time: 2026-09-30T18:29:26.723093725Z
+  actor: Venkatraman B
+  message: 'test make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99 of FEAT-131/R-3 is now green'
+  item: FEAT-131

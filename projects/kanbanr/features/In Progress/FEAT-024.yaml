@@ -107,7 +107,7 @@ definition:
     tests:
     - name: every crate under api/ except ears-classifier declares `publish = false`, release.yml publishes only ears-classifier, and no tracked doc tells anyone to `cargo install kanbanr` or to reserve or publish any other crate
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:02:42.23252678Z
@@ -119,4 +119,4 @@ definition:
     rev: 66de5da8ffa9ddd3
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:02:42.23252678Z
+updated_at: 2026-09-30T17:06:22.506658356Z

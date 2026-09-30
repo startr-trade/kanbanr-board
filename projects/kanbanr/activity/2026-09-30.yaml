@@ -251,3 +251,7 @@
 - time: 2026-09-30T17:05:20.01650918Z
   actor: Venkatraman B
   message: update document
+- time: 2026-09-30T17:06:22.508561773Z
+  actor: Venkatraman B
+  message: test every crate under api/ except ears-classifier declares `publish = false`, release.yml publishes only ears-classifier, and no tracked doc tells anyone to `cargo install kanbanr` or to reserve or publish any other crate of FEAT-024/R-5 is now green
+  item: FEAT-024

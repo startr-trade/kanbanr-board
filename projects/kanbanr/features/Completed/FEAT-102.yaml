@@ -16,7 +16,7 @@ todo_lists:
   description: restore the hooks
   tasks:
   - key: T1
-    text: Restore both scripts from c5b38a5^ and add the stub guard test (observed failing on the stubs)
+    text: Restore both scripts from 8f45608^ and add the stub guard test (observed failing on the stubs)
     state: Completed
   created_at: 2026-09-28T19:21:46.90459198Z
 definition:
@@ -64,7 +64,7 @@ defect:
   severity: high
   introduced_by: FEAT-065
   found_in: review during FEAT-101
-  root_cause: test-fixture stub scripts (exit 0) landed over the shipped scripts in c5b38a5, reachable because ~/.claude/skills/kanbanr is a symlink into the repo; nothing checked the shipped files' content
+  root_cause: test-fixture stub scripts (exit 0) landed over the shipped scripts in 8f45608, reachable because ~/.claude/skills/kanbanr is a symlink into the repo; nothing checked the shipped files' content
   escaped: true
   fixed_by: hooks::tests::shipped_scripts_are_not_stubs
 history:

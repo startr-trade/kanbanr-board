@@ -42,7 +42,7 @@ definition:
     - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
       kind: integration
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-2
     kind: functional
     text: IF the index cannot be read, THEN THE SYSTEM SHALL serve the last copy it read rather than an empty page.
@@ -50,7 +50,7 @@ definition:
     - name: a_rebuilt_ui_is_served_without_restarting_the_daemon
       kind: integration
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:43:48.900957543Z

@@ -42,7 +42,7 @@ definition:
     - name: tests::the_start_gate_fires_on_starting_work_and_not_on_parking
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-2
     kind: functional
     text: WHERE a status is not displayed on the board, THE SYSTEM SHALL let an item move there without an approval.
@@ -50,7 +50,7 @@ definition:
     - name: tests::the_start_gate_fires_on_starting_work_and_not_on_parking
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL keep the recorded escape available for beginning work without an agreed definition.
@@ -58,7 +58,7 @@ definition:
     - name: tests::the_start_gate_fires_on_starting_work_and_not_on_parking
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.559210909Z

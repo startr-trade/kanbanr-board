@@ -42,7 +42,7 @@ definition:
     - name: doctor::tests::an_answered_escape_stops_warning
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-2
     kind: functional
     text: IF an approved definition changes, THEN THE SYSTEM SHALL warn about the unapproved start again, because the agreement no longer covers what was built.
@@ -50,7 +50,7 @@ definition:
     - name: doctor::tests::an_answered_escape_stops_warning
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL keep the recorded reason on the item whether or not it is being warned about.
@@ -58,7 +58,7 @@ definition:
     - name: doctor::tests::an_answered_escape_stops_warning
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:37:14.628391043Z

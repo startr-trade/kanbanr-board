@@ -41,7 +41,7 @@ definition:
     - name: tests::auto_completion_records_the_move_like_any_other
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-2
     kind: functional
     text: WHEN a status is renamed, THE SYSTEM SHALL leave the items' histories unchanged.
@@ -49,7 +49,7 @@ definition:
     - name: tests::auto_completion_records_the_move_like_any_other
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:49.799972955Z

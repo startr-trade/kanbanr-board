@@ -58,11 +58,11 @@ definition:
     - name: claude::tests::the_block_is_replaced_and_the_rest_of_the_file_is_left_alone
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
     - name: cli_claude_sync_and_the_docs_guard
       kind: e2e
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-2
     kind: functional
     text: WHERE a project has no charter, THE SYSTEM SHALL say so rather than writing an empty block.
@@ -70,7 +70,7 @@ definition:
     - name: cli_claude_sync_and_the_docs_guard
       kind: e2e
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-3
     kind: functional
     text: WHEN a markdown file is about to be written into the project folder and the board is the system of record, THE SYSTEM SHALL deny it and name the board command that stores it instead.
@@ -78,11 +78,11 @@ definition:
     - name: tests::the_docs_guard_allows_deliverables_and_stops_the_rest
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
     - name: cli_claude_sync_and_the_docs_guard
       kind: e2e
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-4
     kind: functional
     text: WHERE a markdown file is part of what the repository ships, THE SYSTEM SHALL allow it.
@@ -90,7 +90,7 @@ definition:
     - name: tests::the_docs_guard_allows_deliverables_and_stops_the_rest
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   - id: R-5
     kind: nfr
     text: THE SYSTEM SHALL never block a write on the basis of prose it has to interpret.
@@ -105,7 +105,7 @@ definition:
     - name: tests::the_docs_guard_allows_deliverables_and_stops_the_rest
       kind: unit
       state: green
-      checked_rev: c025d5eba151
+      checked_rev: 82db7e446596
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:38.591573407Z

@@ -13,7 +13,7 @@ labels: []
 depends_on: []
 todo_lists:
 - code: TL-001
-  description: record the guardrails already merged in 4da3494
+  description: record the guardrails already merged in 27e62fa
   tasks:
   - key: T1
     text: 'tag job: v-prefixed semver, version equal to the workspace, pre-releases do not move latest'
@@ -65,7 +65,7 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: a1ef530c679aa2e1
-  started_unapproved: the code is already merged, in 4da3494 under FEAT-080's trailer; this item records it so it has a history of its own
+  started_unapproved: the code is already merged, in 27e62fa under FEAT-080's trailer; this item records it so it has a history of its own
 history:
 - at: 2026-09-28T18:07:24.550530799Z
   from: Planned

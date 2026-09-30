@@ -53,5 +53,15 @@ definition:
     - name: the summary lists the macOS and Windows legs, code-scanning uploads and publishing as not verified locally
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-30T18:06:38.139158656Z
+    rev: 95d308427c421600
+  approvals:
+  - at: 2026-09-30T18:06:38.139158656Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 95d308427c421600
+    status: Planned
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:03:40.886001383Z
+updated_at: 2026-09-30T18:06:38.139158656Z

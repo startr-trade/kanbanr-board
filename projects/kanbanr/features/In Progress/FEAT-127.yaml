@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: Normalize the path before the marker search (session/../other walked through the session's marker)
     state: NotStarted
+  - key: T3
+    text: Run the guard from a folder with no board
+    state: NotStarted
   created_at: 2026-09-30T16:13:42.363237508Z
 definition:
   statement: A commit guard that judges the repository a command actually commits in, for anyone working across more than one repository in a session, so that a correct commit elsewhere is not refused by the rules of the wrong repository
@@ -57,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T15:04:30.433980122Z
-updated_at: 2026-09-30T16:13:42.415021851Z
+updated_at: 2026-09-30T16:13:42.436460726Z

@@ -82,6 +82,7 @@
   depends_on:
   - FEAT-129
   - FEAT-131
+  - FEAT-132
   done: 0
   total: 0
 - code: FEAT-001

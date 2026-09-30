@@ -24,6 +24,9 @@ todo_lists:
   - key: T3
     text: 'kanbanr-core links advapi32 on Windows (not verifiable here: no MSVC; proven by the next CI run)'
     state: NotStarted
+  - key: T4
+    text: Changelog
+    state: NotStarted
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
   statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
@@ -80,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:33:09.527162415Z
+updated_at: 2026-09-30T17:33:09.558319064Z

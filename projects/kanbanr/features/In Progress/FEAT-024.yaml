@@ -71,7 +71,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'Open-sourcing guide, installation page, VS Code extension README and message: no cargo install kanbanr'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: ADR-0011 records the distribution decision
     state: NotStarted
@@ -141,4 +141,4 @@ definition:
     rev: 66de5da8ffa9ddd3
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:06:30.049517631Z
+updated_at: 2026-09-30T17:06:30.073496174Z

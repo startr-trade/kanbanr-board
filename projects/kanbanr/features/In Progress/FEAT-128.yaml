@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: No placeholder written; identity recorded before the first commit (ensure_repo_as)
+    state: NotStarted
   created_at: 2026-09-30T16:23:04.348875474Z
 definition:
   statement: Every board commit authored by the person doing the work, for anyone setting up or using a board, so that the board's history is a truthful record of who did what
@@ -86,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:23:04.348878981Z
+updated_at: 2026-09-30T16:23:04.371846666Z

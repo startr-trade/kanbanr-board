@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: 'New folder kanbanr-public: one commit on main by Venkatraman B <vb@startr.trade> (rebuilt once so CLAUDE.md is current); sweep clean'
     state: NotStarted
+  - key: T3
+    text: 'Working setup moved: marker, git hooks, Claude Code hooks, skill link, binary and monitor; 239 tests pass there'
+    state: NotStarted
   created_at: 2026-09-30T15:04:17.339255475Z
 definition:
   statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
@@ -73,4 +76,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.385318665Z
+updated_at: 2026-09-30T15:04:17.418282964Z

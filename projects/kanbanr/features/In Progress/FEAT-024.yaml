@@ -75,6 +75,9 @@ todo_lists:
   - key: T4
     text: ADR-0011 records the distribution decision
     state: NotStarted
+  - key: T5
+    text: .github/CODEOWNERS -> @startr-trade/kanbanr-maintainers; guide notes the Maintain role and branch-protection caveat
+    state: NotStarted
   created_at: 2026-09-30T17:06:22.530638042Z
 definition:
   statement: A repository someone else can clone, trust and contribute to, for whoever finds this project, so that publishing it is a decision rather than a scramble
@@ -135,4 +138,4 @@ definition:
     rev: 66de5da8ffa9ddd3
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:06:29.957786935Z
+updated_at: 2026-09-30T17:06:29.98017941Z

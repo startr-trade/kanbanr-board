@@ -32,7 +32,7 @@ todo_lists:
     state: Completed
   - key: T6
     text: The working repo (kanbanr) adopted the cleaned history on main; original history kept only as archive/kanbanr.original-history-2026-09-30.bundle; kanbanr-public and kanbanr-history deleted
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T15:04:17.339255475Z
 definition:
   statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
@@ -93,5 +93,8 @@ history:
 - at: 2026-09-30T15:54:12.399037413Z
   from: Completed
   to: Completed
+- at: 2026-09-30T16:07:20.273450065Z
+  from: Completed
+  to: Completed
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T16:07:20.250840754Z
+updated_at: 2026-09-30T16:07:20.273450065Z

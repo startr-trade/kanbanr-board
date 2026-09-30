@@ -1,6 +1,6 @@
 code: FEAT-129
 title: 'Defect: CI fails on main on Linux, macOS and Windows'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: bug
 priority: high
@@ -62,5 +62,9 @@ defect:
   found_in: CI (GitHub Actions)
   root_cause: 'three: rust job tests a binary without web/dist; board_path_for compares a text-resolved path with a symlink-resolved root; libgit2-sys 0.17 does not link advapi32 under the current MSVC'
   escaped: true
+history:
+- at: 2026-09-30T17:31:14.984068102Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:30:42.960031903Z
+updated_at: 2026-09-30T17:31:14.984068102Z

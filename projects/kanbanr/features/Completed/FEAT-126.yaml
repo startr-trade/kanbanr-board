@@ -1,6 +1,6 @@
 code: FEAT-126
 title: 'Publish from a fresh repository: one first commit as vb@startr.trade, history kept as a private archive'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: chore
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'Working setup moved: marker, git hooks, Claude Code hooks, skill link, binary and monitor; 239 tests pass there'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T15:04:17.339255475Z
 definition:
   statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
@@ -75,5 +75,8 @@ history:
   from: Planned
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
+- at: 2026-09-30T15:04:17.49038598Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.467105642Z
+updated_at: 2026-09-30T15:04:17.49038598Z

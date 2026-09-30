@@ -12,5 +12,38 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Dependencies with no known vulnerability or unsoundness in what kanbanr ships, for everyone who installs it, so that the first public release does not carry advisories its own CI now reports
+  goals:
+  - G-0
+  zachman:
+    what: rustls, anyhow and git2 in the binary; testcontainers in the tests; dompurify, mermaid and react-router in the monitor
+    how: Compatible lockfile updates where they fix it; git2 0.19 -> 0.21 and testcontainers to current, adapting the code; npm's compatible fixes for the monitor
+    where: api/Cargo.toml, crate manifests, api/Cargo.lock, git-using code in kanbanr-core/kanbanr-cli/kanbanr-server, web/package.json and package-lock.json
+    when: Before FEAT-130's gate lands, so it lands green
+    who: Anyone installing kanbanr
+    why: The first cargo audit and npm audit report two vulnerabilities and four unsound or unmaintained crates in the Rust tree, and three vulnerable libraries in the monitor
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN cargo audit runs over api/Cargo.lock, THE SYSTEM SHALL report no vulnerability and no unsound crate.
+    tests:
+    - name: cd api && cargo audit exits 0 with no vulnerability and no unsound warning
+      kind: manual
+      state: red
+  - id: R-2
+    kind: functional
+    text: WHEN npm audit runs over the monitor's production dependencies, THE SYSTEM SHALL report no vulnerability.
+    tests:
+    - name: cd web && npm audit --omit=dev reports 0 vulnerabilities
+      kind: manual
+      state: red
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL behave as before the upgrades.
+    tests:
+    - name: make ci passes after the upgrades
+      kind: manual
+      state: planned
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-09-30T18:32:59.773968954Z
+updated_at: 2026-09-30T18:32:59.80086926Z

@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'ci.yml rust job builds web/dist before build and test (reproduced: KANBANR_UI_DIST=/nonexistent fails the monitor test, with dist it passes)'
+    state: NotStarted
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
   statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
@@ -71,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:33:09.45459525Z
+updated_at: 2026-09-30T17:33:09.476735037Z

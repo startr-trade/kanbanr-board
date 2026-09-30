@@ -14,7 +14,11 @@ depends_on:
 - FEAT-129
 - FEAT-131
 - FEAT-132
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
   goals:
@@ -99,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:50:41.519109966Z
+updated_at: 2026-09-30T18:53:44.14566768Z

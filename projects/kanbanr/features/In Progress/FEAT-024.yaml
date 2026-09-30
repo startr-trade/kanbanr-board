@@ -65,7 +65,7 @@ todo_lists:
   tasks:
   - key: T1
     text: publish = false on kanbanr-cli, kanbanr-core, kanbanr-server (cargo refuses to publish them)
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'release.yml notes: ears-classifier is the only published crate; PUBLISH_CRATES guard described correctly'
     state: NotStarted
@@ -141,4 +141,4 @@ definition:
     rev: 66de5da8ffa9ddd3
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:06:30.003233105Z
+updated_at: 2026-09-30T17:06:30.026129956Z

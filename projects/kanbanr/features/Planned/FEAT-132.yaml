@@ -17,9 +17,9 @@ definition:
   goals:
   - G-0
   zachman:
-    what: rustls, anyhow and git2 in the binary; testcontainers in the tests; dompurify, mermaid and react-router in the monitor
+    what: rustls, anyhow and git2 in the binary; testcontainers in the tests; dompurify, mermaid and react-router in the monitor; the Docker image and the screenshot tool's lockfile
     how: Compatible lockfile updates where they fix it; git2 0.19 -> 0.21 and testcontainers to current, adapting the code; npm's compatible fixes for the monitor
-    where: api/Cargo.toml, crate manifests, api/Cargo.lock, git-using code in kanbanr-core/kanbanr-cli/kanbanr-server, web/package.json and package-lock.json
+    where: api/Cargo.toml, crate manifests, api/Cargo.lock, git-using code in kanbanr-core/kanbanr-cli/kanbanr-server, web/package.json and package-lock.json, docker/Dockerfile, tools/screenshots/Cargo.lock, .trivyignore.yaml
     when: Before FEAT-130's gate lands, so it lands green
     who: Anyone installing kanbanr
     why: The first cargo audit and npm audit report two vulnerabilities and four unsound or unmaintained crates in the Rust tree, and three vulnerable libraries in the monitor
@@ -40,10 +40,17 @@ definition:
       state: red
   - id: R-3
     kind: functional
+    text: WHEN Trivy scans the repository, THE SYSTEM SHALL report no vulnerability, secret or misconfiguration that is not recorded in .trivyignore.yaml with its reason and expiry.
+    tests:
+    - name: make scan-deps exits 0
+      kind: manual
+      state: red
+  - id: R-4
+    kind: functional
     text: THE SYSTEM SHALL behave as before the upgrades.
     tests:
     - name: make ci passes after the upgrades
       kind: manual
       state: planned
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-09-30T18:37:04.696222658Z
+updated_at: 2026-09-30T18:37:04.72187159Z

@@ -576,3 +576,7 @@
   actor: Venkatraman B
   message: test the suppression check refuses a .trivyignore.yaml entry missing statement or expired_at, and accepts a complete one of FEAT-130/R-5 is now green
   item: FEAT-130
+- time: 2026-09-30T18:50:41.437448072Z
+  actor: Venkatraman B
+  message: 'test the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4` of FEAT-130/R-6 is now green'
+  item: FEAT-130

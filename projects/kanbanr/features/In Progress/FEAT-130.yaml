@@ -69,7 +69,7 @@ definition:
     tests:
     - name: 'the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4`'
       kind: manual
-      state: planned
+      state: green
   - id: R-7
     kind: functional
     text: WHILE the repository is private, THE SYSTEM SHALL skip code-scanning uploads rather than fail the run.
@@ -99,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:50:41.402291884Z
+updated_at: 2026-09-30T18:50:41.43475421Z

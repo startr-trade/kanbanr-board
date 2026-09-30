@@ -1,0 +1,50 @@
+code: FEAT-126
+title: 'Publish from a fresh repository: one first commit as vb@startr.trade, history kept as a private archive'
+status: Planned
+milestone: MS-004
+kind: chore
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
+  goals:
+  - G-0
+  - G-6
+  zachman:
+    what: The published code repository and its history
+    how: Fix tracked local details, export the tracked tree to a new folder, initialise it on main with one commit as vb@startr.trade, and move the working setup there
+    where: This repository (fixes), ../kanbanr-public (new repository), the skill link and hooks
+    when: Before the repository is made public
+    who: The maintainer, and anyone reading the public repository
+    why: Every existing commit carries a work email, and a few tracked files carry local details
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the public repository is created, THE SYSTEM SHALL contain exactly one commit, authored and committed as Venkatraman B <vb@startr.trade>.
+    tests:
+    - name: 'manual: git log in kanbanr-public shows one commit by vb@startr.trade'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL contain no work email, home-directory path, local board name or sibling-project name in the public repository's tracked files.
+    tests:
+    - name: 'manual: identifier sweep over kanbanr-public is empty'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN work continues in the new folder, THE SYSTEM SHALL build, pass its tests, find the same board, and run the same hooks and skill.
+    tests:
+    - name: 'manual: build, tests, board, hooks status and skill link from kanbanr-public'
+      kind: manual
+      state: planned
+created_at: 2026-09-30T14:57:29.145971474Z
+updated_at: 2026-09-30T14:57:29.145983207Z

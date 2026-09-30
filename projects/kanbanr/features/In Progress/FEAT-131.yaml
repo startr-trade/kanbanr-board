@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'scripts/ci_local.py + ci-local.sh + make ci: fresh tracked-tree copy at ~/.cache/kanbanr-ci/tree, per-job reset, run blocks read from the workflows, every run step classified, actionlint, action refs, docker build, pinned mdbook versions, not-verified summary'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'ci.yml: shellcheck install split from the check; release.yml: tag check named'
     state: NotStarted
@@ -87,4 +87,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.905286435Z
+updated_at: 2026-09-30T18:29:26.931526427Z

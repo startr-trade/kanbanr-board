@@ -572,3 +572,7 @@
   actor: Venkatraman B
   message: define feature FEAT-132
   item: FEAT-132
+- time: 2026-09-30T18:50:41.40434854Z
+  actor: Venkatraman B
+  message: test the suppression check refuses a .trivyignore.yaml entry missing statement or expired_at, and accepts a complete one of FEAT-130/R-5 is now green
+  item: FEAT-130

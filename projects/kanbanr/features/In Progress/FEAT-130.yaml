@@ -62,7 +62,7 @@ definition:
     tests:
     - name: the suppression check refuses a .trivyignore.yaml entry missing statement or expired_at, and accepts a complete one
       kind: manual
-      state: planned
+      state: green
   - id: R-6
     kind: functional
     text: IF a workflow uses a third-party action by anything but a full commit SHA, THEN THE SYSTEM SHALL fail the CI run.
@@ -99,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:32:59.840746933Z
+updated_at: 2026-09-30T18:50:41.402291884Z

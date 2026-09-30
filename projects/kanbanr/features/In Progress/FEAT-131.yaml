@@ -1,6 +1,6 @@
 code: FEAT-131
 title: 'make ci: run every workflow check locally before a push'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: chore
 priority: high
@@ -63,5 +63,9 @@ definition:
     verdict: approved
     rev: 95d308427c421600
     status: Planned
+history:
+- at: 2026-09-30T18:07:06.29299571Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:06:38.139158656Z
+updated_at: 2026-09-30T18:07:06.29299571Z

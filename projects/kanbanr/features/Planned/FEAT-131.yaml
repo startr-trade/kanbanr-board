@@ -12,5 +12,46 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: One local command that runs every CI check that can run off GitHub, for the maintainer before each push, so that a public CI run fails only for a reason no local run could have shown
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: The checks in ci.yml, docs.yml and release.yml, plus actionlint and action-reference resolution
+    how: 'scripts/ci-local.sh behind make ci: a clean copy of the tracked tree at a fixed cache path, each workflow''s own run: blocks where they are scripts, pinned container images for missing tools, and a closing list of what was not verified'
+    where: scripts/ci-local.sh, Makefile, CONTRIBUTING.md
+    when: Before every push; after any workflow change
+    who: The maintainer, and Claude before saying anything is ready to push
+    why: Six CI failures in the first hour on GitHub all passed locally, and the repository is about to be public
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN make ci runs, THE SYSTEM SHALL run every check of ci.yml, docs.yml and release.yml that needs no GitHub runner, in a clean copy of the tracked tree.
+    tests:
+    - name: make ci on a clean main passes; each of a broken format, a stale changelog mirror, an unknown runner label and a failing test makes it fail
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a workflow step is a script, THE SYSTEM SHALL run the step's run block from the workflow file itself.
+    tests:
+    - name: editing a run block in a workflow changes what make ci executes, with no change to the harness
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN make ci runs, THE SYSTEM SHALL lint every workflow with actionlint and resolve every action reference upstream.
+    tests:
+    - name: 'make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99'
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN make ci finishes, THE SYSTEM SHALL name each check it could not verify locally.
+    tests:
+    - name: the summary lists the macOS and Windows legs, code-scanning uploads and publishing as not verified locally
+      kind: manual
+      state: planned
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:03:40.860093662Z
+updated_at: 2026-09-30T18:03:40.886001383Z

@@ -35,7 +35,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 'release.yml: macos-13 runner is retired (a job naming a missing label waits forever) -> macos-15-intel; shellcheck SC2001 fixed; found by actionlint'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
   statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
@@ -92,4 +92,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:59:11.331499127Z
+updated_at: 2026-09-30T17:59:11.36019157Z

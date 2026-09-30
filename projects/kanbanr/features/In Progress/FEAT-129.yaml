@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 'board_path_for resolves the existing path and the root on disk before comparing; unit test with a symlinked folder (sabotage: fails without the fix)'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'kanbanr-core links advapi32 on Windows (not verifiable here: no MSVC; proven by the next CI run)'
     state: NotStarted
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:33:09.5843716Z
+updated_at: 2026-09-30T17:33:09.608741216Z

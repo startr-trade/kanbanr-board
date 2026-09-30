@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: Resolve repo identity, else the user's git identity; the placeholder counts as none
     state: NotStarted
+  - key: T3
+    text: Refuse writes before any file changes when nobody can author them (CLI, daemon, doc assets, index)
+    state: NotStarted
   created_at: 2026-09-30T16:23:04.348875474Z
 definition:
   statement: Every board commit authored by the person doing the work, for anyone setting up or using a board, so that the board's history is a truthful record of who did what
@@ -92,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:23:04.393694967Z
+updated_at: 2026-09-30T16:23:04.41629661Z

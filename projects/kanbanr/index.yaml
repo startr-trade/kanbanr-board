@@ -12,10 +12,10 @@
   depends_on: []
   done: 0
   total: 0
-- code: FEAT-130
-  status: In Progress
+- code: FEAT-132
+  status: Planned
   milestone: MS-002
-  kind: chore
+  kind: bug
   priority: high
   start: null
   due: null
@@ -23,9 +23,7 @@
   assignee: null
   team: null
   labels: []
-  depends_on:
-  - FEAT-129
-  - FEAT-131
+  depends_on: []
   done: 0
   total: 0
 - code: FEAT-014
@@ -70,6 +68,22 @@
   depends_on: []
   done: 6
   total: 7
+- code: FEAT-130
+  status: In Progress
+  milestone: MS-002
+  kind: chore
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on:
+  - FEAT-129
+  - FEAT-131
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

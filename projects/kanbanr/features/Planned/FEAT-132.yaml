@@ -1,0 +1,16 @@
+code: FEAT-132
+title: 'Defect: dependency advisories in the binary, the monitor and the tests'
+status: Planned
+milestone: MS-002
+kind: bug
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-30T18:32:59.759739235Z
+updated_at: 2026-09-30T18:32:59.773968954Z

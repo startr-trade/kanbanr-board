@@ -1,3 +1,11 @@
+- id: L-30
+  lesson: Untracking a file that other branches still track deletes it from the working tree on the next checkout or merge — back up local-only files (like a board marker) before git rm --cached
+  kind: pitfall
+  at: 2026-09-30T15:04:17.517817587Z
+  from_item: FEAT-126
+  confidence: 0.6
+  last_affirmed: 2026-09-30T15:04:17.517817587Z
+  status: candidate
 - id: L-29
   lesson: Test a gate with the empty case — an item with no definition — not only a partially filled one; an early return for 'nothing here' can pass a gate that never names the thing that is missing
   kind: pitfall

@@ -13,5 +13,74 @@ labels: []
 depends_on:
 - FEAT-129
 todo_lists: []
+definition:
+  statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: CodeQL, Trivy, cargo-deny, cargo-audit and npm audit in CI; image scan before a release push; time-boxed suppressions; pinned actions; one CI run per change
+    how: New codeql.yml and trivy.yml workflows, a supply-chain job and trigger changes in ci.yml, a scan step in release.yml, deny.toml and .trivyignore.yaml, make targets over one local script
+    where: .github/workflows/, api/deny.toml, .trivyignore.yaml, codeql-config.yml, scripts/security-scan.sh, Makefile, docs/src/project/open-sourcing.md
+    when: On push to main, on pull requests to main, weekly, and on every release tag
+    who: The maintainer triaging findings; users installing releases
+    why: With Dependabot updates removed, nothing surfaces dependency risk; nothing checks licences, secrets or the release image; and CI runs twice per pull-request branch
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN code is pushed to main, a pull request targets main, or the weekly schedule fires, THE SYSTEM SHALL analyse the Rust, JavaScript/TypeScript and workflow code with CodeQL.
+    tests:
+    - name: codeql.yml analyses rust, javascript-typescript and actions on those triggers (actionlint clean; first run on GitHub green)
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN code is pushed to main, a pull request targets main, or the weekly schedule fires, THE SYSTEM SHALL scan the repository's dependencies, committed secrets and Dockerfile with Trivy at every severity.
+    tests:
+    - name: make scan-deps reports a planted fake secret and a known-vulnerable lockfile entry, and is clean without them
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a dependency has a known vulnerability or a licence outside the allowlist, THEN THE SYSTEM SHALL fail the CI run.
+    tests:
+    - name: make audit fails with a crate whose licence is not allowed or that has a RustSec advisory, and passes on the tree as it is
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF the release image has a HIGH or CRITICAL finding with a fix available, THEN THE SYSTEM SHALL not push it.
+    tests:
+    - name: release.yml scans the built image before the push step and the push depends on it (actionlint clean)
+      kind: manual
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a scanner finding is suppressed without a written reason and an expiry date, THEN THE SYSTEM SHALL fail the CI run.
+    tests:
+    - name: the suppression check refuses a .trivyignore.yaml entry missing statement or expired_at, and accepts a complete one
+      kind: manual
+      state: planned
+  - id: R-6
+    kind: functional
+    text: IF a workflow uses a third-party action by anything but a full commit SHA, THEN THE SYSTEM SHALL fail the CI run.
+    tests:
+    - name: 'the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4`'
+      kind: manual
+      state: planned
+  - id: R-7
+    kind: functional
+    text: WHILE the repository is private, THE SYSTEM SHALL skip code-scanning uploads rather than fail the run.
+    tests:
+    - name: upload steps and the CodeQL job are conditioned on the repository being public (actionlint clean)
+      kind: manual
+      state: planned
+  - id: R-8
+    kind: functional
+    text: 'THE SYSTEM SHALL run CI once per change: on push to main and on pull requests, cancelling superseded runs.'
+    tests:
+    - name: ci.yml triggers on push to main and pull_request only, with a concurrency group that cancels in progress
+      kind: manual
+      state: planned
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T17:30:22.734466717Z
+updated_at: 2026-09-30T17:30:28.554311524Z

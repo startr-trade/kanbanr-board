@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: No placeholder written; identity recorded before the first commit (ensure_repo_as)
-    state: NotStarted
+    state: Completed
   - key: T2
     text: Resolve repo identity, else the user's git identity; the placeholder counts as none
     state: NotStarted
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:23:04.484519424Z
+updated_at: 2026-09-30T16:23:04.506753109Z

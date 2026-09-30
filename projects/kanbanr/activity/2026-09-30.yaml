@@ -400,3 +400,7 @@
   actor: Venkatraman B
   message: test the_monitor_is_served_from_the_binary_with_no_ui_dir of FEAT-129/R-1 is now green
   item: FEAT-129
+- time: 2026-09-30T17:33:09.432994431Z
+  actor: Venkatraman B
+  message: test tests::the_docs_guard_follows_a_symlinked_folder of FEAT-129/R-2 is now green
+  item: FEAT-129

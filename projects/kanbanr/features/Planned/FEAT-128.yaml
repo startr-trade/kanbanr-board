@@ -12,5 +12,54 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Every board commit authored by the person doing the work, for anyone setting up or using a board, so that the board's history is a truthful record of who did what
+  goals:
+  - G-2
+  - G-4
+  - G-0
+  zachman:
+    what: The commit identity of every commit kanbanr makes in a data repository, the first one included
+    how: Settle the identity before the first commit (flags, then the user's git config); never write or fall back to a placeholder; refuse to commit when none is known
+    where: kanbanr-core git.rs (ensure_repo, fallback_signature, commit_local, merge), kanbanr-cli main.rs (run_init, run_identity), doctor.rs
+    when: When a data repository is created, and on every commit after that
+    who: Anyone setting up a board, and anyone reading its history
+    why: The first commit of every new board, and every commit of a board set up without --author/--email, was authored kanbanr <kanbanr@local>
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a data repository is created, THE SYSTEM SHALL author its first commit with the user's identity.
+    tests:
+    - name: git::tests::the_first_commit_carries_the_users_identity
+      kind: unit
+      state: red
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL NOT write a placeholder identity into a data repository's git config.
+    tests:
+    - name: git::tests::a_new_repository_gets_no_placeholder_identity
+      kind: unit
+      state: red
+  - id: R-3
+    kind: functional
+    text: IF no identity is known for a data repository, THE SYSTEM SHALL refuse to commit and name the command that sets one.
+    tests:
+    - name: git::tests::no_identity_refuses_to_commit
+      kind: unit
+      state: red
+  - id: R-4
+    kind: functional
+    text: WHEN kanbanr init is given --author and --email, THE SYSTEM SHALL set that identity before the first commit.
+    tests:
+    - name: tests::init_sets_the_identity_before_the_first_commit
+      kind: unit
+      state: red
+  - id: R-5
+    kind: functional
+    text: WHILE a data repository's config holds the placeholder identity kanbanr <kanbanr@local>, THE SYSTEM SHALL treat it as no identity, and doctor SHALL report it with the fix.
+    tests:
+    - name: doctor::tests::a_placeholder_identity_is_reported
+      kind: unit
+      state: red
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:01:26.365029952Z
+updated_at: 2026-09-30T16:01:32.810099149Z

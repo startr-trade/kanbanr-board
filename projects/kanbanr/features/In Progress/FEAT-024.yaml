@@ -92,7 +92,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: Remove .github/dependabot.yml (18 PRs on first push; user chose no version updates, like another project); guide + changelog
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T17:06:22.530638042Z
 definition:
   statement: A repository someone else can clone, trust and contribute to, for whoever finds this project, so that publishing it is a decision rather than a scramble
@@ -167,4 +167,4 @@ definition:
     rev: ddfa2780e72c77de
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:23:41.165988577Z
+updated_at: 2026-09-30T17:23:41.19385811Z

@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: 'Docs job: the mirrored changelog chapter was stale (edited by hand and behind CHANGELOG.md); regenerated with tools/docs/sync.sh, the crates.io paragraph fixed at the source, and make check-docs now runs the same sync check'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
   statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
@@ -86,4 +86,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:47:48.674011887Z
+updated_at: 2026-09-30T17:47:48.714695539Z

@@ -1,0 +1,17 @@
+code: FEAT-130
+title: 'CI: security scanning (CodeQL, Trivy, cargo-deny/audit) and one run per change'
+status: Planned
+milestone: MS-002
+kind: chore
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-129
+todo_lists: []
+created_at: 2026-09-30T17:30:22.721509412Z
+updated_at: 2026-09-30T17:30:22.734466717Z

@@ -54,8 +54,8 @@ definition:
     tests:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
     - name: scm::tests::references_are_read_at_whatever_level_the_author_wrote
       kind: unit
       state: green
@@ -70,8 +70,8 @@ definition:
       checked_rev: 82db7e446596
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
   - id: R-3
     kind: functional
     text: WHEN git writes a commit on the author's behalf, THE SYSTEM SHALL let it through without a reference.
@@ -86,8 +86,8 @@ definition:
     tests:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
   - id: R-5
     kind: functional
     text: WHEN `kanbanr start` is run for an item, THE SYSTEM SHALL create or switch to that item's branch from the default branch and move the item into an active status.
@@ -98,16 +98,16 @@ definition:
       checked_rev: 82db7e446596
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
   - id: R-6
     kind: functional
     text: WHERE a branch is a spike, THE SYSTEM SHALL allow commits on it and refuse to finish it.
     tests:
     - name: cli_git_guardrails_in_a_scratch_repo
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
   - id: R-7
     kind: functional
     text: WHEN a Bash command is about to run a git commit that would be rejected, THE SYSTEM SHALL deny it beforehand and state the reference to use.
@@ -156,4 +156,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-24T18:45:46.410870932Z
-updated_at: 2026-09-28T11:30:41.715624297Z
+updated_at: 2026-09-30T17:55:47.492854959Z

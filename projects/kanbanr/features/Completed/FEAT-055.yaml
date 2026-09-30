@@ -86,8 +86,8 @@ definition:
       checked_rev: 82db7e446596
     - name: cli_lessons_are_captured_matched_and_can_be_contradicted
       kind: e2e
-      state: green
-      checked_rev: 82db7e446596
+      state: red
+      checked_rev: 22102589b4f9
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:32.344879568Z
@@ -101,4 +101,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410784426Z
-updated_at: 2026-09-28T11:30:41.715579856Z
+updated_at: 2026-09-30T17:55:47.492833001Z

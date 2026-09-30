@@ -41,7 +41,7 @@
   done: 8
   total: 12
 - code: FEAT-128
-  status: In Progress
+  status: Completed
   milestone: MS-006
   kind: bug
   priority: high
@@ -52,7 +52,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 5
+  done: 6
   total: 6
 - code: FEAT-001
   status: Completed

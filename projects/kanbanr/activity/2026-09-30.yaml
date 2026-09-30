@@ -489,3 +489,7 @@
   actor: Venkatraman B
   message: move feature FEAT-131
   item: FEAT-131
+- time: 2026-09-30T18:29:26.674241387Z
+  actor: Venkatraman B
+  message: test make ci on a clean main passes; each of a broken format, a stale changelog mirror, an unknown runner label and a failing test makes it fail of FEAT-131/R-1 is now green
+  item: FEAT-131

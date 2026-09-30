@@ -32,5 +32,15 @@ definition:
     - name: tests::the_guard_judges_the_repository_the_command_commits_in
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-09-30T15:50:28.323065019Z
+    rev: b4927942c03983e5
+  approvals:
+  - at: 2026-09-30T15:50:28.323065019Z
+    by: Venkatraman B
+    verdict: approved
+    rev: b4927942c03983e5
+    status: Planned
 created_at: 2026-09-30T15:04:30.433980122Z
-updated_at: 2026-09-30T15:04:30.433990805Z
+updated_at: 2026-09-30T15:50:28.323065019Z

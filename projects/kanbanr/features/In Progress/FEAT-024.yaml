@@ -84,6 +84,9 @@ todo_lists:
   - key: T7
     text: 'release.yml: refuse a tag whose commit is not on main (probe: unmerged refused, merged passes; sabotaged guard passes the unmerged one)'
     state: NotStarted
+  - key: T8
+    text: 'docs.yml: deploy only from main; drop master'
+    state: NotStarted
   created_at: 2026-09-30T17:06:22.530638042Z
 definition:
   statement: A repository someone else can clone, trust and contribute to, for whoever finds this project, so that publishing it is a decision rather than a scramble
@@ -158,4 +161,4 @@ definition:
     rev: ddfa2780e72c77de
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:17:16.957011641Z
+updated_at: 2026-09-30T17:17:16.979731323Z

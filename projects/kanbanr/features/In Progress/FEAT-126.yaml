@@ -1,6 +1,6 @@
 code: FEAT-126
 title: 'Publish from a fresh repository: one first commit as vb@startr.trade, history kept as a private archive'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: chore
 priority: null
@@ -46,5 +46,11 @@ definition:
     - name: 'manual: build, tests, board, hooks status and skill link from kanbanr-public'
       kind: manual
       state: planned
+  started_unapproved: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
+history:
+- at: 2026-09-30T14:57:29.2101197Z
+  from: Planned
+  to: In Progress
+  override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T14:57:29.145983207Z
+updated_at: 2026-09-30T14:57:29.2101197Z

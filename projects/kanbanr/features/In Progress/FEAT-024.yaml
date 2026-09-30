@@ -109,8 +109,14 @@ definition:
       kind: manual
       state: planned
   approval:
-    by: reviewed in the monitor
-    at: 2026-09-28T08:20:48.818504149Z
-    rev: b5655140db59bc6d
+    by: Venkatraman B
+    at: 2026-09-30T17:02:42.23252678Z
+    rev: 66de5da8ffa9ddd3
+  approvals:
+  - at: 2026-09-30T17:02:42.23252678Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 66de5da8ffa9ddd3
+    status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:00:13.842035601Z
+updated_at: 2026-09-30T17:02:42.23252678Z

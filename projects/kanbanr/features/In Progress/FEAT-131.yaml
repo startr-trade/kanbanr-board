@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 'Per-job reset: a docs sync step had made the release build report -dirty'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: Docs (contributing) + changelog
     state: NotStarted
@@ -87,4 +87,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.982816483Z
+updated_at: 2026-09-30T18:29:27.009550075Z

@@ -1,0 +1,16 @@
+code: FEAT-129
+title: 'Defect: CI fails on main on Linux, macOS and Windows'
+status: Planned
+milestone: MS-002
+kind: bug
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-30T17:29:55.798312698Z
+updated_at: 2026-09-30T17:29:55.811260958Z

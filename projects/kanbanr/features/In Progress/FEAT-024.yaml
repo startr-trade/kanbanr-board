@@ -77,7 +77,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: .github/CODEOWNERS -> @startr-trade/kanbanr-maintainers; guide notes the Maintain role and branch-protection caveat
-    state: NotStarted
+    state: Completed
   - key: T6
     text: Changelog entries
     state: NotStarted
@@ -141,4 +141,4 @@ definition:
     rev: 66de5da8ffa9ddd3
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:06:30.097858176Z
+updated_at: 2026-09-30T17:06:30.120092667Z

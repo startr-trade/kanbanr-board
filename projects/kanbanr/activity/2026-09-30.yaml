@@ -59,3 +59,6 @@
 - time: 2026-09-30T15:04:30.436091249Z
   actor: Venkatraman B
   message: 'Record FEAT-127: the commit guard judges the session''s repository, not the one the command cds into'
+- time: 2026-09-30T15:07:41.041941633Z
+  actor: Venkatraman B
+  message: update document

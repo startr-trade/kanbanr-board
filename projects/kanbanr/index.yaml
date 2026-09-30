@@ -38,7 +38,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 15
+  done: 14
   total: 18
 - code: FEAT-001
   status: Completed

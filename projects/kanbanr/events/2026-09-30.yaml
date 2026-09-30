@@ -6,3 +6,12 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-09-30T14:57:51.790249385Z
+  project: kanbanr
+  kind: approval_recorded
+  feature: FEAT-126
+  message: Venkatraman B approved FEAT-126
+  detail:
+    by: Venkatraman B
+    reason: ''
+    status: In Progress

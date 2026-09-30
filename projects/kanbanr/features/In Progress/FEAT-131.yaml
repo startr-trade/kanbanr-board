@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: build
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'scripts/ci_local.py + ci-local.sh + make ci: fresh tracked-tree copy at ~/.cache/kanbanr-ci/tree, per-job reset, run blocks read from the workflows, every run step classified, actionlint, action refs, docker build, pinned mdbook versions, not-verified summary'
+    state: NotStarted
   created_at: 2026-09-30T18:29:26.772681982Z
 definition:
   statement: One local command that runs every CI check that can run off GitHub, for the maintainer before each push, so that a public CI run fails only for a reason no local run could have shown
@@ -72,4 +75,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.772684333Z
+updated_at: 2026-09-30T18:29:26.797427935Z

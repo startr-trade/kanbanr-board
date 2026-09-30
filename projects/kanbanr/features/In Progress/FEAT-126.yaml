@@ -38,7 +38,7 @@ definition:
     tests:
     - name: 'manual: identifier sweep over kanbanr-public is empty'
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN work continues in the new folder, THE SYSTEM SHALL build, pass its tests, find the same board, and run the same hooks and skill.
@@ -63,4 +63,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.27120097Z
+updated_at: 2026-09-30T15:04:17.294135607Z

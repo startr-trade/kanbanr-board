@@ -584,3 +584,7 @@
   actor: Venkatraman B
   message: test upload steps and the CodeQL job are conditioned on the repository being public (actionlint clean) of FEAT-130/R-7 is now green
   item: FEAT-130
+- time: 2026-09-30T18:50:41.492509534Z
+  actor: Venkatraman B
+  message: test ci.yml triggers on push to main and pull_request only, with a concurrency group that cancels in progress of FEAT-130/R-8 is now green
+  item: FEAT-130

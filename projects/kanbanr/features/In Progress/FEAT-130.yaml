@@ -83,7 +83,7 @@ definition:
     tests:
     - name: ci.yml triggers on push to main and pull_request only, with a concurrency group that cancels in progress
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:30:47.399749279Z
@@ -99,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:50:41.46462428Z
+updated_at: 2026-09-30T18:50:41.490693378Z

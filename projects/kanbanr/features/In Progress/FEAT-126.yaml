@@ -31,7 +31,7 @@ definition:
     tests:
     - name: 'manual: git log in kanbanr-public shows one commit by vb@startr.trade'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL contain no work email, home-directory path, local board name or sibling-project name in the public repository's tracked files.
@@ -63,4 +63,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T14:57:51.788092152Z
+updated_at: 2026-09-30T15:04:17.27120097Z

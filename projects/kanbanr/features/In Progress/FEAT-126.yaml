@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'In the archive: untrack .kanbanr, generic test path, startr-trade owner in the plugin, sibling-project names removed from comments'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'New folder kanbanr-public: one commit on main by Venkatraman B <vb@startr.trade> (rebuilt once so CLAUDE.md is current); sweep clean'
     state: NotStarted
@@ -76,4 +76,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.418282964Z
+updated_at: 2026-09-30T15:04:17.442974382Z

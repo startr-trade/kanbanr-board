@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 'release.yml: image scanned before the push'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: api/deny.toml, .trivyignore.yaml, scripts/security-scan.sh, make audit/scan-deps/scan-image/codeql, make ci covers the new jobs
     state: NotStarted
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:53:44.406056126Z
+updated_at: 2026-09-30T18:53:44.429764729Z

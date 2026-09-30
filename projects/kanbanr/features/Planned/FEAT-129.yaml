@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: 'The three failures of the first CI run: an untested embedded monitor, a symlinked temp path in the docs guard, and a missing Windows system library'
+    how: Build web/dist in the rust job; resolve the existing part of a path on disk before comparing it with the repository root; link advapi32 wherever libgit2 is linked on Windows
+    where: .github/workflows/ci.yml, kanbanr-cli main.rs (board_path_for), kanbanr-core (link directive)
+    when: On every CI run
+    who: The maintainer reading CI before publishing; contributors on any OS
+    why: The first push to GitHub turned CI red on all three platforms while every test passed locally
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN CI runs the Rust tests, THE SYSTEM SHALL test a binary that embeds the monitor.
+    tests:
+    - name: the_monitor_is_served_from_the_binary_with_no_ui_dir
+      kind: integration
+      state: red
+  - id: R-2
+    kind: functional
+    text: WHERE a file is reached through a symlinked folder, THE SYSTEM SHALL judge it by the same repository-relative path as its resolved location.
+    tests:
+    - name: tests::the_docs_guard_follows_a_symlinked_folder
+      kind: unit
+      state: red
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL build and link its binaries and tests on Windows with the MSVC toolchain.
+    tests:
+    - name: CI rust (windows-latest) builds and runs cargo test --workspace
+      kind: manual
+      state: red
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:29:55.811260958Z
+updated_at: 2026-09-30T17:29:55.834671974Z

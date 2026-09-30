@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 'New folder kanbanr-public: one commit on main by Venkatraman B <vb@startr.trade> (rebuilt once so CLAUDE.md is current); sweep clean'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'Working setup moved: marker, git hooks, Claude Code hooks, skill link, binary and monitor; 239 tests pass there'
     state: NotStarted
@@ -76,4 +76,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.442974382Z
+updated_at: 2026-09-30T15:04:17.467105642Z

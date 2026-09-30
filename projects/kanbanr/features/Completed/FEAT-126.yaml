@@ -27,6 +27,9 @@ todo_lists:
   - key: T4
     text: Board folder renamed to kanbanr-board (backup in archive/), markers repointed, board commit identity set to vb@startr.trade; rewriting past board commits is left to the user
     state: Completed
+  - key: T5
+    text: Code history rewritten for publishing (identity vb@startr.trade, local paths, private mentions, Claude co-author trailers removed); kanbanr-public main now carries the 188-commit history with an identical tree; board commit ids remapped
+    state: NotStarted
   created_at: 2026-09-30T15:04:17.339255475Z
 definition:
   statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
@@ -85,4 +88,4 @@ history:
   from: Completed
   to: Completed
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:09:51.264401359Z
+updated_at: 2026-09-30T15:54:12.375890914Z

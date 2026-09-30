@@ -143,7 +143,7 @@ definition:
     tests:
     - name: docs.yml deploys only when the ref is refs/heads/main (push or manual run); a pull request or another branch builds the book without deploying
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:16:18.259178994Z
@@ -155,4 +155,4 @@ definition:
     rev: ddfa2780e72c77de
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T17:17:16.912091045Z
+updated_at: 2026-09-30T17:17:16.933727968Z

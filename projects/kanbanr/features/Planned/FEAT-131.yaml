@@ -1,0 +1,16 @@
+code: FEAT-131
+title: 'make ci: run every workflow check locally before a push'
+status: Planned
+milestone: MS-002
+kind: chore
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-09-30T18:03:40.847030122Z
+updated_at: 2026-09-30T18:03:40.860093662Z

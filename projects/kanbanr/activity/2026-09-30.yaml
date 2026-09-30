@@ -588,3 +588,7 @@
   actor: Venkatraman B
   message: test ci.yml triggers on push to main and pull_request only, with a concurrency group that cancels in progress of FEAT-130/R-8 is now green
   item: FEAT-130
+- time: 2026-09-30T18:50:41.521963597Z
+  actor: Venkatraman B
+  message: test release.yml scans the built image before the push step and the push depends on it (actionlint clean) of FEAT-130/R-4 is now green
+  item: FEAT-130

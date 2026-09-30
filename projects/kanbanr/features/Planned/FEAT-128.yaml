@@ -61,5 +61,11 @@ definition:
     - name: doctor::tests::a_placeholder_identity_is_reported
       kind: unit
       state: red
+defect:
+  severity: medium
+  introduced_by: FEAT-001
+  found_in: production
+  root_cause: ensure_repo writes a repo-local placeholder identity and commits with it before init sets the real one; the repo-local placeholder then shadows the user's global git identity
+  escaped: true
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:01:32.810099149Z
+updated_at: 2026-09-30T16:01:32.845410772Z

@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'ci.yml: one run per change + concurrency; workflows job (pins, suppressions, actionlint); supply-chain job (cargo deny, cargo audit, npm audit)'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'release.yml: image scanned before the push'
     state: NotStarted
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:53:44.37624503Z
+updated_at: 2026-09-30T18:53:44.406056126Z

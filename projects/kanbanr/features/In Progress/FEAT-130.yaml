@@ -30,6 +30,9 @@ todo_lists:
   - key: T4
     text: 'release.yml: image scanned before the push'
     state: NotStarted
+  - key: T5
+    text: api/deny.toml, .trivyignore.yaml, scripts/security-scan.sh, make audit/scan-deps/scan-image/codeql, make ci covers the new jobs
+    state: NotStarted
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
@@ -115,4 +118,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:53:44.245600633Z
+updated_at: 2026-09-30T18:53:44.273022212Z

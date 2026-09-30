@@ -45,7 +45,7 @@ definition:
     tests:
     - name: 'manual: build, tests, board, hooks status and skill link from kanbanr-public'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-09-30T14:57:51.788092152Z
@@ -63,4 +63,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.294135607Z
+updated_at: 2026-09-30T15:04:17.318186266Z

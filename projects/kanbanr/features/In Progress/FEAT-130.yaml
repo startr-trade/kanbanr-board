@@ -1,6 +1,6 @@
 code: FEAT-130
 title: 'CI: security scanning (CodeQL, Trivy, cargo-deny/audit) and one run per change'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: chore
 priority: high
@@ -93,5 +93,9 @@ definition:
     verdict: approved
     rev: fb38cfd195e2fab0
     status: Planned
+history:
+- at: 2026-09-30T18:29:35.342781594Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:03:40.928028757Z
+updated_at: 2026-09-30T18:29:35.342781594Z

@@ -76,7 +76,7 @@ definition:
     tests:
     - name: upload steps and the CodeQL job are conditioned on the repository being public (actionlint clean)
       kind: manual
-      state: planned
+      state: green
   - id: R-8
     kind: functional
     text: 'THE SYSTEM SHALL run CI once per change: on push to main and on pull requests, cancelling superseded runs.'
@@ -99,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:50:41.43475421Z
+updated_at: 2026-09-30T18:50:41.46462428Z

@@ -38,7 +38,7 @@ definition:
     tests:
     - name: editing a run block in a workflow changes what make ci executes, with no change to the harness
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN make ci runs, THE SYSTEM SHALL lint every workflow with actionlint and resolve every action reference upstream.
@@ -68,4 +68,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.672363122Z
+updated_at: 2026-09-30T18:29:26.697764735Z

@@ -68,7 +68,7 @@ definition:
   zachman:
     what: Licensing, community files, CI and a release workflow, and the account-level steps only the owner can take
     how: Everything that can be prepared in the repository is prepared and checked in; what needs an account is listed as the owner's remaining steps
-    where: The repository root, .github/, and docs/OPEN_SOURCING.md
+    where: The repository root, .github/, the crate manifests, and docs/src/project/open-sourcing.md
     when: Before the first tagged release
     who: The maintainer, for the account steps; anyone cloning it, for everything else
     why: An unpublished project accumulates assumptions that only its author can resolve, and they are cheapest to remove before anyone arrives
@@ -101,14 +101,16 @@ definition:
     - name: release.yml builds binaries and pushes the GHCR image from the tag
       kind: manual
       state: planned
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL be distributed only through its GitHub releases (archives, installers and the container image), with no crate published to crates.io.
+    tests:
+    - name: every crate under api/ declares `publish = false`, release.yml has no `cargo publish`, and no tracked doc tells anyone to `cargo install kanbanr` or to set up crates.io
+      kind: manual
+      state: planned
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T08:20:48.818504149Z
     rev: b5655140db59bc6d
-  approvals:
-  - at: 2026-09-28T08:20:48.818504149Z
-    by: reviewed in the monitor
-    verdict: approved
-    rev: b5655140db59bc6d
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-09-30T16:38:09.40633511Z
+updated_at: 2026-09-30T16:38:09.429492421Z

@@ -31,7 +31,7 @@ definition:
     tests:
     - name: the_monitor_is_served_from_the_binary_with_no_ui_dir
       kind: integration
-      state: red
+      state: green
   - id: R-2
     kind: functional
     text: WHERE a file is reached through a symlinked folder, THE SYSTEM SHALL judge it by the same repository-relative path as its resolved location.
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:31:14.984068102Z
+updated_at: 2026-09-30T17:33:09.407593278Z

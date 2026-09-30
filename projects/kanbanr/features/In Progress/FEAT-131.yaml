@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: 'ci.yml: shellcheck install split from the check; release.yml: tag check named'
     state: NotStarted
+  - key: T3
+    text: 'Sabotage: broken format, stale mirror, macos-13, checkout@v99, edited run block, failing test -> each FAILs; clean -> all 32 pass'
+    state: NotStarted
   created_at: 2026-09-30T18:29:26.772681982Z
 definition:
   statement: One local command that runs every CI check that can run off GitHub, for the maintainer before each push, so that a public CI run fails only for a reason no local run could have shown
@@ -78,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:03:40.847030122Z
-updated_at: 2026-09-30T18:29:26.82200212Z
+updated_at: 2026-09-30T18:29:26.846946312Z

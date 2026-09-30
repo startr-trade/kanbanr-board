@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'kanbanr-core links advapi32 on Windows (not verifiable here: no MSVC; proven by the next CI run)'
-    state: NotStarted
+    state: InProgress
   - key: T4
     text: Changelog
     state: Completed
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-09-30T17:33:09.632899696Z
+updated_at: 2026-09-30T17:33:09.655801826Z

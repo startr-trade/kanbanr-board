@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: publish-prep
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'In the archive: untrack .kanbanr, generic test path, startr-trade owner in the plugin, sibling-project names removed from comments'
+    state: NotStarted
   created_at: 2026-09-30T15:04:17.339255475Z
 definition:
   statement: A public repository that starts from one commit by the project's public identity, for the maintainer publishing kanbanr, so that the work email and local details never reach GitHub while the full history stays available privately
@@ -67,4 +70,4 @@ history:
   to: In Progress
   override: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 created_at: 2026-09-30T14:57:29.145971474Z
-updated_at: 2026-09-30T15:04:17.33925633Z
+updated_at: 2026-09-30T15:04:17.36195739Z

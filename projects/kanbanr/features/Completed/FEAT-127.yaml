@@ -1,6 +1,6 @@
 code: FEAT-127
 title: 'Defect: the commit guard judges the session''s repository, not the one a command `cd`s into'
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: defect
 priority: null
@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 'Probe: four cross-repo cases against the real repos; sabotage showed the test failing'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T16:13:42.363237508Z
 definition:
   statement: A commit guard that judges the repository a command actually commits in, for anyone working across more than one repository in a session, so that a correct commit elsewhere is not refused by the rules of the wrong repository
@@ -62,5 +62,8 @@ history:
 - at: 2026-09-30T16:08:47.658784793Z
   from: Planned
   to: In Progress
+- at: 2026-09-30T16:13:42.565592366Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-30T15:04:30.433980122Z
-updated_at: 2026-09-30T16:13:42.536193146Z
+updated_at: 2026-09-30T16:13:42.565592366Z

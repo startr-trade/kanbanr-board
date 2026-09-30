@@ -71,7 +71,7 @@
   done: 6
   total: 7
 - code: FEAT-131
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: chore
   priority: high
@@ -82,7 +82,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 4
+  done: 5
   total: 5
 - code: FEAT-001
   status: Completed

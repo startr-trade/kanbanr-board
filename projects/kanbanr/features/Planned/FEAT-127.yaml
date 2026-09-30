@@ -1,0 +1,36 @@
+code: FEAT-127
+title: 'Defect: the commit guard judges the session''s repository, not the one a command `cd`s into'
+status: Planned
+milestone: MS-006
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+definition:
+  statement: A commit guard that judges the repository a command actually commits in, for anyone working across more than one repository in a session, so that a correct commit elsewhere is not refused by the rules of the wrong repository
+  goals:
+  - G-5
+  - G-4
+  zachman:
+    what: Which repository the guard evaluates a commit against
+    how: Resolve a leading `cd <dir>` or `git -C <dir>` in the command and evaluate branch and board from there
+    where: api/crates/kanbanr-cli/src/main.rs (run_guard, scm_context)
+    when: Before every Bash git commit Claude Code runs
+    who: Anyone whose session touches more than one repository
+    why: A root commit in the new public repository was refused using the old repository's branch
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a Bash command changes directory before running git commit, THE SYSTEM SHALL judge the commit against the repository at that directory.
+    tests:
+    - name: tests::the_guard_judges_the_repository_the_command_commits_in
+      kind: unit
+      state: planned
+created_at: 2026-09-30T15:04:30.433980122Z
+updated_at: 2026-09-30T15:04:30.433990805Z

@@ -36,6 +36,9 @@ todo_lists:
   - key: T6
     text: 'make codeql: 0 results in rust, javascript-typescript and actions (13.5 min)'
     state: NotStarted
+  - key: T7
+    text: 'Waits on FEAT-132: supply-chain and scan-deps fail on its findings'
+    state: NotStarted
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
@@ -121,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:53:44.298945825Z
+updated_at: 2026-09-30T18:53:44.324243788Z

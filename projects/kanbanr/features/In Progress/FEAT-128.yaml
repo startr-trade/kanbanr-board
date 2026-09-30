@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-09-30T16:23:04.348875474Z
 definition:
   statement: Every board commit authored by the person doing the work, for anyone setting up or using a board, so that the board's history is a truthful record of who did what
   goals:
@@ -82,4 +86,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T16:01:26.352592872Z
-updated_at: 2026-09-30T16:22:51.93797808Z
+updated_at: 2026-09-30T16:23:04.348878981Z

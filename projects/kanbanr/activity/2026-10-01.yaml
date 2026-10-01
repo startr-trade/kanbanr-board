@@ -474,3 +474,7 @@
   actor: Venkatraman B
   message: move feature FEAT-134
   item: FEAT-134
+- time: 2026-10-01T07:14:07.077962896Z
+  actor: Venkatraman B
+  message: test README review against the charter goals and the docs table of contents; every capability bullet links to a command or a docs page of FEAT-134/R-1 is now green
+  item: FEAT-134

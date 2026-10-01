@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'plugin.json: skills ./skill/, no comment keys, description without crates.io, licence MIT OR Apache-2.0; marketplace.json likewise; notes moved to .claude-plugin/README.md'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'claude plugin validate .: passed, no warnings (plugin.json alone warns that a root CLAUDE.md is not plugin context — informational, the repository''s own CLAUDE.md)'
     state: NotStarted
@@ -85,4 +85,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T10:51:40.785386296Z
+updated_at: 2026-10-01T10:51:40.813525999Z

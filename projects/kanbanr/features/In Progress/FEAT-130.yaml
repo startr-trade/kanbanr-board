@@ -42,6 +42,9 @@ todo_lists:
   - key: T8
     text: 'Sabotage: planted AWS key -> scan-deps CRITICAL secret, exit 1; MIT removed from the allowlist -> cargo deny licenses FAILED; the advisories FEAT-132 fixed had failed both gates before; make ci (with FEAT-132): all 42 pass; action lookups retried after one transient miss'
     state: Completed
+  - key: T9
+    text: 'First GitHub runs (a6645ea) green, but the repository was still private then: CodeQL and Trivy skipped their analysis by design. The next push on the public repository is the first real run'
+    state: NotStarted
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
@@ -133,4 +136,4 @@ history:
   from: Completed
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-10-01T01:37:55.883010171Z
+updated_at: 2026-10-01T05:53:16.356884151Z

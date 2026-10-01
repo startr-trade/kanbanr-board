@@ -1007,3 +1007,7 @@
   actor: Venkatraman B
   message: move feature FEAT-143
   item: FEAT-143
+- time: 2026-10-01T19:27:08.431452475Z
+  actor: Venkatraman B
+  message: test release.yml builds binaries and pushes the GHCR image from the tag of FEAT-024/R-4 is now green
+  item: FEAT-024

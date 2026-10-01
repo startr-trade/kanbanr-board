@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A v0.1.1 release that ships the container image fixes, for anyone running kanbanr from GHCR, so that the published image is the released program without moving the v0.1.0 tag again
+  goals:
+  - G-6
+  zachman:
+    what: The version number, the changelog and the v0.1.1 release
+    how: Bump the workspace, web and plugin versions, give the image fixes a 0.1.1 changelog section, run make ci, and verify the release run after the maintainer tags it
+    where: api/Cargo.toml, api/Cargo.lock, web/package.json, .claude-plugin/plugin.json, CHANGELOG.md
+    when: Now, before GA
+    who: Anyone installing kanbanr or running its image
+    why: The v0.1.0 image cannot say which build it is and lacks the skill; the fixes are on main but unreleased
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN v0.1.1 is tagged, THE SYSTEM SHALL publish binaries and an image whose kanbanr reports 0.1.1, the tagged commit, and the repository's skill.
+    tests:
+    - name: the v0.1.1 release run passes, and the GHCR image passes scripts/check-image.sh at the tag
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL record v0.1.0 as released on 2026-10-01 and the image fixes under 0.1.1 in its changelog.
+    tests:
+    - name: the changelog has a dated 0.1.1 section with FEAT-144 and FEAT-145, and 0.1.0 dated 2026-10-01
+      kind: manual
+      state: planned
 created_at: 2026-10-01T19:45:51.10744652Z
-updated_at: 2026-10-01T19:45:51.10744652Z
+updated_at: 2026-10-01T19:45:54.895724365Z

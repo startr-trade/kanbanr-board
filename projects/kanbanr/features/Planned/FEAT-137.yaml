@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A sprint burndown that drops as items reach the team's Definition of Done, for teams using sprints, so that it shows progress through the sprint rather than a single step on release day
+  goals:
+  - G-2
+  - G-5
+  zachman:
+    what: Which status counts an item as finished for the sprint burndown, the sprint's done total and carry-over
+    how: An optional done flag on a stage's gate; the cadence views count the first arrival at a flagged stage or an end status; the scrum preset flags Done
+    where: kanbanr-core config.rs (Gate), sprints.rs, presets/scrum.yaml, the working agreement, docs/src/using/processes.md
+    when: Whenever a sprint is reported or closed
+    who: Teams using the scrum preset, or their own process with sprints
+    why: With Released as the only end status, a scrum sprint burned down nothing until release day
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE a workflow marks a stage as done, THE SYSTEM SHALL count an item as finished for the sprint from the day it first reaches that stage.
+    tests:
+    - name: sprints::tests::a_stage_marked_done_burns_down_the_day_it_is_reached
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE no stage is marked as done, THE SYSTEM SHALL count the end statuses, as before.
+    tests:
+    - name: sprints::tests::without_a_marked_stage_the_end_statuses_count
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL mark Done as counting for the burndown in the scrum preset.
+    tests:
+    - name: config::tests::the_scrum_preset_counts_done_for_the_burndown
+      kind: unit
+      state: planned
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:25:17.161276371Z
+updated_at: 2026-10-01T06:25:17.189920782Z

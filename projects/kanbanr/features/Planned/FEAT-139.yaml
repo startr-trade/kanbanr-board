@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A Claude Code plugin manifest that validates and installs, for anyone adding kanbanr to Claude Code from its marketplace, so that the one-step install the docs describe actually works
+  goals:
+  - G-5
+  zachman:
+    what: The plugin and marketplace manifests, and the install instructions
+    how: A relative skills path, no unknown keys, accurate descriptions and licence, the real marketplace name, and a validation step in make ci
+    where: .claude-plugin/plugin.json, .claude-plugin/marketplace.json, .claude-plugin/README.md, docs/src/project/open-sourcing.md, scripts/ci_local.py
+    when: When a user adds the marketplace and installs the plugin; on every make ci
+    who: Claude Code users installing kanbanr
+    why: claude plugin validate fails on the skills path, so the plugin cannot be installed
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the repository is validated as a Claude Code plugin marketplace, THE SYSTEM SHALL pass with no errors and no warnings.
+    tests:
+    - name: claude plugin validate . passes with no errors or warnings
+      kind: manual
+      state: red
+  - id: R-2
+    kind: functional
+    text: WHEN make ci runs where the claude CLI is installed, THE SYSTEM SHALL validate the plugin manifests.
+    tests:
+    - name: make ci runs claude plugin validate and fails on a broken skills path
+      kind: manual
+      state: planned
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T07:43:15.782077317Z
+updated_at: 2026-10-01T07:43:15.81489403Z

@@ -17,9 +17,9 @@ definition:
   goals:
   - G-5
   zachman:
-    what: Mark, favicon, light and dark lockups, app icon and social preview, and where each is used
+    what: Mark, favicon, light and dark lockups, app icon and social preview, and where each is used; the README and docs screenshots, sprint and release views included
     how: SVG sources in assets/brand/ with PNG renders; README picture, docs favicon, monitor favicon and header, VS Code extension icon
-    where: assets/brand/, README.md, docs/theme/, web/index.html, web/public/, web/src/App.tsx, editor/vscode/
+    where: assets/brand/, README.md, docs/theme/, web/index.html, web/public/, web/src/App.tsx, editor/vscode/, tools/screenshots/, docs/src/images/
     when: Before the repository is announced
     who: Anyone who sees the project; the maintainer uploads the social preview
     why: The monitor's header is a Unicode glyph, the docs and tabs show default icons, and the GitHub card is blank
@@ -38,5 +38,12 @@ definition:
     - name: favicon rendered at 16 and 32 px on light and dark backgrounds, inspected
       kind: manual
       state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN the screenshots are regenerated, THE SYSTEM SHALL show the current monitor, including the sprint header with its burndown, the Releases page and the Gantt with sprints and releases.
+    tests:
+    - name: make screenshots writes sprint.png, releases.png and a Gantt with sprints from the demo project, and the README and docs reference them
+      kind: manual
+      state: planned
 created_at: 2026-10-01T05:19:40.254258018Z
-updated_at: 2026-10-01T05:49:19.672568675Z
+updated_at: 2026-10-01T05:49:19.699246293Z

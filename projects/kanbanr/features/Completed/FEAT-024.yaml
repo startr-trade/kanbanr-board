@@ -1,6 +1,6 @@
 code: FEAT-024
 title: Open-source release prep (license, community files, CI/release, screenshots)
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: chore
 priority: null
@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: git tag v0.1.0 && push -> verify Release binaries + GHCR image; date the changelog
-    state: NotStarted
+    state: Completed
   - key: T6
     text: validate dual MIT/Apache LICENSE files + workspace license field
     state: Completed
@@ -169,5 +169,9 @@ definition:
     verdict: approved
     rev: ddfa2780e72c77de
     status: In Progress
+history:
+- at: 2026-10-01T19:27:15.746732237Z
+  from: In Progress
+  to: Completed
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-10-01T19:27:15.701913525Z
+updated_at: 2026-10-01T19:27:15.746732237Z

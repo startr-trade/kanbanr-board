@@ -32,7 +32,7 @@ todo_lists:
     state: NotStarted
   - key: T6
     text: 'Published plugin verified in a throwaway Claude config: marketplace add startr-trade/kanbanr, plugin install kanbanr@kanbanr -> enabled, skill present. The installer half of R-3 waits for the first release (v0.1.0)'
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T10:51:40.64969308Z
 definition:
   statement: A Claude Code plugin manifest that validates and installs, for anyone adding kanbanr to Claude Code from its marketplace, so that the one-step install the docs describe actually works
@@ -88,4 +88,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T12:32:38.429948865Z
+updated_at: 2026-10-01T12:32:38.466978307Z

@@ -1,6 +1,6 @@
 code: FEAT-133
 title: 'Brand: kanbanr mark, favicon, lockups and social preview, wired into README, docs, monitor and extension'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: feature
 priority: medium
@@ -55,5 +55,9 @@ definition:
     verdict: approved
     rev: 0ac90bc70c25ea08
     status: Planned
+history:
+- at: 2026-10-01T05:54:52.024967553Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T05:19:40.254258018Z
-updated_at: 2026-10-01T05:54:32.171438985Z
+updated_at: 2026-10-01T05:54:52.024967553Z

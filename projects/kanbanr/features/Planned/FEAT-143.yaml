@@ -1,0 +1,16 @@
+code: FEAT-143
+title: 'Defect: v0.1.0 release fails its installer check and skips crates.io'
+status: Planned
+milestone: MS-002
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-01T18:57:07.468671765Z
+updated_at: 2026-10-01T18:57:07.468671765Z

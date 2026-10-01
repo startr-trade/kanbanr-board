@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A recognisable kanbanr identity in the startr.trade family, for anyone meeting the project on GitHub, the docs site, a browser tab or the editor, so that it reads as one product rather than a heading and a default icon
+  goals:
+  - G-5
+  zachman:
+    what: Mark, favicon, light and dark lockups, app icon and social preview, and where each is used
+    how: SVG sources in assets/brand/ with PNG renders; README picture, docs favicon, monitor favicon and header, VS Code extension icon
+    where: assets/brand/, README.md, docs/theme/, web/index.html, web/public/, web/src/App.tsx, editor/vscode/
+    when: Before the repository is announced
+    who: Anyone who sees the project; the maintainer uploads the social preview
+    why: The monitor's header is a Unicode glyph, the docs and tabs show default icons, and the GitHub card is blank
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHERE kanbanr presents itself (README, docs site, monitor, VS Code extension), THE SYSTEM SHALL show the kanbanr mark, in the colour scheme the viewer uses.
+    tests:
+    - name: headless Chromium screenshots of the README, the docs site and the monitor in light and dark show the mark; the extension manifest names the icon
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: nfr
+    text: THE SYSTEM SHALL keep the favicon legible at 16 px on light and dark browser tabs.
+    tests:
+    - name: favicon rendered at 16 and 32 px on light and dark backgrounds, inspected
+      kind: manual
+      state: planned
 created_at: 2026-10-01T05:19:40.254258018Z
-updated_at: 2026-10-01T05:19:40.268748952Z
+updated_at: 2026-10-01T05:19:40.296829383Z

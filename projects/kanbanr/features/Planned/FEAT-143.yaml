@@ -12,5 +12,38 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release workflow whose installer check runs under the container's shell and whose crates.io publish reads a setting the docs name correctly, for the maintainer cutting v0.1.0, so that a correct release is not reported as broken in public
+  goals:
+  - G-0
+  zachman:
+    what: The verify-install commit check, the crates job's switch, and the local CI checks that should have caught both
+    how: POSIX cut instead of bash substring; make ci shellchecks container steps as sh and compares workflow vars against the repository's variables and secrets; docs state variable, not secret
+    where: .github/workflows/release.yml, scripts/ci_local.py, docs/src/project/open-sourcing.md
+    when: On every tag push, and on every make ci
+    who: The maintainer releasing kanbanr
+    why: v0.1.0 published correctly but failed its own check in public, and ears-classifier was silently not published
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the verify-install job checks the installed binary's commit, THE SYSTEM SHALL derive the short commit with POSIX shell only.
+    tests:
+    - name: the verify-install commit check passes under dash against a binary built from HEAD
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN make ci checks the workflows, THE SYSTEM SHALL shellcheck the run blocks of container jobs that do not set shell bash as POSIX sh.
+    tests:
+    - name: make ci fails on the old verify-install step and passes on the fixed one
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a workflow reads vars.NAME AND the repository holds NAME only as a secret, THEN make ci SHALL fail naming the setting.
+    tests:
+    - name: make ci reports PUBLISH_CRATES held as a secret
+      kind: manual
+      state: planned
 created_at: 2026-10-01T18:57:07.468671765Z
-updated_at: 2026-10-01T18:57:07.468671765Z
+updated_at: 2026-10-01T18:57:11.626747737Z

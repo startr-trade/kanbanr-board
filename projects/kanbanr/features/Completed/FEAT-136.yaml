@@ -1,6 +1,6 @@
 code: FEAT-136
 title: Publish kanbanr's own board, sanitised, and show kanbanr developed with kanbanr
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: chore
 priority: high
@@ -31,7 +31,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: 'Maintainer: create startr-trade/kanbanr-board (public), add the remote, push main, apply the settings checklist'
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T06:19:19.543034691Z
 definition:
   statement: kanbanr's own board published and linked from its code, for anyone evaluating or contributing to kanbanr, so that the project visibly runs its own development with the tool
@@ -83,5 +83,8 @@ history:
 - at: 2026-10-01T06:27:19.028990476Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T12:32:17.797297515Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:32:53.328159837Z
+updated_at: 2026-10-01T12:32:17.797297515Z

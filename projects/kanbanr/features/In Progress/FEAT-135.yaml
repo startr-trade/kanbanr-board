@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: build
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'kanbanr-core: SESSIONS_DIR ignored by every board (ensure_repo), unit test (sabotage fails it)'
+    state: NotStarted
   created_at: 2026-10-01T06:24:12.272955036Z
 definition:
   statement: Session summaries kept beside the board but out of its history, for anyone whose board is shared through a remote, so that a condensed conversation is never published by the act of recording work
@@ -58,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:24:12.272960811Z
+updated_at: 2026-10-01T06:24:12.299080906Z

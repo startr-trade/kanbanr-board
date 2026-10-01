@@ -256,3 +256,11 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-01T10:51:46.388772493Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-138
+  message: feature FEAT-138 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

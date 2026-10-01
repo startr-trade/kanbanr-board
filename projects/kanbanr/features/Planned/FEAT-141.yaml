@@ -61,5 +61,15 @@ definition:
     - name: session-start.sh with no kanbanr on PATH prints the install command once
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T07:53:12.091902515Z
+    rev: 7ef0e75413e06d49
+  approvals:
+  - at: 2026-10-01T07:53:12.091902515Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 7ef0e75413e06d49
+    status: Planned
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T07:52:12.313057886Z
+updated_at: 2026-10-01T07:53:12.091902515Z

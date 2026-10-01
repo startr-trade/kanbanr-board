@@ -12,5 +12,40 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A board pushed to its remote as its owner chose, set with kanbanr and kept with the board, for anyone sharing a board through a remote, so that a shared board does not silently fall behind
+  goals:
+  - G-1
+  - G-5
+  - G-0
+  zachman:
+    what: When a board's commits are pushed, and where that choice is recorded
+    how: Count unpushed commits from git; keep the policy in the board's git config as kanbanr.push; KANBANR_PUSH overrides; a command to show and set it; doctor warns when far behind
+    where: kanbanr-cli backend.rs (push policy), kanbanr-core git.rs (ahead count, setting), kanbanr-cli main.rs (remote push-policy), doctor.rs, docs/src/using/the-monitor.md
+    when: After every commit kanbanr makes to a board with a remote
+    who: Anyone whose board has a remote — kanbanr's own, published
+    why: 'The CLI never pushed: its count reset with every command, and the policy could only be set by an environment variable'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHILE a board's push policy is debounce with threshold N, WHEN a commit leaves the board N or more commits ahead of its remote, THE SYSTEM SHALL push.
+    tests:
+    - name: backend::tests::a_debounced_board_pushes_across_separate_commands
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a board has a push policy in its git config, THE SYSTEM SHALL apply it unless KANBANR_PUSH overrides it.
+    tests:
+    - name: backend::tests::the_board_setting_applies_and_the_environment_overrides_it
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a board with a remote is more commits ahead of it than its push threshold, THEN THE SYSTEM SHALL warn in doctor.
+    tests:
+    - name: doctor::tests::a_board_far_ahead_of_its_remote_is_reported
+      kind: unit
+      state: planned
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:03:15.974560911Z
+updated_at: 2026-10-01T11:03:16.007283449Z

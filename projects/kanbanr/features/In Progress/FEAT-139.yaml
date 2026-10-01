@@ -1,6 +1,6 @@
 code: FEAT-139
 title: 'Defect: the Claude Code plugin manifest fails validation'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: bug
 priority: high
@@ -61,5 +61,9 @@ defect:
   found_in: user install
   root_cause: skills used ${CLAUDE_PLUGIN_ROOT}, which is only expanded in hook commands; nothing validated the manifests
   escaped: true
+history:
+- at: 2026-10-01T10:48:45.367831459Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T07:44:04.361976163Z
+updated_at: 2026-10-01T10:48:45.367831459Z

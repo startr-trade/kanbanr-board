@@ -240,3 +240,11 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-01T10:48:25.608985881Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-140
+  message: feature FEAT-140 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

@@ -1,5 +1,5 @@
 code: FEAT-142
-title: 'Defect: the CLI never pushes a debounced board; the push policy is an environment variable'
+title: 'Defect: a board cannot reach GitHub, and its batched push never fires'
 status: Planned
 milestone: MS-004
 kind: bug
@@ -54,4 +54,4 @@ defect:
   root_cause: the debounce count was kept in process memory, and each CLI command is a new process
   escaped: true
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:03:16.056632421Z
+updated_at: 2026-10-01T11:05:32.488910906Z

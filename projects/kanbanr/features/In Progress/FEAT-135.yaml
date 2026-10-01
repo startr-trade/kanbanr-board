@@ -38,7 +38,7 @@ definition:
     tests:
     - name: git::tests::a_board_ignores_its_session_summaries
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:18:12.937948494Z
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:24:12.219871273Z
+updated_at: 2026-10-01T06:24:12.24512588Z

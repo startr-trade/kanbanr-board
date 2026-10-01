@@ -277,3 +277,7 @@
   actor: Venkatraman B
   message: test summarise_session.py compact on a scratch board writes .sessions/<project>/<name>.md, and git status there shows nothing to commit of FEAT-135/R-1 is now green
   item: FEAT-135
+- time: 2026-10-01T06:24:12.246819656Z
+  actor: Venkatraman B
+  message: test git::tests::a_board_ignores_its_session_summaries of FEAT-135/R-2 is now green
+  item: FEAT-135

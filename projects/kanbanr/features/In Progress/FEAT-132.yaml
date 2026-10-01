@@ -44,7 +44,7 @@ definition:
     tests:
     - name: make scan-deps exits 0
       kind: manual
-      state: red
+      state: green
   - id: R-4
     kind: functional
     text: THE SYSTEM SHALL behave as before the upgrades.
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.402505142Z
+updated_at: 2026-10-01T01:31:04.42743308Z

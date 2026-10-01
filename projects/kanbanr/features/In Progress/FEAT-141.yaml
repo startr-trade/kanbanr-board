@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'build.rs embeds skill/kanbanr; src/skill.rs: install (staged, swapped in, stamped, scripts executable) / status / uninstall; a link or unstamped folder is left alone (unit tests; this machine''s link reported, not touched)'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: kanbanr skill install|status|uninstall; self-update asks the NEW binary to update a skill kanbanr installed (unit test with a stub binary)
     state: NotStarted
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:37:01.58803602Z
+updated_at: 2026-10-01T12:37:01.627480237Z

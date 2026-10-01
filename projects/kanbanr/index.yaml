@@ -67,7 +67,7 @@
   labels: []
   depends_on:
   - FEAT-139
-  done: 0
+  done: 1
   total: 5
 - code: FEAT-001
   status: Completed

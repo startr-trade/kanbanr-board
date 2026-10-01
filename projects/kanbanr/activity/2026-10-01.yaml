@@ -901,3 +901,7 @@
   actor: Venkatraman B
   message: test skill::tests::a_linked_skill_is_left_alone of FEAT-141/R-2 is now green
   item: FEAT-141
+- time: 2026-10-01T12:36:53.930373064Z
+  actor: Venkatraman B
+  message: test installer run in a container with a stub claude on PATH writes ~/.claude/skills/kanbanr; with --no-skill it does not; without claude it prints the command of FEAT-141/R-3 is now green
+  item: FEAT-141

@@ -46,7 +46,7 @@ definition:
     tests:
     - name: installer run in a container with a stub claude on PATH writes ~/.claude/skills/kanbanr; with --no-skill it does not; without claude it prints the command
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN kanbanr self-update replaces the program, THE SYSTEM SHALL update a skill it installed to match.
@@ -76,4 +76,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:36:53.892512159Z
+updated_at: 2026-10-01T12:36:53.928516205Z

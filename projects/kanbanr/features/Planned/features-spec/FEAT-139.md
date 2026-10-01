@@ -12,6 +12,7 @@ The manifests are also stale: the plugin's description says the binary "ships se
 - `skills` is `["./skill/"]`; the explanatory `_comment…` keys move into a short `.claude-plugin/README.md`.
 - The descriptions say where the binary comes from (the GitHub release installers) and what the plugin bundles; the licence is `MIT OR Apache-2.0`.
 - The install instructions name the real marketplace: `claude plugin marketplace add startr-trade/kanbanr`, then `claude plugin install kanbanr@kanbanr`.
+- **Installing the skill is documented where a new user looks.** Neither the README's quick start nor the installation chapter says how to get the skill into Claude Code. Both gain it: the plugin (`claude plugin marketplace add startr-trade/kanbanr`, `claude plugin install kanbanr@kanbanr`), which brings the skill and its hooks; or, without the plugin, a clone and `make install-skill` (a link into `~/.claude/skills/`), followed by `kanbanr hooks install` in each project.
 - `make ci` runs `claude plugin validate .` where the `claude` CLI is installed, and says it skipped it where it is not.
 
 ## Out of scope

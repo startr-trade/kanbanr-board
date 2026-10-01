@@ -73,7 +73,7 @@ definition:
     tests:
     - name: make audit fails with a crate whose licence is not allowed or that has a RustSec advisory, and passes on the tree as it is
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: IF the release image has a HIGH or CRITICAL finding with a fix available, THEN THE SYSTEM SHALL not push it.
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-10-01T01:37:49.356783951Z
+updated_at: 2026-10-01T01:37:49.382281522Z

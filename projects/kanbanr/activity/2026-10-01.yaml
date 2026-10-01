@@ -86,3 +86,7 @@
   actor: Venkatraman B
   message: test make scan-deps reports a planted fake secret and a known-vulnerable lockfile entry, and is clean without them of FEAT-130/R-2 is now green
   item: FEAT-130
+- time: 2026-10-01T01:37:49.384198306Z
+  actor: Venkatraman B
+  message: test make audit fails with a crate whose licence is not allowed or that has a RustSec advisory, and passes on the tree as it is of FEAT-130/R-3 is now green
+  item: FEAT-130

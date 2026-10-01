@@ -50,5 +50,15 @@ definition:
     - name: 'fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T06:18:13.841277972Z
+    rev: 6d37c829ffd4c68b
+  approvals:
+  - at: 2026-10-01T06:18:13.841277972Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 6d37c829ffd4c68b
+    status: Planned
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:16:30.584702909Z
+updated_at: 2026-10-01T06:18:13.841277972Z

@@ -1,6 +1,6 @@
 code: FEAT-143
 title: 'Defect: v0.1.0 release fails its installer check and skips crates.io'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: null
 priority: null
@@ -61,5 +61,9 @@ defect:
   found_in: production
   root_cause: bash substring in a container step run by dash; PUBLISH_CRATES created as a secret while the job reads vars
   escaped: false
+history:
+- at: 2026-10-01T18:59:46.021114766Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T18:57:07.468671765Z
-updated_at: 2026-10-01T18:59:30.526072616Z
+updated_at: 2026-10-01T18:59:46.021114766Z

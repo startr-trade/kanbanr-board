@@ -102,20 +102,6 @@
   - FEAT-132
   done: 8
   total: 9
-- code: FEAT-133
-  status: Completed
-  milestone: MS-002
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 4
-  total: 4
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -1997,6 +1983,20 @@
   depends_on: []
   done: 7
   total: 7
+- code: FEAT-133
+  status: Completed
+  milestone: MS-002
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 4
+  total: 5
 - code: FEAT-018
   status: Ongoing
   milestone: MS-004

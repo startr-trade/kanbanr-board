@@ -30,7 +30,7 @@ definition:
     tests:
     - name: kanbanr skill install in the image built by make ci writes the repository's SKILL.md
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: IF the image's kanbanr carries no skill or a different skill, THEN THE SYSTEM SHALL refuse to push the image.
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T19:36:03.344537171Z
-updated_at: 2026-10-01T19:36:37.345143346Z
+updated_at: 2026-10-01T19:40:13.807786307Z

@@ -1,6 +1,6 @@
 schema_version: 2
 name: kanbanr
-description: kanbanr's own development board — dogfooding the tool to track its roadmap (see docs/ROADMAP.md).
+description: 'kanbanr''s own development board: every item with why it exists, its requirements and the tests that proved them — kanbanr is developed with kanbanr.'
 statuses:
 - Deferred
 - Planned

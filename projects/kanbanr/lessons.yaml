@@ -1,3 +1,15 @@
+- id: L-32
+  lesson: When a change alters what a shared helper returns, grep the tests for the old behaviour too — a test that builds its expected value the old way fails only on the platform where the two differ
+  kind: pitfall
+  at: 2026-10-01T04:15:40.654689737Z
+  from_item: FEAT-129
+  evidence: normalize() stopped returning Windows' \\?\ prefix; five core tests built their expected paths with raw canonicalize, which still does — invisible on Linux, red on Windows
+  tags:
+  - windows
+  - testing
+  confidence: 0.6
+  last_affirmed: 2026-10-01T04:15:40.654689737Z
+  status: candidate
 - id: L-31
   lesson: Run every CI workflow's checks locally before calling work ready to push — a check no local command reproduces is where 'passes here' and 'red on GitHub' part ways
   kind: practice

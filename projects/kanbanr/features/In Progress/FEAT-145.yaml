@@ -54,9 +54,10 @@ defect:
   found_in: production
   root_cause: the Dockerfile's build stage copies only api/, so build.rs finds no skill/ to embed; nothing checks the image's binary against the archives'
   escaped: true
+  fixed_by: a70a0ce
 history:
 - at: 2026-10-01T19:36:37.345143346Z
   from: Planned
   to: In Progress
 created_at: 2026-10-01T19:36:03.344537171Z
-updated_at: 2026-10-01T19:40:13.845642752Z
+updated_at: 2026-10-01T19:40:14.030316826Z

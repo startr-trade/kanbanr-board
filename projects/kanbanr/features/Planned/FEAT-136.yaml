@@ -13,7 +13,11 @@ labels: []
 depends_on:
 - FEAT-135
 - FEAT-133
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-10-01T06:19:19.543034691Z
 definition:
   statement: kanbanr's own board published and linked from its code, for anyone evaluating or contributing to kanbanr, so that the project visibly runs its own development with the tool
   goals:
@@ -61,4 +65,4 @@ definition:
     rev: 6d37c829ffd4c68b
     status: Planned
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:18:13.841277972Z
+updated_at: 2026-10-01T06:19:19.543036412Z

@@ -30,6 +30,9 @@ todo_lists:
   - key: T5
     text: Release binary grew past the 20 MB ceiling (23.4 MB) with the transports; release builds now strip symbols (19.2 MB); make ci 44/44
     state: NotStarted
+  - key: T6
+    text: Unit tests for R-2..R-5; sabotage of the count and the marker fails them
+    state: NotStarted
   created_at: 2026-10-01T11:30:27.124589022Z
 definition:
   statement: A board that reaches its remote, pushed as its owner chose, for anyone sharing a board through GitHub or any git host, so that a shared board does not silently fall behind
@@ -101,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:30:27.265811416Z
+updated_at: 2026-10-01T11:30:27.292876414Z

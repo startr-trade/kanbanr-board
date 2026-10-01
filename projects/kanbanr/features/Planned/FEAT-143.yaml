@@ -45,5 +45,11 @@ definition:
     - name: make ci reports PUBLISH_CRATES held as a secret
       kind: manual
       state: planned
+defect:
+  severity: medium
+  introduced_by: FEAT-024
+  found_in: production
+  root_cause: bash substring in a container step run by dash; PUBLISH_CRATES created as a secret while the job reads vars
+  escaped: false
 created_at: 2026-10-01T18:57:07.468671765Z
-updated_at: 2026-10-01T18:57:11.626747737Z
+updated_at: 2026-10-01T18:57:11.6787092Z

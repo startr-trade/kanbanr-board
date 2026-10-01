@@ -1,6 +1,6 @@
 code: FEAT-132
 title: 'Defect: dependency advisories in the binary, the monitor and the tests'
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: bug
 priority: high
@@ -35,7 +35,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 'Trivy fs over the tree: 0 findings; make ci: all 32 pass'
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T01:31:04.479988466Z
 definition:
   statement: Dependencies with no known vulnerability or unsoundness in what kanbanr ships, for everyone who installs it, so that the first public release does not carry advisories its own CI now reports
@@ -91,5 +91,8 @@ history:
 - at: 2026-10-01T01:15:51.308865787Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T01:31:04.829981244Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.806478703Z
+updated_at: 2026-10-01T01:31:04.829981244Z

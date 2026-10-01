@@ -1,6 +1,6 @@
 code: FEAT-145
 title: 'Defect: the container image''s kanbanr carries no skill'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: null
 priority: null
@@ -54,5 +54,9 @@ defect:
   found_in: production
   root_cause: the Dockerfile's build stage copies only api/, so build.rs finds no skill/ to embed; nothing checks the image's binary against the archives'
   escaped: true
+history:
+- at: 2026-10-01T19:36:37.345143346Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T19:36:03.344537171Z
-updated_at: 2026-10-01T19:36:28.492445129Z
+updated_at: 2026-10-01T19:36:37.345143346Z

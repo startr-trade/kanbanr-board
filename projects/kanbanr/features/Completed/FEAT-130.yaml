@@ -1,6 +1,6 @@
 code: FEAT-130
 title: 'CI: security scanning (CodeQL, Trivy, cargo-deny/audit) and one run per change'
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: chore
 priority: high
@@ -47,7 +47,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: 'First real scans on the public repository (6ed69e7): CodeQL rust 0, actions 0, javascript-typescript 1 (js/xss-through-dom, Markdown.tsx:51 — recorded as FEAT-140); Trivy fs 0'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
@@ -138,5 +138,8 @@ history:
 - at: 2026-10-01T01:37:55.883010171Z
   from: Completed
   to: In Progress
+- at: 2026-10-01T07:45:16.213314012Z
+  from: In Progress
+  to: Completed
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-10-01T07:45:16.186932497Z
+updated_at: 2026-10-01T07:45:16.213314012Z

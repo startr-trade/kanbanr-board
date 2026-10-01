@@ -24,6 +24,9 @@ todo_lists:
   - key: T3
     text: make ci validates the plugin where claude is installed (sabotaged path fails it); 44/44 pass
     state: NotStarted
+  - key: T4
+    text: 'Install docs: README quick start and the installation chapter''s ''Install the skill'' (plugin or clone); the open-sourcing guide''s <github-owner> placeholder replaced'
+    state: NotStarted
   created_at: 2026-10-01T10:51:40.64969308Z
 definition:
   statement: A Claude Code plugin manifest that validates and installs, for anyone adding kanbanr to Claude Code from its marketplace, so that the one-step install the docs describe actually works
@@ -79,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T10:51:40.730883138Z
+updated_at: 2026-10-01T10:51:40.758474936Z

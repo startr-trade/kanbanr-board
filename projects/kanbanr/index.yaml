@@ -113,7 +113,8 @@
   assignee: null
   team: null
   labels: []
-  depends_on: []
+  depends_on:
+  - FEAT-137
   done: 4
   total: 5
 - code: FEAT-001

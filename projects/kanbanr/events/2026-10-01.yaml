@@ -7,3 +7,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-10-01T01:15:51.332959377Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-132
+  message: feature FEAT-132 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

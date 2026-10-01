@@ -1,6 +1,6 @@
 code: FEAT-132
 title: 'Defect: dependency advisories in the binary, the monitor and the tests'
-status: Planned
+status: In Progress
 milestone: MS-002
 kind: bug
 priority: high
@@ -62,5 +62,9 @@ definition:
     verdict: approved
     rev: a71b940c76e1c72a
     status: Planned
+history:
+- at: 2026-10-01T01:15:51.308865787Z
+  from: Planned
+  to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:15:29.052982841Z
+updated_at: 2026-10-01T01:15:51.308865787Z

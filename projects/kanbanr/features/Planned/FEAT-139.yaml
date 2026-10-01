@@ -1,0 +1,16 @@
+code: FEAT-139
+title: 'Defect: the Claude Code plugin manifest fails validation'
+status: Planned
+milestone: MS-002
+kind: bug
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-01T07:43:15.76298828Z
+updated_at: 2026-10-01T07:43:15.782077317Z

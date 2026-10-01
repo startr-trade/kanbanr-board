@@ -18,3 +18,7 @@
   actor: Venkatraman B
   message: test make scan-deps exits 0 of FEAT-132/R-3 is now green
   item: FEAT-132
+- time: 2026-10-01T01:31:04.454940252Z
+  actor: Venkatraman B
+  message: test make ci passes after the upgrades of FEAT-132/R-4 is now green
+  item: FEAT-132

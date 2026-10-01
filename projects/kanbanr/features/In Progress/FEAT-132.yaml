@@ -51,7 +51,7 @@ definition:
     tests:
     - name: make ci passes after the upgrades
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T01:15:29.052982841Z
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.42743308Z
+updated_at: 2026-10-01T01:31:04.452159552Z

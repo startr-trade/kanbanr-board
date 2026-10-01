@@ -1,6 +1,6 @@
 code: FEAT-142
 title: 'Defect: a board cannot reach GitHub, and its batched push never fires'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: high
@@ -77,5 +77,9 @@ defect:
   found_in: production
   root_cause: the debounce count was kept in process memory, and each CLI command is a new process
   escaped: true
+history:
+- at: 2026-10-01T11:06:07.574494172Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:05:41.368545794Z
+updated_at: 2026-10-01T11:06:07.574494172Z

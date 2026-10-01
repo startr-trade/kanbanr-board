@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release's progress counted by the same rule as the sprint's, for teams planning releases, so that the Releases page and the sprint agree on what is finished
+  goals:
+  - G-2
+  - G-0
+  zachman:
+    what: The finished count and percentage of each release
+    how: The releases route computes them with ProjectConfig::counts_as_done; the page shows what the server says
+    where: kanbanr-core releases.rs and dispatch.rs; web/src/pages/ReleasesPage.tsx
+    when: Whenever the Releases page is shown
+    who: Teams using releases
+    why: A Done item in a planned scrum release showed as 0% finished, contradicting the sprint
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release is reported, THE SYSTEM SHALL count an item as finished when it is at an end status or a stage marked done.
+    tests:
+    - name: releases::tests::a_release_counts_done_items_as_finished
+      kind: unit
+      state: planned
 created_at: 2026-10-01T07:06:42.762906262Z
-updated_at: 2026-10-01T07:06:42.778183171Z
+updated_at: 2026-10-01T07:06:42.804515635Z

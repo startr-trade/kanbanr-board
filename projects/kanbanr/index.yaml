@@ -27,20 +27,6 @@
   - FEAT-133
   done: 0
   total: 0
-- code: FEAT-137
-  status: In Progress
-  milestone: MS-008
-  kind: bug
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002
@@ -117,6 +103,20 @@
   - FEAT-133
   done: 4
   total: 5
+- code: FEAT-137
+  status: In Progress
+  milestone: MS-008
+  kind: bug
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

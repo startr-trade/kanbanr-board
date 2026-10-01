@@ -31,7 +31,7 @@ definition:
     tests:
     - name: sprints::tests::a_stage_marked_done_burns_down_the_day_it_is_reached
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE no stage is marked as done, THE SYSTEM SHALL count the end statuses, as before.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:37:16.840274229Z
+updated_at: 2026-10-01T06:43:40.701112944Z

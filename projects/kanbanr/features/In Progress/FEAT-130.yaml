@@ -38,7 +38,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 'Waits on FEAT-132: supply-chain and scan-deps fail on its findings'
-    state: NotStarted
+    state: Completed
   - key: T8
     text: 'Sabotage: planted AWS key -> scan-deps CRITICAL secret, exit 1; MIT removed from the allowlist -> cargo deny licenses FAILED; the advisories FEAT-132 fixed had failed both gates before; make ci (with FEAT-132): all 42 pass; action lookups retried after one transient miss'
     state: NotStarted
@@ -127,4 +127,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-10-01T01:37:49.405053414Z
+updated_at: 2026-10-01T01:37:49.428853888Z

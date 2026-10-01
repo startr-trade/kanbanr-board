@@ -328,3 +328,7 @@
   actor: Venkatraman B
   message: test a sweep of every blob and commit message of the rewritten board for docs/sessions, the private terms and local paths finds nothing; doctor is clean; a backup bundle exists of FEAT-136/R-1 is now green
   item: FEAT-136
+- time: 2026-10-01T06:32:53.088534761Z
+  actor: Venkatraman B
+  message: test the README section links the board, the charter, an item definition, the ADRs, the retros and lessons, and shows kanbanr why on a real line of FEAT-136/R-2 is now green
+  item: FEAT-136

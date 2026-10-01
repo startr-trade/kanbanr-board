@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-10-01T11:30:27.124589022Z
 definition:
   statement: A board that reaches its remote, pushed as its owner chose, for anyone sharing a board through GitHub or any git host, so that a shared board does not silently fall behind
   goals:
@@ -82,4 +86,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:30:27.097266058Z
+updated_at: 2026-10-01T11:30:27.124592592Z

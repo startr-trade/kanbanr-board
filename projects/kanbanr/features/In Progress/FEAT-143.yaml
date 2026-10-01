@@ -47,8 +47,14 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-10-01T18:59:30.526072616Z
-    rev: 528738c10e52db00
+    at: 2026-10-01T19:12:41.533806324Z
+    rev: 512e4adfcc276fa0
+  approvals:
+  - at: 2026-10-01T19:12:41.533806324Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 512e4adfcc276fa0
+    status: In Progress
 defect:
   severity: medium
   introduced_by: FEAT-024
@@ -61,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T18:57:07.468671765Z
-updated_at: 2026-10-01T19:12:28.572898519Z
+updated_at: 2026-10-01T19:12:41.533806324Z

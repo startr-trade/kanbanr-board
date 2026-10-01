@@ -1,6 +1,6 @@
 code: FEAT-135
 title: Session summaries live beside the board, never in its history
-status: Planned
+status: In Progress
 milestone: MS-006
 kind: feature
 priority: high
@@ -49,5 +49,9 @@ definition:
     verdict: approved
     rev: efd846edf369b0c9
     status: Planned
+history:
+- at: 2026-10-01T06:18:32.394715943Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:18:12.937948494Z
+updated_at: 2026-10-01T06:18:32.394715943Z

@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-10-01T01:31:04.479988466Z
 definition:
   statement: Dependencies with no known vulnerability or unsoundness in what kanbanr ships, for everyone who installs it, so that the first public release does not carry advisories its own CI now reports
   goals:
@@ -67,4 +71,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.452159552Z
+updated_at: 2026-10-01T01:31:04.479993271Z

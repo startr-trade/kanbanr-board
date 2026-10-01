@@ -1,6 +1,6 @@
 code: FEAT-135
 title: Session summaries live beside the board, never in its history
-status: In Progress
+status: Completed
 milestone: MS-006
 kind: feature
 priority: high
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: hooks README + changelog; make ci all 42 pass
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T06:24:12.272955036Z
 definition:
   statement: Session summaries kept beside the board but out of its history, for anyone whose board is shared through a remote, so that a condensed conversation is never published by the act of recording work
@@ -66,5 +66,8 @@ history:
 - at: 2026-10-01T06:18:32.394715943Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T06:24:12.442143299Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:24:12.412868764Z
+updated_at: 2026-10-01T06:24:12.442143299Z

@@ -39,5 +39,15 @@ definition:
     - name: git::tests::a_board_ignores_its_session_summaries
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T06:18:12.937948494Z
+    rev: efd846edf369b0c9
+  approvals:
+  - at: 2026-10-01T06:18:12.937948494Z
+    by: Venkatraman B
+    verdict: approved
+    rev: efd846edf369b0c9
+    status: Planned
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:16:30.523341982Z
+updated_at: 2026-10-01T06:18:12.937948494Z

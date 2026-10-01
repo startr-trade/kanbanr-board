@@ -1,6 +1,6 @@
 code: FEAT-141
 title: 'One install: the program carries its skill, and the installer installs both'
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: feature
 priority: high
@@ -30,7 +30,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: README, installation chapter, command reference, changelog; make ci 45/45
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T12:36:54.040368547Z
 definition:
   statement: One install that brings the kanbanr program and its matching skill, for anyone starting with kanbanr, so that setting it up is one command and the skill always describes the program it drives
@@ -94,5 +94,8 @@ history:
 - at: 2026-10-01T12:27:33.016086783Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T12:37:01.780479577Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:37:01.744102064Z
+updated_at: 2026-10-01T12:37:01.780479577Z

@@ -45,6 +45,16 @@ definition:
     - name: 'following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T07:44:04.361976163Z
+    rev: f9721d5c50cfe890
+  approvals:
+  - at: 2026-10-01T07:44:04.361976163Z
+    by: Venkatraman B
+    verdict: approved
+    rev: f9721d5c50cfe890
+    status: Planned
 defect:
   severity: high
   introduced_by: FEAT-023
@@ -52,4 +62,4 @@ defect:
   root_cause: skills used ${CLAUDE_PLUGIN_ROOT}, which is only expanded in hook commands; nothing validated the manifests
   escaped: true
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T07:43:44.316308256Z
+updated_at: 2026-10-01T07:44:04.361976163Z

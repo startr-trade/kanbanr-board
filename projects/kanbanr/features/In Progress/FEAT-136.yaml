@@ -28,7 +28,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 'Code: committed .kanbanr; api/.kanbanr removed; claude.rs names the board''s remote (unit test); README ''Developed with kanbanr''; contributing ''Reading the project''s board''; make ci 42/42; fresh side-by-side clones work'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'Maintainer: create startr-trade/kanbanr-board (public), add the remote, push main, apply the settings checklist'
     state: NotStarted
@@ -84,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:32:53.302558903Z
+updated_at: 2026-10-01T06:32:53.328159837Z

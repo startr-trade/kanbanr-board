@@ -1111,3 +1111,7 @@
   actor: Venkatraman B
   message: test the changelog has a dated 0.1.1 section with FEAT-144 and FEAT-145, and 0.1.0 dated 2026-10-01 of FEAT-146/R-2 is now green
   item: FEAT-146
+- time: 2026-10-01T20:41:56.567301903Z
+  actor: Venkatraman B
+  message: test the v0.1.1 release run passes, and the GHCR image passes scripts/check-image.sh at the tag of FEAT-146/R-1 is now green
+  item: FEAT-146

@@ -39,6 +39,9 @@ todo_lists:
   - key: T7
     text: 'Waits on FEAT-132: supply-chain and scan-deps fail on its findings'
     state: NotStarted
+  - key: T8
+    text: 'Sabotage: planted AWS key -> scan-deps CRITICAL secret, exit 1; MIT removed from the allowlist -> cargo deny licenses FAILED; the advisories FEAT-132 fixed had failed both gates before; make ci (with FEAT-132): all 42 pass; action lookups retried after one transient miss'
+    state: NotStarted
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
   statement: Security scanning and lean CI runs for the kanbanr repository, for the maintainer and anyone installing a release, so that a vulnerable dependency, a leaked secret or an insecure pattern is reported before it ships and CI spends its minutes once per change
@@ -124,4 +127,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-10-01T01:37:49.382281522Z
+updated_at: 2026-10-01T01:37:49.405053414Z

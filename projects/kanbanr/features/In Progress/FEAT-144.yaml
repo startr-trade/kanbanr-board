@@ -53,9 +53,10 @@ defect:
   found_in: production
   root_cause: .dockerignore excludes .git and the Dockerfile passes no commit; build date has no override; only the archives' --version is checked
   escaped: false
+  fixed_by: a850d9f
 history:
 - at: 2026-10-01T19:29:39.208811215Z
   from: Planned
   to: In Progress
 created_at: 2026-10-01T19:27:28.607911802Z
-updated_at: 2026-10-01T19:33:09.681273286Z
+updated_at: 2026-10-01T19:33:21.63399518Z

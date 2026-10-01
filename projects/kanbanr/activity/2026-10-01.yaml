@@ -1080,3 +1080,7 @@
   actor: Venkatraman B
   message: test kanbanr skill install in the image built by make ci writes the repository's SKILL.md of FEAT-145/R-1 is now green
   item: FEAT-145
+- time: 2026-10-01T19:40:13.847737284Z
+  actor: Venkatraman B
+  message: test the image check fails on an image built without skill/ of FEAT-145/R-2 is now green
+  item: FEAT-145

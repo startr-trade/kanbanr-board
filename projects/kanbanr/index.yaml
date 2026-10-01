@@ -103,7 +103,7 @@
   done: 8
   total: 9
 - code: FEAT-133
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: feature
   priority: medium
@@ -114,7 +114,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 3
+  done: 4
   total: 4
 - code: FEAT-001
   status: Completed

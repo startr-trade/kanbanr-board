@@ -53,7 +53,7 @@ definition:
     tests:
     - name: self_update::tests::the_skill_follows_the_program
       kind: unit
-      state: planned
+      state: green
   - id: R-5
     kind: functional
     text: IF a session starts in a tracked project and the kanbanr program is not installed, THEN THE SYSTEM SHALL say how to install it.
@@ -76,4 +76,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:36:53.928516205Z
+updated_at: 2026-10-01T12:36:53.964727088Z

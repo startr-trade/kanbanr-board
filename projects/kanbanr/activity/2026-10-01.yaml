@@ -905,3 +905,7 @@
   actor: Venkatraman B
   message: test installer run in a container with a stub claude on PATH writes ~/.claude/skills/kanbanr; with --no-skill it does not; without claude it prints the command of FEAT-141/R-3 is now green
   item: FEAT-141
+- time: 2026-10-01T12:36:53.966661515Z
+  actor: Venkatraman B
+  message: test self_update::tests::the_skill_follows_the_program of FEAT-141/R-4 is now green
+  item: FEAT-141

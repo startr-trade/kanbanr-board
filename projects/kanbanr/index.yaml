@@ -55,7 +55,7 @@
   done: 6
   total: 7
 - code: FEAT-130
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: chore
   priority: high
@@ -69,7 +69,7 @@
   - FEAT-129
   - FEAT-131
   - FEAT-132
-  done: 7
+  done: 8
   total: 8
 - code: FEAT-001
   status: Completed

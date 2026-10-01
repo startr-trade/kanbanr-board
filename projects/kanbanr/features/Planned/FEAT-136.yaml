@@ -14,5 +14,41 @@ depends_on:
 - FEAT-135
 - FEAT-133
 todo_lists: []
+definition:
+  statement: kanbanr's own board published and linked from its code, for anyone evaluating or contributing to kanbanr, so that the project visibly runs its own development with the tool
+  goals:
+  - G-1
+  - G-2
+  - G-4
+  - G-5
+  zachman:
+    what: A sanitised public board repository, and the references in the code repository that lead to it
+    how: Back up, move session summaries out, rewrite the board's history without them and without private terms, verify; then README, contributing, CLAUDE.md and a committed .kanbanr point at it
+    where: the kanbanr-board repository; README.md, .kanbanr, docs/src/project/contributing.md, the CLAUDE.md block (kanbanr-core claude.rs)
+    when: Before the project is announced
+    who: Evaluators, contributors and their Claude sessions
+    why: The board is the evidence that kanbanr manages itself, and it is private, unpublishable as it stands, and referenced nowhere
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the board is prepared for publishing, THE SYSTEM SHALL leave no session summary and no private term in any file or commit of its history.
+    tests:
+    - name: a sweep of every blob and commit message of the rewritten board for docs/sessions, the private terms and local paths finds nothing; doctor is clean; a backup bundle exists
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL show, from its README, that kanbanr is developed with kanbanr, linking the public board and each kind of evidence on it.
+    tests:
+    - name: the README section links the board, the charter, an item definition, the ADRs, the retros and lessons, and shows kanbanr why on a real line
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN the code repository is cloned beside the board, THE SYSTEM SHALL resolve the board with no further setup.
+    tests:
+    - name: 'fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup'
+      kind: manual
+      state: planned
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:16:30.560890791Z
+updated_at: 2026-10-01T06:16:30.584702909Z

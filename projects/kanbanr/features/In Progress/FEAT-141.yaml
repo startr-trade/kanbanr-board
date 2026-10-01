@@ -60,7 +60,7 @@ definition:
     tests:
     - name: session-start.sh with no kanbanr on PATH prints the install command once
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:53:12.091902515Z
@@ -76,4 +76,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:36:53.964727088Z
+updated_at: 2026-10-01T12:36:54.002103094Z

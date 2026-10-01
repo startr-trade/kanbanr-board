@@ -909,3 +909,7 @@
   actor: Venkatraman B
   message: test self_update::tests::the_skill_follows_the_program of FEAT-141/R-4 is now green
   item: FEAT-141
+- time: 2026-10-01T12:36:54.00391887Z
+  actor: Venkatraman B
+  message: test session-start.sh with no kanbanr on PATH prints the install command once of FEAT-141/R-5 is now green
+  item: FEAT-141

@@ -19,7 +19,7 @@ definition:
   zachman:
     what: The plugin and marketplace manifests, and the install instructions
     how: A relative skills path, no unknown keys, accurate descriptions and licence, the real marketplace name, and a validation step in make ci
-    where: .claude-plugin/plugin.json, .claude-plugin/marketplace.json, .claude-plugin/README.md, docs/src/project/open-sourcing.md, scripts/ci_local.py
+    where: .claude-plugin/plugin.json, .claude-plugin/marketplace.json, .claude-plugin/README.md, docs/src/project/open-sourcing.md, scripts/ci_local.py, README.md, docs/src/getting-started/installation.md
     when: When a user adds the marketplace and installs the plugin; on every make ci
     who: Claude Code users installing kanbanr
     why: claude plugin validate fails on the skills path, so the plugin cannot be installed
@@ -38,6 +38,13 @@ definition:
     - name: make ci runs claude plugin validate and fails on a broken skills path
       kind: manual
       state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL document, in its README quick start and its installation chapter, how to install the skill into Claude Code, as a plugin and without one.
+    tests:
+    - name: 'following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board'
+      kind: manual
+      state: planned
 defect:
   severity: high
   introduced_by: FEAT-023
@@ -45,4 +52,4 @@ defect:
   root_cause: skills used ${CLAUDE_PLUGIN_ROOT}, which is only expanded in hook commands; nothing validated the manifests
   escaped: true
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T07:43:44.286457551Z
+updated_at: 2026-10-01T07:43:44.316308256Z

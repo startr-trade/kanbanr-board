@@ -26,6 +26,9 @@ todo_lists:
   - key: T3
     text: 'Rewording FEAT-088''s definition lapsed its ratification (approval is pinned to content): needs the maintainer to ratify again'
     state: NotStarted
+  - key: T4
+    text: 'Code: committed .kanbanr; api/.kanbanr removed; claude.rs names the board''s remote (unit test); README ''Developed with kanbanr''; contributing ''Reading the project''s board''; make ci 42/42; fresh side-by-side clones work'
+    state: NotStarted
   created_at: 2026-10-01T06:19:19.543034691Z
 definition:
   statement: kanbanr's own board published and linked from its code, for anyone evaluating or contributing to kanbanr, so that the project visibly runs its own development with the tool
@@ -78,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:32:53.162617658Z
+updated_at: 2026-10-01T06:32:53.188076858Z

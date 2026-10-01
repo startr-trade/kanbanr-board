@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: 'claude plugin validate .: passed, no warnings (plugin.json alone warns that a root CLAUDE.md is not plugin context — informational, the repository''s own CLAUDE.md)'
     state: NotStarted
+  - key: T3
+    text: make ci validates the plugin where claude is installed (sabotaged path fails it); 44/44 pass
+    state: NotStarted
   created_at: 2026-10-01T10:51:40.64969308Z
 definition:
   statement: A Claude Code plugin manifest that validates and installs, for anyone adding kanbanr to Claude Code from its marketplace, so that the one-step install the docs describe actually works
@@ -76,4 +79,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T10:51:40.703509895Z
+updated_at: 2026-10-01T10:51:40.730883138Z

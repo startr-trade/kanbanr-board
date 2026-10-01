@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Session summaries kept beside the board but out of its history, for anyone whose board is shared through a remote, so that a condensed conversation is never published by the act of recording work
+  goals:
+  - G-1
+  - G-0
+  zachman:
+    what: Where a session summary is written, and the board's ignore rules
+    how: Write summaries as files under <board>/.sessions/<project>/ instead of board docs; add .sessions/ to every data repository's .gitignore
+    where: skill/kanbanr/hooks/summarise_session.py, kanbanr-core git.rs (ignored entries), skill/kanbanr/SKILL.md, skill/kanbanr/hooks/README.md, docs
+    when: At compaction, at the end of a session, and at the next session start's sweep
+    who: Anyone sharing a board; the maintainer publishing kanbanr's own
+    why: Summaries were committed and pushed with the board, and every one of kanbanr's own carries text that must stay private
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a session summary is saved, THE SYSTEM SHALL write it under the board's .sessions folder and not commit it.
+    tests:
+    - name: summarise_session.py compact on a scratch board writes .sessions/<project>/<name>.md, and git status there shows nothing to commit
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL keep .sessions/ out of every data repository's git history.
+    tests:
+    - name: git::tests::a_board_ignores_its_session_summaries
+      kind: unit
+      state: planned
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:16:30.493968215Z
+updated_at: 2026-10-01T06:16:30.523341982Z

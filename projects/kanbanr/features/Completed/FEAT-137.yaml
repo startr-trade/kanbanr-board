@@ -1,6 +1,6 @@
 code: FEAT-137
 title: Sprint burndown counts the Definition of Done, not only release
-status: In Progress
+status: Completed
 milestone: MS-008
 kind: bug
 priority: medium
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Docs (processes) + changelog; make ci 42/42
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T06:43:40.776765091Z
 definition:
   statement: A sprint burndown that drops as items reach the team's Definition of Done, for teams using sprints, so that it shows progress through the sprint rather than a single step on release day
@@ -73,5 +73,8 @@ history:
 - at: 2026-10-01T06:37:16.840274229Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T06:43:40.946906596Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:43:40.920693664Z
+updated_at: 2026-10-01T06:43:40.946906596Z

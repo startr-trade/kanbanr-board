@@ -1,6 +1,6 @@
 code: FEAT-137
 title: Sprint burndown counts the Definition of Done, not only release
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: bug
 priority: medium
@@ -56,5 +56,9 @@ definition:
     verdict: approved
     rev: 6f684ec200296e3b
     status: Planned
+history:
+- at: 2026-10-01T06:37:16.840274229Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:37:06.871602132Z
+updated_at: 2026-10-01T06:37:16.840274229Z

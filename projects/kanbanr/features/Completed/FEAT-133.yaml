@@ -66,7 +66,7 @@ definition:
     tests:
     - name: favicon rendered at 16 and 32 px on light and dark backgrounds, inspected
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN the screenshots are regenerated, THE SYSTEM SHALL show the current monitor, including the sprint header with its burndown, the Releases page and the Gantt with sprints and releases.
@@ -101,4 +101,4 @@ history:
   from: Completed
   to: Completed
 created_at: 2026-10-01T05:19:40.254258018Z
-updated_at: 2026-10-01T07:06:30.028971694Z
+updated_at: 2026-10-01T07:06:30.056479959Z

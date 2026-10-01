@@ -988,3 +988,7 @@
   actor: Venkatraman B
   message: test make ci reports PUBLISH_CRATES held as a secret of FEAT-143/R-3 is now green
   item: FEAT-143
+- time: 2026-10-01T19:12:17.637759867Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-143
+  item: FEAT-143

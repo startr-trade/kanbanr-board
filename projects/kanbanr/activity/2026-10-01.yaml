@@ -1119,3 +1119,7 @@
   actor: Venkatraman B
   message: move feature FEAT-146
   item: FEAT-146
+- time: 2026-10-01T20:46:17.76226928Z
+  actor: Venkatraman B
+  message: 'test following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board of FEAT-139/R-3 is now green'
+  item: FEAT-139

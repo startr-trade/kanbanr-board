@@ -66,7 +66,7 @@ definition:
     tests:
     - name: 'following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:44:04.361976163Z
@@ -88,4 +88,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T12:32:38.466978307Z
+updated_at: 2026-10-01T20:46:17.759609983Z

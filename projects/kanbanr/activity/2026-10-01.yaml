@@ -610,3 +610,7 @@
   actor: Venkatraman B
   message: 'test check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render of FEAT-140/R-1 is now green'
   item: FEAT-140
+- time: 2026-10-01T10:48:25.281343415Z
+  actor: Venkatraman B
+  message: test make codeql reports no js/xss alert in web/src; the GitHub alert closes after the push of FEAT-140/R-2 is now red
+  item: FEAT-140

@@ -1,3 +1,12 @@
+- id: L-34
+  lesson: 'A workflow step make ci cannot run is still checkable: run its script in the same container image, under the shell GitHub will use (sh in a container job, not bash)'
+  kind: pitfall
+  at: 2026-10-01T19:12:21.995794993Z
+  from_item: FEAT-143
+  evidence: v0.1.0 verify-install used ${GITHUB_SHA:0:12}; dash stopped with Bad substitution; actionlint shellchecks as bash and passed it
+  confidence: 0.6
+  last_affirmed: 2026-10-01T19:12:21.995794993Z
+  status: candidate
 - id: L-33
   lesson: Never judge a command's result by the exit status of a pipeline it feeds — 'cmd | tail' reports tail's status; read the command's own output or use set -o pipefail
   kind: pitfall

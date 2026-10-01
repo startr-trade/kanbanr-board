@@ -789,3 +789,7 @@
   actor: Venkatraman B
   message: test backend::tests::the_board_setting_applies_and_the_environment_overrides_it of FEAT-142/R-4 is now green
   item: FEAT-142
+- time: 2026-10-01T11:30:10.846306891Z
+  actor: Venkatraman B
+  message: test doctor::tests::a_board_far_ahead_of_its_remote_is_reported of FEAT-142/R-5 is now green
+  item: FEAT-142

@@ -60,7 +60,7 @@ definition:
     tests:
     - name: doctor::tests::a_board_far_ahead_of_its_remote_is_reported
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T11:05:41.368545794Z
@@ -82,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:30:10.812591496Z
+updated_at: 2026-10-01T11:30:10.84457797Z

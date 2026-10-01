@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: summarise_session.py writes <board>/.sessions/<project>/ via kanbanr where --json; no commit; exclusion list still applied (scratch-board probe)
-    state: NotStarted
+    state: Completed
   - key: T3
     text: hooks README + changelog; make ci all 42 pass
     state: NotStarted
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:24:12.386221523Z
+updated_at: 2026-10-01T06:24:12.412868764Z

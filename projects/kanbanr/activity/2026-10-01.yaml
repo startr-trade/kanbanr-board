@@ -368,3 +368,7 @@
   actor: Venkatraman B
   message: update task T4 (FEAT-136/TL-001)
   item: FEAT-136
+- time: 2026-10-01T06:37:06.066002749Z
+  actor: Venkatraman B
+  message: ratify FEAT-088 — built under a recorded bypass, agreed to after the fact
+  item: FEAT-088

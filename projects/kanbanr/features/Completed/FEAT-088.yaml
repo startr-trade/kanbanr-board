@@ -115,8 +115,8 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-09-28T17:24:36.795897695Z
-    rev: 427f8cfe510c1b46
+    at: 2026-10-01T06:37:06.063814814Z
+    rev: c0b8936c3c58ff20
   approvals:
   - at: 2026-09-28T17:11:46.732678156Z
     by: Venkatraman B
@@ -126,6 +126,11 @@ definition:
     by: Venkatraman B
     verdict: approved
     rev: 427f8cfe510c1b46
+  - at: 2026-10-01T06:37:06.063814814Z
+    by: Venkatraman B
+    verdict: ratified
+    rev: c0b8936c3c58ff20
+    status: Completed
   started_unapproved: 'auto-pilot: the user asked for it directly — ''Please do a self-update feature. It should look at the checksum represented by the current version against the checksum in github'''
 history:
 - at: 2026-09-28T16:57:41.584717368Z
@@ -135,4 +140,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T16:57:32.036471598Z
-updated_at: 2026-09-28T17:36:33.167116564Z
+updated_at: 2026-10-01T06:37:06.063814814Z

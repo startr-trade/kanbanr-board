@@ -1107,3 +1107,7 @@
   actor: Venkatraman B
   message: move feature FEAT-146
   item: FEAT-146
+- time: 2026-10-01T19:50:21.78158199Z
+  actor: Venkatraman B
+  message: test the changelog has a dated 0.1.1 section with FEAT-144 and FEAT-145, and 0.1.0 dated 2026-10-01 of FEAT-146/R-2 is now green
+  item: FEAT-146

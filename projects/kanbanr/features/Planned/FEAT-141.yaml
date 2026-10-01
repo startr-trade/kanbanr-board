@@ -1,0 +1,17 @@
+code: FEAT-141
+title: 'One install: the program carries its skill, and the installer installs both'
+status: Planned
+milestone: MS-002
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-139
+todo_lists: []
+created_at: 2026-10-01T07:52:12.269454347Z
+updated_at: 2026-10-01T07:52:12.285207199Z

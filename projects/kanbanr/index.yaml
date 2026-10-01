@@ -54,6 +54,21 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-141
+  status: Planned
+  milestone: MS-002
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on:
+  - FEAT-139
+  done: 0
+  total: 0
 - code: FEAT-014
   status: In Progress
   milestone: MS-002

@@ -21,7 +21,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: kanbanr skill install|status|uninstall; self-update asks the NEW binary to update a skill kanbanr installed (unit test with a stub binary)
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'install.sh / install.ps1: skill step when claude is on PATH, --no-skill / KANBANR_NO_SKILL, hint otherwise; header promise reworded. R-3 proven by a CI step that runs install.sh''s own skill block against stub kanbanr/claude in three cases (sabotage fails it) — the full download path waits for v0.1.0'
     state: NotStarted
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:37:01.627480237Z
+updated_at: 2026-10-01T12:37:01.666121452Z

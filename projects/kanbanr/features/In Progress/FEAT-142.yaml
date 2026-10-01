@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: PushPolicy, its resolution (KANBANR_PUSH > board kanbanr.push > default) and after_commit/push_pending moved into core; the CLI and the daemon share them (two copies removed)
     state: NotStarted
+  - key: T3
+    text: ahead_of_remotes counts from git; a failed push keeps the board marked; sync says pushed / up to date / failed (non-zero exit); kanbanr remote push-policy; doctor warns past the threshold
+    state: NotStarted
   created_at: 2026-10-01T11:30:27.124589022Z
 definition:
   statement: A board that reaches its remote, pushed as its owner chose, for anyone sharing a board through GitHub or any git host, so that a shared board does not silently fall behind
@@ -92,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:30:27.179801503Z
+updated_at: 2026-10-01T11:30:27.209025824Z

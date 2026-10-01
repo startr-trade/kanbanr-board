@@ -976,3 +976,7 @@
   actor: Venkatraman B
   message: move feature FEAT-143
   item: FEAT-143
+- time: 2026-10-01T19:12:14.133301635Z
+  actor: Venkatraman B
+  message: test the verify-install commit check passes under dash against a binary built from HEAD of FEAT-143/R-1 is now green
+  item: FEAT-143

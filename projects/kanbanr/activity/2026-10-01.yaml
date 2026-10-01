@@ -980,3 +980,7 @@
   actor: Venkatraman B
   message: test the verify-install commit check passes under dash against a binary built from HEAD of FEAT-143/R-1 is now green
   item: FEAT-143
+- time: 2026-10-01T19:12:14.184088666Z
+  actor: Venkatraman B
+  message: test make ci fails on the old verify-install step and passes on the fixed one of FEAT-143/R-2 is now green
+  item: FEAT-143

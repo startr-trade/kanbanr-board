@@ -1,3 +1,12 @@
+- id: L-35
+  lesson: 'Every way a binary is built needs the same provenance check: the image build had no .git and no check, so it shipped unknown while the archives were verified'
+  kind: pitfall
+  at: 2026-10-01T19:33:28.60958239Z
+  from_item: FEAT-144
+  evidence: ghcr.io/startr-trade/kanbanr:v0.1.0 printed (unknown, built unknown)
+  confidence: 0.6
+  last_affirmed: 2026-10-01T19:33:28.60958239Z
+  status: candidate
 - id: L-34
   lesson: 'A workflow step make ci cannot run is still checkable: run its script in the same container image, under the shell GitHub will use (sh in a container job, not bash)'
   kind: pitfall

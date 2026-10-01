@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: make ci validates the plugin where claude is installed (sabotaged path fails it); 44/44 pass
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'Install docs: README quick start and the installation chapter''s ''Install the skill'' (plugin or clone); the open-sourcing guide''s <github-owner> placeholder replaced'
     state: NotStarted
@@ -85,4 +85,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T10:51:40.842346768Z
+updated_at: 2026-10-01T10:51:40.870179234Z

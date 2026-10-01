@@ -1,6 +1,6 @@
 code: FEAT-134
 title: README and docs describe kanbanr as it now is
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: docs
 priority: medium
@@ -27,7 +27,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: make ci 42/42; mdbook builds without warnings
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T07:14:07.122460827Z
 definition:
   statement: A README and docs that describe kanbanr as it now is, for a first-time visitor and a new user, so that what it is for and what it does is clear before anyone installs it
@@ -70,5 +70,8 @@ history:
 - at: 2026-10-01T07:06:48.176806592Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T07:14:07.302423185Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T05:52:16.32077709Z
-updated_at: 2026-10-01T07:14:07.279710449Z
+updated_at: 2026-10-01T07:14:07.302423185Z

@@ -36,7 +36,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 'make screenshots runs three passes: the real board, the portfolio demo, the Scrum demo; sprint.png, sprint-dark.png, releases.png, gantt-sprints.png, portfolio-dark.png new; all retaken'
-    state: NotStarted
+    state: Completed
   - key: T8
     text: README gallery and the processes chapter show the sprint, release and Gantt views; board description no longer points at a moved file
     state: NotStarted
@@ -98,4 +98,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-10-01T05:19:40.254258018Z
-updated_at: 2026-10-01T07:06:29.945055604Z
+updated_at: 2026-10-01T07:06:29.972232042Z

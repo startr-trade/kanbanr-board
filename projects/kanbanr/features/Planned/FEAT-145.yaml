@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A container image whose kanbanr carries the same Claude Code skill as the release archives, for anyone who takes kanbanr from GHCR, so that the image's binary is the program the release describes
+  goals:
+  - G-6
+  zachman:
+    what: The skill embedded in the binary inside the container image
+    how: Copy skill/ into the image's build stage, and check before the push that the image's kanbanr carries the skill and that it matches the one in the repository
+    where: docker/Dockerfile, .dockerignore, scripts/check-image-stamp.sh, .github/workflows/release.yml, scripts/ci_local.py
+    when: On every release image build, and on every make ci
+    who: Anyone running kanbanr from the GHCR image
+    why: The v0.1.0 image's kanbanr carries no skill, so it differs from the archives' program under the same version
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the container image is built, THE SYSTEM SHALL embed in its kanbanr the skill from the repository being built.
+    tests:
+    - name: kanbanr skill install in the image built by make ci writes the repository's SKILL.md
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF the image's kanbanr carries no skill or a different skill, THEN THE SYSTEM SHALL refuse to push the image.
+    tests:
+    - name: the image check fails on an image built without skill/
+      kind: manual
+      state: planned
 created_at: 2026-10-01T19:36:03.344537171Z
-updated_at: 2026-10-01T19:36:03.344537171Z
+updated_at: 2026-10-01T19:36:08.035812962Z

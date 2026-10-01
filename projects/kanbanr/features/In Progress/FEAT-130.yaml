@@ -66,7 +66,7 @@ definition:
     tests:
     - name: make scan-deps reports a planted fake secret and a known-vulnerable lockfile entry, and is clean without them
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: IF a dependency has a known vulnerability or a licence outside the allowlist, THEN THE SYSTEM SHALL fail the CI run.
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:30:22.721509412Z
-updated_at: 2026-09-30T18:53:44.479812702Z
+updated_at: 2026-10-01T01:37:49.356783951Z

@@ -52,7 +52,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 7
+  done: 8
   total: 9
 - code: FEAT-130
   status: In Progress

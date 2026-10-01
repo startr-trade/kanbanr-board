@@ -30,7 +30,7 @@ definition:
     tests:
     - name: the image built by make ci reports the HEAD commit and its date
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: IF the image's kanbanr reports an unknown commit or date, THEN THE SYSTEM SHALL refuse to push the image.
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T19:27:28.607911802Z
-updated_at: 2026-10-01T19:29:39.208811215Z
+updated_at: 2026-10-01T19:33:09.640262604Z

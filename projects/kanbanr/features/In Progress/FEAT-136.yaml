@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'Remove the stray tracked api/.kanbanr (project ''demo'', committed with FEAT-036 in June): inside api/ it points kanbanr at a ./data board'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'Board: bundle backup (archive/kanbanr-board.before-sanitise-2026-10-01.bundle); 11 summaries moved to .sessions/kanbanr/ (ignored); docs/sessions removed from all 1192 commits; private terms and local paths replaced in files and messages; sweep: 0 hits; branch renamed master -> main'
     state: NotStarted
@@ -84,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:32:53.222929306Z
+updated_at: 2026-10-01T06:32:53.250618104Z

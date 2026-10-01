@@ -40,5 +40,15 @@ definition:
     - name: every top-level command and every subcommand of sprint, release, signoff and config appears as `kanbanr <cmd>` in docs/src
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T05:54:33.667118689Z
+    rev: f6cc0884d5124823
+  approvals:
+  - at: 2026-10-01T05:54:33.667118689Z
+    by: Venkatraman B
+    verdict: approved
+    rev: f6cc0884d5124823
+    status: Planned
 created_at: 2026-10-01T05:52:16.32077709Z
-updated_at: 2026-10-01T05:52:16.370492463Z
+updated_at: 2026-10-01T05:54:33.667118689Z

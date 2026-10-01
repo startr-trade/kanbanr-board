@@ -39,6 +39,9 @@ todo_lists:
   - key: T8
     text: 'Windows run on 82b33fd: 3 tests left. Markers written with backslashes (unreadable elsewhere) -> forward slashes; canonicalize''s \\?\ prefix leaked into messages -> stripped in normalize; two test checks assumed Unix (.claude/settings.json wording, a hook command starting with the home path). Unit test for both path forms (sabotage fails it); make ci all 42 pass'
     state: Completed
+  - key: T9
+    text: 'Windows run on c6761b6: 6 kanbanr-core tests. Five compared against raw canonicalize (still verbatim) after normalize stopped returning it — I missed the test helper when grepping; one expected ''/'' as the root (D:\ on Windows). Fixed both; CI tests now --no-fail-fast so every binary''s failures show in one run; scanned view_daemon and kanbanr-server tests (never yet run on Windows) for Unix assumptions: none found'
+    state: NotStarted
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
   statement: A CI run on main that is green on Linux, macOS and Windows, for the maintainer about to publish, so that a red build means a real regression and not a gap between the runner and the laptop
@@ -95,4 +98,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T17:29:55.798312698Z
-updated_at: 2026-10-01T02:55:37.538423346Z
+updated_at: 2026-10-01T04:15:40.607473406Z

@@ -53,7 +53,7 @@
   labels: []
   depends_on: []
   done: 7
-  total: 8
+  total: 9
 - code: FEAT-130
   status: In Progress
   milestone: MS-002

@@ -384,3 +384,7 @@
   actor: Venkatraman B
   message: test sprints::tests::a_stage_marked_done_burns_down_the_day_it_is_reached of FEAT-137/R-1 is now green
   item: FEAT-137
+- time: 2026-10-01T06:43:40.728966574Z
+  actor: Venkatraman B
+  message: test sprints::tests::without_a_marked_stage_the_end_statuses_count of FEAT-137/R-2 is now green
+  item: FEAT-137

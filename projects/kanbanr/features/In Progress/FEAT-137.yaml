@@ -38,7 +38,7 @@ definition:
     tests:
     - name: sprints::tests::without_a_marked_stage_the_end_statuses_count
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL mark Done as counting for the burndown in the scrum preset.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:43:40.701112944Z
+updated_at: 2026-10-01T06:43:40.72726355Z

@@ -273,3 +273,7 @@
   actor: Venkatraman B
   message: add task to FEAT-136/TL-001
   item: FEAT-136
+- time: 2026-10-01T06:24:12.221839845Z
+  actor: Venkatraman B
+  message: test summarise_session.py compact on a scratch board writes .sessions/<project>/<name>.md, and git status there shows nothing to commit of FEAT-135/R-1 is now green
+  item: FEAT-135

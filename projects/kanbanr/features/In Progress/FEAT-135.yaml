@@ -31,7 +31,7 @@ definition:
     tests:
     - name: summarise_session.py compact on a scratch board writes .sessions/<project>/<name>.md, and git status there shows nothing to commit
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL keep .sessions/ out of every data repository's git history.
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:18:32.394715943Z
+updated_at: 2026-10-01T06:24:12.219871273Z

@@ -1,3 +1,15 @@
+- id: L-33
+  lesson: Never judge a command's result by the exit status of a pipeline it feeds — 'cmd | tail' reports tail's status; read the command's own output or use set -o pipefail
+  kind: pitfall
+  at: 2026-10-01T10:45:04.891130375Z
+  from_item: FEAT-130
+  evidence: make codeql was run as 'time scripts/security-scan.sh codeql 2>&1 | tail -40'; exit 0 was read as 0 findings and recorded, while the JavaScript scan had found the XSS that GitHub then reported
+  tags:
+  - testing
+  - evidence
+  confidence: 0.6
+  last_affirmed: 2026-10-01T10:45:04.891130375Z
+  status: candidate
 - id: L-32
   lesson: When a change alters what a shared helper returns, grep the tests for the old behaviour too — a test that builds its expected value the old way fails only on the platform where the two differ
   kind: pitfall

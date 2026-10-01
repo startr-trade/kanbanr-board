@@ -984,3 +984,7 @@
   actor: Venkatraman B
   message: test make ci fails on the old verify-install step and passes on the fixed one of FEAT-143/R-2 is now green
   item: FEAT-143
+- time: 2026-10-01T19:12:14.22174984Z
+  actor: Venkatraman B
+  message: test make ci reports PUBLISH_CRATES held as a secret of FEAT-143/R-3 is now green
+  item: FEAT-143

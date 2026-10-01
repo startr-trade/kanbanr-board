@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: git2 0.19 -> 0.21 (cred feature for the credential helper; StringArray and shorthand/name now Result)
     state: NotStarted
+  - key: T3
+    text: 'testcontainers 0.23 -> 0.28: tokio-tar and rustls-pemfile gone; cargo audit 0 vulns 0 warnings; cargo deny (FEAT-130 policy) passes'
+    state: NotStarted
   created_at: 2026-10-01T01:31:04.479988466Z
 definition:
   statement: Dependencies with no known vulnerability or unsoundness in what kanbanr ships, for everyone who installs it, so that the first public release does not carry advisories its own CI now reports
@@ -77,4 +80,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.527189778Z
+updated_at: 2026-10-01T01:31:04.553204253Z

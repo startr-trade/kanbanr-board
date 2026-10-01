@@ -85,7 +85,7 @@
   depends_on:
   - FEAT-133
   done: 0
-  total: 2
+  total: 3
 - code: FEAT-136
   status: In Progress
   milestone: MS-002

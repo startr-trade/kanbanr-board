@@ -21,6 +21,9 @@ todo_lists:
   - key: T2
     text: 'Tests: marked stage burns on arrival and close carries only not-Done; unmarked keeps end statuses; preset marks Done (sabotage fails both)'
     state: NotStarted
+  - key: T3
+    text: Docs (processes) + changelog; make ci 42/42
+    state: NotStarted
   created_at: 2026-10-01T06:43:40.776765091Z
 definition:
   statement: A sprint burndown that drops as items reach the team's Definition of Done, for teams using sprints, so that it shows progress through the sprint rather than a single step on release day
@@ -71,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:43:40.830918413Z
+updated_at: 2026-10-01T06:43:40.863013475Z

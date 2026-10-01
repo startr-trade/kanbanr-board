@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Board documents and specs rendered without running anything they contain, for maintainers viewing a shared board in the monitor, so that a document someone else pushed cannot act in their browser
+  goals:
+  - G-0
+  zachman:
+    what: The HTML the monitor builds from markdown and Mermaid diagrams
+    how: Sanitise the rendered markdown and each diagram's SVG with DOMPurify before they reach the page
+    where: web/src/components/Markdown.tsx
+    when: Whenever the monitor shows an item's specification or a board document
+    who: Anyone viewing a board others can push to, above all with --allow-writes
+    why: CodeQL found DOM text reinterpreted as HTML; rendered markdown was never sanitised, and the monitor can write
+  requirements:
+  - id: R-1
+    kind: functional
+    text: 'WHEN the monitor renders markdown, THE SYSTEM SHALL remove scripts, event-handler attributes and javascript: URLs, and keep ordinary markdown.'
+    tests:
+    - name: 'check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render'
+      kind: unit
+      state: red
+  - id: R-2
+    kind: functional
+    text: WHEN code scanning analyses the monitor, THE SYSTEM SHALL report no cross-site-scripting alert.
+    tests:
+    - name: make codeql reports no js/xss alert in web/src; the GitHub alert closes after the push
+      kind: manual
+      state: red
 created_at: 2026-10-01T07:45:36.164926529Z
-updated_at: 2026-10-01T07:45:36.179877758Z
+updated_at: 2026-10-01T07:45:36.20804061Z

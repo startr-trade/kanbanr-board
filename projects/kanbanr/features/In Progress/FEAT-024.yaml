@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Secrets sweep (remove data/security.yaml; decide what data/ to publish); make repo public
-    state: InProgress
+    state: Completed
   - key: T4
     text: Reserve crate name; set up crates.io publishing (token or Trusted Publishing)
     state: NotStarted
@@ -170,4 +170,4 @@ definition:
     rev: ddfa2780e72c77de
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-10-01T12:32:38.356093923Z
+updated_at: 2026-10-01T12:32:38.393035721Z

@@ -12,7 +12,11 @@ team: null
 labels: []
 depends_on:
 - FEAT-133
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-10-01T07:14:07.122460827Z
 definition:
   statement: A README and docs that describe kanbanr as it now is, for a first-time visitor and a new user, so that what it is for and what it does is clear before anyone installs it
   goals:
@@ -55,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T05:52:16.32077709Z
-updated_at: 2026-10-01T07:14:07.099293071Z
+updated_at: 2026-10-01T07:14:07.122462909Z

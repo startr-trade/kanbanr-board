@@ -482,3 +482,7 @@
   actor: Venkatraman B
   message: test every top-level command and every subcommand of sprint, release, signoff and config appears as `kanbanr <cmd>` in docs/src of FEAT-134/R-2 is now green
   item: FEAT-134
+- time: 2026-10-01T07:14:07.123979441Z
+  actor: Venkatraman B
+  message: add todo-list to FEAT-134
+  item: FEAT-134

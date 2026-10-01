@@ -27,7 +27,7 @@
   done: 2
   total: 4
 - code: FEAT-139
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: bug
   priority: high
@@ -38,7 +38,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 5
+  done: 6
   total: 6
 - code: FEAT-001
   status: Completed

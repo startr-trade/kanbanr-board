@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: build
+  tasks: []
+  created_at: 2026-10-01T06:24:12.272955036Z
 definition:
   statement: Session summaries kept beside the board but out of its history, for anyone whose board is shared through a remote, so that a condensed conversation is never published by the act of recording work
   goals:
@@ -54,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.476416349Z
-updated_at: 2026-10-01T06:24:12.24512588Z
+updated_at: 2026-10-01T06:24:12.272960811Z

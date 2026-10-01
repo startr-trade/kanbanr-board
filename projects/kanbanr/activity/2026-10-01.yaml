@@ -388,3 +388,7 @@
   actor: Venkatraman B
   message: test sprints::tests::without_a_marked_stage_the_end_statuses_count of FEAT-137/R-2 is now green
   item: FEAT-137
+- time: 2026-10-01T06:43:40.753293611Z
+  actor: Venkatraman B
+  message: test config::tests::the_scrum_preset_counts_done_for_the_burndown of FEAT-137/R-3 is now green
+  item: FEAT-137

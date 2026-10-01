@@ -45,7 +45,7 @@ definition:
     tests:
     - name: config::tests::the_scrum_preset_counts_done_for_the_burndown
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:37:06.871602132Z
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:25:17.145587622Z
-updated_at: 2026-10-01T06:43:40.72726355Z
+updated_at: 2026-10-01T06:43:40.751358007Z

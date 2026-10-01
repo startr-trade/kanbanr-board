@@ -47,5 +47,11 @@ definition:
     - name: doctor::tests::a_board_far_ahead_of_its_remote_is_reported
       kind: unit
       state: planned
+defect:
+  severity: high
+  introduced_by: FEAT-034
+  found_in: production
+  root_cause: the debounce count was kept in process memory, and each CLI command is a new process
+  escaped: true
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:03:16.007283449Z
+updated_at: 2026-10-01T11:03:16.056632421Z

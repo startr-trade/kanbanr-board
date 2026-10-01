@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A container image whose kanbanr names the commit and date it was built from, for someone running the monitor from GHCR, so that the image can be matched against its release as the archives can
+  goals:
+  - G-6
+  zachman:
+    what: The commit and build date stamped into the binary inside the container image
+    how: Build arguments for the commit and its date, an environment override for the date in build.rs, and a --version check on the image before it is pushed
+    where: docker/Dockerfile, api/crates/kanbanr-cli/build.rs, .github/workflows/release.yml, scripts/ci_local.py
+    when: On every release image build, and on every make ci
+    who: Anyone running kanbanr from the GHCR image
+    why: The v0.1.0 image reports (unknown, built unknown), so nobody can tell which build it is
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the container image is built for a release, THE SYSTEM SHALL stamp its kanbanr with the commit and the commit date being released.
+    tests:
+    - name: the image built by make ci reports the HEAD commit and its date
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF the image's kanbanr reports an unknown commit or date, THEN THE SYSTEM SHALL refuse to push the image.
+    tests:
+    - name: the release image check fails on an image built without the build arguments
+      kind: manual
+      state: planned
 created_at: 2026-10-01T19:27:28.607911802Z
-updated_at: 2026-10-01T19:27:28.607911802Z
+updated_at: 2026-10-01T19:27:33.006924317Z

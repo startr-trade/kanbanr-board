@@ -95,7 +95,7 @@ todo_lists:
     state: Completed
   - key: T11
     text: 'Docs site is kanbanr.startr.trade: README, CONTRIBUTING and the plugin''s homepage point there'
-    state: NotStarted
+    state: Completed
   created_at: 2026-09-30T17:06:22.530638042Z
 definition:
   statement: A repository someone else can clone, trust and contribute to, for whoever finds this project, so that publishing it is a decision rather than a scramble
@@ -170,4 +170,4 @@ definition:
     rev: ddfa2780e72c77de
     status: In Progress
 created_at: 2026-06-12T07:04:50.266080455Z
-updated_at: 2026-10-01T05:49:26.270041682Z
+updated_at: 2026-10-01T05:49:26.294586845Z

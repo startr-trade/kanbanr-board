@@ -15,7 +15,10 @@ depends_on:
 todo_lists:
 - code: TL-001
   description: build
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'build.rs embeds skill/kanbanr; src/skill.rs: install (staged, swapped in, stamped, scripts executable) / status / uninstall; a link or unstamped folder is left alone (unit tests; this machine''s link reported, not touched)'
+    state: NotStarted
   created_at: 2026-10-01T12:36:54.040368547Z
 definition:
   statement: One install that brings the kanbanr program and its matching skill, for anyone starting with kanbanr, so that setting it up is one command and the skill always describes the program it drives
@@ -80,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:36:54.040370952Z
+updated_at: 2026-10-01T12:36:54.076853475Z

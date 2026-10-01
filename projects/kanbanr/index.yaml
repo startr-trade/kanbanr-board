@@ -41,7 +41,7 @@
   done: 5
   total: 6
 - code: FEAT-144
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: null
   priority: null

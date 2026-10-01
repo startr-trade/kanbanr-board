@@ -13,5 +13,53 @@ labels: []
 depends_on:
 - FEAT-139
 todo_lists: []
+definition:
+  statement: One install that brings the kanbanr program and its matching skill, for anyone starting with kanbanr, so that setting it up is one command and the skill always describes the program it drives
+  goals:
+  - G-5
+  - G-6
+  zachman:
+    what: The skill embedded in the program; skill install/status/uninstall; the installers; self-update; the missing-program hint
+    how: Embed skill/kanbanr at build time; write it to Claude Code's personal skills folder on demand, from the installers when claude is present, and on self-update
+    where: kanbanr-cli (build.rs, a skill module, self_update.rs), scripts/install.sh, scripts/install.ps1, skill/kanbanr/hooks/session-start.*, skill/kanbanr/SKILL.md, README.md, docs/src/getting-started/
+    when: At install, at self-update, and on demand
+    who: New users; anyone updating kanbanr
+    why: Installing the skill is a second, unversioned step, and either half alone does nothing
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN kanbanr skill install runs, THE SYSTEM SHALL write the skill embedded in this program to Claude Code's personal skills folder.
+    tests:
+    - name: skill::tests::install_writes_the_embedded_skill_and_status_matches
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF the skills folder already holds a kanbanr skill that kanbanr did not write, THEN THE SYSTEM SHALL leave it in place and say so.
+    tests:
+    - name: skill::tests::a_linked_skill_is_left_alone
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN the installer runs where the claude command is available, THE SYSTEM SHALL install the matching skill unless told not to.
+    tests:
+    - name: installer run in a container with a stub claude on PATH writes ~/.claude/skills/kanbanr; with --no-skill it does not; without claude it prints the command
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN kanbanr self-update replaces the program, THE SYSTEM SHALL update a skill it installed to match.
+    tests:
+    - name: self_update::tests::the_skill_follows_the_program
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a session starts in a tracked project and the kanbanr program is not installed, THEN THE SYSTEM SHALL say how to install it.
+    tests:
+    - name: session-start.sh with no kanbanr on PATH prints the install command once
+      kind: manual
+      state: planned
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T07:52:12.285207199Z
+updated_at: 2026-10-01T07:52:12.313057886Z

@@ -1983,7 +1983,7 @@
   depends_on:
   - FEAT-137
   done: 5
-  total: 7
+  total: 8
 - code: FEAT-135
   status: Completed
   milestone: MS-006

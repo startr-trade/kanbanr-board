@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: git2 0.19 -> 0.21 (cred feature for the credential helper; StringArray and shorthand/name now Result)
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'testcontainers 0.23 -> 0.28: tokio-tar and rustls-pemfile gone; cargo audit 0 vulns 0 warnings; cargo deny (FEAT-130 policy) passes'
     state: NotStarted
@@ -92,4 +92,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-09-30T18:32:59.759739235Z
-updated_at: 2026-10-01T01:31:04.676464898Z
+updated_at: 2026-10-01T01:31:04.702951547Z

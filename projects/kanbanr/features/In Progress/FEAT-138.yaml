@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'releases::report_all: items + finished by counts_as_done; GET releases returns it (test; sabotage with the old rule fails it)'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: Releases page shows the daemon's items and count; its own copy of the rule is gone; screenshots retaken (v0.2.0 now 1/4)
     state: NotStarted
@@ -60,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:06:42.762906262Z
-updated_at: 2026-10-01T11:00:53.538438532Z
+updated_at: 2026-10-01T11:00:53.565918849Z

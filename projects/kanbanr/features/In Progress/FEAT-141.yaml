@@ -27,7 +27,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 'session-start.sh/.ps1: in a tracked project without the program, one install hint (probed; .ps1 parses); SKILL.md setup interview checks the program first'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: README, installation chapter, command reference, changelog; make ci 45/45
     state: NotStarted
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:37:01.705116344Z
+updated_at: 2026-10-01T12:37:01.744102064Z

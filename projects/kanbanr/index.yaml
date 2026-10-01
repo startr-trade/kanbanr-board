@@ -27,22 +27,6 @@
   - FEAT-133
   done: 0
   total: 0
-- code: FEAT-136
-  status: In Progress
-  milestone: MS-002
-  kind: chore
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on:
-  - FEAT-135
-  - FEAT-133
-  done: 0
-  total: 1
 - code: FEAT-137
   status: Planned
   milestone: MS-008
@@ -117,6 +101,22 @@
   - FEAT-137
   done: 4
   total: 5
+- code: FEAT-136
+  status: In Progress
+  milestone: MS-002
+  kind: chore
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on:
+  - FEAT-135
+  - FEAT-133
+  done: 0
+  total: 1
 - code: FEAT-001
   status: Completed
   milestone: MS-001

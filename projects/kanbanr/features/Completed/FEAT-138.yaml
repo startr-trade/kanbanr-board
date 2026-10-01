@@ -1,6 +1,6 @@
 code: FEAT-138
 title: 'Defect: the Releases page counts Done items as unfinished'
-status: In Progress
+status: Completed
 milestone: MS-008
 kind: bug
 priority: low
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: make ci 44/44
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-01T11:00:53.459159083Z
 definition:
   statement: A release's progress counted by the same rule as the sprint's, for teams planning releases, so that the Releases page and the sprint agree on what is finished
@@ -59,5 +59,8 @@ history:
 - at: 2026-10-01T10:51:46.34088307Z
   from: Planned
   to: In Progress
+- at: 2026-10-01T11:00:53.619839802Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-01T07:06:42.762906262Z
-updated_at: 2026-10-01T11:00:53.592919322Z
+updated_at: 2026-10-01T11:00:53.619839802Z

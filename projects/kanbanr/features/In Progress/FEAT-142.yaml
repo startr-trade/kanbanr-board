@@ -53,7 +53,7 @@ definition:
     tests:
     - name: backend::tests::the_board_setting_applies_and_the_environment_overrides_it
       kind: unit
-      state: planned
+      state: green
   - id: R-5
     kind: functional
     text: IF a board with a remote is more commits ahead of it than its push threshold, THEN THE SYSTEM SHALL warn in doctor.
@@ -82,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T11:03:15.955235643Z
-updated_at: 2026-10-01T11:30:10.780875227Z
+updated_at: 2026-10-01T11:30:10.812591496Z

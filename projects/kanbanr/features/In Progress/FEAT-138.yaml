@@ -14,7 +14,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: fix
-  tasks: []
+  tasks:
+  - key: T1
+    text: 'releases::report_all: items + finished by counts_as_done; GET releases returns it (test; sabotage with the old rule fails it)'
+    state: NotStarted
   created_at: 2026-10-01T11:00:53.459159083Z
 definition:
   statement: A release's progress counted by the same rule as the sprint's, for teams planning releases, so that the Releases page and the sprint agree on what is finished
@@ -51,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:06:42.762906262Z
-updated_at: 2026-10-01T11:00:53.459160923Z
+updated_at: 2026-10-01T11:00:53.48564481Z

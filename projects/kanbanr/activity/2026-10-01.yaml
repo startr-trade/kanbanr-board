@@ -1042,3 +1042,7 @@
   actor: Venkatraman B
   message: test the image built by make ci reports the HEAD commit and its date of FEAT-144/R-1 is now green
   item: FEAT-144
+- time: 2026-10-01T19:33:09.68323161Z
+  actor: Venkatraman B
+  message: test the release image check fails on an image built without the build arguments of FEAT-144/R-2 is now green
+  item: FEAT-144

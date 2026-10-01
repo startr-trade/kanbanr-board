@@ -37,7 +37,7 @@ definition:
     tests:
     - name: the release image check fails on an image built without the build arguments
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T19:28:16.30968975Z
@@ -58,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T19:27:28.607911802Z
-updated_at: 2026-10-01T19:33:09.640262604Z
+updated_at: 2026-10-01T19:33:09.681273286Z

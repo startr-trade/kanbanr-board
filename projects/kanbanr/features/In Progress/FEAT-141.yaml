@@ -39,7 +39,7 @@ definition:
     tests:
     - name: skill::tests::a_linked_skill_is_left_alone
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN the installer runs where the claude command is available, THE SYSTEM SHALL install the matching skill unless told not to.
@@ -76,4 +76,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:52:12.269454347Z
-updated_at: 2026-10-01T12:36:53.852026792Z
+updated_at: 2026-10-01T12:36:53.892512159Z

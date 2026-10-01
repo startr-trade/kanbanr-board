@@ -897,3 +897,7 @@
   actor: Venkatraman B
   message: test skill::tests::install_writes_the_embedded_skill_and_status_matches of FEAT-141/R-1 is now green
   item: FEAT-141
+- time: 2026-10-01T12:36:53.894592355Z
+  actor: Venkatraman B
+  message: test skill::tests::a_linked_skill_is_left_alone of FEAT-141/R-2 is now green
+  item: FEAT-141

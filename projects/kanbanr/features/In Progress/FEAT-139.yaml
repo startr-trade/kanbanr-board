@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix
+  tasks: []
+  created_at: 2026-10-01T10:51:40.64969308Z
 definition:
   statement: A Claude Code plugin manifest that validates and installs, for anyone adding kanbanr to Claude Code from its marketplace, so that the one-step install the docs describe actually works
   goals:
@@ -66,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T07:43:15.76298828Z
-updated_at: 2026-10-01T10:51:40.619669625Z
+updated_at: 2026-10-01T10:51:40.64969515Z

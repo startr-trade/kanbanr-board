@@ -71,7 +71,7 @@
   done: 4
   total: 5
 - code: FEAT-140
-  status: In Progress
+  status: Completed
   milestone: MS-002
   kind: bug
   priority: high

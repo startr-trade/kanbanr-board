@@ -22,7 +22,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 'Board: bundle backup (archive/kanbanr-board.before-sanitise-2026-10-01.bundle); 11 summaries moved to .sessions/kanbanr/ (ignored); docs/sessions removed from all 1192 commits; private terms and local paths replaced in files and messages; sweep: 0 hits; branch renamed master -> main'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 'Rewording FEAT-088''s definition lapsed its ratification (approval is pinned to content): needs the maintainer to ratify again'
     state: NotStarted
@@ -84,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-01T06:16:30.546502801Z
-updated_at: 2026-10-01T06:32:53.250618104Z
+updated_at: 2026-10-01T06:32:53.275464623Z

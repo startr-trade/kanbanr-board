@@ -32,5 +32,15 @@ definition:
     - name: releases::tests::a_release_counts_done_items_as_finished
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-01T07:44:03.324115238Z
+    rev: e811df29b4f8b391
+  approvals:
+  - at: 2026-10-01T07:44:03.324115238Z
+    by: Venkatraman B
+    verdict: approved
+    rev: e811df29b4f8b391
+    status: Planned
 created_at: 2026-10-01T07:06:42.762906262Z
-updated_at: 2026-10-01T07:06:42.804515635Z
+updated_at: 2026-10-01T07:44:03.324115238Z

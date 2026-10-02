@@ -438,3 +438,7 @@
   actor: Venkatraman B
   message: test self-update installs the new .vsix into an editor that lists kanbanr.kanbanr, and not into one that does not of FEAT-158/R-3 is now green
   item: FEAT-158
+- time: 2026-10-02T18:36:49.10027839Z
+  actor: Venkatraman B
+  message: move feature FEAT-158
+  item: FEAT-158

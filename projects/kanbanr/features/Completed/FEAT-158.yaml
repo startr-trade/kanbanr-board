@@ -1,6 +1,6 @@
 code: FEAT-158
 title: The installers can install the VS Code extension too
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -60,5 +60,8 @@ history:
 - at: 2026-10-02T18:28:28.43807636Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T18:36:49.098318991Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T18:27:27.197056438Z
-updated_at: 2026-10-02T18:36:48.894799243Z
+updated_at: 2026-10-02T18:36:49.098318991Z

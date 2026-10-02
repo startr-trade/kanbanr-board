@@ -360,3 +360,19 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-02T18:36:49.133223551Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-158
+  message: feature FEAT-158 completed Completed
+  detail:
+    status: Completed
+    terminal: true
+- time: 2026-10-02T18:36:49.147169684Z
+  project: kanbanr
+  kind: dependent_ready
+  feature: FEAT-157
+  message: kanbanr:FEAT-157 is now ready (dependency kanbanr:FEAT-158 completed)
+  detail:
+    ready: kanbanr:FEAT-157
+    unblocked_by: kanbanr:FEAT-158

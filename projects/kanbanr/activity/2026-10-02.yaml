@@ -118,3 +118,7 @@
   actor: Venkatraman B
   message: test README and roadmap name the freeze, what 0.1.x takes, and the 1.0 milestone of FEAT-147/R-1 is now green
   item: FEAT-147
+- time: 2026-10-02T10:09:37.919367919Z
+  actor: Venkatraman B
+  message: approve definition of FEAT-151
+  item: FEAT-151

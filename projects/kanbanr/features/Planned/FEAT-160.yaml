@@ -1,0 +1,17 @@
+code: FEAT-160
+title: 'Release v0.1.5: decisions in Claude Code'
+status: Planned
+milestone: MS-009
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-159
+todo_lists: []
+created_at: 2026-10-02T19:45:21.304699107Z
+updated_at: 2026-10-02T19:45:21.323491669Z

@@ -408,3 +408,10 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-02T19:45:21.326920641Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-160
+  message: feature FEAT-160 added
+  detail:
+    status: Planned

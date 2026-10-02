@@ -1,6 +1,6 @@
 code: FEAT-149
 title: The release verifies the installer on macOS and Windows
-status: Completed
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -59,5 +59,8 @@ history:
 - at: 2026-10-02T08:58:50.517706207Z
   from: In Progress
   to: Completed
+- at: 2026-10-02T12:26:54.309052273Z
+  from: Completed
+  to: In Progress
 created_at: 2026-10-02T08:18:51.661510657Z
-updated_at: 2026-10-02T12:25:52.649935334Z
+updated_at: 2026-10-02T12:26:54.309052273Z

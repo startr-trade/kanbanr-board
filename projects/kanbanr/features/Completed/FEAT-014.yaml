@@ -1,6 +1,6 @@
 code: FEAT-014
 title: Editor integration (optional)
-status: In Progress
+status: Completed
 milestone: MS-002
 kind: null
 priority: null
@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: package with vsce; smoke-test the .vsix in a clean VS Code
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'Fix vsce packaging: repository/homepage/bugs, MIT OR Apache-2.0 licence + LICENSE file, README link to the docs site (8c92ee0); .vsix installs into a clean profile'
     state: Completed
@@ -73,5 +73,9 @@ definition:
     by: reviewed in the monitor
     verdict: approved
     rev: 21a582f7a22a29e8
+history:
+- at: 2026-10-02T06:07:52.100329017Z
+  from: In Progress
+  to: Completed
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-10-02T06:07:52.069057645Z
+updated_at: 2026-10-02T06:07:52.100329017Z

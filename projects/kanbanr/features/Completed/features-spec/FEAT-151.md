@@ -4,7 +4,7 @@
 Writing the stability policy (FEAT-148) showed a gap in the promise it makes. An older kanbanr
 reads a board file with fields it does not know and ignores them; but when it then rewrites that
 file (a move, a task state, an edit) those fields are gone. The item, milestone and config models
-keep no unknown keys (only releases and sprints do, via a flattened map). So after 1.1 adds a field,
+keep no unknown keys. So after 1.1 adds a field,
 a 1.0 binary on another machine sharing the board silently deletes it. The policy currently says
 "upgrade together"; the protection has to ship in 1.0 itself to cover 1.0 → 1.x mixing.
 

@@ -504,3 +504,7 @@
   actor: Venkatraman B
   message: test make ci fails when a check in the vocabulary is missing from the chapter's table of FEAT-159/R-5 is now green
   item: FEAT-159
+- time: 2026-10-02T19:40:17.183553939Z
+  actor: Venkatraman B
+  message: test approve, ratify and signoff with a stale --rev are refused and change nothing of FEAT-159/R-6 is now green
+  item: FEAT-159

@@ -44,8 +44,8 @@
   labels: []
   depends_on:
   - FEAT-158
-  done: 0
-  total: 0
+  done: 1
+  total: 2
 - code: FEAT-001
   status: Completed
   milestone: MS-001

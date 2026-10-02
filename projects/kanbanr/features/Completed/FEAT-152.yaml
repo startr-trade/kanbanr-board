@@ -1,6 +1,6 @@
 code: FEAT-152
 title: 'Distribute the VS Code extension: each release and Open VSX'
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: distribution
+  tasks:
+  - key: T1
+    text: Package in release + ci.yml, attach to release, Open VSX job behind PUBLISH_OPENVSX/OVSX_PAT, docs
+    state: Completed
+  - key: T2
+    text: 'Proof: v0.1.2 release has kanbanr-vscode-0.1.2.vsix in SHA256SUMS and it installs'
+    state: NotStarted
+  - key: T3
+    text: 'Proof: Open VSX publish once the namespace is granted and the switch is on'
+    state: NotStarted
+  created_at: 2026-10-02T10:28:36.033247565Z
 definition:
   statement: A VS Code extension published with every release and on Open VSX, for developers who want the board in their editor, so that they can install it without building it themselves
   goals:
@@ -60,5 +73,8 @@ history:
 - at: 2026-10-02T10:19:27.964016625Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T10:28:36.033258502Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T10:28:35.860610203Z
+updated_at: 2026-10-02T10:28:36.033273467Z

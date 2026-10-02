@@ -164,3 +164,6 @@
   actor: Venkatraman B
   message: test make ci packages the extension and fails on a broken manifest of FEAT-152/R-3 is now green
   item: FEAT-152
+- time: 2026-10-02T10:28:36.03522921Z
+  actor: Venkatraman B
+  message: 'FEAT-152/FEAT-149/FEAT-147: what waits on the v0.1.2 run'

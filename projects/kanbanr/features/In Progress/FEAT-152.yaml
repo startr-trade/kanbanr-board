@@ -1,6 +1,6 @@
 code: FEAT-152
 title: 'Distribute the VS Code extension: each release and Open VSX'
-status: Completed
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -76,5 +76,8 @@ history:
 - at: 2026-10-02T10:28:36.033258502Z
   from: In Progress
   to: Completed
+- at: 2026-10-02T12:27:00.892920602Z
+  from: Completed
+  to: In Progress
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T12:26:01.367182884Z
+updated_at: 2026-10-02T12:27:00.892920602Z

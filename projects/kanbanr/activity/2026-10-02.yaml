@@ -426,3 +426,7 @@
   actor: Venkatraman B
   message: move feature FEAT-158
   item: FEAT-158
+- time: 2026-10-02T18:36:42.467016843Z
+  actor: Venkatraman B
+  message: test the installer's editor step installs the verified .vsix into each stub editor, and only the one named of FEAT-158/R-1 is now green
+  item: FEAT-158

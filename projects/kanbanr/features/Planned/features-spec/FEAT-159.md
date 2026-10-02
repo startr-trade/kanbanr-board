@@ -37,8 +37,16 @@ explicit choices.
   - several possible next stages: a question asking which.
   So a preset edited, or an organisation's own process file, changes what is asked with no change
   to the skill, and the plan's heading is the stage's own `purpose`.
-- The skill's approval section, the docs, and the setup interview's wording say so; the browser and
-  the CLI stay available for anyone who prefers them.
+- The skill's approval section and the setup interview's wording say so; the browser and the CLI
+  stay available for anyone who prefers them.
+- **The book teaches it.** A new chapter, *Working with Claude* (first under "Using kanbanr"), shows
+  the conversation as a user meets it: asking for a new item and accepting its plan; working the
+  review queue by answering questions; asking for moves in plain words, or with `!` for a command;
+  what each kind of missing check turns into (the same table the skill follows); and a worked item
+  taken through the TOGAF preset stage by stage, with the real gate output. *Everyday use*, *The
+  method* and *Processes* point to it, and the README's quick start mentions it. CI checks that the
+  chapter's table names every check in the gate vocabulary, so a new check cannot ship with no
+  behaviour described for it.
 
 ## Out of scope
 Moving items by drag-and-drop in the monitor (a separate decision). Approvals by anyone other than

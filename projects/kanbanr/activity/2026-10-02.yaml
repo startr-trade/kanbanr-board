@@ -364,3 +364,7 @@
   actor: Venkatraman B
   message: define feature FEAT-149
   item: FEAT-149
+- time: 2026-10-02T17:37:35.484953503Z
+  actor: Venkatraman B
+  message: test with PUBLISH_OPENVSX unset the release skips Open VSX; once enabled, the extension appears on open-vsx.org at the release's version of FEAT-152/R-2 is now green
+  item: FEAT-152

@@ -51,7 +51,7 @@ definition:
     tests:
     - name: with PUBLISH_OPENVSX unset the release skips Open VSX; once enabled, the extension appears on open-vsx.org at the release's version
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN make ci runs, THE SYSTEM SHALL compile and package the extension.
@@ -80,4 +80,4 @@ history:
   from: Completed
   to: In Progress
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T12:27:00.892920602Z
+updated_at: 2026-10-02T17:37:35.482711766Z

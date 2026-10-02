@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A way to accept or reject a proposed architecture decision from the CLI and the Review page, for the user who owns the decision, so that decisions are agreed on the record instead of by hand-editing files
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: Accept and reject verdicts on architecture decisions
+    how: A core verdict function behind the dispatch router, an adr accept/reject command, Accept/Reject buttons on the Review page, and a line in the skill
+    where: api/crates/kanbanr-core/src/adr.rs, dispatch.rs, api/crates/kanbanr-cli/src/main.rs, web/src/pages/ReviewPage.tsx, web/src/api.ts, skill/kanbanr/SKILL.md, docs/src/using
+    when: Whenever a decision is proposed and waiting for its owner
+    who: The user who decides; Claude only drafts
+    why: A proposed decision currently has no way to be accepted except editing its file
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the user accepts or rejects a proposed decision, THE SYSTEM SHALL record the verdict, the decider and the date in the decision, and a rejection's reason.
+    tests:
+    - name: adr accept and reject record status, decider, date and reason
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a decision has an unanswered section, THEN THE SYSTEM SHALL refuse to accept it, naming the sections.
+    tests:
+    - name: accepting a decision with an empty section is refused
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHILE the monitor allows writes, THE SYSTEM SHALL list proposed decisions on the Review page with Accept and Reject.
+    tests:
+    - name: the Review page shows a proposed decision and Accept records it (headless click)
+      kind: manual
+      state: planned
 created_at: 2026-10-02T10:51:35.611209055Z
-updated_at: 2026-10-02T10:51:35.611209055Z
+updated_at: 2026-10-02T10:51:35.654851882Z

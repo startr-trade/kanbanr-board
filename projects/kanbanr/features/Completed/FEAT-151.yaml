@@ -1,6 +1,6 @@
 code: FEAT-151
 title: Unknown fields survive a rewrite by an older kanbanr
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -52,5 +52,8 @@ history:
 - at: 2026-10-02T10:09:53.844088141Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T10:17:10.480416911Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T09:01:02.205319736Z
-updated_at: 2026-10-02T10:17:10.391904073Z
+updated_at: 2026-10-02T10:17:10.480416911Z

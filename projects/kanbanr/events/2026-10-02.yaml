@@ -110,3 +110,11 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-02T10:17:10.511125573Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-151
+  message: feature FEAT-151 completed Completed
+  detail:
+    status: Completed
+    terminal: true

@@ -27,6 +27,9 @@ todo_lists:
   - key: T4
     text: package with vsce; smoke-test the .vsix in a clean VS Code
     state: NotStarted
+  - key: T5
+    text: 'Fix vsce packaging: repository/homepage/bugs, MIT OR Apache-2.0 licence + LICENSE file, README link to the docs site (8c92ee0); .vsix installs into a clean profile'
+    state: Completed
   created_at: 2026-06-12T06:01:37.071145013Z
 definition:
   statement: A way to reach the board from inside the editor, for a developer who is already there, so that checking the plan costs no context switch
@@ -71,4 +74,4 @@ definition:
     verdict: approved
     rev: 21a582f7a22a29e8
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-09-28T08:20:46.118690404Z
+updated_at: 2026-10-02T04:08:51.439707557Z

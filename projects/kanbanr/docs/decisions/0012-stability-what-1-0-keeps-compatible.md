@@ -46,12 +46,13 @@ policy is published as `docs/src/project/stability.md`.
 
 Users can script against the CLI and keep boards across upgrades with confidence; contributors
 have a list to check a change against. The cost is that a design mistake in a stable surface is
-kept until 2.0, so the freeze before 1.0 matters. One known limit is written into the policy
-rather than hidden: an older kanbanr that rewrites an item drops fields only a newer version
-knows, so machines writing to a shared board upgrade together.
+kept until 2.0, so the freeze before 1.0 matters. Writing the policy exposed one hole, now closed
+(FEAT-151): an older kanbanr rewriting a board file used to drop fields only a newer version
+knows; it now writes them back unchanged, so machines sharing a board can run different 1.x.
 
 ## Compliance
 
 The changelog and the item of any change to a stable surface say so (the contributing guide asks
 for it). Before 1.0 is tagged, FEAT-150 records that no stable surface broke during the freeze.
 The board format is guarded in code: `schema_version` makes an older binary refuse a newer board.
+

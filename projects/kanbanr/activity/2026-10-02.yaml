@@ -174,3 +174,7 @@
   actor: Venkatraman B
   message: test kanbanr adr list shows the stability ADR accepted of FEAT-148/R-2 is now green
   item: FEAT-148
+- time: 2026-10-02T10:51:13.958968591Z
+  actor: Venkatraman B
+  message: move feature FEAT-148
+  item: FEAT-148

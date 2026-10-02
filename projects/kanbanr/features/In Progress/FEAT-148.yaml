@@ -38,7 +38,7 @@ definition:
     tests:
     - name: kanbanr adr list shows the stability ADR accepted
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-02T08:48:17.533792988Z
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T08:18:51.626826663Z
-updated_at: 2026-10-02T09:00:38.66435134Z
+updated_at: 2026-10-02T10:51:13.862923694Z

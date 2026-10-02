@@ -193,3 +193,7 @@
   actor: Venkatraman B
   message: move feature FEAT-153
   item: FEAT-153
+- time: 2026-10-02T11:06:26.134401594Z
+  actor: Venkatraman B
+  message: test adr accept and reject record status, decider, date and reason of FEAT-153/R-1 is now green
+  item: FEAT-153

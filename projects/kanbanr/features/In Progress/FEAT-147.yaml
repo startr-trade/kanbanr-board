@@ -41,11 +41,17 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-10-02T08:48:16.230037614Z
-    rev: c8e03930b439846b
+    at: 2026-10-02T18:03:07.072547896Z
+    rev: 6b2d493b88d75df4
+  approvals:
+  - at: 2026-10-02T18:03:07.072547896Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 6b2d493b88d75df4
+    status: In Progress
 history:
 - at: 2026-10-02T09:01:02.416705679Z
   from: Planned
   to: In Progress
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T17:36:27.692008913Z
+updated_at: 2026-10-02T18:03:07.072547896Z

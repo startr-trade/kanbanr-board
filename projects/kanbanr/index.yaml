@@ -60,20 +60,6 @@
   depends_on: []
   done: 1
   total: 2
-- code: FEAT-152
-  status: Completed
-  milestone: MS-009
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 3
-  total: 3
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2229,6 +2215,20 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-152
+  status: Completed
+  milestone: MS-009
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 3
+  total: 3
 - code: FEAT-153
   status: Completed
   milestone: MS-009

@@ -1,0 +1,16 @@
+code: FEAT-151
+title: Unknown fields survive a rewrite by an older kanbanr
+status: Planned
+milestone: MS-009
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-02T09:01:02.205319736Z
+updated_at: 2026-10-02T09:01:02.205319736Z

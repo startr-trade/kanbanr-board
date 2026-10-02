@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A VS Code extension published with every release and on Open VSX, for developers who want the board in their editor, so that they can install it without building it themselves
+  goals:
+  - G-5
+  - G-6
+  zachman:
+    what: The extension's .vsix on each GitHub release, and on Open VSX
+    how: Package the extension in the release workflow with a pinned vsce, attach it and list it in SHA256SUMS, publish it to Open VSX behind a variable and a token, and package it in make ci
+    where: editor/vscode/package.json, editor/vscode/package-lock.json, .github/workflows/release.yml, scripts/ci_local.py, docs/src/getting-started/installation.md, editor/vscode/README.md, docs/src/project/open-sourcing.md
+    when: On every tag push; on every make ci
+    who: Developers using VS Code or a VSCodium-family editor
+    why: The extension works but cannot be installed without cloning and building it, and the Microsoft marketplace is closed to this maintainer
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release is published, THE SYSTEM SHALL attach the extension's .vsix built from the tag, carrying the release's version and listed in SHA256SUMS.
+    tests:
+    - name: the v0.1.2 release has kanbanr-vscode-0.1.2.vsix, its checksum matches, and it installs in a clean VS Code
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE the repository enables Open VSX publishing, THE SYSTEM SHALL publish the release's .vsix to Open VSX, treating an already-published version as success.
+    tests:
+    - name: with PUBLISH_OPENVSX unset the release skips Open VSX; once enabled, the extension appears on open-vsx.org at the release's version
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN make ci runs, THE SYSTEM SHALL compile and package the extension.
+    tests:
+    - name: make ci packages the extension and fails on a broken manifest
+      kind: manual
+      state: planned
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T10:18:07.093118844Z
+updated_at: 2026-10-02T10:18:07.132257338Z

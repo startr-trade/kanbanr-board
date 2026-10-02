@@ -457,3 +457,7 @@
   actor: Venkatraman B
   message: test the v0.1.4 release run passes, including every verify-install leg and the image check of FEAT-157/R-1 is now green
   item: FEAT-157
+- time: 2026-10-02T19:10:22.132232789Z
+  actor: Venkatraman B
+  message: test the v0.1.4 release page opens with its notes and open-vsx.org lists kanbanr 0.1.4 of FEAT-157/R-3 is now green
+  item: FEAT-157

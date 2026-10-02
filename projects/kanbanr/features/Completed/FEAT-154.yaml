@@ -1,6 +1,6 @@
 code: FEAT-154
 title: Release notes for every release, on the release page and in the docs
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: release notes
+  tasks:
+  - key: T1
+    text: Notes pages v0.1.0–v0.1.3 + index, release body_path, tag/CI checks (88c412b)
+    state: Completed
+  - key: T2
+    text: 'Proof: the v0.1.3 release page opens with its notes'
+    state: NotStarted
+  - key: T3
+    text: 'Maintainer: gh release edit v0.1.0/v0.1.1/v0.1.2 with their notes'
+    state: NotStarted
+  created_at: 2026-10-02T12:01:43.809618125Z
 definition:
   statement: Release notes written for users on every release page and in the docs, for anyone deciding whether to install or upgrade, so that a release says what it means rather than listing commits
   goals:
@@ -59,5 +72,8 @@ history:
 - at: 2026-10-02T11:48:53.173806434Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T12:01:43.809629994Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T11:07:36.671389368Z
-updated_at: 2026-10-02T12:01:32.342602336Z
+updated_at: 2026-10-02T12:01:43.809645175Z

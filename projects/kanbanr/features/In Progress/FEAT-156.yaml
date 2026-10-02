@@ -38,7 +38,7 @@ definition:
     tests:
     - name: a batch that adds open tasks after completing the last one does not advance the item
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-02T17:17:05.250549876Z
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T12:27:17.093070234Z
-updated_at: 2026-10-02T17:27:01.572604554Z
+updated_at: 2026-10-02T17:27:01.610931165Z

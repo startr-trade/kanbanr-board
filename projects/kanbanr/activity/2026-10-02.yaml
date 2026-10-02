@@ -496,3 +496,7 @@
   actor: Venkatraman B
   message: move feature FEAT-159
   item: FEAT-159
+- time: 2026-10-02T19:40:17.106706193Z
+  actor: Venkatraman B
+  message: test the Working with Claude chapter covers scoping, review, moves, the check-to-action table and a TOGAF walkthrough, and is linked from Everyday use, The method, Processes and the README of FEAT-159/R-4 is now green
+  item: FEAT-159

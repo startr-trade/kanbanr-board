@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release that proves its installers work on macOS and Windows, for users on those systems, so that a 1.0 install is known to work on every platform it is published for
+  goals:
+  - G-6
+  - G-5
+  zachman:
+    what: Installer verification legs for macOS and Windows in the release workflow
+    how: Run install.sh on a macOS runner and install.ps1 on a Windows runner against the published release, then check --version and the served monitor
+    where: .github/workflows/release.yml, scripts/ci_local.py
+    when: On every tag push, after the release is published
+    who: kanbanr users on macOS and Windows
+    why: Only the Linux install is verified; the other two have never been run end to end
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release is published, THE SYSTEM SHALL install it with install.sh on macOS and install.ps1 on Windows and verify the version, the commit and the served monitor.
+    tests:
+    - name: the v0.1.2 release run passes verify-install on macOS and Windows
+      kind: manual
+      state: planned
 created_at: 2026-10-02T08:18:51.661510657Z
-updated_at: 2026-10-02T08:18:51.661510657Z
+updated_at: 2026-10-02T08:18:51.815408613Z

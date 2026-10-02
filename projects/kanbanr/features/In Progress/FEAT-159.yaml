@@ -59,7 +59,7 @@ definition:
     tests:
     - name: make ci fails when a check in the vocabulary is missing from the chapter's table
       kind: manual
-      state: planned
+      state: green
   - id: R-6
     kind: functional
     text: IF a definition changed after the user was shown it, THEN THE SYSTEM SHALL refuse to record approve, ratify or sign-off given with that definition's revision.
@@ -82,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:40:17.104139215Z
+updated_at: 2026-10-02T19:40:17.144101354Z

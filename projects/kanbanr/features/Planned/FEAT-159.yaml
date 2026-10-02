@@ -67,5 +67,15 @@ definition:
     - name: approve, ratify and signoff with a stale --rev are refused and change nothing
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T19:29:37.141950891Z
+    rev: 2971b01ed4f83fea
+  approvals:
+  - at: 2026-10-02T19:29:37.141950891Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 2971b01ed4f83fea
+    status: Planned
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:27:15.37448521Z
+updated_at: 2026-10-02T19:29:37.141950891Z

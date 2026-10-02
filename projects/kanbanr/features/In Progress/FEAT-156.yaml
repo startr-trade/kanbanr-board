@@ -54,9 +54,10 @@ defect:
   found_in: production
   root_cause: auto-advance on the legacy end status checks no evidence; batch operations auto-advance between operations
   escaped: false
+  fixed_by: 5d4c8c6
 history:
 - at: 2026-10-02T17:17:20.520932606Z
   from: Planned
   to: In Progress
 created_at: 2026-10-02T12:27:17.093070234Z
-updated_at: 2026-10-02T17:27:01.610931165Z
+updated_at: 2026-10-02T17:27:01.80014586Z

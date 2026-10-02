@@ -46,5 +46,15 @@ definition:
     - name: self-update installs the new .vsix into an editor that lists kanbanr.kanbanr, and not into one that does not
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T18:27:56.609282789Z
+    rev: e6ba4a8a5cc2486e
+  approvals:
+  - at: 2026-10-02T18:27:56.609282789Z
+    by: Venkatraman B
+    verdict: approved
+    rev: e6ba4a8a5cc2486e
+    status: Planned
 created_at: 2026-10-02T18:27:27.197056438Z
-updated_at: 2026-10-02T18:27:27.234168671Z
+updated_at: 2026-10-02T18:27:56.609282789Z

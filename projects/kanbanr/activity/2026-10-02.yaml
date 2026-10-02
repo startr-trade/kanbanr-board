@@ -81,3 +81,7 @@
 - time: 2026-10-02T08:58:50.520190707Z
   actor: Venkatraman B
   message: 'FEAT-149: record what is done and what waits on v0.1.2'
+- time: 2026-10-02T08:58:50.605207842Z
+  actor: Venkatraman B
+  message: move feature FEAT-148
+  item: FEAT-148

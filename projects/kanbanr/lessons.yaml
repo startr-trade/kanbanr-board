@@ -1,3 +1,12 @@
+- id: L-36
+  lesson: Run a CI script locally from the same working directory CI starts it in — a script that is correct from / can fail from the checkout, whose files (a .kanbanr marker) change what commands do
+  kind: pitfall
+  at: 2026-10-02T11:48:53.115151982Z
+  from_item: FEAT-155
+  evidence: 'v0.1.2 verify-install: init refused in the checkout on all four legs; make ci had run it from /'
+  confidence: 0.6
+  last_affirmed: 2026-10-02T11:48:53.115151982Z
+  status: candidate
 - id: L-35
   lesson: 'Every way a binary is built needs the same provenance check: the image build had no .git and no check, so it shipped unknown while the archives were verified'
   kind: pitfall

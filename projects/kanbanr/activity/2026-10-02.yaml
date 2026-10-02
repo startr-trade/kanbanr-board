@@ -273,3 +273,7 @@
 - time: 2026-10-02T12:01:43.811591481Z
   actor: Venkatraman B
   message: 'v0.1.3: proofs waiting on the release run'
+- time: 2026-10-02T12:25:30.157524045Z
+  actor: Venkatraman B
+  message: test the v0.1.2 release run passes verify-install on macOS and Windows of FEAT-149/R-1 is now green
+  item: FEAT-149

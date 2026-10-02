@@ -118,3 +118,10 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-02T10:18:07.0958263Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-152
+  message: feature FEAT-152 added
+  detail:
+    status: Planned

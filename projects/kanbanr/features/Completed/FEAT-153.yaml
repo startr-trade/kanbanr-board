@@ -1,6 +1,6 @@
 code: FEAT-153
 title: Accept or reject an architecture decision from the CLI and the Review page
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -60,5 +60,8 @@ history:
 - at: 2026-10-02T10:53:09.925288675Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T11:06:26.490889689Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T10:51:35.611209055Z
-updated_at: 2026-10-02T11:06:26.211523988Z
+updated_at: 2026-10-02T11:06:26.490889689Z

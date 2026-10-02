@@ -205,3 +205,7 @@
   actor: Venkatraman B
   message: test the Review page shows a proposed decision and Accept records it (headless click) of FEAT-153/R-3 is now green
   item: FEAT-153
+- time: 2026-10-02T11:06:26.493224417Z
+  actor: Venkatraman B
+  message: move feature FEAT-153
+  item: FEAT-153

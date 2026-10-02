@@ -20,7 +20,7 @@ definition:
   zachman:
     what: The skill's flow for new items and for the review queue, and a content-revision guard on verdict commands
     how: The next stage's gaps from kanbanr check --json mapped to plan content and questions; plan mode for scoping, one AskUserQuestion per pending item with its possible verdicts, verdicts recorded only from the user's choice and pinned with --rev
-    where: skill/kanbanr/SKILL.md, api/crates/kanbanr-cli/src/main.rs, api/crates/kanbanr-core/src/store.rs, dispatch.rs, docs/src/using/the-method.md, docs/src/using/processes.md
+    where: skill/kanbanr/SKILL.md, docs/src/using/with-claude.md, docs/src/SUMMARY.md, docs/src/using/everyday.md, README.md, scripts/ci_local.py, .github/workflows/ci.yml, api/crates/kanbanr-cli/src/main.rs, api/crates/kanbanr-core/src/store.rs, dispatch.rs, docs/src/using/the-method.md, docs/src/using/processes.md
     when: Whenever the user asks for new work, and whenever items are waiting for a verdict
     who: A user working entirely in Claude Code; Claude as the one who asks
     why: Every verdict currently needs the browser or a terminal, which the user avoids
@@ -48,10 +48,24 @@ definition:
       state: planned
   - id: R-4
     kind: functional
+    text: THE SYSTEM SHALL document in its book how to scope, decide and move work by talking to Claude, including what each kind of missing check is turned into and a worked TOGAF example.
+    tests:
+    - name: the Working with Claude chapter covers scoping, review, moves, the check-to-action table and a TOGAF walkthrough, and is linked from Everyday use, The method, Processes and the README
+      kind: manual
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF the gate vocabulary has a check the Working with Claude chapter does not describe, THEN THE SYSTEM SHALL fail CI, naming the check.
+    tests:
+    - name: make ci fails when a check in the vocabulary is missing from the chapter's table
+      kind: manual
+      state: planned
+  - id: R-6
+    kind: functional
     text: IF a definition changed after the user was shown it, THEN THE SYSTEM SHALL refuse to record approve, ratify or sign-off given with that definition's revision.
     tests:
     - name: approve, ratify and signoff with a stale --rev are refused and change nothing
       kind: unit
       state: planned
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:27:15.336605075Z
+updated_at: 2026-10-02T19:27:15.37448521Z

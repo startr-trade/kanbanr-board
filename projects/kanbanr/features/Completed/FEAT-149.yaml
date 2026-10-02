@@ -1,6 +1,6 @@
 code: FEAT-149
 title: The release verifies the installer on macOS and Windows
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: installer legs for macOS and Windows
+  tasks:
+  - key: T1
+    text: verify-install.sh/.ps1 + verify-install-native job; make ci runs the script against the latest release (a19177d)
+    state: Completed
+  - key: T2
+    text: 'Proof: the v0.1.2 release run passes verify-install on macOS and Windows'
+    state: NotStarted
+  created_at: 2026-10-02T08:58:50.517673464Z
 definition:
   statement: A release that proves its installers work on macOS and Windows, for users on those systems, so that a 1.0 install is known to work on every platform it is published for
   goals:
@@ -46,5 +56,8 @@ history:
 - at: 2026-10-02T08:48:37.282410037Z
   from: Planned
   to: In Progress
+- at: 2026-10-02T08:58:50.517706207Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T08:18:51.661510657Z
-updated_at: 2026-10-02T08:48:37.282410037Z
+updated_at: 2026-10-02T08:58:50.517740011Z

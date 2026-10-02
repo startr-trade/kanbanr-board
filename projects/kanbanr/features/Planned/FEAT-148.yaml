@@ -39,5 +39,15 @@ definition:
     - name: kanbanr adr list shows the stability ADR accepted
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T08:48:17.533792988Z
+    rev: ed43008d0a3f6215
+  approvals:
+  - at: 2026-10-02T08:48:17.533792988Z
+    by: Venkatraman B
+    verdict: approved
+    rev: ed43008d0a3f6215
+    status: Planned
 created_at: 2026-10-02T08:18:51.626826663Z
-updated_at: 2026-10-02T08:18:51.781787896Z
+updated_at: 2026-10-02T08:48:17.533792988Z

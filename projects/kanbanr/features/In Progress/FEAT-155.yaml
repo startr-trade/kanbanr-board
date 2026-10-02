@@ -55,9 +55,10 @@ defect:
   found_in: production
   root_cause: the verify script ran init in its working directory, which became the checkout (with a .kanbanr marker); make ci ran it from / instead
   escaped: true
+  fixed_by: df39d1a
 history:
 - at: 2026-10-02T11:39:59.402946562Z
   from: Planned
   to: In Progress
 created_at: 2026-10-02T11:08:40.365638811Z
-updated_at: 2026-10-02T11:48:52.816244884Z
+updated_at: 2026-10-02T11:48:52.993582141Z

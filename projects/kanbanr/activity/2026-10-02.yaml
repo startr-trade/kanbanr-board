@@ -247,3 +247,7 @@
   actor: Venkatraman B
   message: test make ci fails with the old script and passes with the fixed one of FEAT-155/R-2 is now green
   item: FEAT-155
+- time: 2026-10-02T11:48:52.995337686Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-155
+  item: FEAT-155

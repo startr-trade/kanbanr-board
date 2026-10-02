@@ -47,9 +47,10 @@ defect:
   found_in: design review
   root_cause: feature, milestone, config and charter models have no flattened map for unknown keys
   escaped: false
+  fixed_by: cd7f819
 history:
 - at: 2026-10-02T10:09:53.844088141Z
   from: Planned
   to: In Progress
 created_at: 2026-10-02T09:01:02.205319736Z
-updated_at: 2026-10-02T10:17:10.20203377Z
+updated_at: 2026-10-02T10:17:10.391904073Z

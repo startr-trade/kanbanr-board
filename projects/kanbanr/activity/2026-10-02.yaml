@@ -130,3 +130,7 @@
   actor: Venkatraman B
   message: test unknown fields survive move, task state and edit of FEAT-151/R-1 is now green
   item: FEAT-151
+- time: 2026-10-02T10:17:10.393668876Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-151
+  item: FEAT-151

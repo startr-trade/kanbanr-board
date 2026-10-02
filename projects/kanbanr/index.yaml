@@ -31,21 +31,6 @@
   - FEAT-156
   done: 0
   total: 0
-- code: FEAT-157
-  status: Completed
-  milestone: MS-009
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on:
-  - FEAT-158
-  done: 2
-  total: 2
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2300,6 +2285,21 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-157
+  status: Completed
+  milestone: MS-009
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on:
+  - FEAT-158
+  done: 2
+  total: 2
 - code: FEAT-158
   status: Completed
   milestone: MS-009
@@ -2345,6 +2345,20 @@
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-159
+  status: Planned
+  milestone: MS-009
   kind: null
   priority: null
   start: null

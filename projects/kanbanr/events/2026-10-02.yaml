@@ -304,3 +304,19 @@
     by: Venkatraman B
     reason: ''
     status: In Progress
+- time: 2026-10-02T18:03:55.92671156Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-147
+  message: feature FEAT-147 completed Completed
+  detail:
+    status: Completed
+    terminal: true
+- time: 2026-10-02T18:03:55.940285448Z
+  project: kanbanr
+  kind: dependent_ready
+  feature: FEAT-150
+  message: kanbanr:FEAT-150 is now ready (dependency kanbanr:FEAT-147 completed)
+  detail:
+    ready: kanbanr:FEAT-150
+    unblocked_by: kanbanr:FEAT-147

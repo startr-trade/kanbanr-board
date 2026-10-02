@@ -63,7 +63,7 @@ definition:
     tests:
     - name: vsce package, then install the .vsix in a clean VS Code and run the commands
       kind: manual
-      state: planned
+      state: green
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T08:20:46.118690404Z
@@ -74,4 +74,4 @@ definition:
     verdict: approved
     rev: 21a582f7a22a29e8
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-10-02T06:07:52.002159364Z
+updated_at: 2026-10-02T06:07:52.038547592Z

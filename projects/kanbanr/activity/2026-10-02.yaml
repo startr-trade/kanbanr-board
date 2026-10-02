@@ -5,3 +5,7 @@
   actor: Venkatraman B
   message: 'test F5 launch: openBoard, serve, board, addFeature and move work against the daemon of FEAT-014/R-1 is now green'
   item: FEAT-014
+- time: 2026-10-02T06:07:52.040016877Z
+  actor: Venkatraman B
+  message: test vsce package, then install the .vsix in a clean VS Code and run the commands of FEAT-014/R-3 is now green
+  item: FEAT-014

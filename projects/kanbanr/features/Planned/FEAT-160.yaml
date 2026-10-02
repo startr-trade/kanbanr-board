@@ -13,5 +13,32 @@ labels: []
 depends_on:
 - FEAT-159
 todo_lists: []
+definition:
+  statement: A v0.1.5 release that ships scoping and deciding work inside Claude Code, for everyone running kanbanr with Claude, so that agreeing to work never needs the browser or a terminal
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The version number, the release notes, the changelog and the v0.1.5 release
+    how: Bump the versions, write the notes page and index entry, date the changelog section, run make ci, and verify the tagged release including its Open VSX publish
+    where: api/Cargo.toml, api/Cargo.lock, web/package.json, web/package-lock.json, .claude-plugin/plugin.json, editor/vscode/package.json, editor/vscode/package-lock.json, docs/src/releases/, docs/src/SUMMARY.md, CHANGELOG.md
+    when: Once the FEAT-159 walkthroughs pass
+    who: Everyone running kanbanr with Claude Code
+    why: The plan-mode and in-conversation decisions only help once they are in an installed release
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN v0.1.5 is tagged, THE SYSTEM SHALL publish binaries, installers, an image and a .vsix that report 0.1.5 and the tagged commit, verified on every installer platform.
+    tests:
+    - name: the v0.1.5 release run passes, including every verify-install leg and the image check
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN v0.1.5 is published, THE SYSTEM SHALL show its notes on the release page and publish the extension to Open VSX at 0.1.5.
+    tests:
+    - name: the v0.1.5 release page opens with its notes and open-vsx.org lists kanbanr 0.1.5
+      kind: manual
+      state: planned
 created_at: 2026-10-02T19:45:21.304699107Z
-updated_at: 2026-10-02T19:45:21.323491669Z
+updated_at: 2026-10-02T19:45:21.368369514Z

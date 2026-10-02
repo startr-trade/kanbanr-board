@@ -31,7 +31,7 @@ definition:
     tests:
     - name: verify-install.sh and .ps1 pass when started from the repository root
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN make ci runs the installer check, THE SYSTEM SHALL run it from the repository root, as the release does.
@@ -60,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T11:08:40.365638811Z
-updated_at: 2026-10-02T11:39:59.402946562Z
+updated_at: 2026-10-02T11:48:52.776588851Z

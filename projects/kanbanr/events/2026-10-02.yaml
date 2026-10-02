@@ -85,3 +85,11 @@
   message: feature FEAT-151 added
   detail:
     status: Planned
+- time: 2026-10-02T09:01:02.44812752Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-147
+  message: feature FEAT-147 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

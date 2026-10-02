@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'F5 launch: openBoard/serve/board/addFeature/move work against the daemon'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: package with vsce; smoke-test the .vsix in a clean VS Code
     state: NotStarted
@@ -74,4 +74,4 @@ definition:
     verdict: approved
     rev: 21a582f7a22a29e8
 created_at: 2026-06-12T03:36:36.391375644Z
-updated_at: 2026-10-02T06:07:52.038547592Z
+updated_at: 2026-10-02T06:07:52.069057645Z

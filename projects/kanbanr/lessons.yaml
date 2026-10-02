@@ -1,3 +1,12 @@
+- id: L-37
+  lesson: Create a scratch folder in its own step and check it exists before running kanbanr init there — a failed cd leaves init inside the current project, which finds that project's .kanbanr marker and writes to its real board
+  kind: pitfall
+  at: 2026-10-02T19:47:53.45984464Z
+  from_item: FEAT-159
+  evidence: the walkthrough mkdir was blocked with its batch, cd failed, and init created project togaf-shop on kanbanr-board (reverted in c882eee before any push)
+  confidence: 0.6
+  last_affirmed: 2026-10-02T19:47:53.45984464Z
+  status: candidate
 - id: L-36
   lesson: Run a CI script locally from the same working directory CI starts it in — a script that is correct from / can fail from the checkout, whose files (a .kanbanr marker) change what commands do
   kind: pitfall

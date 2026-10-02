@@ -376,3 +376,11 @@
   detail:
     ready: kanbanr:FEAT-157
     unblocked_by: kanbanr:FEAT-158
+- time: 2026-10-02T18:37:24.252293916Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-157
+  message: feature FEAT-157 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

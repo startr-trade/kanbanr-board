@@ -1,0 +1,7 @@
+- time: 2026-10-02T08:18:51.590434078Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-147
+  message: feature FEAT-147 added
+  detail:
+    status: Planned

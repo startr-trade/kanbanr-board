@@ -201,3 +201,7 @@
   actor: Venkatraman B
   message: test accepting a decision with an empty section is refused of FEAT-153/R-2 is now green
   item: FEAT-153
+- time: 2026-10-02T11:06:26.213967325Z
+  actor: Venkatraman B
+  message: test the Review page shows a proposed decision and Accept records it (headless click) of FEAT-153/R-3 is now green
+  item: FEAT-153

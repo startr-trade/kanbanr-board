@@ -45,7 +45,7 @@ definition:
     tests:
     - name: the Review page shows a proposed decision and Accept records it (headless click)
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-02T10:52:50.671156011Z
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T10:51:35.611209055Z
-updated_at: 2026-10-02T11:06:26.1723808Z
+updated_at: 2026-10-02T11:06:26.211523988Z

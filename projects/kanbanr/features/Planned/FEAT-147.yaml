@@ -39,5 +39,15 @@ definition:
     - name: the v0.1.2 release run passes and the GHCR image passes scripts/check-image.sh at the tag
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T08:48:16.230037614Z
+    rev: c8e03930b439846b
+  approvals:
+  - at: 2026-10-02T08:48:16.230037614Z
+    by: Venkatraman B
+    verdict: approved
+    rev: c8e03930b439846b
+    status: Planned
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T08:18:57.317735624Z
+updated_at: 2026-10-02T08:48:16.230037614Z

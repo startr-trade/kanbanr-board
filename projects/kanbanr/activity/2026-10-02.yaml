@@ -277,3 +277,7 @@
   actor: Venkatraman B
   message: test the v0.1.2 release run passes verify-install on macOS and Windows of FEAT-149/R-1 is now green
   item: FEAT-149
+- time: 2026-10-02T12:25:30.196920151Z
+  actor: Venkatraman B
+  message: test the v0.1.2 release page opens with the v0.1.2 notes of FEAT-154/R-1 is now green
+  item: FEAT-154

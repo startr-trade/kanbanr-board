@@ -1,6 +1,8 @@
 ---
 id: ADR-0012
-status: proposed
+status: accepted
+deciders:
+- Venkatraman B
 date: 2026-10-02
 affects:
 - FEAT-148
@@ -55,4 +57,5 @@ knows; it now writes them back unchanged, so machines sharing a board can run di
 The changelog and the item of any change to a stable surface say so (the contributing guide asks
 for it). Before 1.0 is tagged, FEAT-150 records that no stable surface broke during the freeze.
 The board format is guarded in code: `schema_version` makes an older binary refuse a newer board.
+
 

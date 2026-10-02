@@ -23,6 +23,20 @@ explicit choices.
   inferred from conversation, and only for the definition the user was shown: `kanbanr approve`,
   `ratify` and `signoff` gain `--rev <content-rev>`, which refuses if the definition changed after
   it was shown. The skill passes it every time.
+- **The workflow drives the conversation; the skill names no workflow.** What Claude asks at each
+  step is read from the project's configuration, through `kanbanr check <CODE> --json`: for each
+  stage the item can move to, its `purpose`, the checks still failing, the warnings and the
+  sign-offs needed. The skill maps each kind of check to one action, the same for every workflow:
+  - `statement`, `goals`, `zachman` (its named columns), `requirements`, `ears`, `quality`,
+    `tests_named`: drafted into the plan, asking the user only what Claude cannot work out;
+  - `approved`: the user's acceptance of that plan (or an Approve question when nothing is drafted);
+  - a needed sign-off: a "Sign off <name>" question; `bypass`: a Ratify question;
+  - `estimated`, `in_sprint`, `in_release`: a question with the choices the board offers;
+  - `tests_green`: evidence, never a question — Claude reports what is not yet green;
+  - warnings: shown in the plan, with "fix it" or "go ahead and keep the warning" as the choice;
+  - several possible next stages: a question asking which.
+  So a preset edited, or an organisation's own process file, changes what is asked with no change
+  to the skill, and the plan's heading is the stage's own `purpose`.
 - The skill's approval section, the docs, and the setup interview's wording say so; the browser and
   the CLI stay available for anyone who prefers them.
 

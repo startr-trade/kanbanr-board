@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A written stability policy for 1.0, for users and contributors, so that everyone knows which parts of kanbanr will not break before 2.0 and how anything else changes
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: The list of what 1.0 freezes, what it does not, and the deprecation rule
+    how: A docs chapter and an ADR, linked from the README, installation chapter and contributing guide
+    where: docs/src/project/stability.md, docs/src/SUMMARY.md, README.md, docs/src/getting-started/installation.md, docs/src/project/contributing.md, the board's ADRs
+    when: Before 1.0.0 is tagged
+    who: Users deciding to rely on kanbanr, and contributors changing it
+    why: 1.0 is a compatibility promise, and an unwritten promise cannot be kept or checked
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL document which interfaces 1.0 keeps stable, which it does not, and how a stable interface is deprecated.
+    tests:
+    - name: stability.md lists the covered and uncovered surfaces and the deprecation rule, and the README links it
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL record the stability policy as an accepted architecture decision.
+    tests:
+    - name: kanbanr adr list shows the stability ADR accepted
+      kind: manual
+      state: planned
 created_at: 2026-10-02T08:18:51.626826663Z
-updated_at: 2026-10-02T08:18:51.626826663Z
+updated_at: 2026-10-02T08:18:51.781787896Z

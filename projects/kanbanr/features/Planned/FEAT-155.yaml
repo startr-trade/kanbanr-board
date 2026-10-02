@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: An installer check that runs the same wherever it is started, for the maintainer releasing kanbanr, so that a correct release is not reported as failed in public
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: The working directory of the installer verification scripts, and how make ci runs them
+    how: Change into a fresh temporary directory before init in both scripts; make ci runs the script from the repository root like the release does
+    where: scripts/verify-install.sh, scripts/verify-install.ps1, scripts/ci_local.py
+    when: On every release's installer check, and every make ci
+    who: The maintainer releasing kanbanr
+    why: v0.1.2's installs all worked, but all four checks failed because init ran inside the checkout, which has a .kanbanr marker
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the installer check runs from a folder that already names a board, THE SYSTEM SHALL still verify the installed binary and the served monitor.
+    tests:
+    - name: verify-install.sh and .ps1 pass when started from the repository root
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN make ci runs the installer check, THE SYSTEM SHALL run it from the repository root, as the release does.
+    tests:
+    - name: make ci fails with the old script and passes with the fixed one
+      kind: manual
+      state: planned
 created_at: 2026-10-02T11:08:40.365638811Z
-updated_at: 2026-10-02T11:08:40.365638811Z
+updated_at: 2026-10-02T11:08:40.404592025Z

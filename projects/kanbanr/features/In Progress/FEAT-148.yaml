@@ -31,7 +31,7 @@ definition:
     tests:
     - name: stability.md lists the covered and uncovered surfaces and the deprecation rule, and the README links it
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL record the stability policy as an accepted architecture decision.
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T08:18:51.626826663Z
-updated_at: 2026-10-02T08:58:50.60340084Z
+updated_at: 2026-10-02T09:00:38.66435134Z

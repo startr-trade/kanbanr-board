@@ -91,3 +91,7 @@
 - time: 2026-10-02T09:00:27.681284008Z
   actor: Venkatraman B
   message: update document
+- time: 2026-10-02T09:00:38.666220099Z
+  actor: Venkatraman B
+  message: test stability.md lists the covered and uncovered surfaces and the deprecation rule, and the README links it of FEAT-148/R-1 is now green
+  item: FEAT-148

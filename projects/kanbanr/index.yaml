@@ -31,20 +31,6 @@
   - FEAT-156
   done: 0
   total: 0
-- code: FEAT-156
-  status: In Progress
-  milestone: MS-009
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-147
   status: In Progress
   milestone: MS-009
@@ -88,6 +74,20 @@
   depends_on: []
   done: 2
   total: 3
+- code: FEAT-156
+  status: In Progress
+  milestone: MS-009
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

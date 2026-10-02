@@ -31,7 +31,7 @@ definition:
     tests:
     - name: the last task does not complete an item with an unproven requirement
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a batch completes an item's last task and then adds open tasks to it, THE SYSTEM SHALL leave the item in its status.
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T12:27:17.093070234Z
-updated_at: 2026-10-02T17:17:20.520932606Z
+updated_at: 2026-10-02T17:27:01.572604554Z

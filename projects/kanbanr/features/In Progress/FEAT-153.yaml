@@ -38,7 +38,7 @@ definition:
     tests:
     - name: accepting a decision with an empty section is refused
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHILE the monitor allows writes, THE SYSTEM SHALL list proposed decisions on the Review page with Accept and Reject.
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T10:51:35.611209055Z
-updated_at: 2026-10-02T11:06:26.132107686Z
+updated_at: 2026-10-02T11:06:26.1723808Z

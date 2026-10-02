@@ -13,5 +13,10 @@ notes page (FEAT-154), or the tag check refuses it.
 - `make ci` passes; the maintainer pushes and tags `v0.1.4`; the run, the release page, the image,
   the `.vsix`, and the extension's first automatic Open VSX publish are verified afterwards.
 
+- The installation chapter says how to install the VS Code extension as it now is: from Open VSX
+  (published, with its link) in VSCodium, Cursor and Windsurf, and from the release's `.vsix` in
+  VS Code — with a plain `curl` download as well as `gh`. The architecture overview stops calling
+  the extension "on the roadmap".
+
 ## Out of scope
 Anything not already on `main`; features stay frozen until 1.0.

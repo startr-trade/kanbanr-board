@@ -12,5 +12,31 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A v0.1.2 release that declares the feature freeze before 1.0, for anyone deciding whether to adopt kanbanr now, so that they know the 0.1.x line will change only by fixes
+  goals:
+  - G-5
+  zachman:
+    what: The version, the changelog, and the freeze notice in the README and roadmap
+    how: Bump the versions, date a 0.1.2 changelog section, state the freeze and what 0.1.x still takes, run make ci, verify the release after the maintainer tags it
+    where: api/Cargo.toml, api/Cargo.lock, web/package.json, web/package-lock.json, .claude-plugin/plugin.json, CHANGELOG.md, README.md, docs/src/project/roadmap.md
+    when: Now, at the start of the freeze
+    who: Anyone evaluating or already using kanbanr
+    why: A freeze nobody can read about is not a promise; and the extension fix is unreleased
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL state in its README and roadmap that features are frozen until 1.0 and which changes the 0.1.x line still takes.
+    tests:
+    - name: README and roadmap name the freeze, what 0.1.x takes, and the 1.0 milestone
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN v0.1.2 is tagged, THE SYSTEM SHALL publish binaries, installers and an image that report 0.1.2 and the tagged commit.
+    tests:
+    - name: the v0.1.2 release run passes and the GHCR image passes scripts/check-image.sh at the tag
+      kind: manual
+      state: planned
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T08:18:51.588349483Z
+updated_at: 2026-10-02T08:18:51.748816737Z

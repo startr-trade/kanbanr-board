@@ -31,7 +31,7 @@ definition:
     tests:
     - name: README and roadmap name the freeze, what 0.1.x takes, and the 1.0 milestone
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN v0.1.2 is tagged, THE SYSTEM SHALL publish binaries, installers and an image that report 0.1.2 and the tagged commit.
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T09:01:02.416705679Z
+updated_at: 2026-10-02T09:06:11.246636241Z

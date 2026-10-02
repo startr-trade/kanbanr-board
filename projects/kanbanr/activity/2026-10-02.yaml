@@ -114,3 +114,7 @@
   actor: Venkatraman B
   message: move feature FEAT-147
   item: FEAT-147
+- time: 2026-10-02T09:06:11.248725793Z
+  actor: Venkatraman B
+  message: test README and roadmap name the freeze, what 0.1.x takes, and the 1.0 milestone of FEAT-147/R-1 is now green
+  item: FEAT-147

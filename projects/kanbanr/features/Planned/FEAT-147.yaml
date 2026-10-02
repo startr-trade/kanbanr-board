@@ -10,7 +10,8 @@ estimate_days: null
 assignee: null
 team: null
 labels: []
-depends_on: []
+depends_on:
+- FEAT-149
 todo_lists: []
 definition:
   statement: A v0.1.2 release that declares the feature freeze before 1.0, for anyone deciding whether to adopt kanbanr now, so that they know the 0.1.x line will change only by fixes
@@ -39,4 +40,4 @@ definition:
       kind: manual
       state: planned
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T08:18:51.748816737Z
+updated_at: 2026-10-02T08:18:57.317735624Z

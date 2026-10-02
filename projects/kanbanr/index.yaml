@@ -23,7 +23,8 @@
   assignee: null
   team: null
   labels: []
-  depends_on: []
+  depends_on:
+  - FEAT-149
   done: 0
   total: 0
 - code: FEAT-148

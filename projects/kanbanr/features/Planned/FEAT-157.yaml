@@ -10,7 +10,8 @@ estimate_days: null
 assignee: null
 team: null
 labels: []
-depends_on: []
+depends_on:
+- FEAT-158
 todo_lists: []
 definition:
   statement: A v0.1.4 release that ships the fix making Completed mean proven, for everyone running kanbanr, so that ticking an item's last task never completes it with requirements unproven
@@ -47,4 +48,4 @@ definition:
       kind: manual
       state: planned
 created_at: 2026-10-02T18:20:51.69865834Z
-updated_at: 2026-10-02T18:25:56.176242203Z
+updated_at: 2026-10-02T18:27:27.287107822Z

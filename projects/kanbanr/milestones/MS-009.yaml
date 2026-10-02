@@ -1,0 +1,5 @@
+code: MS-009
+name: 1.0.0 — General availability
+description: ''
+depends_on:
+- MS-008

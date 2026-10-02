@@ -32,5 +32,10 @@ definition:
     - name: unknown fields survive move, task state and edit
       kind: unit
       state: planned
+defect:
+  severity: medium
+  found_in: design review
+  root_cause: feature, milestone, config and charter models have no flattened map for unknown keys
+  escaped: false
 created_at: 2026-10-02T09:01:02.205319736Z
-updated_at: 2026-10-02T09:01:02.24576185Z
+updated_at: 2026-10-02T09:01:02.358122808Z

@@ -12,5 +12,38 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Release notes written for users on every release page and in the docs, for anyone deciding whether to install or upgrade, so that a release says what it means rather than listing commits
+  goals:
+  - G-5
+  zachman:
+    what: A release-notes page per version, its index, and the GitHub release body
+    how: Markdown pages in the docs book, a body_path on the release step, a tag check that refuses a version without notes, and a make ci check
+    where: docs/src/releases/, docs/src/SUMMARY.md, .github/workflows/release.yml, scripts/ci_local.py, CHANGELOG.md
+    when: Written with each release's preparation; published when the tag is pushed
+    who: Users deciding whether to install or upgrade kanbanr
+    why: A release page that only links a commit range tells a user nothing about what changed for them
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release is published, THE SYSTEM SHALL show that version's release notes on its GitHub release page.
+    tests:
+    - name: the v0.1.2 release page opens with the v0.1.2 notes
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a tag's version has no release-notes page, THEN THE SYSTEM SHALL refuse the release before anything is built.
+    tests:
+    - name: the tag check and make ci refuse a version with no notes page
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL publish every release's notes in the documentation, with an index of all releases.
+    tests:
+    - name: the book has a Release notes index linking v0.1.0, v0.1.1 and v0.1.2
+      kind: manual
+      state: planned
 created_at: 2026-10-02T11:07:36.671389368Z
-updated_at: 2026-10-02T11:07:36.671389368Z
+updated_at: 2026-10-02T11:07:36.711384504Z

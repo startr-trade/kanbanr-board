@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Scoping and deciding work inside Claude Code — a plan-mode brief for a new item and a question for each decision — for a user who avoids the browser and the terminal, so that agreement stays cheap and is still given only by the user, for exactly what they were shown
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The skill's flow for new items and for the review queue, and a content-revision guard on verdict commands
+    how: Plan mode for scoping, one AskUserQuestion per pending item with its possible verdicts, verdicts recorded only from the user's choice and pinned with --rev
+    where: skill/kanbanr/SKILL.md, api/crates/kanbanr-cli/src/main.rs, api/crates/kanbanr-core/src/store.rs, dispatch.rs, docs/src/using/the-method.md, docs/src/using/processes.md
+    when: Whenever the user asks for new work, and whenever items are waiting for a verdict
+    who: A user working entirely in Claude Code; Claude as the one who asks
+    why: Every verdict currently needs the browser or a terminal, which the user avoids
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the user asks for a new item, THE SYSTEM SHALL scope it in plan mode and create it, approved, only when the user accepts the plan.
+    tests:
+    - name: in a scratch project, asking for a feature produces a plan-mode brief, and accepting it creates the item with an approval by the user
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN items are waiting for a verdict, THE SYSTEM SHALL offer each one's possible verdicts in a question and record the one the user chooses.
+    tests:
+    - name: a review in Claude Code walks two pending items, recording Approve for one and Change it for the other
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a definition changed after the user was shown it, THEN THE SYSTEM SHALL refuse to record approve, ratify or sign-off given with that definition's revision.
+    tests:
+    - name: approve, ratify and signoff with a stale --rev are refused and change nothing
+      kind: unit
+      state: planned
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:11:00.122156238Z
+updated_at: 2026-10-02T19:11:06.412793257Z

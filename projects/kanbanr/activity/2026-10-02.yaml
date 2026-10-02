@@ -281,3 +281,7 @@
   actor: Venkatraman B
   message: test the v0.1.2 release page opens with the v0.1.2 notes of FEAT-154/R-1 is now green
   item: FEAT-154
+- time: 2026-10-02T12:25:30.232989966Z
+  actor: Venkatraman B
+  message: test the v0.1.2 release has kanbanr-vscode-0.1.2.vsix, its checksum matches, and it installs in a clean VS Code of FEAT-152/R-1 is now green
+  item: FEAT-152

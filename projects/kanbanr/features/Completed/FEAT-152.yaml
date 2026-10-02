@@ -44,7 +44,7 @@ definition:
     tests:
     - name: the v0.1.2 release has kanbanr-vscode-0.1.2.vsix, its checksum matches, and it installs in a clean VS Code
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE the repository enables Open VSX publishing, THE SYSTEM SHALL publish the release's .vsix to Open VSX, treating an already-published version as success.
@@ -77,4 +77,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T10:28:36.033273467Z
+updated_at: 2026-10-02T12:25:30.230624223Z

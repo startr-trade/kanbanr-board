@@ -1,6 +1,6 @@
 code: FEAT-151
 title: Unknown fields survive a rewrite by an older kanbanr
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -47,5 +47,9 @@ defect:
   found_in: design review
   root_cause: feature, milestone, config and charter models have no flattened map for unknown keys
   escaped: false
+history:
+- at: 2026-10-02T10:09:53.844088141Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-02T09:01:02.205319736Z
-updated_at: 2026-10-02T10:09:37.916686627Z
+updated_at: 2026-10-02T10:09:53.844088141Z

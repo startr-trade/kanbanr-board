@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Board files that keep fields their writer does not know, for people sharing a board across kanbanr versions, so that an older kanbanr never silently deletes what a newer one recorded
+  goals:
+  - G-0
+  - G-1
+  zachman:
+    what: Unknown keys in feature items, milestones, the project config and the charter
+    how: A flattened map of unknown keys on each model, written back on every save, with a round-trip test through move, task state and edit
+    where: api/crates/kanbanr-core/src/models.rs, config.rs, charter.rs, store.rs, docs/src/project/stability.md
+    when: Whenever any kanbanr rewrites a board file another version wrote
+    who: Anyone whose board is written from more than one machine or version
+    why: 'Without it the 1.0 stability promise has a hole: a 1.0 binary deletes fields 1.1 adds'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN kanbanr rewrites a feature item, milestone, project config or charter, THE SYSTEM SHALL keep every field it does not recognise, with its value unchanged.
+    tests:
+    - name: unknown fields survive move, task state and edit
+      kind: unit
+      state: planned
 created_at: 2026-10-02T09:01:02.205319736Z
-updated_at: 2026-10-02T09:01:02.205319736Z
+updated_at: 2026-10-02T09:01:02.24576185Z

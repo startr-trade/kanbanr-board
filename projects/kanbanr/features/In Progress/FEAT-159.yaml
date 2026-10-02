@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: walkthroughs
+  tasks:
+  - key: T1
+    text: 'Proof R-1: scope a new item in plan mode in a scratch project; accepting creates it approved by the user'
+    state: NotStarted
+  - key: T2
+    text: 'Proof R-2: review two pending items in the conversation: Approve one, Change it the other'
+    state: NotStarted
+  - key: T3
+    text: 'Proof R-3: one item through the togaf preset and one through a custom process file, same skill'
+    state: NotStarted
+  created_at: 2026-10-02T19:40:23.754055531Z
 definition:
   statement: Scoping and deciding work inside Claude Code — a plan-mode brief for a new item and a question for each decision — for a user who avoids the browser and the terminal, so that agreement stays cheap and is still given only by the user, for exactly what they were shown
   goals:
@@ -82,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:40:17.181525135Z
+updated_at: 2026-10-02T19:40:23.754065665Z

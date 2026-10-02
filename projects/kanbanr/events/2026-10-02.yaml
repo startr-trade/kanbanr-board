@@ -254,3 +254,10 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-02T12:27:17.095542868Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-156
+  message: feature FEAT-156 added
+  detail:
+    status: Planned

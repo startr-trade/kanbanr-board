@@ -46,5 +46,15 @@ definition:
     - name: make ci packages the extension and fails on a broken manifest
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T10:18:53.43286056Z
+    rev: 1a4436eb37405074
+  approvals:
+  - at: 2026-10-02T10:18:53.43286056Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 1a4436eb37405074
+    status: Planned
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T10:18:07.132257338Z
+updated_at: 2026-10-02T10:18:53.43286056Z

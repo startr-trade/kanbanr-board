@@ -45,7 +45,7 @@ definition:
     tests:
     - name: make ci packages the extension and fails on a broken manifest
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-02T10:18:53.43286056Z
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T10:19:27.964016625Z
+updated_at: 2026-10-02T10:28:35.860610203Z

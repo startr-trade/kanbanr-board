@@ -160,3 +160,7 @@
   actor: Venkatraman B
   message: move feature FEAT-152
   item: FEAT-152
+- time: 2026-10-02T10:28:35.862769566Z
+  actor: Venkatraman B
+  message: test make ci packages the extension and fails on a broken manifest of FEAT-152/R-3 is now green
+  item: FEAT-152

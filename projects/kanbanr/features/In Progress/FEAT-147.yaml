@@ -38,7 +38,7 @@ definition:
     tests:
     - name: the v0.1.2 release run passes and the GHCR image passes scripts/check-image.sh at the tag
       kind: manual
-      state: green
+      state: red
   approval:
     by: Venkatraman B
     at: 2026-10-02T08:48:16.230037614Z
@@ -54,4 +54,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T08:18:51.588349483Z
-updated_at: 2026-10-02T12:25:30.267463774Z
+updated_at: 2026-10-02T12:25:52.699842661Z

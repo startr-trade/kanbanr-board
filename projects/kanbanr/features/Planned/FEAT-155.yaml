@@ -1,0 +1,16 @@
+code: FEAT-155
+title: 'Defect: the v0.1.2 installer check fails inside the checkout'
+status: Planned
+milestone: MS-009
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-02T11:08:40.365638811Z
+updated_at: 2026-10-02T11:08:40.365638811Z

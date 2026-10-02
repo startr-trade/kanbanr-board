@@ -40,5 +40,15 @@ definition:
     - name: the v0.1.5 release page opens with its notes and open-vsx.org lists kanbanr 0.1.5
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-02T19:46:01.380198061Z
+    rev: fb291026e861c627
+  approvals:
+  - at: 2026-10-02T19:46:01.380198061Z
+    by: Venkatraman B
+    verdict: approved
+    rev: fb291026e861c627
+    status: Planned
 created_at: 2026-10-02T19:45:21.304699107Z
-updated_at: 2026-10-02T19:45:21.368369514Z
+updated_at: 2026-10-02T19:46:01.380198061Z

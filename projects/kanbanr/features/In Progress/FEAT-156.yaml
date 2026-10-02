@@ -1,6 +1,6 @@
 code: FEAT-156
 title: 'Defect: finishing the last task completes an item with unproven requirements'
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -54,5 +54,9 @@ defect:
   found_in: production
   root_cause: auto-advance on the legacy end status checks no evidence; batch operations auto-advance between operations
   escaped: false
+history:
+- at: 2026-10-02T17:17:20.520932606Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-02T12:27:17.093070234Z
-updated_at: 2026-10-02T17:17:05.250549876Z
+updated_at: 2026-10-02T17:17:20.520932606Z

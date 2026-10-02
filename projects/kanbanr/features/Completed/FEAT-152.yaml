@@ -1,6 +1,6 @@
 code: FEAT-152
 title: 'Distribute the VS Code extension: each release and Open VSX'
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: null
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'Proof: Open VSX publish once the namespace is granted and the switch is on'
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-02T10:28:36.033247565Z
 definition:
   statement: A VS Code extension published with every release and on Open VSX, for developers who want the board in their editor, so that they can install it without building it themselves
@@ -79,5 +79,8 @@ history:
 - at: 2026-10-02T12:27:00.892920602Z
   from: Completed
   to: In Progress
+- at: 2026-10-02T17:37:35.520441977Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-02T10:18:07.093118844Z
-updated_at: 2026-10-02T17:37:35.482711766Z
+updated_at: 2026-10-02T17:37:35.520441977Z

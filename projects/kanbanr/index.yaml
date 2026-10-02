@@ -2226,7 +2226,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 1
+  done: 2
   total: 3
 - code: FEAT-153
   status: Completed

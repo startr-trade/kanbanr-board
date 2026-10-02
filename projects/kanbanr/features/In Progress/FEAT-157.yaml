@@ -39,7 +39,7 @@ definition:
     tests:
     - name: the installation chapter links the Open VSX listing and gives a curl install for the .vsix; no page calls the extension a roadmap item
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN v0.1.4 is published, THE SYSTEM SHALL show its notes on the release page and publish the extension to Open VSX at 0.1.4.
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T18:20:51.69865834Z
-updated_at: 2026-10-02T18:37:24.199185768Z
+updated_at: 2026-10-02T18:53:45.616053576Z

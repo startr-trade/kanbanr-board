@@ -138,3 +138,7 @@
   actor: Venkatraman B
   message: move feature FEAT-163
   item: FEAT-163
+- time: 2026-10-04T18:35:36.917023775Z
+  actor: Venkatraman B
+  message: test the tag check refuses a commit whose CI run failed, and one with no CI run of FEAT-163/R-1 is now green
+  item: FEAT-163

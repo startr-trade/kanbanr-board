@@ -183,3 +183,7 @@
   actor: Venkatraman B
   message: test the v0.1.6 release run passes, its CI check included, with every verify-install leg and the image check of FEAT-164/R-1 is now green
   item: FEAT-164
+- time: 2026-10-04T19:44:34.477735245Z
+  actor: Venkatraman B
+  message: test the v0.1.6 release page opens with its notes and open-vsx.org lists kanbanr 0.1.6 of FEAT-164/R-2 is now green
+  item: FEAT-164

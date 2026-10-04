@@ -43,7 +43,7 @@ definition:
     tests:
     - name: the v0.1.5 release run passes, including every verify-install leg and the image check
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN v0.1.5 is published, THE SYSTEM SHALL show its notes on the release page and publish the extension to Open VSX at 0.1.5.
@@ -66,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:45:21.304699107Z
-updated_at: 2026-10-04T18:05:51.292747046Z
+updated_at: 2026-10-04T18:28:51.900293124Z

@@ -111,3 +111,7 @@
   actor: Venkatraman B
   message: move feature FEAT-162
   item: FEAT-162
+- time: 2026-10-04T18:28:51.903265266Z
+  actor: Venkatraman B
+  message: test the v0.1.5 release run passes, including every verify-install leg and the image check of FEAT-160/R-1 is now green
+  item: FEAT-160

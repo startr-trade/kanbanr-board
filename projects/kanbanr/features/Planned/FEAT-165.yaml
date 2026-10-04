@@ -31,5 +31,9 @@ definition:
     - name: make ci passes on its first run after a version change, three times running
       kind: manual
       state: planned
+defect:
+  severity: low
+  found_in: make ci
+  escaped: false
 created_at: 2026-10-04T19:07:57.958943875Z
-updated_at: 2026-10-04T19:07:58.003782071Z
+updated_at: 2026-10-04T19:07:58.070194202Z

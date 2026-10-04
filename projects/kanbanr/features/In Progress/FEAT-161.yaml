@@ -19,7 +19,7 @@ definition:
   - G-6
   zachman:
     what: The runtime stage of the container image
-    how: apt-get upgrade in the runtime stage, before the binary is copied in
+    how: Both stages on Debian 13 trixie, and apt-get upgrade in the runtime stage before the binary is copied in
     where: docker/Dockerfile
     when: 'On every image build: make ci and the release'
     who: Anyone running the kanbanr image
@@ -32,16 +32,17 @@ definition:
     - name: make ci's image scan finds no fixable HIGH or CRITICAL finding
       kind: manual
       state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL build and run its container image on the current Debian stable release.
+    tests:
+    - name: the image's build and runtime stages are trixie, and the image passes scripts/check-image.sh
+      kind: manual
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-04T17:46:20.655220211Z
     rev: a3bc88416fdcb062
-  approvals:
-  - at: 2026-10-04T17:46:20.655220211Z
-    by: Venkatraman B
-    verdict: approved
-    rev: a3bc88416fdcb062
-    status: Planned
 defect:
   severity: high
   found_in: make ci
@@ -52,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:50:28.366701336Z
+updated_at: 2026-10-04T17:50:28.408308802Z

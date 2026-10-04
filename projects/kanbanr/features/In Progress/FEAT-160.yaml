@@ -12,6 +12,7 @@ team: null
 labels: []
 depends_on:
 - FEAT-159
+- FEAT-161
 todo_lists: []
 definition:
   statement: A v0.1.5 release that ships scoping and deciding work inside Claude Code, for everyone running kanbanr with Claude, so that agreeing to work never needs the browser or a terminal
@@ -55,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:45:21.304699107Z
-updated_at: 2026-10-04T17:38:40.906718713Z
+updated_at: 2026-10-04T17:45:39.935354876Z

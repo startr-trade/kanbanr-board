@@ -1,6 +1,6 @@
 code: FEAT-161
 title: 'Defect: the container image ships Debian packages with known fixes'
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -47,5 +47,9 @@ defect:
   found_in: make ci
   root_cause: the runtime stage keeps the base image's packages; Debian fixed libpcre2-8-0 in the archive before rebuilding debian:bookworm-slim
   escaped: false
+history:
+- at: 2026-10-04T17:46:20.759617278Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:46:20.655220211Z
+updated_at: 2026-10-04T17:46:20.759617278Z

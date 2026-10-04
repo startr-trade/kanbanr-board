@@ -115,3 +115,7 @@
   actor: Venkatraman B
   message: test the v0.1.5 release run passes, including every verify-install leg and the image check of FEAT-160/R-1 is now green
   item: FEAT-160
+- time: 2026-10-04T18:28:51.94554561Z
+  actor: Venkatraman B
+  message: test the v0.1.5 release page opens with its notes and open-vsx.org lists kanbanr 0.1.5 of FEAT-160/R-2 is now green
+  item: FEAT-160

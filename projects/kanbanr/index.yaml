@@ -32,7 +32,7 @@
   done: 0
   total: 0
 - code: FEAT-160
-  status: In Progress
+  status: Completed
   milestone: MS-009
   kind: null
   priority: null
@@ -45,7 +45,7 @@
   depends_on:
   - FEAT-159
   - FEAT-161
-  done: 1
+  done: 2
   total: 2
 - code: FEAT-001
   status: Completed

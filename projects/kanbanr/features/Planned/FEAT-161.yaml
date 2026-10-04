@@ -32,10 +32,20 @@ definition:
     - name: make ci's image scan finds no fixable HIGH or CRITICAL finding
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-04T17:46:20.655220211Z
+    rev: a3bc88416fdcb062
+  approvals:
+  - at: 2026-10-04T17:46:20.655220211Z
+    by: Venkatraman B
+    verdict: approved
+    rev: a3bc88416fdcb062
+    status: Planned
 defect:
   severity: high
   found_in: make ci
   root_cause: the runtime stage keeps the base image's packages; Debian fixed libpcre2-8-0 in the archive before rebuilding debian:bookworm-slim
   escaped: false
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:45:39.873945921Z
+updated_at: 2026-10-04T17:46:20.655220211Z

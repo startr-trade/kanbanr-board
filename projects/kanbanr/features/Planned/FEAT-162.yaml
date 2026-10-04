@@ -32,5 +32,10 @@ definition:
     - name: timestamps_with_different_fraction_lengths_order_by_instant
       kind: unit
       state: planned
+defect:
+  severity: medium
+  found_in: CI (macOS)
+  root_cause: RFC 3339 timestamps with trimmed fractional seconds compared as strings
+  escaped: false
 created_at: 2026-10-04T18:20:07.594691804Z
-updated_at: 2026-10-04T18:20:07.636912589Z
+updated_at: 2026-10-04T18:20:14.141915819Z

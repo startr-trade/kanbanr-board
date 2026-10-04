@@ -61,3 +61,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-161
   item: FEAT-161
+- time: 2026-10-04T18:01:17.692343548Z
+  actor: Venkatraman B
+  message: test make ci's image scan finds no fixable HIGH or CRITICAL finding of FEAT-161/R-1 is now green
+  item: FEAT-161

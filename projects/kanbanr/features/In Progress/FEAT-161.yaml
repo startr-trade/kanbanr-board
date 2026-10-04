@@ -31,7 +31,7 @@ definition:
     tests:
     - name: make ci's image scan finds no fixable HIGH or CRITICAL finding
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL build and run its container image on the current Debian stable release.
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:50:53.948952495Z
+updated_at: 2026-10-04T18:01:17.690310567Z

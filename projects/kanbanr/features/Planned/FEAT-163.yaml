@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release that refuses to build from a commit CI has not passed, for the maintainer tagging releases, so that nothing is published from code that failed its tests on any platform
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: A CI-status check in the release workflow's tag job
+    how: Query the CI workflow's run for the tagged commit with the GitHub API; wait while it runs, proceed on success, refuse on failure or absence
+    where: .github/workflows/release.yml, scripts/ci_local.py, docs/src/project/open-sourcing.md
+    when: On every tag push, before anything is built
+    who: The maintainer, and everyone who installs a release
+    why: v0.1.5 published while CI was failing on macOS for the same commit
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF the tagged commit's CI run failed or does not exist, THEN THE SYSTEM SHALL refuse the release before anything is built, naming the run.
+    tests:
+    - name: the tag check refuses a commit whose CI run failed, and one with no CI run
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE the tagged commit's CI run is in progress, THE SYSTEM SHALL wait for it, up to a limit, before deciding.
+    tests:
+    - name: the tag check waits for an in-progress CI run and proceeds when it succeeds
+      kind: manual
+      state: planned
 created_at: 2026-10-04T18:28:52.032547086Z
-updated_at: 2026-10-04T18:28:52.032547086Z
+updated_at: 2026-10-04T18:28:58.217829445Z

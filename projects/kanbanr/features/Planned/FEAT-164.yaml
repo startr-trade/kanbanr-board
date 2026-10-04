@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A v0.1.6 release that ships timestamp comparisons by instant and a release that waits for CI, for everyone running kanbanr, so that no item escapes its gates on a same-second timestamp and no release ships untested code
+  goals:
+  - G-3
+  - G-6
+  zachman:
+    what: The version number, the release notes, the changelog and the v0.1.6 release
+    how: Bump the versions, write the notes page and index entry, date the changelog section, run make ci, and verify the tagged release, including its own CI check
+    where: api/Cargo.toml, api/Cargo.lock, web/package.json, web/package-lock.json, .claude-plugin/plugin.json, editor/vscode/package.json, editor/vscode/package-lock.json, docs/src/releases/, docs/src/SUMMARY.md, CHANGELOG.md
+    when: Now, with CI green on main
+    who: Everyone running kanbanr
+    why: The two fixes only protect anyone once they are in a release
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN v0.1.6 is tagged, THE SYSTEM SHALL confirm CI passed on the tagged commit and publish binaries, installers, an image and a .vsix that report 0.1.6 and the tagged commit, verified on every installer platform.
+    tests:
+    - name: the v0.1.6 release run passes, its CI check included, with every verify-install leg and the image check
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN v0.1.6 is published, THE SYSTEM SHALL show its notes on the release page and publish the extension to Open VSX at 0.1.6.
+    tests:
+    - name: the v0.1.6 release page opens with its notes and open-vsx.org lists kanbanr 0.1.6
+      kind: manual
+      state: planned
 created_at: 2026-10-04T18:57:56.032387311Z
-updated_at: 2026-10-04T18:57:56.032387311Z
+updated_at: 2026-10-04T18:57:56.082035521Z

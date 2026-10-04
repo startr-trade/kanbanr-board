@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A make ci whose monitor test fails only when the monitor is really missing, for the maintainer relying on it before every push, so that a red run always means something
+  goals:
+  - G-0
+  zachman:
+    what: make ci's handling of the embedded monitor between jobs, and the monitor test's failure message
+    how: Reproduce the stale-binary sequence; force the embed to rebuild when web/dist appears or changes; make the test say what is missing
+    where: scripts/ci_local.py, api/crates/kanbanr-server/build.rs, api/crates/kanbanr-cli/tests/view_daemon.rs
+    when: Every make ci
+    who: The maintainer
+    why: Twice a first run after a version change failed and a rerun passed; a flaky check gets ignored
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN make ci runs after web/dist was absent in an earlier job, THE SYSTEM SHALL test a binary that embeds the current monitor.
+    tests:
+    - name: make ci passes on its first run after a version change, three times running
+      kind: manual
+      state: planned
 created_at: 2026-10-04T19:07:57.958943875Z
-updated_at: 2026-10-04T19:07:57.958943875Z
+updated_at: 2026-10-04T19:07:58.003782071Z

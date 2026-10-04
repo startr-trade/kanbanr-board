@@ -55,3 +55,10 @@
   detail:
     ready: kanbanr:FEAT-160
     unblocked_by: kanbanr:FEAT-161
+- time: 2026-10-04T18:20:07.597096725Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-162
+  message: feature FEAT-162 added
+  detail:
+    status: Planned

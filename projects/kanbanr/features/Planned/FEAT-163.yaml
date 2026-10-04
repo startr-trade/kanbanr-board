@@ -39,5 +39,15 @@ definition:
     - name: the tag check waits for an in-progress CI run and proceeds when it succeeds
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-04T18:30:29.703880612Z
+    rev: 8f92296345e0cf75
+  approvals:
+  - at: 2026-10-04T18:30:29.703880612Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 8f92296345e0cf75
+    status: Planned
 created_at: 2026-10-04T18:28:52.032547086Z
-updated_at: 2026-10-04T18:28:58.217829445Z
+updated_at: 2026-10-04T18:30:29.703880612Z

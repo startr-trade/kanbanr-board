@@ -179,3 +179,7 @@
 - time: 2026-10-04T19:07:58.277042637Z
   actor: Venkatraman B
   message: 'FEAT-164: what waits on the v0.1.6 run'
+- time: 2026-10-04T19:44:34.436050694Z
+  actor: Venkatraman B
+  message: test the v0.1.6 release run passes, its CI check included, with every verify-install leg and the image check of FEAT-164/R-1 is now green
+  item: FEAT-164

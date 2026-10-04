@@ -1,0 +1,16 @@
+code: FEAT-165
+title: 'Defect: make ci''s monitor test sometimes finds no embedded monitor'
+status: Planned
+milestone: MS-004
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-04T19:07:57.958943875Z
+updated_at: 2026-10-04T19:07:57.958943875Z

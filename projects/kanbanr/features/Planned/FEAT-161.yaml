@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A container image built with Debian's published security fixes, for anyone running kanbanr from GHCR, so that a known, fixed vulnerability never ships and releases don't wait on base-image rebuilds
+  goals:
+  - G-0
+  - G-6
+  zachman:
+    what: The runtime stage of the container image
+    how: apt-get upgrade in the runtime stage, before the binary is copied in
+    where: docker/Dockerfile
+    when: 'On every image build: make ci and the release'
+    who: Anyone running the kanbanr image
+    why: The release's scan refuses CVE-2026-103111 in libpcre2-8-0, which the base image has not picked up
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the image is built, THE SYSTEM SHALL include every security fix Debian has published for its packages.
+    tests:
+    - name: make ci's image scan finds no fixable HIGH or CRITICAL finding
+      kind: manual
+      state: planned
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:45:39.7480176Z
+updated_at: 2026-10-04T17:45:39.806921224Z

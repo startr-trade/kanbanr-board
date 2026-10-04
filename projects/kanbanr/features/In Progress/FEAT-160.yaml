@@ -1,6 +1,6 @@
 code: FEAT-160
 title: 'Release v0.1.5: decisions in Claude Code'
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -50,5 +50,9 @@ definition:
     verdict: approved
     rev: fb291026e861c627
     status: Planned
+history:
+- at: 2026-10-04T17:38:40.906718713Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-02T19:45:21.304699107Z
-updated_at: 2026-10-02T19:46:01.380198061Z
+updated_at: 2026-10-04T17:38:40.906718713Z

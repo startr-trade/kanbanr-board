@@ -1,0 +1,8 @@
+- time: 2026-10-04T17:38:40.943027975Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-160
+  message: feature FEAT-160 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

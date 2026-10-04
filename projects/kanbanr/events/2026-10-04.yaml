@@ -87,3 +87,10 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-04T18:28:52.035405278Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-163
+  message: feature FEAT-163 added
+  detail:
+    status: Planned

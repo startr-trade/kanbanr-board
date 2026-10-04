@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Timestamps compared as instants rather than text, for every board, so that whether an item falls under the method never depends on how many fractional digits its creation time happened to print
+  goals:
+  - G-0
+  - G-3
+  zachman:
+    what: Every comparison of two stored timestamps
+    how: One helper that parses both RFC 3339 values and compares instants, used by the gate check, the completion check, doctor, the retrospective and the mirror
+    where: api/crates/kanbanr-core/src/lib.rs, store.rs, doctor.rs, retro.rs, mirror.rs
+    when: Whenever kanbanr decides whether something happened before something else
+    who: Every board, and the CI that runs on macOS
+    why: Text comparison misorders timestamps in the same second, which failed CI on macOS and can exempt an item from its gates
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN kanbanr compares two timestamps, THE SYSTEM SHALL order them by the instant they denote.
+    tests:
+    - name: timestamps_with_different_fraction_lengths_order_by_instant
+      kind: unit
+      state: planned
 created_at: 2026-10-04T18:20:07.594691804Z
-updated_at: 2026-10-04T18:20:07.594691804Z
+updated_at: 2026-10-04T18:20:07.636912589Z

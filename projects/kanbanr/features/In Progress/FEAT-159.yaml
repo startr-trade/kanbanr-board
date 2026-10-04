@@ -44,7 +44,7 @@ definition:
     tests:
     - name: in a scratch project, asking for a feature produces a plan-mode brief, and accepting it creates the item with an approval by the user
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN items are waiting for a verdict, THE SYSTEM SHALL offer each one's possible verdicts in a question and record the one the user chooses.
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-02T19:40:23.754065665Z
+updated_at: 2026-10-04T17:27:13.660910782Z

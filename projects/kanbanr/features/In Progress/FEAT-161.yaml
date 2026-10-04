@@ -41,8 +41,14 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-04T17:46:20.655220211Z
-    rev: a3bc88416fdcb062
+    at: 2026-10-04T17:50:53.948952495Z
+    rev: 08b14e698397d512
+  approvals:
+  - at: 2026-10-04T17:50:53.948952495Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 08b14e698397d512
+    status: In Progress
 defect:
   severity: high
   found_in: make ci
@@ -53,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-04T17:45:39.7480176Z
-updated_at: 2026-10-04T17:50:28.408308802Z
+updated_at: 2026-10-04T17:50:53.948952495Z

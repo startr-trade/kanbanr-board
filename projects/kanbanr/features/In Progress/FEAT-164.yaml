@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: v0.1.6
+  tasks:
+  - key: T1
+    text: 'Proof: the v0.1.6 run passes (its CI check included); release page; image; Open VSX 0.1.6'
+    state: NotStarted
+  - key: T2
+    text: Versions 0.1.6, notes page + index, changelog dated, make ci 56/56
+    state: Completed
+  created_at: 2026-10-04T19:07:58.274683439Z
 definition:
   statement: A v0.1.6 release that ships timestamp comparisons by instant and a release that waits for CI, for everyone running kanbanr, so that no item escapes its gates on a same-second timestamp and no release ships untested code
   goals:
@@ -54,4 +64,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-04T18:57:56.032387311Z
-updated_at: 2026-10-04T18:58:22.430064281Z
+updated_at: 2026-10-04T19:07:58.27470201Z

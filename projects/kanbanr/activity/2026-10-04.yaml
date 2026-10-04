@@ -69,3 +69,7 @@
   actor: Venkatraman B
   message: test the image's build and runtime stages are trixie, and the image passes scripts/check-image.sh of FEAT-161/R-2 is now green
   item: FEAT-161
+- time: 2026-10-04T18:01:17.953384682Z
+  actor: Venkatraman B
+  message: record defect details for FEAT-161
+  item: FEAT-161

@@ -58,7 +58,7 @@ definition:
     tests:
     - name: the same skill drives an item through the togaf preset and through a custom process file, asking what each gate requires and nothing else
       kind: manual
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: THE SYSTEM SHALL document in its book how to scope, decide and move work by talking to Claude, including what each kind of missing check is turned into and a worked TOGAF example.
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-04T17:27:13.743322889Z
+updated_at: 2026-10-04T17:29:04.5723035Z

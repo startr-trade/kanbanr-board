@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 'Proof R-1: scope a new item in plan mode in a scratch project; accepting creates it approved by the user'
-    state: NotStarted
+    state: Completed
   - key: T2
     text: 'Proof R-2: review two pending items in the conversation: Approve one, Change it the other'
     state: NotStarted
@@ -95,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-02T19:11:00.122156238Z
-updated_at: 2026-10-04T17:27:13.660910782Z
+updated_at: 2026-10-04T17:27:13.743322889Z

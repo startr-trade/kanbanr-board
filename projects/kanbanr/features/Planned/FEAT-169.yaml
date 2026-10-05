@@ -13,5 +13,53 @@ labels: []
 depends_on:
 - FEAT-168
 todo_lists: []
+definition:
+  statement: Processes saved by name on the board or in a personal folder and applied to any project, for a team and for one user across boards, so that a process is written once and every project runs the same one
+  goals:
+  - G-5
+  - G-1
+  zachman:
+    what: The board's processes/ library, the personal ~/.kanbanr/processes library, the process file header, project provenance, process list/show/save
+    how: A resolver looking up board, then personal, then built-in; save writes the YAML (one board commit) and bumps the version on a content change; applying a named process records name, library, version and content rev on the project's config
+    where: api/crates/kanbanr-core/src/config.rs, store.rs, dispatch.rs, project.rs; api/crates/kanbanr-cli/src/main.rs
+    when: When a process is saved, listed, or applied to a project
+    who: A user with several projects, and their team sharing one board
+    why: A process lives only in the project it was applied to, so every other project and every teammate copies the YAML by hand
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a process is saved, THE SYSTEM SHALL keep it where the user chose, on the board or in the personal folder, and bump its version only when its content changed.
+    tests:
+    - name: save_keeps_the_process_where_chosen_and_versions_changes
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a process is named, THE SYSTEM SHALL find it on the board first, then in the personal folder, then among the built-in processes, and refuse to save one under a built-in name.
+    tests:
+    - name: a_name_resolves_board_then_personal_then_builtin
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a board with saved processes is cloned, THE SYSTEM SHALL list and apply those processes in the clone.
+    tests:
+    - name: a_teammate_clone_applies_the_boards_process
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a named process is applied to a project, THE SYSTEM SHALL record its name, library, version and content rev on the project, and an older reader SHALL keep that record unchanged.
+    tests:
+    - name: applying_a_named_process_records_where_it_came_from
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHILE a personal processes folder exists under the home folder, THE SYSTEM SHALL never treat it as a project marker.
+    tests:
+    - name: the_personal_folder_is_never_a_marker
+      kind: integration
+      state: planned
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T03:13:20.932368567Z
+updated_at: 2026-10-05T10:41:03.352819694Z

@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: config::validate_workflow; store uses it
-    state: InProgress
+    state: Completed
   - key: T2
     text: Check::ALL + descriptions; process checks
     state: NotStarted
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:46.967392524Z
+updated_at: 2026-10-05T10:48:47.015894872Z

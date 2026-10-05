@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: fix the shared download folder
+  tasks: []
+  created_at: 2026-10-05T02:45:21.855418885Z
 definition:
   statement: Editor installs that each download into their own folder, for the maintainer reading CI, so that a red run means a real fault
   goals:
@@ -49,4 +53,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T02:43:34.02974961Z
-updated_at: 2026-10-05T02:45:21.784780654Z
+updated_at: 2026-10-05T02:45:21.85542051Z

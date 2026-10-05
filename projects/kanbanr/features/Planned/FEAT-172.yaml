@@ -12,8 +12,29 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release check that the monitor is embedded and compressed by looking for it, for the maintainer relying on a release to carry its monitor, so that the check fails exactly when the monitor is missing or stored raw
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: release.yml's monitor check and the make ci step that runs it
+    how: A script that looks for every web/dist path in the binary and for a raw stretch of the largest JS asset; run in release.yml and make ci; seen failing on a binary without the monitor and one with raw assets
+    where: .github/workflows/release.yml, scripts/check-embedded-monitor.sh, scripts/ci_local.py
+    when: Every release build and every make ci
+    who: The maintainer
+    why: 'The size bounds went stale: the binary without the monitor is ~19 MB, and FEAT-169''s code growth crossed the 20 MB ceiling with the assets compressed'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a release binary is checked, THE SYSTEM SHALL fail if any monitor asset is not embedded or the assets are stored uncompressed, whatever the binary's size.
+    tests:
+    - name: check-embedded-monitor.sh passes the release build and fails on a binary without the monitor and on one with raw assets
+      kind: manual
+      state: planned
+    violates: FEAT-084/R-5
 defect:
   found_in: v0.1.6
   escaped: false
 created_at: 2026-10-05T11:13:29.319694279Z
-updated_at: 2026-10-05T11:13:35.659282078Z
+updated_at: 2026-10-05T11:13:35.712694673Z

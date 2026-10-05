@@ -67,7 +67,7 @@ definition:
       state: green
     - name: the_guides_check_table_matches_process_checks
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-05T10:48:40.538549985Z
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:46.923297311Z
+updated_at: 2026-10-05T10:48:46.967392524Z

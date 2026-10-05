@@ -12,8 +12,27 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Editor installs that each download into their own folder, for the maintainer reading CI, so that a red run means a real fault
+  goals:
+  - G-0
+  zachman:
+    what: The folder install_into downloads the checked .vsix into, and removes afterwards
+    how: Name the folder by pid plus a per-process counter; a test runs many installs at once and checks none fails
+    where: api/crates/kanbanr-cli/src/editor.rs
+    when: Every kanbanr editor install and self-update, and every test run
+    who: The maintainer
+    why: macOS CI failed on 5eaf0db because two tests in one process shared kanbanr-vsix-<pid> and one deleted it under the other
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN two installs run at the same time in one process, THE SYSTEM SHALL download each into its own folder and remove only that folder.
+    tests:
+    - name: concurrent_installs_do_not_share_a_download_folder
+      kind: unit
+      state: planned
 defect:
   found_in: v0.1.6
   escaped: false
 created_at: 2026-10-05T02:43:34.02974961Z
-updated_at: 2026-10-05T02:43:34.092346923Z
+updated_at: 2026-10-05T02:43:39.88982775Z

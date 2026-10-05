@@ -1,0 +1,17 @@
+code: FEAT-169
+title: 'Saved processes: on the board or personal, reused by name'
+status: Planned
+milestone: MS-009
+kind: feature
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-168
+todo_lists: []
+created_at: 2026-10-05T03:13:20.896351338Z
+updated_at: 2026-10-05T03:13:20.932368567Z

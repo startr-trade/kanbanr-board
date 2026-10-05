@@ -54,5 +54,15 @@ definition:
     - name: the Workflow page shows the process and its drift (headless screenshot)
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-05T10:41:55.979282839Z
+    rev: d4823445067f56a9
+  approvals:
+  - at: 2026-10-05T10:41:55.979282839Z
+    by: Venkatraman B
+    verdict: approved
+    rev: d4823445067f56a9
+    status: Planned
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T10:41:03.395154756Z
+updated_at: 2026-10-05T10:41:55.979282839Z

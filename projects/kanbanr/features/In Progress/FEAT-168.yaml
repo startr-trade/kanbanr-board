@@ -64,7 +64,7 @@ definition:
     tests:
     - name: every_check_is_listed_with_a_description
       kind: unit
-      state: planned
+      state: green
     - name: the_guides_check_table_matches_process_checks
       kind: unit
       state: planned
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:40.632098783Z
+updated_at: 2026-10-05T10:48:46.923297311Z

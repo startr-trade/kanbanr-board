@@ -71,7 +71,7 @@ definition:
     tests:
     - name: a_teammate_clone_applies_the_boards_process
       kind: integration
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN a named process is applied to a project, THE SYSTEM SHALL record its name, library, version and content rev on the project, and an older reader SHALL keep that record unchanged.
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T11:08:06.586854456Z
+updated_at: 2026-10-05T11:08:12.598818354Z

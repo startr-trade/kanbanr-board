@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A Working with Claude chapter that shows what the conversation actually does, for users learning to work with kanbanr through Claude, so that what they see matches what they read
+  goals:
+  - G-5
+  zachman:
+    what: The Working with Claude chapter
+    how: Add the walkthroughs' real outcomes and when plan mode or a question is used, and why
+    where: docs/src/using/with-claude.md
+    when: Now, after v0.1.5 shipped the flow
+    who: Users working with kanbanr through Claude Code
+    why: The chapter predates the walkthroughs and is silent on four things they showed
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL document when Claude uses plan mode and when a question, and show the walkthroughs' outcomes for review, a multi-stage request, a restored approval and a custom process.
+    tests:
+    - name: with-claude.md covers plan mode versus questions and the four walkthrough outcomes, and make ci passes
+      kind: manual
+      state: planned
 created_at: 2026-10-05T01:21:34.318132919Z
-updated_at: 2026-10-05T01:21:34.339139508Z
+updated_at: 2026-10-05T01:21:34.383557886Z

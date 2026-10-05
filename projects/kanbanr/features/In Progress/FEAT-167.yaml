@@ -40,7 +40,7 @@ definition:
     tests:
     - name: concurrent_installs_do_not_share_a_download_folder
       kind: unit
-      state: red
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-05T02:45:21.674060317Z
@@ -59,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T02:43:34.02974961Z
-updated_at: 2026-10-05T02:48:36.796342643Z
+updated_at: 2026-10-05T02:48:42.994547368Z

@@ -31,6 +31,20 @@
   - FEAT-156
   done: 0
   total: 0
+- code: FEAT-168
+  status: Planned
+  milestone: MS-009
+  kind: feature
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-165
   status: In Progress
   milestone: MS-004
@@ -44,20 +58,6 @@
   labels: []
   depends_on: []
   done: 1
-  total: 2
-- code: FEAT-167
-  status: Completed
-  milestone: MS-004
-  kind: defect
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 2
   total: 2
 - code: FEAT-001
   status: Completed
@@ -2442,6 +2442,20 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-167
+  status: Completed
+  milestone: MS-004
+  kind: defect
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 2
+  total: 2
 - code: FEAT-018
   status: Ongoing
   milestone: MS-004

@@ -31,6 +31,20 @@
   - FEAT-156
   done: 0
   total: 0
+- code: FEAT-166
+  status: Planned
+  milestone: MS-009
+  kind: docs
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-165
   status: In Progress
   milestone: MS-004

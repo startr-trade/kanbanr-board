@@ -57,7 +57,7 @@ definition:
     tests:
     - name: doctor_reports_a_newer_or_edited_process
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a project's process is compared, THE SYSTEM SHALL show which statuses, transitions and gates differ from the saved version.
@@ -94,4 +94,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T11:24:22.870301221Z
+updated_at: 2026-10-05T11:32:13.369626537Z

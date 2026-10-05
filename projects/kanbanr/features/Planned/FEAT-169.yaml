@@ -61,5 +61,15 @@ definition:
     - name: the_personal_folder_is_never_a_marker
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-05T10:41:55.920211039Z
+    rev: a371fcef092bd16a
+  approvals:
+  - at: 2026-10-05T10:41:55.920211039Z
+    by: Venkatraman B
+    verdict: approved
+    rev: a371fcef092bd16a
+    status: Planned
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T10:41:03.352819694Z
+updated_at: 2026-10-05T10:41:55.920211039Z

@@ -24,7 +24,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Header, versioning, save/list/show
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'Tests: unit + integration (clone, personal, marker)'
     state: NotStarted
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T11:08:12.781378016Z
+updated_at: 2026-10-05T11:08:12.827245946Z

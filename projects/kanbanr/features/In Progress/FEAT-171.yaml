@@ -31,7 +31,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: 'Walkthrough (user runs): design, reuse, change'
-    state: NotStarted
+    state: InProgress
   created_at: 2026-10-05T12:17:26.95595112Z
 definition:
   statement: A process designed in conversation with Claude, in the setup interview or later, for a user whose way of working matches no built-in process, so that their own gates are written, checked and agreed without hand-writing YAML
@@ -89,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T13:34:39.081781954Z
+updated_at: 2026-10-05T13:34:39.124018379Z

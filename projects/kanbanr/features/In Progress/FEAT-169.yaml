@@ -57,7 +57,7 @@ definition:
     tests:
     - name: save_keeps_the_process_where_chosen_and_versions_changes
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a process is named, THE SYSTEM SHALL find it on the board first, then in the personal folder, then among the built-in processes, and refuse to save one under a built-in name.
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T10:56:35.353988622Z
+updated_at: 2026-10-05T11:08:06.542202731Z

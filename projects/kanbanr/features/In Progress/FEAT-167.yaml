@@ -18,6 +18,9 @@ todo_lists:
   - key: T1
     text: Per-call download folder + concurrent test
     state: NotStarted
+  - key: T2
+    text: make ci green
+    state: NotStarted
   created_at: 2026-10-05T02:45:21.855418885Z
 definition:
   statement: Editor installs that each download into their own folder, for the maintainer reading CI, so that a red run means a real fault
@@ -56,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T02:43:34.02974961Z
-updated_at: 2026-10-05T02:45:21.897438796Z
+updated_at: 2026-10-05T02:45:21.9360398Z

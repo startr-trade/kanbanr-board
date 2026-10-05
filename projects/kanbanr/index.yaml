@@ -46,7 +46,7 @@
   done: 1
   total: 2
 - code: FEAT-166
-  status: In Progress
+  status: Completed
   milestone: MS-009
   kind: docs
   priority: null

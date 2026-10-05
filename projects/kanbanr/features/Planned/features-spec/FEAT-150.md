@@ -17,4 +17,6 @@ Then: versions to 1.0.0, a dated changelog section, `make ci`, the maintainer ta
 verified.
 
 ## Out of scope
-New features: they wait for 1.x.
+New features: they wait for 1.x, except the process library (FEAT-168 to FEAT-171): designing a
+process with Claude and saving it on the board or personally. The maintainer chose on 5 Oct 2026
+to ship it in 1.0; 1.0 waits for those four items.

@@ -30,21 +30,6 @@
   - FEAT-171
   done: 0
   total: 0
-- code: FEAT-169
-  status: In Progress
-  milestone: MS-009
-  kind: feature
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on:
-  - FEAT-168
-  done: 0
-  total: 0
 - code: FEAT-170
   status: Planned
   milestone: MS-009
@@ -90,6 +75,21 @@
   depends_on: []
   done: 1
   total: 2
+- code: FEAT-169
+  status: In Progress
+  milestone: MS-009
+  kind: feature
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on:
+  - FEAT-168
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

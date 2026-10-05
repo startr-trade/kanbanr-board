@@ -18,7 +18,7 @@ todo_lists:
   tasks:
   - key: T1
     text: Board library in the store + routes
-    state: InProgress
+    state: Completed
   - key: T2
     text: Personal library + resolver in the CLI
     state: NotStarted
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T11:08:12.692127184Z
+updated_at: 2026-10-05T11:08:12.737332037Z

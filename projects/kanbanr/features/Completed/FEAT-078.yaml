@@ -42,6 +42,7 @@ definition:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
       state: green
+      checked_rev: fdb97f38d05e
   - id: R-2
     kind: functional
     text: WHEN the review queue holds items in different statuses, THE SYSTEM SHALL order work already in progress before work that has not started.
@@ -49,6 +50,7 @@ definition:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
       state: green
+      checked_rev: fdb97f38d05e
   - id: R-3
     kind: nfr
     text: THE SYSTEM SHALL decide the review queue's scope and the doctor's scope from one shared rule, so that the two surfaces cannot report different answers to the same question.
@@ -63,6 +65,7 @@ definition:
     - name: tests::the_review_queue_asks_only_where_agreement_still_matters
       kind: unit
       state: green
+      checked_rev: fdb97f38d05e
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:39:10.315989723Z
@@ -87,4 +90,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-28T12:13:27.655123026Z
-updated_at: 2026-09-28T16:02:06.102082886Z
+updated_at: 2026-10-05T10:43:52.230380184Z

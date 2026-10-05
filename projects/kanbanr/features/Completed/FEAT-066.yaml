@@ -48,7 +48,7 @@ definition:
     - name: activity::tests::a_day_file_holds_its_own_entries_and_nothing_is_trimmed
       kind: unit
       state: green
-      checked_rev: 82db7e446596
+      checked_rev: fdb97f38d05e
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL never discard a log entry, however many there are.
@@ -56,7 +56,7 @@ definition:
     - name: activity::tests::a_day_file_holds_its_own_entries_and_nothing_is_trimmed
       kind: unit
       state: green
-      checked_rev: 82db7e446596
+      checked_rev: fdb97f38d05e
   - id: R-3
     kind: functional
     text: WHEN a bounded number of recent entries is read, THE SYSTEM SHALL walk the day files newest-first and stop once it has enough.
@@ -106,4 +106,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-25T18:58:32.922174399Z
-updated_at: 2026-09-28T11:30:41.715739934Z
+updated_at: 2026-10-05T10:43:52.230366505Z

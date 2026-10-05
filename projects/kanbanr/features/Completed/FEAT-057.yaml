@@ -75,7 +75,7 @@ definition:
     - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
       kind: unit
       state: green
-      checked_rev: 82db7e446596
+      checked_rev: fdb97f38d05e
     - name: cli_trace_and_why_follow_the_chain_in_both_directions
       kind: e2e
       state: green
@@ -115,7 +115,7 @@ definition:
     - name: trace::tests::the_zachman_view_reports_the_columns_nothing_addresses
       kind: unit
       state: green
-      checked_rev: 82db7e446596
+      checked_rev: fdb97f38d05e
   - id: R-8
     kind: nfr
     text: IF the code repository cannot be read, THEN THE SYSTEM SHALL still report everything the board knows rather than failing.
@@ -130,7 +130,7 @@ definition:
     - name: trace::tests::tracing_downward_reports_the_chain_and_its_gaps
       kind: unit
       state: green
-      checked_rev: 82db7e446596
+      checked_rev: fdb97f38d05e
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:46.183624658Z
@@ -144,4 +144,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-24T18:45:46.410955975Z
-updated_at: 2026-09-28T11:30:41.715659009Z
+updated_at: 2026-10-05T10:43:52.230355061Z

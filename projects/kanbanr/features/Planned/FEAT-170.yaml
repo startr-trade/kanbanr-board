@@ -13,5 +13,46 @@ labels: []
 depends_on:
 - FEAT-169
 todo_lists: []
+definition:
+  statement: Projects told when the saved process they use has changed, and updated only when asked, for the team running several projects on one process, so that a process change reaches every project without surprising any
+  goals:
+  - G-5
+  - G-0
+  zachman:
+    what: process diff, process update, a doctor drift finding, the SessionStart line and the monitor Workflow page's process line
+    how: Compare the project's recorded content rev and its current workflow with the library's current version; update applies the saved version through the one validator
+    where: api/crates/kanbanr-core/src/doctor.rs, dispatch.rs; api/crates/kanbanr-cli/src/main.rs; the SessionStart hook summary; web/src/pages/WorkflowPage.tsx
+    when: When doctor runs, a session starts, the monitor is open, or the user asks for a diff or an update
+    who: The maintainer of a shared process, and each project's user
+    why: Once a saved process changes, projects on an earlier version keep the old gates and nobody is told
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the saved process has a newer version than a project's, or the project's workflow was edited after it was applied, THE SYSTEM SHALL report it in doctor and at session start.
+    tests:
+    - name: doctor_reports_a_newer_or_edited_process
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a project's process is compared, THE SYSTEM SHALL show which statuses, transitions and gates differ from the saved version.
+    tests:
+    - name: process_diff_names_what_changed
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a project is updated to its saved process, THE SYSTEM SHALL apply it only on that request, and refuse when a status still holding items would disappear, naming config rename-status.
+    tests:
+    - name: update_applies_on_request_and_keeps_occupied_statuses
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHILE a project was applied from a saved process, THE SYSTEM SHALL show the process name, version and library on the monitor's Workflow page, with any drift.
+    tests:
+    - name: the Workflow page shows the process and its drift (headless screenshot)
+      kind: manual
+      state: planned
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T03:13:21.074336174Z
+updated_at: 2026-10-05T10:41:03.395154756Z

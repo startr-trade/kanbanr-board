@@ -1,6 +1,6 @@
 code: FEAT-167
 title: 'Defect: the editor tests race on one shared download folder'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -44,5 +44,9 @@ definition:
 defect:
   found_in: v0.1.6
   escaped: false
+history:
+- at: 2026-10-05T02:45:21.784780654Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-05T02:43:34.02974961Z
-updated_at: 2026-10-05T02:45:21.674060317Z
+updated_at: 2026-10-05T02:45:21.784780654Z

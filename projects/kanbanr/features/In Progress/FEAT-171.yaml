@@ -1,6 +1,6 @@
 code: FEAT-171
 title: Designing a process with Claude, in the setup interview and after
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: feature
 priority: null
@@ -65,5 +65,9 @@ definition:
     verdict: approved
     rev: 353a77f458f041cb
     status: Planned
+history:
+- at: 2026-10-05T12:17:26.868473056Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T10:41:56.037700657Z
+updated_at: 2026-10-05T12:17:26.868473056Z

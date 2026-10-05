@@ -14,5 +14,46 @@ depends_on:
 - FEAT-169
 - FEAT-170
 todo_lists: []
+definition:
+  statement: A process designed in conversation with Claude, in the setup interview or later, for a user whose way of working matches no built-in process, so that their own gates are written, checked and agreed without hand-writing YAML
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The skill's process dialogue, the processes and Working with Claude docs, the stability policy entry, ADR-0013, the changelog
+    how: Saved processes offered first; start from the nearest built-in; one question per stage built from process checks; sign-offs for what kanbanr can't see; choose board or personal; the plan shows the checked draft's working agreement and diagram, and accepting it accepts the process
+    where: skill/kanbanr/SKILL.md, docs/src/using/processes.md, docs/src/using/with-claude.md, docs/src/project/stability.md, CHANGELOG.md, the board's decisions/
+    when: At setup, and whenever the user asks to design or change a process
+    who: The user setting up or changing how their project works
+    why: The setup interview offers built-in processes or 'load your own file'; nothing helps the user design their gates or reuse a saved process
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the user designs or changes a process, THE SYSTEM SHALL ask, in plan mode, one question per stage built from the checks kanbanr can evaluate, and turn anything else into a named sign-off.
+    tests:
+    - name: 'walkthrough: a process designed through the dialogue in a scratch project'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a process is set up, THE SYSTEM SHALL offer the board's and the personal saved processes before the built-in ones.
+    tests:
+    - name: 'walkthrough: a second project picks the saved process from the list'
+      kind: manual
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a saved process changes, THE SYSTEM SHALL offer an update for each project that uses it, one question each.
+    tests:
+    - name: 'walkthrough: changing the process offers the update per project'
+      kind: manual
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL document the dialogue, the libraries and their stability, with the decision recorded as ADR-0013.
+    tests:
+    - name: 'make ci: check:docs and the Working with Claude coverage check pass'
+      kind: manual
+      state: planned
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T03:13:21.247267318Z
+updated_at: 2026-10-05T10:41:09.833411116Z

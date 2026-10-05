@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 'process check: validate, agreement, mermaid'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: docs check table compared by check:docs
     state: NotStarted
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:47.060822037Z
+updated_at: 2026-10-05T10:48:47.104193458Z

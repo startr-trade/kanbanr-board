@@ -1,6 +1,6 @@
 code: FEAT-170
 title: Projects told when their saved process changes, updated on request
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: feature
 priority: null
@@ -36,7 +36,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-05T11:24:16.191822682Z
 definition:
   statement: Projects told when the saved process they use has changed, and updated only when asked, for the team running several projects on one process, so that a process change reaches every project without surprising any
@@ -93,5 +93,8 @@ history:
 - at: 2026-10-05T11:24:16.118563621Z
   from: Planned
   to: In Progress
+- at: 2026-10-05T12:17:26.70276832Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T11:32:20.194633607Z
+updated_at: 2026-10-05T12:17:26.70276832Z

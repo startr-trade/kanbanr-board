@@ -1,6 +1,6 @@
 code: FEAT-168
 title: Process files checked before they are applied
-status: In Progress
+status: Completed
 milestone: MS-009
 kind: feature
 priority: null
@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-05T10:41:56.201812171Z
 definition:
   statement: A process file checked and explained before it is applied, and a list of the checks a gate can ask for, for the user designing their own process with Claude, so that a wrong process is caught before it governs any work
@@ -82,5 +82,8 @@ history:
 - at: 2026-10-05T10:41:56.133668326Z
   from: Planned
   to: In Progress
+- at: 2026-10-05T10:56:13.548599236Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:47.146233978Z
+updated_at: 2026-10-05T10:56:13.548599236Z

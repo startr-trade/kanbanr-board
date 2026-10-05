@@ -91,7 +91,7 @@
   done: 1
   total: 2
 - code: FEAT-168
-  status: In Progress
+  status: Completed
   milestone: MS-009
   kind: feature
   priority: null
@@ -102,7 +102,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 4
+  done: 5
   total: 5
 - code: FEAT-001
   status: Completed

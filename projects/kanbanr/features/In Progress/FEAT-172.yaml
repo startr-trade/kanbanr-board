@@ -41,7 +41,7 @@ definition:
     tests:
     - name: check-embedded-monitor.sh passes the release build and fails on a binary without the monitor and on one with raw assets
       kind: manual
-      state: red
+      state: green
     violates: FEAT-084/R-5
   approval:
     by: Venkatraman B
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T11:13:29.319694279Z
-updated_at: 2026-10-05T11:17:24.391328327Z
+updated_at: 2026-10-05T11:17:24.434931655Z

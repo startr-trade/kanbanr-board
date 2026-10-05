@@ -328,3 +328,7 @@
   actor: Venkatraman B
   message: test check-embedded-monitor.sh passes the release build and fails on a binary without the monitor and on one with raw assets of FEAT-172/R-1 is now red
   item: FEAT-172
+- time: 2026-10-05T11:17:24.437559771Z
+  actor: Venkatraman B
+  message: test check-embedded-monitor.sh passes the release build and fails on a binary without the monitor and on one with raw assets of FEAT-172/R-1 is now green
+  item: FEAT-172

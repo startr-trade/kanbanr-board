@@ -25,6 +25,9 @@ todo_lists:
   - key: T3
     text: doctor scan_process_drift
     state: NotStarted
+  - key: T4
+    text: SessionStart line
+    state: NotStarted
   created_at: 2026-10-05T11:24:16.191822682Z
 definition:
   statement: Projects told when the saved process they use has changed, and updated only when asked, for the team running several projects on one process, so that a process change reaches every project without surprising any
@@ -82,4 +85,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T11:24:16.312448366Z
+updated_at: 2026-10-05T11:24:16.363194384Z

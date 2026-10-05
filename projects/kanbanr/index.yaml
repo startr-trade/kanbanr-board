@@ -74,7 +74,7 @@
   depends_on:
   - FEAT-169
   done: 0
-  total: 3
+  total: 4
 - code: FEAT-001
   status: Completed
   milestone: MS-001

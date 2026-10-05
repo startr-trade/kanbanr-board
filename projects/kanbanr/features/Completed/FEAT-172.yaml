@@ -1,6 +1,6 @@
 code: FEAT-172
 title: 'Defect: the release''s monitor check measures size, which code growth defeats'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: null
@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-05T11:14:30.878495843Z
 definition:
   statement: A release check that the monitor is embedded and compressed by looking for it, for the maintainer relying on a release to carry its monitor, so that the check fails exactly when the monitor is missing or stored raw
@@ -60,5 +60,8 @@ history:
 - at: 2026-10-05T11:14:30.788972046Z
   from: Planned
   to: In Progress
+- at: 2026-10-05T11:20:54.989725218Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-05T11:13:29.319694279Z
-updated_at: 2026-10-05T11:17:30.524288649Z
+updated_at: 2026-10-05T11:20:54.989725218Z

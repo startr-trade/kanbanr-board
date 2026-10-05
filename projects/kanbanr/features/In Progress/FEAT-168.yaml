@@ -57,7 +57,7 @@ definition:
     tests:
     - name: one_validator_refuses_what_the_store_refused
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN the checks are listed, THE SYSTEM SHALL name every check a gate accepts, with what it means and its parameters.
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:40.592574035Z
+updated_at: 2026-10-05T10:48:40.632098783Z

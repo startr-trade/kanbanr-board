@@ -50,7 +50,7 @@ definition:
     tests:
     - name: process_check_reports_problems_and_changes_nothing
       kind: integration
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL apply a workflow only through the same validator that process check uses.
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T10:48:40.538549985Z
+updated_at: 2026-10-05T10:48:40.592574035Z

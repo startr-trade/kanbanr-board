@@ -71,7 +71,7 @@ definition:
     tests:
     - name: update_applies_on_request_and_keeps_occupied_statuses
       kind: integration
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHILE a project was applied from a saved process, THE SYSTEM SHALL show the process name, version and library on the monitor's Workflow page, with any drift.
@@ -94,4 +94,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.044106841Z
-updated_at: 2026-10-05T11:32:13.414155833Z
+updated_at: 2026-10-05T11:32:13.462156743Z

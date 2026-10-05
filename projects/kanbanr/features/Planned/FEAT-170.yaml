@@ -1,0 +1,17 @@
+code: FEAT-170
+title: Projects told when their saved process changes, updated on request
+status: Planned
+milestone: MS-009
+kind: feature
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on:
+- FEAT-169
+todo_lists: []
+created_at: 2026-10-05T03:13:21.044106841Z
+updated_at: 2026-10-05T03:13:21.074336174Z

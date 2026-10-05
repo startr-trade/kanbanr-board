@@ -13,7 +13,11 @@ labels: []
 depends_on:
 - FEAT-169
 - FEAT-170
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: dialogue, docs, ADR, walkthrough
+  tasks: []
+  created_at: 2026-10-05T12:17:26.95595112Z
 definition:
   statement: A process designed in conversation with Claude, in the setup interview or later, for a user whose way of working matches no built-in process, so that their own gates are written, checked and agreed without hand-writing YAML
   goals:
@@ -70,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T12:17:26.868473056Z
+updated_at: 2026-10-05T12:17:26.95595763Z

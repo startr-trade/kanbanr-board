@@ -28,6 +28,9 @@ todo_lists:
   - key: T4
     text: 'Tests: unit + integration (clone, personal, marker)'
     state: NotStarted
+  - key: T5
+    text: Docs, skill reference, changelog + sync
+    state: NotStarted
   created_at: 2026-10-05T10:56:22.422443265Z
 definition:
   statement: Processes saved by name on the board or in a personal folder and applied to any project, for a team and for one user across boards, so that a process is written once and every project runs the same one
@@ -92,4 +95,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T10:56:28.924903423Z
+updated_at: 2026-10-05T10:56:28.966508655Z

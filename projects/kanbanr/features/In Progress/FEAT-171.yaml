@@ -20,6 +20,9 @@ todo_lists:
   - key: T1
     text: 'Skill: setup c. Process offers saved first; Designing a process section'
     state: NotStarted
+  - key: T2
+    text: 'Docs: processes.md, with-claude.md, stability.md; changelog + sync'
+    state: NotStarted
   created_at: 2026-10-05T12:17:26.95595112Z
 definition:
   statement: A process designed in conversation with Claude, in the setup interview or later, for a user whose way of working matches no built-in process, so that their own gates are written, checked and agreed without hand-writing YAML
@@ -77,4 +80,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T12:17:27.002745735Z
+updated_at: 2026-10-05T12:17:27.047702912Z

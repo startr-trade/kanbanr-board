@@ -12,5 +12,42 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A process file checked and explained before it is applied, and a list of the checks a gate can ask for, for the user designing their own process with Claude, so that a wrong process is caught before it governs any work
+  goals:
+  - G-3
+  - G-5
+  zachman:
+    what: The workflow validator, the gate check vocabulary with descriptions, the process check and process checks commands
+    how: Move the store's workflow and gate validation into one pure config::validate_workflow; add Check::ALL with a description each; print the working agreement and a Mermaid diagram for a checked file
+    where: api/crates/kanbanr-core/src/config.rs, store.rs, readiness.rs; api/crates/kanbanr-cli/src/main.rs; docs/src/using/processes.md; web check:docs
+    when: Whenever a process is drafted, before it is saved or applied
+    who: The user designing a process, and Claude drafting it
+    why: Today a process file can only be checked by applying it, and nothing lists what a gate can check, so Claude cannot offer real choices
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a process file is checked, THE SYSTEM SHALL report every problem the store would refuse it for, and change nothing on the board.
+    tests:
+    - name: process_check_reports_problems_and_changes_nothing
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL apply a workflow only through the same validator that process check uses.
+    tests:
+    - name: one_validator_refuses_what_the_store_refused
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN the checks are listed, THE SYSTEM SHALL name every check a gate accepts, with what it means and its parameters.
+    tests:
+    - name: every_check_is_listed_with_a_description
+      kind: unit
+      state: planned
+    - name: check:docs compares the docs' check table with process checks
+      kind: manual
+      state: planned
 created_at: 2026-10-05T03:13:20.7051329Z
-updated_at: 2026-10-05T03:13:20.753226123Z
+updated_at: 2026-10-05T10:41:03.312004516Z

@@ -1,3 +1,15 @@
+- id: L-38
+  lesson: After editing CHANGELOG.md, run tools/docs/sync.sh and commit the mirrored chapter in the same change — make ci compares them and fails a stale copy
+  kind: pitfall
+  at: 2026-10-05T10:56:22.198037507Z
+  from_item: FEAT-168
+  evidence: 'FEAT-168''s first make ci failed 1 of 56: docs/src/project/changelog.md was stale after the Unreleased entry was added'
+  tags:
+  - docs
+  - ci
+  confidence: 0.6
+  last_affirmed: 2026-10-05T10:56:22.198037507Z
+  status: candidate
 - id: L-37
   lesson: Create a scratch folder in its own step and check it exists before running kanbanr init there — a failed cd leaves init inside the current project, which finds that project's .kanbanr marker and writes to its real board
   kind: pitfall

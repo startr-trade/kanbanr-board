@@ -1,0 +1,16 @@
+code: FEAT-167
+title: 'Defect: the editor tests race on one shared download folder'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-05T02:43:34.02974961Z
+updated_at: 2026-10-05T02:43:34.061015845Z

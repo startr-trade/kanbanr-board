@@ -1,6 +1,6 @@
 ---
 id: ADR-0013
-status: proposed
+status: accepted
 date: 2026-10-05
 deciders:
 - Venkatraman B
@@ -14,8 +14,8 @@ zachman:
 - where
 - who
 layer: logical
+decided: 2026-10-05
 ---
-
 
 # Shared processes are board data
 

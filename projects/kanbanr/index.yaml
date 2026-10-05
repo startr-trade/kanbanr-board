@@ -89,7 +89,7 @@
   depends_on:
   - FEAT-168
   done: 0
-  total: 2
+  total: 3
 - code: FEAT-001
   status: Completed
   milestone: MS-001

@@ -36,7 +36,7 @@ todo_lists:
     state: NotStarted
   - key: T7
     text: Preset and init resolve saved names; provenance recorded
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-05T10:56:22.422443265Z
 definition:
   statement: Processes saved by name on the board or in a personal folder and applied to any project, for a team and for one user across boards, so that a process is written once and every project runs the same one
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T11:08:12.939423802Z
+updated_at: 2026-10-05T11:08:12.987013013Z

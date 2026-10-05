@@ -64,7 +64,7 @@ definition:
     tests:
     - name: a_name_resolves_board_then_personal_then_builtin
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a board with saved processes is cloned, THE SYSTEM SHALL list and apply those processes in the clone.
@@ -101,4 +101,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:20.896351338Z
-updated_at: 2026-10-05T11:08:06.542202731Z
+updated_at: 2026-10-05T11:08:06.586854456Z

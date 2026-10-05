@@ -249,3 +249,7 @@
   actor: Venkatraman B
   message: test save_keeps_the_process_where_chosen_and_versions_changes of FEAT-169/R-1 is now green
   item: FEAT-169
+- time: 2026-10-05T11:08:06.589250417Z
+  actor: Venkatraman B
+  message: test a_name_resolves_board_then_personal_then_builtin of FEAT-169/R-2 is now green
+  item: FEAT-169

@@ -159,3 +159,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-10-05T11:14:30.838094731Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-172
+  message: feature FEAT-172 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

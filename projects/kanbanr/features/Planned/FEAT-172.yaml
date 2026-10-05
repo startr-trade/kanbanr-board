@@ -1,0 +1,16 @@
+code: FEAT-172
+title: 'Defect: the release''s monitor check measures size, which code growth defeats'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-05T11:13:29.319694279Z
+updated_at: 2026-10-05T11:13:29.347830876Z

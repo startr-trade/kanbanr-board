@@ -30,7 +30,7 @@ definition:
     tests:
     - name: with-claude.md covers plan mode versus questions and the four walkthrough outcomes, and make ci passes
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-05T01:22:42.130562693Z
@@ -46,4 +46,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T01:21:34.318132919Z
-updated_at: 2026-10-05T01:22:42.20834934Z
+updated_at: 2026-10-05T01:26:49.687703253Z

@@ -28,7 +28,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: make ci
-    state: NotStarted
+    state: Completed
   - key: T5
     text: 'Walkthrough (user runs): design, reuse, change'
     state: NotStarted
@@ -89,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T12:19:10.030516361Z
+updated_at: 2026-10-05T13:34:39.081781954Z

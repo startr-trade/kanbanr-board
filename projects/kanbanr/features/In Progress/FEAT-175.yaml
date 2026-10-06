@@ -1,6 +1,6 @@
 code: FEAT-175
 title: 'Release v0.1.7: your own process, designed with Claude and shared on the board'
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: null
 priority: null
@@ -49,5 +49,9 @@ definition:
     verdict: approved
     rev: 29ee62683188ac0c
     status: Planned
+history:
+- at: 2026-10-06T18:31:01.090094418Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-06T18:30:48.205627765Z
-updated_at: 2026-10-06T18:31:01.013979288Z
+updated_at: 2026-10-06T18:31:01.090094418Z

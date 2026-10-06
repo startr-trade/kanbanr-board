@@ -1,0 +1,16 @@
+code: FEAT-174
+title: 'Defect: new advisories in KaTeX (via mermaid) and rustls (screenshot tool)'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-06T14:11:06.639451255Z
+updated_at: 2026-10-06T14:11:06.672228263Z

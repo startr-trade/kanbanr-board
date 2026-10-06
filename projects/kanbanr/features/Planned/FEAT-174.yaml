@@ -39,8 +39,18 @@ definition:
     - name: the Workflow page and a docs diagram render with KaTeX 0.19 (headless screenshot)
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-06T14:16:08.300973886Z
+    rev: 6dd72a491dd6361b
+  approvals:
+  - at: 2026-10-06T14:16:08.300973886Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 6dd72a491dd6361b
+    status: Planned
 defect:
   found_in: v0.1.6
   escaped: false
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:11:06.767961179Z
+updated_at: 2026-10-06T14:16:08.300973886Z

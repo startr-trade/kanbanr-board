@@ -72,7 +72,7 @@
   depends_on:
   - FEAT-169
   - FEAT-170
-  done: 4
+  done: 5
   total: 6
 - code: FEAT-001
   status: Completed

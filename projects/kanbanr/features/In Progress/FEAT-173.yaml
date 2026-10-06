@@ -1,6 +1,6 @@
 code: FEAT-173
 title: 'Defect: setup''s first commit fails when git has no identity, and setup carries on'
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: null
@@ -51,5 +51,9 @@ definition:
 defect:
   found_in: v0.1.6
   escaped: false
+history:
+- at: 2026-10-06T14:02:10.12901092Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-06T13:59:47.244487936Z
-updated_at: 2026-10-06T14:00:20.950761995Z
+updated_at: 2026-10-06T14:02:10.12901092Z

@@ -40,7 +40,7 @@ definition:
     tests:
     - name: 'walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a setup command fails, THE SYSTEM SHALL stop before running the next one.
@@ -66,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T13:59:47.244487936Z
-updated_at: 2026-10-06T14:30:23.495846449Z
+updated_at: 2026-10-06T17:23:10.694328356Z

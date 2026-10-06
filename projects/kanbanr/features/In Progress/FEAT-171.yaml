@@ -74,19 +74,30 @@ definition:
     - name: 'make ci: check:docs and the Working with Claude coverage check pass'
       kind: manual
       state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN a process is drafted in plan mode, THE SYSTEM SHALL check the draft without writing a file, and the plan SHALL show the draft's working agreement and diagram.
+    tests:
+    - name: process_check_reads_a_draft_from_stdin
+      kind: integration
+      state: planned
+    - name: 'walkthrough: the setup plan shows the checked working agreement and diagram'
+      kind: manual
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHEN a designed process is saved, THE SYSTEM SHALL save it with a one-line description of what it is for.
+    tests:
+    - name: 'walkthrough: process list shows the designed process with its description'
+      kind: manual
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-05T10:41:56.037700657Z
     rev: 353a77f458f041cb
-  approvals:
-  - at: 2026-10-05T10:41:56.037700657Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 353a77f458f041cb
-    status: Planned
 history:
 - at: 2026-10-05T12:17:26.868473056Z
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-05T13:34:39.124018379Z
+updated_at: 2026-10-06T13:59:47.016087196Z

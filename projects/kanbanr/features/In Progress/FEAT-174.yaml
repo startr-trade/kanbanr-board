@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: override katex; update rustls
+  tasks: []
+  created_at: 2026-10-06T14:16:21.721514087Z
 definition:
   statement: Dependencies free of known advisories, for everyone installing kanbanr and the maintainer gating releases on make ci, so that a release carries no known-vulnerable package
   goals:
@@ -57,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:16:21.597782038Z
+updated_at: 2026-10-06T14:16:21.721515941Z

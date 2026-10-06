@@ -18,6 +18,9 @@ todo_lists:
   - key: T1
     text: 'Skill: setup commit identity and stop-at-failure'
     state: NotStarted
+  - key: T2
+    text: make ci
+    state: NotStarted
   created_at: 2026-10-06T14:02:10.244929993Z
 definition:
   statement: A setup whose first commit works on a machine with no git identity, and that stops at its first failure, for a user setting up a new project, so that setup either completes as planned or stops where it went wrong
@@ -63,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T13:59:47.244487936Z
-updated_at: 2026-10-06T14:02:10.303320297Z
+updated_at: 2026-10-06T14:02:10.360500434Z

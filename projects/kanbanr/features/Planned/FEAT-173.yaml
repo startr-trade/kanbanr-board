@@ -12,8 +12,34 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A setup whose first commit works on a machine with no git identity, and that stops at its first failure, for a user setting up a new project, so that setup either completes as planned or stops where it went wrong
+  goals:
+  - G-5
+  zachman:
+    what: 'The skill''s setup plan: the initial commit''s identity and how the commands are run'
+    how: Commit with git -c user.name/user.email from the interview's identity when git has none; run the commands so a failure stops the rest; say both in the plan
+    where: 'skill/kanbanr/SKILL.md (Activation: setup interview, steps 3-5)'
+    when: At setup, when the project folder has no commits yet
+    who: A user setting up a project, on a machine where git has never been configured
+    why: The FEAT-171 walkthrough's first commit failed for want of a git identity, and the setup carried on past it
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN git has no user.name or user.email, THE SYSTEM SHALL make the setup's initial commit with the identity agreed in the interview, without changing the user's git configuration.
+    tests:
+    - name: 'walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a setup command fails, THE SYSTEM SHALL stop before running the next one.
+    tests:
+    - name: 'walkthrough: a failing setup command stops the setup and is reported'
+      kind: manual
+      state: planned
 defect:
   found_in: v0.1.6
   escaped: false
 created_at: 2026-10-06T13:59:47.244487936Z
-updated_at: 2026-10-06T13:59:47.349991912Z
+updated_at: 2026-10-06T13:59:47.405630669Z

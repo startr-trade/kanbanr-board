@@ -54,7 +54,7 @@ definition:
     tests:
     - name: the v0.1.7 release page opens with its notes and open-vsx.org lists kanbanr 0.1.7
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-06T18:31:01.013979288Z
@@ -70,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T18:30:48.205627765Z
-updated_at: 2026-10-06T18:59:49.566883945Z
+updated_at: 2026-10-06T19:00:08.702763323Z

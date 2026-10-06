@@ -45,7 +45,7 @@
   done: 1
   total: 2
 - code: FEAT-171
-  status: In Progress
+  status: Completed
   milestone: MS-009
   kind: feature
   priority: null
@@ -58,7 +58,7 @@
   depends_on:
   - FEAT-169
   - FEAT-170
-  done: 5
+  done: 6
   total: 6
 - code: FEAT-173
   status: In Progress

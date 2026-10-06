@@ -12,8 +12,35 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Dependencies free of known advisories, for everyone installing kanbanr and the maintainer gating releases on make ci, so that a release carries no known-vulnerable package
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: KaTeX under mermaid in the monitor; rustls in the screenshot tool's lockfile
+    how: An npm override pinning KaTeX 0.19.0; cargo update -p rustls in tools/screenshots; diagrams checked in a headless browser
+    where: web/package.json, web/package-lock.json, tools/screenshots/Cargo.lock
+    when: Now; the override goes when mermaid accepts a fixed KaTeX
+    who: Users of the monitor; the maintainer
+    why: GHSA-238p-pmpm-9mq7 and GHSA-2mjx-qc3c-rqvc, published after the last make ci, fail npm audit and Trivy
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN make ci runs its supply-chain checks, THE SYSTEM SHALL report no advisory against the monitor's dependencies or the repository's lockfiles.
+    tests:
+    - name: 'make ci: npm audit and Trivy pass'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE KaTeX is overridden, THE SYSTEM SHALL still render the monitor's Mermaid diagrams.
+    tests:
+    - name: the Workflow page and a docs diagram render with KaTeX 0.19 (headless screenshot)
+      kind: manual
+      state: planned
 defect:
   found_in: v0.1.6
   escaped: false
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:11:06.713117893Z
+updated_at: 2026-10-06T14:11:06.767961179Z

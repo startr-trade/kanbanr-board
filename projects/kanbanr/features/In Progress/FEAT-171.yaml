@@ -93,7 +93,7 @@ definition:
     tests:
     - name: 'walkthrough: process list shows the designed process with its description'
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-06T14:00:20.858444308Z
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-06T17:23:10.579675301Z
+updated_at: 2026-10-06T17:23:10.639825773Z

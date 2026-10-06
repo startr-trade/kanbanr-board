@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: katex override + render check; rustls update
-    state: NotStarted
+    state: InProgress
   - key: T2
     text: make ci
     state: NotStarted
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:16:21.846747772Z
+updated_at: 2026-10-06T14:16:21.922016721Z

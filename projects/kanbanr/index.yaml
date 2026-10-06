@@ -31,7 +31,7 @@
   done: 0
   total: 0
 - code: FEAT-165
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: null
   priority: null
@@ -42,7 +42,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 1
+  done: 2
   total: 2
 - code: FEAT-001
   status: Completed

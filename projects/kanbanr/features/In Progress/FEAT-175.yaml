@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: Pushed, CI green, tagged (maintainer)
-    state: NotStarted
+    state: Completed
   - key: T4
     text: 'Release verified: run, page, image, Open VSX'
     state: NotStarted
@@ -70,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T18:30:48.205627765Z
-updated_at: 2026-10-06T18:59:49.523892659Z
+updated_at: 2026-10-06T18:59:49.566883945Z

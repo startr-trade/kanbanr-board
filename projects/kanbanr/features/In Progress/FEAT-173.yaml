@@ -23,25 +23,32 @@ todo_lists:
     state: Completed
   created_at: 2026-10-06T14:02:10.244929993Z
 definition:
-  statement: A setup whose first commit works on a machine with no git identity, and that stops at its first failure, for a user setting up a new project, so that setup either completes as planned or stops where it went wrong
+  statement: A setup that, where git has no identity, asks whether to give the project's repository the identity used for the board, and stops at its first failure, for a user setting up a new project, so that they and Claude can commit in it afterwards and setup either completes as planned or stops where it went wrong
   goals:
   - G-5
   zachman:
-    what: 'The skill''s setup plan: the initial commit''s identity and how the commands are run'
-    how: Commit with git -c user.name/user.email from the interview's identity when git has none; run the commands so a failure stops the rest; say both in the plan
+    what: 'The skill''s setup interview and plan: the repository''s git identity and how the commands are run'
+    how: When git has no user.name/email, one interview question offers the board's identity for this repository (repo-local git config, never --global); the plan shows the commands; the initial commit uses that identity; commands run so a failure stops the rest
     where: 'skill/kanbanr/SKILL.md (Activation: setup interview, steps 3-5)'
-    when: At setup, when the project folder has no commits yet
-    who: A user setting up a project, on a machine where git has never been configured
-    why: The FEAT-171 walkthrough's first commit failed for want of a git identity, and the setup carried on past it
+    when: At setup, when git has no identity configured
+    who: A user setting up a project on a machine where git has never been configured
+    why: The first walkthrough's commit failed for want of a git identity and setup ran on; the fix that passed the identity for one commit left the repository unable to take the user's or Claude's next commit
   requirements:
   - id: R-1
     kind: functional
-    text: WHEN git has no user.name or user.email, THE SYSTEM SHALL make the setup's initial commit with the identity agreed in the interview, without changing the user's git configuration.
+    text: WHEN git has no user.name or user.email, THE SYSTEM SHALL ask whether to set the project repository's identity to the one given for the board, set it for that repository only when the user agrees, and never change the global git configuration.
+    tests:
+    - name: 'walkthrough: setup in a folder with no git identity asks, and sets the board''s identity for that repository only when agreed'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN git has no identity and the user declines, THE SYSTEM SHALL still make the setup's initial commit with the board's identity, without changing git configuration.
     tests:
     - name: 'walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset'
       kind: manual
       state: green
-  - id: R-2
+  - id: R-3
     kind: functional
     text: WHEN a setup command fails, THE SYSTEM SHALL stop before running the next one.
     tests:
@@ -52,12 +59,6 @@ definition:
     by: Venkatraman B
     at: 2026-10-06T14:00:20.950761995Z
     rev: 935ed3eb21f2d064
-  approvals:
-  - at: 2026-10-06T14:00:20.950761995Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 935ed3eb21f2d064
-    status: Planned
 defect:
   found_in: v0.1.6
   escaped: false
@@ -66,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T13:59:47.244487936Z
-updated_at: 2026-10-06T17:23:10.694328356Z
+updated_at: 2026-10-06T17:29:45.859306264Z

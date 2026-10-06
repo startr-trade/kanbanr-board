@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: make ci
-    state: NotStarted
+    state: Completed
   - key: T3
     text: Pushed, CI green, tagged (maintainer)
     state: NotStarted
@@ -70,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T18:30:48.205627765Z
-updated_at: 2026-10-06T18:32:04.266888869Z
+updated_at: 2026-10-06T18:36:32.460789969Z

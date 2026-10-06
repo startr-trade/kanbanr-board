@@ -41,7 +41,7 @@ definition:
     tests:
     - name: 'make ci: npm audit and Trivy pass'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHILE KaTeX is overridden, THE SYSTEM SHALL still render the monitor's Mermaid diagrams.
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:18:17.495709135Z
+updated_at: 2026-10-06T14:24:53.027156942Z

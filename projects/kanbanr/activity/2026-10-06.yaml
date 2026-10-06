@@ -151,3 +151,7 @@
   actor: Venkatraman B
   message: 'test walkthrough: setup in a folder with no git identity asks, and sets the board''s identity for that repository only when agreed of FEAT-173/R-1 is now green'
   item: FEAT-173
+- time: 2026-10-06T18:02:48.421124357Z
+  actor: Venkatraman B
+  message: 'test walkthrough: a second project picks the saved process from the list of FEAT-171/R-2 is now green'
+  item: FEAT-171

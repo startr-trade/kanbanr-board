@@ -62,7 +62,7 @@ definition:
     tests:
     - name: 'walkthrough: a second project picks the saved process from the list'
       kind: manual
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a saved process changes, THE SYSTEM SHALL offer an update for each project that uses it, one question each.
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-06T17:41:21.996841616Z
+updated_at: 2026-10-06T18:02:48.418715432Z

@@ -48,7 +48,7 @@ definition:
     tests:
     - name: the Workflow page and a docs diagram render with KaTeX 0.19 (headless screenshot)
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-06T14:16:08.300973886Z
@@ -67,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T14:11:06.639451255Z
-updated_at: 2026-10-06T14:16:21.922016721Z
+updated_at: 2026-10-06T14:18:17.420929345Z

@@ -96,3 +96,7 @@
   actor: Venkatraman B
   message: update task T1 (FEAT-174/TL-001)
   item: FEAT-174
+- time: 2026-10-06T14:18:17.426627261Z
+  actor: Venkatraman B
+  message: test the Workflow page and a docs diagram render with KaTeX 0.19 (headless screenshot) of FEAT-174/R-2 is now green
+  item: FEAT-174

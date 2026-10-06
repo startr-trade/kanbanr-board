@@ -11,7 +11,11 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: v0.1.7
+  tasks: []
+  created_at: 2026-10-06T18:31:01.186849863Z
 definition:
   statement: A v0.1.7 release that ships processes designed with Claude and shared on the board, with its defect and security fixes, for everyone running kanbanr, so that the process library gets real use before 1.0 promises it
   goals:
@@ -54,4 +58,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-06T18:30:48.205627765Z
-updated_at: 2026-10-06T18:31:01.090094418Z
+updated_at: 2026-10-06T18:31:01.186850979Z

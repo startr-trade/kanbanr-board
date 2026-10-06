@@ -1,3 +1,15 @@
+- id: L-39
+  lesson: 'An instruction Claude must act on at a particular moment belongs in the tool''s output at that moment, not only in the skill: a skill sentence lost to Claude''s own judgement three times, and a line in the command''s output won the first time'
+  kind: practice
+  at: 2026-10-06T17:51:10.024150316Z
+  from_item: FEAT-171
+  evidence: 'FEAT-171 walkthrough, 6 Oct: the per-project update question was skipped twice with the skill saying to ask, and asked once process save printed the projects left behind; the setup''s process and git-identity questions were answered by Claude itself with the skill saying to ask'
+  tags:
+  - skill
+  - guardrails
+  confidence: 0.6
+  last_affirmed: 2026-10-06T17:51:10.024150316Z
+  status: candidate
 - id: L-38
   lesson: After editing CHANGELOG.md, run tools/docs/sync.sh and commit the mirrored chapter in the same change — make ci compares them and fails a stale copy
   kind: pitfall

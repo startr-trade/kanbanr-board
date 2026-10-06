@@ -140,3 +140,7 @@
   actor: Venkatraman B
   message: 'test walkthrough: changing the process offers the update per project of FEAT-171/R-3 is now green'
   item: FEAT-171
+- time: 2026-10-06T17:50:05.382251966Z
+  actor: Venkatraman B
+  message: 'test walkthrough: a failing setup command stops the setup and is reported of FEAT-173/R-3 is now green'
+  item: FEAT-173

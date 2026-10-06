@@ -52,7 +52,7 @@ definition:
     tests:
     - name: 'walkthrough: a process designed through the dialogue in a scratch project'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a process is set up, THE SYSTEM SHALL offer the board's and the personal saved processes before the built-in ones.
@@ -100,4 +100,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-06T13:59:47.016087196Z
+updated_at: 2026-10-06T13:59:47.143301156Z

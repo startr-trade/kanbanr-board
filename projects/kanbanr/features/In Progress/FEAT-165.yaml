@@ -40,7 +40,7 @@ definition:
     tests:
     - name: make ci passes on its first run after a version change, three times running
       kind: manual
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-04T19:47:06.530973453Z
@@ -60,4 +60,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-04T19:07:57.958943875Z
-updated_at: 2026-10-04T19:54:30.807744608Z
+updated_at: 2026-10-06T18:28:00.846461107Z

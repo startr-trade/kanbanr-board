@@ -167,3 +167,7 @@
   actor: Venkatraman B
   message: move feature FEAT-173
   item: FEAT-173
+- time: 2026-10-06T18:28:00.849714775Z
+  actor: Venkatraman B
+  message: test make ci passes on its first run after a version change, three times running of FEAT-165/R-1 is now green
+  item: FEAT-165

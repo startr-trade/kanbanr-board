@@ -47,3 +47,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-10-06T14:16:21.663345729Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-174
+  message: feature FEAT-174 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

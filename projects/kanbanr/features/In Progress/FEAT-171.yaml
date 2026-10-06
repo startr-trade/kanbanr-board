@@ -83,7 +83,7 @@ definition:
     tests:
     - name: process_check_reads_a_draft_from_stdin
       kind: integration
-      state: planned
+      state: green
     - name: 'walkthrough: the setup plan shows the checked working agreement and diagram'
       kind: manual
       state: planned
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-06T14:00:21.03003961Z
+updated_at: 2026-10-06T14:01:42.660803199Z

@@ -86,7 +86,7 @@ definition:
       state: green
     - name: 'walkthrough: the setup plan shows the checked working agreement and diagram'
       kind: manual
-      state: planned
+      state: green
   - id: R-6
     kind: functional
     text: WHEN a designed process is saved, THE SYSTEM SHALL save it with a one-line description of what it is for.
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-05T03:13:21.19887808Z
-updated_at: 2026-10-06T14:01:52.283874729Z
+updated_at: 2026-10-06T17:23:10.579675301Z

@@ -1,0 +1,44 @@
+code: FEAT-176
+title: 'Refactor: domain logic lives in kanbanr-core; CLI and server are thin wrappers'
+status: Planned
+milestone: MS-004
+kind: refactor
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- architecture
+- core
+depends_on: []
+todo_lists: []
+definition:
+  statement: A single core library behind every kanbanr front end, for contributors and Claude, so that behaviour cannot drift between the CLI, the monitor and other front ends.
+  goals:
+  - G-0
+  zachman:
+    what: Crate boundaries between kanbanr-core and its front ends
+    how: ''
+    where: api/crates/kanbanr-core, kanbanr-cli, kanbanr-server
+    when: ''
+    who: contributors, Claude
+    why: 'Maintainability: one implementation of each behaviour'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL continue to pass the existing kanbanr-cli and kanbanr-server test suites unchanged.
+    tests:
+    - name: cargo test --workspace
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a front-end crate implements domain behaviour outside kanbanr-core's public API, THE SYSTEM SHALL fail the architecture test.
+    tests:
+    - name: architecture::front_ends_are_thin
+      kind: unit
+      state: planned
+created_at: 2026-10-15T15:21:38.931694424Z
+updated_at: 2026-10-15T15:21:38.931721917Z

@@ -56,5 +56,15 @@ definition:
     - name: readiness::tests::affects_docs_unknown_is_error
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-16T13:41:11.482147433Z
+    rev: 775d35deb9c7784e
+  approvals:
+  - at: 2026-10-16T13:41:11.482147433Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 775d35deb9c7784e
+    status: Planned
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-16T13:41:04.337509739Z
+updated_at: 2026-10-16T13:41:11.482147433Z

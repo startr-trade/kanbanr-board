@@ -68,5 +68,15 @@ definition:
     - name: readiness::spec_sections_in_vocabulary
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-16T13:20:04.179725639Z
+    rev: 31814374ede9bb25
+  approvals:
+  - at: 2026-10-16T13:20:04.179725639Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 31814374ede9bb25
+    status: Planned
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:19:06.074155266Z
+updated_at: 2026-10-16T13:20:04.179725639Z

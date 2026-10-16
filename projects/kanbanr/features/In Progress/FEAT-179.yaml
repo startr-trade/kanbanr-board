@@ -68,7 +68,8 @@ definition:
     tests:
     - name: readiness::tests::spec_sections_in_vocabulary
       kind: unit
-      state: planned
+      state: green
+      checked_rev: d888523eb6c9df9922a006faffb24737ecf05444
   approval:
     by: Venkatraman B
     at: 2026-10-16T13:41:10.488959706Z
@@ -89,4 +90,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:42:28.195693299Z
+updated_at: 2026-10-16T13:42:28.245097537Z

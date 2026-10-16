@@ -1,0 +1,53 @@
+code: FEAT-179
+title: 'Design stage: a build-ready design in the spec (skill guidance and a spec-section gate check)'
+status: Planned
+milestone: MS-007
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- method
+- process
+- skill
+depends_on: []
+todo_lists: []
+definition:
+  statement: A build-ready technical design in the spec at the design stage, for Claude and the solo developer, so that implementation follows an agreed design instead of guessing it.
+  goals:
+  - G-2
+  - G-3
+  zachman:
+    what: Skill guidance for design-stage specs; a spec_sections gate check
+    how: ''
+    where: skill/kanbanr/SKILL.md, kanbanr-core readiness checks, docs
+    when: On entering a stage whose gate asks for it
+    who: Claude, the solo developer
+    why: Specs that stay non-technical at design time leave implementation decisions unreviewed
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL state in the skill that, at a design stage, the item's spec carries an implementation-level Design section, and name what that section covers.
+    tests:
+    - name: 'manual: skill design-stage guidance present and matches the docs'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHERE a gate lists `spec_sections`, THE SYSTEM SHALL refuse entry to that stage until the spec contains each named heading with non-empty content.
+    tests:
+    - name: readiness::spec_sections_gate
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL include `spec_sections` in the gate vocabulary and in the generated working agreement.
+    tests:
+    - name: readiness::spec_sections_in_vocabulary
+      kind: unit
+      state: planned
+created_at: 2026-10-16T13:15:13.53860596Z
+updated_at: 2026-10-16T13:15:13.53865169Z

@@ -30,6 +30,54 @@
   - FEAT-171
   done: 0
   total: 0
+- code: FEAT-176
+  status: Planned
+  milestone: MS-004
+  kind: refactor
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - architecture
+  - core
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-177
+  status: Planned
+  milestone: MS-003
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - api
+  - monitor
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-178
+  status: Planned
+  milestone: MS-003
+  kind: feature
+  priority: low
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - monitor
+  - release
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2596,54 +2644,6 @@
   assignee: null
   team: null
   labels: []
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-176
-  status: Planned
-  milestone: MS-004
-  kind: refactor
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - architecture
-  - core
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-177
-  status: Planned
-  milestone: MS-003
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - api
-  - monitor
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-178
-  status: Planned
-  milestone: MS-003
-  kind: feature
-  priority: low
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - monitor
-  - release
   depends_on: []
   done: 0
   total: 0

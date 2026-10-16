@@ -14,7 +14,26 @@ labels:
 - process
 - skill
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation (after approval, on the branch from `kanbanr start FEAT-179`)
+  tasks:
+  - key: T1
+    text: 'Skill: add ''The design stage: the spec carries the build-ready design'' section (R-1). A draft exists in the item''s notes'
+    state: NotStarted
+  - key: T2
+    text: 'Docs: processes.md section and example gate (R-1)'
+    state: NotStarted
+  - key: T3
+    text: 'Core: `spec_sections` gate check in readiness.rs (R-2), with readiness::spec_sections_gate'
+    state: NotStarted
+  - key: T4
+    text: Vocabulary and working agreement list `spec_sections` (R-3), with readiness::spec_sections_in_vocabulary
+    state: NotStarted
+  - key: T5
+    text: Changelog entry; keep SKILL.md and the docs in sync
+    state: NotStarted
+  created_at: 2026-10-16T13:19:06.074128764Z
 definition:
   statement: A build-ready technical design in the spec at the design stage, for Claude and the solo developer, so that implementation follows an agreed design instead of guessing it.
   goals:
@@ -50,4 +69,4 @@ definition:
       kind: unit
       state: planned
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:15:13.53865169Z
+updated_at: 2026-10-16T13:19:06.074155266Z

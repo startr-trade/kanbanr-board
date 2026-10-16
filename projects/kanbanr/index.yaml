@@ -93,7 +93,7 @@
   - process
   - skill
   depends_on: []
-  done: 1
+  done: 2
   total: 5
 - code: FEAT-001
   status: Completed

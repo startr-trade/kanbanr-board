@@ -24,7 +24,7 @@ todo_lists:
     text: ADR-0010 accepted on the board with context, alternatives, consequences and compliance
     state: Completed
   - key: T3
-    text: katalog moved to the progressive togaf preset (schema 3) and its CLAUDE.md refreshed with stage purposes
+    text: The downstream board moved to the progressive togaf preset (schema 3) and its CLAUDE.md refreshed with stage purposes
     state: Completed
   created_at: 2026-09-29T19:03:10.618931852Z
 definition:

@@ -104,3 +104,6 @@
   actor: Venkatraman B
   message: approve definition of FEAT-182
   item: FEAT-182
+- time: 2026-10-16T18:17:31.392745707Z
+  actor: Venkatraman B
+  message: 'FEAT-182: sign-offs are offered before their preconditions are met'

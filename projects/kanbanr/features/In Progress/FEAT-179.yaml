@@ -1,6 +1,6 @@
 code: FEAT-179
 title: 'Design stage: a build-ready design in the spec (skill guidance and a spec-section gate check)'
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: medium
@@ -78,5 +78,9 @@ definition:
     verdict: approved
     rev: 31814374ede9bb25
     status: Planned
+history:
+- at: 2026-10-16T13:22:16.003028543Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:20:04.179725639Z
+updated_at: 2026-10-16T13:22:16.003028543Z

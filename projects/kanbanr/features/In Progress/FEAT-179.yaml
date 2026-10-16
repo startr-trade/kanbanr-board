@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: Vocabulary and working agreement list `spec_sections` (R-3), with readiness::spec_sections_in_vocabulary
-    state: NotStarted
+    state: Completed
   - key: T5
     text: Changelog entry; keep SKILL.md and the docs in sync
     state: NotStarted
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:38:08.902119692Z
+updated_at: 2026-10-16T13:38:08.944170824Z

@@ -58,22 +58,22 @@ definition:
     kind: functional
     text: WHERE a gate lists `spec_sections`, THE SYSTEM SHALL refuse entry to that stage until the spec contains each named heading with non-empty content.
     tests:
-    - name: readiness::spec_sections_gate
+    - name: readiness::tests::spec_sections_gate
       kind: unit
       state: planned
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL include `spec_sections` in the gate vocabulary and in the generated working agreement.
     tests:
-    - name: readiness::spec_sections_in_vocabulary
+    - name: readiness::tests::spec_sections_in_vocabulary
       kind: unit
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-16T13:20:04.179725639Z
+    at: 2026-10-16T13:20:04.179725+00:00
     rev: 31814374ede9bb25
   approvals:
-  - at: 2026-10-16T13:20:04.179725639Z
+  - at: 2026-10-16T13:20:04.179725+00:00
     by: Venkatraman B
     verdict: approved
     rev: 31814374ede9bb25
@@ -83,4 +83,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:38:08.993512508Z
+updated_at: 2026-10-16T13:40:36.544189925Z

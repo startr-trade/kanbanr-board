@@ -30,7 +30,7 @@ definition:
     where: kanbanr-cli store opening (main.rs / backend.rs)
     when: Any command run in a folder with no marker, no env var and no ./data
     who: Anyone exploring a folder before or without setting up kanbanr, including Claude in plan mode
-    why: A read created ./data/projects in katalog during the read-only interview, leaving a stray folder that looks like a board
+    why: A read created ./data/projects in a downstream project during the read-only interview, leaving a stray folder that looks like a board
   requirements:
   - id: R-1
     kind: functional
@@ -48,16 +48,16 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-29T07:29:57.420470251Z
+    at: 2026-09-29T07:29:57.420470+00:00
     rev: 611f29f5a8fdb8d6
   approvals:
-  - at: 2026-09-29T07:29:57.420470251Z
+  - at: 2026-09-29T07:29:57.420470+00:00
     by: Venkatraman B
     verdict: approved
     rev: 611f29f5a8fdb8d6
 defect:
   severity: medium
-  found_in: katalog setup (FEAT-100 walk)
+  found_in: downstream project setup (FEAT-100 walk)
   root_cause: Backend::with_policy runs create_dir_all(data/projects) for every command, so resolving the legacy ./data fallback created it
   escaped: false
   fixed_by: cli_reads_in_an_untracked_folder_create_nothing
@@ -69,4 +69,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T07:27:39.47383183Z
-updated_at: 2026-09-29T07:38:34.056778232Z
+updated_at: 2026-10-16T03:20:42.098063307Z

@@ -36,7 +36,7 @@ definition:
     where: skill/kanbanr/SKILL.md, docs/src/getting-started/quickstart.md
     when: Setting up kanbanr through Claude
     who: A developer adopting kanbanr
-    why: The katalog run had to repair a failed charter set, reclassify goals, and could neither commit nor find the monitor
+    why: The first real run had to repair a failed charter set, reclassify goals, and could neither commit nor find the monitor
   requirements:
   - id: R-1
     kind: functional
@@ -61,10 +61,10 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-29T07:29:57.480459491Z
+    at: 2026-09-29T07:29:57.480459+00:00
     rev: 1bff4559baf3a2cf
   approvals:
-  - at: 2026-09-29T07:29:57.480459491Z
+  - at: 2026-09-29T07:29:57.480459+00:00
     by: Venkatraman B
     verdict: approved
     rev: 1bff4559baf3a2cf
@@ -76,4 +76,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T07:27:39.473882483Z
-updated_at: 2026-10-16T03:05:48.960410989Z
+updated_at: 2026-10-16T03:20:42.09801952Z

@@ -1,6 +1,6 @@
 ## Problem
 
-The first real run of the FEAT-100 interview (katalog, 2026-09-29) worked end to end, but showed four gaps in the skill text:
+The first real run of the FEAT-100 interview (a downstream project, 2026-09-29) worked end to end, but showed four gaps in the skill text:
 
 1. The skill described goals as "an outcome plus a measure", so Claude wrote `outcome:` and the first `charter set` failed; the field is `statement`. The skill never gives the charter's exact shape.
 2. The user listed three items under non-goals that were really goals; Claude caught it only after the first ExitPlanMode. The skill should say to check each non-goal reads as something the project will *not* do.

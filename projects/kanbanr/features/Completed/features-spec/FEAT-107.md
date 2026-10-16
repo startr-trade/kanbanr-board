@@ -1,6 +1,6 @@
 ## Problem
 
-Every page renders inside `.content`, capped at `max-width: 1200px`. The board lays its columns out at `minmax(240px, 1fr)` each, so any workflow with more than four displayed statuses — TOGAF's six phases, in katalog — needs about 1,550px and scrolls horizontally inside a 1,200px box, while a wide screen shows empty margins on both sides.
+Every page renders inside `.content`, capped at `max-width: 1200px`. The board lays its columns out at `minmax(240px, 1fr)` each, so any workflow with more than four displayed statuses — TOGAF's six phases, on a downstream board — needs about 1,550px and scrolls horizontally inside a 1,200px box, while a wide screen shows empty margins on both sides.
 
 ## Behavior
 

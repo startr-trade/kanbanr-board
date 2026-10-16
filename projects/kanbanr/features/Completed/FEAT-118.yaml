@@ -34,7 +34,7 @@ definition:
   - G-5
   zachman:
     what: The documentation and decision for process as configuration
-    how: ADR-0010, a docs chapter, skill and changelog updates; applying the preset to katalog
+    how: ADR-0010, a docs chapter, skill and changelog updates; applying the preset to the downstream board
     where: board decisions/, docs/src/using/processes.md, skill/kanbanr/SKILL.md, CHANGELOG.md
     when: When Part 1's engine is in place
     who: Users, contributors and Claude
@@ -49,17 +49,17 @@ definition:
       state: green
   - id: R-2
     kind: functional
-    text: WHEN katalog is moved to the togaf preset, THE SYSTEM SHALL keep its existing items loadable and its charter unchanged.
+    text: WHEN a downstream board is moved to the togaf preset, THE SYSTEM SHALL keep its existing items loadable and its charter unchanged.
     tests:
-    - name: 'manual: katalog on progressive togaf, board and doctor clean'
+    - name: 'manual: a downstream board on progressive togaf, board and doctor clean'
       kind: manual
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-29T17:36:37.580895869Z
+    at: 2026-09-29T17:36:37.580895+00:00
     rev: 4c418af8ef8a568d
   approvals:
-  - at: 2026-09-29T17:36:37.580895869Z
+  - at: 2026-09-29T17:36:37.580895+00:00
     by: Venkatraman B
     verdict: approved
     rev: 4c418af8ef8a568d
@@ -71,4 +71,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-10-16T03:05:49.005260047Z
+updated_at: 2026-10-16T03:20:42.098042745Z

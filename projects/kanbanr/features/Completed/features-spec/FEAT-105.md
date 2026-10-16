@@ -1,6 +1,6 @@
 ## Problem
 
-In a repository with no commits, `scm::default_branch` finds no remote head, no `init.defaultBranch` and no existing main/master, and answers `main` — while HEAD is an unborn `master` (git's own default). Reproduced on a scratch repo: `kanbanr git status` reports `default: main`; the first commit on `master` is refused because the branch names no item; `kanbanr start` then says it branched `from main`, a branch that does not exist. A new project set up through the interview (katalog) cannot make its first commit without `--no-verify`.
+In a repository with no commits, `scm::default_branch` finds no remote head, no `init.defaultBranch` and no existing main/master, and answers `main` — while HEAD is an unborn `master` (git's own default). Reproduced on a scratch repo: `kanbanr git status` reports `default: main`; the first commit on `master` is refused because the branch names no item; `kanbanr start` then says it branched `from main`, a branch that does not exist. A new project set up through the interview cannot make its first commit without `--no-verify`.
 
 ## Behavior
 

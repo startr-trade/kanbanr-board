@@ -1,6 +1,6 @@
 ## Problem
 
-In a folder with no `.kanbanr` marker and no `$KANBANR_DATA_DIR`, every command that only reads — `whoami`, `board`, `feature list`, `charter show`, `doctor` — creates `./data/projects` as a side effect of resolving the legacy default. Found in the katalog setup: `kanbanr whoami`, run during the plan-mode interview (the phase that must not write), left a `data/` folder in the project that a later session would mistake for a board. `kanbanr where` does not do it.
+In a folder with no `.kanbanr` marker and no `$KANBANR_DATA_DIR`, every command that only reads — `whoami`, `board`, `feature list`, `charter show`, `doctor` — creates `./data/projects` as a side effect of resolving the legacy default. Found in a downstream project's setup: `kanbanr whoami`, run during the plan-mode interview (the phase that must not write), left a `data/` folder in the project that a later session would mistake for a board. `kanbanr where` does not do it.
 
 ## Behavior
 

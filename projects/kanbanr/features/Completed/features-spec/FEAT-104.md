@@ -1,6 +1,6 @@
 ## Problem
 
-When nothing is serving, `kanbanr open` prints `kanbanr serve --ui-dir web/dist`. Since FEAT-084 the monitor is compiled into the binary, so the flag is unnecessary and `web/dist` exists only in kanbanr's own checkout. In the katalog setup Claude followed the hint, searched the disk, and started the monitor from this repository's development build — tying another project's monitor to a working tree.
+When nothing is serving, `kanbanr open` prints `kanbanr serve --ui-dir web/dist`. Since FEAT-084 the monitor is compiled into the binary, so the flag is unnecessary and `web/dist` exists only in kanbanr's own checkout. In a downstream project's setup Claude followed the hint, searched the disk, and started the monitor from this repository's development build — tying another project's monitor to a working tree.
 
 ## Behavior
 

@@ -35,7 +35,7 @@ definition:
     kind: functional
     text: WHILE the window is wide enough for every displayed column, THE SYSTEM SHALL show the board without horizontal scrolling.
     tests:
-    - name: 'manual: katalog''s six-column TOGAF board at 1920px shows all columns without a scrollbar'
+    - name: 'manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar'
       kind: manual
       state: green
   - id: R-2
@@ -47,20 +47,20 @@ definition:
       state: green
   approval:
     by: Venkatraman B
-    at: 2026-09-29T07:35:44.266236255Z
+    at: 2026-09-29T07:35:44.266236+00:00
     rev: d3f44d5c6fe2a5cc
   approvals:
-  - at: 2026-09-29T07:34:08.218056886Z
+  - at: 2026-09-29T07:34:08.218056+00:00
     by: Venkatraman B
     verdict: approved
     rev: d3f44d5c6fe2a5cc
-  - at: 2026-09-29T07:35:44.266236255Z
+  - at: 2026-09-29T07:35:44.266236+00:00
     by: Venkatraman B
     verdict: approved
     rev: d3f44d5c6fe2a5cc
 defect:
   severity: low
-  found_in: katalog monitor (user report)
+  found_in: downstream project monitor (user report)
   root_cause: one 1200px cap for every page; the board's columns need 240px each plus gaps, so more than four statuses overflow
   escaped: false
   fixed_by: 'headless Chromium at 1920px: board scrollWidth == clientWidth with 6 columns; charter content 1200px'
@@ -72,4 +72,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T07:33:33.11909372Z
-updated_at: 2026-09-29T07:36:42.027227939Z
+updated_at: 2026-10-16T03:20:42.098078241Z

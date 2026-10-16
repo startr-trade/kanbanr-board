@@ -2,7 +2,7 @@
 
 ## Context
 
-katalog uses the TOGAF preset, and walking an item through it on a scratch board showed that the
+A downstream project uses the TOGAF preset, and walking an item through it on a scratch board showed that the
 phases are only column names. The guardrails are hard-coded around a single "start then finish"
 shape:
 
@@ -34,7 +34,7 @@ Decisions taken with the user:
   script checks.
 - **Enforcement is chosen per gate**: `block` (the default) or `warn`. A blocked move can go
   through with `--override "<reason>"`, and the reason is recorded.
-- TOGAF is kept for katalog, with real phase support.
+- TOGAF is kept for that downstream project, with real phase support.
 
 ## Design
 
@@ -203,7 +203,7 @@ Mermaid export adds each gate as a `note` (read-only; import ignores notes, as n
 | D | Transition targets: `start` via `on_enter: branch`, `finish` via a reachable terminal, auto-advance through gates, `first_active_status` no-op fix | B |
 | E | Presets as data (default, togaf, pdca, design-control), `--preset` / `--from-file` / `--export`, mermaid gate notes, unknown-preset error | B, C |
 | F | Surfacing: `check` next-gate output, phase-aware doctor, review queue sign-offs, monitor readiness endpoint + Workflow page + card chip, CLAUDE.md purposes | A, B, C |
-| G | Skill, docs chapter, ADR-0010, changelog; apply the new togaf preset to katalog | E, F |
+| G | Skill, docs chapter, ADR-0010, changelog; apply the new togaf preset to the downstream board | E, F |
 | H (defect, separate, first) | `kanbanr claude guard` denies writes to files **outside the project repo** (it refused `~/.claude/plans/*.md`, the harness's plan file) and suggests a malformed `notes//home/…` path. It must decide only for paths inside the tracked repo. | — |
 
 Each item gets the house definition (statement, goals, Zachman, EARS requirements with named
@@ -367,7 +367,7 @@ Each item is merged, tested and usable on its own:
 
 1. **H**: the docs-guard defect that blocked this plan file.
 2. **Part 1, A → B → (C, D) → E → F → G**: one readiness engine, declarable gates, sign-offs,
-   transition targets, presets as data, surfacing, then skill, docs and ADR-0010. katalog moves
+   transition targets, presets as data, surfacing, then skill, docs and ADR-0010. The downstream board moves
    to the progressive TOGAF preset after E.
 3. **Part 2, I, J, K → L → M**: sprints, releases, points, the Scrum/agile kick-start, cadence
    views.

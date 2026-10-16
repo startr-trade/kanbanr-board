@@ -71,3 +71,6 @@
 - time: 2026-10-16T13:40:36.546932092Z
   actor: Venkatraman B
   message: 'FEAT-179: test names as cargo prints them'
+- time: 2026-10-16T13:41:04.340048853Z
+  actor: Venkatraman B
+  message: 'scope: living architecture docs'

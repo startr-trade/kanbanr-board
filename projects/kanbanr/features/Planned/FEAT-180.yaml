@@ -1,0 +1,60 @@
+code: FEAT-180
+title: 'Living architecture docs: component docs fed by each feature''s design, and a check that declared docs were updated'
+status: Planned
+milestone: MS-007
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- method
+- docs
+- traceability
+depends_on: []
+todo_lists: []
+definition:
+  statement: Architecture and component documentation that stays current as features ship, for the solo developer, collaborators and Claude, so that the docs describe the product as built rather than as first planned.
+  goals:
+  - G-2
+  - G-4
+  zachman:
+    what: Component docs fed by feature designs; a check that declared docs were updated
+    how: ''
+    where: skill/kanbanr/SKILL.md, kanbanr-core readiness, docs
+    when: At the design stage (declare) and on completion (fold in)
+    who: the solo developer, collaborators and reviewers, Claude
+    why: Feature-by-feature work leaves architecture docs describing the first plan, not the product
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL state in the skill how a feature's design is folded into the component docs and architecture views it affects, and when.
+    tests:
+    - name: 'manual: skill living-docs guidance present and matches the docs'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL let an item's definition declare the board docs it affects.
+    tests:
+    - name: readiness::tests::affects_docs_round_trips
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a gate lists `docs_updated`, THE SYSTEM SHALL refuse entry until every doc the item declares has been changed since the item entered its current stage.
+    tests:
+    - name: readiness::tests::docs_updated_gate
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF an item declares a doc that does not exist on the board, THE SYSTEM SHALL report it as a broken reference.
+    tests:
+    - name: readiness::tests::affects_docs_unknown_is_error
+      kind: unit
+      state: planned
+created_at: 2026-10-16T13:41:04.337483199Z
+updated_at: 2026-10-16T13:41:04.337509739Z

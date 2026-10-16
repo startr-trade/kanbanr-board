@@ -97,3 +97,6 @@
   actor: Venkatraman B
   message: approve definition of FEAT-181
   item: FEAT-181
+- time: 2026-10-16T15:12:32.563154193Z
+  actor: Venkatraman B
+  message: 'scope: withdraw sign-offs; offer only next-stage sign-offs'

@@ -33,7 +33,7 @@ fixed list and jumped to the first end status. Auto-advance looked for a status 
 
 Projects follow different processes: TOGAF phases, PDCA cycles, design-control flows, an
 organisation's own quality system. Each asks different things at different stages. Under TOGAF on
-a real board (katalog), the phases were only column names. Approval was demanded at every move,
+a real board (a downstream project), the phases were only column names. Approval was demanded at every move,
 the branch was made at Business Arch, and `finish` could not end from Implementation. Supporting
 each process in code would make kanbanr a catalogue of methodologies, and still miss the one a
 given organisation uses.

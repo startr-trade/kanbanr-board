@@ -1,0 +1,61 @@
+code: FEAT-181
+title: Live, checked links between board artifacts (items, requirements, ADRs, docs, milestones, goals)
+status: Planned
+milestone: MS-007
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- method
+- docs
+- traceability
+- monitor
+depends_on: []
+todo_lists: []
+definition:
+  statement: Live, checked links between every board artifact, for the solo developer, collaborators and Claude, so that design documents can be followed, and a reference that stops pointing at anything is reported rather than silently drifting.
+  goals:
+  - G-4
+  - G-2
+  zachman:
+    what: Auto-linked references, broken-link reports, links as trace edges
+    how: ''
+    where: web monitor markdown rendering, kanbanr-core doctor and trace, the skill
+    when: When markdown renders; on doctor and trace runs
+    who: the solo developer, collaborators and reviewers, Claude
+    why: Plain-text references cannot be followed or checked, so documents drift apart unnoticed
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the monitor renders markdown, THE SYSTEM SHALL turn item codes, requirement references, ADR ids, milestone codes, goal ids and board doc paths into links to their pages, keeping links already written.
+    tests:
+    - name: markdownHtml autolinks board references
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a spec, doc or ADR references an item, ADR, doc, milestone or goal that the board does not have, THE SYSTEM SHALL report it in doctor as a broken reference.
+    tests:
+    - name: doctor::tests::broken_board_references_reported
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL include links between docs, items and ADRs as edges in trace and why.
+    tests:
+    - name: trace::tests::doc_links_are_trace_edges
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL state in the skill that every reference in a design artifact is a live link, and how to write each kind.
+    tests:
+    - name: 'manual: skill linking rules present and match the docs'
+      kind: manual
+      state: planned
+created_at: 2026-10-16T14:00:04.95169448Z
+updated_at: 2026-10-16T14:00:04.951716146Z

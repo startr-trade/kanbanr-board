@@ -11,3 +11,7 @@ Scope:
 - **Skill guidance.** At the design stage, the spec names the component docs and views the item affects (`affects_docs`). Completing the item folds its design into them. A milestone ends with an architecture compliance review.
 - **A gate check `docs_updated`.** It passes when every doc the item declares it affects has been changed since the item entered its current stage, judged from the board's history.
 - **Docs.** A chapter on living architecture documentation.
+
+## Revision (2026-10-16): the links are the dependency list
+
+`affects_docs` and the links written in specs, component docs and ADRs form one dependency graph: item → docs it changes; doc → items, ADRs and code it reflects. `docs_updated` reads that graph. Live links between artifacts are FEAT-181.

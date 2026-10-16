@@ -1,5 +1,5 @@
 code: FEAT-118
-title: Method, docs and ADR-0010 for process as configuration; katalog on progressive TOGAF
+title: Method, docs and ADR-0010 for process as configuration; a first board on progressive TOGAF
 status: Completed
 milestone: MS-007
 kind: null
@@ -71,4 +71,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-09-29T17:32:38.855151587Z
-updated_at: 2026-09-29T19:03:10.772307496Z
+updated_at: 2026-10-16T03:05:49.005260047Z

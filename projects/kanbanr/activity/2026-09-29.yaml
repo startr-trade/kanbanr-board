@@ -12,7 +12,7 @@
   item: FEAT-100
 - time: 2026-09-29T07:27:39.475672474Z
   actor: Venkatraman B
-  message: Record what the first real setup interview (katalog) found
+  message: Record what the first real setup interview found
 - time: 2026-09-29T07:29:57.421970633Z
   actor: Venkatraman B
   message: approve definition of FEAT-103
@@ -113,7 +113,7 @@
   item: FEAT-107
 - time: 2026-09-29T07:36:41.88231581Z
   actor: Venkatraman B
-  message: 'test manual: katalog''s six-column TOGAF board at 1920px shows all columns without a scrollbar of FEAT-107/R-1 is now green'
+  message: 'test manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar of FEAT-107/R-1 is now green'
   item: FEAT-107
 - time: 2026-09-29T07:36:41.902385899Z
   actor: Venkatraman B
@@ -841,7 +841,7 @@
   item: FEAT-118
 - time: 2026-09-29T19:03:10.595302287Z
   actor: Venkatraman B
-  message: 'test manual: katalog on progressive togaf, board and doctor clean of FEAT-118/R-2 is now green'
+  message: 'test manual: a downstream board on progressive togaf, board and doctor clean of FEAT-118/R-2 is now green'
   item: FEAT-118
 - time: 2026-09-29T19:03:10.620877474Z
   actor: Venkatraman B

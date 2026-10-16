@@ -70,17 +70,22 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-16T13:20:04.179725+00:00
-    rev: 31814374ede9bb25
+    at: 2026-10-16T13:41:10.488959706Z
+    rev: 30e2a8c3639d169f
   approvals:
   - at: 2026-10-16T13:20:04.179725+00:00
     by: Venkatraman B
     verdict: approved
     rev: 31814374ede9bb25
     status: Planned
+  - at: 2026-10-16T13:41:10.488959706Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 30e2a8c3639d169f
+    status: In Progress
 history:
 - at: 2026-10-16T13:22:16.003028543Z
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:40:36.544189925Z
+updated_at: 2026-10-16T13:41:10.488959706Z

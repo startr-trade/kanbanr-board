@@ -131,7 +131,7 @@
   done: 0
   total: 0
 - code: FEAT-179
-  status: In Progress
+  status: Completed
   milestone: MS-007
   kind: feature
   priority: medium
@@ -145,7 +145,7 @@
   - process
   - skill
   depends_on: []
-  done: 4
+  done: 5
   total: 5
 - code: FEAT-001
   status: Completed

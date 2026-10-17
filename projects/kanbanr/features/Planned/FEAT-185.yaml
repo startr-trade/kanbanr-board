@@ -1,0 +1,44 @@
+code: FEAT-185
+title: 'Monitor: add an item to a release when it is ready, and promote a release between stages'
+status: Planned
+milestone: MS-008
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- monitor
+- releases
+depends_on: []
+todo_lists: []
+definition:
+  statement: Release actions in the monitor, for a solo developer, so that adding a ready item to a release and promoting a release are one click each with the same effect as the CLI.
+  goals:
+  - G-5
+  zachman:
+    what: Add-to-release question in the review queue; promote action on the Releases page
+    how: ''
+    where: web monitor, dispatch routes for release plan and promote
+    when: When an item becomes ready for release; when a release is promoted
+    who: the solo developer
+    why: Release decisions otherwise need the terminal
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN an item enters the stage before the terminal one and releases are on, THE SYSTEM SHALL ask in the review queue which planned release it belongs to.
+    tests:
+    - name: review_queue_asks_release_for_ready_item
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the user chooses Promote on a release, THE SYSTEM SHALL perform the same promotion as `kanbanr release promote`.
+    tests:
+    - name: monitor_promote_matches_cli
+      kind: integration
+      state: planned
+created_at: 2026-10-17T08:15:34.298365398Z
+updated_at: 2026-10-17T08:15:34.298380096Z

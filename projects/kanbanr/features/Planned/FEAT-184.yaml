@@ -1,0 +1,51 @@
+code: FEAT-184
+title: 'Patch releases: a patch release branches from a cut release, records its parent release, and carries that release''s scope'
+status: Planned
+milestone: MS-008
+kind: feature
+priority: medium
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- releases
+- git
+depends_on: []
+todo_lists: []
+definition:
+  statement: Patch releases that branch from a cut release and record their parent, for a solo developer, so that fixes to production follow the same staged path and keep the released scope.
+  goals:
+  - G-5
+  zachman:
+    what: Patch release with a parent reference; branch from the parent's tag; notes
+    how: ''
+    where: kanbanr-core releases, CLI
+    when: When a defect in a released version must ship before the next release
+    who: the solo developer
+    why: Fixes to a released version otherwise have no release of their own and can be lost from the next one
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN `kanbanr release add <VERSION> --patch-of <PARENT>` runs, THE SYSTEM SHALL record the parent and create `release/<VERSION>` from the parent's tag.
+    tests:
+    - name: patch_release_branches_from_parent_tag
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL show in a patch release's notes its parent release and the items it adds.
+    tests:
+    - name: patch_release_notes_show_parent_and_additions
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a patch release is cut, THE SYSTEM SHALL list the commits that are not yet in the integration branch, so they can be merged forward.
+    tests:
+    - name: patch_release_reports_forward_merge
+      kind: integration
+      state: planned
+created_at: 2026-10-17T08:15:34.298340055Z
+updated_at: 2026-10-17T08:15:34.298353096Z

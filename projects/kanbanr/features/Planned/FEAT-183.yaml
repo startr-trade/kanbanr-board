@@ -56,5 +56,15 @@ definition:
     - name: promote_production_refuses_unclean_merge
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-17T08:17:57.303381747Z
+    rev: 6cce22c89b08e146
+  approvals:
+  - at: 2026-10-17T08:17:57.303381747Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 6cce22c89b08e146
+    status: Planned
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-17T08:15:34.298318067Z
+updated_at: 2026-10-17T08:17:57.303381747Z

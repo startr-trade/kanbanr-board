@@ -47,5 +47,15 @@ definition:
     - name: patch_release_reports_forward_merge
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-17T08:17:58.862408075Z
+    rev: e6ce42c6e1690a25
+  approvals:
+  - at: 2026-10-17T08:17:58.862408075Z
+    by: Venkatraman B
+    verdict: approved
+    rev: e6ce42c6e1690a25
+    status: Planned
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-17T08:15:34.298353096Z
+updated_at: 2026-10-17T08:17:58.862408075Z

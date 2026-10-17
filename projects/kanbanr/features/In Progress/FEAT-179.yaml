@@ -53,7 +53,7 @@ definition:
     tests:
     - name: 'manual: skill design-stage guidance present and matches the docs'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHERE a gate lists `spec_sections`, THE SYSTEM SHALL refuse entry to that stage until the spec contains each named heading with non-empty content.
@@ -90,4 +90,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-16T13:42:28.245097537Z
+updated_at: 2026-10-17T06:20:10.56730131Z

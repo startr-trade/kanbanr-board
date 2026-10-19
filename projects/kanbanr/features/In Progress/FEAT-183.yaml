@@ -73,7 +73,7 @@ definition:
     tests:
     - name: promote_production_cuts_tags_merges
       kind: integration
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: IF the release branch cannot merge cleanly into the main branch, THE SYSTEM SHALL refuse the production promotion and change nothing.
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:17:19.702493357Z
+updated_at: 2026-10-19T10:17:19.760544758Z

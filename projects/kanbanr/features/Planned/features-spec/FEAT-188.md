@@ -242,27 +242,27 @@ Also:
 
    Depends on 4 and 6.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Is schema 4, which makes older binaries refuse, right for role-label-only gates and `@role`
   keys?
-  - Recommended: yes. A silently lost guardrail is the failure FEAT-113's schema rule exists to
+  - Decided: yes. A silently lost guardrail is the failure FEAT-113's schema rule exists to
     prevent. Boards that only add `roles` beside real gates stay at 3.
 - **Q2.** Should the synthesis also infer design (the status before build) and integrate (the
   release status) for boards with no roles?
-  - Recommended: no. Infer only build and release, which today's behaviour defines. `doctor` hints
+  - Decided: no. Infer only build and release, which today's behaviour defines. `doctor` hints
     "declare stage roles", so FEAT-190 never starts merging on a board that didn't opt in.
 - **Q3.** When an `@role` gate and its status's own gate disagree on `enforce` or `kinds`, should
   the save be refused or the gates merged?
-  - Recommended: refuse with a check problem. A merged result would silently change which items a
+  - Decided: refuse with a check problem. A merged result would silently change which items a
     rule binds.
 - **Q4.** Should `finish` target the integrate role instead of the first reachable end status?
-  - Recommended: not in FEAT-188. FEAT-190 owns entering integrate and its merge.
+  - Decided: not in FEAT-188. FEAT-190 owns entering integrate and its merge.
 - **Q5.** Should the order design → build → integrate → release be enforced in workflow order?
-  - Recommended: no. Roles may share a status, and loops make "order" ambiguous. Only the no-op and
+  - Decided: no. Roles may share a status, and loops make "order" ambiguous. Only the no-op and
     terminal rules apply.
 - **Q6.** Design-control's `Design` status holds the build role, because the branch is made there.
   Is that acceptable naming?
-  - Recommended: yes. Moving the branch would change behaviour; the agreement line makes the role
+  - Decided: yes. Moving the branch would change behaviour; the agreement line makes the role
     explicit.
 
 ### Affects docs

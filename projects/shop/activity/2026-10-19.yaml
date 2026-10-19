@@ -10,3 +10,6 @@
 - time: 2026-10-19T10:21:08.546611796Z
   actor: A
   message: promote release v1.0.0 to candidate
+- time: 2026-10-19T10:21:31.943921343Z
+  actor: A
+  message: 'update config: cadence'

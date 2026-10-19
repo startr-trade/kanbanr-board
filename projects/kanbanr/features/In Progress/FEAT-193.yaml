@@ -66,7 +66,7 @@ definition:
     tests:
     - name: presets_include_method_gates
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN `kanbanr config method --off` runs, THE SYSTEM SHALL remove those gates from the project's workflow and record the choice.
@@ -89,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.084338886Z
-updated_at: 2026-10-19T13:57:57.151595609Z
+updated_at: 2026-10-19T14:04:27.927224805Z

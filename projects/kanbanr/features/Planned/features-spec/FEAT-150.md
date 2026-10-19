@@ -20,3 +20,6 @@ verified.
 New features: they wait for 1.x, except the process library (FEAT-168 to FEAT-171): designing a
 process with Claude and saving it on the board or personally. The maintainer chose on 5 Oct 2026
 to ship it in 1.0; 1.0 waits for those four items.
+Also before 1.0, decided on 17 Oct 2026: FEAT-176 to FEAT-178 and FEAT-180 to FEAT-185
+(the core refactor, the read-API contract, the standalone monitor, living docs and links, sign-off
+withdrawal, and release stages, patches and monitor actions). FEAT-179 and FEAT-186 too.

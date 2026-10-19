@@ -25,6 +25,9 @@ todo_lists:
   - key: T2
     text: '2 Doctor: scan_references'
     state: NotStarted
+  - key: T3
+    text: '3 Trace: Subject::Doc, doc edges, links_out/links_in'
+    state: NotStarted
   created_at: 2026-10-19T10:13:40.465594555Z
 definition:
   statement: Live, checked links between every board artifact, for the solo developer, collaborators and Claude, so that design documents can be followed, and a reference that stops pointing at anything is reported rather than silently drifting.
@@ -87,4 +90,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T10:13:40.56505919Z
+updated_at: 2026-10-19T10:13:40.617455986Z

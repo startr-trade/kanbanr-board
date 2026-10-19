@@ -172,23 +172,23 @@ Also: `method::tests::add_is_idempotent`, `method::tests::remove_all_restores_le
    SKILL.md design-stage paragraph ("built-in processes ask for this by default; `kanbanr config
    method`"); CHANGELOG with the docs sync. Depends on 6.
 
-### Open questions
-- **Q1.** Merge the method into presets in code, or write it into each YAML file? Recommended:
+### Decisions (19 Oct 2026: every recommended answer accepted)
+- **Q1.** Merge the method into presets in code, or write it into each YAML file? Decided:
   **in code** (`preset` = bare + `method::add`): one statement of the rule, the same code serves
   `--on`, and `preset_bare` keeps tests on today's semantics.
 - **Q2.** design-control already has `design-review` at Verification (ISO 8.3.4, review of the
-  outputs), which one recorded sign-off would now satisfy before Design. Recommended: rename that
+  outputs), which one recorded sign-off would now satisfy before Design. Decided: rename that
   one to `verification-review`, so `design-review` means the pre-build review in every preset.
 - **Q3.** Projects created without `--workflow` record no process source, so FEAT-170 never tells
-  them. Recommended: `for_new_project` records `default` (built-in) from now on, and doctor warns
+  them. Decided: `for_new_project` records `default` (built-in) from now on, and doctor warns
   once per project with no `method.chosen_at` whose workflow lacks the fragments ("predates the
   method: `kanbanr config method --on`, or `--off` to keep it off"), silenced by either choice.
-- **Q4.** Require `docs-folded` even when the item declares no `affects_docs`? Recommended: yes,
+- **Q4.** Require `docs-folded` even when the item declares no `affects_docs`? Decided: yes,
   uniform and one question; a project that finds it noisy turns off `docs-folded` alone.
 - **Q5.** Confirm the roles assumed above, especially design-control build = Design, pdca integrate
-  = Check, agile integrate = Review. Recommended: as tabled; FEAT-188 owns the final assignment and
+  = Check, agile integrate = Review. Decided: as tabled; FEAT-188 owns the final assignment and
   this table follows it.
-- **Q6.** Apply the method gates to every kind (defects, chores)? Recommended: yes, no `kinds:`; a
+- **Q6.** Apply the method gates to every kind (defects, chores)? Decided: yes, no `kinds:`; a
   defect's Design can be a paragraph.
 
 ### Affects docs

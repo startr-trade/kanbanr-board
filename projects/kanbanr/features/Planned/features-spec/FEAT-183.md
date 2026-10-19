@@ -155,3 +155,6 @@ failure after the git steps rolling back.
 ### Affects docs
 docs/src/using/processes.md (Sprints and releases), docs/src/reference/cli.md,
 docs/src/architecture/overview.md (releases).
+
+## Addition (2026-10-19): the cut is the release sign-off
+When a person promotes a release to production (the cut), kanbanr should record a `release` sign-off on every shipped item, attributed to that person and noting the release version. Items wait in the stage before the terminal one until the cut. The tag at the cut goes on the local repository; publishing it stays with whoever pushes. This needs a requirement and a re-approval when the item is picked up.

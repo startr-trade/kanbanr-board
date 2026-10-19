@@ -140,12 +140,12 @@ Plus: `git::tests::doc_changed_since_*` (absent baseline, no repo, file deleted)
 7. **Skill and docs.** SKILL.md guidance; the living-docs chapter plus SUMMARY; the check-table rows
    in processes.md and with-claude.md; CHANGELOG with the docs sync. Test: R-1. Depends on 3.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should declaring or changing `affects_docs` lapse the item's approval?
-  - Recommended: **no**, exclude it from `content_rev`, like sign-offs. The list is part of the
+  - Decided: **no**, exclude it from `content_rev`, like sign-offs. The list is part of the
     design, written after the definition was agreed.
 - **Q2.** If an item declares no docs, should `docs_updated` pass with a warning, or fail?
-  - Recommended: **pass with a warning**. Not every item affects an architecture doc.
+  - Decided: **pass with a warning**. Not every item affects an architecture doc.
 
 ### Affects docs
 docs/src/using/processes.md, docs/src/using/with-claude.md, docs/src/using/living-docs.md (new),

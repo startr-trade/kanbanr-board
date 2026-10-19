@@ -72,8 +72,14 @@ definition:
       checked_rev: d888523eb6c9df9922a006faffb24737ecf05444
   approval:
     by: Venkatraman B
-    at: 2026-10-16T13:41:10.488959706Z
-    rev: 30e2a8c3639d169f
+    at: 2026-10-19T05:47:04.036170275Z
+    rev: 905e75dd07e2726f
+  approvals:
+  - at: 2026-10-19T05:47:04.036170275Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 905e75dd07e2726f
+    status: Completed
 history:
 - at: 2026-10-16T13:22:16.003028543Z
   from: Planned
@@ -82,4 +88,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-19T04:44:17.79870586Z
+updated_at: 2026-10-19T05:47:04.036170275Z

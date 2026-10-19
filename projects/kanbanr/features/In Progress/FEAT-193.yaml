@@ -18,7 +18,35 @@ depends_on:
 - FEAT-179
 - FEAT-180
 - FEAT-181
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design (amended by Q7)
+  tasks:
+  - key: T1
+    text: '1 config: @role gates additive (declares_gates); preset/preset_bare; ProjectConfig.method'
+    state: InProgress
+  - key: T2
+    text: '2 method.rs: Part, MethodChoice, add, remove, shaped, present'
+    state: NotStarted
+  - key: T3
+    text: '3 Fixtures: tests on non-method behaviour use preset_bare'
+    state: NotStarted
+  - key: T4
+    text: '4 Store and drift: set_method, re-stamp, shaping on apply/update, drift shaping'
+    state: NotStarted
+  - key: T5
+    text: '5 Doctor: links part gates scan_references; Q3 nudge; new projects record default'
+    state: NotStarted
+  - key: T6
+    text: '6 Route and CLI: config method --on/--off; process update shapes'
+    state: NotStarted
+  - key: T7
+    text: '7 Docs: processes.md, cli.md, SKILL.md, changelog'
+    state: NotStarted
+  - key: T8
+    text: 8 make ci
+    state: NotStarted
+  created_at: 2026-10-19T13:37:23.493003491Z
 definition:
   statement: The same design and documentation discipline in every built-in process by default, for every project, so that no project needs hand-written rules to get it.
   goals:
@@ -61,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.084338886Z
-updated_at: 2026-10-19T13:37:10.006199469Z
+updated_at: 2026-10-19T13:37:23.493060256Z

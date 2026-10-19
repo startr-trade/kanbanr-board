@@ -66,7 +66,7 @@ definition:
     tests:
     - name: promote_candidate_creates_branch
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a release is promoted to production, THE SYSTEM SHALL cut it, tag the code repository with its version, and merge the release branch into the main branch.
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:11:25.330527495Z
+updated_at: 2026-10-19T10:17:19.702493357Z

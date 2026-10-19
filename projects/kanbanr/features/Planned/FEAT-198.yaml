@@ -12,5 +12,28 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: make ci's check that the real board did not move lets through a person's verdicts made during the run, so approving in the monitor no longer fails CI, while any other change still does.
+  goals:
+  - G-0
+  - G-5
+  zachman:
+    what: The board-unchanged check at the end of make ci
+    how: New board commits pass only when each is a verdict by subject and touches only feature, activity and event files
+    where: scripts/ci_local.py and a Python unit test it runs
+    when: Every make ci run on a machine with a board
+    who: The developer approving items while CI runs
+    why: Four CI runs on 19 Oct 2026 failed only because the user signed off items mid-run
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the real board gains commits during make ci, THE SYSTEM SHALL pass the board check only if every new commit is a person's verdict touching only feature, activity and event files, and fail it otherwise.
+    tests:
+    - name: scripts/tests/test_ci_local.py::test_verdict_only
+      kind: unit
+      state: planned
+    - name: 'manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run'
+      kind: manual
+      state: planned
 created_at: 2026-10-19T17:22:55.137698645Z
-updated_at: 2026-10-19T17:22:55.163870509Z
+updated_at: 2026-10-19T17:22:55.24350993Z

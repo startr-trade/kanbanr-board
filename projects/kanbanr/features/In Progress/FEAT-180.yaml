@@ -69,7 +69,7 @@ definition:
     tests:
     - name: readiness::tests::affects_docs_round_trips
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHERE a gate lists `docs_updated`, THE SYSTEM SHALL refuse entry until every doc the item declares has been changed since the item entered its current stage.
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:34:24.092424601Z
+updated_at: 2026-10-19T13:34:24.163486244Z

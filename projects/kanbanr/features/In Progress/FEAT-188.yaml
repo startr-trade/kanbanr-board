@@ -83,7 +83,7 @@ definition:
     tests:
     - name: role_addressed_gates_apply
       kind: unit
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: IF a workflow assigns one role to two statuses, THE SYSTEM SHALL refuse it on save, naming both.
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T10:07:09.356018842Z
+updated_at: 2026-10-19T10:07:09.407948906Z

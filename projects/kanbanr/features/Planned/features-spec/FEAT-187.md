@@ -134,14 +134,14 @@ proved against a board an earlier binary made.
   byte-identical output.
 - Revisions move to canonical JSON. Migration uses board history, so no old serializer is shipped.
 
-### Open questions
+### Decided (19 Oct 2026: recommended answers accepted)
 - **Q1.** If a board can't be verified from history, should those approvals lapse, so they are
   re-approved?
-  - Recommended: yes, lapse and report them. The alternative, trusting them, would let an
+  - Decided: yes, lapse and report them. The alternative, trusting them, would let an
     unverifiable approval stand.
 - **Q2.** Should the migration run automatically on the first command, or only by `kanbanr migrate`
   while every other command refuses with a hint?
-  - Recommended: **explicit** `kanbanr migrate`. It prints the report and makes the one commit. A
+  - Decided: **explicit** `kanbanr migrate`. It prints the report and makes the one commit. A
     one-time rewrite of every file should be a deliberate act, not a side effect of `kanbanr board`.
 
 ### Affects docs

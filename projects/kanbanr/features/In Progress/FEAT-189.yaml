@@ -1,6 +1,6 @@
 code: FEAT-189
 title: 'Git model from the cadence: branch topology follows whether sprints and releases are on'
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: feature
 priority: high
@@ -74,5 +74,9 @@ definition:
     verdict: approved
     rev: 30511af44be4504a
     status: Planned
+history:
+- at: 2026-10-19T14:04:58.352562768Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T09:46:07.571081746Z
+updated_at: 2026-10-19T14:04:58.352562768Z

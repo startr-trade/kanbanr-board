@@ -253,7 +253,7 @@
   done: 2
   total: 11
 - code: FEAT-181
-  status: In Progress
+  status: Completed
   milestone: MS-007
   kind: feature
   priority: high
@@ -268,7 +268,7 @@
   - traceability
   - monitor
   depends_on: []
-  done: 7
+  done: 8
   total: 8
 - code: FEAT-001
   status: Completed

@@ -34,7 +34,7 @@ makes the process stop before it reads or writes anything. Every test scratch fo
 ### Signatures
 ```rust
 // project.rs
-/// The directory boards must be inside, from `KANBANR_BOARD_FENCE` (FEAT-…). `temp` means the
+/// The directory boards must be inside, from `KANBANR_BOARD_FENCE` (FEAT-195). `temp` means the
 /// system temporary directory. None when unset or empty. Canonicalised.
 pub fn fence() -> Option<PathBuf>;
 

@@ -62,7 +62,7 @@ definition:
     tests:
     - name: 'manual: skill living-docs guidance present and matches the docs'
       kind: manual
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL let an item's definition declare the board docs it affects.
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:27:16.492891542Z
+updated_at: 2026-10-19T13:34:24.092424601Z

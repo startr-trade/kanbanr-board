@@ -1097,3 +1097,7 @@
   actor: Venkatraman B
   message: test presets_include_method_gates of FEAT-193/R-1 is now green
   item: FEAT-193
+- time: 2026-10-19T14:04:28.121883012Z
+  actor: Venkatraman B
+  message: test method_gates_opt_out of FEAT-193/R-2 is now green
+  item: FEAT-193

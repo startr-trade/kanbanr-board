@@ -89,7 +89,7 @@ pub fn signoff_current(&self, id: &str) -> Option<&Signoff>;   // + filter verdi
 - `NextGate` gains `requires_gaps: Vec<Gap>`, the gaps from `requires` only, with no sign-off gaps.
   `gaps` stays as it is for compatibility, because `check --json` exposes it.
 - Review route (`dispatch.rs`, `GET /projects/:p/review`): `signoffs_needed` comes from
-  `immediate_next_gate(..)`, and only when its `requires_gaps` has no `Level::Error` gap (R-4). An
+  `immediate_next_gate(..)`, and only when its `requires_gaps` is empty (R-4): every other requirement of that stage is met. An
   item whose only open decision is a sign-off not yet offered drops out of the queue.
 - Route `POST /projects/:p/features/:code/signoff/:name/withdraw` with body `{by, reason}`. It is
   matched **before** the generic signoff route. Commit message: "withdraw sign-off <name> on

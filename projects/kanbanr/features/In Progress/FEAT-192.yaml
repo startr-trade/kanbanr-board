@@ -46,7 +46,7 @@ definition:
     tests:
     - name: marker_resolves_from_linked_worktree
       kind: integration
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:34:01.808462687Z
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:34:09.641002224Z
+updated_at: 2026-10-19T09:37:31.89843959Z

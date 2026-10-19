@@ -23,7 +23,7 @@ definition:
   - G-4
   zachman:
     what: Derived topology; base branch for start; sprint/integration/release branch creation; hook rules
-    how: ''
+    how: Core gitmodel.rs derives the topology from the cadence and branch facts (trunk, sprint/<SP>, integration, release/<V>); start branches from the item's line; sprint start creates its branch; protected branches take only referenced merges; never pushes; opt-in via cadence.git_model
     where: kanbanr-core git, scm, sprints, releases; CLI
     when: On start, sprint start and release promotion
     who: the solo developer, Claude
@@ -68,11 +68,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:42:39.07517872Z
     rev: 843f5fd6b4a16fe5
-  approvals:
-  - at: 2026-10-19T04:42:39.07517872Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 843f5fd6b4a16fe5
-    status: Planned
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T09:45:30.662913547Z
+updated_at: 2026-10-19T09:45:30.726509757Z

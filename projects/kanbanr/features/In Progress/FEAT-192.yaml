@@ -24,6 +24,9 @@ todo_lists:
   - key: T2
     text: 2 R-1 integration test with git worktree add
     state: NotStarted
+  - key: T3
+    text: 3 Changelog; make ci
+    state: NotStarted
   created_at: 2026-10-19T09:34:02.011499029Z
 definition:
   statement: Correct board resolution from inside any git worktree, for Claude and the solo developer, so that parallel worktrees work without extra environment variables.
@@ -59,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:34:09.529849092Z
+updated_at: 2026-10-19T09:34:09.583710265Z

@@ -60,6 +60,14 @@ pub struct Promoted { /* FEAT-183 fields */, pub forward_merge: Vec<CommitLine> 
   - When the integration branch is main itself, the list is empty, because the merge already
     brought them.
 
+- **A release with no branch (Q2).** Promoting a release to any stage when it has no branch yet
+  makes `release/<V>` first, from the same base the first stage uses (FEAT-183's integration branch,
+  or `gitmodel::release_base` with the git model on). This covers a process with one release stage,
+  which is both first and last, and a promotion that skips the first stage.
+- **A patch of an older release at production (Q3, FEAT-190 Q2).** When main has commits the patch
+  lacks, production tags the patch and leaves main alone, saying so; the forward-merge list still
+  applies. An ordinary release in that state is still refused, as FEAT-183 does.
+
 ### Compatibility
 A new optional field (Release gains `extra` in FEAT-183).
 
@@ -68,6 +76,8 @@ A new optional field (Release gains `extra` in FEAT-183).
 |---|---|---|
 | R-1 | `patch_release_branches_from_parent_tag` (the branch's base is the parent's tag commit) | cli local_mode.rs |
 | R-2 | `patch_release_notes_show_parent_and_additions` | core lib.rs |
+| R-4 | `promote_without_branch_makes_it_first` | cli local_mode.rs |
+| R-5 | `patch_production_tags_without_moving_main` | cli local_mode.rs |
 | R-3 | `patch_release_reports_forward_merge` (integration ≠ main; a fix commit on the patch is listed; nothing listed when integration = main) | cli local_mode.rs |
 
 ### Implementation tasks
@@ -78,11 +88,20 @@ A new optional field (Release gains `extra` in FEAT-183).
    Depends on 1.
 3. **Forward merge.** releases.rs: `promote` sets `forward_merge` for a patch; the notes section;
    the CLI prints it. Test: R-3. Depends on 1 and FEAT-183 task 3.
-4. **Docs.** processes.md "Patch releases"; cli.md; CHANGELOG with the docs sync. Depends on 3.
+4. **No branch yet (R-4).** releases.rs `promote`: before any forward promotion, make the branch
+   when the release has none. Test: `promote_without_branch_makes_it_first` (a one-stage process
+   cuts; a promotion straight to the second stage has its branch). Depends on 1.
+5. **Patch production (R-5).** releases.rs production step: a patch whose main has moved on is
+   tagged without the fast-forward. Test: `patch_production_tags_without_moving_main`. Depends on 3.
+6. **Docs.** processes.md "Patch releases"; cli.md; CHANGELOG with the docs sync. Depends on 3.
 
 ### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should a patch release need `--patch-of` to name the **latest** cut release?
   - Decided: no. Any cut release can be patched, for example an older supported version.
+- **Q2 (19 Oct 2026).** FEAT-183 left two gaps: a one-stage process cannot promote, and skipping
+  the first stage leaves a release with no branch. Decided: **fix both here** (R-4).
+- **Q3 (19 Oct 2026).** A patch of an older release at production, with main moved on: per
+  FEAT-190 Q2, **tag without moving main** (R-5).
 
 ### Affects docs
 docs/src/using/processes.md, docs/src/reference/cli.md.

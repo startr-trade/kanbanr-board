@@ -206,17 +206,17 @@ Plus: `scm::tests::fix_twin_names_the_item`, `line_commit_verdict` unit cases.
 8. **Docs.** traceability.md (branches and hooks), processes.md "Sprints and releases" (the
    topology table), cli.md, SKILL.md command reference, CHANGELOG. Depends on 7.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Opt-in? Automation changes where `start` branches and refuses merges without Refs.
-  Recommended: **`cadence.git_model`, off by default**; `git model` always shows the topology.
+  Decided: **`cadence.git_model`, off by default**; `git model` always shows the topology.
 - **Q2.** Sprints on, no active sprint: where does `start` branch, and may an item integrate?
-  Recommended: start from `sprint_base`; integrating refuses "start a sprint first" (FEAT-190).
-- **Q3.** Should `start` name a defect's branch `fix/<CODE>-<slug>`? Recommended: yes, when the
+  Decided: start from `sprint_base`; integrating refuses "start a sprint first" (FEAT-190).
+- **Q3.** Should `start` name a defect's branch `fix/<CODE>-<slug>`? Decided: yes, when the
   pattern is the default; a custom pattern is used as is.
-- **Q4.** Keep the `[no-ref] <why>` escape for merges into protected branches? Recommended: yes;
+- **Q4.** Keep the `[no-ref] <why>` escape for merges into protected branches? Decided: yes;
   removing it teaches `--no-verify`, which leaves no record.
 - **Q5.** Releases-only: the line defaults to `integration`, which overrides FEAT-183 Q3's
-  "integration = the default branch". Recommended: yes, per this approved spec; setting
+  "integration = the default branch". Decided: yes, per this approved spec; setting
   `cadence.integration_branch: main` restores trunk-like behaviour.
 
 ### Affects docs

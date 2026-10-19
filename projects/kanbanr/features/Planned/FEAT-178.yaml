@@ -63,5 +63,11 @@ definition:
     verdict: approved
     rev: b22b3dc972114517
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-19T16:49:45.115252038Z
+    rev: b22b3dc972114517
+    status: Planned
 created_at: 2026-10-15T15:21:38.93176494Z
-updated_at: 2026-10-19T04:22:12.834638501Z
+updated_at: 2026-10-19T16:49:45.115252038Z

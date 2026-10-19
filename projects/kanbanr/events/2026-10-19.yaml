@@ -569,3 +569,12 @@
     by: Venkatraman B
     signoff: design-review
     reason: ''
+- time: 2026-10-19T16:49:45.122018456Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-178
+  message: Venkatraman B signed off design-review on FEAT-178
+  detail:
+    by: Venkatraman B
+    signoff: design-review
+    reason: ''

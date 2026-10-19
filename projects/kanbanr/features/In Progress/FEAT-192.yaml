@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 2 R-1 integration test with git worktree add
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 3 Changelog; make ci
     state: NotStarted
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:37:31.950496089Z
+updated_at: 2026-10-19T09:37:32.003273446Z

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 4
 name: kanbanr
 description: 'kanbanr''s own development board: every item with why it exists, its requirements and the tests that proved them — kanbanr is developed with kanbanr.'
 statuses:
@@ -52,3 +52,12 @@ no_op_states:
 - Not Applicable
 - Out-of-Scope
 terminal_states: []
+gates:
+  '@build':
+    requires:
+    - spec_sections:
+      - Design
+    signoffs:
+    - design-review
+method:
+  chosen_at: 2026-10-19T15:47:22.573794246Z

@@ -1,6 +1,6 @@
 code: FEAT-188
 title: Workflow stage roles (design, build, integrate, release) so method and git automation work the same in every process
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: high
@@ -67,5 +67,9 @@ definition:
     verdict: approved
     rev: 2a9622371d58a447
     status: Planned
+history:
+- at: 2026-10-19T09:55:57.501568602Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T09:46:07.498727047Z
+updated_at: 2026-10-19T09:55:57.501568602Z

@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 daylog::append skips a project whose folder is gone; unit test
-    state: InProgress
+    state: Completed
   - key: T2
     text: 2 CLI test project_delete_leaves_no_folder
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 3 Changelog and make ci
-    state: NotStarted
+    state: InProgress
   created_at: 2026-10-19T16:34:22.328993042Z
 definition:
   statement: Deleting an empty project removes its folder for good, so a board never holds a folder for a project that no longer exists.
@@ -74,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:13:27.76530199Z
-updated_at: 2026-10-19T16:34:22.329018604Z
+updated_at: 2026-10-19T16:38:22.383250871Z

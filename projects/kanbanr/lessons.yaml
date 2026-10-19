@@ -1,3 +1,17 @@
+- id: L-41
+  lesson: 'A test that runs the CLI must work in std::env::temp_dir(), never under the repository (target/, CARGO_TARGET_TMPDIR, a worktree): kanbanr walks up to the nearest .kanbanr marker and writes to the real board. Assert the board is the test''s own before the first write.'
+  kind: pitfall
+  at: 2026-10-19T10:39:54.066168165Z
+  from_item: FEAT-183
+  evidence: On 19 Oct 2026 a FEAT-183 daemon test with its scratch folder under CARGO_TARGET_TMPDIR ran 'kanbanr init shop --author A --email a@x', found the worktree's marker, created project 'shop' on the real board, switched the board identity to A <a@x>, and the board's auto-push sent seven commits to GitHub before anyone noticed.
+  tags:
+  - testing
+  - agents
+  goals:
+  - G-0
+  confidence: 0.6
+  last_affirmed: 2026-10-19T10:39:54.066168165Z
+  status: candidate
 - id: L-40
   lesson: 'Take an item''s code from what feature add prints, never assume the next number: another session can add items to the same board in between'
   kind: pitfall

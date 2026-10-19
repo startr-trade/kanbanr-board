@@ -16,55 +16,28 @@ labels:
 depends_on: []
 todo_lists: []
 definition:
-  statement: Release stages and promotion, for a solo developer and their reviewers, so that a release's position (test, staging, production) is recorded and production is one deliberate act that tags, merges to main and moves its items to their terminal status.
+  statement: Dependencies free of open advisories, or with each unreachable one recorded and tracked, for everyone installing kanbanr and the maintainer gating releases on make ci, so that no release ships a known-vulnerable package and no exception is silent
   goals:
-  - G-5
-  - G-3
+  - G-6
+  - G-0
   zachman:
-    what: Release stage field and history; promote command; branch, tag and merge on cut
-    how: ''
-    where: kanbanr-core releases, CLI release commands, git integration
-    when: When a release is promoted between stages; production is the cut
-    who: the solo developer, collaborators and reviewers
-    why: A release deployed to environments before production has no recorded position, and the production cut is disconnected from the code repository
+    what: rustls in both lockfiles; the unsafe-libyaml finding under serde_yaml
+    how: cargo update -p rustls in api and tools/screenshots; an advisories exception in deny.toml naming its reason and tracking item
+    where: api/Cargo.lock, tools/screenshots/Cargo.lock, api/deny.toml
+    when: Now; the exception is reviewed when the YAML library is replaced
+    who: Everyone installing kanbanr; the maintainer
+    why: RUSTSEC-2026-0346/0348 and RUSTSEC-2024-0449, published after v0.1.7, fail cargo audit and cargo deny
   requirements:
   - id: R-1
     kind: functional
-    text: THE SYSTEM SHALL record a release's current stage from a configurable list, with each stage change's actor and time.
+    text: WHEN make ci runs its supply-chain checks, THE SYSTEM SHALL report no advisory, other than one listed in deny.toml with its reason and tracking item.
     tests:
-    - name: release_stage_recorded_with_history
-      kind: unit
-      state: planned
-  - id: R-2
-    kind: functional
-    text: WHEN a release is promoted to candidate, THE SYSTEM SHALL create the branch `release/<VERSION>` from the project's integration branch.
-    tests:
-    - name: promote_candidate_creates_branch
-      kind: integration
-      state: planned
-  - id: R-3
-    kind: functional
-    text: WHEN a release is promoted to production, THE SYSTEM SHALL cut it, tag the code repository with its version, and merge the release branch into the main branch.
-    tests:
-    - name: promote_production_cuts_tags_merges
-      kind: integration
-      state: planned
-  - id: R-4
-    kind: functional
-    text: IF the release branch cannot merge cleanly into the main branch, THE SYSTEM SHALL refuse the production promotion and change nothing.
-    tests:
-    - name: promote_production_refuses_unclean_merge
-      kind: integration
+    - name: 'make ci: cargo deny, cargo audit and Trivy pass'
+      kind: manual
       state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-17T08:17:57.303381747Z
     rev: 6cce22c89b08e146
-  approvals:
-  - at: 2026-10-17T08:17:57.303381747Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 6cce22c89b08e146
-    status: Planned
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-17T08:17:57.303381747Z
+updated_at: 2026-10-19T02:36:06.380651543Z

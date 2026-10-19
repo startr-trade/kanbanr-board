@@ -1,3 +1,6 @@
 - time: 2026-10-19T10:21:01.400110428Z
   actor: A
   message: 'update config: cadence'
+- time: 2026-10-19T10:21:03.723660101Z
+  actor: A
+  message: add a release

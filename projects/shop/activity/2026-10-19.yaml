@@ -7,3 +7,6 @@
 - time: 2026-10-19T10:21:05.992301678Z
   actor: A
   message: add a release
+- time: 2026-10-19T10:21:08.546611796Z
+  actor: A
+  message: promote release v1.0.0 to candidate

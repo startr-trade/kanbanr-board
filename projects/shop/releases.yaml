@@ -1,4 +1,10 @@
 - version: v1.0.0
   state: planned
+  stage: candidate
+  stages:
+  - stage: candidate
+    by: A
+    at: 2026-10-19T10:21:08.528521172Z
+  branch: release/v1.0.0
 - version: v2.0.0
   state: planned

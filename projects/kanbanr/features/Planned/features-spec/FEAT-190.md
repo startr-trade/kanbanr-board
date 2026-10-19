@@ -175,15 +175,15 @@ Plus coderepo unit tests: `merge_no_ff_leaves_worktree_untouched`, `fast_forward
 8. **Docs.** processes.md (merges by stage, carry-over, forward merges), traceability.md,
    cli.md, http-api.md, SKILL.md, CHANGELOG. Depends on 7.
 
-### Open questions
-- **Q1.** Forward merges: automatic, or on request? Recommended: **reported automatically,
+### Decisions (19 Oct 2026: every recommended answer accepted)
+- **Q1.** Forward merges: automatic, or on request? Decided: **reported automatically,
   performed by `kanbanr git forward <V>`**, consistent with FEAT-184.
 - **Q2.** FEAT-183 merges the release branch into main `--no-ff`; this spec fast-forwards. Which?
-  Recommended: **fast-forward**, so main's tip is exactly the tagged, tested commit. For a patch
+  Decided: **fast-forward**, so main's tip is exactly the tagged, tested commit. For a patch
   of an older release (main has moved on), tag without touching main.
-- **Q3.** Delete the item branch after the integrate merge? Recommended: no; FEAT-191 reports
+- **Q3.** Delete the item branch after the integrate merge? Decided: no; FEAT-191 reports
   merged branches of finished items so the user deletes them.
-- **Q4.** The tag a sprints-only close makes: Recommended: the sprint code (`SP-004`).
+- **Q4.** The tag a sprints-only close makes: Decided: the sprint code (`SP-004`).
 
 ### Affects docs
 - [FEAT-183](/p/kanbanr/feature/FEAT-183), [FEAT-184](/p/kanbanr/feature/FEAT-184),

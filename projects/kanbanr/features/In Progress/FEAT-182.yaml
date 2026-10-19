@@ -81,7 +81,7 @@ definition:
     tests:
     - name: review_offers_only_next_stage_signoffs
       kind: unit
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN the review queue is built, THE SYSTEM SHALL offer a stage's sign-offs only once that stage's other requirements are met.
@@ -116,4 +116,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:52:52.249086187Z
+updated_at: 2026-10-19T04:52:52.289787107Z

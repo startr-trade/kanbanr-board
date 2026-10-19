@@ -43,7 +43,7 @@ definition:
     tests:
     - name: project_delete_leaves_no_folder
       kind: integration
-      state: planned
+      state: green
     - name: daylog::tests::append_never_recreates_a_project
       kind: unit
       state: planned
@@ -79,4 +79,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:13:27.76530199Z
-updated_at: 2026-10-19T16:48:23.466517329Z
+updated_at: 2026-10-19T17:03:03.20981304Z

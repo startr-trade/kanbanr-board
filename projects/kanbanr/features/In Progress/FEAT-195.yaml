@@ -1,6 +1,6 @@
 code: FEAT-195
 title: Tests cannot reach a real board
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -56,5 +56,9 @@ definition:
     verdict: approved
     rev: 5350a6461f51bc59
     status: Planned
+history:
+- at: 2026-10-19T11:38:27.163135521Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T11:33:53.206681562Z
-updated_at: 2026-10-19T11:37:51.70919137Z
+updated_at: 2026-10-19T11:38:27.163135521Z

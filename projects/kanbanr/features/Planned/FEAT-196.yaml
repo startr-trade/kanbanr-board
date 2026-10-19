@@ -12,5 +12,27 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Deleting an empty project removes its folder for good, so a board never holds a folder for a project that no longer exists.
+  goals:
+  - G-0
+  zachman:
+    what: The activity log append after a delete
+    how: daylog::append writes nothing when the project's folder is gone; the board commit records the delete
+    where: kanbanr-core daylog.rs; CLI backend write path
+    when: kanbanr project delete
+    who: Anyone removing a project they created by mistake
+    why: On 19 Oct 2026 deleting project shop recreated projects/shop/activity and committed it
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a project is deleted, THE SYSTEM SHALL leave no folder for it on the board, the delete's own activity entry included.
+    tests:
+    - name: project_delete_leaves_no_folder
+      kind: integration
+      state: planned
+    - name: daylog::tests::append_never_recreates_a_project
+      kind: unit
+      state: planned
 created_at: 2026-10-19T15:13:27.76530199Z
-updated_at: 2026-10-19T15:13:27.79014444Z
+updated_at: 2026-10-19T15:13:27.854813189Z

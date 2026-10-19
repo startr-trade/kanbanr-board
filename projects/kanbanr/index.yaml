@@ -119,7 +119,7 @@
   done: 0
   total: 0
 - code: FEAT-190
-  status: Planned
+  status: In Progress
   milestone: MS-008
   kind: feature
   priority: high
@@ -196,24 +196,6 @@
   depends_on: []
   done: 2
   total: 11
-- code: FEAT-189
-  status: Completed
-  milestone: MS-008
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - git
-  - cadence
-  - releases
-  depends_on:
-  - FEAT-188
-  done: 8
-  total: 8
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2859,6 +2841,24 @@
   - FEAT-179
   done: 10
   total: 10
+- code: FEAT-189
+  status: Completed
+  milestone: MS-008
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - git
+  - cadence
+  - releases
+  depends_on:
+  - FEAT-188
+  done: 8
+  total: 8
 - code: FEAT-192
   status: Completed
   milestone: MS-004

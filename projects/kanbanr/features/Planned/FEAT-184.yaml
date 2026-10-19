@@ -47,20 +47,23 @@ definition:
     - name: patch_release_reports_forward_merge
       kind: integration
       state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a release is promoted to any stage and has no release branch, THE SYSTEM SHALL first create `release/<VERSION>` from the release's base, so a single-stage process and a skipped first stage both work.
+    tests:
+    - name: promote_without_branch_makes_it_first
+      kind: integration
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN a patch of an older release reaches production and main has commits the patch lacks, THE SYSTEM SHALL tag the patch without moving main.
+    tests:
+    - name: patch_production_tags_without_moving_main
+      kind: integration
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:29:44.308295358Z
     rev: 983bf65305389de8
-  approvals:
-  - at: 2026-10-19T04:20:11.868327864Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 983bf65305389de8
-    status: Planned
-  - at: 2026-10-19T04:29:44.308295358Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 983bf65305389de8
-    status: Planned
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T15:13:16.989405563Z
+updated_at: 2026-10-19T15:13:17.046586049Z

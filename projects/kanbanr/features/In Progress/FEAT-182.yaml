@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: '4 Dispatch: withdraw route + commit message; review uses immediate_next_gate and R-4 (R-3, R-4)'
-    state: NotStarted
+    state: Completed
   - key: T5
     text: '5 Events: SignoffRecorded, SignoffWithdrawn'
     state: NotStarted
@@ -116,4 +116,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:52:43.724081592Z
+updated_at: 2026-10-19T04:52:43.767922889Z

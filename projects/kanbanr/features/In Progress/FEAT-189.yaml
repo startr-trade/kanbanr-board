@@ -70,7 +70,7 @@ definition:
     tests:
     - name: start_branches_from_integration_line
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a sprint starts and sprints are on, THE SYSTEM SHALL create `sprint/<SP>` from main, or from the previous unreleased sprint branch.
@@ -107,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T14:47:27.019141046Z
+updated_at: 2026-10-19T14:47:27.093004885Z

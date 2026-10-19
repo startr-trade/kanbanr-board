@@ -20,7 +20,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 project.rs fallback + unit test
-    state: NotStarted
+    state: InProgress
   - key: T2
     text: 2 R-1 integration test with git worktree add
     state: NotStarted
@@ -62,4 +62,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:34:09.583710265Z
+updated_at: 2026-10-19T09:34:09.641002224Z

@@ -269,7 +269,7 @@
   - monitor
   depends_on: []
   done: 0
-  total: 3
+  total: 4
 - code: FEAT-183
   status: In Progress
   milestone: MS-008

@@ -14,7 +14,11 @@ labels:
 - signoff
 - monitor
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks: []
+  created_at: 2026-10-19T04:44:18.059064619Z
 definition:
   statement: Withdrawable sign-offs, offered only for the next stage, for the solo developer and reviewers, so that a person's agreement is given at the right moment and can be corrected when it was not.
   goals:
@@ -82,4 +86,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:44:17.967636228Z
+updated_at: 2026-10-19T04:44:18.059065668Z

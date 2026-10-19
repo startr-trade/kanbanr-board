@@ -534,3 +534,11 @@
     by: Venkatraman B
     signoff: design-review
     reason: ''
+- time: 2026-10-19T16:34:14.314360316Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-196
+  message: feature FEAT-196 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

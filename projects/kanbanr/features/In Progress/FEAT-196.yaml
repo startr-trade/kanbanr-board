@@ -1,6 +1,6 @@
 code: FEAT-196
 title: Deleting a project leaves its folder behind
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: null
@@ -56,5 +56,9 @@ definition:
     rev: e7bfde343f8bae60
     note: given in the session dialog, 19 Oct 2026
     status: Planned
+history:
+- at: 2026-10-19T16:34:14.242090485Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T15:13:27.76530199Z
-updated_at: 2026-10-19T16:34:14.028437439Z
+updated_at: 2026-10-19T16:34:14.242090485Z

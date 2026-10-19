@@ -12,8 +12,28 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Dependencies free of open advisories, or with each unreachable one recorded and tracked, for everyone installing kanbanr and the maintainer gating releases on make ci, so that no release ships a known-vulnerable package and no exception is silent
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: rustls in both lockfiles; the unsafe-libyaml finding under serde_yaml
+    how: cargo update -p rustls in api and tools/screenshots; an advisories exception in deny.toml naming its reason and tracking item
+    where: api/Cargo.lock, tools/screenshots/Cargo.lock, api/deny.toml
+    when: Now; the exception is reviewed when the YAML library is replaced
+    who: Everyone installing kanbanr; the maintainer
+    why: RUSTSEC-2026-0346/0348 and RUSTSEC-2024-0449, published after v0.1.7, fail cargo audit and cargo deny
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN make ci runs its supply-chain checks, THE SYSTEM SHALL report no advisory, other than one listed in deny.toml with its reason and tracking item.
+    tests:
+    - name: 'make ci: cargo deny, cargo audit and Trivy pass'
+      kind: manual
+      state: planned
 defect:
   found_in: v0.1.7
   escaped: false
 created_at: 2026-10-19T02:36:06.242201749Z
-updated_at: 2026-10-19T02:36:06.320253411Z
+updated_at: 2026-10-19T02:37:18.601123508Z

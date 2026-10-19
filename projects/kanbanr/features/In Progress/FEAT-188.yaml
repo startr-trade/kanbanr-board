@@ -39,7 +39,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 7 Working agreement names roles
-    state: NotStarted
+    state: Completed
   - key: T8
     text: '8 Monitor: role chips on the Workflow page'
     state: NotStarted
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T10:07:01.796158195Z
+updated_at: 2026-10-19T10:07:01.842586264Z

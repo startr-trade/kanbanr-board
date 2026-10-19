@@ -20,16 +20,16 @@ todo_lists:
   tasks:
   - key: T1
     text: '1 Model: affects_docs (outside content_rev) and entered_status_at'
-    state: InProgress
+    state: Completed
   - key: T2
     text: '2 git: doc_changed_since'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: '3 Readiness: DocsUpdated check, lazy doc history in load_for_gates'
-    state: NotStarted
+    state: Completed
   - key: T4
     text: '4 CLI: define template and feature show list affects_docs'
-    state: NotStarted
+    state: InProgress
   - key: T5
     text: '5 Monitor: Affects docs as links'
     state: NotStarted
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T11:24:32.959507711Z
+updated_at: 2026-10-19T11:30:16.847897394Z

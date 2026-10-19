@@ -250,7 +250,7 @@
   - docs
   - traceability
   depends_on: []
-  done: 0
+  done: 3
   total: 8
 - code: FEAT-001
   status: Completed

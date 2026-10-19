@@ -1,6 +1,6 @@
 code: FEAT-180
 title: 'Living architecture docs: component docs fed by each feature''s design, and a check that declared docs were updated'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: feature
 priority: medium
@@ -41,7 +41,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: 8 make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-19T11:24:32.959264006Z
 definition:
   statement: Architecture and component documentation that stays current as features ship, for the solo developer, collaborators and Claude, so that the docs describe the product as built rather than as first planned.
@@ -103,5 +103,8 @@ history:
 - at: 2026-10-19T11:24:23.501560912Z
   from: Planned
   to: In Progress
+- at: 2026-10-19T13:34:24.445755203Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:34:24.375638631Z
+updated_at: 2026-10-19T13:34:24.445755203Z

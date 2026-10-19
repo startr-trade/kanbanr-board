@@ -1,6 +1,6 @@
 code: FEAT-184
 title: 'Patch releases: a patch release branches from a cut release, records its parent release, and carries that release''s scope'
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: feature
 priority: medium
@@ -83,5 +83,9 @@ definition:
     rev: 1ef984be6d03d659
     note: given in the session dialog, 19 Oct 2026
     status: Planned
+history:
+- at: 2026-10-19T17:03:13.399160147Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T16:34:14.082123189Z
+updated_at: 2026-10-19T17:03:13.399160147Z

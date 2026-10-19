@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: '3. Logic: releases.rs cut_preview, promote (forward, back with reason, candidate branch, production preflight/tag/fast-forward/cut/rollback). Tests R-1, R-5, rollback unit test'
-    state: NotStarted
+    state: InProgress
   - key: T4
     text: '4. Route: dispatch.rs POST /projects/:p/releases/:v/promote; commit message ''promote release <V> to <stage>'''
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:04:54.509205175Z
+updated_at: 2026-10-19T10:04:54.594801259Z

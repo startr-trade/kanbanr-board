@@ -92,9 +92,15 @@ definition:
     verdict: approved
     rev: 0036b18e8de52993
     status: Planned
+  signoffs:
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-19T16:48:10.394370427Z
+    rev: 0036b18e8de52993
+    status: In Progress
 history:
 - at: 2026-10-19T09:26:56.320144011Z
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T09:32:27.22727655Z
+updated_at: 2026-10-19T16:48:10.394370427Z

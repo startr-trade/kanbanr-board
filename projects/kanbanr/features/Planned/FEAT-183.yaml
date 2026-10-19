@@ -22,7 +22,7 @@ definition:
   - G-3
   zachman:
     what: Release stage field and history; promote command; branch, tag and merge on cut
-    how: A stage and stage history on each release, from cadence.release_stages; promote preflights board and repository, then tags and merges through core coderepo.rs, then cuts, rolling the git steps back if the board step fails; the daemon uses the code repository it was started in
+    how: A stage and stage history on each release, from cadence.release_stages; promote preflights board and repository, then tags the release and fast-forwards main to it through core coderepo.rs (refused if main has commits the release lacks), then cuts, rolling the git steps back if the board step fails; the daemon uses the code repository it was started in
     where: kanbanr-core releases, CLI release commands, git integration
     when: When a release is promoted between stages; production is the cut
     who: the solo developer, collaborators and reviewers
@@ -67,16 +67,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:29:44.243757527Z
     rev: 486ec18c451a21f8
-  approvals:
-  - at: 2026-10-19T04:20:10.594592192Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 486ec18c451a21f8
-    status: Planned
-  - at: 2026-10-19T04:29:44.243757527Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 486ec18c451a21f8
-    status: Planned
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T09:44:53.379774529Z
+updated_at: 2026-10-19T09:44:53.496540392Z

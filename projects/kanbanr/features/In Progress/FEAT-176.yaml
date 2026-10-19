@@ -32,6 +32,9 @@ todo_lists:
   - key: T5
     text: '5 Commit and branch policy: RepoFacts, commit_verdict, branch_verdict'
     state: NotStarted
+  - key: T6
+    text: '6 Evidence: parse_results, plan_capture, plan_stale_tests, plan_sources'
+    state: NotStarted
   created_at: 2026-10-19T09:26:56.400391034Z
 definition:
   statement: A single core library behind every kanbanr front end, for contributors and Claude, so that behaviour cannot drift between the CLI, the monitor and other front ends.
@@ -79,4 +82,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T09:27:03.310678681Z
+updated_at: 2026-10-19T09:27:03.351307326Z

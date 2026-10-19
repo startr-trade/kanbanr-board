@@ -53,3 +53,6 @@ no_op_states:
 - Out-of-Scope
 terminal_states:
 - Completed
+cadence:
+  sprints: false
+  releases: true

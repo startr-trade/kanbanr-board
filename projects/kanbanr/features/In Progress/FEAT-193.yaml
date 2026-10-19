@@ -1,6 +1,6 @@
 code: FEAT-193
 title: Design-before-build and living documentation on by default in every built-in process
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: high
@@ -56,5 +56,9 @@ definition:
     verdict: approved
     rev: 8e0f773c191706e7
     status: Planned
+history:
+- at: 2026-10-19T13:34:45.330955229Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T04:40:11.084338886Z
-updated_at: 2026-10-19T09:47:17.697399011Z
+updated_at: 2026-10-19T13:34:45.330955229Z

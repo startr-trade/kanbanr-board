@@ -271,7 +271,7 @@
   done: 4
   total: 8
 - code: FEAT-183
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: feature
   priority: high
@@ -285,7 +285,7 @@
   - cadence
   - git
   depends_on: []
-  done: 6
+  done: 7
   total: 7
 - code: FEAT-001
   status: Completed

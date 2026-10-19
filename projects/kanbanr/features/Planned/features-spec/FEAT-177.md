@@ -120,16 +120,16 @@ These are corrections, needed for the contract to be true:
    OpenAPI (mdBook include plus a route table generated from the document); update stability.md
    and the CHANGELOG with the docs sync. Depends on 3.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Which routes are public in v1?
-  - Recommended: the set above, which covers what the monitor uses, the editor extension's needs,
+  - Decided: the set above, which covers what the monitor uses, the editor extension's needs,
     and the obvious reads.
   - Alternative: all ~37 read routes.
 - **Q2.** How should future versions work?
-  - Recommended: v1 stays at `/api/...`, the paths in use today. A breaking v2 would be added under
+  - Decided: v1 stays at `/api/...`, the paths in use today. A breaking v2 would be added under
     `/api/v2/...`, with v1 kept for a deprecation period, per the stability policy.
 - **Q3.** Should an unknown read path return 404 instead of 400?
-  - Recommended: yes. It's a bug fix, and 1.0 hasn't shipped.
+  - Decided: yes. It's a bug fix, and 1.0 hasn't shipped.
 
 ### Affects docs
 docs/src/reference/http-api.md, docs/src/reference/openapi.json (new), docs/src/project/stability.md,

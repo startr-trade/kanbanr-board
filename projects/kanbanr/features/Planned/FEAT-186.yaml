@@ -1,0 +1,16 @@
+code: FEAT-186
+title: 'Defect: new supply-chain advisories (rustls; unsafe-libyaml unmaintained)'
+status: Planned
+milestone: MS-004
+kind: defect
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-19T02:36:06.242201749Z
+updated_at: 2026-10-19T02:36:06.272994803Z

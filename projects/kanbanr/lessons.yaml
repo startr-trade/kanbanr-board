@@ -1,3 +1,15 @@
+- id: L-40
+  lesson: 'Take an item''s code from what feature add prints, never assume the next number: another session can add items to the same board in between'
+  kind: pitfall
+  at: 2026-10-19T02:37:18.441634538Z
+  from_item: FEAT-186
+  evidence: '19 Oct: feature add created FEAT-186 while I defined FEAT-183, assuming the next code; it overwrote the approved FEAT-183 (from the katalogr session), reverted at board commit f615623'
+  tags:
+  - board
+  - parallel-sessions
+  confidence: 0.6
+  last_affirmed: 2026-10-19T02:37:18.441634538Z
+  status: candidate
 - id: L-39
   lesson: 'An instruction Claude must act on at a particular moment belongs in the tool''s output at that moment, not only in the skill: a skill sentence lost to Claude''s own judgement three times, and a line in the command''s output won the first time'
   kind: practice

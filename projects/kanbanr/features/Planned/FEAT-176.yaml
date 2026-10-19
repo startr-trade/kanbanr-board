@@ -20,9 +20,9 @@ definition:
   - G-0
   zachman:
     what: Crate boundaries between kanbanr-core and its front ends
-    how: ''
+    how: Move each behaviour from the CLI and server into kanbanr-core functions over plain inputs (write recipe, code-repo git, workflow movement, commit policy, evidence, process library, generated documents, small rules, mirror, server duplicates); front ends keep parsing, rendering and fact collection; an architecture test enforces it
     where: api/crates/kanbanr-core, kanbanr-cli, kanbanr-server
-    when: ''
+    when: 'Before 1.0: tasks 1-3 first (FEAT-183 needs them), the rest after FEAT-185'
     who: contributors, Claude
     why: 'Maintainability: one implementation of each behaviour'
   requirements:
@@ -44,11 +44,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-16T13:20:00.476369167Z
     rev: 87907c8f28312c80
-  approvals:
-  - at: 2026-10-16T13:20:00.476369167Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 87907c8f28312c80
-    status: Planned
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T03:36:32.899454346Z
+updated_at: 2026-10-19T03:36:32.946598149Z

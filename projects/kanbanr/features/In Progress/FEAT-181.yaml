@@ -39,7 +39,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: 7 Docs, skill, changelog
-    state: InProgress
+    state: Completed
   - key: T8
     text: 8 make ci
     state: NotStarted
@@ -107,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T11:18:22.524354675Z
+updated_at: 2026-10-19T11:18:22.567312389Z

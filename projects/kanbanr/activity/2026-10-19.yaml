@@ -973,3 +973,7 @@
   actor: Venkatraman B
   message: test trace::tests::doc_links_are_trace_edges of FEAT-181/R-3 is now green
   item: FEAT-181
+- time: 2026-10-19T11:18:22.527072714Z
+  actor: Venkatraman B
+  message: 'test manual: skill linking rules present and match the docs of FEAT-181/R-4 is now green'
+  item: FEAT-181

@@ -63,7 +63,7 @@ definition:
     tests:
     - name: git_model_follows_cadence
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN `kanbanr start` creates an item branch, THE SYSTEM SHALL branch from the current line of integration.
@@ -107,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T14:35:57.391359521Z
+updated_at: 2026-10-19T14:47:27.019141046Z

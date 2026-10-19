@@ -83,7 +83,7 @@ definition:
     tests:
     - name: readiness::tests::affects_docs_unknown_is_error
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.890688171Z
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:34:24.232990795Z
+updated_at: 2026-10-19T13:34:24.306214509Z

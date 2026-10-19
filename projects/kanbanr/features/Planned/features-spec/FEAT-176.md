@@ -112,16 +112,16 @@ Order: each task ends green on `cargo test --workspace` and is committed on its 
 11. **Drop the CLI's serde_yaml dependency and finish.** R-2 green; architecture docs updated
     (`docs/src/architecture/overview.md` crate responsibilities); CHANGELOG. Depends on 4–10.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Shell-line parsing for the commit guard (about 330 lines): keep it in the CLI as
   front-end input parsing, or move it to core?
-  - Recommended: **keep it in the CLI**.
+  - Decided: **keep it in the CLI**.
 - **Q2.** Should the CLI stop calling core through HTTP-like strings (`dispatch("POST",
   "/projects/…")`) and use typed functions?
-  - Recommended: **not in this item**. It's a large, separate change. The architecture test allows
+  - Decided: **not in this item**. It's a large, separate change. The architecture test allows
     `dispatch` only in backend.rs.
 - **Q3.** Order relative to the other items:
-  - Recommended: tasks 1–3 **first**, because FEAT-183 needs `coderepo.rs` and `write::apply`.
+  - Decided: tasks 1–3 **first**, because FEAT-183 needs `coderepo.rs` and `write::apply`.
   - The rest after FEAT-185, so the moves aren't made twice.
 
 ### Affects docs

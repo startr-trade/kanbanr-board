@@ -87,7 +87,7 @@ definition:
     tests:
     - name: promote_back_requires_reason_and_not_from_production
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:47:17.958585496Z
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:10:28.479346497Z
+updated_at: 2026-10-19T10:10:28.543066495Z

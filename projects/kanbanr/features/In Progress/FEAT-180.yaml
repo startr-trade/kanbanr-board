@@ -76,7 +76,7 @@ definition:
     tests:
     - name: readiness::tests::docs_updated_gate
       kind: unit
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: IF an item declares a doc that does not exist on the board, THE SYSTEM SHALL report it as a broken reference.
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:34:24.163486244Z
+updated_at: 2026-10-19T13:34:24.232990795Z

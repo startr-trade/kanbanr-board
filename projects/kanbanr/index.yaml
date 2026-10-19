@@ -286,7 +286,7 @@
   - git
   depends_on: []
   done: 0
-  total: 1
+  total: 2
 - code: FEAT-188
   status: In Progress
   milestone: MS-007

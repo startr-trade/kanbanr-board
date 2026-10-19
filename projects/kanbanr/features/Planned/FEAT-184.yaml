@@ -63,7 +63,13 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-19T04:29:44.308295358Z
-    rev: 983bf65305389de8
+    at: 2026-10-19T15:20:40.968618804Z
+    rev: 1ef984be6d03d659
+  approvals:
+  - at: 2026-10-19T15:20:40.968618804Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 1ef984be6d03d659
+    status: Planned
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T15:13:17.046586049Z
+updated_at: 2026-10-19T15:20:40.968618804Z

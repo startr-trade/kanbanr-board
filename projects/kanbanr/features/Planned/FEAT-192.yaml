@@ -1,0 +1,38 @@
+code: FEAT-192
+title: 'Defect: the project marker''s relative board path breaks inside nested git worktrees'
+status: Planned
+milestone: MS-004
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- defect
+- marker
+- git
+depends_on: []
+todo_lists: []
+definition:
+  statement: Correct board resolution from inside any git worktree, for Claude and the solo developer, so that parallel worktrees work without extra environment variables.
+  goals:
+  - G-5
+  zachman:
+    what: Marker data_dir resolution
+    how: ''
+    where: kanbanr-core marker resolution
+    when: Every command run in a worktree
+    who: Claude, the solo developer
+    why: Parallel work in worktrees fails without manual overrides
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a command runs inside a linked git worktree and the marker's relative data_dir does not exist from there, THE SYSTEM SHALL resolve it against the main worktree.
+    tests:
+    - name: marker_resolves_from_linked_worktree
+      kind: integration
+      state: planned
+created_at: 2026-10-19T04:40:11.083529546Z
+updated_at: 2026-10-19T04:40:11.084247501Z

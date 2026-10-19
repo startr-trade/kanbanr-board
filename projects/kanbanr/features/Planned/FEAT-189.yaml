@@ -1,0 +1,68 @@
+code: FEAT-189
+title: 'Git model from the cadence: branch topology follows whether sprints and releases are on'
+status: Planned
+milestone: MS-008
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- git
+- cadence
+- releases
+depends_on:
+- FEAT-188
+todo_lists: []
+definition:
+  statement: A git branch model derived from the project's cadence, for the solo developer and Claude, so that branching is consistent and automatic and never drifts from the board.
+  goals:
+  - G-5
+  - G-4
+  zachman:
+    what: Derived topology; base branch for start; sprint/integration/release branch creation; hook rules
+    how: ''
+    where: kanbanr-core git, scm, sprints, releases; CLI
+    when: On start, sprint start and release promotion
+    who: the solo developer, Claude
+    why: Teams otherwise improvise branching per project, and the board and git diverge
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL derive the branch model from whether sprints and releases are on, and show it with `kanbanr git model`.
+    tests:
+    - name: git_model_follows_cadence
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN `kanbanr start` creates an item branch, THE SYSTEM SHALL branch from the current line of integration.
+    tests:
+    - name: start_branches_from_integration_line
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a sprint starts and sprints are on, THE SYSTEM SHALL create `sprint/<SP>` from main, or from the previous unreleased sprint branch.
+    tests:
+    - name: sprint_start_creates_branch
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL refuse commits on main and on lines of integration that are not merges carrying Refs trailers.
+    tests:
+    - name: hook_guards_integration_lines
+      kind: integration
+      state: planned
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL never push to a remote as part of the git model.
+    tests:
+    - name: git_model_never_pushes
+      kind: unit
+      state: planned
+created_at: 2026-10-19T04:40:11.0810027Z
+updated_at: 2026-10-19T04:40:11.081780287Z

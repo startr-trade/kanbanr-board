@@ -1,0 +1,61 @@
+code: FEAT-188
+title: Workflow stage roles (design, build, integrate, release) so method and git automation work the same in every process
+status: Planned
+milestone: MS-007
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- process
+- workflow
+- method
+depends_on:
+- FEAT-179
+todo_lists: []
+definition:
+  statement: Stage roles in every workflow, for the solo developer and Claude, so that design gates, documentation fold-in and git automation behave identically whichever process a project uses.
+  goals:
+  - G-5
+  - G-3
+  zachman:
+    what: Role per status; role-addressed gates and actions
+    how: ''
+    where: kanbanr-core config, readiness, presets, process checks
+    when: When a workflow is loaded or an item moves
+    who: the solo developer, Claude
+    why: Automation tied to status names cannot be shared across processes
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL let a workflow assign each of the roles design, build, integrate and release to at most one status.
+    tests:
+    - name: roles_assigned_once
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL declare roles in every built-in preset.
+    tests:
+    - name: presets_declare_roles
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE a gate or action names a role, THE SYSTEM SHALL apply it to the status that holds that role.
+    tests:
+    - name: role_addressed_gates_apply
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF a workflow assigns one role to two statuses, THE SYSTEM SHALL refuse it on save, naming both.
+    tests:
+    - name: duplicate_role_refused
+      kind: unit
+      state: planned
+created_at: 2026-10-19T04:40:11.079589826Z
+updated_at: 2026-10-19T04:40:11.080887408Z

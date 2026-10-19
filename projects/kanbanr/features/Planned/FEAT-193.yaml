@@ -1,0 +1,50 @@
+code: FEAT-193
+title: Design-before-build and living documentation on by default in every built-in process
+status: Planned
+milestone: MS-007
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- process
+- method
+- docs
+depends_on:
+- FEAT-188
+- FEAT-179
+- FEAT-180
+- FEAT-181
+todo_lists: []
+definition:
+  statement: The same design and documentation discipline in every built-in process by default, for every project, so that no project needs hand-written rules to get it.
+  goals:
+  - G-2
+  - G-3
+  zachman:
+    what: Default gates at the build and integrate roles; an opt-out
+    how: ''
+    where: kanbanr-core presets and config; docs
+    when: When a project is created or a preset applied
+    who: the solo developer, Claude
+    why: Today the method holds only where someone hand-wrote it into a project
+  requirements:
+  - id: R-1
+    kind: functional
+    text: 'THE SYSTEM SHALL include, in every built-in preset, `spec_sections: [Design]` and a `design-review` sign-off at the build role, and `docs_updated` and a `docs-folded` sign-off at the integrate role.'
+    tests:
+    - name: presets_include_method_gates
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN `kanbanr config method --off` runs, THE SYSTEM SHALL remove those gates from the project's workflow and record the choice.
+    tests:
+    - name: method_gates_opt_out
+      kind: integration
+      state: planned
+created_at: 2026-10-19T04:40:11.084338886Z
+updated_at: 2026-10-19T04:40:11.085065455Z

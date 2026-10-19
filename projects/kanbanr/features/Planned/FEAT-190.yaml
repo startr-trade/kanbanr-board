@@ -1,0 +1,62 @@
+code: FEAT-190
+title: 'Stage-driven merges and carry-over: entering integrate merges the item; unfinished items carry over'
+status: Planned
+milestone: MS-008
+kind: feature
+priority: high
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels:
+- git
+- cadence
+- sprints
+depends_on:
+- FEAT-188
+- FEAT-189
+todo_lists: []
+definition:
+  statement: Merges triggered by stage roles, with carry-over and forward merges, for the solo developer and Claude, so that the board's stages and git history always agree.
+  goals:
+  - G-5
+  - G-4
+  zachman:
+    what: Integrate merge, terminal fast-forward and tag, carry-over catch-up, forward merges
+    how: ''
+    where: kanbanr-core git and workflow moves; sprints; releases
+    when: On entering integrate; on sprint close; on release cut
+    who: the solo developer, Claude
+    why: Manual merges are the main source of drift between board and repository
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN an item enters the integrate role with its gate met, THE SYSTEM SHALL merge its branch into the line of integration with its Refs trailer.
+    tests:
+    - name: integrate_merges_item_branch
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF that merge has conflicts, THE SYSTEM SHALL abort it, leave the item in its previous status, and report the conflicting paths.
+    tests:
+    - name: integrate_merge_conflict_refused
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a sprint closes with carry-over, THE SYSTEM SHALL keep the unfinished item branches and merge the next sprint branch into each of them.
+    tests:
+    - name: carry_over_catch_up_merge
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a release branch receives a fix, THE SYSTEM SHALL report or perform its forward merge into the line of integration.
+    tests:
+    - name: fixes_forward_merged
+      kind: integration
+      state: planned
+created_at: 2026-10-19T04:40:11.081894319Z
+updated_at: 2026-10-19T04:40:11.082611796Z

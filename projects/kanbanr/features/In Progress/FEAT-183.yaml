@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: '2. Model: Release stage/stages/branch/extra, StageChange, Cadence release_stages/integration_branch/main_branch with defaults and validation; config cadence --release-stages and branch flags. Test R-1'
-    state: NotStarted
+    state: InProgress
   - key: T3
     text: '3. Logic: releases.rs cut_preview, promote (forward, back with reason, candidate branch, production preflight/tag/fast-forward/cut/rollback). Tests R-1, R-5, rollback unit test'
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:03:36.367404291Z
+updated_at: 2026-10-19T10:03:43.703428944Z

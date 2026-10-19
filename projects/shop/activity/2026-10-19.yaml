@@ -1,18 +1,3 @@
-- time: 2026-10-19T10:21:01.400110428Z
-  actor: A
-  message: 'update config: cadence'
-- time: 2026-10-19T10:21:03.723660101Z
-  actor: A
-  message: add a release
-- time: 2026-10-19T10:21:05.992301678Z
-  actor: A
-  message: add a release
-- time: 2026-10-19T10:21:08.546611796Z
-  actor: A
-  message: promote release v1.0.0 to candidate
-- time: 2026-10-19T10:21:31.943921343Z
-  actor: A
-  message: 'update config: cadence'
-- time: 2026-10-19T10:21:43.048862397Z
-  actor: A
-  message: 'update config: cadence'
+- time: 2026-10-19T11:09:07.946112642Z
+  actor: Venkatraman B
+  message: delete project shop

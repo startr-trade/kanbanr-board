@@ -1,6 +1,6 @@
 code: FEAT-180
 title: 'Living architecture docs: component docs fed by each feature''s design, and a check that declared docs were updated'
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: medium
@@ -71,5 +71,9 @@ definition:
     verdict: approved
     rev: 790b8212c0e11084
     status: Planned
+history:
+- at: 2026-10-19T11:24:23.501560912Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T04:22:12.890688171Z
+updated_at: 2026-10-19T11:24:23.501560912Z

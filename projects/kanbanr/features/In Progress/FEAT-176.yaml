@@ -38,6 +38,9 @@ todo_lists:
   - key: T7
     text: '7 Process library: personal-aware resolve/list/drift; WorkflowFile::to_request/to_yaml'
     state: NotStarted
+  - key: T8
+    text: 8 Generated documents and small rules
+    state: NotStarted
   created_at: 2026-10-19T09:26:56.400391034Z
 definition:
   statement: A single core library behind every kanbanr front end, for contributors and Claude, so that behaviour cannot drift between the CLI, the monitor and other front ends.
@@ -85,4 +88,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T09:27:03.39258536Z
+updated_at: 2026-10-19T09:27:03.433320985Z

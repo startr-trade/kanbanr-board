@@ -42,7 +42,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: '7 Docs: processes.md, cli.md, SKILL.md, changelog'
-    state: NotStarted
+    state: Completed
   - key: T8
     text: 8 make ci
     state: NotStarted
@@ -89,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.084338886Z
-updated_at: 2026-10-19T13:57:57.000270693Z
+updated_at: 2026-10-19T13:57:57.077816721Z

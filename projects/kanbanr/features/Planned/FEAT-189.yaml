@@ -64,5 +64,15 @@ definition:
     - name: git_model_never_pushes
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-19T04:42:39.07517872Z
+    rev: 843f5fd6b4a16fe5
+  approvals:
+  - at: 2026-10-19T04:42:39.07517872Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 843f5fd6b4a16fe5
+    status: Planned
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T04:40:11.081780287Z
+updated_at: 2026-10-19T04:42:39.07517872Z

@@ -197,7 +197,7 @@
   done: 2
   total: 11
 - code: FEAT-189
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: feature
   priority: high
@@ -212,7 +212,7 @@
   - releases
   depends_on:
   - FEAT-188
-  done: 7
+  done: 8
   total: 8
 - code: FEAT-001
   status: Completed

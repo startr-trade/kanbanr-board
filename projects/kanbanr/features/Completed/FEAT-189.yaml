@@ -1,6 +1,6 @@
 code: FEAT-189
 title: 'Git model from the cadence: branch topology follows whether sprints and releases are on'
-status: In Progress
+status: Completed
 milestone: MS-008
 kind: feature
 priority: high
@@ -42,7 +42,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: 8 Docs and make ci
-    state: InProgress
+    state: Completed
   created_at: 2026-10-19T14:15:52.016435934Z
 definition:
   statement: A git branch model derived from the project's cadence, for the solo developer and Claude, so that branching is consistent and automatic and never drifts from the board.
@@ -106,5 +106,8 @@ history:
 - at: 2026-10-19T14:04:58.352562768Z
   from: Planned
   to: In Progress
+- at: 2026-10-19T14:47:27.365301894Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-19T04:40:11.0810027Z
-updated_at: 2026-10-19T14:47:27.290542719Z
+updated_at: 2026-10-19T14:47:27.365301894Z

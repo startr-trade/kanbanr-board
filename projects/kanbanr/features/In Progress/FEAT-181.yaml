@@ -70,14 +70,16 @@ definition:
     tests:
     - name: doctor::tests::broken_board_references_reported
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7ce9609d8bd1
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL include links between docs, items and ADRs as edges in trace and why.
     tests:
     - name: trace::tests::doc_links_are_trace_edges
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7ce9609d8bd1
   - id: R-4
     kind: functional
     text: THE SYSTEM SHALL state in the skill that every reference in a design artifact is a live link, and how to write each kind.
@@ -105,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T10:38:32.923130528Z
+updated_at: 2026-10-19T11:18:06.302164372Z

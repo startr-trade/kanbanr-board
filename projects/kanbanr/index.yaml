@@ -321,7 +321,7 @@
   - core
   depends_on: []
   done: 0
-  total: 10
+  total: 11
 - code: FEAT-001
   status: Completed
   milestone: MS-001

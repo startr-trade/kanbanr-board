@@ -63,7 +63,7 @@ definition:
     tests:
     - name: tests_run_inside_the_fence
       kind: integration
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN make ci runs on a machine with a board, THE SYSTEM SHALL fail the run if that board's commits or working tree changed during it.
@@ -86,4 +86,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T11:33:53.206681562Z
-updated_at: 2026-10-19T13:22:04.191079136Z
+updated_at: 2026-10-19T13:22:04.261770837Z

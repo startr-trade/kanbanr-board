@@ -21,7 +21,7 @@ todo_lists:
   tasks:
   - key: T1
     text: '1 Model: Role, StageRoles, Gate.roles, role keys'
-    state: NotStarted
+    state: InProgress
   - key: T2
     text: '2 Resolution: roles, role_status, branch_status, declares_gates; effective_gates; schema 4'
     state: NotStarted
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T09:56:08.610473462Z
+updated_at: 2026-10-19T09:56:08.751503649Z

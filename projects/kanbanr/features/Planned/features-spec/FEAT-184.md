@@ -80,9 +80,9 @@ A new optional field (Release gains `extra` in FEAT-183).
    the CLI prints it. Test: R-3. Depends on 1 and FEAT-183 task 3.
 4. **Docs.** processes.md "Patch releases"; cli.md; CHANGELOG with the docs sync. Depends on 3.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should a patch release need `--patch-of` to name the **latest** cut release?
-  - Recommended: no. Any cut release can be patched, for example an older supported version.
+  - Decided: no. Any cut release can be patched, for example an older supported version.
 
 ### Affects docs
 docs/src/using/processes.md, docs/src/reference/cli.md.

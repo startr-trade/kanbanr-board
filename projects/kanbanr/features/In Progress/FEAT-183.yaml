@@ -20,7 +20,7 @@ todo_lists:
   tasks:
   - key: T1
     text: '1. coderepo.rs: shell helpers (repo_root_in, default_branch, branch_exists, create_branch_from, tag_exists, create_tag, is_clean, merge_is_clean, merge_no_ff, is_ancestor, fast_forward, reset_branch_to, delete_tag, log_between) with scratch_repo fixture; coderepo::tests::*'
-    state: InProgress
+    state: Completed
   - key: T2
     text: '2. Model: Release stage/stages/branch/extra, StageChange, Cadence release_stages/integration_branch/main_branch with defaults and validation; config cadence --release-stages and branch flags. Test R-1'
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:00:23.244984206Z
+updated_at: 2026-10-19T10:03:36.367404291Z

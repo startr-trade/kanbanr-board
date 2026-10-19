@@ -34,5 +34,15 @@ definition:
     - name: daylog::tests::append_never_recreates_a_project
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-19T15:20:48.045302974Z
+    rev: e7bfde343f8bae60
+  approvals:
+  - at: 2026-10-19T15:20:48.045302974Z
+    by: Venkatraman B
+    verdict: approved
+    rev: e7bfde343f8bae60
+    status: Planned
 created_at: 2026-10-19T15:13:27.76530199Z
-updated_at: 2026-10-19T15:13:27.854813189Z
+updated_at: 2026-10-19T15:20:48.045302974Z

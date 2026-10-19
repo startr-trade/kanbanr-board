@@ -24,7 +24,7 @@ definition:
   - G-4
   zachman:
     what: Integrate merge, terminal fast-forward and tag, carry-over catch-up, forward merges
-    how: ''
+    how: gitmodel::move_item merges an item into its line with --no-ff and a Refs trailer when it first enters an integrated status, refusing on conflict and rolling back on a failed board write; sprint close fast-forwards main and tags; carry-over catch-up merges; forward merges reported, done by kanbanr git forward
     where: kanbanr-core git and workflow moves; sprints; releases
     when: On entering integrate; on sprint close; on release cut
     who: the solo developer, Claude
@@ -62,11 +62,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:42:40.3976408Z
     rev: 6f486e90e8623ca2
-  approvals:
-  - at: 2026-10-19T04:42:40.3976408Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 6f486e90e8623ca2
-    status: Planned
 created_at: 2026-10-19T04:40:11.081894319Z
-updated_at: 2026-10-19T09:45:31.024954861Z
+updated_at: 2026-10-19T09:45:31.090144545Z

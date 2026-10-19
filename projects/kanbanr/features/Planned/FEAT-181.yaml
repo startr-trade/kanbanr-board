@@ -23,7 +23,7 @@ definition:
   - G-2
   zachman:
     what: Auto-linked references, broken-link reports, links as trace edges
-    how: ''
+    how: 'One reference finder in core (refs.rs) with a TypeScript port: board-shaped tokens only, code and existing links skipped, resolved against the board; the monitor links them, doctor reports broken ones, trace and why follow doc links'
     where: web monitor markdown rendering, kanbanr-core doctor and trace, the skill
     when: When markdown renders; on doctor and trace runs
     who: the solo developer, collaborators and reviewers, Claude
@@ -61,11 +61,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-16T14:02:41.39788196Z
     rev: 138a0ba03bebe4fe
-  approvals:
-  - at: 2026-10-16T14:02:41.39788196Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 138a0ba03bebe4fe
-    status: Planned
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T03:36:42.459162312Z
+updated_at: 2026-10-19T03:36:42.500616867Z

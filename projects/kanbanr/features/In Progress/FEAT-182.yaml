@@ -20,7 +20,7 @@ todo_lists:
   tasks:
   - key: T1
     text: '1 Model: SignoffVerdict, verdict/reason, signoff_latest, signoff_current'
-    state: InProgress
+    state: Completed
   - key: T2
     text: '2 Store: withdraw_signoff; unapprove refuses a blank reason (R-2, R-5)'
     state: NotStarted
@@ -116,4 +116,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:44:27.419147379Z
+updated_at: 2026-10-19T04:52:43.602257698Z

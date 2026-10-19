@@ -22,7 +22,7 @@ definition:
   - G-4
   zachman:
     what: Branch versus state report
-    how: ''
+    how: 'Core gitdrift.rs: read-only collection of branch facts, then pure rules returning doctor issues (unmerged integrated items, unreferenced commits on lines, stray or leftover branches); kanbanr git doctor and the project doctor when the git model is on'
     where: kanbanr-core git, doctor
     when: On demand and in doctor
     who: the solo developer, collaborators and reviewers
@@ -53,11 +53,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:42:41.862805079Z
     rev: 0339c89f56a7831d
-  approvals:
-  - at: 2026-10-19T04:42:41.862805079Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 0339c89f56a7831d
-    status: Planned
 created_at: 2026-10-19T04:40:11.082704495Z
-updated_at: 2026-10-19T09:45:31.379199179Z
+updated_at: 2026-10-19T09:45:31.438279255Z

@@ -59,6 +59,11 @@ gates:
       - Design
     signoffs:
     - design-review
+  '@integrate':
+    requires:
+    - docs_updated
+    signoffs:
+    - docs-folded
   Completed:
     roles:
     - integrate
@@ -70,4 +75,4 @@ gates:
     roles:
     - design
 method:
-  chosen_at: 2026-10-19T15:47:22.573794246Z
+  chosen_at: 2026-10-19T15:48:07.297587475Z

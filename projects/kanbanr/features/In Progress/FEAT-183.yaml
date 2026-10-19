@@ -17,7 +17,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: Implementation tasks from the Design
-  tasks: []
+  tasks:
+  - key: T1
+    text: '1. coderepo.rs: shell helpers (repo_root_in, default_branch, branch_exists, create_branch_from, tag_exists, create_tag, is_clean, merge_is_clean, merge_no_ff, is_ancestor, fast_forward, reset_branch_to, delete_tag, log_between) with scratch_repo fixture; coderepo::tests::*'
+    state: NotStarted
   created_at: 2026-10-19T09:56:25.923680999Z
 definition:
   statement: Release stages and promotion, for a solo developer and their reviewers, so that a release's position (test, staging, production) is recorded and production is one deliberate act that tags, merges to main and moves its items to their terminal status.
@@ -82,4 +85,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T09:56:25.923687344Z
+updated_at: 2026-10-19T09:56:28.9100402Z

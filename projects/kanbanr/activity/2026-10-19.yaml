@@ -1032,3 +1032,7 @@
   actor: Venkatraman B
   message: test tests_run_inside_the_fence of FEAT-195/R-2 is now green
   item: FEAT-195
+- time: 2026-10-19T13:22:04.344022321Z
+  actor: Venkatraman B
+  message: 'test manual: make ci fails when the real board moves of FEAT-195/R-3 is now green'
+  item: FEAT-195

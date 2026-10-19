@@ -27,7 +27,7 @@ Because its output is not byte-identical to serde_yaml's (double quotes where se
 single), a revision can no longer be a hash of YAML text. `content_rev` becomes a hash of
 **canonical JSON**.
 
-Existing boards migrate once, in one commit, to **schema 4**:
+Existing boards migrate once, in one commit, to **schema 5** (FEAT-188 takes schema 4):
 - Every stored revision (approvals, sign-offs, test `checked_rev`, process provenance) is re-pinned
   to the canonical hash of the content it was recorded against.
 - That content is read **from the board's own git history**, at the commit that recorded it, with
@@ -61,10 +61,10 @@ Existing boards migrate once, in one commit, to **schema 4**:
 - Every `serde_yaml::from_str`/`to_string` call (21 and 17 in production code) becomes
   `yaml::from_str`/`yaml::to_string`. After FEAT-176 there are none in the CLI.
 - `migrate.rs` (new): `migrate_to_v4(store) -> Result<MigrationReport>`.
-- `store.rs`: a board below schema 4 is refused with "run `kanbanr migrate`". `kanbanr migrate`
-  runs the migration under the write lock, as one commit: "migrate board to schema 4: canonical
+- `store.rs`: a board below schema 5 is refused with "run `kanbanr migrate`". `kanbanr migrate`
+  runs the migration under the write lock, as one commit: "migrate board to schema 5: canonical
   revisions, files rewritten".
-- `deny.toml`: the exception is removed. Docs: stability.md (schema 4, "revisions are canonical"),
+- `deny.toml`: the exception is removed. Docs: stability.md (schema 5, "revisions are canonical"),
   CHANGELOG and upgrade notes.
 
 ### Migration algorithm
@@ -84,7 +84,7 @@ For each feature:
 If an entry's commit can't be found (no git, a shallow clone, hand-edited history):
 - its `rev` is set to `"unverified"`, which never matches, so the item reads as lapsed;
 - it is counted in the report;
-- doctor names those items: "approval of FEAT-012 could not be verified during the schema-4
+- doctor names those items: "approval of FEAT-012 could not be verified during the schema-5
   migration; approve again".
 
 **How it is verified:** the old hasher can't be run once serde_yaml is gone, so correctness is
@@ -102,7 +102,7 @@ proved against a board an earlier binary made.
   it. Duplicate keys: LastWins, as serde_yaml did.
 - **The commit.** The migration is one commit, and nothing is pushed by kanbanr unless the board's
   push policy says so. `git revert` restores the old files, but not the old binary's ability to read
-  them, because schema 4 is refused by ≤ 0.1.x.
+  them, because schema 5 is refused by ≤ 0.1.x.
 
 ### Test plan
 | Req | Test |
@@ -112,7 +112,7 @@ proved against a board an earlier binary made.
 | R-3 | `models::tests::content_rev_is_writer_independent`: the same definition from differently formatted YAML gives the same rev |
 | R-4 | `migration_keeps_current_approvals_current`: v0.1.7 fixture board with current, lapsed, withdrawn and ratified approvals, and current and lapsed sign-offs, in git; after migration each state equals the recorded expectation; exactly one commit |
 | R-5 | `migration_without_history_lapses_and_reports` |
-| R-6 | `a_migrated_board_is_too_new_for_older_readers`: schema_version 4 and `SchemaTooNew` for a reader at 3 |
+| R-6 | `a_migrated_board_is_too_new_for_older_readers`: schema_version 4 and `SchemaTooNew` for a reader at 4 |
 
 ### Implementation tasks
 1. **Fixtures first.** With the v0.1.7 binary, build `api/tests/fixtures/v017/board` covering the
@@ -121,7 +121,7 @@ proved against a board an earlier binary made.
    fixtures, and every existing test passing. Depends on FEAT-176 task 11.
 3. **Canonical revs.** `hash::canonical_json`; both `content_rev`s. Test: R-3. Depends on 2.
 4. **Migration.** migrate.rs, the history walk, the report; doctor reports unverified items; store
-   opens through the migration; schema 4. Tests: R-4, R-5, R-6. Depends on 3.
+   opens through the migration; schema 5. Tests: R-4, R-5, R-6. Depends on 3.
 5. **Toolchain and policy.** MSRV 1.89 in Cargo, CI and release; deny.toml exception removed.
    Test: R-1 (make ci). Depends on 2.
 6. **Docs.** stability.md; upgrade notes; CHANGELOG with the docs sync. Depends on 4.

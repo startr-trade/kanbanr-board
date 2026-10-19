@@ -185,6 +185,12 @@ Plus coderepo unit tests: `merge_no_ff_leaves_worktree_untouched`, `fast_forward
   merged branches of finished items so the user deletes them.
 - **Q4.** The tag a sprints-only close makes: Decided: the sprint code (`SP-004`).
 
+- **Q5 (19 Oct 2026).** An item that would complete because its last task was ticked, where
+  that move would merge its branch (git model on): merge, hold, or leave? Decided: **hold** — the
+  task is recorded, the item stays, and the write says "run `kanbanr move <CODE> <stage>` from the
+  project folder to integrate it". No merge happens without the code repository in hand. Test:
+  `auto_complete_holds_when_it_would_merge` (core).
+
 ### Affects docs
 - [FEAT-183](/p/kanbanr/feature/FEAT-183), [FEAT-184](/p/kanbanr/feature/FEAT-184),
   [FEAT-188](/p/kanbanr/feature/FEAT-188), [FEAT-189](/p/kanbanr/feature/FEAT-189),

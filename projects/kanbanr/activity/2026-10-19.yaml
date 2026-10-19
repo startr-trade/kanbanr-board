@@ -361,3 +361,7 @@
   actor: Venkatraman B
   message: test review_offers_only_next_stage_signoffs of FEAT-182/R-3 is now green
   item: FEAT-182
+- time: 2026-10-19T04:52:52.33404895Z
+  actor: Venkatraman B
+  message: test review_offers_signoff_only_when_requires_met of FEAT-182/R-4 is now green
+  item: FEAT-182

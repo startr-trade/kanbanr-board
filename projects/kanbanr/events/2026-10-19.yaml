@@ -289,3 +289,11 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-10-19T09:26:56.360586603Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-176
+  message: feature FEAT-176 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

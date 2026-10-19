@@ -63,7 +63,7 @@ definition:
     tests:
     - name: markdownHtml autolinks board references
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: IF a spec, doc or ADR references an item, ADR, doc, milestone or goal that the board does not have, THE SYSTEM SHALL report it in doctor as a broken reference.
@@ -107,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T11:18:06.302164372Z
+updated_at: 2026-10-19T11:18:22.363839092Z

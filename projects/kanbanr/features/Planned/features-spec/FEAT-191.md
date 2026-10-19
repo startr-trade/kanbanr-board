@@ -147,13 +147,13 @@ findings only with automation on (local_mode.rs).
 7. **Docs.** traceability.md "Drift between board and branches", housekeeping.md (doctor),
    cli.md, http-api.md, SKILL.md, CHANGELOG. Depends on 6.
 
-### Open questions
-- **Q1.** In the trunk topology the line is main, which has no base to compare with. Recommended:
+### Decisions (19 Oct 2026: every recommended answer accepted)
+- **Q1.** In the trunk topology the line is main, which has no base to compare with. Decided:
   check main's last `LIMIT` (200) commits; older history predates the drift worth reporting.
 - **Q2.** Should drift errors make `kanbanr doctor` exit non-zero (and so fail `make ci`)?
-  Recommended: yes for errors, as the other doctor errors do; warnings never fail.
+  Decided: yes for errors, as the other doctor errors do; warnings never fail.
 - **Q3.** Report merged branches of finished items at all? They are harmless clutter.
-  Recommended: yes, as warnings; they are the only reminder to delete them (FEAT-190 Q3).
+  Decided: yes, as warnings; they are the only reminder to delete them (FEAT-190 Q3).
 
 ### Affects docs
 - [FEAT-176](/p/kanbanr/feature/FEAT-176), [FEAT-183](/p/kanbanr/feature/FEAT-183),

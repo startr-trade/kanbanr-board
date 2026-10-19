@@ -1,0 +1,16 @@
+code: FEAT-187
+title: 'Replace serde_yaml: a maintained YAML library, the on-disk format unchanged'
+status: Planned
+milestone: MS-004
+kind: chore
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-19T02:53:02.044940203Z
+updated_at: 2026-10-19T02:53:02.067981611Z

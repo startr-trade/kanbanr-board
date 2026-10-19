@@ -42,7 +42,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: '8 Monitor: role chips on the Workflow page'
-    state: NotStarted
+    state: Completed
   - key: T9
     text: 9 Docs, skill, changelog
     state: NotStarted
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T10:07:09.459181268Z
+updated_at: 2026-10-19T10:08:11.295535296Z

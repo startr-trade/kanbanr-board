@@ -21,7 +21,7 @@ todo_lists:
   tasks:
   - key: T1
     text: '1 refs.rs: Ref, Found, BoardIndex, find, resolves, href'
-    state: NotStarted
+    state: InProgress
   - key: T2
     text: '2 Doctor: scan_references'
     state: NotStarted
@@ -105,4 +105,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T10:13:47.122377234Z
+updated_at: 2026-10-19T10:13:47.171713346Z

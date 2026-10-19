@@ -560,3 +560,12 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ''
+- time: 2026-10-19T16:49:04.406291528Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-177
+  message: Venkatraman B signed off design-review on FEAT-177
+  detail:
+    by: Venkatraman B
+    signoff: design-review
+    reason: ''

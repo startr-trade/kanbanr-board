@@ -41,7 +41,7 @@ definition:
   - G-3
   zachman:
     what: Skill guidance for design-stage specs; a spec_sections gate check
-    how: ''
+    how: 'A SpecSections check and a parameterized condition {spec_sections: [...]} evaluated over the spec''s headings (fenced code skipped, nested content counts), with spec bodies loaded only for gates that read them; the skill and processes.md say what a design-stage spec holds'
     where: skill/kanbanr/SKILL.md, kanbanr-core readiness checks, docs
     when: On entering a stage whose gate asks for it
     who: Claude, the solo developer
@@ -74,17 +74,6 @@ definition:
     by: Venkatraman B
     at: 2026-10-16T13:41:10.488959706Z
     rev: 30e2a8c3639d169f
-  approvals:
-  - at: 2026-10-16T13:20:04.179725+00:00
-    by: Venkatraman B
-    verdict: approved
-    rev: 31814374ede9bb25
-    status: Planned
-  - at: 2026-10-16T13:41:10.488959706Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 30e2a8c3639d169f
-    status: In Progress
 history:
 - at: 2026-10-16T13:22:16.003028543Z
   from: Planned
@@ -93,4 +82,4 @@ history:
   from: In Progress
   to: Completed
 created_at: 2026-10-16T13:15:13.53860596Z
-updated_at: 2026-10-19T04:44:17.736660461Z
+updated_at: 2026-10-19T04:44:17.79870586Z

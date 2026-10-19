@@ -212,7 +212,7 @@
   - releases
   depends_on:
   - FEAT-188
-  done: 3
+  done: 7
   total: 8
 - code: FEAT-001
   status: Completed

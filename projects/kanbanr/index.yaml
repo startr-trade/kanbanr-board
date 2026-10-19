@@ -303,7 +303,7 @@
   - method
   depends_on:
   - FEAT-179
-  done: 1
+  done: 2
   total: 10
 - code: FEAT-001
   status: Completed

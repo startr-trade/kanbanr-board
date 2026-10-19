@@ -353,3 +353,7 @@
   actor: Venkatraman B
   message: test signoff_withdraw_stops_counting of FEAT-182/R-1 is now green
   item: FEAT-182
+- time: 2026-10-19T04:52:52.251514049Z
+  actor: Venkatraman B
+  message: test signoff_withdraw_requires_reason of FEAT-182/R-2 is now green
+  item: FEAT-182

@@ -825,3 +825,7 @@
   actor: Venkatraman B
   message: test roles_assigned_once of FEAT-188/R-1 is now green
   item: FEAT-188
+- time: 2026-10-19T10:07:09.360174154Z
+  actor: Venkatraman B
+  message: test presets_declare_roles of FEAT-188/R-2 is now green
+  item: FEAT-188

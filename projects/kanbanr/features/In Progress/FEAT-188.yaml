@@ -76,7 +76,7 @@ definition:
     tests:
     - name: presets_declare_roles
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHERE a gate or action names a role, THE SYSTEM SHALL apply it to the status that holds that role.
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T10:07:09.297607254Z
+updated_at: 2026-10-19T10:07:09.356018842Z

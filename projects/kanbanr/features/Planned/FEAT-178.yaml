@@ -21,7 +21,7 @@ definition:
   - G-0
   zachman:
     what: The built monitor UI and its API base-URL setting
-    how: ''
+    how: A runtime config.json (apiBase, routing, readOnly) read at startup; all URLs through apiUrl(); relative asset paths with <base href="/"> injected by the daemon; a release job packs kanbanr-monitor-<tag>.tar.gz, checked by scripts/check-monitor-bundle.sh
     where: web/, the release pipeline
     when: Each release
     who: collaborators and reviewers
@@ -41,15 +41,16 @@ definition:
     - name: web::api_base_url_configurable
       kind: unit
       state: planned
+  - id: R-3
+    kind: functional
+    text: WHERE the monitor runs from the standalone bundle with its shipped configuration, THE SYSTEM SHALL hide every decision action and show the matching CLI command instead.
+    tests:
+    - name: web::standalone_is_read_only
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-16T13:20:02.349348351Z
     rev: 1196759543a943a4
-  approvals:
-  - at: 2026-10-16T13:20:02.349348351Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 1196759543a943a4
-    status: Planned
 created_at: 2026-10-15T15:21:38.93176494Z
-updated_at: 2026-10-19T03:36:41.84229973Z
+updated_at: 2026-10-19T03:36:41.888162579Z

@@ -68,10 +68,10 @@ Plus: `check:ui` for the new buttons, and `npm run build`.
 6. **Docs and skill.** the-monitor.md (screenshots refreshed with `make screenshots`); SKILL.md;
    CHANGELOG with the docs sync. Depends on 5.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should the release question also appear in Claude Code sessions, as a question Claude asks
   from the queue?
-  - Recommended: yes. The queue drives both, and the skill's table already turns `in_release`
+  - Decided: yes. The queue drives both, and the skill's table already turns `in_release`
     into "which planned release?".
 
 ### Affects docs

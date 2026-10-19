@@ -21,3 +21,11 @@
   message: feature FEAT-187 added
   detail:
     status: Planned
+- time: 2026-10-19T02:53:35.871201536Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-186
+  message: feature FEAT-186 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

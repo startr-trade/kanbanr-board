@@ -306,7 +306,7 @@
   done: 2
   total: 11
 - code: FEAT-192
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: feature
   priority: high
@@ -320,7 +320,7 @@
   - marker
   - git
   depends_on: []
-  done: 2
+  done: 3
   total: 3
 - code: FEAT-001
   status: Completed

@@ -1,6 +1,6 @@
 code: FEAT-192
 title: 'Defect: the project marker''s relative board path breaks inside nested git worktrees'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: feature
 priority: high
@@ -26,7 +26,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 3 Changelog; make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-19T09:34:02.011499029Z
 definition:
   statement: Correct board resolution from inside any git worktree, for Claude and the solo developer, so that parallel worktrees work without extra environment variables.
@@ -61,5 +61,8 @@ history:
 - at: 2026-10-19T09:34:01.913475073Z
   from: Planned
   to: In Progress
+- at: 2026-10-19T09:51:42.421006337Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:37:32.003273446Z
+updated_at: 2026-10-19T09:51:42.421006337Z

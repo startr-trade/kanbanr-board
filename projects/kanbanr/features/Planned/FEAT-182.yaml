@@ -21,7 +21,7 @@ definition:
   - G-3
   zachman:
     what: Sign-off withdrawal; next-stage-only sign-off offers
-    how: ''
+    how: A withdrawal is an appended Signoff entry (verdict withdrawn, reason, empty rev, so older readers see it as lapsed); signoff --withdraw --reason; the review queue offers sign-offs from the immediate next stage only, once its other requirements are met
     where: kanbanr-core readiness, dispatch review, CLI signoff, monitor review page
     when: When a sign-off is given in error; when the review queue is built
     who: the solo developer, collaborators and reviewers
@@ -48,15 +48,23 @@ definition:
     - name: review_offers_only_next_stage_signoffs
       kind: unit
       state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN the review queue is built, THE SYSTEM SHALL offer a stage's sign-offs only once that stage's other requirements are met.
+    tests:
+    - name: review_offers_signoff_only_when_requires_met
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF an approval is withdrawn without a reason, THE SYSTEM SHALL refuse the withdrawal.
+    tests:
+    - name: unapprove_requires_reason
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-16T15:12:55.088858479Z
     rev: d6432ebb19d8f018
-  approvals:
-  - at: 2026-10-16T15:12:55.088858479Z
-    by: Venkatraman B
-    verdict: approved
-    rev: d6432ebb19d8f018
-    status: Planned
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T03:36:42.759651962Z
+updated_at: 2026-10-19T03:36:42.822271576Z

@@ -138,19 +138,19 @@ failure after the git steps rolling back.
 7. **Docs.** processes.md, cli.md, SKILL.md command reference, CHANGELOG with the docs sync. Depends
    on 5.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** The daemon doesn't know where a project's code repository is. How should it promote?
-  - Recommended: **the daemon uses the repository it was started in**, when that folder's marker
+  - Decided: **the daemon uses the repository it was started in**, when that folder's marker
     names the project. Otherwise first-stage and production promotions from the monitor refuse
     with "use the CLI from the project folder".
   - Alternative: record the path in the project's config. It's shared through the board's remote,
     but a path is specific to one machine.
 - **Q2.** Can a release move back a stage (staging to test after a failed check)?
-  - Recommended: yes, as `promote <V> <earlier stage>` with a required `--reason`, recorded in the
+  - Decided: yes, as `promote <V> <earlier stage>` with a required `--reason`, recorded in the
     history. Never back from production.
 - **Q3.** Should the integration branch and the main branch default to the same branch (the
   repository's default)?
-  - Recommended: yes. Teams that integrate on `develop` set `cadence.integration_branch`.
+  - Decided: yes. Teams that integrate on `develop` set `cadence.integration_branch`.
 
 ### Affects docs
 docs/src/using/processes.md (Sprints and releases), docs/src/reference/cli.md,

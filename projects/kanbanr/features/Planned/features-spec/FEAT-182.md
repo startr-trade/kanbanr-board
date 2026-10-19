@@ -149,13 +149,13 @@ view_daemon.rs.
 9. **Docs and skill.** SKILL.md "Waiting decisions" and the command reference; processes.md
    Sign-offs; cli.md; CHANGELOG with the docs sync. Depends on 7.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should `unapprove` also refuse a blank reason? Today only the monitor enforces it.
-  Recommended: yes.
-- **Q2.** Can a lapsed sign-off be withdrawn? Recommended: yes; it records that the earlier
+  Decided: yes.
+- **Q2.** Can a lapsed sign-off be withdrawn? Decided: yes; it records that the earlier
   agreement was wrong.
 - **Q3 (needs a new requirement, R-4).** Offer a sign-off only once the stage's other requirements
-  are met? Recommended: yes. Naming a todo task that a sign-off waits for is left out: a process
+  are met? Decided: yes. Naming a todo task that a sign-off waits for is left out: a process
   cannot name an item's task.
 
 ### Affects docs

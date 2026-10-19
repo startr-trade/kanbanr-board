@@ -22,7 +22,7 @@ definition:
   - G-3
   zachman:
     what: Release stage field and history; promote command; branch, tag and merge on cut
-    how: ''
+    how: A stage and stage history on each release, from cadence.release_stages; promote preflights board and repository, then tags and merges through core coderepo.rs, then cuts, rolling the git steps back if the board step fails; the daemon uses the code repository it was started in
     where: kanbanr-core releases, CLI release commands, git integration
     when: When a release is promoted between stages; production is the cut
     who: the solo developer, collaborators and reviewers
@@ -56,15 +56,16 @@ definition:
     - name: promote_production_refuses_unclean_merge
       kind: integration
       state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN a release is promoted to an earlier stage, THE SYSTEM SHALL require a reason and record it, and SHALL refuse any move back from production.
+    tests:
+    - name: promote_back_requires_reason_and_not_from_production
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-17T08:17:57.303381747Z
     rev: 6cce22c89b08e146
-  approvals:
-  - at: 2026-10-17T08:17:57.303381747Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 6cce22c89b08e146
-    status: Planned
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T03:36:43.087799012Z
+updated_at: 2026-10-19T03:36:43.137072414Z

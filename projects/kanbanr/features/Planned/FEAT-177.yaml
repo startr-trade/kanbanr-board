@@ -21,9 +21,9 @@ definition:
   - G-5
   zachman:
     what: Read-only HTTP routes and their schemas
-    how: ''
+    how: OpenAPI 3.1 v1 generated from schemars-derived core response types (untyped json! responses become named structs); served at /api/openapi.json, committed and rendered in the docs; a contract test validates every public route on a fixture board
     where: kanbanr-server
-    when: ''
+    when: Before 1.0, so the stability promise names a concrete contract
     who: integrators, collaborators and reviewers
     why: Stable integrations without reading source
   requirements:
@@ -38,11 +38,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-16T13:20:01.445771875Z
     rev: c3763bb5b094c08d
-  approvals:
-  - at: 2026-10-16T13:20:01.445771875Z
-    by: Venkatraman B
-    verdict: approved
-    rev: c3763bb5b094c08d
-    status: Planned
 created_at: 2026-10-15T15:21:38.931738608Z
-updated_at: 2026-10-19T03:36:33.200399775Z
+updated_at: 2026-10-19T03:36:33.242163997Z

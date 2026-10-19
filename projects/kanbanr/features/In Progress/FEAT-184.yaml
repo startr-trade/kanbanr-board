@@ -68,7 +68,7 @@ definition:
     tests:
     - name: patch_release_reports_forward_merge
       kind: integration
-      state: planned
+      state: green
   - id: R-4
     kind: functional
     text: WHEN a release is promoted to any stage and has no release branch, THE SYSTEM SHALL first create `release/<VERSION>` from the release's base, so a single-stage process and a skipped first stage both work.
@@ -115,4 +115,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T17:22:17.050315905Z
+updated_at: 2026-10-19T17:22:17.097897116Z

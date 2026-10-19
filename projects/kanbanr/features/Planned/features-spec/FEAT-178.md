@@ -92,12 +92,12 @@ acceptable.
 6. **Docs.** the-monitor.md hosting section; release-notes mention; CHANGELOG with the docs sync.
    Depends on 5.
 
-### Open questions
+### Decisions (19 Oct 2026: every recommended answer accepted)
 - **Q1.** Should the standalone bundle default to read-only, with buttons hidden?
-  - Recommended: yes. Reviewers view; decisions happen in Claude Code or with the writes-enabled
+  - Decided: yes. Reviewers view; decisions happen in Claude Code or with the writes-enabled
     local monitor.
 - **Q2.** How should deep links resolve relative assets?
-  - Recommended: inject `<base href="/">` server-side for the embedded copy.
+  - Decided: inject `<base href="/">` server-side for the embedded copy.
   - Alternative: keep absolute assets in the embedded build and do a second relative build only
     for the bundle. That doubles the web build and can drift.
 

@@ -17,7 +17,10 @@ depends_on: []
 todo_lists:
 - code: TL-001
   description: Implementation tasks from the Design
-  tasks: []
+  tasks:
+  - key: T1
+    text: 1 project.rs fallback + unit test
+    state: NotStarted
   created_at: 2026-10-19T09:34:02.011499029Z
 definition:
   statement: Correct board resolution from inside any git worktree, for Claude and the solo developer, so that parallel worktrees work without extra environment variables.
@@ -53,4 +56,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.083529546Z
-updated_at: 2026-10-19T09:34:02.011500711Z
+updated_at: 2026-10-19T09:34:09.458101264Z

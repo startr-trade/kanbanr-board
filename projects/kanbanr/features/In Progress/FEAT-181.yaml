@@ -33,13 +33,13 @@ todo_lists:
     state: Completed
   - key: T5
     text: '5 TS finder: boardRefs.ts + useBoardIndex'
-    state: InProgress
+    state: Completed
   - key: T6
     text: 6 Renderer links references; router clicks; requirement anchors
-    state: NotStarted
+    state: Completed
   - key: T7
     text: 7 Docs, skill, changelog
-    state: NotStarted
+    state: InProgress
   - key: T8
     text: 8 make ci
     state: NotStarted
@@ -105,4 +105,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T10:21:20.58159837Z
+updated_at: 2026-10-19T10:38:32.923130528Z

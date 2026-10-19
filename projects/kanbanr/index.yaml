@@ -203,6 +203,142 @@
   depends_on: []
   done: 0
   total: 0
+- code: FEAT-188
+  status: Planned
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - process
+  - workflow
+  - method
+  depends_on:
+  - FEAT-179
+  done: 0
+  total: 0
+- code: FEAT-189
+  status: Planned
+  milestone: MS-008
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - git
+  - cadence
+  - releases
+  depends_on:
+  - FEAT-188
+  done: 0
+  total: 0
+- code: FEAT-190
+  status: Planned
+  milestone: MS-008
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - git
+  - cadence
+  - sprints
+  depends_on:
+  - FEAT-188
+  - FEAT-189
+  done: 0
+  total: 0
+- code: FEAT-191
+  status: Planned
+  milestone: MS-008
+  kind: feature
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - git
+  - doctor
+  - traceability
+  depends_on:
+  - FEAT-189
+  done: 0
+  total: 0
+- code: FEAT-192
+  status: Planned
+  milestone: MS-004
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - defect
+  - marker
+  - git
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-193
+  status: Planned
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - process
+  - method
+  - docs
+  depends_on:
+  - FEAT-188
+  - FEAT-179
+  - FEAT-180
+  - FEAT-181
+  done: 0
+  total: 0
+- code: FEAT-194
+  status: Planned
+  milestone: MS-009
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - skill
+  - method
+  - setup
+  depends_on:
+  - FEAT-188
+  - FEAT-189
+  - FEAT-190
+  - FEAT-191
+  - FEAT-193
+  - FEAT-182
+  - FEAT-183
+  - FEAT-184
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2801,141 +2937,5 @@
   team: null
   labels: []
   depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-188
-  status: Planned
-  milestone: MS-007
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - process
-  - workflow
-  - method
-  depends_on:
-  - FEAT-179
-  done: 0
-  total: 0
-- code: FEAT-189
-  status: Planned
-  milestone: MS-008
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - git
-  - cadence
-  - releases
-  depends_on:
-  - FEAT-188
-  done: 0
-  total: 0
-- code: FEAT-190
-  status: Planned
-  milestone: MS-008
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - git
-  - cadence
-  - sprints
-  depends_on:
-  - FEAT-188
-  - FEAT-189
-  done: 0
-  total: 0
-- code: FEAT-191
-  status: Planned
-  milestone: MS-008
-  kind: feature
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - git
-  - doctor
-  - traceability
-  depends_on:
-  - FEAT-189
-  done: 0
-  total: 0
-- code: FEAT-192
-  status: Planned
-  milestone: MS-004
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - defect
-  - marker
-  - git
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-193
-  status: Planned
-  milestone: MS-007
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - process
-  - method
-  - docs
-  depends_on:
-  - FEAT-188
-  - FEAT-179
-  - FEAT-180
-  - FEAT-181
-  done: 0
-  total: 0
-- code: FEAT-194
-  status: Planned
-  milestone: MS-009
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - skill
-  - method
-  - setup
-  depends_on:
-  - FEAT-188
-  - FEAT-189
-  - FEAT-190
-  - FEAT-191
-  - FEAT-193
-  - FEAT-182
-  - FEAT-183
-  - FEAT-184
   done: 0
   total: 0

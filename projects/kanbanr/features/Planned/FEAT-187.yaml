@@ -19,7 +19,7 @@ definition:
   - G-0
   zachman:
     what: The YAML library behind every board read and write; how content revisions are computed; a one-time board migration
-    how: serde-saphyr behind one kanbanr_core::yaml module with fixed options; content_rev hashes canonical JSON; a schema-4 migration re-pins every stored revision to the canonical hash of the definition as it stood in the board commit that recorded it, in one commit
+    how: serde-saphyr behind one kanbanr_core::yaml module with fixed options; content_rev hashes canonical JSON; kanbanr migrate moves a board to schema 5 (FEAT-188 takes 4), re-pinning every stored revision to the canonical hash of the content as it stood in the board commit that recorded it, in one commit
     where: api/crates/kanbanr-core (yaml.rs new, models.rs, config.rs, store.rs, error.rs, every from_str/to_string), kanbanr-cli, api/Cargo.toml, api/deny.toml, rust-version
     when: Before 1.0, after FEAT-176 (so YAML is only in core)
     who: Everyone whose board kanbanr keeps
@@ -71,16 +71,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T09:26:16.655865074Z
     rev: 52f2bda4f20e50c1
-  approvals:
-  - at: 2026-10-19T06:09:18.16429741Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 52f2bda4f20e50c1
-    status: Planned
-  - at: 2026-10-19T09:26:16.655865074Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 52f2bda4f20e50c1
-    status: Planned
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-19T09:45:01.27679065Z
+updated_at: 2026-10-19T09:45:01.387548362Z

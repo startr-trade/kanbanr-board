@@ -59,5 +59,15 @@ gates:
       - Design
     signoffs:
     - design-review
+  Completed:
+    roles:
+    - integrate
+    - release
+  In Progress:
+    roles:
+    - build
+  Planned:
+    roles:
+    - design
 method:
   chosen_at: 2026-10-19T15:47:22.573794246Z

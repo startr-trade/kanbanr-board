@@ -44,6 +44,9 @@ todo_lists:
   - key: T9
     text: 9 Mirror orchestration over an IssueTracker trait
     state: NotStarted
+  - key: T10
+    text: 10 Server duplicates
+    state: NotStarted
   created_at: 2026-10-19T09:26:56.400391034Z
 definition:
   statement: A single core library behind every kanbanr front end, for contributors and Claude, so that behaviour cannot drift between the CLI, the monitor and other front ends.
@@ -91,4 +94,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T09:27:03.474830744Z
+updated_at: 2026-10-19T09:27:03.516133809Z

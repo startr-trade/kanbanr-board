@@ -59,7 +59,7 @@ definition:
     tests:
     - name: release_stage_recorded_with_history
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN a release is promoted to candidate, THE SYSTEM SHALL create the branch `release/<VERSION>` from the project's integration branch.
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298296598Z
-updated_at: 2026-10-19T10:04:54.594801259Z
+updated_at: 2026-10-19T10:10:28.479346497Z

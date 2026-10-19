@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A test run can only touch boards inside the system temporary directory, so no test or harness output can ever be written to — or pushed from — a real board.
+  goals:
+  - G-0
+  - G-6
+  zachman:
+    what: A board fence (KANBANR_BOARD_FENCE) every test process inherits, and a make ci check that the real board did not move
+    how: The fence is checked where every board access starts (Store::new and git writes) and stops the process before any write; cargo sets it for all tests
+    where: kanbanr-core project.rs, store.rs, git.rs; api/.cargo/config.toml; the CLI test suites; the Makefile
+    when: Every cargo test and make ci run, from now on
+    who: Contributors and Claude sessions running tests; the user, whose public board is protected
+    why: On 19 Oct 2026 a test wrote to the real board and auto-push published it; care failed, so the boundary must be structural
+  requirements:
+  - id: R-1
+    kind: functional
+    text: IF a process running with KANBANR_BOARD_FENCE set opens a board outside the fence, THEN THE SYSTEM SHALL stop before reading or writing it and name the board and the fence.
+    tests:
+    - name: board_outside_the_fence_is_refused
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL run every test with the board fence set to the system temporary directory, and every test scratch folder inside it.
+    tests:
+    - name: tests_run_inside_the_fence
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN make ci runs on a machine with a board, THE SYSTEM SHALL fail the run if that board's commits or working tree changed during it.
+    tests:
+    - name: 'manual: make ci fails when the real board moves'
+      kind: manual
+      state: planned
 created_at: 2026-10-19T11:33:53.206681562Z
-updated_at: 2026-10-19T11:33:53.26970826Z
+updated_at: 2026-10-19T11:33:53.321410812Z

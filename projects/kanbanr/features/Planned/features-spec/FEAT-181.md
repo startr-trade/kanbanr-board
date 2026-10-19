@@ -146,8 +146,8 @@ check-markdown.mjs.
 7. **Docs and skill.** The SKILL.md linking rules; a docs section; CHANGELOG with the docs sync.
    Test: R-4. Depends on 2, 3, 6.
 
-### Open questions
-- **Q1.** Should a broken reference be a doctor **warning** or an **error**? Recommended: warning
+### Decisions (19 Oct 2026: every recommended answer accepted)
+- **Q1.** Should a broken reference be a doctor **warning** or an **error**? Decided: warning
   for prose, error for an explicit link.
 
 ### Affects docs

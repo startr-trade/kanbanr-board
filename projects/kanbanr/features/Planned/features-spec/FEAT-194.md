@@ -162,21 +162,21 @@ is updated for four entries.
 7. **Review.** Do R-1 by hand, record it as the manual green, run `kanbanr check FEAT-194`.
    Depends on 5 and 6.
 
-### Open questions
-- **Q1.** Ask the cadence question for every process, not only scrum and agile? Recommended:
+### Decisions (19 Oct 2026: every recommended answer accepted)
+- **Q1.** Ask the cadence question for every process, not only scrum and agile? Decided:
   **yes**, as one question with two yes/no parts, recommending the process's own setting (off for
   most). The git model depends on it.
-- **Q2.** Should setup also ask whether to keep the method gates? Recommended: **no**. The plan states
+- **Q2.** Should setup also ask whether to keep the method gates? Decided: **no**. The plan states
   they're on and how to turn them off. That's one question fewer (G-5), and the default is the
   point of FEAT-193.
 - **Q3.** Is the no-board preview (`git model --sprints/--releases`) FEAT-189's or this item's?
-  Recommended: **FEAT-189's**, as part of `git model`. Task 2 here is the fallback.
+  Decided: **FEAT-189's**, as part of `git model`. Task 2 here is the fallback.
 - **Q4.** FEAT-183 tags the release tip and merges `--no-ff` into main, but FEAT-190 says the line is
-  fast-forwarded into main and tagged. The skill can state only one. Recommended: reconcile
+  fast-forwarded into main and tagged. The skill can state only one. Decided: reconcile
   FEAT-190's design to FEAT-183 (tag, then `--no-ff` merge). The skill says "kanbanr tags it and
   merges it into main".
 - **Q5.** Should kanbanr detect personal instruction files that restate the method (for example,
-  doctor reading `~/.claude/CLAUDE.md`)? Recommended: **no**, because personal files are outside the
+  doctor reading `~/.claude/CLAUDE.md`)? Decided: **no**, because personal files are outside the
   board's boundary. The skill says such copies are unnecessary. Once this ships, the user removes the
   "Design and documentation discipline" section from their global CLAUDE.md themselves.
 

@@ -833,3 +833,7 @@
   actor: Venkatraman B
   message: test role_addressed_gates_apply of FEAT-188/R-3 is now green
   item: FEAT-188
+- time: 2026-10-19T10:07:09.462276706Z
+  actor: Venkatraman B
+  message: test duplicate_role_refused of FEAT-188/R-4 is now green
+  item: FEAT-188

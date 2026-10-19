@@ -90,7 +90,7 @@ definition:
     tests:
     - name: duplicate_role_refused
       kind: unit
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:46:07.498727047Z
@@ -106,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T10:07:09.407948906Z
+updated_at: 2026-10-19T10:07:09.459181268Z

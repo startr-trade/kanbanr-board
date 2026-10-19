@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Architecture test (ratchet baseline of today's offenders)
-    state: NotStarted
+    state: InProgress
   - key: T2
     text: '2 Write recipe: core::write::apply; CLI and server call it'
     state: NotStarted
@@ -97,4 +97,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T09:27:10.192983394Z
+updated_at: 2026-10-19T09:27:10.241126458Z

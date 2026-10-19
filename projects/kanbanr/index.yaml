@@ -288,7 +288,7 @@
   done: 4
   total: 7
 - code: FEAT-188
-  status: In Progress
+  status: Completed
   milestone: MS-007
   kind: feature
   priority: high
@@ -303,7 +303,7 @@
   - method
   depends_on:
   - FEAT-179
-  done: 9
+  done: 10
   total: 10
 - code: FEAT-001
   status: Completed

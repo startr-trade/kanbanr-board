@@ -1289,3 +1289,7 @@
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-184
   item: FEAT-184
+- time: 2026-10-19T17:22:17.003231441Z
+  actor: Venkatraman B
+  message: test patch_release_branches_from_parent_tag of FEAT-184/R-1 is now green
+  item: FEAT-184

@@ -67,5 +67,15 @@ definition:
     - name: a_migrated_board_is_too_new_for_older_readers
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-19T06:09:18.16429741Z
+    rev: 52f2bda4f20e50c1
+  approvals:
+  - at: 2026-10-19T06:09:18.16429741Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 52f2bda4f20e50c1
+    status: Planned
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-19T05:57:54.675340737Z
+updated_at: 2026-10-19T06:09:18.16429741Z

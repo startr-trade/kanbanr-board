@@ -402,3 +402,11 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-19T10:13:40.410743635Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-181
+  message: feature FEAT-181 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

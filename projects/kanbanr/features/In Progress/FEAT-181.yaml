@@ -1,6 +1,6 @@
 code: FEAT-181
 title: Live, checked links between board artifacts (items, requirements, ADRs, docs, milestones, goals)
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: high
@@ -72,5 +72,9 @@ definition:
     verdict: approved
     rev: 421c086908d03dab
     status: Planned
+history:
+- at: 2026-10-19T10:13:40.361709471Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T04:29:32.44161778Z
+updated_at: 2026-10-19T10:13:40.361709471Z

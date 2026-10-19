@@ -323,7 +323,7 @@
   done: 0
   total: 0
 - code: FEAT-182
-  status: In Progress
+  status: Completed
   milestone: MS-007
   kind: feature
   priority: high
@@ -337,7 +337,7 @@
   - signoff
   - monitor
   depends_on: []
-  done: 9
+  done: 10
   total: 10
 - code: FEAT-001
   status: Completed

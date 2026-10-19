@@ -1,6 +1,6 @@
 code: FEAT-182
 title: 'Sign-offs: withdraw one given in error, and offer only the immediate next stage''s sign-offs'
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: feature
 priority: high
@@ -47,7 +47,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: 10 make ci
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-19T04:44:18.059064619Z
 definition:
   statement: Withdrawable sign-offs, offered only for the next stage, for the solo developer and reviewers, so that a person's agreement is given at the right moment and can be corrected when it was not.
@@ -115,5 +115,8 @@ history:
 - at: 2026-10-19T04:44:17.967636228Z
   from: Planned
   to: In Progress
+- at: 2026-10-19T09:25:07.758663918Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:59:00.632137641Z
+updated_at: 2026-10-19T09:25:07.758663918Z

@@ -12,5 +12,60 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Board files read and written by a maintained, safe-Rust YAML library, with revisions that no longer depend on how YAML is written, for everyone whose board kanbanr keeps, so that no unmaintained parser touches the board and no approval lapses because a library formats text differently
+  goals:
+  - G-6
+  - G-0
+  zachman:
+    what: The YAML library behind every board read and write; how content revisions are computed; a one-time board migration
+    how: serde-saphyr behind one kanbanr_core::yaml module with fixed options; content_rev hashes canonical JSON; a schema-4 migration re-pins every stored revision to the canonical hash of the definition as it stood in the board commit that recorded it, in one commit
+    where: api/crates/kanbanr-core (yaml.rs new, models.rs, config.rs, store.rs, error.rs, every from_str/to_string), kanbanr-cli, api/Cargo.toml, api/deny.toml, rust-version
+    when: Before 1.0, after FEAT-176 (so YAML is only in core)
+    who: Everyone whose board kanbanr keeps
+    why: serde_yaml is deprecated and unsafe-libyaml unmaintained (RUSTSEC-2024-0449); revisions hashed from YAML text would all lapse under any new writer
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL have no serde_yaml or unsafe-libyaml in its dependency tree, and the deny.toml exception for RUSTSEC-2024-0449 SHALL be gone.
+    tests:
+    - name: 'make ci: cargo deny and cargo audit pass with no advisory exception'
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN any board file is read and written again, THE SYSTEM SHALL preserve its content, unknown keys included.
+    tests:
+    - name: yaml::tests::board_files_round_trip
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL compute every content revision from a canonical form that does not depend on how YAML is written.
+    tests:
+    - name: models::tests::content_rev_is_writer_independent
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a board recorded by an earlier version is opened, THE SYSTEM SHALL migrate it once, in one commit, so that every approval and sign-off current before the migration is current after it and every lapsed one stays lapsed.
+    tests:
+    - name: migration_keeps_current_approvals_current
+      kind: integration
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a stored revision cannot be verified from the board's history, THE SYSTEM SHALL treat it as lapsed and report how many.
+    tests:
+    - name: migration_without_history_lapses_and_reports
+      kind: unit
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHEN an earlier version opens a migrated board, THE SYSTEM SHALL refuse it rather than misread its revisions.
+    tests:
+    - name: a_migrated_board_is_too_new_for_older_readers
+      kind: unit
+      state: planned
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-19T02:53:02.067981611Z
+updated_at: 2026-10-19T05:57:54.675340737Z

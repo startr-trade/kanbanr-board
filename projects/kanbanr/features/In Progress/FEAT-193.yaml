@@ -45,7 +45,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: 8 make ci
-    state: NotStarted
+    state: InProgress
   created_at: 2026-10-19T13:37:23.493003491Z
 definition:
   statement: The same design and documentation discipline in every built-in process by default, for every project, so that no project needs hand-written rules to get it.
@@ -89,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.084338886Z
-updated_at: 2026-10-19T13:57:57.077816721Z
+updated_at: 2026-10-19T13:57:57.151595609Z

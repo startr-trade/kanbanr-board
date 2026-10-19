@@ -320,7 +320,7 @@
   - architecture
   - core
   depends_on: []
-  done: 1
+  done: 2
   total: 11
 - code: FEAT-001
   status: Completed

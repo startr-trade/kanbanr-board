@@ -337,7 +337,7 @@
   - signoff
   - monitor
   depends_on: []
-  done: 5
+  done: 6
   total: 10
 - code: FEAT-001
   status: Completed

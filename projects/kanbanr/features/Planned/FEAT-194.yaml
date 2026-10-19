@@ -30,7 +30,7 @@ definition:
   - G-2
   zachman:
     what: Skill sections by role; setup questions for cadence and git model
-    how: ''
+    how: Skill section 'The method by stage role' (design, build, integrate, release, carry-over, who merges and pushes by cadence); setup asks the cadence for every process and previews the git model; written last, against the commands the other items add
     where: skill/kanbanr/SKILL.md, the setup interview, docs
     when: At setup and in every session
     who: Claude, the solo developer
@@ -54,11 +54,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:42:56.418991633Z
     rev: 1a12b3467b39f5bb
-  approvals:
-  - at: 2026-10-19T04:42:56.418991633Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 1a12b3467b39f5bb
-    status: Planned
 created_at: 2026-10-19T04:40:11.085162095Z
-updated_at: 2026-10-19T09:45:32.110189278Z
+updated_at: 2026-10-19T09:45:39.757072243Z

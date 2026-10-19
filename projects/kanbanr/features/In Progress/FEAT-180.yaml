@@ -38,7 +38,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: '7 Skill and docs: living-docs chapter, check tables, changelog'
-    state: InProgress
+    state: Completed
   - key: T8
     text: 8 make ci
     state: NotStarted
@@ -104,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T13:41:04.337483199Z
-updated_at: 2026-10-19T13:34:24.306214509Z
+updated_at: 2026-10-19T13:34:24.375638631Z

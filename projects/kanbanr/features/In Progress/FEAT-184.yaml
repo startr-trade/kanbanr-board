@@ -61,7 +61,7 @@ definition:
     tests:
     - name: patch_release_notes_show_parent_and_additions
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a patch release is cut, THE SYSTEM SHALL list the commits that are not yet in the integration branch, so they can be merged forward.
@@ -115,4 +115,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T17:22:17.000135234Z
+updated_at: 2026-10-19T17:22:17.050315905Z

@@ -1293,3 +1293,7 @@
   actor: Venkatraman B
   message: test patch_release_branches_from_parent_tag of FEAT-184/R-1 is now green
   item: FEAT-184
+- time: 2026-10-19T17:22:17.053253999Z
+  actor: Venkatraman B
+  message: test patch_release_notes_show_parent_and_additions of FEAT-184/R-2 is now green
+  item: FEAT-184

@@ -27,6 +27,9 @@ todo_lists:
   - key: T3
     text: '3 Readiness: withdrawn gap, NextGate.requires_gaps, immediate_next_gate'
     state: NotStarted
+  - key: T4
+    text: '4 Dispatch: withdraw route + commit message; review uses immediate_next_gate and R-4 (R-3, R-4)'
+    state: NotStarted
   created_at: 2026-10-19T04:44:18.059064619Z
 definition:
   statement: Withdrawable sign-offs, offered only for the next stage, for the solo developer and reviewers, so that a person's agreement is given at the right moment and can be corrected when it was not.
@@ -95,4 +98,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T15:12:32.560560984Z
-updated_at: 2026-10-19T04:44:18.187893862Z
+updated_at: 2026-10-19T04:44:18.230340512Z

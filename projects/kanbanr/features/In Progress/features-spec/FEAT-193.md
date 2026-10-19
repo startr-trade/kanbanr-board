@@ -24,6 +24,15 @@ project's workflow and records which parts are off, and `--on` adds them back. A
 a built-in process honours the recorded choice, and drift ([FEAT-170](/p/kanbanr/feature/FEAT-170))
 compares against the process *as shaped by that choice*, so opting out is never reported as an edit.
 
+> **Amended by Q7 (19 Oct 2026).** The method is written as two role-addressed gates, `"@build"`
+> and `"@integrate"` ([FEAT-188](/p/kanbanr/feature/FEAT-188)), not merged into each preset's
+> status gates. `add`/`remove`/`present` act on those two keys. A role-addressed gate now *adds* to
+> the built-in rule rather than replacing it: `ProjectConfig::declares_gates()` ignores `@role`
+> keys. So default and scheduled keep their synthesized start rule, branch point and FEAT-156
+> finishing rule with no legacy carry-over, and `synthesized_gates` / `uses_builtin_rule` are not
+> needed (`unproven` already keys on `declares_gates`). The gates each stage enforces are the ones
+> in the table below. A config carrying `@role` gates is schema 4.
+
 ### Components and files
 - `api/crates/kanbanr-core/src/method.rs` (new): `Part`, `MethodChoice`, `add`, `remove`, `shaped`,
   `present`.
@@ -190,6 +199,10 @@ Also: `method::tests::add_is_idempotent`, `method::tests::remove_all_restores_le
   this table follows it.
 - **Q6.** Apply the method gates to every kind (defects, chores)? Decided: yes, no `kinds:`; a
   defect's Design can be a paragraph.
+
+- **Q7.** Build the method as `@build`/`@integrate` gates, with role-addressed gates made additive
+  to the built-in rule (a FEAT-188 fix: until now an `@role` gate on a label-only process silently
+  dropped the start rule), or as designed above? Decided: **`@role` gates plus the fix**.
 
 ### Affects docs
 - docs/src/using/processes.md, docs/src/reference/cli.md, skill/kanbanr/SKILL.md, CHANGELOG.md

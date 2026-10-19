@@ -46,6 +46,9 @@ todo_lists:
   - key: T9
     text: 9 Docs, skill, changelog
     state: NotStarted
+  - key: T10
+    text: 10 make ci
+    state: NotStarted
   created_at: 2026-10-19T09:55:57.605773753Z
 definition:
   statement: Stage roles in every workflow, for the solo developer and Claude, so that design gates, documentation fold-in and git automation behave identically whichever process a project uses.
@@ -103,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T09:56:08.547021995Z
+updated_at: 2026-10-19T09:56:08.610473462Z

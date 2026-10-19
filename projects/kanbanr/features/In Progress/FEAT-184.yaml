@@ -82,7 +82,7 @@ definition:
     tests:
     - name: patch_production_tags_without_moving_main
       kind: integration
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T15:42:00.498972163Z
@@ -115,4 +115,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-17T08:15:34.298340055Z
-updated_at: 2026-10-19T17:22:17.143259179Z
+updated_at: 2026-10-19T17:22:17.186611109Z

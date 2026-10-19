@@ -37,7 +37,7 @@ everything can**:
 - `api/crates/kanbanr-core/src/coderepo.rs` (new; shared with FEAT-176): shells out to `git`, as
   scm.rs does. It holds `repo_root_in`, `default_branch`, `branch_exists`, `create_branch_from`,
   `tag_exists`, `create_tag`, `is_clean`, `merge_is_clean` (`git merge-tree --write-tree`, git ≥
-  2.38), `merge_no_ff`, `reset_branch_to`, `delete_tag` and `log_between`.
+  2.38), `merge_no_ff`, `is_ancestor`, `fast_forward`, `reset_branch_to`, `delete_tag` and `log_between`.
 - `api/crates/kanbanr-core/src/dispatch.rs`: `POST /projects/:p/releases/:v/promote {stage?, by}`.
   It reaches the code repository only when the caller passes one (see Q1).
 - `api/crates/kanbanr-cli/src/main.rs`: `release promote <V> [<stage>]`; `release add --branch`;
@@ -80,11 +80,15 @@ duplicates; `config cadence --release-stages a,b,c` validates both.
   - **Into the last stage** (production):
     1. **Preflight.** `cut_preview` must show every planned item would ship or carry over. That's
        today's `ship_to` without writing; reported, never forced. The repository must have a clean
-       working tree, `branch` must exist, the tag `<V>` must not exist, and the merge of `branch`
-       into `main_branch` must be clean (`merge_is_clean`). Any failure refuses with its reason,
-       and **nothing** changes (R-4).
-    2. **Git.** `create_tag(<V>, on branch tip)`, then `merge_no_ff(branch into main_branch)`,
-       remembering main's previous commit.
+       working tree, `branch` must exist, the tag `<V>` must not exist, and `main_branch` must be an
+       ancestor of `branch` (`is_ancestor`), so main can be fast-forwarded to the release. If main
+       has commits the release lacks, the move is refused ("main has commits release/<V> lacks:
+       merge main into the release branch first"). Any failure refuses with its reason, and
+       **nothing** changes (R-4).
+    2. **Git.** `create_tag(<V>, on branch tip)`, then `fast_forward(main_branch, branch)`
+       (FEAT-190), remembering main's previous commit. main's tip is then exactly the tagged
+       commit (decided 19 Oct 2026). A patch of an older release, which main has moved past, is
+       tagged without touching main (FEAT-184).
     3. **Board.** `cut(...)`, as today: ship, carry over, write the notes, mark shipped. Plus
        `stage = production` and a history entry.
     4. If step 3 fails, `reset_branch_to(main, previous)` and `delete_tag(<V>)`, then return the
@@ -115,7 +119,7 @@ duplicates; `config cadence --release-stages a,b,c` validates both.
 | R-2 | `promote_candidate_creates_branch` (scratch code repo) | cli local_mode.rs |
 | R-3 | `promote_production_cuts_tags_merges` | cli local_mode.rs |
 | R-4 | `promote_production_refuses_unclean_merge` (conflicting commits on main and release, then board, tags and main untouched) | cli local_mode.rs |
-Plus: coderepo unit tests (merge_is_clean on clean and conflicting repos, rollback), and a board
+Plus: coderepo unit tests (merge_is_clean on clean and conflicting repos, is_ancestor and fast_forward, rollback), and a board
 failure after the git steps rolling back.
 
 ### Implementation tasks

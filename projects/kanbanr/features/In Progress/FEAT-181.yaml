@@ -40,6 +40,9 @@ todo_lists:
   - key: T7
     text: 7 Docs, skill, changelog
     state: NotStarted
+  - key: T8
+    text: 8 make ci
+    state: NotStarted
   created_at: 2026-10-19T10:13:40.465594555Z
 definition:
   statement: Live, checked links between every board artifact, for the solo developer, collaborators and Claude, so that design documents can be followed, and a reference that stops pointing at anything is reported rather than silently drifting.
@@ -102,4 +105,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-16T14:00:04.95169448Z
-updated_at: 2026-10-19T10:13:47.068568798Z
+updated_at: 2026-10-19T10:13:47.122377234Z

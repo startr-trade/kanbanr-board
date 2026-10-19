@@ -23,7 +23,7 @@ definition:
   - G-3
   zachman:
     what: Role per status; role-addressed gates and actions
-    how: ''
+    how: 'Roles on the existing Gate (roles: design, build, integrate, release) and @role-addressed gates merged by effective_gates; ProjectConfig::role_status; legacy boards infer build (from on_enter: [branch]) and release only; every preset declares its roles'
     where: kanbanr-core config, readiness, presets, process checks
     when: When a workflow is loaded or an item moves
     who: the solo developer, Claude
@@ -61,11 +61,5 @@ definition:
     by: Venkatraman B
     at: 2026-10-19T04:42:34.32639554Z
     rev: 271fbc06e222e182
-  approvals:
-  - at: 2026-10-19T04:42:34.32639554Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 271fbc06e222e182
-    status: Planned
 created_at: 2026-10-19T04:40:11.079589826Z
-updated_at: 2026-10-19T09:45:22.344734244Z
+updated_at: 2026-10-19T09:45:30.349766445Z

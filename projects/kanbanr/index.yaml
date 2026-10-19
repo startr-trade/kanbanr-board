@@ -89,24 +89,6 @@
   depends_on: []
   done: 0
   total: 0
-- code: FEAT-181
-  status: In Progress
-  milestone: MS-007
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - method
-  - docs
-  - traceability
-  - monitor
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-184
   status: Planned
   milestone: MS-008
@@ -270,6 +252,24 @@
   depends_on: []
   done: 2
   total: 11
+- code: FEAT-181
+  status: In Progress
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - method
+  - docs
+  - traceability
+  - monitor
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-183
   status: In Progress
   milestone: MS-008

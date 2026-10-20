@@ -217,3 +217,10 @@
     by: Venkatraman B
     signoff: design-review
     reason: ''
+- time: 2026-10-20T13:07:20.665295381Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-203
+  message: feature FEAT-203 added
+  detail:
+    status: Planned

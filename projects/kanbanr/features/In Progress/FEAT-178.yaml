@@ -13,7 +13,32 @@ labels:
 - monitor
 - release
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Runtime config
+    state: InProgress
+  - key: T2
+    text: 2 api.ts
+    state: NotStarted
+  - key: T3
+    text: 3 Relative build and base
+    state: NotStarted
+  - key: T4
+    text: 4 Bundle script
+    state: NotStarted
+  - key: T5
+    text: 5 Release job
+    state: NotStarted
+  - key: T6
+    text: 6 Docs
+    state: NotStarted
+  - key: T7
+    text: 7 make ci
+    state: NotStarted
+  created_at: 2026-10-20T08:35:15.599533777Z
 definition:
   statement: The monitor UI as a static bundle published per release, for collaborators and reviewers, so that a board can be viewed from any static host without running kanbanr.
   goals:
@@ -74,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.93176494Z
-updated_at: 2026-10-20T08:35:06.745344979Z
+updated_at: 2026-10-20T08:35:15.599594881Z

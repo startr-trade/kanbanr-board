@@ -66,5 +66,11 @@ definition:
     at: 2026-10-20T13:08:07.303265939Z
     rev: d9e5f392aa86d20b
     status: Planned
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-20T13:08:19.356770106Z
+    rev: d9e5f392aa86d20b
+    note: given in the session dialog
+    status: Planned
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-20T13:08:19.305531807Z
+updated_at: 2026-10-20T13:08:19.356770106Z

@@ -115,6 +115,24 @@
   - FEAT-181
   done: 0
   total: 0
+- code: FEAT-200
+  status: Planned
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - docs
+  - review
+  - mermaid
+  - skill
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-176
   status: In Progress
   milestone: MS-004

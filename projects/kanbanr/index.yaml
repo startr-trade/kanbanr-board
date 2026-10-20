@@ -161,7 +161,7 @@
   - api
   - monitor
   depends_on: []
-  done: 6
+  done: 7
   total: 8
 - code: FEAT-191
   status: In Progress

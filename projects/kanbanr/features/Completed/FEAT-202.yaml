@@ -1,6 +1,6 @@
 code: FEAT-202
 title: A cached build can ship without the monitor or the skill
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: bug
 priority: null
@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 2 Source check test; manual check; changelog; make ci
-    state: InProgress
+    state: Completed
   created_at: 2026-10-20T13:10:05.717250106Z
 definition:
   statement: A kanbanr binary built from a full checkout always carries the monitor and the skill, whatever build cache it went through, and a build that cannot find them fails instead of shipping without them.
@@ -72,5 +72,8 @@ history:
 - at: 2026-10-20T13:10:05.545886254Z
   from: Planned
   to: In Progress
+- at: 2026-10-20T13:42:50.048259138Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-20T13:00:14.343959554Z
-updated_at: 2026-10-20T13:42:49.995446455Z
+updated_at: 2026-10-20T13:42:50.048259138Z

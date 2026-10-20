@@ -292,3 +292,11 @@
   detail:
     ready: kanbanr:FEAT-194
     unblocked_by: kanbanr:FEAT-191
+- time: 2026-10-20T13:10:36.01466696Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-201
+  message: feature FEAT-201 completed Completed
+  detail:
+    status: Completed
+    terminal: true

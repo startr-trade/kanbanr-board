@@ -11,7 +11,20 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: '1 boardreadme.rs: render, apply, write; R-1, R-2'
+    state: Completed
+  - key: T2
+    text: 2 Wire into project create/edit/delete; doctor; kanbanr readme; R-3
+    state: Completed
+  - key: T3
+    text: 3 Docs, changelog, make ci
+    state: InProgress
+  created_at: 2026-10-20T11:43:30.557492634Z
 definition:
   statement: Every kanbanr board carries a README that tells someone who has never used kanbanr what the repository is and how to install kanbanr and see it as a board, written when the board is created and kept current.
   goals:
@@ -68,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:43:30.470889246Z
+updated_at: 2026-10-20T11:43:30.557515786Z

@@ -1,6 +1,6 @@
 code: FEAT-198
 title: make ci's board check lets a person's verdicts through
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: chore
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 3 Changelog, contributing note; make ci and the manual check
-    state: InProgress
+    state: Completed
   created_at: 2026-10-20T06:31:28.752591474Z
 definition:
   statement: make ci's check that the real board did not move lets through a person's verdicts made during the run, so approving in the monitor no longer fails CI, while any other change still does.
@@ -74,5 +74,8 @@ history:
 - at: 2026-10-20T06:31:28.629228964Z
   from: Planned
   to: In Progress
+- at: 2026-10-20T08:37:13.56683904Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-19T17:22:55.137698645Z
-updated_at: 2026-10-20T08:37:13.496159357Z
+updated_at: 2026-10-20T08:37:13.56683904Z

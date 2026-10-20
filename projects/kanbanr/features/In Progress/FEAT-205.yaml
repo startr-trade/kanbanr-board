@@ -52,7 +52,7 @@ definition:
     - name: web::card_says_what_is_next
       kind: unit
       state: green
-      checked_rev: 8ba99e3aa25ad27f0c05aa99766c1f4abb24a723
+      checked_rev: ea27c650a9b980b49b5ee229f7456bed631ad32b
     - name: 'manual: the kanbanr board reads correctly in the monitor'
       kind: manual
       state: green
@@ -84,4 +84,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:17:29.325185724Z
-updated_at: 2026-10-20T13:57:35.016071195Z
+updated_at: 2026-10-20T13:57:35.067119058Z

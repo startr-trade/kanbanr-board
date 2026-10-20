@@ -177,7 +177,7 @@
   - monitor
   - releases
   depends_on: []
-  done: 5
+  done: 6
   total: 7
 - code: FEAT-191
   status: In Progress

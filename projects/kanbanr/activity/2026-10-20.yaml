@@ -306,3 +306,7 @@
   actor: Venkatraman B
   message: sign off design-review on FEAT-204
   item: FEAT-204
+- time: 2026-10-20T13:11:37.822825614Z
+  actor: Venkatraman B
+  message: sign off docs-folded on FEAT-202
+  item: FEAT-202

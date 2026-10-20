@@ -264,3 +264,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-203
   item: FEAT-203
+- time: 2026-10-20T13:08:07.306517614Z
+  actor: Venkatraman B
+  message: sign off design-review on FEAT-203
+  item: FEAT-203

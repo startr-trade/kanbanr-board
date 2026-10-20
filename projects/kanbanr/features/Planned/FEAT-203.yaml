@@ -55,5 +55,11 @@ definition:
     verdict: approved
     rev: d9e5f392aa86d20b
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-20T13:08:07.303265939Z
+    rev: d9e5f392aa86d20b
+    status: Planned
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-20T13:07:59.457648921Z
+updated_at: 2026-10-20T13:08:07.303265939Z

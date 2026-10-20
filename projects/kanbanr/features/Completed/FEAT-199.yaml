@@ -1,6 +1,6 @@
 code: FEAT-199
 title: The Workflow page breaks on role-addressed gates
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: bug
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 3 Changelog, make ci, manual check in the monitor
-    state: InProgress
+    state: Completed
   created_at: 2026-10-20T07:09:53.08095028Z
 definition:
   statement: The Workflow page draws its diagram and lists each stage's gates as moves are actually judged, role-addressed gates and the built-in rule included, so a project using the method can see its process.
@@ -73,5 +73,8 @@ history:
 - at: 2026-10-20T07:09:52.948396294Z
   from: Planned
   to: In Progress
+- at: 2026-10-20T08:54:38.487822623Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-20T07:08:33.828245839Z
-updated_at: 2026-10-20T08:54:38.447992884Z
+updated_at: 2026-10-20T08:54:38.487822623Z

@@ -164,7 +164,7 @@
   done: 2
   total: 11
 - code: FEAT-185
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: feature
   priority: medium
@@ -177,7 +177,7 @@
   - monitor
   - releases
   depends_on: []
-  done: 6
+  done: 7
   total: 7
 - code: FEAT-191
   status: In Progress

@@ -42,5 +42,12 @@ definition:
     verdict: approved
     rev: 2041f0f227736725
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-20T13:11:32.365283738Z
+    rev: 2041f0f227736725
+    note: given in the session dialog
+    status: Planned
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:11:32.301277902Z
+updated_at: 2026-10-20T13:11:32.365283738Z

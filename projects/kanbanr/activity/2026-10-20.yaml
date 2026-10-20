@@ -74,3 +74,7 @@
   actor: Venkatraman B
   message: test scripts/tests/test_ci_local.py::test_verdict_only of FEAT-198/R-1 is now green
   item: FEAT-198
+- time: 2026-10-20T08:37:13.499383098Z
+  actor: Venkatraman B
+  message: 'test manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run of FEAT-198/R-1 is now green'
+  item: FEAT-198

@@ -12,5 +12,34 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A board card says in plain words what the item needs before its next stage — or that it is waiting for a sign-off, or ready — and never claims ready while tasks or sign-offs are outstanding, so the board cannot be read as showing the wrong status.
+  goals:
+  - G-5
+  zachman:
+    what: The readiness pill on board cards, and the readiness data behind it
+    how: Readiness reports a stage's missing sign-offs and open tasks; the card turns them into plain text styled as a hint
+    where: kanbanr-core readiness.rs; the monitor's FeatureCard
+    when: Whenever the board is shown
+    who: Anyone reading the board
+    why: On 20 Oct 2026 cards showed "→ In Progress ✓" in Planned and "→ Completed ✓" with work open, read as wrong statuses
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL report, for an item's next stage, the sign-offs it still needs and the tasks still open.
+    tests:
+    - name: readiness::tests::next_stage_names_signoffs_and_open_tasks
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL show on a board card, in plain words styled apart from a status, what its next stage still needs, and SHALL NOT show it as ready while tasks or sign-offs are outstanding.
+    tests:
+    - name: web::card_says_what_is_next
+      kind: unit
+      state: planned
+    - name: 'manual: the kanbanr board reads correctly in the monitor'
+      kind: manual
+      state: planned
 created_at: 2026-10-20T13:17:29.325185724Z
-updated_at: 2026-10-20T13:17:29.357365645Z
+updated_at: 2026-10-20T13:17:29.461670654Z

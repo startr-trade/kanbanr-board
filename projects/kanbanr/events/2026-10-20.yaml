@@ -133,3 +133,10 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ''
+- time: 2026-10-20T11:25:59.791986999Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-201
+  message: feature FEAT-201 added
+  detail:
+    status: Planned

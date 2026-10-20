@@ -131,6 +131,17 @@ These are corrections, needed for the contract to be true:
 - **Q3.** Should an unknown read path return 404 instead of 400?
   - Decided: yes. It's a bug fix, and 1.0 hasn't shipped.
 
+- **Decided during the build (20 Oct 2026):**
+  - `/projects/{p}/gates` (FEAT-199) and `/releases/{v}/cut-preview` (FEAT-185) join the public v1
+    set: the monitor uses both, which is the public set's rule.
+  - `info.version` is the API version, `"1"`, so the committed document does not change on every
+    release; the 404 body keeps the wording "unsupported operation: GET /path".
+  - Accepted deviations: the contract test builds its fixture through `kanbanr_core::dispatch` (what
+    the CLI's local mode writes through) and runs the daemon in-process, because the server crate's
+    tests cannot reach the CLI binary; `dispatch_routes_data_operations` now expects `NoSuchRoute`
+    (the core side of the 400→404 change), with its message checked unchanged.
+  - The review queue's entries are the typed `ReviewEntry`, including FEAT-185's `release_choices`.
+
 ### Affects docs
 docs/src/reference/http-api.md, docs/src/reference/openapi.json (new), docs/src/project/stability.md,
 docs/src/architecture/overview.md.

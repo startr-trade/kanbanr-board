@@ -12,5 +12,27 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A kanbanr binary built from a full checkout always carries the monitor and the skill, whatever build cache it went through, and a build that cannot find them fails instead of shipping without them.
+  goals:
+  - G-6
+  zachman:
+    what: The build scripts that embed the monitor and the skill
+    how: Read CARGO_MANIFEST_DIR when the script runs, not when it is compiled; fail loudly on a full checkout that yields nothing
+    where: kanbanr-server and kanbanr-cli build.rs
+    when: Every build, cached or not
+    who: Anyone building or installing kanbanr from source
+    why: On 20 Oct 2026 an sccache-reused build script pointed at a deleted worktree and the installed binary had no monitor and no skill
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL embed the monitor and the skill from the checkout being built, whatever build cache is in use, and SHALL fail a full-checkout build that finds neither.
+    tests:
+    - name: build_scripts_read_the_manifest_dir_at_run_time
+      kind: unit
+      state: planned
+    - name: 'manual: a release build reused from another folder through sccache still carries the monitor and the skill'
+      kind: manual
+      state: planned
 created_at: 2026-10-20T13:00:14.343959554Z
-updated_at: 2026-10-20T13:00:14.367412576Z
+updated_at: 2026-10-20T13:00:14.417599477Z

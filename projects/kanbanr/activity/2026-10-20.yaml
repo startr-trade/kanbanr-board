@@ -128,3 +128,7 @@
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-191
   item: FEAT-191
+- time: 2026-10-20T11:18:26.081707677Z
+  actor: Venkatraman B
+  message: test release::ui_bundle_attached of FEAT-178/R-1 is now green
+  item: FEAT-178

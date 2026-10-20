@@ -197,7 +197,7 @@
   - traceability
   depends_on:
   - FEAT-189
-  done: 7
+  done: 8
   total: 8
 - code: FEAT-001
   status: Completed

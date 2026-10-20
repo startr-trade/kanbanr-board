@@ -44,7 +44,7 @@ definition:
     tests:
     - name: boardreadme::tests::readme_walks_a_reader_to_the_board
       kind: unit
-      state: planned
+      state: green
   - id: R-2
     kind: functional
     text: WHEN the README is refreshed, THE SYSTEM SHALL change only the text between its markers and keep everything the board's owner wrote outside them.
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:43:30.557515786Z
+updated_at: 2026-10-20T11:50:10.563326785Z

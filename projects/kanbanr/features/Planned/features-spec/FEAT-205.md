@@ -7,7 +7,9 @@ next stage's gate passes", but it is styled like a status chip, and its ✓ coun
 conditions — not open tasks, and not the sign-offs the stage still needs. FEAT-202 showed
 "→ Completed ✓" at 1 of 2 tasks with `docs-folded` not given.
 
-## Design (decided by the user: plain words, honest)
+## Design
+
+Decided by the user on 20 Oct 2026: plain words, honest.
 - **Readiness** (`readiness::NextStage`, FEAT-177's typed view): gains `signoffs: Vec<String>` — the
   sign-offs the stage still needs — and `tasks_open: usize`. The public schema and `openapi.json`
   are regenerated; the contract test covers the new fields.

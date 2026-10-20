@@ -163,7 +163,7 @@
   - monitor
   - release
   depends_on: []
-  done: 0
+  done: 6
   total: 7
 - code: FEAT-185
   status: In Progress

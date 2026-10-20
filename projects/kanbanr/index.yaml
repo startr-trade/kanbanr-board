@@ -164,7 +164,7 @@
   done: 7
   total: 8
 - code: FEAT-191
-  status: In Progress
+  status: Completed
   milestone: MS-008
   kind: feature
   priority: medium

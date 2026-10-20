@@ -268,3 +268,27 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-20T13:10:35.749381751Z
+  project: kanbanr
+  kind: feature_completed
+  feature: FEAT-191
+  message: feature FEAT-191 completed Completed
+  detail:
+    status: Completed
+    terminal: true
+- time: 2026-10-20T13:10:35.785335116Z
+  project: kanbanr
+  kind: milestone_completed
+  feature: FEAT-191
+  message: milestone MS-008 is complete — write the retro while it is fresh
+  detail:
+    milestone: MS-008
+    items: 13
+- time: 2026-10-20T13:10:35.786487104Z
+  project: kanbanr
+  kind: dependent_ready
+  feature: FEAT-194
+  message: kanbanr:FEAT-194 is now ready (dependency kanbanr:FEAT-191 completed)
+  detail:
+    ready: kanbanr:FEAT-194
+    unblocked_by: kanbanr:FEAT-191

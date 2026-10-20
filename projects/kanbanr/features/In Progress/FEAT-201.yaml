@@ -51,7 +51,7 @@ definition:
     tests:
     - name: boardreadme::tests::owner_text_is_kept
       kind: unit
-      state: planned
+      state: green
   - id: R-3
     kind: functional
     text: WHEN a board is created or its projects change, THE SYSTEM SHALL write the README in the same commit; and an existing board without one SHALL be told how to get it.
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:50:10.563326785Z
+updated_at: 2026-10-20T11:50:10.612614388Z

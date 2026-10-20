@@ -9,9 +9,12 @@
   - agents
   goals:
   - G-0
-  confidence: 0.6
-  last_affirmed: 2026-10-19T10:39:54.066168165Z
-  status: candidate
+  confidence: 0.746184098797397
+  last_affirmed: 2026-10-20T06:32:49.666198048Z
+  status: active
+  history:
+  - at: 2026-10-20T06:32:49.666198048Z
+    verdict: affirmed
 - id: L-40
   lesson: 'Take an item''s code from what feature add prints, never assume the next number: another session can add items to the same board in between'
   kind: pitfall

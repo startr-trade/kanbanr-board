@@ -1,6 +1,6 @@
 code: FEAT-191
 title: 'Git drift check: board states and branches must agree'
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: feature
 priority: medium
@@ -65,5 +65,9 @@ definition:
     at: 2026-10-19T16:51:31.007328919Z
     rev: 6dbb3a0cf54971d4
     status: Planned
+history:
+- at: 2026-10-20T08:35:06.854277472Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T04:40:11.082704495Z
-updated_at: 2026-10-19T16:51:31.007328919Z
+updated_at: 2026-10-20T08:35:06.854277472Z

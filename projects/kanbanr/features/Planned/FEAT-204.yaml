@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: When an item's work is done and a sign-off lifts the last hold on its end status, the item finishes then, so the board never shows finished work as in progress.
+  goals:
+  - G-1
+  - G-5
+  zachman:
+    what: Auto-completion after a sign-off
+    how: The task write's auto-completion becomes one function, also run after a sign-off is recorded, with the same gates and holds
+    where: kanbanr-core store.rs; the sign-off route and CLI output
+    when: Whenever a sign-off is given
+    who: Anyone reading the board
+    why: On 20 Oct 2026 two finished items stayed in In Progress after their last sign-off was given
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a sign-off is recorded on an item whose tasks are all done and nothing else holds its end status, THE SYSTEM SHALL move it to the end status as the last task would.
+    tests:
+    - name: signoff_completes_a_held_item
+      kind: unit
+      state: planned
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:11:32.180685232Z
+updated_at: 2026-10-20T13:11:32.250224182Z

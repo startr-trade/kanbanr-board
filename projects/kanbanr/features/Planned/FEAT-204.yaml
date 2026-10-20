@@ -1,0 +1,16 @@
+code: FEAT-204
+title: A sign-off that clears the last hold finishes the item
+status: Planned
+milestone: MS-004
+kind: bug
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-20T13:11:32.146815156Z
+updated_at: 2026-10-20T13:11:32.180685232Z

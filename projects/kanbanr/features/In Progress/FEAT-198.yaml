@@ -1,6 +1,6 @@
 code: FEAT-198
 title: make ci's board check lets a person's verdicts through
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: chore
 priority: null
@@ -52,5 +52,9 @@ definition:
     rev: 77010a42e3b9107a
     note: given in the session dialog
     status: Planned
+history:
+- at: 2026-10-20T06:31:28.629228964Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T17:22:55.137698645Z
-updated_at: 2026-10-20T06:31:28.483806791Z
+updated_at: 2026-10-20T06:31:28.629228964Z

@@ -32,5 +32,15 @@ definition:
     - name: signoff_completes_a_held_item
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-20T13:11:32.301277902Z
+    rev: 2041f0f227736725
+  approvals:
+  - at: 2026-10-20T13:11:32.301277902Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 2041f0f227736725
+    status: Planned
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:11:32.250224182Z
+updated_at: 2026-10-20T13:11:32.301277902Z

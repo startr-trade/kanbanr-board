@@ -74,5 +74,14 @@ Plus: `check:ui` for the new buttons, and `npm run build`.
   - Decided: yes. The queue drives both, and the skill's table already turns `in_release`
     into "which planned release?".
 
+- **Q-build (20 Oct 2026), answered during the build:**
+  - The production confirm lists exactly what the cut ships and carries, from a new read-only
+    `GET /projects/:p/releases/:v/cut-preview` (the cut's own rule, `releases::cut_preview`).
+  - The typed `ReviewEntry` is FEAT-177's (OpenAPI types every route); here the field is plain JSON.
+  - Confirmed as built: `promoteRelease` takes `by` (the route requires it); an item awaiting a
+    sign-off and ready for release stays one entry carrying both; `review --pending` hints
+    `kanbanr release plan <V> <CODE>` for such items.
+  - Screenshots are refreshed when 0.1.8 is prepared, not in this item.
+
 ### Affects docs
 docs/src/using/the-monitor.md, skill/kanbanr/SKILL.md (Waiting decisions).

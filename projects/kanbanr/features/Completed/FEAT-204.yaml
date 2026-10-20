@@ -1,6 +1,6 @@
 code: FEAT-204
 title: A sign-off that clears the last hold finishes the item
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: bug
 priority: null
@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 2 Changelog; make ci
-    state: InProgress
+    state: Completed
   created_at: 2026-10-20T13:17:45.22292992Z
 definition:
   statement: When an item's work is done and a sign-off lifts the last hold on its end status, the item finishes then, so the board never shows finished work as in progress.
@@ -69,5 +69,8 @@ history:
 - at: 2026-10-20T13:17:45.045891853Z
   from: Planned
   to: In Progress
+- at: 2026-10-20T14:03:47.504537648Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T14:03:47.4561808Z
+updated_at: 2026-10-20T14:03:47.504537648Z

@@ -11,7 +11,17 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 auto_complete after a sign-off; R-1
+    state: Completed
+  - key: T2
+    text: 2 Changelog; make ci
+    state: InProgress
+  created_at: 2026-10-20T13:17:45.22292992Z
 definition:
   statement: When an item's work is done and a sign-off lifts the last hold on its end status, the item finishes then, so the board never shows finished work as in progress.
   goals:
@@ -54,4 +64,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:17:45.045891853Z
+updated_at: 2026-10-20T13:17:45.222985093Z

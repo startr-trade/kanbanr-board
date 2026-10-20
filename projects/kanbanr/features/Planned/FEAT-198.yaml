@@ -35,5 +35,15 @@ definition:
     - name: 'manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-20T06:31:28.418681656Z
+    rev: 77010a42e3b9107a
+  approvals:
+  - at: 2026-10-20T06:31:28.418681656Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 77010a42e3b9107a
+    status: Planned
 created_at: 2026-10-19T17:22:55.137698645Z
-updated_at: 2026-10-19T17:22:55.24350993Z
+updated_at: 2026-10-20T06:31:28.418681656Z

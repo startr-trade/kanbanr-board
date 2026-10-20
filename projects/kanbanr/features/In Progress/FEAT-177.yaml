@@ -61,7 +61,8 @@ definition:
     tests:
     - name: server::contract_matches_openapi
       kind: integration
-      state: planned
+      state: green
+      checked_rev: ab97817448d4
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.779293708Z
@@ -88,4 +89,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931738608Z
-updated_at: 2026-10-20T11:43:43.288260402Z
+updated_at: 2026-10-20T12:21:12.699984282Z

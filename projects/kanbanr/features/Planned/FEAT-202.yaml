@@ -1,0 +1,16 @@
+code: FEAT-202
+title: A cached build can ship without the monitor or the skill
+status: Planned
+milestone: MS-004
+kind: bug
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-20T13:00:14.343959554Z
+updated_at: 2026-10-20T13:00:14.367412576Z

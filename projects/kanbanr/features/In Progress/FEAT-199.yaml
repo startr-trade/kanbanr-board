@@ -17,13 +17,13 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 mermaid.rs notes from effective_gates; unit test
-    state: InProgress
+    state: Completed
   - key: T2
     text: 2 GET /gates, api.getGates, WorkflowPage Stages panel
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 3 Changelog, make ci, manual check in the monitor
-    state: NotStarted
+    state: InProgress
   created_at: 2026-10-20T07:09:53.08095028Z
 definition:
   statement: The Workflow page draws its diagram and lists each stage's gates as moves are actually judged, role-addressed gates and the built-in rule included, so a project using the method can see its process.
@@ -69,4 +69,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T07:08:33.828245839Z
-updated_at: 2026-10-20T07:09:53.080987087Z
+updated_at: 2026-10-20T08:27:53.844198238Z

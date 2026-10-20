@@ -12,5 +12,38 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Every Mermaid diagram in the book and the monitor is drawn by Pele and takes its colours from the reader's theme, so diagrams match the page in every mdBook theme and in the monitor's light and dark, with a far smaller download.
+  goals:
+  - G-5
+  zachman:
+    what: Diagram rendering in the book and the monitor, and the docs check
+    how: Pele 1.7.0 (pinned) renders in the browser; CSS maps Pele's variables to mdBook's and the monitor's; the docs check renders every block with the same Pele
+    where: docs (book.toml, pele-init.js, pele-theme.css, pele.global.js), web (Markdown.tsx, styles.css, package.json, check scripts)
+    when: Whenever a page with a diagram is shown, and in CI
+    who: Readers of the docs and users of the monitor
+    why: The user asked for Pele with theming that matches mdBook; Mermaid ships 2.5 MB to the book and its own unthemed palette
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL render every Mermaid diagram in the docs with the pinned Pele, and fail CI on a diagram Pele cannot render.
+    tests:
+    - name: check:docs
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL render the monitor's diagrams with the pinned Pele through its sanitiser.
+    tests:
+    - name: monitor_diagrams_render_with_pele
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: 'THE SYSTEM SHALL colour diagrams from the current theme: each mdBook theme in the book, light and dark in the monitor.'
+    tests:
+    - name: 'manual: diagrams follow each mdBook theme and the monitor''s light and dark'
+      kind: manual
+      state: planned
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-20T13:07:20.661640122Z
+updated_at: 2026-10-20T13:07:20.759194785Z

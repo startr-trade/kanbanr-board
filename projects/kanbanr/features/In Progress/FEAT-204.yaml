@@ -59,9 +59,14 @@ definition:
     rev: 2041f0f227736725
     note: given in the session dialog
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-20T13:18:15.061154704Z
+    rev: 2041f0f227736725
+    status: In Progress
 history:
 - at: 2026-10-20T13:17:45.045891853Z
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:17:45.222985093Z
+updated_at: 2026-10-20T13:18:15.061154704Z

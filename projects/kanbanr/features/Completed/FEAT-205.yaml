@@ -1,6 +1,6 @@
 code: FEAT-205
 title: Board cards say plainly what an item needs next
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: bug
 priority: null
@@ -23,7 +23,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: 3 Changelog, make ci, manual check
-    state: InProgress
+    state: Completed
   created_at: 2026-10-20T13:17:45.222954473Z
 definition:
   statement: A board card says in plain words what the item needs before its next stage — or that it is waiting for a sign-off, or ready — and never claims ready while tasks or sign-offs are outstanding, so the board cannot be read as showing the wrong status.
@@ -83,5 +83,8 @@ history:
 - at: 2026-10-20T13:18:00.926608671Z
   from: Planned
   to: In Progress
+- at: 2026-10-20T13:57:35.119431408Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-20T13:17:29.325185724Z
-updated_at: 2026-10-20T13:57:35.067119058Z
+updated_at: 2026-10-20T13:57:35.119431408Z

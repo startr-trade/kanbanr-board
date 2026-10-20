@@ -41,7 +41,8 @@ definition:
     tests:
     - name: signoff_completes_a_held_item
       kind: unit
-      state: planned
+      state: green
+      checked_rev: b7b19855aefb73195b771744fe05c3bf4231419f
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:11:32.301277902Z
@@ -69,4 +70,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:18:15.061154704Z
+updated_at: 2026-10-20T14:03:47.4561808Z

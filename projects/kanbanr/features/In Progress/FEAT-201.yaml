@@ -58,7 +58,7 @@ definition:
     tests:
     - name: new_board_has_a_readme
       kind: integration
-      state: planned
+      state: green
   approval:
     by: Venkatraman B
     at: 2026-10-20T11:28:40.818420385Z
@@ -81,4 +81,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:50:10.612614388Z
+updated_at: 2026-10-20T11:50:10.662172483Z

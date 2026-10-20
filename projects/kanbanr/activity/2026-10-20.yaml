@@ -132,3 +132,7 @@
   actor: Venkatraman B
   message: test release::ui_bundle_attached of FEAT-178/R-1 is now green
   item: FEAT-178
+- time: 2026-10-20T11:18:26.156310824Z
+  actor: Venkatraman B
+  message: test web::api_base_url_configurable of FEAT-178/R-2 is now green
+  item: FEAT-178

@@ -43,7 +43,7 @@ definition:
     tests:
     - name: mermaid::tests::gate_notes_name_real_states
       kind: unit
-      state: planned
+      state: green
     - name: 'manual: the Workflow page draws the diagram and lists the method''s gates on this board'
       kind: manual
       state: planned
@@ -74,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T07:08:33.828245839Z
-updated_at: 2026-10-20T08:31:38.667829995Z
+updated_at: 2026-10-20T08:54:38.406938433Z

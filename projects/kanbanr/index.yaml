@@ -199,20 +199,6 @@
   - FEAT-189
   done: 0
   total: 8
-- code: FEAT-198
-  status: Completed
-  milestone: MS-004
-  kind: chore
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 3
-  total: 3
 - code: FEAT-199
   status: In Progress
   milestone: MS-004
@@ -2981,6 +2967,20 @@
   status: Completed
   milestone: MS-004
   kind: bug
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 3
+  total: 3
+- code: FEAT-198
+  status: Completed
+  milestone: MS-004
+  kind: chore
   priority: null
   start: null
   due: null

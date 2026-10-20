@@ -1,6 +1,6 @@
 code: FEAT-185
 title: 'Monitor: add an item to a release when it is ready, and promote a release between stages'
-status: Planned
+status: In Progress
 milestone: MS-008
 kind: feature
 priority: medium
@@ -68,5 +68,9 @@ definition:
     at: 2026-10-19T16:49:55.568569666Z
     rev: 08942f0bd853ba9f
     status: Planned
+history:
+- at: 2026-10-20T08:35:06.621874854Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-17T08:15:34.298365398Z
-updated_at: 2026-10-19T16:49:55.568569666Z
+updated_at: 2026-10-20T08:35:06.621874854Z

@@ -93,9 +93,14 @@ definition:
     at: 2026-10-19T16:51:31.007328919Z
     rev: 6dbb3a0cf54971d4
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-20T11:06:34.306391818Z
+    rev: 6dbb3a0cf54971d4
+    status: In Progress
 history:
 - at: 2026-10-20T08:35:06.854277472Z
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.082704495Z
-updated_at: 2026-10-20T09:12:48.428215563Z
+updated_at: 2026-10-20T11:06:34.306391818Z

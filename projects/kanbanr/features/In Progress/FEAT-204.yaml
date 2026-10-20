@@ -1,6 +1,6 @@
 code: FEAT-204
 title: A sign-off that clears the last hold finishes the item
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: null
@@ -49,5 +49,9 @@ definition:
     rev: 2041f0f227736725
     note: given in the session dialog
     status: Planned
+history:
+- at: 2026-10-20T13:17:45.045891853Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-20T13:11:32.146815156Z
-updated_at: 2026-10-20T13:11:32.365283738Z
+updated_at: 2026-10-20T13:17:45.045891853Z

@@ -1,6 +1,6 @@
 code: FEAT-199
 title: The Workflow page breaks on role-addressed gates
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: bug
 priority: null
@@ -51,5 +51,9 @@ definition:
     rev: dc7d575bb9de0c5e
     note: given in the session dialog
     status: Planned
+history:
+- at: 2026-10-20T07:09:52.948396294Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-20T07:08:33.828245839Z
-updated_at: 2026-10-20T07:09:52.789214875Z
+updated_at: 2026-10-20T07:09:52.948396294Z

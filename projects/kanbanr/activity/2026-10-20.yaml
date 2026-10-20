@@ -329,3 +329,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-205
   item: FEAT-205
+- time: 2026-10-20T13:17:44.969820542Z
+  actor: Venkatraman B
+  message: sign off design-review on FEAT-205
+  item: FEAT-205

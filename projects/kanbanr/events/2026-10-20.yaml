@@ -7,3 +7,12 @@
     by: Venkatraman B
     reason: ''
     status: Planned
+- time: 2026-10-20T06:31:28.488705276Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-198
+  message: Venkatraman B signed off design-review on FEAT-198
+  detail:
+    by: Venkatraman B
+    signoff: design-review
+    reason: ''

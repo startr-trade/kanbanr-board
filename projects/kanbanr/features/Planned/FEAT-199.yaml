@@ -12,5 +12,27 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: The Workflow page draws its diagram and lists each stage's gates as moves are actually judged, role-addressed gates and the built-in rule included, so a project using the method can see its process.
+  goals:
+  - G-5
+  zachman:
+    what: The workflow diagram's gate notes and the Stages panel
+    how: Both read the effective gates (role keys resolved, built-in rule synthesised) instead of the raw keys
+    where: kanbanr-core mermaid.rs and dispatch; the monitor's WorkflowPage
+    when: Whenever the Workflow page is opened
+    who: Anyone reading their project's process in the monitor
+    why: Since FEAT-193 the diagram fails with a Mermaid error and the panel shows no gates on boards with role-addressed gates
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL draw the workflow diagram and list each stage's gates from the gates moves are judged by, with every note on a declared state.
+    tests:
+    - name: mermaid::tests::gate_notes_name_real_states
+      kind: unit
+      state: planned
+    - name: 'manual: the Workflow page draws the diagram and lists the method''s gates on this board'
+      kind: manual
+      state: planned
 created_at: 2026-10-20T07:08:33.828245839Z
-updated_at: 2026-10-20T07:08:33.869339499Z
+updated_at: 2026-10-20T07:08:33.946647782Z

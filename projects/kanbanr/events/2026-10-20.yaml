@@ -106,3 +106,12 @@
   message: feature FEAT-200 added
   detail:
     status: Planned
+- time: 2026-10-20T11:06:32.05392091Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-178
+  message: Venkatraman B signed off docs-folded on FEAT-178
+  detail:
+    by: Venkatraman B
+    signoff: docs-folded
+    reason: ''

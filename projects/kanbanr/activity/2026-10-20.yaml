@@ -166,3 +166,7 @@
   actor: Venkatraman B
   message: sign off design-review on FEAT-201
   item: FEAT-201
+- time: 2026-10-20T11:43:02.015304653Z
+  actor: Venkatraman B
+  message: test review_queue_asks_release_for_ready_item of FEAT-185/R-1 is now green
+  item: FEAT-185

@@ -46,5 +46,15 @@ definition:
     - name: new_board_has_a_readme
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-20T11:28:40.818420385Z
+    rev: 67ed5b30f8cd9359
+  approvals:
+  - at: 2026-10-20T11:28:40.818420385Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 67ed5b30f8cd9359
+    status: Planned
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:25:59.878575615Z
+updated_at: 2026-10-20T11:28:40.818420385Z

@@ -29,3 +29,6 @@ Specs, docs and ADRs carry Mermaid diagrams in fenced `mermaid` blocks. kanbanr 
 
 ## Out of scope
 A full Mermaid grammar in Rust. The lint catches the common mistakes, and the review-page parse is the authoritative check.
+
+## Gating moves (added 2026-10-20)
+A project must be able to require `diagrams_valid` on **every** stage gate, so that no item moves between states while its spec, or any doc in its `affects_docs`, has a Mermaid block that fails the lint. `process check` must accept `diagrams_valid` in any gate's `requires`. When it fails, the move's refusal names each failing block (file, block number, line, rule). The lint result is computed at move time, not cached, so a fixed diagram unblocks the move immediately.

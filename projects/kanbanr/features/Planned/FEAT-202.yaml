@@ -34,5 +34,15 @@ definition:
     - name: 'manual: a release build reused from another folder through sccache still carries the monitor and the skill'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-20T13:00:40.441315484Z
+    rev: eb2a10e82f99c89b
+  approvals:
+  - at: 2026-10-20T13:00:40.441315484Z
+    by: Venkatraman B
+    verdict: approved
+    rev: eb2a10e82f99c89b
+    status: Planned
 created_at: 2026-10-20T13:00:14.343959554Z
-updated_at: 2026-10-20T13:00:14.417599477Z
+updated_at: 2026-10-20T13:00:40.441315484Z

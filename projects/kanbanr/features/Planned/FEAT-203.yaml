@@ -45,5 +45,15 @@ definition:
     - name: 'manual: diagrams follow each mdBook theme and the monitor''s light and dark'
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-20T13:07:59.457648921Z
+    rev: d9e5f392aa86d20b
+  approvals:
+  - at: 2026-10-20T13:07:59.457648921Z
+    by: Venkatraman B
+    verdict: approved
+    rev: d9e5f392aa86d20b
+    status: Planned
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-20T13:07:20.759194785Z
+updated_at: 2026-10-20T13:07:59.457648921Z

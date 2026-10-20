@@ -12,5 +12,39 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Every kanbanr board carries a README that tells someone who has never used kanbanr what the repository is and how to install kanbanr and see it as a board, written when the board is created and kept current.
+  goals:
+  - G-5
+  - G-1
+  zachman:
+    what: A generated README.md at the board repository's root, between markers, with the board's projects and the install-and-view steps
+    how: boardreadme renders the block; board creation and project changes write it; owner text outside the markers is kept; kanbanr readme and a doctor warning cover existing boards
+    where: kanbanr-core (boardreadme.rs, board creation, project paths, doctor); the CLI
+    when: On creating a board, on project create/rename/delete, and on request
+    who: Anyone who clones or browses a board, including teammates and the public
+    why: A board today shows only YAML folders, with nothing saying how to view it
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL keep a README at every board's root that names its projects and walks a reader through installing kanbanr and viewing the board in the monitor or the terminal.
+    tests:
+    - name: boardreadme::tests::readme_walks_a_reader_to_the_board
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN the README is refreshed, THE SYSTEM SHALL change only the text between its markers and keep everything the board's owner wrote outside them.
+    tests:
+    - name: boardreadme::tests::owner_text_is_kept
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHEN a board is created or its projects change, THE SYSTEM SHALL write the README in the same commit; and an existing board without one SHALL be told how to get it.
+    tests:
+    - name: new_board_has_a_readme
+      kind: integration
+      state: planned
 created_at: 2026-10-20T11:25:59.786876255Z
-updated_at: 2026-10-20T11:25:59.786876255Z
+updated_at: 2026-10-20T11:25:59.878575615Z

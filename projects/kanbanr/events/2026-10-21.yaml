@@ -497,3 +497,12 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-21T16:34:51.561793733Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-212
+  message: Venkatraman B signed off docs-folded on FEAT-212
+  detail:
+    by: Venkatraman B
+    signoff: docs-folded
+    reason: ""

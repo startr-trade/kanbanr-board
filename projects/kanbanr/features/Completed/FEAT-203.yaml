@@ -1,6 +1,6 @@
 code: FEAT-203
 title: Diagrams drawn by Pele, themed like the book and the monitor
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: null
 priority: null
@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T5
     text: 5 Docs, changelog, manual theme check (R-3), make ci
-    state: InProgress
+    state: Completed
   created_at: 2026-10-21T08:58:39.479073332Z
 definition:
   statement: Every Mermaid diagram in the book and the monitor is drawn by Pele and takes its colours from the reader's theme, so diagrams match the page in every mdBook theme and in the monitor's light and dark, with a far smaller download.
@@ -103,5 +103,8 @@ history:
 - at: 2026-10-21T08:58:30.198410396Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T09:36:45.424196294Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T09:09:18.808075871Z
+updated_at: 2026-10-21T09:36:45.424196294Z

@@ -1,6 +1,6 @@
 code: FEAT-215
 title: The skill states what each sub-agent may do
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: docs
 priority: High
@@ -73,5 +73,8 @@ history:
 - at: 2026-10-21T17:19:03.10241096Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T17:20:29.108021592Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:20:20.89417473Z
+updated_at: 2026-10-21T17:20:29.108021592Z

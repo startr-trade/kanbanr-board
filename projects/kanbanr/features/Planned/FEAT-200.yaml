@@ -242,5 +242,12 @@ definition:
     verdict: approved
     rev: 37e816dabf8d24eb
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-21T10:19:33.051534586Z
+    rev: 37e816dabf8d24eb
+    note: 'approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers'
+    status: Planned
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T10:19:32.966856075Z
+updated_at: 2026-10-21T10:19:33.051534586Z

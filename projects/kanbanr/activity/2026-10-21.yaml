@@ -147,3 +147,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-200
   item: FEAT-200
+- time: 2026-10-21T10:19:33.056055814Z
+  actor: Venkatraman B
+  message: sign off design-review on FEAT-200
+  item: FEAT-200

@@ -131,5 +131,8 @@ cadence:
     - path: docs/src/SUMMARY.md
       after: "- [Release notes](releases/index.md)"
       entry: "  - [{number}](releases/{version}.md)"
+    - path: docs/src/releases/index.md
+      after: work toward 1.0's [stability promise](../project/stability.md).
+      entry: "- **[{number}]({version}.md)**"
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

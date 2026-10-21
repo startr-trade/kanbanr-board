@@ -556,3 +556,7 @@
   actor: Venkatraman B
   message: test eventing::tests::coverage_gap_event of FEAT-197/R-9 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.975440345Z
+  actor: Venkatraman B
+  message: test doctor::tests::doctor_lists_uncovered_rules of FEAT-197/R-10 is now green
+  item: FEAT-197

@@ -160,7 +160,8 @@ definition:
     tests:
     - name: doctor::tests::doctor_lists_uncovered_rules
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-11
     kind: functional
     text: WHERE a stage, or the role it holds, names default `affects_docs`, THE SYSTEM SHALL add them to the item's `affects_docs` when it enters the stage, without lapsing approval.
@@ -246,4 +247,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.911469588Z
+updated_at: 2026-10-21T12:59:25.973095415Z

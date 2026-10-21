@@ -37,7 +37,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: '7 Process library: personal-aware resolve/list/drift; WorkflowFile::to_request/to_yaml'
-    state: InProgress
+    state: Completed
   - key: T8
     text: 8 Generated documents and small rules
     state: InProgress
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-21T10:21:17.195082757Z
+updated_at: 2026-10-21T10:43:09.00806108Z

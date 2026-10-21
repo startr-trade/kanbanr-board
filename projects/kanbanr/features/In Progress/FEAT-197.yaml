@@ -220,7 +220,8 @@ definition:
     tests:
     - name: "manual: skill coverage guidance present and matches docs/src/using/living-docs.md"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-17
     kind: functional
     text: WHEN a status is renamed, THE SYSTEM SHALL rename it in coverage rules.
@@ -255,4 +256,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.516224477Z
+updated_at: 2026-10-21T12:59:26.603507953Z

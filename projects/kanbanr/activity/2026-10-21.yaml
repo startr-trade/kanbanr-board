@@ -139,3 +139,7 @@
   actor: Venkatraman B
   message: approve definition of FEAT-197
   item: FEAT-197
+- time: 2026-10-21T10:19:32.625943744Z
+  actor: Venkatraman B
+  message: sign off design-review on FEAT-197
+  item: FEAT-197

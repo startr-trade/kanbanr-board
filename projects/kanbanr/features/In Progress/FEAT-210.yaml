@@ -1,6 +1,6 @@
 code: FEAT-210
 title: The release's install check misreads the monitor's relative bundle path
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: defect
 priority: High
@@ -48,5 +48,9 @@ definition:
     rev: 5a5ca978c44dd2c9
     note: given in the session dialog, 21 Oct 2026
     status: Planned
+history:
+- at: 2026-10-21T14:41:51.816512195Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-21T14:41:16.436390729Z
-updated_at: 2026-10-21T14:41:37.015420238Z
+updated_at: 2026-10-21T14:41:51.816512195Z

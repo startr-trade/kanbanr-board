@@ -321,3 +321,11 @@
     by: Venkatraman B
     signoff: design-review
     reason: ""
+- time: 2026-10-21T14:41:51.885956055Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-210
+  message: feature FEAT-210 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

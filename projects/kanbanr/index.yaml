@@ -40,6 +40,20 @@
   - FEAT-185
   done: 0
   total: 0
+- code: FEAT-212
+  status: Planned
+  milestone: MS-004
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-211
   status: In Progress
   milestone: MS-004
@@ -52,20 +66,6 @@
   team: null
   labels:
   - release
-  depends_on: []
-  done: 0
-  total: 0
-- code: FEAT-212
-  status: Planned
-  milestone: MS-004
-  kind: null
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
   depends_on: []
   done: 0
   total: 0

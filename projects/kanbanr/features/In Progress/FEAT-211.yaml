@@ -7,6 +7,7 @@ priority: High
 start: null
 due: null
 estimate_days: null
+sprint: SP-001
 assignee: null
 team: null
 labels:
@@ -62,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:02:15.400077034Z
+updated_at: 2026-10-21T15:02:15.576960963Z

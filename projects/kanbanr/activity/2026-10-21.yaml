@@ -1567,3 +1567,7 @@
   actor: Venkatraman B
   message: test agent_worktree_without_scope_is_refused of FEAT-214/R-4 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:37.547156176Z
+  actor: Venkatraman B
+  message: test agentscope::tests::commit_verdict_scoped of FEAT-214/R-5 is now green
+  item: FEAT-214

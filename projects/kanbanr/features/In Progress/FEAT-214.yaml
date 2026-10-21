@@ -235,9 +235,16 @@ definition:
     verdict: approved
     rev: 1602eb05339bb95a
     status: In Progress
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-21T19:53:54.360135195Z
+    rev: 1602eb05339bb95a
+    note: given in the session dialog, 22 Oct 2026, with R-4's TMPDIR test added
+    status: In Progress
 history:
 - at: 2026-10-21T17:57:58.926779313Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T19:53:54.224431916Z
+updated_at: 2026-10-21T19:53:54.360394678Z

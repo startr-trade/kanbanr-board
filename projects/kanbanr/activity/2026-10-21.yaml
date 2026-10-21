@@ -1818,3 +1818,7 @@
     scope: SC-001
     role: build
     item: FEAT-214
+- time: 2026-10-21T19:53:15.873358757Z
+  actor: Venkatraman B
+  message: "revoke agent scope SC-001: R-12 manual run done and reviewed"
+  item: FEAT-214

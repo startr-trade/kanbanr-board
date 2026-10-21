@@ -13,3 +13,6 @@
   note: "R-12 manual run: a small docs change on the TMPDIR fix"
   worktree: .claude/worktrees/agent-a962ff6098f533913
   claimed_at: 2026-10-21T19:46:41.113624703Z
+  revoked_at: 2026-10-21T19:53:15.87311125Z
+  revoked_by: Venkatraman B
+  revoked_reason: R-12 manual run done and reviewed

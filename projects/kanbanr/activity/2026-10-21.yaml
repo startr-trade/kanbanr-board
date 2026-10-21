@@ -548,3 +548,7 @@
   actor: Venkatraman B
   message: test readiness::tests::docs_cover_gate of FEAT-197/R-8 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.839005237Z
+  actor: Venkatraman B
+  message: test tests::docs_cover_blocks_move_until_covered of FEAT-197/R-8 is now green
+  item: FEAT-197

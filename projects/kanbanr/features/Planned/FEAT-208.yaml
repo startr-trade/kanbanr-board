@@ -2,8 +2,8 @@ code: FEAT-208
 title: "macOS: two daemon tests refuse their own scratch board"
 status: Planned
 milestone: MS-004
-kind: null
-priority: null
+kind: defect
+priority: High
 start: null
 due: null
 estimate_days: null
@@ -35,4 +35,4 @@ definition:
       kind: integration
       state: planned
 created_at: 2026-10-21T13:53:01.765060825Z
-updated_at: 2026-10-21T13:53:16.30376916Z
+updated_at: 2026-10-21T13:53:16.405143709Z

@@ -43,8 +43,8 @@
 - code: FEAT-208
   status: Planned
   milestone: MS-004
-  kind: null
-  priority: null
+  kind: defect
+  priority: High
   start: null
   due: null
   estimate_days: null

@@ -79,5 +79,6 @@ cadence:
   releases: true
   sprint_length_days: 7
   release: on_demand
+  git_model: true
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

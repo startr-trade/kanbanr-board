@@ -13,7 +13,14 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Skill subsection and pointers; the book's subsection; guard test; changelog
+    state: InProgress
+  created_at: 2026-10-21T17:19:03.310312429Z
 definition:
   statement: In every project using kanbanr, Claude briefs each sub-agent with precise boundaries for its role, build agents record their own progress, and the board never lags the code
   goals:
@@ -60,4 +67,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:19:03.10241096Z
+updated_at: 2026-10-21T17:19:03.310336156Z

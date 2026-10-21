@@ -1975,3 +1975,7 @@
 - time: 2026-10-21T20:18:23.540158264Z
   actor: Venkatraman B
   message: plan release v0.4.0
+- time: 2026-10-21T20:18:32.945401313Z
+  actor: Venkatraman B
+  message: issue agent scope SC-003 (design, FEAT-217)
+  item: FEAT-217

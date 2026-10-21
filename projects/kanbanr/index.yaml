@@ -85,6 +85,20 @@
   - FEAT-181
   done: 0
   total: 0
+- code: FEAT-187
+  status: In Progress
+  milestone: MS-004
+  kind: chore
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 7
 - code: FEAT-200
   status: In Progress
   milestone: MS-007
@@ -102,21 +116,7 @@
   - skill
   depends_on: []
   done: 0
-  total: 0
-- code: FEAT-187
-  status: In Progress
-  milestone: MS-004
-  kind: chore
-  priority: null
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
+  total: 9
 - code: FEAT-001
   status: Completed
   milestone: MS-001

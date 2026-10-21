@@ -382,3 +382,7 @@
   actor: Venkatraman B
   message: test config::tests::diagrams_config_defaults_off_and_round_trips of FEAT-200/R-17 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:17.808586272Z
+  actor: Venkatraman B
+  message: test local_mode::cli_config_diagrams_strict_toggles of FEAT-200/R-17 is now green
+  item: FEAT-200

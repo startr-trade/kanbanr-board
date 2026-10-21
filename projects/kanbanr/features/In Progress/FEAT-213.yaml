@@ -28,7 +28,7 @@ todo_lists:
     state: Completed
   - key: T4
     text: 4 Docs, changelog, manual check in light and dark
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-21T16:04:43.65743804Z
 definition:
   statement: The monitor's Workflow page shows in one place how work moves from an item branch to a tagged release, and every guard rail that will refuse a step on the way
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T16:02:15.359770841Z
-updated_at: 2026-10-21T16:25:19.436418345Z
+updated_at: 2026-10-21T16:25:19.513115068Z

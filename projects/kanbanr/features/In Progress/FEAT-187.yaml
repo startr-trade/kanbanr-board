@@ -35,7 +35,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: '7 This board: migrate a copy, compare approval states, then the real board'
-    state: NotStarted
+    state: InProgress
   created_at: 2026-10-21T10:48:22.522924523Z
 definition:
   statement: Board files read and written by a maintained, safe-Rust YAML library, with revisions that no longer depend on how YAML is written, for everyone whose board kanbanr keeps, so that no unmaintained parser touches the board and no approval lapses because a library formats text differently
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-21T12:16:55.576410017Z
+updated_at: 2026-10-21T12:16:55.633667574Z

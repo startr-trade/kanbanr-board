@@ -254,7 +254,8 @@ definition:
       checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: web::release_button_says_what_it_does
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
   approval:
     by: Venkatraman B
     at: 2026-10-21T19:36:37.949320535Z
@@ -282,4 +283,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:52.014395977Z
+updated_at: 2026-10-21T19:38:52.085931077Z

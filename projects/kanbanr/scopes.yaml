@@ -44,3 +44,6 @@
   note: draft the build-ready design
   worktree: .claude/worktrees/agent-af437971268ceb3a1
   claimed_at: 2026-10-21T20:19:10.017899025Z
+  revoked_at: 2026-10-21T20:31:44.655509508Z
+  revoked_by: Venkatraman B
+  revoked_reason: FEAT-217 design delivered

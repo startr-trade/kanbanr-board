@@ -2043,3 +2043,7 @@
   actor: Venkatraman B
   message: "revoke agent scope SC-002: FEAT-216 T1-T4 built and reviewed"
   item: FEAT-216
+- time: 2026-10-21T20:31:44.6558646Z
+  actor: Venkatraman B
+  message: "revoke agent scope SC-003: FEAT-217 design delivered"
+  item: FEAT-217

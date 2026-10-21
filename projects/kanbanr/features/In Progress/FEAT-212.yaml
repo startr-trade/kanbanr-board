@@ -78,7 +78,8 @@ definition:
     tests:
     - name: release_gates_read_beside_stage_names
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: release_stage_routes_round_trip
       kind: unit
       state: planned
@@ -256,4 +257,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:27.662344187Z
+updated_at: 2026-10-21T19:38:49.959939675Z

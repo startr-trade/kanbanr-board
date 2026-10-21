@@ -75,3 +75,7 @@
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-206
   item: FEAT-206
+- time: 2026-10-21T09:23:29.497380314Z
+  actor: Venkatraman B
+  message: 'test ci.yml supply-chain: cargo deny and cargo audit of FEAT-206/R-1 is now green'
+  item: FEAT-206

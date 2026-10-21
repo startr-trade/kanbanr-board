@@ -131,7 +131,7 @@
   - architecture
   - core
   depends_on: []
-  done: 9
+  done: 10
   total: 11
 - code: FEAT-001
   status: Completed

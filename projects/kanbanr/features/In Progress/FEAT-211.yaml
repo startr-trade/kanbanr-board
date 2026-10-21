@@ -8,6 +8,7 @@ start: null
 due: null
 estimate_days: null
 sprint: SP-001
+release: v0.2.1
 assignee: null
 team: null
 labels:
@@ -63,4 +64,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:02:15.576960963Z
+updated_at: 2026-10-21T15:02:15.701022609Z

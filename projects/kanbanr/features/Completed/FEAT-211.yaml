@@ -1,6 +1,6 @@
 code: FEAT-211
 title: Release 0.2.1
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: chore
 priority: High
@@ -77,5 +77,8 @@ history:
 - at: 2026-10-21T15:02:15.400077034Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T15:09:49.581180556Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:08:05.291662519Z
+updated_at: 2026-10-21T15:09:49.581180556Z

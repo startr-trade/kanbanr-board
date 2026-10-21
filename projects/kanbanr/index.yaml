@@ -55,7 +55,7 @@
   done: 0
   total: 0
 - code: FEAT-211
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: chore
   priority: High

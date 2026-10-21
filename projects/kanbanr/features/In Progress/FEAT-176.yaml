@@ -40,7 +40,7 @@ todo_lists:
     state: InProgress
   - key: T8
     text: 8 Generated documents and small rules
-    state: NotStarted
+    state: InProgress
   - key: T9
     text: 9 Mirror orchestration over an IssueTracker trait
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-21T10:11:53.186347165Z
+updated_at: 2026-10-21T10:11:53.242012277Z

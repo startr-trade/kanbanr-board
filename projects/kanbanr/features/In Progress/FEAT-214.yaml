@@ -164,7 +164,8 @@ definition:
       state: planned
     - name: dispatch::tests::scopes_route_lists_state
       kind: unit
-      state: planned
+      state: green
+      checked_rev: ec027dac6fa3a05d4289dc0547cd9a66f7fc98bb
   - id: R-11
     kind: functional
     text: WHERE no scope applies, THE SYSTEM SHALL behave as before
@@ -230,4 +231,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:28:49.924505119Z
+updated_at: 2026-10-21T18:28:56.766783375Z

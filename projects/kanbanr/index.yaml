@@ -43,7 +43,7 @@
 - code: FEAT-216
   status: In Progress
   milestone: MS-004
-  kind: feature
+  kind: defect
   priority: High
   start: null
   due: null

@@ -2,8 +2,8 @@ code: FEAT-217
 title: An item's code says what kind of work it is
 status: Planned
 milestone: MS-004
-kind: null
-priority: null
+kind: feature
+priority: High
 start: null
 due: null
 estimate_days: null
@@ -13,4 +13,4 @@ labels: []
 depends_on: []
 todo_lists: []
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-21T20:18:22.815971619Z
+updated_at: 2026-10-21T20:18:23.075608453Z

@@ -11,7 +11,26 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Pin Pele 1.7.0; tools/docs/pele.sh, committed docs/pele.global.js, identity check
+    state: NotStarted
+  - key: T2
+    text: '2 Book: drop mdbook-mermaid; pele-init.js, pele-theme.css, diagram-open.js retargeted'
+    state: NotStarted
+  - key: T3
+    text: 3 check:docs renders every diagram with Pele (R-1)
+    state: NotStarted
+  - key: T4
+    text: '4 Monitor: Markdown.tsx with Pele, palette mapping, mermaid removed (R-2)'
+    state: NotStarted
+  - key: T5
+    text: 5 Docs, changelog, manual theme check (R-3), make ci
+    state: NotStarted
+  created_at: 2026-10-21T08:58:39.479073332Z
 definition:
   statement: Every Mermaid diagram in the book and the monitor is drawn by Pele and takes its colours from the reader's theme, so diagrams match the page in every mdBook theme and in the monitor's light and dark, with a far smaller download.
   goals:
@@ -77,4 +96,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T08:58:30.198410396Z
+updated_at: 2026-10-21T08:58:39.479088464Z

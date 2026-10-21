@@ -762,3 +762,7 @@
   actor: Venkatraman B
   message: test promote_through_the_daemon_uses_the_repository_it_was_started_in of FEAT-208/R-1 is now green
   item: FEAT-208
+- time: 2026-10-21T14:03:00.737241426Z
+  actor: Venkatraman B
+  message: test monitor_promote_matches_cli of FEAT-208/R-1 is now green
+  item: FEAT-208

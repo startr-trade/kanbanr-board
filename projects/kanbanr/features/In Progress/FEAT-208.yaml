@@ -34,7 +34,8 @@ definition:
       checked_rev: 23d5ff5fd8abea9601408bde87a8c096fd1693aa
     - name: monitor_promote_matches_cli
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 23d5ff5fd8abea9601408bde87a8c096fd1693aa
   approval:
     by: Venkatraman B
     at: 2026-10-21T13:53:55.509292941Z
@@ -62,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T13:53:01.765060825Z
-updated_at: 2026-10-21T14:03:00.677379952Z
+updated_at: 2026-10-21T14:03:00.734992401Z

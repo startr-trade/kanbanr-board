@@ -1384,3 +1384,7 @@
   actor: Venkatraman B
   message: update task T3 (FEAT-214/TL-001)
   item: FEAT-214
+- time: 2026-10-21T18:18:24.091331783Z
+  actor: Venkatraman B
+  message: test agentscope::tests::scope_state_derives_issued_active_expired_revoked of FEAT-214/R-8 is now green
+  item: FEAT-214

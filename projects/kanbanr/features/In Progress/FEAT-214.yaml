@@ -134,7 +134,8 @@ definition:
     tests:
     - name: agentscope::tests::scope_state_derives_issued_active_expired_revoked
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 511fb0ecdf91ea6812c9cb252851649c802b4202
     - name: revoked_and_expired_scopes_refuse
       kind: integration
       state: planned
@@ -222,4 +223,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:17:57.711191954Z
+updated_at: 2026-10-21T18:18:24.088718344Z

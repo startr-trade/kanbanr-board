@@ -237,9 +237,16 @@ definition:
     verdict: approved
     rev: acb215cbb469aa46
     status: In Progress
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-21T19:36:38.058896528Z
+    rev: acb215cbb469aa46
+    note: given in the session dialog, 22 Oct 2026, with R-8's two follow-up tests added
+    status: In Progress
 history:
 - at: 2026-10-21T16:24:00.523605485Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:36:37.949320535Z
+updated_at: 2026-10-21T19:36:38.058896528Z

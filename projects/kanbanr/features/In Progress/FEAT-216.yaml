@@ -54,7 +54,8 @@ definition:
     tests:
     - name: release_notes_read_from_the_release_branch
       kind: unit
-      state: planned
+      state: green
+      checked_rev: d5ff24d632f5caebcb600d5bf377713445ca8909
   - id: R-2
     kind: functional
     text: WHEN a release's notes are edited before it is cut, THE SYSTEM SHALL commit them onto its release branch in one commit without checking it out, re-apply the notes listings, and refuse once the release has shipped
@@ -111,4 +112,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:14:58.551365358Z
+updated_at: 2026-10-21T20:14:58.626322721Z

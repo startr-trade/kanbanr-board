@@ -1,6 +1,6 @@
 code: FEAT-194
 title: "Skill and setup: one method for every process (design docs, live links, git model, releases)"
-status: Planned
+status: In Progress
 milestone: MS-009
 kind: feature
 priority: high
@@ -66,5 +66,9 @@ definition:
     at: 2026-10-19T16:52:00.463536796Z
     rev: cd679aa7d56ab9a6
     status: Planned
+history:
+- at: 2026-10-21T12:53:29.843735891Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T04:40:11.085162095Z
-updated_at: 2026-10-19T16:52:00.463536796Z
+updated_at: 2026-10-21T12:53:29.843735891Z

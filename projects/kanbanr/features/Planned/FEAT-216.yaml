@@ -74,5 +74,12 @@ definition:
     verdict: approved
     rev: b5b10d88e67c15f2
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-21T20:03:13.7615809Z
+    rev: b5b10d88e67c15f2
+    note: given in the session dialog, 22 Oct 2026
+    status: Planned
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:03:13.650923379Z
+updated_at: 2026-10-21T20:03:13.7615809Z

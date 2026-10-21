@@ -2050,3 +2050,6 @@
 - time: 2026-10-21T20:31:54.588615584Z
   actor: Venkatraman B
   message: "update config: release-prepare"
+- time: 2026-10-21T20:32:40.756118Z
+  actor: Venkatraman B
+  message: "release v0.3.0: notes edited"

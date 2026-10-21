@@ -95,5 +95,11 @@ cadence:
       - items_finished
       on_enter:
       - move_main
+    production:
+      requires:
+      - main_at_release
+      - pushed
+      on_enter:
+      - tag
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

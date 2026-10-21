@@ -403,3 +403,10 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-21T16:02:15.394021747Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-213
+  message: feature FEAT-213 added
+  detail:
+    status: Planned

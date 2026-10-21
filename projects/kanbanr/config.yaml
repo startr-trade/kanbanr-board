@@ -74,5 +74,8 @@ gates:
   Planned:
     roles:
     - design
+cadence:
+  sprints: false
+  releases: true
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

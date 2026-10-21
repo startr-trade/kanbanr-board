@@ -1404,3 +1404,7 @@
   actor: Venkatraman B
   message: test agentscope::tests::brief_names_item_branch_and_claim of FEAT-214/R-1 is now green
   item: FEAT-214
+- time: 2026-10-21T18:18:24.454705901Z
+  actor: Venkatraman B
+  message: test agentscope::tests::resolve_fails_closed of FEAT-214/R-4 is now green
+  item: FEAT-214

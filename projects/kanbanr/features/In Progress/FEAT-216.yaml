@@ -80,7 +80,8 @@ definition:
     tests:
     - name: web::release_notes_section
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 1b9c615411556162c59c8ab7c4e75814f4eab4d0
     - name: "manual: v0.3.0's notes rewritten from the Releases page in light and dark"
       kind: manual
       state: planned
@@ -116,4 +117,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:25:51.836043912Z
+updated_at: 2026-10-21T20:25:51.908532837Z

@@ -13,7 +13,26 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: "1 Core: ReleaseNotes, release_notes, set_release_notes"
+    state: NotStarted
+  - key: T2
+    text: 2 Routes, daemon read repo; CLI release notes (show, --file, --edit)
+    state: NotStarted
+  - key: T3
+    text: "3 Monitor: Release notes section with edit; check script"
+    state: NotStarted
+  - key: T4
+    text: 4 Docs, skill, changelog
+    state: NotStarted
+  - key: T5
+    text: "5 kanbanr's board: index.md listing; v0.3.0's notes rewritten; manual check (coordinator)"
+    state: NotStarted
+  created_at: 2026-10-21T20:03:14.187284127Z
 definition:
   statement: A release's notes are visible and editable from the release itself, in the CLI and on the Releases page, without switching branches or making a separate item
   goals:
@@ -86,4 +105,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:03:14.0075969Z
+updated_at: 2026-10-21T20:03:14.187301734Z

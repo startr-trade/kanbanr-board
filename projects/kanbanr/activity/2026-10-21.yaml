@@ -1203,3 +1203,7 @@
   actor: Venkatraman B
   message: test prepare_with_nothing_configured_makes_no_commit of FEAT-212/R-10 is now green
   item: FEAT-212
+- time: 2026-10-21T17:15:35.913107033Z
+  actor: Venkatraman B
+  message: test failed_promotion_undoes_every_step of FEAT-212/R-11 is now green
+  item: FEAT-212

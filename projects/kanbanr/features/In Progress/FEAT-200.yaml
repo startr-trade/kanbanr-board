@@ -283,7 +283,8 @@ definition:
     tests:
     - name: diagrams::tests::lint_is_linear
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-17
     kind: functional
     text: THE SYSTEM SHALL set strict mode with `kanbanr config diagrams --strict on|off`. An absent key is off and stays absent on disk.
@@ -331,4 +332,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:17.642583574Z
+updated_at: 2026-10-21T11:51:17.697651283Z

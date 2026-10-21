@@ -74,5 +74,10 @@ gates:
   Planned:
     roles:
     - design
+cadence:
+  sprints: true
+  releases: true
+  sprint_length_days: 7
+  release: on_demand
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

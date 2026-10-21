@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Pin Pele 1.7.0; tools/docs/pele.sh, committed docs/pele.global.js, identity check
-    state: NotStarted
+    state: Completed
   - key: T2
     text: '2 Book: drop mdbook-mermaid; pele-init.js, pele-theme.css, diagram-open.js retargeted'
     state: NotStarted
@@ -96,4 +96,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T08:58:39.479088464Z
+updated_at: 2026-10-21T09:06:17.656575705Z

@@ -16,5 +16,221 @@ labels:
 - skill
 depends_on: []
 todo_lists: []
+definition:
+  statement: Every Mermaid diagram written into a spec, doc or ADR is checked when it is written, by doctor, at gated moves and on the review page before Approve, so its author finds a broken diagram before a reviewer does
+  goals:
+  - G-2
+  - G-3
+  - G-5
+  - G-0
+  zachman:
+    what: A Pele-aligned diagram lint, a diagrams_valid gate check, a doctor scan, strict mode, and a parse on the review page and in the doc viewer
+    how: A pure-Rust line scanner with 8 rules called from the core write paths, readiness and doctor; the monitor runs Pele's parse on the blocks the core serves
+    where: kanbanr-core (diagrams.rs, readiness.rs, doctor.rs, store.rs, dispatch.rs, config.rs); the CLI's config diagrams and warnings; web ReviewPage.tsx and Markdown.tsx
+    when: On every spec or doc write, at every move into a gate that asks for it, on each doctor run, and when a review or doc page opens
+    who: Claude writing specs gets the warnings; the user approving sees the errors; projects opt into strict mode or the gate
+    why: Three agent-written specs carried invalid diagrams, found only by the reviewer at approval time
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a spec or markdown doc is written (feature add/edit, doc add, batch feature.add/feature.edit/doc.write), THE SYSTEM SHALL lint every fenced mermaid block and report each finding with file, block number, file line, rule and message.
+    tests:
+    - name: diagrams::tests::extracts_mermaid_blocks_with_file_lines
+      kind: unit
+      state: planned
+    - name: diagrams::tests::ignores_mermaid_inside_other_fences
+      kind: unit
+      state: planned
+    - name: dispatch::tests::write_reports_diagram_warnings
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHILE `diagrams.strict` is off (the default), THE SYSTEM SHALL complete the write and return findings as `diagram_warnings`, which the CLI prints on stderr.
+    tests:
+    - name: dispatch::tests::write_reports_diagram_warnings
+      kind: unit
+      state: planned
+    - name: local_mode::cli_feature_add_prints_diagram_warning
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: WHILE `diagrams.strict` is on, IF the written text has a finding, THE SYSTEM SHALL refuse the write, change nothing (for a batch, nothing at all), and name each finding.
+    tests:
+    - name: store::tests::strict_diagrams_refuse_the_write
+      kind: unit
+      state: planned
+    - name: store::tests::strict_diagrams_refuse_the_whole_batch
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL report an empty block (`empty_block`) and a first significant line naming no diagram type Pele knows (`unknown_type`).
+    tests:
+    - name: diagrams::tests::empty_and_unknown_type
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: THE SYSTEM SHALL report a `;` followed by more text inside a sequence message, note or participant alias, or a class relation label (`semicolon_in_text`).
+    tests:
+    - name: diagrams::tests::semicolon_in_text
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-6
+    kind: functional
+    text: THE SYSTEM SHALL report an unquoted flowchart node, subgraph or edge label containing `" | { } ( ) [ ]` (`label_punctuation`), and a label or quote that is never closed (`unbalanced_label`).
+    tests:
+    - name: diagrams::tests::flowchart_label_punctuation
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-7
+    kind: functional
+    text: THE SYSTEM SHALL report `end` used as a flowchart node id, a subgraph id, or a sequence participant (`end_as_id`).
+    tests:
+    - name: diagrams::tests::end_is_never_an_id
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-8
+    kind: functional
+    text: THE SYSTEM SHALL report unbalanced subgraph/alt/loop/opt/par/critical/break/rect/box … `end`, misplaced `else`/`and`/`option`, and unbalanced `{}` in state and class diagrams (`unbalanced_block`).
+    tests:
+    - name: diagrams::tests::blocks_are_balanced
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-9
+    kind: functional
+    text: THE SYSTEM SHALL report a sequence-diagram line that does not declare or use a participant and is not a note, block keyword or directive (`unknown_statement`).
+    tests:
+    - name: diagrams::tests::sequence_lines_are_statements
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-10
+    kind: functional
+    text: THE SYSTEM SHALL flag no fixture case that Pele 1.7.0 parses, and Pele SHALL reject every fixture case that names a rule.
+    tests:
+    - name: check:diagram-lint
+      kind: integration
+      state: planned
+    - name: scripts/check-diagram-lint.mjs
+      kind: unit
+      state: planned
+    - name: diagrams::tests::lint_cases_fixture
+      kind: unit
+      state: planned
+  - id: R-11
+    kind: functional
+    text: WHEN `kanbanr doctor` runs, THE SYSTEM SHALL list every lint finding in every item's spec and every markdown doc on the board, each naming file, block, line and rule.
+    tests:
+    - name: doctor::tests::doctor_lists_diagram_findings
+      kind: unit
+      state: planned
+  - id: R-12
+    kind: functional
+    text: THE SYSTEM SHALL accept `diagrams_valid` in any gate's `requires` or `warns` (`process check`, workflow save) and list it with its meaning in `process checks`.
+    tests:
+    - name: readiness::tests::diagrams_valid_in_vocabulary
+      kind: unit
+      state: planned
+    - name: readiness::tests::the_guides_check_table_matches_process_checks
+      kind: unit
+      state: planned
+    - name: local_mode::cli_process_check_accepts_diagrams_valid
+      kind: integration
+      state: planned
+  - id: R-13
+    kind: functional
+    text: WHEN an item moves into a status whose gate requires `diagrams_valid`, THE SYSTEM SHALL lint its spec and each `affects_docs` doc at that moment and, IF any finding exists, refuse the move naming file, block, line and rule for each.
+    tests:
+    - name: readiness::tests::diagrams_valid_gate_blocks_and_names_findings
+      kind: unit
+      state: planned
+  - id: R-14
+    kind: functional
+    text: WHEN the review page shows an item, THE SYSTEM SHALL parse every block of its spec and `affects_docs` with Pele, list each error with file, block, line and a link to the source, and keep Approve/Ratify disabled until all parse.
+    tests:
+    - name: check:diagram-review
+      kind: integration
+      state: planned
+    - name: scripts/check-diagram-review.mjs
+      kind: unit
+      state: planned
+    - name: checkBlocks
+      kind: unit
+      state: planned
+    - name: locateError
+      kind: unit
+      state: planned
+    - name: approveBlocker
+      kind: unit
+      state: planned
+    - name: check:api-types
+      kind: integration
+      state: planned
+    - name: contract_matches_openapi
+      kind: integration
+      state: planned
+    - name: 'manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link, '
+      kind: manual
+      state: planned
+  - id: R-15
+    kind: functional
+    text: WHEN a diagram in rendered markdown fails to parse, THE SYSTEM SHALL show its source and the error with its line under it.
+    tests:
+    - name: check:diagram-review
+      kind: integration
+      state: planned
+    - name: locateError
+      kind: unit
+      state: planned
+    - name: check:markdown
+      kind: integration
+      state: planned
+  - id: R-16
+    kind: nfr
+    text: THE SYSTEM SHALL lint 2 MiB of markdown holding 1,000 blocks within 1 s in a debug build.
+    tests:
+    - name: diagrams::tests::lint_is_linear
+      kind: unit
+      state: planned
+  - id: R-17
+    kind: functional
+    text: THE SYSTEM SHALL set strict mode with `kanbanr config diagrams --strict on|off`. An absent key is off and stays absent on disk.
+    tests:
+    - name: config::tests::diagrams_config_defaults_off_and_round_trips
+      kind: unit
+      state: planned
+    - name: local_mode::cli_config_diagrams_strict_toggles
+      kind: integration
+      state: planned
+  - id: R-18
+    kind: functional
+    text: 'THE SYSTEM SHALL carry diagram guidance in the skill: quote flowchart labels; keep sequence messages to plain words; never use `end` as an id; run `kanbanr doctor` after writing diagrams.'
+    tests:
+    - name: skill::tests::skill_carries_diagram_guidance
+      kind: unit
+      state: planned
+    - name: diagrams_valid
+      kind: unit
+      state: planned
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T10:19:26.237688937Z
+updated_at: 2026-10-21T10:19:26.291104968Z

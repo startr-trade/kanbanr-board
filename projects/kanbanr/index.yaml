@@ -53,7 +53,7 @@
   labels: []
   depends_on: []
   done: 10
-  total: 11
+  total: 13
 - code: FEAT-214
   status: In Progress
   milestone: MS-004

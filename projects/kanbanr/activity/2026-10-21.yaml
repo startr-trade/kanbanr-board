@@ -560,3 +560,7 @@
   actor: Venkatraman B
   message: test doctor::tests::doctor_lists_uncovered_rules of FEAT-197/R-10 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:26.038830205Z
+  actor: Venkatraman B
+  message: test tests::default_affects_docs_on_entry of FEAT-197/R-11 is now green
+  item: FEAT-197

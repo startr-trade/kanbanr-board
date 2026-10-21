@@ -196,7 +196,8 @@ definition:
       checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
     - name: "manual: on kanbanr's board, v0.3.0 goes Promote to candidate, Promote to main, then Cut v0.3.0 disabled until main is pushed, then one click cuts it, in light and dark"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: f7d8bb677b6f60f586cc2dbcb2e02bdf2a51b294
   - id: R-13
     kind: functional
     text: WHEN release promote --plan is run, THE SYSTEM SHALL print the plan and change nothing; after a promotion it SHALL print what is next
@@ -268,4 +269,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:20:05.397927584Z
+updated_at: 2026-10-21T17:25:21.631733436Z

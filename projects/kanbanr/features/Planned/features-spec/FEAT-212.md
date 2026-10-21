@@ -24,5 +24,18 @@ main; the final stage (the cut) tags main. Pushing code and tags stays the user'
   draft (from its items) onto `release/<V>`, which kanbanr may write although people may not.
   FEAT-207 and FEAT-211 are the redundancy this removes.
 
+- **One click to cut** (the user, 21 Oct 2026, cutting 0.2.1): today "Promote to production (cut)"
+  opens a second panel with a "Cut <V>" button. The cut's button should say what it does ("Cut
+  v0.2.1") and show its preview (the commit it will tag, what ships and what carries over) beside
+  it, so one click cuts. The stage's conditions (main at the release tip, on `origin/main`) are what
+  keep it safe: the button is offered only once they hold, and says what is missing until then.
+
+## As lived with 0.2.1 (21 Oct 2026)
+Stages `candidate, production`. Promote to candidate made `release/v0.2.1` from `sprint/SP-001`;
+main was fast-forwarded to it by hand; the user pushed main and CI went green; the cut tagged
+`0685a5b`, which main already was; the user pushed the tag and the release ran green. The manual
+fast-forward, the separate release-prep item (FEAT-211) and the second confirmation click are what
+this item removes.
+
 ## Design
 _To be written and agreed before build._

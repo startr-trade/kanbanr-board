@@ -121,7 +121,8 @@ definition:
     tests:
     - name: local_mode::coverage_warns_on_adr_accept_and_doc_write
       kind: integration
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-7
     kind: functional
     text: WHEN a sprint closes or a release is cut or promoted, THE SYSTEM SHALL report every uncovered rule as a warning.
@@ -241,4 +242,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.560093634Z
+updated_at: 2026-10-21T12:59:25.645738632Z

@@ -258,3 +258,7 @@
   actor: Venkatraman B
   message: test diagrams::tests::lint_cases_fixture of FEAT-200/R-4 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:16.144498112Z
+  actor: Venkatraman B
+  message: test diagrams::tests::semicolon_in_text of FEAT-200/R-5 is now green
+  item: FEAT-200

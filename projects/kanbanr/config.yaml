@@ -101,5 +101,35 @@ cadence:
       - pushed
       on_enter:
       - tag
+  release_prepare:
+    version_files:
+    - path: api/Cargo.toml
+    - path: api/Cargo.lock
+      match: |-
+        name = "kanbanr-core"
+        version = "{version}"
+    - path: api/Cargo.lock
+      match: |-
+        name = "kanbanr-cli"
+        version = "{version}"
+    - path: api/Cargo.lock
+      match: |-
+        name = "kanbanr-server"
+        version = "{version}"
+    - path: editor/vscode/package.json
+    - path: editor/vscode/package-lock.json
+      match: "\"name\": \"kanbanr\", \"version\": \"{version}\""
+    - path: web/package.json
+    - path: web/package-lock.json
+      match: "\"name\": \"kanbanr-web\", \"version\": \"{version}\""
+    - path: .claude-plugin/plugin.json
+    changelog: CHANGELOG.md
+    changelog_copies:
+    - docs/src/project/changelog.md
+    notes: docs/src/releases/{version}.md
+    notes_listings:
+    - path: docs/src/SUMMARY.md
+      after: "- [Release notes](releases/index.md)"
+      entry: "  - [{number}](releases/{version}.md)"
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

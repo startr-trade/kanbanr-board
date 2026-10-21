@@ -65,7 +65,8 @@ definition:
     tests:
     - name: 'manual: diagrams follow each mdBook theme and the monitor''s light and dark'
       kind: manual
-      state: planned
+      state: green
+      checked_rev: 39c013b573becb23d56b0201057447ff03ff9e78
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:08:19.305531807Z
@@ -98,4 +99,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T09:06:17.942797965Z
+updated_at: 2026-10-21T09:06:17.991396691Z

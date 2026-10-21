@@ -100,7 +100,7 @@ definition:
     - name: scoped_agent_records_task_and_test_but_cannot_move
       kind: integration
       state: green
-      checked_rev: 1f7713e46f8669585322e9d51c106be52c90928b
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
   - id: R-4
     kind: functional
     text: IF a board write or commit comes from an agent worktree with no valid scope bound to it, THEN THE SYSTEM SHALL refuse it
@@ -246,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:37.255911358Z
+updated_at: 2026-10-21T18:53:37.326863898Z

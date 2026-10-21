@@ -164,5 +164,15 @@ definition:
     - name: store::tests::hold_skips_auto_advance
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T17:57:53.035069096Z
+    rev: 201ea5a68abc7264
+  approvals:
+  - at: 2026-10-21T17:57:53.035069096Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 201ea5a68abc7264
+    status: Planned
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T17:32:08.029610684Z
+updated_at: 2026-10-21T17:57:53.035069096Z

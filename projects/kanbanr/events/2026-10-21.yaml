@@ -590,3 +590,12 @@
   detail:
     status: Completed
     terminal: true
+- time: 2026-10-21T17:57:53.041892165Z
+  project: kanbanr
+  kind: approval_recorded
+  feature: FEAT-214
+  message: Venkatraman B approved FEAT-214
+  detail:
+    by: Venkatraman B
+    reason: ""
+    status: Planned

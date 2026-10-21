@@ -1559,3 +1559,7 @@
   actor: Venkatraman B
   message: test scoped_agent_records_task_and_test_but_cannot_move of FEAT-214/R-3 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:37.403868139Z
+  actor: Venkatraman B
+  message: test agentscope::tests::resolve_fails_closed of FEAT-214/R-4 is now green
+  item: FEAT-214

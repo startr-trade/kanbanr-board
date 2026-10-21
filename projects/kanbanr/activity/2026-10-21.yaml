@@ -588,3 +588,7 @@
   actor: Venkatraman B
   message: test readiness::tests::docs_cover_unknown_rule_is_error of FEAT-197/R-14 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:26.518778077Z
+  actor: Venkatraman B
+  message: test coverage::tests::snapshot_reads_only_source_docs_linearly of FEAT-197/R-15 is now green
+  item: FEAT-197

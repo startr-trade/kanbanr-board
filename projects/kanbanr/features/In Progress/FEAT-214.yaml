@@ -243,9 +243,14 @@ definition:
     rev: 1602eb05339bb95a
     note: given in the session dialog, 22 Oct 2026, with R-4's TMPDIR test added
     status: In Progress
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-21T19:54:29.423604286Z
+    rev: 1602eb05339bb95a
+    status: In Progress
 history:
 - at: 2026-10-21T17:57:58.926779313Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T19:53:54.433935867Z
+updated_at: 2026-10-21T19:54:29.423827122Z

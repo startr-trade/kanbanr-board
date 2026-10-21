@@ -678,3 +678,12 @@
     by: Venkatraman B
     signoff: design-review
     reason: ""
+- time: 2026-10-21T19:54:29.430469896Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-214
+  message: Venkatraman B signed off docs-folded on FEAT-214
+  detail:
+    by: Venkatraman B
+    signoff: docs-folded
+    reason: ""

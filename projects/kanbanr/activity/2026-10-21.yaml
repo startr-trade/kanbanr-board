@@ -1874,3 +1874,6 @@
 - time: 2026-10-21T20:02:46.212830244Z
   actor: Venkatraman B
   message: add a release
+- time: 2026-10-21T20:02:46.306703533Z
+  actor: Venkatraman B
+  message: plan release v0.4.0

@@ -148,7 +148,8 @@ definition:
       checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
     - name: changelog_heading_dated_with_compare_links
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
     - name: commit_files_moves_branch_without_checkout
       kind: unit
       state: planned
@@ -249,4 +250,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:15:35.462689793Z
+updated_at: 2026-10-21T17:15:35.528918399Z

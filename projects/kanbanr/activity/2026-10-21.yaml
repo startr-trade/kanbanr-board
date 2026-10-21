@@ -1183,3 +1183,7 @@
   actor: Venkatraman B
   message: test version_template_sets_first_or_every_match of FEAT-212/R-8 is now green
   item: FEAT-212
+- time: 2026-10-21T17:15:35.531467297Z
+  actor: Venkatraman B
+  message: test changelog_heading_dated_with_compare_links of FEAT-212/R-8 is now green
+  item: FEAT-212

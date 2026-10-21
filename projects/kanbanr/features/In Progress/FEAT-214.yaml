@@ -191,7 +191,8 @@ definition:
     tests:
     - name: skill::tests::skill_issues_a_scope_before_each_sub_agent
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
     - name: "manual: an orchestrated build agent records its own tasks and is refused a move"
       kind: manual
       state: planned
@@ -246,4 +247,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:44.566137029Z
+updated_at: 2026-10-21T18:53:44.633306813Z

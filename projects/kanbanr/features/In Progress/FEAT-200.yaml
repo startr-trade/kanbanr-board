@@ -215,7 +215,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: local_mode::cli_process_check_accepts_diagrams_valid
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-13
     kind: functional
     text: WHEN an item moves into a status whose gate requires `diagrams_valid`, THE SYSTEM SHALL lint its spec and each `affects_docs` doc at that moment and, IF any finding exists, refuse the move naming file, block, line and rule for each.
@@ -318,4 +319,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.962153706Z
+updated_at: 2026-10-21T11:51:17.012943896Z

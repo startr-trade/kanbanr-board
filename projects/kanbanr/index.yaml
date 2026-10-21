@@ -116,7 +116,7 @@
   - skill
   depends_on: []
   done: 0
-  total: 9
+  total: 10
 - code: FEAT-001
   status: Completed
   milestone: MS-001

@@ -540,3 +540,7 @@
   actor: Venkatraman B
   message: test local_mode::coverage_warns_on_adr_accept_and_doc_write of FEAT-197/R-6 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.709920769Z
+  actor: Venkatraman B
+  message: test tests::coverage_reports_all_at_sprint_close_and_cut of FEAT-197/R-7 is now green
+  item: FEAT-197

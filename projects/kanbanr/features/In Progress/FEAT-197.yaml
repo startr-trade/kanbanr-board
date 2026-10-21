@@ -129,7 +129,8 @@ definition:
     tests:
     - name: tests::coverage_reports_all_at_sprint_close_and_cut
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
     - name: dispatch
       kind: unit
       state: planned
@@ -242,4 +243,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.645738632Z
+updated_at: 2026-10-21T12:59:25.706429213Z

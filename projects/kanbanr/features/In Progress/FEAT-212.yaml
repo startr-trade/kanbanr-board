@@ -202,7 +202,8 @@ definition:
     tests:
     - name: web::release_button_says_what_it_does
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: release_plan_route_matches_promote
       kind: integration
       state: planned
@@ -274,4 +275,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.398032441Z
+updated_at: 2026-10-21T19:38:51.473404498Z

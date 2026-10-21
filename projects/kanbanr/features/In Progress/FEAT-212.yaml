@@ -218,7 +218,8 @@ definition:
     tests:
     - name: promote_plan_changes_nothing
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
   - id: R-14
     kind: functional
     text: IF the release tip differs from the plan the caller saw, THEN THE SYSTEM SHALL refuse the promotion
@@ -277,4 +278,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.647869498Z
+updated_at: 2026-10-21T19:38:51.721065327Z

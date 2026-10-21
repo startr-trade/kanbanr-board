@@ -3,10 +3,19 @@
   state: planned
 - version: v0.2.1
   name: Fixes after 0.2.0
-  state: planned
-  stage: candidate
+  state: shipped
+  shipped_at: 2026-10-21T15:17:20.586686634Z
+  shipped:
+  - FEAT-209
+  - FEAT-210
+  - FEAT-211
+  notes_doc: releases/v0.2.1.md
+  stage: production
   stages:
   - stage: candidate
     by: Venkatraman B
     at: 2026-10-21T15:10:23.753904876Z
+  - stage: production
+    by: Venkatraman B
+    at: 2026-10-21T15:17:20.4344929Z
   branch: release/v0.2.1

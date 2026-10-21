@@ -954,3 +954,6 @@
 - time: 2026-10-21T15:10:23.800108296Z
   actor: Venkatraman B
   message: promote release v0.2.1 to candidate
+- time: 2026-10-21T15:17:20.589135028Z
+  actor: Venkatraman B
+  message: promote release v0.2.1 to production

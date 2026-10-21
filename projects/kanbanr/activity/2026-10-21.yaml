@@ -1167,3 +1167,7 @@
   actor: Venkatraman B
   message: test move_main_stage_fast_forwards_without_tagging of FEAT-212/R-5 is now green
   item: FEAT-212
+- time: 2026-10-21T17:15:35.263214093Z
+  actor: Venkatraman B
+  message: test cut_tags_main_only_when_pushed of FEAT-212/R-6 is now green
+  item: FEAT-212

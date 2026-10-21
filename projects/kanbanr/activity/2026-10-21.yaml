@@ -378,3 +378,7 @@
   actor: Venkatraman B
   message: test diagrams::tests::lint_is_linear of FEAT-200/R-16 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:17.756090182Z
+  actor: Venkatraman B
+  message: test config::tests::diagrams_config_defaults_off_and_round_trips of FEAT-200/R-17 is now green
+  item: FEAT-200

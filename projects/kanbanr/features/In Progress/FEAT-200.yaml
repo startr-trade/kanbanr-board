@@ -291,7 +291,8 @@ definition:
     tests:
     - name: config::tests::diagrams_config_defaults_off_and_round_trips
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: local_mode::cli_config_diagrams_strict_toggles
       kind: integration
       state: planned
@@ -332,4 +333,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:17.697651283Z
+updated_at: 2026-10-21T11:51:17.752701441Z

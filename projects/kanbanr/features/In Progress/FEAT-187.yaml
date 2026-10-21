@@ -17,7 +17,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Fixtures from v0.1.7 (state matrix, expected-states.json)
-    state: InProgress
+    state: Completed
   - key: T2
     text: 2 yaml.rs on serde-saphyr; every call site; errors; Extra
     state: NotStarted
@@ -124,4 +124,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-21T12:16:55.155691192Z
+updated_at: 2026-10-21T12:16:55.212966322Z

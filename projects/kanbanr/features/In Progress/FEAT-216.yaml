@@ -71,7 +71,8 @@ definition:
     tests:
     - name: cli_release_notes_shows_and_saves
       kind: integration
-      state: planned
+      state: green
+      checked_rev: d5ff24d632f5
   - id: R-4
     kind: functional
     text: THE SYSTEM SHALL show a release's notes on the Releases page and, on a write-enabled monitor before the cut, let them be edited and saved
@@ -114,4 +115,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:14:58.829897347Z
+updated_at: 2026-10-21T20:17:40.972626822Z

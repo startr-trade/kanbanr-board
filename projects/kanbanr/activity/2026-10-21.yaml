@@ -1219,3 +1219,7 @@
   actor: Venkatraman B
   message: test promote_plan_changes_nothing of FEAT-212/R-13 is now green
   item: FEAT-212
+- time: 2026-10-21T17:15:36.232184223Z
+  actor: Venkatraman B
+  message: test promote_refuses_when_release_moved_since_plan of FEAT-212/R-14 is now green
+  item: FEAT-212

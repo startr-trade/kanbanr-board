@@ -16,3 +16,16 @@
   revoked_at: 2026-10-21T19:53:15.87311125Z
   revoked_by: Venkatraman B
   revoked_reason: R-12 manual run done and reviewed
+- id: SC-002
+  role: build
+  item: FEAT-216
+  operations:
+  - task.state
+  - test.state
+  - commit
+  branch: feat/FEAT-216-a-release-s-notes-can-be-read-and-edited
+  base: 47b4c5e58222acf333bcf457b862aaf3b8b2e2ce
+  issued_by: Venkatraman B
+  issued_at: 2026-10-21T20:03:14.263265049Z
+  expires_at: 2026-10-22T04:03:14.263265049Z
+  note: tasks T1-T4

@@ -152,7 +152,8 @@ definition:
     tests:
     - name: eventing::tests::coverage_gap_event
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-10
     kind: functional
     text: THE SYSTEM SHALL list every uncovered rule in `doctor`, and report invalid rules and unknown rule ids in gates as errors.
@@ -245,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.836670846Z
+updated_at: 2026-10-21T12:59:25.911469588Z

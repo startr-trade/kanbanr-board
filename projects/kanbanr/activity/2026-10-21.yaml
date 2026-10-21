@@ -552,3 +552,7 @@
   actor: Venkatraman B
   message: test tests::docs_cover_blocks_move_until_covered of FEAT-197/R-8 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.91415787Z
+  actor: Venkatraman B
+  message: test eventing::tests::coverage_gap_event of FEAT-197/R-9 is now green
+  item: FEAT-197

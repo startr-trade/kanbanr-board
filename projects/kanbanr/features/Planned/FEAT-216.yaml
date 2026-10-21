@@ -61,7 +61,7 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-21T20:03:13.523154916Z
+    at: 2026-10-21T20:03:13.650923379Z
     rev: b5b10d88e67c15f2
   approvals:
   - at: 2026-10-21T20:03:13.523154916Z
@@ -69,5 +69,10 @@ definition:
     verdict: approved
     rev: b5b10d88e67c15f2
     status: Planned
+  - at: 2026-10-21T20:03:13.650923379Z
+    by: Venkatraman B
+    verdict: approved
+    rev: b5b10d88e67c15f2
+    status: Planned
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:03:13.523154916Z
+updated_at: 2026-10-21T20:03:13.650923379Z

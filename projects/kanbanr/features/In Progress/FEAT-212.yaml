@@ -40,7 +40,7 @@ todo_lists:
     state: Completed
   - key: T8
     text: "8 CLI: promote --plan, release stages, config release-stage/release-prepare"
-    state: NotStarted
+    state: Completed
   - key: T9
     text: "9 Web: one-button Releases page; check-release-action"
     state: NotStarted
@@ -237,4 +237,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:12:51.912080605Z
+updated_at: 2026-10-21T17:12:51.981778243Z

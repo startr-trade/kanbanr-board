@@ -205,31 +205,23 @@ definition:
     - name: release_flow_as_lived_with_0_2_1
       kind: integration
       state: planned
+  - id: R-17
+    kind: functional
+    text: IF a release has no items planned into it, THEN THE SYSTEM SHALL refuse to promote it to any stage, change nothing, and offer no promote button, saying how to plan items in
+    tests:
+    - name: an_empty_release_cannot_be_promoted
+      kind: integration
+      state: planned
+    - name: web::release_button_says_what_it_does
+      kind: unit
+      state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-21T16:24:00.172735069Z
     rev: 3e44a77255ae59c7
-  approvals:
-  - at: 2026-10-21T16:24:00.172735069Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 3e44a77255ae59c7
-    status: Planned
-  signoffs:
-  - id: design-review
-    by: Venkatraman B
-    at: 2026-10-21T16:24:00.281178464Z
-    rev: 3e44a77255ae59c7
-    note: given in the session dialog, 21 Oct 2026
-    status: Planned
-  - id: docs-folded
-    by: Venkatraman B
-    at: 2026-10-21T16:34:51.547893761Z
-    rev: 3e44a77255ae59c7
-    status: In Progress
 history:
 - at: 2026-10-21T16:24:00.523605485Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T16:34:51.547893761Z
+updated_at: 2026-10-21T16:58:22.520730546Z

@@ -22,7 +22,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: "2 Daemon: the repository for the git routes; daemon_serves_git_model_with_its_repository"
-    state: NotStarted
+    state: Completed
   - key: T3
     text: "3 Web: Cadence, Git model and Guard rails sections; types, api; check script"
     state: NotStarted
@@ -109,4 +109,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T16:02:15.359770841Z
-updated_at: 2026-10-21T16:25:19.269397671Z
+updated_at: 2026-10-21T16:25:19.340598972Z

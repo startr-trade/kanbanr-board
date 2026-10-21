@@ -512,3 +512,7 @@
   actor: Venkatraman B
   message: test coverage::tests::rules_parse_and_validate of FEAT-197/R-1 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.219588054Z
+  actor: Venkatraman B
+  message: test tests::set_coverage_refuses_invalid_rules of FEAT-197/R-1 is now green
+  item: FEAT-197

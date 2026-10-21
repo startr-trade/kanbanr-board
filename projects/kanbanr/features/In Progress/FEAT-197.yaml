@@ -77,7 +77,8 @@ definition:
       checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
     - name: tests::set_coverage_refuses_invalid_rules
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-2
     kind: functional
     text: "THE SYSTEM SHALL count a subject as referenced only when a source doc names it as `refs::find` finds references: live links, including relative ones, and board-shaped tokens; a requirement reference covers its item."
@@ -235,4 +236,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.137462593Z
+updated_at: 2026-10-21T12:59:25.215175714Z

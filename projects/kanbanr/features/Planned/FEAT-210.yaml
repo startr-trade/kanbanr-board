@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release's install check confirms the installed binary serves its monitor, whether the monitor names its bundle by an absolute or a relative path
+  goals:
+  - G-6
+  zachman:
+    what: The bundle check in the release's install verification
+    how: Accept /assets/ and ./assets/ in index.html
+    where: scripts/verify-install.sh, scripts/verify-install.ps1
+    when: After every release is published, and in make ci against the latest release
+    who: The maintainer cutting a release
+    why: Since FEAT-178 the monitor names ./assets/, and v0.2.0's install checks failed though the binary was right
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a published release is verified, THE SYSTEM SHALL find the bundle the served index.html names, by an absolute or a relative path, and fetch it
+    tests:
+    - name: "manual: verify-install.sh passes against the published v0.2.0"
+      kind: manual
+      state: planned
 created_at: 2026-10-21T14:41:16.436390729Z
-updated_at: 2026-10-21T14:41:16.436390729Z
+updated_at: 2026-10-21T14:41:16.503185182Z

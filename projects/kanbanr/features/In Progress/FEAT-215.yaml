@@ -1,6 +1,6 @@
 code: FEAT-215
 title: The skill states what each sub-agent may do
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: docs
 priority: High
@@ -55,5 +55,9 @@ definition:
     rev: c7af80b5c87d394a
     note: given in the session dialog, 21 Oct 2026
     status: Planned
+history:
+- at: 2026-10-21T17:19:03.10241096Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:19:02.836590147Z
+updated_at: 2026-10-21T17:19:03.10241096Z

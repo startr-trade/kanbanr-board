@@ -1496,3 +1496,7 @@
   actor: Venkatraman B
   message: test scoped_writes_are_attributed of FEAT-214/R-7 is now green
   item: FEAT-214
+- time: 2026-10-21T18:46:31.195552435Z
+  actor: Venkatraman B
+  message: test revoked_and_expired_scopes_refuse of FEAT-214/R-8 is now green
+  item: FEAT-214

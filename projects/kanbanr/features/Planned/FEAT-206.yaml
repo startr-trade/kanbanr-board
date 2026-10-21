@@ -43,7 +43,7 @@ definition:
       state: planned
   approval:
     by: Venkatraman B
-    at: 2026-10-21T09:15:25.909636737Z
+    at: 2026-10-21T09:16:04.668041266Z
     rev: dc145c08f3d3e440
   approvals:
   - at: 2026-10-21T09:15:25.909636737Z
@@ -51,5 +51,10 @@ definition:
     verdict: approved
     rev: dc145c08f3d3e440
     status: Planned
+  - at: 2026-10-21T09:16:04.668041266Z
+    by: Venkatraman B
+    verdict: approved
+    rev: dc145c08f3d3e440
+    status: Planned
 created_at: 2026-10-21T09:15:02.089052943Z
-updated_at: 2026-10-21T09:15:25.909636737Z
+updated_at: 2026-10-21T09:16:04.668041266Z

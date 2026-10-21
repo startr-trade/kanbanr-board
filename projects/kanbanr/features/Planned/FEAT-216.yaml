@@ -12,5 +12,50 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A release's notes are visible and editable from the release itself, in the CLI and on the Releases page, without switching branches or making a separate item
+  goals:
+  - G-5
+  - G-6
+  - G-1
+  zachman:
+    what: Reading and editing a release's notes on release/<V>
+    how: Core reads the notes at the release tip and commits edits onto release/<V> without a checkout; a route, a CLI command and a Releases page section use it
+    where: kanbanr-core releases.rs, dispatch routes, the CLI release command, web ReleasesPage.tsx
+    when: From the moment a release has its branch until it is cut
+    who: The person preparing a release, and Claude helping them
+    why: On 22 Oct 2026 v0.3.0's drafted notes were invisible in the IDE and on the board, and could only be changed through a separate item
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL show a release's notes as they are on its release branch, saying where they are, without checking that branch out
+    tests:
+    - name: release_notes_read_from_the_release_branch
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN a release's notes are edited before it is cut, THE SYSTEM SHALL commit them onto its release branch in one commit without checking it out, re-apply the notes listings, and refuse once the release has shipped
+    tests:
+    - name: set_release_notes_commits_onto_the_release_branch
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL let the notes be shown and saved with kanbanr release notes <V>, from a file or an editor
+    tests:
+    - name: cli_release_notes_shows_and_saves
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: THE SYSTEM SHALL show a release's notes on the Releases page and, on a write-enabled monitor before the cut, let them be edited and saved
+    tests:
+    - name: web::release_notes_section
+      kind: unit
+      state: planned
+    - name: "manual: v0.3.0's notes rewritten from the Releases page in light and dark"
+      kind: manual
+      state: planned
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:02:31.534402216Z
+updated_at: 2026-10-21T20:02:45.857352121Z

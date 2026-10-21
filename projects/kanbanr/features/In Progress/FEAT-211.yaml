@@ -42,7 +42,8 @@ definition:
     tests:
     - name: cargo test --workspace
       kind: integration
-      state: planned
+      state: green
+      checked_rev: ff20d6f740588fd1c9e928cb412013ed01ebc15a
   approval:
     by: Venkatraman B
     at: 2026-10-21T15:02:08.032697655Z
@@ -65,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:04:40.210927266Z
+updated_at: 2026-10-21T15:04:40.336578183Z

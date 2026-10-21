@@ -1,6 +1,6 @@
 code: FEAT-208
 title: "macOS and Windows: CI fails on paths and line endings"
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: High
@@ -11,7 +11,14 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Guards resolve both paths; root .gitattributes; scratch repo core.autocrlf false
+    state: Completed
+  created_at: 2026-10-21T14:03:08.963086505Z
 definition:
   statement: The daemon's release-promotion tests run on every CI platform, macOS included, while still refusing any board outside their scratch folder
   goals:
@@ -62,5 +69,8 @@ history:
 - at: 2026-10-21T13:53:55.730170505Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T14:03:08.963106433Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T13:53:01.765060825Z
-updated_at: 2026-10-21T14:03:00.734992401Z
+updated_at: 2026-10-21T14:03:08.963106433Z

@@ -1631,3 +1631,7 @@
   actor: Venkatraman B
   message: test store::tests::hold_skips_auto_advance of FEAT-214/R-14 is now green
   item: FEAT-214
+- time: 2026-10-21T19:36:37.730151095Z
+  actor: Venkatraman B
+  message: define feature FEAT-212
+  item: FEAT-212

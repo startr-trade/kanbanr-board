@@ -23,7 +23,7 @@ todo_lists:
   tasks:
   - key: T1
     text: "1 Config fields: ProjectConfig.coverage, Gate.affects_docs, stage helpers"
-    state: InProgress
+    state: Completed
   - key: T2
     text: "2 The coverage module: rules, snapshot, evaluation"
     state: NotStarted
@@ -257,4 +257,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.68321124Z
+updated_at: 2026-10-21T12:59:26.748053272Z

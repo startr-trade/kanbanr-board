@@ -40,31 +40,6 @@
   - FEAT-185
   done: 0
   total: 0
-- code: FEAT-194
-  status: Completed
-  milestone: MS-009
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - skill
-  - method
-  - setup
-  depends_on:
-  - FEAT-188
-  - FEAT-189
-  - FEAT-190
-  - FEAT-191
-  - FEAT-193
-  - FEAT-182
-  - FEAT-183
-  - FEAT-184
-  done: 7
-  total: 7
 - code: FEAT-200
   status: In Progress
   milestone: MS-007
@@ -2915,6 +2890,31 @@
   - FEAT-181
   done: 8
   total: 8
+- code: FEAT-194
+  status: Completed
+  milestone: MS-009
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - skill
+  - method
+  - setup
+  depends_on:
+  - FEAT-188
+  - FEAT-189
+  - FEAT-190
+  - FEAT-191
+  - FEAT-193
+  - FEAT-182
+  - FEAT-183
+  - FEAT-184
+  done: 7
+  total: 7
 - code: FEAT-195
   status: Completed
   milestone: MS-004
@@ -3108,6 +3108,20 @@
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-207
+  status: Planned
+  milestone: MS-004
   kind: null
   priority: null
   start: null

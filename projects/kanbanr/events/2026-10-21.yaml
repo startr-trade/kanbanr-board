@@ -170,3 +170,10 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ""
+- time: 2026-10-21T13:38:57.266282714Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-207
+  message: feature FEAT-207 added
+  detail:
+    status: Planned

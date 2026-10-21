@@ -168,5 +168,15 @@ definition:
     - name: release_flow_as_lived_with_0_2_1
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T16:24:00.172735069Z
+    rev: 3e44a77255ae59c7
+  approvals:
+  - at: 2026-10-21T16:24:00.172735069Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 3e44a77255ae59c7
+    status: Planned
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T16:20:58.535050042Z
+updated_at: 2026-10-21T16:24:00.172735069Z

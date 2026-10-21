@@ -163,7 +163,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::lint_cases_fixture
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-9
     kind: functional
     text: THE SYSTEM SHALL report a sequence-diagram line that does not declare or use a participant and is not a note, block keyword or directive (`unknown_statement`).
@@ -309,4 +310,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.455432907Z
+updated_at: 2026-10-21T11:51:16.544265294Z

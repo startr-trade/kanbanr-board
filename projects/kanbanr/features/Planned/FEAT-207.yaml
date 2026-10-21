@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: kanbanr 0.2.0 can be tagged and released from main, with notes that tell users what changed and that they must migrate their boards once
+  goals:
+  - G-6
+  - G-5
+  zachman:
+    what: The workspace and extension versions, the release notes, the changelog heading
+    how: One commit setting 0.2.0 everywhere the release workflow checks, and the notes page
+    where: api/Cargo.toml, editor/vscode/package.json, web/package.json, .claude-plugin/plugin.json, docs/src/releases, CHANGELOG.md
+    when: Before the user pushes main and tags v0.2.0
+    who: kanbanr users upgrading; the user, who pushes and tags
+    why: Every planned item is merged and make ci passed; the release workflow refuses a tag whose version and notes are not in the tree
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN v0.2.0 is tagged, THE SYSTEM SHALL pass the release workflow's checks that the tag, the workspace version, the extension version and the release notes agree
+    tests:
+    - name: "manual: release.yml's tag checks pass for v0.2.0"
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL continue to pass its test suite and docs checks after the version change
+    tests:
+    - name: cargo test --workspace
+      kind: integration
+      state: planned
 created_at: 2026-10-21T13:38:57.261933677Z
-updated_at: 2026-10-21T13:38:57.261933677Z
+updated_at: 2026-10-21T13:39:08.520350376Z

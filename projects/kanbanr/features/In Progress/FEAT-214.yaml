@@ -227,11 +227,17 @@ definition:
       checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
   approval:
     by: Venkatraman B
-    at: 2026-10-21T17:57:53.035069096Z
-    rev: 201ea5a68abc7264
+    at: 2026-10-21T19:53:54.224431916Z
+    rev: 1602eb05339bb95a
+  approvals:
+  - at: 2026-10-21T19:53:54.224431916Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 1602eb05339bb95a
+    status: In Progress
 history:
 - at: 2026-10-21T17:57:58.926779313Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T19:53:53.866411948Z
+updated_at: 2026-10-21T19:53:54.224431916Z

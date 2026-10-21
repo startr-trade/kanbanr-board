@@ -1,11 +1,14 @@
 - version: v0.3.0
   name: After 0.2.0
   state: planned
-  stage: candidate
+  stage: main
   stages:
   - stage: candidate
     by: Venkatraman B
     at: 2026-10-21T19:55:15.747793936Z
+  - stage: main
+    by: Venkatraman B
+    at: 2026-10-21T20:15:09.177463837Z
   branch: release/v0.3.0
 - version: v0.2.1
   name: Fixes after 0.2.0

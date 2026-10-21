@@ -1952,3 +1952,6 @@
     scope: SC-002
     role: build
     item: FEAT-216
+- time: 2026-10-21T20:15:09.450446136Z
+  actor: Venkatraman B
+  message: promote release v0.3.0 to main

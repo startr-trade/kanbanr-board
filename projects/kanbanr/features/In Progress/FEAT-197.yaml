@@ -1,6 +1,6 @@
 code: FEAT-197
 title: Architecture coverage rules checked at lifecycle events (item added, moved or edited; ADR accepted; sprint close), with default affects_docs per stage and skill guidance
-status: Planned
+status: In Progress
 milestone: MS-007
 kind: feature
 priority: high
@@ -190,5 +190,9 @@ definition:
     rev: 61a408e5bc36bdbf
     note: "approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers"
     status: Planned
+history:
+- at: 2026-10-21T12:21:06.312700839Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T10:19:32.621567089Z
+updated_at: 2026-10-21T12:21:06.312700839Z

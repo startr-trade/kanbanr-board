@@ -136,3 +136,11 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ""
+- time: 2026-10-21T12:21:06.379439407Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-197
+  message: feature FEAT-197 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

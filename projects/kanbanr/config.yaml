@@ -81,6 +81,7 @@ cadence:
   release: on_demand
   release_stages:
   - candidate
+  - main
   - production
   git_model: true
 method:

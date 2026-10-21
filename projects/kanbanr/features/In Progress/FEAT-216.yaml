@@ -1,6 +1,6 @@
 code: FEAT-216
 title: A release's notes can be read and edited from the release
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: feature
 priority: High
@@ -81,5 +81,9 @@ definition:
     rev: b5b10d88e67c15f2
     note: given in the session dialog, 22 Oct 2026
     status: Planned
+history:
+- at: 2026-10-21T20:03:14.0075969Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:03:13.7615809Z
+updated_at: 2026-10-21T20:03:14.0075969Z

@@ -86,7 +86,7 @@
   done: 0
   total: 0
 - code: FEAT-187
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: chore
   priority: null
@@ -97,7 +97,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 6
+  done: 7
   total: 7
 - code: FEAT-200
   status: In Progress

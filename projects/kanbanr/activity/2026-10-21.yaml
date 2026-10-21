@@ -450,3 +450,7 @@
   actor: Venkatraman B
   message: test migration_keeps_current_approvals_current of FEAT-187/R-4 is now green
   item: FEAT-187
+- time: 2026-10-21T12:16:55.106889963Z
+  actor: Venkatraman B
+  message: test migration_without_history_lapses_and_reports of FEAT-187/R-5 is now green
+  item: FEAT-187

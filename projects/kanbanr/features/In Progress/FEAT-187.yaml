@@ -88,7 +88,8 @@ definition:
     tests:
     - name: migration_without_history_lapses_and_reports
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 965898a6aef925d0b8e2ecac4fc57ada0f46510b
   - id: R-6
     kind: functional
     text: WHEN an earlier version opens a migrated board, THE SYSTEM SHALL refuse it rather than misread its revisions.
@@ -122,4 +123,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-21T12:16:55.052255887Z
+updated_at: 2026-10-21T12:16:55.10388188Z

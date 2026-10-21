@@ -1,6 +1,6 @@
 code: FEAT-209
 title: A diagram opened from the book draws as black boxes
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: defect
 priority: High
@@ -11,7 +11,14 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Keep Pele's variables on the copy; tab colours from the diagram; manual check in light and coal
+    state: Completed
+  created_at: 2026-10-21T14:33:50.904086624Z
 definition:
   statement: A diagram opened full size from the book draws in the reader's theme, as it does in the page
   goals:
@@ -58,5 +65,8 @@ history:
 - at: 2026-10-21T14:33:00.006507018Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T14:33:50.904147829Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T14:32:32.591156215Z
-updated_at: 2026-10-21T14:33:50.780314695Z
+updated_at: 2026-10-21T14:33:50.904147829Z

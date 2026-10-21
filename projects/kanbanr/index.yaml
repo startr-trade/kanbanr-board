@@ -65,26 +65,6 @@
   - FEAT-184
   done: 0
   total: 7
-- code: FEAT-197
-  status: Completed
-  milestone: MS-007
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - docs
-  - architecture
-  - gates
-  - skill
-  depends_on:
-  - FEAT-180
-  - FEAT-181
-  done: 10
-  total: 10
 - code: FEAT-200
   status: In Progress
   milestone: MS-007
@@ -2963,6 +2943,26 @@
   depends_on: []
   done: 3
   total: 3
+- code: FEAT-197
+  status: Completed
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - docs
+  - architecture
+  - gates
+  - skill
+  depends_on:
+  - FEAT-180
+  - FEAT-181
+  done: 10
+  total: 10
 - code: FEAT-198
   status: Completed
   milestone: MS-004

@@ -1492,3 +1492,7 @@
   actor: Venkatraman B
   message: test scoped_agent_cannot_push_or_sync of FEAT-214/R-6 is now green
   item: FEAT-214
+- time: 2026-10-21T18:46:31.12040857Z
+  actor: Venkatraman B
+  message: test scoped_writes_are_attributed of FEAT-214/R-7 is now green
+  item: FEAT-214

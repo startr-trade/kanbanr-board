@@ -115,7 +115,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::lint_cases_fixture
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-5
     kind: functional
     text: THE SYSTEM SHALL report a `;` followed by more text inside a sequence message, note or participant alias, or a class relation label (`semicolon_in_text`).
@@ -301,4 +302,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.023099799Z
+updated_at: 2026-10-21T11:51:16.07627073Z

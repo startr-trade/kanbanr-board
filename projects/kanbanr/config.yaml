@@ -89,5 +89,11 @@ cadence:
       on_enter:
       - branch
       - prepare
+    main:
+      purpose: main holds the release; push it and let CI run
+      requires:
+      - items_finished
+      on_enter:
+      - move_main
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

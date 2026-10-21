@@ -1661,3 +1661,6 @@
 - time: 2026-10-21T19:37:47.769191603Z
   actor: Venkatraman B
   message: PUT /projects/kanbanr/config/release-stages/candidate
+- time: 2026-10-21T19:37:49.062416142Z
+  actor: Venkatraman B
+  message: PUT /projects/kanbanr/config/release-stages/main

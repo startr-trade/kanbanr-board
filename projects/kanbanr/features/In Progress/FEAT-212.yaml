@@ -76,7 +76,8 @@ definition:
       checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
     - name: release_stage_routes_round_trip
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
   - id: R-2
     kind: functional
     text: IF a release gate names an unknown stage, check or action, or orders prepare, move_main and tag against the rules, THEN THE SYSTEM SHALL refuse the configuration and say why
@@ -238,4 +239,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:15:34.644957707Z
+updated_at: 2026-10-21T17:15:34.713008016Z

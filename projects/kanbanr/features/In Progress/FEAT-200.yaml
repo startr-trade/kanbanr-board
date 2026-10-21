@@ -191,7 +191,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::lint_cases_fixture
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-11
     kind: functional
     text: WHEN `kanbanr doctor` runs, THE SYSTEM SHALL list every lint finding in every item's spec and every markdown doc on the board, each naming file, block, line and rule.
@@ -314,4 +315,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.752539545Z
+updated_at: 2026-10-21T11:51:16.806074579Z

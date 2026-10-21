@@ -515,3 +515,12 @@
     by: Venkatraman B
     reason: ""
     status: In Progress
+- time: 2026-10-21T16:58:40.851113555Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-212
+  message: Venkatraman B signed off design-review on FEAT-212
+  detail:
+    by: Venkatraman B
+    signoff: design-review
+    reason: ""

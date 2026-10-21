@@ -79,7 +79,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: dispatch::tests::write_reports_diagram_warnings
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-2
     kind: functional
     text: WHILE `diagrams.strict` is off (the default), THE SYSTEM SHALL complete the write and return findings as `diagram_warnings`, which the CLI prints on stderr.
@@ -295,4 +296,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:15.715187056Z
+updated_at: 2026-10-21T11:51:15.763612675Z

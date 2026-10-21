@@ -213,7 +213,8 @@ definition:
     tests:
     - name: scoped_task_completion_holds_auto_advance
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 1f7713e46f8669585322e9d51c106be52c90928b
     - name: store::tests::hold_skips_auto_advance
       kind: unit
       state: green
@@ -245,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:46:31.594310353Z
+updated_at: 2026-10-21T18:46:31.683655048Z

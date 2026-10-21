@@ -1,0 +1,13 @@
+- id: SC-001
+  role: build
+  item: FEAT-214
+  operations:
+  - task.state
+  - test.state
+  - commit
+  branch: feat/FEAT-214-agent-scopes-what-a-sub-agent-may-do-enf
+  base: f890e631173522748c5e10413b6dbd5829d89d5c
+  issued_by: Venkatraman B
+  issued_at: 2026-10-21T19:46:14.676860127Z
+  expires_at: 2026-10-22T03:46:14.676860127Z
+  note: "R-12 manual run: a small docs change on the TMPDIR fix"

@@ -1794,3 +1794,7 @@
   actor: Venkatraman B
   message: move feature FEAT-212
   item: FEAT-212
+- time: 2026-10-21T19:46:14.725107252Z
+  actor: Venkatraman B
+  message: issue agent scope SC-001 (build, FEAT-214)
+  item: FEAT-214

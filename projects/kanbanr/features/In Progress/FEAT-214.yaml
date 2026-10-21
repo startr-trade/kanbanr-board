@@ -13,7 +13,38 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Scope model and checks (core)
+    state: NotStarted
+  - key: T2
+    text: 2 Resolution
+    state: NotStarted
+  - key: T3
+    text: 3 Lifecycle and routes
+    state: NotStarted
+  - key: T4
+    text: 4 The write path
+    state: NotStarted
+  - key: T5
+    text: 5 The CLI scope commands and the gate
+    state: NotStarted
+  - key: T6
+    text: 6 Commits and pushes
+    state: NotStarted
+  - key: T7
+    text: 7 Drift
+    state: NotStarted
+  - key: T8
+    text: 8 Monitor
+    state: NotStarted
+  - key: T9
+    text: 9 Skill and docs; manual run
+    state: NotStarted
+  created_at: 2026-10-21T17:57:59.223165209Z
 definition:
   statement: "kanbanr enforces what each sub-agent may do: the coordinator issues a scope per agent with one command, recorded on the board and bound to the agent's worktree; every board write, commit and push from that worktree is checked against it, anything outside it is refused and named, and the agent's own progress is recorded and attributed"
   goals:
@@ -186,4 +217,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T17:57:58.926779313Z
+updated_at: 2026-10-21T17:57:59.22319285Z

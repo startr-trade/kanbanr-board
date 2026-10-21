@@ -18,6 +18,11 @@ main; the final stage (the cut) tags main. Pushing code and tags stays the user'
 - The Releases page and `release promote` say what each stage will do and what it still needs
   ("push main, then wait for CI").
 - The default stages keep today's behaviour.
+- **The release prepares itself** (the user, 21 Oct 2026, approving FEAT-211): a release is not
+  prepared by a separate feature item made for the purpose. Its own state change does it: for
+  example, entering the first stage commits the version bump, the changelog heading and a notes
+  draft (from its items) onto `release/<V>`, which kanbanr may write although people may not.
+  FEAT-207 and FEAT-211 are the redundancy this removes.
 
 ## Design
 _To be written and agreed before build._

@@ -25,7 +25,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: '3 coderepo.rs: code-repo git plumbing in core'
-    state: NotStarted
+    state: InProgress
   - key: T4
     text: '4 Workflow movement: ProjectConfig methods, flow::plan_start/finish'
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-19T16:48:10.394370427Z
+updated_at: 2026-10-21T09:45:54.984947321Z

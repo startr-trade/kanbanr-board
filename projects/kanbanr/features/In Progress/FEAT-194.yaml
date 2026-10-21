@@ -31,7 +31,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: "2 git model preview: --sprints/--releases with no board (if FEAT-189 did not ship it)"
-    state: NotStarted
+    state: Completed
   - key: T3
     text: "3 Skill section: The method by stage role"
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.085162095Z
-updated_at: 2026-10-21T13:27:46.596118102Z
+updated_at: 2026-10-21T13:27:46.663334543Z

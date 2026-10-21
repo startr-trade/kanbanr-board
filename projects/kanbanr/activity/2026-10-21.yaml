@@ -438,3 +438,7 @@
   actor: Venkatraman B
   message: 'test make ci: cargo deny and cargo audit pass with no advisory exception of FEAT-187/R-1 is now green'
   item: FEAT-187
+- time: 2026-10-21T12:16:54.921009355Z
+  actor: Venkatraman B
+  message: test yaml::tests::board_files_round_trip of FEAT-187/R-2 is now green
+  item: FEAT-187

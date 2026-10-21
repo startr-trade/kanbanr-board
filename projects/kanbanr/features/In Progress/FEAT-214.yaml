@@ -44,6 +44,7 @@ todo_lists:
   - key: T9
     text: 9 Skill and docs; manual run
     state: InProgress
+    changed_at: 2026-10-21T19:46:50.982387258Z
   created_at: 2026-10-21T17:57:59.223165209Z
 definition:
   statement: "kanbanr enforces what each sub-agent may do: the coordinator issues a scope per agent with one command, recorded on the board and bound to the agent's worktree; every board write, commit and push from that worktree is checked against it, anything outside it is refused and named, and the agent's own progress is recorded and attributed"
@@ -247,4 +248,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:44.932291352Z
+updated_at: 2026-10-21T19:46:50.982387258Z

@@ -1262,3 +1262,6 @@
 - time: 2026-10-21T17:18:44.806378156Z
   actor: Venkatraman B
   message: plan sprint SP-001
+- time: 2026-10-21T17:18:44.915074061Z
+  actor: Venkatraman B
+  message: plan release v0.3.0

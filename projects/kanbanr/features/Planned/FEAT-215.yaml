@@ -8,6 +8,7 @@ start: null
 due: null
 estimate_days: null
 sprint: SP-001
+release: v0.3.0
 assignee: null
 team: null
 labels: []
@@ -38,4 +39,4 @@ definition:
       kind: manual
       state: planned
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:18:44.759352041Z
+updated_at: 2026-10-21T17:18:44.913088519Z

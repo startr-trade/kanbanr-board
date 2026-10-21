@@ -27,8 +27,8 @@ todo_lists:
     changed_at: 2026-10-21T20:21:06.091771221Z
   - key: T3
     text: "3 Monitor: Release notes section with edit; check script"
-    state: InProgress
-    changed_at: 2026-10-21T20:21:06.263228444Z
+    state: Completed
+    changed_at: 2026-10-21T20:25:51.836043912Z
   - key: T4
     text: 4 Docs, skill, changelog
     state: NotStarted
@@ -116,4 +116,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:21:06.263228444Z
+updated_at: 2026-10-21T20:25:51.836043912Z

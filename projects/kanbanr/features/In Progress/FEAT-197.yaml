@@ -188,7 +188,8 @@ definition:
       checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
     - name: readiness::tests::docs_cover_reads_and_narrows
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-13
     kind: functional
     text: IF coverage cannot be evaluated after a write, THEN THE SYSTEM SHALL keep the write and its normal output.
@@ -251,4 +252,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.247262969Z
+updated_at: 2026-10-21T12:59:26.320725377Z

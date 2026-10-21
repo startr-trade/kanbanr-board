@@ -576,3 +576,7 @@
   actor: Venkatraman B
   message: test readiness::tests::the_guides_check_table_matches_process_checks of FEAT-197/R-12 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:26.323144178Z
+  actor: Venkatraman B
+  message: test readiness::tests::docs_cover_reads_and_narrows of FEAT-197/R-12 is now green
+  item: FEAT-197

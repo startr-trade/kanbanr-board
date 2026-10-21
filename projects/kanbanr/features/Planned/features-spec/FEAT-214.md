@@ -430,6 +430,13 @@ Integration tests go in `api/crates/kanbanr-cli/tests/local_mode.rs` and follow 
 - **Q3. Lifetime.** Recommended: **8h by default, 72h maximum, renewable**. It covers a working day without leaving forgotten scopes live.
 - **Q4. Batch (D5).** Recommended: **allow a batch only when every op is in scope**. The table's "batch refused" would otherwise break evidence capture for build agents.
 
+### Decisions (21 Oct 2026, by the user)
+- Q1: every scoped agent runs in its own worktree, design agents included.
+- Q2: no reliance on an `agent_id` in hook input.
+- Q3: scopes last 8h by default, 72h at most, and are renewable.
+- Q4 / D5: a batch is allowed only when every op in it is within the scope (the test-capture hook
+  records evidence through a batch); this replaces the table's "batch refused".
+
 ### Implementation tasks (ordered)
 1. **Scope model and checks (core).**
    - Files: `agentscope.rs` (types, `load`/`load_all`/save, `Scope::state`/`allows`/`by_agent`, `Role::operations`, `requested`, `check`, `retain_permitted`, `trailer`/`with_trailer`, `brief`, `last_task_change`); `lib.rs`; `models.rs` (`Task.changed_at`); `store.rs` (stamp `changed_at` in `set_task_state_on`).

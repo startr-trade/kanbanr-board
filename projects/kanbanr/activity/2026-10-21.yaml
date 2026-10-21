@@ -544,3 +544,7 @@
   actor: Venkatraman B
   message: test tests::coverage_reports_all_at_sprint_close_and_cut of FEAT-197/R-7 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.776275189Z
+  actor: Venkatraman B
+  message: test readiness::tests::docs_cover_gate of FEAT-197/R-8 is now green
+  item: FEAT-197

@@ -32,7 +32,8 @@ definition:
     tests:
     - name: "manual: release.yml's tag checks pass for v0.2.0"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: 6189ba19035112ccdbbd196860a5dcba4a762cfd
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL continue to pass its test suite and docs checks after the version change
@@ -62,4 +63,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T13:38:57.261933677Z
-updated_at: 2026-10-21T13:40:37.867503854Z
+updated_at: 2026-10-21T13:42:31.566912323Z

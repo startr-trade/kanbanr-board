@@ -712,3 +712,7 @@
   actor: Venkatraman B
   message: move feature FEAT-207
   item: FEAT-207
+- time: 2026-10-21T13:42:31.5690369Z
+  actor: Venkatraman B
+  message: "test manual: release.yml's tag checks pass for v0.2.0 of FEAT-207/R-1 is now green"
+  item: FEAT-207

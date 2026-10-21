@@ -130,7 +130,8 @@ definition:
     tests:
     - name: cut_tags_main_only_when_pushed
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
   - id: R-7
     kind: functional
     text: THE SYSTEM SHALL judge pushed from main's remote-tracking branch, fetching first when applying, using the last-fetched refs when the fetch fails, and SHALL never push
@@ -264,4 +265,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:50.461200511Z
+updated_at: 2026-10-21T19:38:50.536692586Z

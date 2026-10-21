@@ -1575,3 +1575,7 @@
   actor: Venkatraman B
   message: test scoped_commits_only_on_item_branch of FEAT-214/R-5 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:37.700690615Z
+  actor: Venkatraman B
+  message: test scoped_agent_cannot_push_or_sync of FEAT-214/R-6 is now green
+  item: FEAT-214

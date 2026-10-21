@@ -206,7 +206,8 @@ definition:
       checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: release_plan_route_matches_promote
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: "manual: on kanbanr's board, v0.3.0 goes Promote to candidate, Promote to main, then Cut v0.3.0 disabled until main is pushed, then one click cuts it, in light and dark"
       kind: manual
       state: planned
@@ -275,4 +276,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.473404498Z
+updated_at: 2026-10-21T19:38:51.555750055Z

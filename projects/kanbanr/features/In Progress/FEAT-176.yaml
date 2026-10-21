@@ -69,7 +69,8 @@ definition:
     tests:
     - name: cargo test --workspace
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7e475c149e219631eb57b40632ef11fe2f9b8ab1
   - id: R-2
     kind: functional
     text: IF a front-end crate implements domain behaviour outside kanbanr-core's public API, THE SYSTEM SHALL fail the architecture test.
@@ -103,4 +104,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-21T10:43:09.100222032Z
+updated_at: 2026-10-21T10:45:43.646580151Z

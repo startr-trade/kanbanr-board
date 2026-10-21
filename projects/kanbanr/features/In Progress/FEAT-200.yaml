@@ -99,7 +99,8 @@ definition:
     tests:
     - name: store::tests::strict_diagrams_refuse_the_write
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: store::tests::strict_diagrams_refuse_the_whole_batch
       kind: unit
       state: planned
@@ -298,4 +299,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:15.863060724Z
+updated_at: 2026-10-21T11:51:15.917553305Z

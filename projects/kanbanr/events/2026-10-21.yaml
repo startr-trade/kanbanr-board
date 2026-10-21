@@ -531,3 +531,10 @@
   message: feature FEAT-214 added
   detail:
     status: Planned
+- time: 2026-10-21T17:18:44.359014015Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-215
+  message: feature FEAT-215 added
+  detail:
+    status: Planned

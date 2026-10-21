@@ -84,7 +84,8 @@ definition:
     tests:
     - name: release_gates_validated
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
   - id: R-3
     kind: functional
     text: "WHILE a stage declares no gate, THE SYSTEM SHALL act as before: the first stage makes the branch, the last tags and fast-forwards main"
@@ -239,4 +240,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:15:34.713008016Z
+updated_at: 2026-10-21T17:15:34.79290023Z

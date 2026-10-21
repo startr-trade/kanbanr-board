@@ -37,7 +37,7 @@ todo_lists:
     state: Completed
   - key: T7
     text: "7 Daemon: repository for reads"
-    state: NotStarted
+    state: Completed
   - key: T8
     text: "8 CLI: promote --plan, release stages, config release-stage/release-prepare"
     state: NotStarted
@@ -237,4 +237,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:12:51.842176703Z
+updated_at: 2026-10-21T17:12:51.912080605Z

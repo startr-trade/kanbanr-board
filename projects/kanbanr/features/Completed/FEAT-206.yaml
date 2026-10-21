@@ -1,6 +1,6 @@
 code: FEAT-206
 title: Two RustSec advisories in the TLS trust chain
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: chore
 priority: High
@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Lockfile update; changelog Security entry; make ci
-    state: InProgress
+    state: Completed
   created_at: 2026-10-21T09:16:13.742273771Z
 definition:
   statement: kanbanr's TLS client trusts no certificate path through the distrusted emSign intermediates, so its update and release checks cannot be served by a forged certificate
@@ -81,5 +81,8 @@ history:
 - at: 2026-10-21T09:16:13.644480816Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T09:23:30.022563865Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T09:15:02.089052943Z
-updated_at: 2026-10-21T09:23:29.711964232Z
+updated_at: 2026-10-21T09:23:30.022563865Z

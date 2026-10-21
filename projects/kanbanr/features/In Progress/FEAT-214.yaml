@@ -96,7 +96,7 @@ definition:
     - name: agentscope::tests::requested_maps_routes_and_batch_ops
       kind: unit
       state: green
-      checked_rev: 511fb0ecdf91ea6812c9cb252851649c802b4202
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
     - name: scoped_agent_records_task_and_test_but_cannot_move
       kind: integration
       state: green
@@ -246,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:37.185906336Z
+updated_at: 2026-10-21T18:53:37.255911358Z

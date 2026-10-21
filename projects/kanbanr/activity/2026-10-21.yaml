@@ -1551,3 +1551,7 @@
   actor: Venkatraman B
   message: test agentscope::tests::design_scope_refuses_every_write of FEAT-214/R-3 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:37.258719304Z
+  actor: Venkatraman B
+  message: test agentscope::tests::requested_maps_routes_and_batch_ops of FEAT-214/R-3 is now green
+  item: FEAT-214

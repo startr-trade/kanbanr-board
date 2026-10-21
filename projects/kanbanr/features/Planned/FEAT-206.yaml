@@ -1,0 +1,16 @@
+code: FEAT-206
+title: Two RustSec advisories in the TLS trust chain
+status: Planned
+milestone: MS-004
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
+todo_lists: []
+created_at: 2026-10-21T09:15:02.089052943Z
+updated_at: 2026-10-21T09:15:02.089052943Z

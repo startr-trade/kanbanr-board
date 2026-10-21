@@ -15,3 +15,10 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ''
+- time: 2026-10-21T09:15:02.092455797Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-206
+  message: feature FEAT-206 added
+  detail:
+    status: Planned

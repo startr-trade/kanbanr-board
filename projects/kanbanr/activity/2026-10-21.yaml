@@ -1595,3 +1595,7 @@
   actor: Venkatraman B
   message: test agentscope::tests::drift_counts_commits_after_last_task_change of FEAT-214/R-9 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:44.343041916Z
+  actor: Venkatraman B
+  message: test scope_drift_is_reported of FEAT-214/R-9 is now green
+  item: FEAT-214

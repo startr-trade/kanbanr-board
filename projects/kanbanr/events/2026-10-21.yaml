@@ -481,3 +481,11 @@
     by: Venkatraman B
     signoff: design-review
     reason: ""
+- time: 2026-10-21T16:24:00.674683125Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-212
+  message: feature FEAT-212 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

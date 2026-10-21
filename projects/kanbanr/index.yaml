@@ -115,7 +115,7 @@
   - mermaid
   - skill
   depends_on: []
-  done: 3
+  done: 4
   total: 10
 - code: FEAT-001
   status: Completed

@@ -1,6 +1,6 @@
 code: FEAT-176
 title: 'Refactor: domain logic lives in kanbanr-core; CLI and server are thin wrappers'
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: refactor
 priority: medium
@@ -49,7 +49,7 @@ todo_lists:
     state: Completed
   - key: T11
     text: 11 Drop the CLI's serde_yaml; baseline empty; docs
-    state: InProgress
+    state: Completed
   created_at: 2026-10-19T09:26:56.400391034Z
 definition:
   statement: A single core library behind every kanbanr front end, for contributors and Claude, so that behaviour cannot drift between the CLI, the monitor and other front ends.
@@ -104,5 +104,8 @@ history:
 - at: 2026-10-19T09:26:56.320144011Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T10:45:43.745801759Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-21T10:45:43.69243637Z
+updated_at: 2026-10-21T10:45:43.745801759Z

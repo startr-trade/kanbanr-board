@@ -97,7 +97,7 @@
   team: null
   labels: []
   depends_on: []
-  done: 1
+  done: 2
   total: 7
 - code: FEAT-200
   status: In Progress

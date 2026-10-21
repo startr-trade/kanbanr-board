@@ -1742,3 +1742,7 @@
   actor: Venkatraman B
   message: test prepare_applies_every_entry_for_a_file of FEAT-212/R-8 is now green
   item: FEAT-212
+- time: 2026-10-21T19:38:51.24706297Z
+  actor: Venkatraman B
+  message: test prepare_refuses_unmatched_version_file of FEAT-212/R-9 is now green
+  item: FEAT-212

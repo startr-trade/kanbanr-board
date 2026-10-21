@@ -194,7 +194,8 @@ definition:
     tests:
     - name: failed_promotion_undoes_every_step
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
   - id: R-12
     kind: functional
     text: THE SYSTEM SHALL show on each unshipped release one button naming its next step, with what it will do and, for the cut, its preview, enabled only when the plan is ready, and otherwise what is missing
@@ -273,4 +274,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.321193511Z
+updated_at: 2026-10-21T19:38:51.398032441Z

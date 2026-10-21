@@ -20,13 +20,13 @@ todo_lists:
   description: session 1 — TDD states, check, TOGAF
   tasks:
   - key: T1
-    text: 'core+batch: set_test_state{,_on} and the test.state op'
+    text: "core+batch: set_test_state{,_on} and the test.state op"
     state: Completed
   - key: T2
-    text: 'CLI: kanbanr test state; kanbanr check [CODE] [--file] --json'
+    text: "CLI: kanbanr test state; kanbanr check [CODE] [--file] --json"
     state: Completed
   - key: T3
-    text: 'config: togaf preset + project init --workflow / config workflow --togaf'
+    text: "config: togaf preset + project init --workflow / config workflow --togaf"
     state: Completed
   - key: T4
     text: tests + gates

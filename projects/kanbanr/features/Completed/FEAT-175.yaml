@@ -1,5 +1,5 @@
 code: FEAT-175
-title: 'Release v0.1.7: your own process, designed with Claude and shared on the board'
+title: "Release v0.1.7: your own process, designed with Claude and shared on the board"
 status: Completed
 milestone: MS-009
 kind: null
@@ -25,7 +25,7 @@ todo_lists:
     text: Pushed, CI green, tagged (maintainer)
     state: Completed
   - key: T4
-    text: 'Release verified: run, page, image, Open VSX'
+    text: "Release verified: run, page, image, Open VSX"
     state: Completed
   created_at: 2026-10-06T18:31:01.186849863Z
 definition:
@@ -58,12 +58,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-06T18:31:01.013979288Z
-    rev: 29ee62683188ac0c
+    rev: 0436bdf442c28022
   approvals:
   - at: 2026-10-06T18:31:01.013979288Z
     by: Venkatraman B
     verdict: approved
-    rev: 29ee62683188ac0c
+    rev: 0436bdf442c28022
     status: Planned
 history:
 - at: 2026-10-06T18:31:01.090094418Z

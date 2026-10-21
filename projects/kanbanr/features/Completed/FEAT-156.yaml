@@ -1,5 +1,5 @@
 code: FEAT-156
-title: 'Defect: finishing the last task completes an item with unproven requirements'
+title: "Defect: finishing the last task completes an item with unproven requirements"
 status: Completed
 milestone: MS-009
 kind: null
@@ -42,12 +42,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T17:17:05.250549876Z
-    rev: 21e5e1e2502cdd9b
+    rev: d895777fdbc37ceb
   approvals:
   - at: 2026-10-02T17:17:05.250549876Z
     by: Venkatraman B
     verdict: approved
-    rev: 21e5e1e2502cdd9b
+    rev: d895777fdbc37ceb
     status: Planned
 defect:
   severity: medium

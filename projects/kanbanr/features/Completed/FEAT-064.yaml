@@ -16,7 +16,7 @@ todo_lists:
   description: session 1 — lessons in their wave
   tasks:
   - key: T1
-    text: 'core: a retro carries the lessons of its wave, retired ones included'
+    text: "core: a retro carries the lessons of its wave, retired ones included"
     state: Completed
   - key: T2
     text: render them into the document above the narrative, pointing at the live rows
@@ -66,8 +66,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:53.448754067Z
-    rev: bc7795730d973f92
-  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+    rev: 21d70e0adaee5299
+  started_unapproved: "auto-pilot: definition written before the work and left for review"
 history:
 - at: 2026-09-25T18:40:56.596711824Z
   from: Planned

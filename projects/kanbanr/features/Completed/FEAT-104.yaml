@@ -1,5 +1,5 @@
 code: FEAT-104
-title: 'Defect: `kanbanr open` tells you to serve with --ui-dir web/dist, though the monitor is built in'
+title: "Defect: `kanbanr open` tells you to serve with --ui-dir web/dist, though the monitor is built in"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -27,7 +27,7 @@ definition:
     what: The 'monitor not reachable' hint and similar text
     how: Name plain `kanbanr serve`; test the hint text
     where: api/crates/kanbanr-cli/src/main.rs (open)
-    when: '`kanbanr open` with nothing serving'
+    when: "`kanbanr open` with nothing serving"
     who: Any kanbanr user, and Claude acting on the hint
     why: The hint predates the embedded monitor and sent a downstream project's setup to another checkout's web/dist
   requirements:
@@ -41,12 +41,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T07:29:57.440425+00:00
-    rev: bb3b190b25858e81
+    rev: 217ef1bcf0148cba
   approvals:
   - at: 2026-09-29T07:29:57.440425+00:00
     by: Venkatraman B
     verdict: approved
-    rev: bb3b190b25858e81
+    rev: 217ef1bcf0148cba
 defect:
   severity: medium
   introduced_by: FEAT-084

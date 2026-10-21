@@ -1,5 +1,5 @@
 code: FEAT-103
-title: 'Defect: a read command in an untracked folder creates a stray ./data board'
+title: "Defect: a read command in an untracked folder creates a stray ./data board"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -49,12 +49,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T07:29:57.420470+00:00
-    rev: 611f29f5a8fdb8d6
+    rev: ddabf165efccfcac
   approvals:
   - at: 2026-09-29T07:29:57.420470+00:00
     by: Venkatraman B
     verdict: approved
-    rev: 611f29f5a8fdb8d6
+    rev: ddabf165efccfcac
 defect:
   severity: medium
   found_in: downstream project setup (FEAT-100 walk)

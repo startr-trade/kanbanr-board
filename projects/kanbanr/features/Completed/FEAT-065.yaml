@@ -1,5 +1,5 @@
 code: FEAT-065
-title: 'The board governs the agent: generated CLAUDE.md block and a docs-location guard'
+title: "The board governs the agent: generated CLAUDE.md block and a docs-location guard"
 status: Completed
 milestone: MS-006
 kind: null
@@ -16,16 +16,16 @@ todo_lists:
   description: session 1 — the board governs the agent
   tasks:
   - key: T1
-    text: 'core: claude.rs — the generated block, merged between markers, leaving the rest of the file alone'
+    text: "core: claude.rs — the generated block, merged between markers, leaving the rest of the file alone"
     state: Completed
   - key: T2
-    text: 'CLI: kanbanr claude sync [--show|--file], and the docs-location guard deciding from a path only'
+    text: "CLI: kanbanr claude sync [--show|--file], and the docs-location guard deciding from a path only"
     state: Completed
   - key: T3
-    text: 'unit tests: block replacement, and the guard''s allow-list of shipped documentation'
+    text: "unit tests: block replacement, and the guard's allow-list of shipped documentation"
     state: Completed
   - key: T4
-    text: 'e2e: claude sync writes and refreshes; the guard denies a loose note and allows a README'
+    text: "e2e: claude sync writes and refreshes; the guard denies a loose note and allows a README"
     state: Completed
   - key: T5
     text: register the guard as a PreToolUse hook — awaiting the user's decision on global scope
@@ -109,8 +109,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:38.591573407Z
-    rev: 04e9ffa019b6a651
-  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+    rev: c250393ea01a1197
+  started_unapproved: "auto-pilot: definition written before the work and left for review"
 history:
 - at: 2026-09-25T18:45:12.142939987Z
   from: Planned

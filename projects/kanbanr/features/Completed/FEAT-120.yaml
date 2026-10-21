@@ -1,5 +1,5 @@
 code: FEAT-120
-title: 'Releases: planned scope, cut from Done, notes and carry-over'
+title: "Releases: planned scope, cut from Done, notes and carry-over"
 status: Completed
 milestone: MS-008
 kind: null
@@ -17,7 +17,7 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'releases.rs: side file, add/plan/cut; ship only what is finished (moved through its end gate, or finish''s rules without gates); notes doc; carry-over with reasons'
+    text: "releases.rs: side file, add/plan/cut; ship only what is finished (moved through its end gate, or finish's rules without gates); notes doc; carry-over with reasons"
     state: Completed
   - key: T2
     text: release field on items, in_release check, routes and the release CLI with --tag; feature add --found-in
@@ -70,12 +70,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:13.937313596Z
-    rev: 302820c4c219e5d5
+    rev: 02e8a0dca457af1f
   approvals:
   - at: 2026-09-29T17:53:13.937313596Z
     by: Venkatraman B
     verdict: approved
-    rev: 302820c4c219e5d5
+    rev: 02e8a0dca457af1f
 history:
 - at: 2026-09-29T19:19:17.900530598Z
   from: Planned

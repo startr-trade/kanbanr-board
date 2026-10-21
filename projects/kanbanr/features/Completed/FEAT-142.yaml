@@ -1,5 +1,5 @@
 code: FEAT-142
-title: 'Defect: a board cannot reach GitHub, and its batched push never fires'
+title: "Defect: a board cannot reach GitHub, and its batched push never fires"
 status: Completed
 milestone: MS-004
 kind: bug
@@ -16,7 +16,7 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'git2 built with ssh + https; credentials: agent, then ~/.ssh/id_ed25519|id_ecdsa|id_rsa, then git''s credential helper, each tried once'
+    text: "git2 built with ssh + https; credentials: agent, then ~/.ssh/id_ed25519|id_ecdsa|id_rsa, then git's credential helper, each tried once"
     state: Completed
   - key: T2
     text: PushPolicy, its resolution (KANBANR_PUSH > board kanbanr.push > default) and after_commit/push_pending moved into core; the CLI and the daemon share them (two copies removed)
@@ -25,7 +25,7 @@ todo_lists:
     text: ahead_of_remotes counts from git; a failed push keeps the board marked; sync says pushed / up to date / failed (non-zero exit); kanbanr remote push-policy; doctor warns past the threshold
     state: Completed
   - key: T4
-    text: 'SSH probe (alpine sshd + git in a container): pushed by key file and by ssh-agent; batched push fired on the 2nd command with debounce:2; KANBANR_PUSH override shown. libgit2 needs the host key type it negotiates in known_hosts'
+    text: "SSH probe (alpine sshd + git in a container): pushed by key file and by ssh-agent; batched push fired on the 2nd command with debounce:2; KANBANR_PUSH override shown. libgit2 needs the host key type it negotiates in known_hosts"
     state: Completed
   - key: T5
     text: Release binary grew past the 20 MB ceiling (23.4 MB) with the transports; release builds now strip symbols (19.2 MB); make ci 44/44
@@ -34,7 +34,7 @@ todo_lists:
     text: Unit tests for R-2..R-5; sabotage of the count and the marker fails them
     state: Completed
   - key: T7
-    text: 'GitHub by hand (R-1''s second half): run kanbanr sync against startr-trade/kanbanr-board'
+    text: "GitHub by hand (R-1's second half): run kanbanr sync against startr-trade/kanbanr-board"
     state: Completed
   created_at: 2026-10-01T11:30:27.124589022Z
 definition:
@@ -89,12 +89,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T11:05:41.368545794Z
-    rev: 62f4cc8502791769
+    rev: 64a537234a83f80a
   approvals:
   - at: 2026-10-01T11:05:41.368545794Z
     by: Venkatraman B
     verdict: approved
-    rev: 62f4cc8502791769
+    rev: 64a537234a83f80a
     status: Planned
 defect:
   severity: high

@@ -16,7 +16,7 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Both build.rs: runtime CARGO_MANIFEST_DIR; loud failure with its opt-out'
+    text: "1 Both build.rs: runtime CARGO_MANIFEST_DIR; loud failure with its opt-out"
     state: Completed
   - key: T2
     text: 2 Source check test; manual check; changelog; make ci
@@ -42,31 +42,31 @@ definition:
       kind: unit
       state: green
       checked_rev: 2f212f34ccbb6f13be9cd77b6dba03e7a35084a1
-    - name: 'manual: a release build reused from another folder through sccache still carries the monitor and the skill'
+    - name: "manual: a release build reused from another folder through sccache still carries the monitor and the skill"
       kind: manual
       state: green
       checked_rev: 2f212f34ccbb6f13be9cd77b6dba03e7a35084a1
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:00:40.441315484Z
-    rev: eb2a10e82f99c89b
+    rev: 4599c6989c243b15
   approvals:
   - at: 2026-10-20T13:00:40.441315484Z
     by: Venkatraman B
     verdict: approved
-    rev: eb2a10e82f99c89b
+    rev: 4599c6989c243b15
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T13:00:40.498356483Z
-    rev: eb2a10e82f99c89b
+    rev: 4599c6989c243b15
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T13:11:37.819582598Z
-    rev: eb2a10e82f99c89b
+    rev: 4599c6989c243b15
     status: In Progress
 history:
 - at: 2026-10-20T13:10:05.545886254Z

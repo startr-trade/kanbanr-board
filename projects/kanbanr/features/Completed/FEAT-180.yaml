@@ -1,5 +1,5 @@
 code: FEAT-180
-title: 'Living architecture docs: component docs fed by each feature''s design, and a check that declared docs were updated'
+title: "Living architecture docs: component docs fed by each feature's design, and a check that declared docs were updated"
 status: Completed
 milestone: MS-007
 kind: feature
@@ -19,25 +19,25 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Model: affects_docs (outside content_rev) and entered_status_at'
+    text: "1 Model: affects_docs (outside content_rev) and entered_status_at"
     state: Completed
   - key: T2
-    text: '2 git: doc_changed_since'
+    text: "2 git: doc_changed_since"
     state: Completed
   - key: T3
-    text: '3 Readiness: DocsUpdated check, lazy doc history in load_for_gates'
+    text: "3 Readiness: DocsUpdated check, lazy doc history in load_for_gates"
     state: Completed
   - key: T4
-    text: '4 CLI: define template and feature show list affects_docs'
+    text: "4 CLI: define template and feature show list affects_docs"
     state: Completed
   - key: T5
-    text: '5 Monitor: Affects docs as links'
+    text: "5 Monitor: Affects docs as links"
     state: Completed
   - key: T6
-    text: '6 Doctor: unknown affects_docs path is an error'
+    text: "6 Doctor: unknown affects_docs path is an error"
     state: Completed
   - key: T7
-    text: '7 Skill and docs: living-docs chapter, check tables, changelog'
+    text: "7 Skill and docs: living-docs chapter, check tables, changelog"
     state: Completed
   - key: T8
     text: 8 make ci
@@ -60,7 +60,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state in the skill how a feature's design is folded into the component docs and architecture views it affects, and when.
     tests:
-    - name: 'manual: skill living-docs guidance present and matches the docs'
+    - name: "manual: skill living-docs guidance present and matches the docs"
       kind: manual
       state: green
   - id: R-2
@@ -88,17 +88,17 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.890688171Z
-    rev: 790b8212c0e11084
+    rev: 6921736cce695c40
   approvals:
   - at: 2026-10-19T04:19:28.74457761Z
     by: Venkatraman B
     verdict: approved
-    rev: 790b8212c0e11084
+    rev: 6921736cce695c40
     status: Planned
   - at: 2026-10-19T04:22:12.890688171Z
     by: Venkatraman B
     verdict: approved
-    rev: 790b8212c0e11084
+    rev: 6921736cce695c40
     status: Planned
 history:
 - at: 2026-10-19T11:24:23.501560912Z

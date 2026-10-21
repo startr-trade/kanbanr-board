@@ -1,5 +1,5 @@
 code: FEAT-164
-title: 'Release v0.1.6: timestamps as instants; the release waits for CI'
+title: "Release v0.1.6: timestamps as instants; the release waits for CI"
 status: Completed
 milestone: MS-009
 kind: null
@@ -16,7 +16,7 @@ todo_lists:
   description: v0.1.6
   tasks:
   - key: T1
-    text: 'Proof: the v0.1.6 run passes (its CI check included); release page; image; Open VSX 0.1.6'
+    text: "Proof: the v0.1.6 run passes (its CI check included); release page; image; Open VSX 0.1.6"
     state: Completed
   - key: T2
     text: Versions 0.1.6, notes page + index, changelog dated, make ci 56/56
@@ -52,12 +52,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-04T18:58:22.355859751Z
-    rev: bc37cac4f97f3575
+    rev: 636ac9669b6fe5e1
   approvals:
   - at: 2026-10-04T18:58:22.355859751Z
     by: Venkatraman B
     verdict: approved
-    rev: bc37cac4f97f3575
+    rev: 636ac9669b6fe5e1
     status: Planned
 history:
 - at: 2026-10-04T18:58:22.430064281Z

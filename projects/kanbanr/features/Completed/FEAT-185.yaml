@@ -1,5 +1,5 @@
 code: FEAT-185
-title: 'Monitor: add an item to a release when it is ready, and promote a release between stages'
+title: "Monitor: add an item to a release when it is ready, and promote a release between stages"
 status: Completed
 milestone: MS-008
 kind: feature
@@ -45,7 +45,7 @@ definition:
   - G-5
   zachman:
     what: Add-to-release question in the review queue; promote action on the Releases page
-    how: 'A release question kind in the review queue (choices: planned releases and New release) and a Promote action on the Releases page, both calling the same core operations as the CLI through the writes-enabled daemon'
+    how: "A release question kind in the review queue (choices: planned releases and New release) and a Promote action on the Releases page, both calling the same core operations as the CLI through the writes-enabled daemon"
     where: web monitor, dispatch routes for release plan and promote
     when: When an item becomes ready for release; when a release is promoted
     who: the solo developer
@@ -69,34 +69,34 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state in the skill that Claude asks the same which-release question from the review queue.
     tests:
-    - name: 'manual: skill release question present and matches the monitor'
+    - name: "manual: skill release question present and matches the monitor"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:42:43.021562443Z
-    rev: 08942f0bd853ba9f
+    rev: 69139b5870c866ea
   approvals:
   - at: 2026-10-19T04:20:13.286832965Z
     by: Venkatraman B
     verdict: approved
-    rev: 08942f0bd853ba9f
+    rev: 69139b5870c866ea
     status: Planned
   - at: 2026-10-19T04:42:43.021562443Z
     by: Venkatraman B
     verdict: approved
-    rev: 08942f0bd853ba9f
+    rev: 69139b5870c866ea
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:49:55.568569666Z
-    rev: 08942f0bd853ba9f
+    rev: 69139b5870c866ea
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T11:06:33.413383029Z
-    rev: 08942f0bd853ba9f
+    rev: 69139b5870c866ea
     status: In Progress
 history:
 - at: 2026-10-20T08:35:06.621874854Z

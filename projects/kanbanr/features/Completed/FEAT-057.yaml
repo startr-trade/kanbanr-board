@@ -1,5 +1,5 @@
 code: FEAT-057
-title: 'Code tied to the why: trace, why, ADRs, Zachman matrix'
+title: "Code tied to the why: trace, why, ADRs, Zachman matrix"
 status: Completed
 milestone: MS-006
 kind: feature
@@ -21,19 +21,19 @@ todo_lists:
   description: session 1 — code tied to the why
   tasks:
   - key: T1
-    text: 'core: adr.rs — front-matter, scaffolded sections, list, supersede, history'
+    text: "core: adr.rs — front-matter, scaffolded sections, list, supersede, history"
     state: Completed
   - key: T2
-    text: 'core: trace.rs — downward chain with named gaps, and the derived Zachman view'
+    text: "core: trace.rs — downward chain with named gaps, and the derived Zachman view"
     state: Completed
   - key: T3
-    text: 'CLI: trace, why (annotation then blame then trailer), adr new/list/supersede/history'
+    text: "CLI: trace, why (annotation then blame then trailer), adr new/list/supersede/history"
     state: Completed
   - key: T4
-    text: 'trailer levels Docs:/ADR: validated by the commit hook'
+    text: "trailer levels Docs:/ADR: validated by the commit hook"
     state: Completed
   - key: T5
-    text: 'doctor: orphans, superseded references, unsupported decisions'
+    text: "doctor: orphans, superseded references, unsupported decisions"
     state: Completed
   - key: T6
     text: tests, skill, gates
@@ -134,8 +134,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:46.183624658Z
-    rev: 925abc9fdb808e1a
-  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+    rev: 2333067f57df6561
+  started_unapproved: "auto-pilot: definition written before the work and left for review"
 history:
 - at: 2026-09-25T11:06:00.347612409Z
   from: Planned

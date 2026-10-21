@@ -46,7 +46,7 @@ definition:
     kind: functional
     text: WHEN a project is set up with the scrum preset, THE SYSTEM SHALL create the first sprint and release and a working agreement listing the Definition of Ready and Done from the gates.
     tests:
-    - name: 'manual: scrum setup kick-start in a scratch repo'
+    - name: "manual: scrum setup kick-start in a scratch repo"
       kind: manual
       state: green
   - id: R-2
@@ -66,12 +66,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:15.992243089Z
-    rev: 9df9e0974a5305f7
+    rev: 2eae4fecae75ffb3
   approvals:
   - at: 2026-09-29T17:53:15.992243089Z
     by: Venkatraman B
     verdict: approved
-    rev: 9df9e0974a5305f7
+    rev: 2eae4fecae75ffb3
 history:
 - at: 2026-09-29T19:24:27.86572599Z
   from: Planned

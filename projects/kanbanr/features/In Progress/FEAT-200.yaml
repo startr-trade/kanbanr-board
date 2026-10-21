@@ -1,5 +1,5 @@
 code: FEAT-200
-title: 'Validate Mermaid diagrams: lint on write, real parse on the review page before Approve, doctor and a gate condition'
+title: "Validate Mermaid diagrams: lint on write, real parse on the review page before Approve, doctor and a gate condition"
 status: In Progress
 milestone: MS-007
 kind: feature
@@ -20,7 +20,7 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Core lint: diagrams.rs, fixture, per-rule tests'
+    text: "1 Core lint: diagrams.rs, fixture, per-rule tests"
     state: Completed
   - key: T2
     text: 2 Config, error and strict guard; config diagrams
@@ -38,7 +38,7 @@ todo_lists:
     text: 6 Review route and OpenAPI
     state: Completed
   - key: T7
-    text: '7 Monitor: review page gating, error under the diagram'
+    text: "7 Monitor: review page gating, error under the diagram"
     state: Completed
   - key: T8
     text: 8 Pele parity check
@@ -257,7 +257,7 @@ definition:
       kind: integration
       state: green
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
-    - name: 'manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link, '
+    - name: "manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link, "
       kind: manual
       state: green
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
@@ -299,7 +299,7 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-18
     kind: functional
-    text: 'THE SYSTEM SHALL carry diagram guidance in the skill: quote flowchart labels; keep sequence messages to plain words; never use `end` as an id; run `kanbanr doctor` after writing diagrams.'
+    text: "THE SYSTEM SHALL carry diagram guidance in the skill: quote flowchart labels; keep sequence messages to plain words; never use `end` as an id; run `kanbanr doctor` after writing diagrams."
     tests:
     - name: skill::tests::skill_carries_diagram_guidance
       kind: unit
@@ -312,24 +312,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-21T10:19:32.966856075Z
-    rev: 37e816dabf8d24eb
+    rev: 28d64a104732b0dc
   approvals:
   - at: 2026-10-21T10:19:32.966856075Z
     by: Venkatraman B
     verdict: approved
-    rev: 37e816dabf8d24eb
+    rev: 28d64a104732b0dc
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-21T10:19:33.051534586Z
-    rev: 37e816dabf8d24eb
-    note: 'approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers'
+    rev: 28d64a104732b0dc
+    note: "approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers"
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-21T10:49:19.724325209Z
-    rev: 37e816dabf8d24eb
+    rev: 28d64a104732b0dc
     status: In Progress
 history:
 - at: 2026-10-21T10:48:05.147982175Z

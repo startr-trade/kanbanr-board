@@ -1,10 +1,14 @@
 code: FEAT-038
-title: 'Dashboard: reverse-chronological order + per-page pagination'
+title: "Dashboard: reverse-chronological order + per-page pagination"
 status: Completed
 milestone: MS-003
 kind: feature
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists: []

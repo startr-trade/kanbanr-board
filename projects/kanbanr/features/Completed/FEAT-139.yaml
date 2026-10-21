@@ -1,5 +1,5 @@
 code: FEAT-139
-title: 'Defect: the Claude Code plugin manifest fails validation'
+title: "Defect: the Claude Code plugin manifest fails validation"
 status: Completed
 milestone: MS-002
 kind: bug
@@ -16,22 +16,22 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'plugin.json: skills ./skill/, no comment keys, description without crates.io, licence MIT OR Apache-2.0; marketplace.json likewise; notes moved to .claude-plugin/README.md'
+    text: "plugin.json: skills ./skill/, no comment keys, description without crates.io, licence MIT OR Apache-2.0; marketplace.json likewise; notes moved to .claude-plugin/README.md"
     state: Completed
   - key: T2
-    text: 'claude plugin validate .: passed, no warnings (plugin.json alone warns that a root CLAUDE.md is not plugin context — informational, the repository''s own CLAUDE.md)'
+    text: "claude plugin validate .: passed, no warnings (plugin.json alone warns that a root CLAUDE.md is not plugin context — informational, the repository's own CLAUDE.md)"
     state: Completed
   - key: T3
     text: make ci validates the plugin where claude is installed (sabotaged path fails it); 44/44 pass
     state: Completed
   - key: T4
-    text: 'Install docs: README quick start and the installation chapter''s ''Install the skill'' (plugin or clone); the open-sourcing guide''s <github-owner> placeholder replaced'
+    text: "Install docs: README quick start and the installation chapter's 'Install the skill' (plugin or clone); the open-sourcing guide's <github-owner> placeholder replaced"
     state: Completed
   - key: T5
-    text: 'Not yet proven: a clean-machine walk-through (R-3) — after the push, with the published marketplace'
+    text: "Not yet proven: a clean-machine walk-through (R-3) — after the push, with the published marketplace"
     state: Completed
   - key: T6
-    text: 'Published plugin verified in a throwaway Claude config: marketplace add startr-trade/kanbanr, plugin install kanbanr@kanbanr -> enabled, skill present. The installer half of R-3 waits for the first release (v0.1.0)'
+    text: "Published plugin verified in a throwaway Claude config: marketplace add startr-trade/kanbanr, plugin install kanbanr@kanbanr -> enabled, skill present. The installer half of R-3 waits for the first release (v0.1.0)"
     state: Completed
   created_at: 2026-10-01T10:51:40.64969308Z
 definition:
@@ -64,18 +64,18 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL document, in its README quick start and its installation chapter, how to install the skill into Claude Code, as a plugin and without one.
     tests:
-    - name: 'following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board'
+    - name: "following the README on a clean machine: the installer, then the plugin commands, then \"set up kanbanr\" in Claude reaches a board"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:44:04.361976163Z
-    rev: f9721d5c50cfe890
+    rev: 21f8ae5347fe015f
   approvals:
   - at: 2026-10-01T07:44:04.361976163Z
     by: Venkatraman B
     verdict: approved
-    rev: f9721d5c50cfe890
+    rev: 21f8ae5347fe015f
     status: Planned
 defect:
   severity: high

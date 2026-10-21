@@ -4,7 +4,11 @@ status: Completed
 milestone: MS-002
 kind: feature
 priority: high
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels:
 - distribution
 - oss

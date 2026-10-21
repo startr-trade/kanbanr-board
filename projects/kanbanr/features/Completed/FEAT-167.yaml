@@ -1,5 +1,5 @@
 code: FEAT-167
-title: 'Defect: the editor tests race on one shared download folder'
+title: "Defect: the editor tests race on one shared download folder"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -44,12 +44,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-05T02:45:21.674060317Z
-    rev: e586404985b44bab
+    rev: 47a2d80924e37012
   approvals:
   - at: 2026-10-05T02:45:21.674060317Z
     by: Venkatraman B
     verdict: approved
-    rev: e586404985b44bab
+    rev: 47a2d80924e37012
     status: Planned
 defect:
   found_in: v0.1.6

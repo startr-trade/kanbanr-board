@@ -1,5 +1,5 @@
 code: FEAT-112
-title: 'One readiness engine: every surface asks the same question the same way'
+title: "One readiness engine: every surface asks the same question the same way"
 status: Completed
 milestone: MS-007
 kind: null
@@ -16,7 +16,7 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'readiness.rs: closed Check vocabulary, labels and messages, per-surface lists (CHECK, DOCTOR, FILE, CARD, query groups)'
+    text: "readiness.rs: closed Check vocabulary, labels and messages, per-surface lists (CHECK, DOCTOR, FILE, CARD, query groups)"
     state: Completed
   - key: T2
     text: check/finish, doctor, check --file and query --gap routed through it; readiness routes; cross-surface and golden tests
@@ -55,16 +55,16 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:37:14.864483402Z
-    rev: 0c4b6165f7096907
+    rev: ccc3310b789c1f73
   approvals:
   - at: 2026-09-29T17:35:45.823874467Z
     by: Venkatraman B
     verdict: approved
-    rev: 0c4b6165f7096907
+    rev: ccc3310b789c1f73
   - at: 2026-09-29T17:37:14.864483402Z
     by: Venkatraman B
     verdict: approved
-    rev: 0c4b6165f7096907
+    rev: ccc3310b789c1f73
 history:
 - at: 2026-09-29T17:39:05.553855279Z
   from: Planned

@@ -1,5 +1,5 @@
 code: FEAT-159
-title: 'Decisions in Claude Code: a plan to scope an item, a question to decide it'
+title: "Decisions in Claude Code: a plan to scope an item, a question to decide it"
 status: Completed
 milestone: MS-009
 kind: null
@@ -16,13 +16,13 @@ todo_lists:
   description: walkthroughs
   tasks:
   - key: T1
-    text: 'Proof R-1: scope a new item in plan mode in a scratch project; accepting creates it approved by the user'
+    text: "Proof R-1: scope a new item in plan mode in a scratch project; accepting creates it approved by the user"
     state: Completed
   - key: T2
-    text: 'Proof R-2: review two pending items in the conversation: Approve one, Change it the other'
+    text: "Proof R-2: review two pending items in the conversation: Approve one, Change it the other"
     state: Completed
   - key: T3
-    text: 'Proof R-3: one item through the togaf preset and one through a custom process file, same skill'
+    text: "Proof R-3: one item through the togaf preset and one through a custom process file, same skill"
     state: Completed
   created_at: 2026-10-02T19:40:23.754055531Z
 definition:
@@ -83,12 +83,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T19:29:37.141950891Z
-    rev: 2971b01ed4f83fea
+    rev: 489cb4569506f30a
   approvals:
   - at: 2026-10-02T19:29:37.141950891Z
     by: Venkatraman B
     verdict: approved
-    rev: 2971b01ed4f83fea
+    rev: 489cb4569506f30a
     status: Planned
 history:
 - at: 2026-10-02T19:30:07.112832353Z

@@ -1,5 +1,5 @@
 code: FEAT-050
-title: 'Surfacing and search: feature show, unified query, monitor sections'
+title: "Surfacing and search: feature show, unified query, monitor sections"
 status: Completed
 milestone: MS-006
 kind: feature
@@ -19,16 +19,16 @@ todo_lists:
   description: session 1 — surfacing and search
   tasks:
   - key: T1
-    text: 'export: Definition + Requirements sections in feature show (only when present)'
+    text: "export: Definition + Requirements sections in feature show (only when present)"
     state: Completed
   - key: T2
-    text: 'query: --goal filter and definition text under --full-text'
+    text: "query: --goal filter and definition text under --full-text"
     state: Completed
   - key: T3
     text: search across the graph with the path to the goal, grouped by type
     state: Completed
   - key: T4
-    text: 'web: Definition + Requirements sections, gap chip, needs-attention panel'
+    text: "web: Definition + Requirements sections, gap chip, needs-attention panel"
     state: Completed
   - key: T5
     text: tests + gates

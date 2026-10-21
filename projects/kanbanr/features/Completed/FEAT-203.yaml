@@ -19,13 +19,13 @@ todo_lists:
     text: 1 Pin Pele 1.7.0; tools/docs/pele.sh, committed docs/pele.global.js, identity check
     state: Completed
   - key: T2
-    text: '2 Book: drop mdbook-mermaid; pele-init.js, pele-theme.css, diagram-open.js retargeted'
+    text: "2 Book: drop mdbook-mermaid; pele-init.js, pele-theme.css, diagram-open.js retargeted"
     state: Completed
   - key: T3
     text: 3 check:docs renders every diagram with Pele (R-1)
     state: Completed
   - key: T4
-    text: '4 Monitor: Markdown.tsx with Pele, palette mapping, mermaid removed (R-2)'
+    text: "4 Monitor: Markdown.tsx with Pele, palette mapping, mermaid removed (R-2)"
     state: Completed
   - key: T5
     text: 5 Docs, changelog, manual theme check (R-3), make ci
@@ -61,43 +61,43 @@ definition:
       checked_rev: 39c013b573becb23d56b0201057447ff03ff9e78
   - id: R-3
     kind: functional
-    text: 'THE SYSTEM SHALL colour diagrams from the current theme: each mdBook theme in the book, light and dark in the monitor.'
+    text: "THE SYSTEM SHALL colour diagrams from the current theme: each mdBook theme in the book, light and dark in the monitor."
     tests:
-    - name: 'manual: diagrams follow each mdBook theme and the monitor''s light and dark'
+    - name: "manual: diagrams follow each mdBook theme and the monitor's light and dark"
       kind: manual
       state: green
       checked_rev: 39c013b573becb23d56b0201057447ff03ff9e78
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:08:19.305531807Z
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
   approvals:
   - at: 2026-10-20T13:07:59.457648921Z
     by: Venkatraman B
     verdict: approved
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
     status: Planned
   - at: 2026-10-20T13:08:19.305531807Z
     by: Venkatraman B
     verdict: approved
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T13:08:07.303265939Z
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
     status: Planned
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T13:08:19.356770106Z
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-21T09:09:18.808075871Z
-    rev: d9e5f392aa86d20b
+    rev: 243385cb52509b2b
     status: In Progress
 history:
 - at: 2026-10-21T08:58:30.198410396Z

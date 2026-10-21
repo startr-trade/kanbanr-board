@@ -20,19 +20,19 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 refs.rs: Ref, Found, BoardIndex, find, resolves, href'
+    text: "1 refs.rs: Ref, Found, BoardIndex, find, resolves, href"
     state: Completed
   - key: T2
-    text: '2 Doctor: scan_references'
+    text: "2 Doctor: scan_references"
     state: Completed
   - key: T3
-    text: '3 Trace: Subject::Doc, doc edges, links_out/links_in'
+    text: "3 Trace: Subject::Doc, doc edges, links_out/links_in"
     state: Completed
   - key: T4
     text: 4 why prints documents
     state: Completed
   - key: T5
-    text: '5 TS finder: boardRefs.ts + useBoardIndex'
+    text: "5 TS finder: boardRefs.ts + useBoardIndex"
     state: Completed
   - key: T6
     text: 6 Renderer links references; router clicks; requirement anchors
@@ -51,7 +51,7 @@ definition:
   - G-2
   zachman:
     what: Auto-linked references, broken-link reports, links as trace edges
-    how: 'One reference finder in core (refs.rs) with a TypeScript port: board-shaped tokens only, code and existing links skipped, resolved against the board; the monitor links them, doctor reports broken ones, trace and why follow doc links'
+    how: "One reference finder in core (refs.rs) with a TypeScript port: board-shaped tokens only, code and existing links skipped, resolved against the board; the monitor links them, doctor reports broken ones, trace and why follow doc links"
     where: web monitor markdown rendering, kanbanr-core doctor and trace, the skill
     when: When markdown renders; on doctor and trace runs
     who: the solo developer, collaborators and reviewers, Claude
@@ -84,23 +84,23 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state in the skill that every reference in a design artifact is a live link, and how to write each kind.
     tests:
-    - name: 'manual: skill linking rules present and match the docs'
+    - name: "manual: skill linking rules present and match the docs"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:29:32.44161778Z
-    rev: 421c086908d03dab
+    rev: 171aa6ef60b90117
   approvals:
   - at: 2026-10-19T04:19:29.935999499Z
     by: Venkatraman B
     verdict: approved
-    rev: 421c086908d03dab
+    rev: 171aa6ef60b90117
     status: Planned
   - at: 2026-10-19T04:29:32.44161778Z
     by: Venkatraman B
     verdict: approved
-    rev: 421c086908d03dab
+    rev: 171aa6ef60b90117
     status: Planned
 history:
 - at: 2026-10-19T10:13:40.361709471Z

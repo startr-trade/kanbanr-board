@@ -4,7 +4,7 @@
   item: FEAT-171
 - time: 2026-10-06T13:59:47.151265854Z
   actor: Venkatraman B
-  message: 'test walkthrough: a process designed through the dialogue in a scratch project of FEAT-171/R-1 is now green'
+  message: "test walkthrough: a process designed through the dialogue in a scratch project of FEAT-171/R-1 is now green"
   item: FEAT-171
 - time: 2026-10-06T13:59:47.303997909Z
   actor: Venkatraman B
@@ -106,7 +106,7 @@
   item: FEAT-174
 - time: 2026-10-06T14:24:53.03248502Z
   actor: Venkatraman B
-  message: 'test make ci: npm audit and Trivy pass of FEAT-174/R-1 is now green'
+  message: "test make ci: npm audit and Trivy pass of FEAT-174/R-1 is now green"
   item: FEAT-174
 - time: 2026-10-06T14:24:53.155932638Z
   actor: Venkatraman B
@@ -118,15 +118,15 @@
   item: FEAT-173
 - time: 2026-10-06T17:23:10.591122818Z
   actor: Venkatraman B
-  message: 'test walkthrough: the setup plan shows the checked working agreement and diagram of FEAT-171/R-5 is now green'
+  message: "test walkthrough: the setup plan shows the checked working agreement and diagram of FEAT-171/R-5 is now green"
   item: FEAT-171
 - time: 2026-10-06T17:23:10.642843774Z
   actor: Venkatraman B
-  message: 'test walkthrough: process list shows the designed process with its description of FEAT-171/R-6 is now green'
+  message: "test walkthrough: process list shows the designed process with its description of FEAT-171/R-6 is now green"
   item: FEAT-171
 - time: 2026-10-06T17:23:10.69706233Z
   actor: Venkatraman B
-  message: 'test walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset of FEAT-173/R-1 is now green'
+  message: "test walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset of FEAT-173/R-1 is now green"
   item: FEAT-173
 - time: 2026-10-06T17:29:45.861678061Z
   actor: Venkatraman B
@@ -138,26 +138,26 @@
   item: FEAT-173
 - time: 2026-10-06T17:41:22.000356478Z
   actor: Venkatraman B
-  message: 'test walkthrough: changing the process offers the update per project of FEAT-171/R-3 is now green'
+  message: "test walkthrough: changing the process offers the update per project of FEAT-171/R-3 is now green"
   item: FEAT-171
 - time: 2026-10-06T17:50:05.382251966Z
   actor: Venkatraman B
-  message: 'test walkthrough: a failing setup command stops the setup and is reported of FEAT-173/R-3 is now green'
+  message: "test walkthrough: a failing setup command stops the setup and is reported of FEAT-173/R-3 is now green"
   item: FEAT-173
 - time: 2026-10-06T17:51:10.024760705Z
   actor: Venkatraman B
   message: record a lesson
 - time: 2026-10-06T17:57:48.762268485Z
   actor: Venkatraman B
-  message: 'test walkthrough: setup in a folder with no git identity asks, and sets the board''s identity for that repository only when agreed of FEAT-173/R-1 is now green'
+  message: "test walkthrough: setup in a folder with no git identity asks, and sets the board's identity for that repository only when agreed of FEAT-173/R-1 is now green"
   item: FEAT-173
 - time: 2026-10-06T18:02:48.421124357Z
   actor: Venkatraman B
-  message: 'test walkthrough: a second project picks the saved process from the list of FEAT-171/R-2 is now green'
+  message: "test walkthrough: a second project picks the saved process from the list of FEAT-171/R-2 is now green"
   item: FEAT-171
 - time: 2026-10-06T18:02:57.651466031Z
   actor: Venkatraman B
-  message: 'test make ci: check:docs and the Working with Claude coverage check pass of FEAT-171/R-4 is now green'
+  message: "test make ci: check:docs and the Working with Claude coverage check pass of FEAT-171/R-4 is now green"
   item: FEAT-171
 - time: 2026-10-06T18:06:53.156792313Z
   actor: Venkatraman B

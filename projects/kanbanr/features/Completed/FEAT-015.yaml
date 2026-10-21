@@ -2,6 +2,15 @@ code: FEAT-015
 title: Collapse to single-user auth model
 status: Completed
 milestone: MS-001
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: Single-user view-only collapse
@@ -13,13 +22,13 @@ todo_lists:
     text: CLI -> local-only writer (removed client/creds/login/user/remote)
     state: Completed
   - key: T3
-    text: 'Single binary: `kanbanr serve` runs the view daemon (kanbanr-server is a lib)'
+    text: "Single binary: `kanbanr serve` runs the view daemon (kanbanr-server is a lib)"
     state: Completed
   - key: T4
-    text: 'Web: removed login/auth; plain fetch + EventSource'
+    text: "Web: removed login/auth; plain fetch + EventSource"
     state: Completed
   - key: T5
-    text: 'Rewrote tests: view-daemon + local-mode; updated layer-2 image test'
+    text: "Rewrote tests: view-daemon + local-mode; updated layer-2 image test"
     state: Completed
   - key: T6
     text: Docs/Dockerfile updated for the view-only single-runtime model

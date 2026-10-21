@@ -1,5 +1,5 @@
 code: FEAT-073
-title: 'Defect: convenience scripts derive the board path instead of asking the CLI'
+title: "Defect: convenience scripts derive the board path instead of asking the CLI"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -62,24 +62,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.518683262Z
-    rev: b41a78b0292a9aa5
+    rev: 1f9380f48e7206db
   approvals:
   - at: 2026-09-28T17:56:28.731302938Z
     by: unknown
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: b41a78b0292a9aa5
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 1f9380f48e7206db
   - at: 2026-09-28T17:57:54.497669225Z
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
-    rev: b41a78b0292a9aa5
+    rev: 1f9380f48e7206db
   - at: 2026-09-28T17:57:54.518683262Z
     by: Venkatraman B
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: b41a78b0292a9aa5
-  started_unapproved: 'auto-pilot: fixing what the user''s rename exposed'
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 1f9380f48e7206db
+  started_unapproved: "auto-pilot: fixing what the user's rename exposed"
 defect:
   severity: medium
   introduced_by: FEAT-071

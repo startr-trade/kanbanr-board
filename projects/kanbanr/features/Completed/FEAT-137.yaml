@@ -19,7 +19,7 @@ todo_lists:
     text: Gate.done + ProjectConfig::counts_as_done; sprints burndown, done total and carry-over use it; scrum preset marks Done; working agreement says so
     state: Completed
   - key: T2
-    text: 'Tests: marked stage burns on arrival and close carries only not-Done; unmarked keeps end statuses; preset marks Done (sabotage fails both)'
+    text: "Tests: marked stage burns on arrival and close carries only not-Done; unmarked keeps end statuses; preset marks Done (sabotage fails both)"
     state: Completed
   - key: T3
     text: Docs (processes) + changelog; make ci 42/42
@@ -62,12 +62,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:37:06.871602132Z
-    rev: 6f684ec200296e3b
+    rev: d71b089ee29dd165
   approvals:
   - at: 2026-10-01T06:37:06.871602132Z
     by: Venkatraman B
     verdict: approved
-    rev: 6f684ec200296e3b
+    rev: d71b089ee29dd165
     status: Planned
 history:
 - at: 2026-10-01T06:37:16.840274229Z

@@ -1,5 +1,5 @@
 code: FEAT-145
-title: 'Defect: the container image''s kanbanr carries no skill'
+title: "Defect: the container image's kanbanr carries no skill"
 status: Completed
 milestone: MS-002
 kind: null
@@ -41,12 +41,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T19:36:28.492445129Z
-    rev: 955020bb443f9d0f
+    rev: 2522727599ee6a18
   approvals:
   - at: 2026-10-01T19:36:28.492445129Z
     by: Venkatraman B
     verdict: approved
-    rev: 955020bb443f9d0f
+    rev: 2522727599ee6a18
     status: Planned
 defect:
   severity: low

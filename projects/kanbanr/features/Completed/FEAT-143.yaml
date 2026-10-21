@@ -1,5 +1,5 @@
 code: FEAT-143
-title: 'Defect: v0.1.0 release fails its installer check and skips crates.io'
+title: "Defect: v0.1.0 release fails its installer check and skips crates.io"
 status: Completed
 milestone: MS-002
 kind: null
@@ -48,12 +48,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T19:12:41.533806324Z
-    rev: 512e4adfcc276fa0
+    rev: e9d1f1840e4ca951
   approvals:
   - at: 2026-10-01T19:12:41.533806324Z
     by: Venkatraman B
     verdict: approved
-    rev: 512e4adfcc276fa0
+    rev: e9d1f1840e4ca951
     status: In Progress
 defect:
   severity: medium

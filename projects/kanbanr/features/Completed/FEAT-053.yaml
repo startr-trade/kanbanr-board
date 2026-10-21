@@ -1,5 +1,5 @@
 code: FEAT-053
-title: 'Measurement: transition history, defects, test capture hook, report'
+title: "Measurement: transition history, defects, test capture hook, report"
 status: Completed
 milestone: MS-006
 kind: feature
@@ -21,16 +21,16 @@ todo_lists:
   description: session 1 — measurement
   tasks:
   - key: T1
-    text: 'core: transition history appended on moves; Defect block (severity, introduced_by, escaped, root cause)'
+    text: "core: transition history appended on moves; Defect block (severity, introduced_by, escaped, root cause)"
     state: Completed
   - key: T2
-    text: 'core: report over history/definitions — throughput, cycle time, WIP, escape rate, coverage'
+    text: "core: report over history/definitions — throughput, cycle time, WIP, escape rate, coverage"
     state: Completed
   - key: T3
-    text: 'CLI: kanbanr report --since; kanbanr tests --write (missing test names)'
+    text: "CLI: kanbanr report --since; kanbanr tests --write (missing test names)"
     state: Completed
   - key: T4
-    text: 'hook: PostToolUse test capture flipping TDD states from real runs'
+    text: "hook: PostToolUse test capture flipping TDD states from real runs"
     state: Completed
   - key: T5
     text: tests + gates
@@ -114,9 +114,9 @@ definition:
       stimulus: A board written before this change is read by the new binary
       environment: kanbanr's own data folder, 45 items, none with history
       response: Every yaml file is unchanged and the report degrades to 'no completed item has a recorded history yet'
-      measure: 'legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty'
+      measure: "legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty"
     tests:
-    - name: 'legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty'
+    - name: "legacy invariant: kanbanr board and feature show leave `git status` in the data repo empty"
       kind: manual
       state: green
   - id: R-8
@@ -130,6 +130,6 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:36.399295549Z
-    rev: 8d8e2bd076a3d6c8
+    rev: b65f6a62b862ce2f
 created_at: 2026-09-24T18:45:46.410618944Z
 updated_at: 2026-09-30T17:55:47.492828923Z

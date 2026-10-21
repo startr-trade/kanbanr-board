@@ -1,6 +1,6 @@
 - time: 2026-09-28T05:34:43.413214599Z
   actor: Venkatraman B
-  message: 'FEAT-065: record the session''s tasks — code written, waiting on a decision about the guard''s scope'
+  message: "FEAT-065: record the session's tasks — code written, waiting on a decision about the guard's scope"
 - time: 2026-09-28T05:43:06.834612543Z
   actor: Venkatraman B
   message: edit feature FEAT-066
@@ -10,7 +10,7 @@
   message: record 65 test result(s) from a run
 - time: 2026-09-28T05:54:32.08614964Z
   actor: Venkatraman B
-  message: 'FEAT-065: project-scoped hooks, the generated block, the docs guard'
+  message: "FEAT-065: project-scoped hooks, the generated block, the docs guard"
 - time: 2026-09-28T05:55:32.267472884Z
   actor: Venkatraman B
   message: scope reviewing and approving in the monitor
@@ -72,7 +72,7 @@
   item: FEAT-064
 - time: 2026-09-28T06:04:12.643644149Z
   actor: Venkatraman B
-  message: 'defect: the unapproved-start warning outlives the approval that answers it'
+  message: "defect: the unapproved-start warning outlives the approval that answers it"
 - time: 2026-09-28T06:04:12.660840829Z
   actor: Venkatraman B
   message: define feature FEAT-068
@@ -93,7 +93,7 @@
   message: record 68 test result(s) from a run
 - time: 2026-09-28T06:06:43.481734646Z
   actor: Venkatraman B
-  message: 'FEAT-068: the escape warning stops once it is answered'
+  message: "FEAT-068: the escape warning stops once it is answered"
 - time: 2026-09-28T06:07:08.010244446Z
   actor: Venkatraman B
   message: FEAT-067 and FEAT-068 done
@@ -136,10 +136,10 @@
   item: FEAT-068
 - time: 2026-09-28T06:37:35.324562332Z
   actor: Venkatraman B
-  message: 'FEAT-069: withdrawal built'
+  message: "FEAT-069: withdrawal built"
 - time: 2026-09-28T06:38:34.004730833Z
   actor: Venkatraman B
-  message: 'defect: the monitor serves a stale index after the UI is rebuilt'
+  message: "defect: the monitor serves a stale index after the UI is rebuilt"
 - time: 2026-09-28T06:38:34.021517517Z
   actor: Venkatraman B
   message: define feature FEAT-070
@@ -203,7 +203,7 @@
   message: record 81 test result(s) from a run
 - time: 2026-09-28T06:52:28.095611738Z
   actor: Venkatraman B
-  message: 'FEAT-066: the logs keep everything'
+  message: "FEAT-066: the logs keep everything"
 - time: 2026-09-28T06:58:07.735296212Z
   actor: Venkatraman B
   message: define feature FEAT-071
@@ -217,7 +217,7 @@
   message: record 84 test result(s) from a run
 - time: 2026-09-28T07:03:04.140890141Z
   actor: Venkatraman B
-  message: 'FEAT-071: status folders live under features/'
+  message: "FEAT-071: status folders live under features/"
 - time: 2026-09-28T07:06:21.266610665Z
   actor: Venkatraman B
   message: update document
@@ -238,10 +238,10 @@
   message: record 85 test result(s) from a run
 - time: 2026-09-28T07:09:03.122797795Z
   actor: Venkatraman B
-  message: 'FEAT-052: the bar, the docs and the dogfooding are done'
+  message: "FEAT-052: the bar, the docs and the dogfooding are done"
 - time: 2026-09-28T08:17:16.540900708Z
   actor: Venkatraman B
-  message: 'defect: an older binary reads a migrated board as empty'
+  message: "defect: an older binary reads a migrated board as empty"
 - time: 2026-09-28T08:17:30.771312497Z
   actor: Venkatraman B
   message: record a lesson
@@ -270,7 +270,7 @@
   item: FEAT-059
 - time: 2026-09-28T08:22:11.345900026Z
   actor: Venkatraman B
-  message: 'FEAT-059: the daemon path was missed the first time'
+  message: "FEAT-059: the daemon path was missed the first time"
 - time: 2026-09-28T08:27:56.787039907Z
   actor: Venkatraman B
   message: define feature FEAT-072
@@ -288,16 +288,16 @@
   message: record 89 test result(s) from a run
 - time: 2026-09-28T08:33:54.996312772Z
   actor: Venkatraman B
-  message: 'update config: default-state'
+  message: "update config: default-state"
 - time: 2026-09-28T08:34:44.873589633Z
   actor: Venkatraman B
-  message: 'FEAT-072: a stale reader says so'
+  message: "FEAT-072: a stale reader says so"
 - time: 2026-09-28T10:56:19.150713901Z
   actor: Venkatraman B
   message: record a lesson
 - time: 2026-09-28T10:56:51.084648583Z
   actor: Venkatraman B
-  message: 'defect: three scripts guessed the board path instead of asking'
+  message: "defect: three scripts guessed the board path instead of asking"
 - time: 2026-09-28T10:56:51.101479137Z
   actor: Venkatraman B
   message: define feature FEAT-073
@@ -325,7 +325,7 @@
   message: update document
 - time: 2026-09-28T11:28:43.038992445Z
   actor: Venkatraman B
-  message: 'defect: the approval gate fires on parking an item'
+  message: "defect: the approval gate fires on parking an item"
 - time: 2026-09-28T11:28:43.058315464Z
   actor: Venkatraman B
   message: define feature FEAT-075
@@ -347,10 +347,10 @@
   message: record 92 test result(s) from a run
 - time: 2026-09-28T11:31:02.59586886Z
   actor: Venkatraman B
-  message: 'FEAT-075: the gate fires on starting work, not on parking'
+  message: "FEAT-075: the gate fires on starting work, not on parking"
 - time: 2026-09-28T11:42:32.286128482Z
   actor: Venkatraman B
-  message: 'defect: the review page''s items run together and its action does not look like one'
+  message: "defect: the review page's items run together and its action does not look like one"
 - time: 2026-09-28T11:42:32.305222577Z
   actor: Venkatraman B
   message: define feature FEAT-076
@@ -1106,7 +1106,7 @@
   message: record the reconciliation work
 - time: 2026-09-28T18:01:40.921628699Z
   actor: Venkatraman B
-  message: 'record: a failed batch left the board mutated and uncommitted (and sweep that state in)'
+  message: "record: a failed batch left the board mutated and uncommitted (and sweep that state in)"
 - time: 2026-09-28T18:03:04.423073269Z
   actor: Venkatraman B
   message: test doctor::tests::an_unreconciled_bypass_outlives_the_terminal_gate of FEAT-080/R-3 is now green
@@ -1228,11 +1228,11 @@
   item: FEAT-097
 - time: 2026-09-28T18:25:44.64995101Z
   actor: Venkatraman B
-  message: 'test web: npm run check:ui fails when styles.css uses an undefined token of FEAT-096/R-1 is now green'
+  message: "test web: npm run check:ui fails when styles.css uses an undefined token of FEAT-096/R-1 is now green"
   item: FEAT-096
 - time: 2026-09-28T18:25:44.669463917Z
   actor: Venkatraman B
-  message: 'test tools/screenshots: portfolio-dark.png captured and inspected of FEAT-096/R-2 is now green'
+  message: "test tools/screenshots: portfolio-dark.png captured and inspected of FEAT-096/R-2 is now green"
   item: FEAT-096
 - time: 2026-09-28T18:25:44.691151536Z
   actor: Venkatraman B
@@ -1336,23 +1336,23 @@
   message: update document
 - time: 2026-09-28T18:53:14.131982065Z
   actor: Venkatraman B
-  message: 'test hook: a synthetic PostCompact payload writes a sessions/ doc of FEAT-099/R-1 is now green'
+  message: "test hook: a synthetic PostCompact payload writes a sessions/ doc of FEAT-099/R-1 is now green"
   item: FEAT-099
 - time: 2026-09-28T18:53:14.153875721Z
   actor: Venkatraman B
-  message: 'test hook: SessionStart summarises this project''s un-summarised transcript to the board of FEAT-099/R-2 is now green'
+  message: "test hook: SessionStart summarises this project's un-summarised transcript to the board of FEAT-099/R-2 is now green"
   item: FEAT-099
 - time: 2026-09-28T18:53:14.174453886Z
   actor: Venkatraman B
-  message: 'test hook: SessionStart summarises this project''s un-summarised transcript to the board of FEAT-099/R-3 is now green'
+  message: "test hook: SessionStart summarises this project's un-summarised transcript to the board of FEAT-099/R-3 is now green"
   item: FEAT-099
 - time: 2026-09-28T18:53:14.194948583Z
   actor: Venkatraman B
-  message: 'test hook: a second SessionStart sweep summarises nothing new of FEAT-099/R-4 is now green'
+  message: "test hook: a second SessionStart sweep summarises nothing new of FEAT-099/R-4 is now green"
   item: FEAT-099
 - time: 2026-09-28T18:53:14.215418885Z
   actor: Venkatraman B
-  message: 'close FEAT-099: session summaries on the board'
+  message: "close FEAT-099: session summaries on the board"
 - time: 2026-09-28T18:55:43.884636288Z
   actor: Venkatraman B
   message: update document
@@ -1367,7 +1367,7 @@
   message: update document
 - time: 2026-09-28T19:11:15.940322631Z
   actor: Venkatraman B
-  message: 'Scope FEAT-099: setup interview in plan mode'
+  message: "Scope FEAT-099: setup interview in plan mode"
 - time: 2026-09-28T19:12:46.365043063Z
   actor: Venkatraman B
   message: approve definition of FEAT-100
@@ -1410,7 +1410,7 @@
   item: FEAT-100
 - time: 2026-09-28T19:14:40.502593832Z
   actor: Venkatraman B
-  message: 'Scope FEAT-101: ship the session-summary hooks'
+  message: "Scope FEAT-101: ship the session-summary hooks"
 - time: 2026-09-28T19:15:29.371246742Z
   actor: Venkatraman B
   message: approve definition of FEAT-101
@@ -1428,7 +1428,7 @@
   message: record 2 test result(s) from a run
 - time: 2026-09-28T19:20:30.126986774Z
   actor: Venkatraman B
-  message: 'test manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths of FEAT-101/R-3 is now green'
+  message: "test manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths of FEAT-101/R-3 is now green"
   item: FEAT-101
 - time: 2026-09-28T19:20:30.142759039Z
   actor: Venkatraman B
@@ -1467,7 +1467,7 @@
   item: FEAT-101
 - time: 2026-09-28T19:20:44.72831578Z
   actor: Venkatraman B
-  message: 'Record FEAT-102: the shipped session-start and stop-check hooks are empty'
+  message: "Record FEAT-102: the shipped session-start and stop-check hooks are empty"
 - time: 2026-09-28T19:20:50.676790276Z
   actor: Venkatraman B
   message: move feature FEAT-102
@@ -1478,7 +1478,7 @@
   item: FEAT-102
 - time: 2026-09-28T19:21:39.802321153Z
   actor: Venkatraman B
-  message: 'test manual: session-start.sh piped a SessionStart payload in this repo prints the board of FEAT-102/R-1 is now green'
+  message: "test manual: session-start.sh piped a SessionStart payload in this repo prints the board of FEAT-102/R-1 is now green"
   item: FEAT-102
 - time: 2026-09-28T19:21:46.878137003Z
   actor: Venkatraman B

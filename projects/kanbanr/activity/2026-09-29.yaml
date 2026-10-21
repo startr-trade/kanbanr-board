@@ -1,14 +1,14 @@
 - time: 2026-09-29T07:27:39.4200128Z
   actor: Venkatraman B
-  message: 'test manual: setup request on an untracked scratch repo enters plan mode first of FEAT-100/R-1 is now green'
+  message: "test manual: setup request on an untracked scratch repo enters plan mode first of FEAT-100/R-1 is now green"
   item: FEAT-100
 - time: 2026-09-29T07:27:39.438257823Z
   actor: Venkatraman B
-  message: 'test manual: the setup plan names every collected choice and its command of FEAT-100/R-2 is now green'
+  message: "test manual: the setup plan names every collected choice and its command of FEAT-100/R-2 is now green"
   item: FEAT-100
 - time: 2026-09-29T07:27:39.456121866Z
   actor: Venkatraman B
-  message: 'test manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean of FEAT-100/R-3 is now green'
+  message: "test manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean of FEAT-100/R-3 is now green"
   item: FEAT-100
 - time: 2026-09-29T07:27:39.475672474Z
   actor: Venkatraman B
@@ -98,7 +98,7 @@
   message: record a lesson
 - time: 2026-09-29T07:33:33.120477997Z
   actor: Venkatraman B
-  message: 'Record FEAT-107: board columns scroll inside a 1200px page'
+  message: "Record FEAT-107: board columns scroll inside a 1200px page"
 - time: 2026-09-29T07:34:08.220140507Z
   actor: Venkatraman B
   message: approve definition of FEAT-107
@@ -113,11 +113,11 @@
   item: FEAT-107
 - time: 2026-09-29T07:36:41.88231581Z
   actor: Venkatraman B
-  message: 'test manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar of FEAT-107/R-1 is now green'
+  message: "test manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar of FEAT-107/R-1 is now green"
   item: FEAT-107
 - time: 2026-09-29T07:36:41.902385899Z
   actor: Venkatraman B
-  message: 'test manual: a feature page at 1920px keeps its 1200px width of FEAT-107/R-2 is now green'
+  message: "test manual: a feature page at 1920px keeps its 1200px width of FEAT-107/R-2 is now green"
   item: FEAT-107
 - time: 2026-09-29T07:36:41.931974067Z
   actor: Venkatraman B
@@ -177,11 +177,11 @@
   item: FEAT-106
 - time: 2026-09-29T07:40:09.186770318Z
   actor: Venkatraman B
-  message: 'test manual: a charter written from the skill''s shape passes kanbanr charter set on the first try of FEAT-106/R-1 is now green'
+  message: "test manual: a charter written from the skill's shape passes kanbanr charter set on the first try of FEAT-106/R-1 is now green"
   item: FEAT-106
 - time: 2026-09-29T07:40:09.206534452Z
   actor: Venkatraman B
-  message: 'test manual: setup in a non-git folder ends with one commit on the default branch and the hooks installed of FEAT-106/R-2 is now green'
+  message: "test manual: setup in a non-git folder ends with one commit on the default branch and the hooks installed of FEAT-106/R-2 is now green"
   item: FEAT-106
 - time: 2026-09-29T07:40:09.22478222Z
   actor: Venkatraman B
@@ -201,7 +201,7 @@
   item: FEAT-106
 - time: 2026-09-29T07:41:04.80316298Z
   actor: Venkatraman B
-  message: 'Record FEAT-108: the commit guard reads a heredoc body as a command'
+  message: "Record FEAT-108: the commit guard reads a heredoc body as a command"
 - time: 2026-09-29T09:01:00.191211493Z
   actor: Venkatraman B
   message: approve definition of FEAT-108
@@ -248,7 +248,7 @@
   item: FEAT-108
 - time: 2026-09-29T09:05:12.484536415Z
   actor: Venkatraman B
-  message: 'Record FEAT-109: ratify from the Review page'
+  message: "Record FEAT-109: ratify from the Review page"
 - time: 2026-09-29T09:05:52.698904583Z
   actor: Venkatraman B
   message: ratify FEAT-102 — built under a recorded bypass, agreed to after the fact
@@ -267,7 +267,7 @@
   item: FEAT-109
 - time: 2026-09-29T09:09:27.251381138Z
   actor: Venkatraman B
-  message: 'test manual: ratify an unratified item from the Review page and see doctor go quiet of FEAT-109/R-2 is now green'
+  message: "test manual: ratify an unratified item from the Review page and see doctor go quiet of FEAT-109/R-2 is now green"
   item: FEAT-109
 - time: 2026-09-29T09:09:27.273917689Z
   actor: Venkatraman B
@@ -303,7 +303,7 @@
   item: FEAT-109
 - time: 2026-09-29T09:17:32.801989893Z
   actor: Venkatraman B
-  message: 'test manual: a tracked folder goes straight to recovery of FEAT-100/R-4 is now green'
+  message: "test manual: a tracked folder goes straight to recovery of FEAT-100/R-4 is now green"
   item: FEAT-100
 - time: 2026-09-29T09:17:32.825490737Z
   actor: Venkatraman B
@@ -323,7 +323,7 @@
   item: FEAT-106
 - time: 2026-09-29T09:29:29.648921633Z
   actor: Venkatraman B
-  message: 'test manual: the setup report names kanbanr serve / kanbanr open of FEAT-106/R-3 is now green'
+  message: "test manual: the setup report names kanbanr serve / kanbanr open of FEAT-106/R-3 is now green"
   item: FEAT-106
 - time: 2026-09-29T09:29:29.66917731Z
   actor: Venkatraman B
@@ -335,7 +335,7 @@
   item: FEAT-106
 - time: 2026-09-29T09:29:46.041694796Z
   actor: Venkatraman B
-  message: 'Record FEAT-110: the CLI panics when its output is cut short'
+  message: "Record FEAT-110: the CLI panics when its output is cut short"
 - time: 2026-09-29T09:30:39.803087451Z
   actor: Venkatraman B
   message: approve definition of FEAT-110
@@ -377,7 +377,7 @@
   message: update document
 - time: 2026-09-29T17:32:38.860037458Z
   actor: Venkatraman B
-  message: 'Scope MS-007/MS-008: process as configuration, and cadence'
+  message: "Scope MS-007/MS-008: process as configuration, and cadence"
 - time: 2026-09-29T17:35:35.921026446Z
   actor: Venkatraman B
   message: approve definition of FEAT-111
@@ -476,18 +476,18 @@
   item: FEAT-112
 - time: 2026-09-29T17:40:39.639348526Z
   actor: Venkatraman B
-  message: 'Record FEAT-124: session summaries honour a private exclusion list'
+  message: "Record FEAT-124: session summaries honour a private exclusion list"
 - time: 2026-09-29T17:40:39.691932348Z
   actor: Venkatraman B
   message: move feature FEAT-124
   item: FEAT-124
 - time: 2026-09-29T17:42:21.897016798Z
   actor: Venkatraman B
-  message: 'test manual: excluded messages never reach the model (condensed input checked) of FEAT-124/R-1 is now green'
+  message: "test manual: excluded messages never reach the model (condensed input checked) of FEAT-124/R-1 is now green"
   item: FEAT-124
 - time: 2026-09-29T17:42:21.921239526Z
   actor: Venkatraman B
-  message: 'test manual: a compaction summary with an excluded term is saved without it of FEAT-124/R-2 is now green'
+  message: "test manual: a compaction summary with an excluded term is saved without it of FEAT-124/R-2 is now green"
   item: FEAT-124
 - time: 2026-09-29T17:42:21.945659334Z
   actor: Venkatraman B
@@ -795,7 +795,7 @@
   item: FEAT-117
 - time: 2026-09-29T19:00:19.662757097Z
   actor: Venkatraman B
-  message: 'test manual: sign off from the Review page of FEAT-117/R-3 is now green'
+  message: "test manual: sign off from the Review page of FEAT-117/R-3 is now green"
   item: FEAT-117
 - time: 2026-09-29T19:00:19.685247165Z
   actor: Venkatraman B
@@ -837,11 +837,11 @@
   message: update document
 - time: 2026-09-29T19:03:10.568356073Z
   actor: Venkatraman B
-  message: 'test manual: the processes chapter covers every check and preset (audited against the code) of FEAT-118/R-1 is now green'
+  message: "test manual: the processes chapter covers every check and preset (audited against the code) of FEAT-118/R-1 is now green"
   item: FEAT-118
 - time: 2026-09-29T19:03:10.595302287Z
   actor: Venkatraman B
-  message: 'test manual: a downstream board on progressive togaf, board and doctor clean of FEAT-118/R-2 is now green'
+  message: "test manual: a downstream board on progressive togaf, board and doctor clean of FEAT-118/R-2 is now green"
   item: FEAT-118
 - time: 2026-09-29T19:03:10.620877474Z
   actor: Venkatraman B
@@ -1013,7 +1013,7 @@
   item: FEAT-122
 - time: 2026-09-29T19:29:53.389994296Z
   actor: Venkatraman B
-  message: 'test manual: scrum setup kick-start in a scratch repo of FEAT-122/R-1 is now green'
+  message: "test manual: scrum setup kick-start in a scratch repo of FEAT-122/R-1 is now green"
   item: FEAT-122
 - time: 2026-09-29T19:29:53.419315678Z
   actor: Venkatraman B
@@ -1057,7 +1057,7 @@
   item: FEAT-123
 - time: 2026-09-29T19:37:37.30979914Z
   actor: Venkatraman B
-  message: 'Record FEAT-125: a gate without ''definition'' let undefined items through'
+  message: "Record FEAT-125: a gate without 'definition' let undefined items through"
 - time: 2026-09-29T19:37:37.351394633Z
   actor: Venkatraman B
   message: move feature FEAT-125
@@ -1068,15 +1068,15 @@
   item: FEAT-125
 - time: 2026-09-29T19:39:35.337192187Z
   actor: Venkatraman B
-  message: 'test manual: sprint header and burndown screenshot of FEAT-123/R-1 is now green'
+  message: "test manual: sprint header and burndown screenshot of FEAT-123/R-1 is now green"
   item: FEAT-123
 - time: 2026-09-29T19:39:35.361698694Z
   actor: Venkatraman B
-  message: 'test manual: gantt with sprints and releases renders of FEAT-123/R-2 is now green'
+  message: "test manual: gantt with sprints and releases renders of FEAT-123/R-2 is now green"
   item: FEAT-123
 - time: 2026-09-29T19:39:35.386286017Z
   actor: Venkatraman B
-  message: 'test manual: cadence views hidden on a project without sprints or releases of FEAT-123/R-3 is now green'
+  message: "test manual: cadence views hidden on a project without sprints or releases of FEAT-123/R-3 is now green"
   item: FEAT-123
 - time: 2026-09-29T19:39:35.412096824Z
   actor: Venkatraman B

@@ -2,6 +2,15 @@ code: FEAT-001
 title: Local / serverless mode
 status: Completed
 milestone: MS-001
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: Implement local/serverless mode
@@ -16,16 +25,16 @@ todo_lists:
     text: Refactor server routes to call core dispatch (single source, no drift)
     state: Completed
   - key: T4
-    text: 'CLI: Backend enum Remote|Local + selection (--local / KANBANR_LOCAL / auto-detect)'
+    text: "CLI: Backend enum Remote|Local + selection (--local / KANBANR_LOCAL / auto-detect)"
     state: Completed
   - key: T5
-    text: 'CLI LocalBackend: dispatch + git commit + local identity (config identity, whoami)'
+    text: "CLI LocalBackend: dispatch + git commit + local identity (config identity, whoami)"
     state: Completed
   - key: T6
-    text: 'Tests: core dispatch unit + CLI local-mode integration (no server)'
+    text: "Tests: core dispatch unit + CLI local-mode integration (no server)"
     state: Completed
   - key: T7
-    text: 'Docs: note local mode in SKILL / USER_GUIDE / DESIGN'
+    text: "Docs: note local mode in SKILL / USER_GUIDE / DESIGN"
     state: Completed
   created_at: 2026-06-12T03:43:10.279310298Z
 created_at: 2026-06-12T03:36:36.367263841Z

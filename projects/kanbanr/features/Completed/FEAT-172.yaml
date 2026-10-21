@@ -1,5 +1,5 @@
 code: FEAT-172
-title: 'Defect: the release''s monitor check measures size, which code growth defeats'
+title: "Defect: the release's monitor check measures size, which code growth defeats"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -33,7 +33,7 @@ definition:
     where: .github/workflows/release.yml, scripts/check-embedded-monitor.sh, scripts/ci_local.py
     when: Every release build and every make ci
     who: The maintainer
-    why: 'The size bounds went stale: the binary without the monitor is ~19 MB, and FEAT-169''s code growth crossed the 20 MB ceiling with the assets compressed'
+    why: "The size bounds went stale: the binary without the monitor is ~19 MB, and FEAT-169's code growth crossed the 20 MB ceiling with the assets compressed"
   requirements:
   - id: R-1
     kind: functional
@@ -46,12 +46,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-05T11:14:30.69250946Z
-    rev: 19d0a9356ec93cb7
+    rev: e5966e4c1ef8f6ee
   approvals:
   - at: 2026-10-05T11:14:30.69250946Z
     by: Venkatraman B
     verdict: approved
-    rev: 19d0a9356ec93cb7
+    rev: e5966e4c1ef8f6ee
     status: Planned
 defect:
   found_in: v0.1.6

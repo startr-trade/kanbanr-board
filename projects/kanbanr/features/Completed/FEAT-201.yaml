@@ -16,7 +16,7 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 boardreadme.rs: render, apply, write; R-1, R-2'
+    text: "1 boardreadme.rs: render, apply, write; R-1, R-2"
     state: Completed
   - key: T2
     text: 2 Wire into project create/edit/delete; doctor; kanbanr readme; R-3
@@ -62,24 +62,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-20T11:28:40.818420385Z
-    rev: 67ed5b30f8cd9359
+    rev: 60048325cf02c19d
   approvals:
   - at: 2026-10-20T11:28:40.818420385Z
     by: Venkatraman B
     verdict: approved
-    rev: 67ed5b30f8cd9359
+    rev: 60048325cf02c19d
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T11:28:40.867418097Z
-    rev: 67ed5b30f8cd9359
+    rev: 60048325cf02c19d
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T12:26:53.729600194Z
-    rev: 67ed5b30f8cd9359
+    rev: 60048325cf02c19d
     status: In Progress
 history:
 - at: 2026-10-20T11:43:30.470889246Z

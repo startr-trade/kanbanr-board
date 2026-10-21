@@ -1,5 +1,5 @@
 code: FEAT-157
-title: 'Release v0.1.4: Completed means proven'
+title: "Release v0.1.4: Completed means proven"
 status: Completed
 milestone: MS-009
 kind: null
@@ -17,7 +17,7 @@ todo_lists:
   description: v0.1.4
   tasks:
   - key: T1
-    text: 'Proof: the v0.1.4 run passes; release page opens with its notes; Open VSX lists 0.1.4'
+    text: "Proof: the v0.1.4 run passes; release page opens with its notes; Open VSX lists 0.1.4"
     state: Completed
   - key: T2
     text: Versions 0.1.4, notes page + index, changelog dated, extension docs, make ci 55/55
@@ -60,12 +60,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T18:27:55.521639808Z
-    rev: 43c6844ad350d8b8
+    rev: 27a6e1b0f4374680
   approvals:
   - at: 2026-10-02T18:27:55.521639808Z
     by: Venkatraman B
     verdict: approved
-    rev: 43c6844ad350d8b8
+    rev: 27a6e1b0f4374680
     status: Planned
 history:
 - at: 2026-10-02T18:37:24.199185768Z

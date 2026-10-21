@@ -2,6 +2,15 @@ code: FEAT-003
 title: Recent activity view (from git history)
 status: Completed
 milestone: MS-002
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: Changelog activity stream

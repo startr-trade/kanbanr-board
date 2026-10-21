@@ -27,7 +27,7 @@ todo_lists:
     text: 3 openapi.rs, example binary, committed openapi.json
     state: Completed
   - key: T4
-    text: '4 Server: content types, unknown-path 404, /api/openapi.json'
+    text: "4 Server: content types, unknown-path 404, /api/openapi.json"
     state: Completed
   - key: T5
     text: 5 Contract test
@@ -66,28 +66,28 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.779293708Z
-    rev: 4e1c32b4bc19b635
+    rev: 9db405f58357e0f7
   approvals:
   - at: 2026-10-19T04:19:26.113581658Z
     by: Venkatraman B
     verdict: approved
-    rev: 4e1c32b4bc19b635
+    rev: 9db405f58357e0f7
     status: Planned
   - at: 2026-10-19T04:22:12.779293708Z
     by: Venkatraman B
     verdict: approved
-    rev: 4e1c32b4bc19b635
+    rev: 9db405f58357e0f7
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:49:04.401167669Z
-    rev: 4e1c32b4bc19b635
+    rev: 9db405f58357e0f7
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T12:26:52.503182659Z
-    rev: 4e1c32b4bc19b635
+    rev: 9db405f58357e0f7
     status: In Progress
 history:
 - at: 2026-10-20T11:43:43.197467178Z

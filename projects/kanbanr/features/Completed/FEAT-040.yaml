@@ -1,10 +1,14 @@
 code: FEAT-040
-title: 'Skill: project docs default to kanbanr, not the working folder'
+title: "Skill: project docs default to kanbanr, not the working folder"
 status: Completed
 milestone: MS-004
 kind: docs
 priority: high
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels:
 - skill
 - docs
@@ -15,13 +19,13 @@ todo_lists:
   description: session 1 — encode docs-placement rule
   tasks:
   - key: T1
-    text: 'SKILL.md: ''Where documentation goes'' section + description'
+    text: "SKILL.md: 'Where documentation goes' section + description"
     state: Completed
   - key: T2
-    text: 'SessionStart hooks (.sh/.ps1): docs-placement reminder'
+    text: "SessionStart hooks (.sh/.ps1): docs-placement reminder"
     state: Completed
   - key: T3
-    text: 'USER_GUIDE.md: contract bullet'
+    text: "USER_GUIDE.md: contract bullet"
     state: Completed
   - key: T4
     text: Sync installed skill copy (~/.claude/skills/kanbanr)

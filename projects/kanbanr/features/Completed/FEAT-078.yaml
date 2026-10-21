@@ -1,5 +1,5 @@
 code: FEAT-078
-title: 'Defect: the review queue asks for agreement on work that is already finished'
+title: "Defect: the review queue asks for agreement on work that is already finished"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -69,13 +69,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:39:10.315989723Z
-    rev: acd39c4122db7ccb
+    rev: 7f566cb95379a178
   approvals:
   - at: 2026-09-28T12:39:10.315989723Z
     by: Venkatraman B
     verdict: approved
-    rev: acd39c4122db7ccb
-  started_unapproved: 'auto-pilot: found verifying FEAT-077; the queue and the doctor disagreed on the live board'
+    rev: 7f566cb95379a178
+  started_unapproved: "auto-pilot: found verifying FEAT-077; the queue and the doctor disagreed on the live board"
 defect:
   severity: medium
   introduced_by: FEAT-067

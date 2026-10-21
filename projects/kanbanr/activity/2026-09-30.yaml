@@ -4,7 +4,7 @@
   item: FEAT-125
 - time: 2026-09-30T14:57:29.147547578Z
   actor: Venkatraman B
-  message: 'Record FEAT-126: a fresh public repository'
+  message: "Record FEAT-126: a fresh public repository"
 - time: 2026-09-30T14:57:29.212095745Z
   actor: Venkatraman B
   message: move feature FEAT-126
@@ -15,15 +15,15 @@
   item: FEAT-126
 - time: 2026-09-30T15:04:17.273280859Z
   actor: Venkatraman B
-  message: 'test manual: git log in kanbanr-public shows one commit by vb@startr.trade of FEAT-126/R-1 is now green'
+  message: "test manual: git log in kanbanr-public shows one commit by vb@startr.trade of FEAT-126/R-1 is now green"
   item: FEAT-126
 - time: 2026-09-30T15:04:17.295906726Z
   actor: Venkatraman B
-  message: 'test manual: identifier sweep over kanbanr-public is empty of FEAT-126/R-2 is now green'
+  message: "test manual: identifier sweep over kanbanr-public is empty of FEAT-126/R-2 is now green"
   item: FEAT-126
 - time: 2026-09-30T15:04:17.319929833Z
   actor: Venkatraman B
-  message: 'test manual: build, tests, board, hooks status and skill link from kanbanr-public of FEAT-126/R-3 is now green'
+  message: "test manual: build, tests, board, hooks status and skill link from kanbanr-public of FEAT-126/R-3 is now green"
   item: FEAT-126
 - time: 2026-09-30T15:04:17.340931116Z
   actor: Venkatraman B
@@ -58,7 +58,7 @@
   message: record a lesson
 - time: 2026-09-30T15:04:30.436091249Z
   actor: Venkatraman B
-  message: 'Record FEAT-127: the commit guard judges the session''s repository, not the one the command cds into'
+  message: "Record FEAT-127: the commit guard judges the session's repository, not the one the command cds into"
 - time: 2026-09-30T15:07:41.041941633Z
   actor: Venkatraman B
   message: update document
@@ -325,7 +325,7 @@
   item: FEAT-024
 - time: 2026-09-30T17:17:16.913968471Z
   actor: Venkatraman B
-  message: 'test release.yml''s tag check, run in a scratch repository: a v-tag on a side-branch commit is refused, the same tag on a commit merged into main passes of FEAT-024/R-6 is now green'
+  message: "test release.yml's tag check, run in a scratch repository: a v-tag on a side-branch commit is refused, the same tag on a commit merged into main passes of FEAT-024/R-6 is now green"
   item: FEAT-024
 - time: 2026-09-30T17:17:16.935306651Z
   actor: Venkatraman B
@@ -499,7 +499,7 @@
   item: FEAT-131
 - time: 2026-09-30T18:29:26.723093725Z
   actor: Venkatraman B
-  message: 'test make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99 of FEAT-131/R-3 is now green'
+  message: "test make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99 of FEAT-131/R-3 is now green"
   item: FEAT-131
 - time: 2026-09-30T18:29:26.750394592Z
   actor: Venkatraman B
@@ -578,7 +578,7 @@
   item: FEAT-130
 - time: 2026-09-30T18:50:41.437448072Z
   actor: Venkatraman B
-  message: 'test the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4` of FEAT-130/R-6 is now green'
+  message: "test the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4` of FEAT-130/R-6 is now green"
   item: FEAT-130
 - time: 2026-09-30T18:50:41.466703756Z
   actor: Venkatraman B

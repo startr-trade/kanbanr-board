@@ -1,5 +1,5 @@
 code: FEAT-123
-title: 'Cadence views: sprint header and burndown, Releases page, sprints and releases on the timeline'
+title: "Cadence views: sprint header and burndown, Releases page, sprints and releases on the timeline"
 status: Completed
 milestone: MS-008
 kind: null
@@ -44,32 +44,32 @@ definition:
     kind: functional
     text: WHILE a sprint is active, THE SYSTEM SHALL show its goal, dates, days left, committed versus done, and burndown on the board.
     tests:
-    - name: 'manual: sprint header and burndown screenshot'
+    - name: "manual: sprint header and burndown screenshot"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL show sprints and releases on the Gantt timeline.
     tests:
-    - name: 'manual: gantt with sprints and releases renders'
+    - name: "manual: gantt with sprints and releases renders"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: WHERE a project has sprints or releases off, THE SYSTEM SHALL hide the corresponding monitor views.
     tests:
-    - name: 'manual: cadence views hidden on a project without sprints or releases'
+    - name: "manual: cadence views hidden on a project without sprints or releases"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:17.193042305Z
-    rev: 3dbb2e07f4ec9f45
+    rev: 9ba5abaecd7cb795
   approvals:
   - at: 2026-09-29T17:53:17.193042305Z
     by: Venkatraman B
     verdict: approved
-    rev: 3dbb2e07f4ec9f45
+    rev: 9ba5abaecd7cb795
 history:
 - at: 2026-09-29T19:29:53.733835349Z
   from: Planned

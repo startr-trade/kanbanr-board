@@ -1,6 +1,6 @@
 - time: 2026-10-17T06:20:10.569650168Z
   actor: Venkatraman B
-  message: 'test manual: skill design-stage guidance present and matches the docs of FEAT-179/R-1 is now green'
+  message: "test manual: skill design-stage guidance present and matches the docs of FEAT-179/R-1 is now green"
   item: FEAT-179
 - time: 2026-10-17T06:20:10.613209427Z
   actor: Venkatraman B
@@ -8,7 +8,7 @@
   item: FEAT-179
 - time: 2026-10-17T08:15:34.300967004Z
   actor: Venkatraman B
-  message: 'scope: release stages and promotion; patch releases; monitor release actions'
+  message: "scope: release stages and promotion; patch releases; monitor release actions"
 - time: 2026-10-17T08:17:57.30655705Z
   actor: Venkatraman B
   message: approve definition of FEAT-183

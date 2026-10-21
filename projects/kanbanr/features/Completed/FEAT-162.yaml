@@ -1,5 +1,5 @@
 code: FEAT-162
-title: 'Defect: timestamps are compared as text'
+title: "Defect: timestamps are compared as text"
 status: Completed
 milestone: MS-009
 kind: null
@@ -35,19 +35,19 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-04T18:20:52.160651789Z
-    rev: 97a06420fee22f40
+    rev: d1bd0492e2adda60
   approvals:
   - at: 2026-10-04T18:20:52.160651789Z
     by: Venkatraman B
     verdict: approved
-    rev: 97a06420fee22f40
+    rev: d1bd0492e2adda60
     status: Planned
 defect:
   severity: medium
   found_in: CI (macOS)
   root_cause: RFC 3339 timestamps with trimmed fractional seconds compared as strings
   escaped: false
-  fixed_by: '6545756'
+  fixed_by: "6545756"
 history:
 - at: 2026-10-04T18:20:52.238071542Z
   from: Planned

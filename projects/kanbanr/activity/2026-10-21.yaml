@@ -35,7 +35,7 @@
   item: FEAT-203
 - time: 2026-10-21T09:06:17.994629289Z
   actor: Venkatraman B
-  message: 'test manual: diagrams follow each mdBook theme and the monitor''s light and dark of FEAT-203/R-3 is now green'
+  message: "test manual: diagrams follow each mdBook theme and the monitor's light and dark of FEAT-203/R-3 is now green"
   item: FEAT-203
 - time: 2026-10-21T09:09:18.81191421Z
   actor: Venkatraman B
@@ -77,7 +77,7 @@
   item: FEAT-206
 - time: 2026-10-21T09:23:29.497380314Z
   actor: Venkatraman B
-  message: 'test ci.yml supply-chain: cargo deny and cargo audit of FEAT-206/R-1 is now green'
+  message: "test ci.yml supply-chain: cargo deny and cargo audit of FEAT-206/R-1 is now green"
   item: FEAT-206
 - time: 2026-10-21T09:23:29.729896795Z
   actor: Venkatraman B
@@ -360,7 +360,7 @@
   item: FEAT-200
 - time: 2026-10-21T11:51:17.475257867Z
   actor: Venkatraman B
-  message: 'test manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link,  of FEAT-200/R-14 is now green'
+  message: "test manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link,  of FEAT-200/R-14 is now green"
   item: FEAT-200
 - time: 2026-10-21T11:51:17.539447763Z
   actor: Venkatraman B
@@ -436,7 +436,7 @@
   item: FEAT-200
 - time: 2026-10-21T12:16:54.866747767Z
   actor: Venkatraman B
-  message: 'test make ci: cargo deny and cargo audit pass with no advisory exception of FEAT-187/R-1 is now green'
+  message: "test make ci: cargo deny and cargo audit pass with no advisory exception of FEAT-187/R-1 is now green"
   item: FEAT-187
 - time: 2026-10-21T12:16:54.921009355Z
   actor: Venkatraman B

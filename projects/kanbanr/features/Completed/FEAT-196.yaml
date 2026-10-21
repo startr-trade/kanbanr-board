@@ -50,29 +50,29 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T15:42:00.560380757Z
-    rev: e7bfde343f8bae60
+    rev: 836c3e840ce09f92
   approvals:
   - at: 2026-10-19T15:20:48.045302974Z
     by: Venkatraman B
     verdict: approved
-    rev: e7bfde343f8bae60
+    rev: 836c3e840ce09f92
     status: Planned
   - at: 2026-10-19T15:42:00.560380757Z
     by: Venkatraman B
     verdict: approved
-    rev: e7bfde343f8bae60
+    rev: 836c3e840ce09f92
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:34:14.028437439Z
-    rev: e7bfde343f8bae60
+    rev: 836c3e840ce09f92
     note: given in the session dialog, 19 Oct 2026
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-19T16:48:23.466517329Z
-    rev: e7bfde343f8bae60
+    rev: 836c3e840ce09f92
     status: In Progress
 history:
 - at: 2026-10-19T16:34:14.242090485Z

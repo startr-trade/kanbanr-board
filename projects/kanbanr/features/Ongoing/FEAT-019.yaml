@@ -13,7 +13,7 @@ labels: []
 depends_on: []
 todo_lists:
 - code: TL-001
-  description: 'occurrence: view-only single-runtime pivot'
+  description: "occurrence: view-only single-runtime pivot"
   tasks:
   - key: T1
     text: Sync SKILL/USER_GUIDE/DESIGN/README/Dockerfile to the view-only model
@@ -26,25 +26,25 @@ todo_lists:
   description: docs sync after the approval-UI wave (FEAT-076..081)
   tasks:
   - key: T1
-    text: 'DESIGN.md on-disk layout: activity/ and events/ are day-folders (FEAT-066), items live under features/<Status>/ (FEAT-071) — both were still shown as the old single files and root folders'
+    text: "DESIGN.md on-disk layout: activity/ and events/ are day-folders (FEAT-066), items live under features/<Status>/ (FEAT-071) — both were still shown as the old single files and root folders"
     state: Completed
   - key: T2
-    text: 'DESIGN.md activity section: the log is no longer capped, and says why trimming was wrong'
+    text: "DESIGN.md activity section: the log is no longer capped, and says why trimming was wrong"
     state: Completed
   - key: T3
-    text: 'USER_GUIDE: the browser review flow, the queue''s scope, the identity a verdict carries, and withdrawal — none of which existed when the section was written'
+    text: "USER_GUIDE: the browser review flow, the queue's scope, the identity a verdict carries, and withdrawal — none of which existed when the section was written"
     state: Completed
   - key: T4
-    text: 'USER_GUIDE command table: review / approve / unapprove rows'
+    text: "USER_GUIDE command table: review / approve / unapprove rows"
     state: Completed
   - key: T5
-    text: 'SKILL.md: offer --ui when several items wait, never invent --by, withdraw an approval given on the user''s behalf'
+    text: "SKILL.md: offer --ui when several items wait, never invent --by, withdraw an approval given on the user's behalf"
     state: Completed
   - key: T6
-    text: 'CHANGELOG: FEAT-076..081 and the snippet path'
+    text: "CHANGELOG: FEAT-076..081 and the snippet path"
     state: Completed
   - key: T7
-    text: 'docs/INSTALL.md: the one-liner, rate limits and GH_TOKEN, the three fallbacks, published targets, the glibc floor, and why crates.io carries the CLI without the UI'
+    text: "docs/INSTALL.md: the one-liner, rate limits and GH_TOKEN, the three fallbacks, published targets, the glibc floor, and why crates.io carries the CLI without the UI"
     state: Completed
   - key: T8
     text: README and USER_GUIDE lead with the one-liner and link INSTALL.md; the guide documents init refusing to repoint an existing board

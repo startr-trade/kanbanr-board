@@ -1,5 +1,5 @@
 code: FEAT-086
-title: 'Defect: the same guard, the other flag — a message about -n is read as passing it'
+title: "Defect: the same guard, the other flag — a message about -n is read as passing it"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -16,7 +16,7 @@ todo_lists:
   description: outside the quotes
   tasks:
   - key: T1
-    text: 'unquoted_tokens: tokens outside quoted spans, because a message lives inside them and a flag does not'
+    text: "unquoted_tokens: tokens outside quoted spans, because a message lives inside them and a flag does not"
     state: Completed
   - key: T2
     text: skips_hooks as one named function the guard and its test share
@@ -62,13 +62,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T16:38:45.235678564Z
-    rev: 1d35ba6c05b574b4
+    rev: 13a8fa1d99e682c3
   approvals:
   - at: 2026-09-28T16:38:45.235678564Z
     by: Venkatraman B
     verdict: approved
-    rev: 1d35ba6c05b574b4
-  started_unapproved: 'auto-pilot: the guard is refusing correct commits again — it is in the way of all work'
+    rev: 13a8fa1d99e682c3
+  started_unapproved: "auto-pilot: the guard is refusing correct commits again — it is in the way of all work"
 defect:
   severity: medium
   introduced_by: FEAT-082

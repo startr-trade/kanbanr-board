@@ -22,7 +22,7 @@ todo_lists:
     text: SessionEnd and SessionStart summarise from the condensed conversation in the background; the nested claude -p loads user settings only and persists no session
     state: Completed
   - key: T3
-    text: 'backfill: this session''s 7 compaction summaries (12 Jun to 28 Sep) and the stretch since, saved to the board; re-runs add nothing'
+    text: "backfill: this session's 7 compaction summaries (12 Jun to 28 Sep) and the stretch since, saved to the board; re-runs add nothing"
     state: Completed
   - key: T4
     text: header states when the session ran and what the summary covers; the model's own title and markdown fence are removed
@@ -34,7 +34,7 @@ definition:
   - G-1
   - G-5
   zachman:
-    what: 'Session summaries: when they are made, from what, and where they are kept'
+    what: "Session summaries: when they are made, from what, and where they are kept"
     how: PostCompact saves the compaction summary; SessionEnd and SessionStart summarise un-summarised transcripts in the background from their condensed conversation; results are written with kanbanr doc add
     where: .claude/hooks/session-summary.sh, .claude/hooks/summarise_session.py, .claude/settings.json, board docs/sessions/
     when: After a compaction, when a session ends, and at the next start for any session that was missed
@@ -45,39 +45,39 @@ definition:
     kind: functional
     text: WHEN a session is compacted, THE SYSTEM SHALL save the compaction summary to the board without a further model call.
     tests:
-    - name: 'hook: a synthetic PostCompact payload writes a sessions/ doc'
+    - name: "hook: a synthetic PostCompact payload writes a sessions/ doc"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHEN a session starts, THE SYSTEM SHALL summarise every earlier session in the project that has no summary, in the background.
     tests:
-    - name: 'hook: SessionStart summarises this project''s un-summarised transcript to the board'
+    - name: "hook: SessionStart summarises this project's un-summarised transcript to the board"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL name each summary with its date, time and session id prefix, so that several sessions in one day do not collide.
     tests:
-    - name: 'hook: SessionStart summarises this project''s un-summarised transcript to the board'
+    - name: "hook: SessionStart summarises this project's un-summarised transcript to the board"
       kind: manual
       state: green
   - id: R-4
     kind: functional
     text: WHILE the summariser runs, THE SYSTEM SHALL NOT trigger the project's hooks or persist a session of its own.
     tests:
-    - name: 'hook: a second SessionStart sweep summarises nothing new'
+    - name: "hook: a second SessionStart sweep summarises nothing new"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:44:26.824051624Z
-    rev: c5e53663b5e53d45
+    rev: 2f4511fbbd69a41d
   approvals:
   - at: 2026-09-28T18:44:26.824051624Z
     by: Venkatraman B
     verdict: approved
-    rev: c5e53663b5e53d45
+    rev: 2f4511fbbd69a41d
   started_unapproved: the user approved this design in conversation ('Yes, please'); recording it before building
 history:
 - at: 2026-09-28T18:42:42.008775512Z

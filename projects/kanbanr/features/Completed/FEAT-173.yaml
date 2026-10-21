@@ -1,5 +1,5 @@
 code: FEAT-173
-title: 'Defect: setup''s first commit fails when git has no identity, and setup carries on'
+title: "Defect: setup's first commit fails when git has no identity, and setup carries on"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -16,7 +16,7 @@ todo_lists:
   description: identity for the first commit; stop at failure
   tasks:
   - key: T1
-    text: 'Skill: setup commit identity and stop-at-failure'
+    text: "Skill: setup commit identity and stop-at-failure"
     state: Completed
   - key: T2
     text: make ci
@@ -27,9 +27,9 @@ definition:
   goals:
   - G-5
   zachman:
-    what: 'The skill''s setup interview and plan: the repository''s git identity and how the commands are run'
+    what: "The skill's setup interview and plan: the repository's git identity and how the commands are run"
     how: When git has no user.name/email, one interview question offers the board's identity for this repository (repo-local git config, never --global); the plan shows the commands; the initial commit uses that identity; commands run so a failure stops the rest
-    where: 'skill/kanbanr/SKILL.md (Activation: setup interview, steps 3-5)'
+    where: "skill/kanbanr/SKILL.md (Activation: setup interview, steps 3-5)"
     when: At setup, when git has no identity configured
     who: A user setting up a project on a machine where git has never been configured
     why: The first walkthrough's commit failed for want of a git identity and setup ran on; the fix that passed the identity for one commit left the repository unable to take the user's or Claude's next commit
@@ -38,32 +38,32 @@ definition:
     kind: functional
     text: WHEN git has no user.name or user.email, THE SYSTEM SHALL ask whether to set the project repository's identity to the one given for the board, set it for that repository only when the user agrees, and never change the global git configuration.
     tests:
-    - name: 'walkthrough: setup in a folder with no git identity asks, and sets the board''s identity for that repository only when agreed'
+    - name: "walkthrough: setup in a folder with no git identity asks, and sets the board's identity for that repository only when agreed"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHEN git has no identity and the user declines, THE SYSTEM SHALL still make the setup's initial commit with the board's identity, without changing git configuration.
     tests:
-    - name: 'walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset'
+    - name: "walkthrough: setup in a folder with no git identity makes its first commit and leaves git config unset"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: WHEN a setup command fails, THE SYSTEM SHALL stop before running the next one.
     tests:
-    - name: 'walkthrough: a failing setup command stops the setup and is reported'
+    - name: "walkthrough: a failing setup command stops the setup and is reported"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-06T17:30:23.566876578Z
-    rev: 1458e1abe17cee56
+    rev: f83f3cfecc2ddcf4
   approvals:
   - at: 2026-10-06T17:30:23.566876578Z
     by: Venkatraman B
     verdict: approved
-    rev: 1458e1abe17cee56
+    rev: f83f3cfecc2ddcf4
     status: In Progress
 defect:
   found_in: v0.1.6

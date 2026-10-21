@@ -45,30 +45,30 @@ definition:
     - name: scripts/tests/test_ci_local.py::test_verdict_only
       kind: unit
       state: green
-    - name: 'manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run'
+    - name: "manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-20T06:31:28.418681656Z
-    rev: 77010a42e3b9107a
+    rev: 1cce563eacfc3ae5
   approvals:
   - at: 2026-10-20T06:31:28.418681656Z
     by: Venkatraman B
     verdict: approved
-    rev: 77010a42e3b9107a
+    rev: 1cce563eacfc3ae5
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T06:31:28.483806791Z
-    rev: 77010a42e3b9107a
+    rev: 1cce563eacfc3ae5
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T08:31:34.364559379Z
-    rev: 77010a42e3b9107a
+    rev: 1cce563eacfc3ae5
     status: In Progress
 history:
 - at: 2026-10-20T06:31:28.629228964Z

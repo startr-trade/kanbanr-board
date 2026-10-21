@@ -34,12 +34,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-05T01:22:42.130562693Z
-    rev: 28adaf1765df824c
+    rev: 699397e01f151bc3
   approvals:
   - at: 2026-10-05T01:22:42.130562693Z
     by: Venkatraman B
     verdict: approved
-    rev: 28adaf1765df824c
+    rev: 699397e01f151bc3
     status: Planned
 history:
 - at: 2026-10-05T01:22:42.20834934Z

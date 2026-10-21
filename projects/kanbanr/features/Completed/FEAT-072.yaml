@@ -1,5 +1,5 @@
 code: FEAT-072
-title: 'Defect: an older binary reads a newer board as empty instead of saying so'
+title: "Defect: an older binary reads a newer board as empty instead of saying so"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -76,24 +76,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.476474785Z
-    rev: 36f966679586b23f
+    rev: 15f51a6ce8c5aae1
   approvals:
   - at: 2026-09-28T17:56:28.712062655Z
     by: unknown
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 36f966679586b23f
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 15f51a6ce8c5aae1
   - at: 2026-09-28T17:57:54.448808164Z
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
-    rev: 36f966679586b23f
+    rev: 15f51a6ce8c5aae1
   - at: 2026-09-28T17:57:54.476474785Z
     by: Venkatraman B
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 36f966679586b23f
-  started_unapproved: 'auto-pilot: closing the last way a stale reader can present as data loss'
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 15f51a6ce8c5aae1
+  started_unapproved: "auto-pilot: closing the last way a stale reader can present as data loss"
 defect:
   severity: high
   introduced_by: FEAT-071

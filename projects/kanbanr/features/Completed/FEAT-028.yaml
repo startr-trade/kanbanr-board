@@ -1,10 +1,14 @@
 code: FEAT-028
-title: 'Batch: load project once (perf)'
+title: "Batch: load project once (perf)"
 status: Completed
 milestone: MS-005
 kind: refactor
 priority: high
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels:
 - enterprise
 - performance

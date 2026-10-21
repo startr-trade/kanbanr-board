@@ -16,10 +16,10 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Core: signoffs and tasks_open on NextStage; schema; R-1'
+    text: "1 Core: signoffs and tasks_open on NextStage; schema; R-1"
     state: Completed
   - key: T2
-    text: '2 Web: card text and hint style; types; R-2'
+    text: "2 Web: card text and hint style; types; R-2"
     state: Completed
   - key: T3
     text: 3 Changelog, make ci, manual check
@@ -53,31 +53,31 @@ definition:
       kind: unit
       state: green
       checked_rev: ea27c650a9b980b49b5ee229f7456bed631ad32b
-    - name: 'manual: the kanbanr board reads correctly in the monitor'
+    - name: "manual: the kanbanr board reads correctly in the monitor"
       kind: manual
       state: green
       checked_rev: ea27c650a9b980b49b5ee229f7456bed631ad32b
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:17:44.887528728Z
-    rev: 3168afe0899a6e07
+    rev: a6bfc6d8d80722d3
   approvals:
   - at: 2026-10-20T13:17:44.887528728Z
     by: Venkatraman B
     verdict: approved
-    rev: 3168afe0899a6e07
+    rev: a6bfc6d8d80722d3
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T13:17:44.964852914Z
-    rev: 3168afe0899a6e07
+    rev: a6bfc6d8d80722d3
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T13:18:17.785565977Z
-    rev: 3168afe0899a6e07
+    rev: a6bfc6d8d80722d3
     status: In Progress
 history:
 - at: 2026-10-20T13:18:00.926608671Z

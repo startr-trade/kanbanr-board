@@ -20,13 +20,13 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Model: Role, StageRoles, Gate.roles, role keys'
+    text: "1 Model: Role, StageRoles, Gate.roles, role keys"
     state: Completed
   - key: T2
-    text: '2 Resolution: roles, role_status, branch_status, declares_gates; effective_gates; schema 4'
+    text: "2 Resolution: roles, role_status, branch_status, declares_gates; effective_gates; schema 4"
     state: Completed
   - key: T3
-    text: '3 Validation: role_problems in gate_problems'
+    text: "3 Validation: role_problems in gate_problems"
     state: Completed
   - key: T4
     text: 4 Presets declare roles
@@ -35,13 +35,13 @@ todo_lists:
     text: 5 Gate-mode call sites use declares_gates
     state: Completed
   - key: T6
-    text: '6 CLI: branch_status; process checks lists roles'
+    text: "6 CLI: branch_status; process checks lists roles"
     state: Completed
   - key: T7
     text: 7 Working agreement names roles
     state: Completed
   - key: T8
-    text: '8 Monitor: role chips on the Workflow page'
+    text: "8 Monitor: role chips on the Workflow page"
     state: Completed
   - key: T9
     text: 9 Docs, skill, changelog
@@ -57,7 +57,7 @@ definition:
   - G-3
   zachman:
     what: Role per status; role-addressed gates and actions
-    how: 'Roles on the existing Gate (roles: design, build, integrate, release) and @role-addressed gates merged by effective_gates; ProjectConfig::role_status; legacy boards infer build (from on_enter: [branch]) and release only; every preset declares its roles'
+    how: "Roles on the existing Gate (roles: design, build, integrate, release) and @role-addressed gates merged by effective_gates; ProjectConfig::role_status; legacy boards infer build (from on_enter: [branch]) and release only; every preset declares its roles"
     where: kanbanr-core config, readiness, presets, process checks
     when: When a workflow is loaded or an item moves
     who: the solo developer, Claude
@@ -94,12 +94,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:46:07.498727047Z
-    rev: 2a9622371d58a447
+    rev: a8d51b4faaa99de5
   approvals:
   - at: 2026-10-19T09:46:07.498727047Z
     by: Venkatraman B
     verdict: approved
-    rev: 2a9622371d58a447
+    rev: a8d51b4faaa99de5
     status: Planned
 history:
 - at: 2026-10-19T09:55:57.501568602Z

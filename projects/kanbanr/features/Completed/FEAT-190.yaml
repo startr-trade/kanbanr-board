@@ -1,5 +1,5 @@
 code: FEAT-190
-title: 'Stage-driven merges and carry-over: entering integrate merges the item; unfinished items carry over'
+title: "Stage-driven merges and carry-over: entering integrate merges the item; unfinished items carry over"
 status: Completed
 milestone: MS-008
 kind: feature
@@ -21,7 +21,7 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 coderepo: merge_preview, commits_between, merge_no_ff contract'
+    text: "1 coderepo: merge_preview, commits_between, merge_no_ff contract"
     state: Completed
   - key: T2
     text: 2 gate_preview
@@ -36,10 +36,10 @@ todo_lists:
     text: 5 Release terminal fast-forward (already so since FEAT-183)
     state: Completed
   - key: T6
-    text: '6 forward: route and git forward (R-4)'
+    text: "6 forward: route and git forward (R-4)"
     state: Completed
   - key: T7
-    text: '7 CLI output: merges, tags, catch-ups'
+    text: "7 CLI output: merges, tags, catch-ups"
     state: Completed
   - key: T8
     text: 8 Docs and make ci
@@ -89,12 +89,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:46:07.638987264Z
-    rev: c43c5160e41e9770
+    rev: 1c9543f45b4ce01e
   approvals:
   - at: 2026-10-19T09:46:07.638987264Z
     by: Venkatraman B
     verdict: approved
-    rev: c43c5160e41e9770
+    rev: 1c9543f45b4ce01e
     status: Planned
 history:
 - at: 2026-10-19T14:47:42.151130911Z

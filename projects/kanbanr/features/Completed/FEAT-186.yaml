@@ -1,5 +1,5 @@
 code: FEAT-186
-title: 'Defect: new supply-chain advisories (rustls; unsafe-libyaml unmaintained)'
+title: "Defect: new supply-chain advisories (rustls; unsafe-libyaml unmaintained)"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -39,18 +39,18 @@ definition:
     kind: functional
     text: WHEN make ci runs its supply-chain checks, THE SYSTEM SHALL report no advisory, other than one listed in deny.toml with its reason and tracking item.
     tests:
-    - name: 'make ci: cargo deny, cargo audit and Trivy pass'
+    - name: "make ci: cargo deny, cargo audit and Trivy pass"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-19T02:53:01.994679059Z
-    rev: 96076c53cdb20ceb
+    rev: 0dbe3843db74c85b
   approvals:
   - at: 2026-10-19T02:53:01.994679059Z
     by: Venkatraman B
     verdict: approved
-    rev: 96076c53cdb20ceb
+    rev: 0dbe3843db74c85b
     status: Planned
 defect:
   found_in: v0.1.7

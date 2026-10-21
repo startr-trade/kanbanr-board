@@ -58,22 +58,22 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL keep the session-summary scripts under version control, and ignore only the machine-local parts of .claude/.
     tests:
-    - name: 'manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths'
+    - name: "manual: git ls-files lists the scripts; git check-ignore matches only the machine-local .claude paths"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T19:15:42.978547472Z
-    rev: 7822b1a8a3a97dce
+    rev: 866ce32b39a12c14
   approvals:
   - at: 2026-09-28T19:15:29.369573043Z
     by: Venkatraman B
     verdict: approved
-    rev: 7822b1a8a3a97dce
+    rev: 866ce32b39a12c14
   - at: 2026-09-28T19:15:42.978547472Z
     by: Venkatraman B
     verdict: approved
-    rev: 7822b1a8a3a97dce
+    rev: 866ce32b39a12c14
 history:
 - at: 2026-09-28T19:15:43.021084566Z
   from: Planned

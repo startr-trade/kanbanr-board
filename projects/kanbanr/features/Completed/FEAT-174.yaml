@@ -1,5 +1,5 @@
 code: FEAT-174
-title: 'Defect: new advisories in KaTeX (via mermaid) and rustls (screenshot tool)'
+title: "Defect: new advisories in KaTeX (via mermaid) and rustls (screenshot tool)"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -39,7 +39,7 @@ definition:
     kind: functional
     text: WHEN make ci runs its supply-chain checks, THE SYSTEM SHALL report no advisory against the monitor's dependencies or the repository's lockfiles.
     tests:
-    - name: 'make ci: npm audit and Trivy pass'
+    - name: "make ci: npm audit and Trivy pass"
       kind: manual
       state: green
   - id: R-2
@@ -52,12 +52,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-06T14:16:08.300973886Z
-    rev: 6dd72a491dd6361b
+    rev: 87564c1bf7bddd73
   approvals:
   - at: 2026-10-06T14:16:08.300973886Z
     by: Venkatraman B
     verdict: approved
-    rev: 6dd72a491dd6361b
+    rev: 87564c1bf7bddd73
     status: Planned
 defect:
   found_in: v0.1.6

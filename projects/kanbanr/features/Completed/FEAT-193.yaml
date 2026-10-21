@@ -23,25 +23,25 @@ todo_lists:
   description: Implementation tasks from the Design (amended by Q7)
   tasks:
   - key: T1
-    text: '1 config: @role gates additive (declares_gates); preset/preset_bare; ProjectConfig.method'
+    text: "1 config: @role gates additive (declares_gates); preset/preset_bare; ProjectConfig.method"
     state: Completed
   - key: T2
-    text: '2 method.rs: Part, MethodChoice, add, remove, shaped, present'
+    text: "2 method.rs: Part, MethodChoice, add, remove, shaped, present"
     state: Completed
   - key: T3
-    text: '3 Fixtures: tests on non-method behaviour use preset_bare'
+    text: "3 Fixtures: tests on non-method behaviour use preset_bare"
     state: Completed
   - key: T4
-    text: '4 Store and drift: set_method, re-stamp, shaping on apply/update, drift shaping'
+    text: "4 Store and drift: set_method, re-stamp, shaping on apply/update, drift shaping"
     state: Completed
   - key: T5
-    text: '5 Doctor: links part gates scan_references; Q3 nudge; new projects record default'
+    text: "5 Doctor: links part gates scan_references; Q3 nudge; new projects record default"
     state: Completed
   - key: T6
-    text: '6 Route and CLI: config method --on/--off; process update shapes'
+    text: "6 Route and CLI: config method --on/--off; process update shapes"
     state: Completed
   - key: T7
-    text: '7 Docs: processes.md, cli.md, SKILL.md, changelog'
+    text: "7 Docs: processes.md, cli.md, SKILL.md, changelog"
     state: Completed
   - key: T8
     text: 8 make ci
@@ -62,7 +62,7 @@ definition:
   requirements:
   - id: R-1
     kind: functional
-    text: 'THE SYSTEM SHALL include, in every built-in preset, `spec_sections: [Design]` and a `design-review` sign-off at the build role, and `docs_updated` and a `docs-folded` sign-off at the integrate role.'
+    text: "THE SYSTEM SHALL include, in every built-in preset, `spec_sections: [Design]` and a `design-review` sign-off at the build role, and `docs_updated` and a `docs-folded` sign-off at the integrate role."
     tests:
     - name: presets_include_method_gates
       kind: unit
@@ -77,12 +77,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:47:17.697399011Z
-    rev: 8e0f773c191706e7
+    rev: bafda2b8734a3841
   approvals:
   - at: 2026-10-19T09:47:17.697399011Z
     by: Venkatraman B
     verdict: approved
-    rev: 8e0f773c191706e7
+    rev: bafda2b8734a3841
     status: Planned
 history:
 - at: 2026-10-19T13:34:45.330955229Z

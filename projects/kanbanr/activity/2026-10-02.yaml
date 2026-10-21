@@ -1,9 +1,9 @@
 - time: 2026-10-02T04:08:51.44118213Z
   actor: Venkatraman B
-  message: 'FEAT-014: record the packaging fix'
+  message: "FEAT-014: record the packaging fix"
 - time: 2026-10-02T06:07:52.003628478Z
   actor: Venkatraman B
-  message: 'test F5 launch: openBoard, serve, board, addFeature and move work against the daemon of FEAT-014/R-1 is now green'
+  message: "test F5 launch: openBoard, serve, board, addFeature and move work against the daemon of FEAT-014/R-1 is now green"
   item: FEAT-014
 - time: 2026-10-02T06:07:52.040016877Z
   actor: Venkatraman B
@@ -80,7 +80,7 @@
   item: FEAT-149
 - time: 2026-10-02T08:58:50.520190707Z
   actor: Venkatraman B
-  message: 'FEAT-149: record what is done and what waits on v0.1.2'
+  message: "FEAT-149: record what is done and what waits on v0.1.2"
 - time: 2026-10-02T08:58:50.605207842Z
   actor: Venkatraman B
   message: move feature FEAT-148
@@ -166,7 +166,7 @@
   item: FEAT-152
 - time: 2026-10-02T10:28:36.03522921Z
   actor: Venkatraman B
-  message: 'FEAT-152/FEAT-149/FEAT-147: what waits on the v0.1.2 run'
+  message: "FEAT-152/FEAT-149/FEAT-147: what waits on the v0.1.2 run"
 - time: 2026-10-02T10:51:13.817231363Z
   actor: Venkatraman B
   message: update document
@@ -272,7 +272,7 @@
   item: FEAT-154
 - time: 2026-10-02T12:01:43.811591481Z
   actor: Venkatraman B
-  message: 'v0.1.3: proofs waiting on the release run'
+  message: "v0.1.3: proofs waiting on the release run"
 - time: 2026-10-02T12:25:30.157524045Z
   actor: Venkatraman B
   message: test the v0.1.2 release run passes verify-install on macOS and Windows of FEAT-149/R-1 is now green
@@ -452,7 +452,7 @@
   item: FEAT-157
 - time: 2026-10-02T18:53:45.81191346Z
   actor: Venkatraman B
-  message: 'FEAT-157: what waits on the v0.1.4 run'
+  message: "FEAT-157: what waits on the v0.1.4 run"
 - time: 2026-10-02T19:10:22.093974203Z
   actor: Venkatraman B
   message: test the v0.1.4 release run passes, including every verify-install leg and the image check of FEAT-157/R-1 is now green
@@ -510,7 +510,7 @@
   item: FEAT-159
 - time: 2026-10-02T19:40:23.756118909Z
   actor: Venkatraman B
-  message: 'FEAT-159: what waits on a walkthrough with the user'
+  message: "FEAT-159: what waits on a walkthrough with the user"
 - time: 2026-10-02T19:45:21.325589436Z
   actor: Venkatraman B
   message: add feature item

@@ -1,5 +1,5 @@
 code: FEAT-046
-title: 'Project charter: purpose, goals, stakeholders (charter.yaml)'
+title: "Project charter: purpose, goals, stakeholders (charter.yaml)"
 status: Completed
 milestone: MS-006
 kind: feature
@@ -20,19 +20,19 @@ todo_lists:
   description: session 1 — charter end to end
   tasks:
   - key: T1
-    text: 'core: charter.rs (Charter/Goal/Stakeholder, load/save, goal ids) + lib.rs wiring + unit tests'
+    text: "core: charter.rs (Charter/Goal/Stakeholder, load/save, goal ids) + lib.rs wiring + unit tests"
     state: Completed
   - key: T2
-    text: 'dispatch: GET/PUT /projects/{p}/charter + commit message arm'
+    text: "dispatch: GET/PUT /projects/{p}/charter + commit message arm"
     state: Completed
   - key: T3
     text: export::charter_to_markdown + CLI charter show|set --file
     state: Completed
   - key: T4
-    text: 'doctor: no purpose / purpose without goals (project-level)'
+    text: "doctor: no purpose / purpose without goals (project-level)"
     state: Completed
   - key: T5
-    text: 'web: Charter tab + route + types + api'
+    text: "web: Charter tab + route + types + api"
     state: Completed
   - key: T6
     text: CLI integration test + gates (fmt, clippy, tests, web build)

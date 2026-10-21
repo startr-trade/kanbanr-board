@@ -1,5 +1,5 @@
 code: FEAT-155
-title: 'Defect: the v0.1.2 installer check fails inside the checkout'
+title: "Defect: the v0.1.2 installer check fails inside the checkout"
 status: Completed
 milestone: MS-009
 kind: null
@@ -42,12 +42,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T11:39:35.685667009Z
-    rev: e62f6920885e7d3a
+    rev: f5228e795f660898
   approvals:
   - at: 2026-10-02T11:39:35.685667009Z
     by: Venkatraman B
     verdict: approved
-    rev: e62f6920885e7d3a
+    rev: f5228e795f660898
     status: Planned
 defect:
   severity: medium

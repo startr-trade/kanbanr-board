@@ -2,6 +2,15 @@ code: FEAT-012
 title: Health/readiness endpoint + structured logs
 status: Completed
 milestone: MS-003
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: Operability

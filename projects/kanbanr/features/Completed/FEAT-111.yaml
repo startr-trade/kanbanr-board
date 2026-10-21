@@ -1,5 +1,5 @@
 code: FEAT-111
-title: 'Defect: the docs guard judges files outside the project repo, and suggests a malformed path'
+title: "Defect: the docs guard judges files outside the project repo, and suggests a malformed path"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -16,7 +16,7 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'board_path_for: resolve lexically, only in-repo paths judged, repo-relative suggestion; old vs new binary compared on the plan file'
+    text: "board_path_for: resolve lexically, only in-repo paths judged, repo-relative suggestion; old vs new binary compared on the plan file"
     state: Completed
   created_at: 2026-09-29T17:38:32.254565165Z
 definition:
@@ -49,16 +49,16 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:37:14.841003166Z
-    rev: d1f873a9d526c1f1
+    rev: e4b39e260c83d2bb
   approvals:
   - at: 2026-09-29T17:35:35.919249081Z
     by: Venkatraman B
     verdict: approved
-    rev: d1f873a9d526c1f1
+    rev: e4b39e260c83d2bb
   - at: 2026-09-29T17:37:14.841003166Z
     by: Venkatraman B
     verdict: approved
-    rev: d1f873a9d526c1f1
+    rev: e4b39e260c83d2bb
 defect:
   severity: medium
   introduced_by: FEAT-065

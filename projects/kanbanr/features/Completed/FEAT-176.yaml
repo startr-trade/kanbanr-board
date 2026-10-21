@@ -1,5 +1,5 @@
 code: FEAT-176
-title: 'Refactor: domain logic lives in kanbanr-core; CLI and server are thin wrappers'
+title: "Refactor: domain logic lives in kanbanr-core; CLI and server are thin wrappers"
 status: Completed
 milestone: MS-004
 kind: refactor
@@ -21,22 +21,22 @@ todo_lists:
     text: 1 Architecture test (ratchet baseline of today's offenders)
     state: Completed
   - key: T2
-    text: '2 Write recipe: core::write::apply; CLI and server call it'
+    text: "2 Write recipe: core::write::apply; CLI and server call it"
     state: Completed
   - key: T3
-    text: '3 coderepo.rs: code-repo git plumbing in core'
+    text: "3 coderepo.rs: code-repo git plumbing in core"
     state: Completed
   - key: T4
-    text: '4 Workflow movement: ProjectConfig methods, flow::plan_start/finish'
+    text: "4 Workflow movement: ProjectConfig methods, flow::plan_start/finish"
     state: Completed
   - key: T5
-    text: '5 Commit and branch policy: RepoFacts, commit_verdict, branch_verdict'
+    text: "5 Commit and branch policy: RepoFacts, commit_verdict, branch_verdict"
     state: Completed
   - key: T6
-    text: '6 Evidence: parse_results, plan_capture, plan_stale_tests, plan_sources'
+    text: "6 Evidence: parse_results, plan_capture, plan_stale_tests, plan_sources"
     state: Completed
   - key: T7
-    text: '7 Process library: personal-aware resolve/list/drift; WorkflowFile::to_request/to_yaml'
+    text: "7 Process library: personal-aware resolve/list/drift; WorkflowFile::to_request/to_yaml"
     state: Completed
   - key: T8
     text: 8 Generated documents and small rules
@@ -59,9 +59,9 @@ definition:
     what: Crate boundaries between kanbanr-core and its front ends
     how: Move each behaviour from the CLI and server into kanbanr-core functions over plain inputs (write recipe, code-repo git, workflow movement, commit policy, evidence, process library, generated documents, small rules, mirror, server duplicates); front ends keep parsing, rendering and fact collection; an architecture test enforces it
     where: api/crates/kanbanr-core, kanbanr-cli, kanbanr-server
-    when: 'Before 1.0: tasks 1-3 first (FEAT-183 needs them), the rest after FEAT-185'
+    when: "Before 1.0: tasks 1-3 first (FEAT-183 needs them), the rest after FEAT-185"
     who: contributors, Claude
-    why: 'Maintainability: one implementation of each behaviour'
+    why: "Maintainability: one implementation of each behaviour"
   requirements:
   - id: R-1
     kind: functional
@@ -82,23 +82,23 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.718412268Z
-    rev: 0036b18e8de52993
+    rev: 0e62654a4b7a67e6
   approvals:
   - at: 2026-10-19T04:19:25.145937533Z
     by: Venkatraman B
     verdict: approved
-    rev: 0036b18e8de52993
+    rev: 0e62654a4b7a67e6
     status: Planned
   - at: 2026-10-19T04:22:12.718412268Z
     by: Venkatraman B
     verdict: approved
-    rev: 0036b18e8de52993
+    rev: 0e62654a4b7a67e6
     status: Planned
   signoffs:
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-19T16:48:10.394370427Z
-    rev: 0036b18e8de52993
+    rev: 0e62654a4b7a67e6
     status: In Progress
 history:
 - at: 2026-10-19T09:26:56.320144011Z

@@ -4,7 +4,11 @@ status: Completed
 milestone: MS-002
 kind: null
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists:
@@ -15,7 +19,7 @@ todo_lists:
     text: activity entries tagged with item (ref) + ?ref= and ?ongoing= filters on the daemon
     state: Completed
   - key: T2
-    text: 'web: per-item + maintenance activity views'
+    text: "web: per-item + maintenance activity views"
     state: Completed
   created_at: 2026-06-12T05:42:34.312880879Z
 created_at: 2026-06-12T05:02:27.038925541Z

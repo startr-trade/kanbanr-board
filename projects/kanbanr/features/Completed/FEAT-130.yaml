@@ -1,5 +1,5 @@
 code: FEAT-130
-title: 'CI: security scanning (CodeQL, Trivy, cargo-deny/audit) and one run per change'
+title: "CI: security scanning (CodeQL, Trivy, cargo-deny/audit) and one run per change"
 status: Completed
 milestone: MS-002
 kind: chore
@@ -25,31 +25,31 @@ todo_lists:
     text: codeql.yml, trivy.yml, .github/codeql/codeql-config.yml; uploads skipped while private
     state: Completed
   - key: T3
-    text: 'ci.yml: one run per change + concurrency; workflows job (pins, suppressions, actionlint); supply-chain job (cargo deny, cargo audit, npm audit)'
+    text: "ci.yml: one run per change + concurrency; workflows job (pins, suppressions, actionlint); supply-chain job (cargo deny, cargo audit, npm audit)"
     state: Completed
   - key: T4
-    text: 'release.yml: image scanned before the push'
+    text: "release.yml: image scanned before the push"
     state: Completed
   - key: T5
     text: api/deny.toml, .trivyignore.yaml, scripts/security-scan.sh, make audit/scan-deps/scan-image/codeql, make ci covers the new jobs
     state: Completed
   - key: T6
-    text: 'make codeql: 0 results in rust, javascript-typescript and actions (13.5 min)'
+    text: "make codeql: 0 results in rust, javascript-typescript and actions (13.5 min)"
     state: Completed
   - key: T7
-    text: 'Waits on FEAT-132: supply-chain and scan-deps fail on its findings'
+    text: "Waits on FEAT-132: supply-chain and scan-deps fail on its findings"
     state: Completed
   - key: T8
-    text: 'Sabotage: planted AWS key -> scan-deps CRITICAL secret, exit 1; MIT removed from the allowlist -> cargo deny licenses FAILED; the advisories FEAT-132 fixed had failed both gates before; make ci (with FEAT-132): all 42 pass; action lookups retried after one transient miss'
+    text: "Sabotage: planted AWS key -> scan-deps CRITICAL secret, exit 1; MIT removed from the allowlist -> cargo deny licenses FAILED; the advisories FEAT-132 fixed had failed both gates before; make ci (with FEAT-132): all 42 pass; action lookups retried after one transient miss"
     state: Completed
   - key: T9
-    text: 'First GitHub runs (a6645ea) green, but the repository was still private then: CodeQL and Trivy skipped their analysis by design. The next push on the public repository is the first real run'
+    text: "First GitHub runs (a6645ea) green, but the repository was still private then: CodeQL and Trivy skipped their analysis by design. The next push on the public repository is the first real run"
     state: Completed
   - key: T10
-    text: 'First real scans on the public repository (6ed69e7): CodeQL rust 0, actions 0, javascript-typescript 1 (js/xss-through-dom, Markdown.tsx:51 — recorded as FEAT-140); Trivy fs 0'
+    text: "First real scans on the public repository (6ed69e7): CodeQL rust 0, actions 0, javascript-typescript 1 (js/xss-through-dom, Markdown.tsx:51 — recorded as FEAT-140); Trivy fs 0"
     state: Completed
   - key: T11
-    text: 'CORRECTION: the local ''make codeql: 0 results'' recorded earlier was wrong — I piped the scan into tail and read tail''s exit status. Rerun on the same code: javascript-typescript had 1 result (js/xss-through-dom, the alert GitHub raised), fixed in FEAT-140'
+    text: "CORRECTION: the local 'make codeql: 0 results' recorded earlier was wrong — I piped the scan into tail and read tail's exit status. Rerun on the same code: javascript-typescript had 1 result (js/xss-through-dom, the alert GitHub raised), fixed in FEAT-140"
     state: Completed
   created_at: 2026-09-30T18:53:44.145664076Z
 definition:
@@ -104,7 +104,7 @@ definition:
     kind: functional
     text: IF a workflow uses a third-party action by anything but a full commit SHA, THEN THE SYSTEM SHALL fail the CI run.
     tests:
-    - name: 'the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4`'
+    - name: "the pin check refuses `uses: owner/action@v4` and accepts `uses: owner/action@<40-hex> # v4`"
       kind: manual
       state: green
   - id: R-7
@@ -116,7 +116,7 @@ definition:
       state: green
   - id: R-8
     kind: functional
-    text: 'THE SYSTEM SHALL run CI once per change: on push to main and on pull requests, cancelling superseded runs.'
+    text: "THE SYSTEM SHALL run CI once per change: on push to main and on pull requests, cancelling superseded runs."
     tests:
     - name: ci.yml triggers on push to main and pull_request only, with a concurrency group that cancels in progress
       kind: manual
@@ -124,12 +124,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:30:47.399749279Z
-    rev: fb38cfd195e2fab0
+    rev: 36fd2dd421bc5026
   approvals:
   - at: 2026-09-30T17:30:47.399749279Z
     by: Venkatraman B
     verdict: approved
-    rev: fb38cfd195e2fab0
+    rev: 36fd2dd421bc5026
     status: Planned
 history:
 - at: 2026-09-30T18:29:35.342781594Z

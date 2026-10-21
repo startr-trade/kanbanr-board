@@ -46,24 +46,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-20T13:11:32.301277902Z
-    rev: 2041f0f227736725
+    rev: fc0ee1fd7a185035
   approvals:
   - at: 2026-10-20T13:11:32.301277902Z
     by: Venkatraman B
     verdict: approved
-    rev: 2041f0f227736725
+    rev: fc0ee1fd7a185035
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T13:11:32.365283738Z
-    rev: 2041f0f227736725
+    rev: fc0ee1fd7a185035
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T13:18:15.061154704Z
-    rev: 2041f0f227736725
+    rev: fc0ee1fd7a185035
     status: In Progress
 history:
 - at: 2026-10-20T13:17:45.045891853Z

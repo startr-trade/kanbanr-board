@@ -31,7 +31,7 @@ definition:
     where: kanbanr-core (coverage.rs, readiness.rs, config.rs, store.rs, dispatch.rs, doctor.rs, eventing.rs); the CLI's config coverage and printing; the skill and the docs
     when: Item added, moved or edited; ADR accepted; doc written; sprint close; release cut; doctor on demand
     who: The developer and collaborators who set the rules; Claude, who is warned and fixes the gaps; reviewers reading doctor
-    why: 'Per-item fold-in checks leave the cross-cutting views drifting unnoticed: in the observed case 24 items were missing from the Zachman matrix, 8 ADRs from every view, 13 entries from the catalog'
+    why: "Per-item fold-in checks leave the cross-cutting views drifting unnoticed: in the observed case 24 items were missing from the Zachman matrix, 8 ADRs from every view, 13 entries from the catalog"
   requirements:
   - id: R-1
     kind: functional
@@ -45,7 +45,7 @@ definition:
       state: planned
   - id: R-2
     kind: functional
-    text: 'THE SYSTEM SHALL count a subject as referenced only when a source doc names it as `refs::find` finds references: live links, including relative ones, and board-shaped tokens; a requirement reference covers its item.'
+    text: "THE SYSTEM SHALL count a subject as referenced only when a source doc names it as `refs::find` finds references: live links, including relative ones, and board-shaped tokens; a requirement reference covers its item."
     tests:
     - name: coverage::tests::references_count_links_tokens_and_relative_links
       kind: unit
@@ -154,7 +154,7 @@ definition:
       state: planned
   - id: R-15
     kind: nfr
-    text: 'WHEN a move is judged, THE SYSTEM SHALL read only the rules'' source docs, once each. Scenario: 2,000 items, 200 source docs; the snapshot is built in under 2 s in a debug test, and `docs_read` equals the number of distinct source docs.'
+    text: "WHEN a move is judged, THE SYSTEM SHALL read only the rules' source docs, once each. Scenario: 2,000 items, 200 source docs; the snapshot is built in under 2 s in a debug test, and `docs_read` equals the number of distinct source docs."
     tests:
     - name: coverage::tests::snapshot_reads_only_source_docs_linearly
       kind: unit
@@ -163,7 +163,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state in the skill when to list view docs, index new ADRs, fix coverage warnings before a move, and run `doctor` before a sprint merge or release cut.
     tests:
-    - name: 'manual: skill coverage guidance present and matches docs/src/using/living-docs.md'
+    - name: "manual: skill coverage guidance present and matches docs/src/using/living-docs.md"
       kind: manual
       state: planned
   - id: R-17
@@ -176,19 +176,19 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-21T10:19:32.535758125Z
-    rev: 00ed78e1460c4a5b
+    rev: 61a408e5bc36bdbf
   approvals:
   - at: 2026-10-21T10:19:32.535758125Z
     by: Venkatraman B
     verdict: approved
-    rev: 00ed78e1460c4a5b
+    rev: 61a408e5bc36bdbf
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-21T10:19:32.621567089Z
-    rev: 00ed78e1460c4a5b
-    note: 'approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers'
+    rev: 61a408e5bc36bdbf
+    note: "approved by the user in the session dialog, 21 Oct 2026: the drafted design with its recommended answers"
     status: Planned
 created_at: 2026-10-19T15:54:21.985654531Z
 updated_at: 2026-10-21T10:19:32.621567089Z

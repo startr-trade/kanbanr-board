@@ -1,5 +1,5 @@
 code: FEAT-061
-title: 'Defect: finishing the last task completes an item without recording the move'
+title: "Defect: finishing the last task completes an item without recording the move"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -53,8 +53,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:49.799972955Z
-    rev: a61566e0bba63180
-  started_unapproved: 'auto-pilot: a defect in work just merged'
+    rev: eba5dd8b8742451b
+  started_unapproved: "auto-pilot: a defect in work just merged"
 defect:
   severity: high
   introduced_by: FEAT-053

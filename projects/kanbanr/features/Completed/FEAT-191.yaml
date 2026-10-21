@@ -1,5 +1,5 @@
 code: FEAT-191
-title: 'Git drift check: board states and branches must agree'
+title: "Git drift check: board states and branches must agree"
 status: Completed
 milestone: MS-008
 kind: feature
@@ -50,7 +50,7 @@ definition:
   - G-4
   zachman:
     what: Branch versus state report
-    how: 'Core gitdrift.rs: read-only collection of branch facts, then pure rules returning doctor issues (unmerged integrated items, unreferenced commits on lines, stray or leftover branches); kanbanr git doctor and the project doctor when the git model is on'
+    how: "Core gitdrift.rs: read-only collection of branch facts, then pure rules returning doctor issues (unmerged integrated items, unreferenced commits on lines, stray or leftover branches); kanbanr git doctor and the project doctor when the git model is on"
     where: kanbanr-core git, doctor
     when: On demand and in doctor
     who: the solo developer, collaborators and reviewers
@@ -80,23 +80,23 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:46:14.554606418Z
-    rev: 6dbb3a0cf54971d4
+    rev: 62bb6ea2a2a0b617
   approvals:
   - at: 2026-10-19T09:46:14.554606418Z
     by: Venkatraman B
     verdict: approved
-    rev: 6dbb3a0cf54971d4
+    rev: 62bb6ea2a2a0b617
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:51:31.007328919Z
-    rev: 6dbb3a0cf54971d4
+    rev: 62bb6ea2a2a0b617
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T11:06:34.306391818Z
-    rev: 6dbb3a0cf54971d4
+    rev: 62bb6ea2a2a0b617
     status: In Progress
 history:
 - at: 2026-10-20T08:35:06.854277472Z

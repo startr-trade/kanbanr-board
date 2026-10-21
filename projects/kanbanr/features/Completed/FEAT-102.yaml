@@ -1,5 +1,5 @@
 code: FEAT-102
-title: 'Defect: the shipped session-start and stop-check hooks were replaced by empty stubs'
+title: "Defect: the shipped session-start and stop-check hooks were replaced by empty stubs"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -36,7 +36,7 @@ definition:
     kind: functional
     text: WHEN a session starts in a tracked folder, THE SYSTEM SHALL print the board through the shipped session-start script.
     tests:
-    - name: 'manual: session-start.sh piped a SessionStart payload in this repo prints the board'
+    - name: "manual: session-start.sh piped a SessionStart payload in this repo prints the board"
       kind: manual
       state: green
   - id: R-2
@@ -49,16 +49,16 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T09:05:52.697122866Z
-    rev: bd5ae9edf3f46c56
+    rev: ed741776be7e6fe6
   approvals:
   - at: 2026-09-29T09:01:17.872260067Z
     by: Venkatraman B
     verdict: ratified
-    rev: bd5ae9edf3f46c56
+    rev: ed741776be7e6fe6
   - at: 2026-09-29T09:05:52.697122866Z
     by: Venkatraman B
     verdict: ratified
-    rev: bd5ae9edf3f46c56
+    rev: ed741776be7e6fe6
   started_unapproved: restores behaviour already agreed and shipped (FEAT-044/054/055); broken hooks affect every session, ratify on review
 defect:
   severity: high

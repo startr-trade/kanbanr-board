@@ -18,19 +18,19 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'Remove the stray tracked api/.kanbanr (project ''demo'', committed with FEAT-036 in June): inside api/ it points kanbanr at a ./data board'
+    text: "Remove the stray tracked api/.kanbanr (project 'demo', committed with FEAT-036 in June): inside api/ it points kanbanr at a ./data board"
     state: Completed
   - key: T2
-    text: 'Board: bundle backup (archive/kanbanr-board.before-sanitise-2026-10-01.bundle); 11 summaries moved to .sessions/kanbanr/ (ignored); docs/sessions removed from all 1192 commits; private terms and local paths replaced in files and messages; sweep: 0 hits; branch renamed master -> main'
+    text: "Board: bundle backup (archive/kanbanr-board.before-sanitise-2026-10-01.bundle); 11 summaries moved to .sessions/kanbanr/ (ignored); docs/sessions removed from all 1192 commits; private terms and local paths replaced in files and messages; sweep: 0 hits; branch renamed master -> main"
     state: Completed
   - key: T3
-    text: 'Rewording FEAT-088''s definition lapsed its ratification (approval is pinned to content): needs the maintainer to ratify again'
+    text: "Rewording FEAT-088's definition lapsed its ratification (approval is pinned to content): needs the maintainer to ratify again"
     state: Completed
   - key: T4
-    text: 'Code: committed .kanbanr; api/.kanbanr removed; claude.rs names the board''s remote (unit test); README ''Developed with kanbanr''; contributing ''Reading the project''s board''; make ci 42/42; fresh side-by-side clones work'
+    text: "Code: committed .kanbanr; api/.kanbanr removed; claude.rs names the board's remote (unit test); README 'Developed with kanbanr'; contributing 'Reading the project's board'; make ci 42/42; fresh side-by-side clones work"
     state: Completed
   - key: T5
-    text: 'Maintainer: create startr-trade/kanbanr-board (public), add the remote, push main, apply the settings checklist'
+    text: "Maintainer: create startr-trade/kanbanr-board (public), add the remote, push main, apply the settings checklist"
     state: Completed
   created_at: 2026-10-01T06:19:19.543034691Z
 definition:
@@ -66,18 +66,18 @@ definition:
     kind: functional
     text: WHEN the code repository is cloned beside the board, THE SYSTEM SHALL resolve the board with no further setup.
     tests:
-    - name: 'fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup'
+    - name: "fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:18:13.841277972Z
-    rev: 6d37c829ffd4c68b
+    rev: be1aa69cb1a3c27b
   approvals:
   - at: 2026-10-01T06:18:13.841277972Z
     by: Venkatraman B
     verdict: approved
-    rev: 6d37c829ffd4c68b
+    rev: be1aa69cb1a3c27b
     status: Planned
 history:
 - at: 2026-10-01T06:27:19.028990476Z

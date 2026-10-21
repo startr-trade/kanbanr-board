@@ -1,5 +1,5 @@
 code: FEAT-133
-title: 'Brand: kanbanr mark, favicon, lockups and social preview, wired into README, docs, monitor and extension'
+title: "Brand: kanbanr mark, favicon, lockups and social preview, wired into README, docs, monitor and extension"
 status: Completed
 milestone: MS-002
 kind: feature
@@ -17,25 +17,25 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'assets/brand: mark, favicon, light/dark lockups, app icon, social preview (SVG + PNG)'
+    text: "assets/brand: mark, favicon, light/dark lockups, app icon, social preview (SVG + PNG)"
     state: Completed
   - key: T2
-    text: 'Monitor: header mark (theme tokens), favicon + touch icon served by the daemon'
+    text: "Monitor: header mark (theme tokens), favicon + touch icon served by the daemon"
     state: Completed
   - key: T3
-    text: 'Docs site: favicon; the introduction opens with the lockup, following the mdBook theme (checked in rust and ayu)'
+    text: "Docs site: favicon; the introduction opens with the lockup, following the mdBook theme (checked in rust and ayu)"
     state: Completed
   - key: T4
     text: VS Code extension icon; README opens with the lockup
     state: Completed
   - key: T5
-    text: 'Screenshots: retake all, plus sprint header/burndown, Releases and Gantt from a scrum demo (waits on the burndown decision)'
+    text: "Screenshots: retake all, plus sprint header/burndown, Releases and Gantt from a scrum demo (waits on the burndown decision)"
     state: Completed
   - key: T6
-    text: 'tools/demo/cadence.sh: a Scrum shop (defined, approved, gated moves; arrival dates spread so the burndown has a shape); portfolio.sh given an identity and the scheduled workflow (both had broken since FEAT-116/128)'
+    text: "tools/demo/cadence.sh: a Scrum shop (defined, approved, gated moves; arrival dates spread so the burndown has a shape); portfolio.sh given an identity and the scheduled workflow (both had broken since FEAT-116/128)"
     state: Completed
   - key: T7
-    text: 'make screenshots runs three passes: the real board, the portfolio demo, the Scrum demo; sprint.png, sprint-dark.png, releases.png, gantt-sprints.png, portfolio-dark.png new; all retaken'
+    text: "make screenshots runs three passes: the real board, the portfolio demo, the Scrum demo; sprint.png, sprint-dark.png, releases.png, gantt-sprints.png, portfolio-dark.png new; all retaken"
     state: Completed
   - key: T8
     text: README gallery and the processes chapter show the sprint, release and Gantt views; board description no longer points at a moved file
@@ -77,12 +77,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T05:54:32.171438985Z
-    rev: 0ac90bc70c25ea08
+    rev: 6bb9bb2da4990d43
   approvals:
   - at: 2026-10-01T05:54:32.171438985Z
     by: Venkatraman B
     verdict: approved
-    rev: 0ac90bc70c25ea08
+    rev: 6bb9bb2da4990d43
     status: Planned
 history:
 - at: 2026-10-01T05:54:52.024967553Z

@@ -1,5 +1,5 @@
 code: FEAT-125
-title: 'Defect: a gate that does not name `definition` lets an item with no definition through'
+title: "Defect: a gate that does not name `definition` lets an item with no definition through"
 status: Completed
 milestone: MS-007
 kind: defect
@@ -45,12 +45,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-30T03:11:51.986387586Z
-    rev: c21311ee94949874
+    rev: 6743379ff9caae8f
   approvals:
   - at: 2026-09-30T03:11:51.986387586Z
     by: Venkatraman B
     verdict: ratified
-    rev: c21311ee94949874
+    rev: 6743379ff9caae8f
     status: Completed
   started_unapproved: found and fixed during FEAT-123's browser check; a hole in an approved gate
 defect:

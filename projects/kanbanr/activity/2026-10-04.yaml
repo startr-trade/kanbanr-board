@@ -79,7 +79,7 @@
   item: FEAT-161
 - time: 2026-10-04T18:05:51.295711528Z
   actor: Venkatraman B
-  message: 'FEAT-160: what waits on the v0.1.5 run'
+  message: "FEAT-160: what waits on the v0.1.5 run"
 - time: 2026-10-04T18:20:07.59679734Z
   actor: Venkatraman B
   message: add feature item
@@ -178,7 +178,7 @@
   item: FEAT-165
 - time: 2026-10-04T19:07:58.277042637Z
   actor: Venkatraman B
-  message: 'FEAT-164: what waits on the v0.1.6 run'
+  message: "FEAT-164: what waits on the v0.1.6 run"
 - time: 2026-10-04T19:44:34.436050694Z
   actor: Venkatraman B
   message: test the v0.1.6 release run passes, its CI check included, with every verify-install leg and the image check of FEAT-164/R-1 is now green
@@ -204,4 +204,4 @@
   message: record 1 test result(s) from a run
 - time: 2026-10-04T19:54:30.80994299Z
   actor: Venkatraman B
-  message: 'FEAT-165: fix merged; proof is three clean first runs after version changes'
+  message: "FEAT-165: fix merged; proof is three clean first runs after version changes"

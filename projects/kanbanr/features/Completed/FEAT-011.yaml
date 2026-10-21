@@ -4,7 +4,11 @@ status: Completed
 milestone: MS-003
 kind: null
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists:
@@ -12,7 +16,7 @@ todo_lists:
   description: tls
   tasks:
   - key: T1
-    text: 'USER_GUIDE + DESIGN: expose via reverse proxy (TLS/auth); Caddy + nginx examples'
+    text: "USER_GUIDE + DESIGN: expose via reverse proxy (TLS/auth); Caddy + nginx examples"
     state: Completed
   created_at: 2026-06-12T05:37:04.908108588Z
 created_at: 2026-06-12T03:36:36.38385286Z

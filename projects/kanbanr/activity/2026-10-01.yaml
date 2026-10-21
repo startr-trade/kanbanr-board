@@ -334,7 +334,7 @@
   item: FEAT-136
 - time: 2026-10-01T06:32:53.113561179Z
   actor: Venkatraman B
-  message: 'test fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup of FEAT-136/R-3 is now green'
+  message: "test fresh clones of both side by side: kanbanr board and kanbanr why work in the code clone with no setup of FEAT-136/R-3 is now green"
   item: FEAT-136
 - time: 2026-10-01T06:32:53.138430364Z
   actor: Venkatraman B
@@ -608,7 +608,7 @@
   message: record a lesson
 - time: 2026-10-01T10:48:25.253588273Z
   actor: Venkatraman B
-  message: 'test check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render of FEAT-140/R-1 is now green'
+  message: "test check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render of FEAT-140/R-1 is now green"
   item: FEAT-140
 - time: 2026-10-01T10:48:25.281343415Z
   actor: Venkatraman B
@@ -1121,7 +1121,7 @@
   item: FEAT-146
 - time: 2026-10-01T20:46:17.76226928Z
   actor: Venkatraman B
-  message: 'test following the README on a clean machine: the installer, then the plugin commands, then "set up kanbanr" in Claude reaches a board of FEAT-139/R-3 is now green'
+  message: "test following the README on a clean machine: the installer, then the plugin commands, then \"set up kanbanr\" in Claude reaches a board of FEAT-139/R-3 is now green"
   item: FEAT-139
 - time: 2026-10-01T20:46:17.800409827Z
   actor: Venkatraman B

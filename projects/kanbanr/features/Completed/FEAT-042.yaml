@@ -20,16 +20,16 @@ todo_lists:
   description: session 1 — build import
   tasks:
   - key: T1
-    text: 'core: source provenance on features + stable key'
+    text: "core: source provenance on features + stable key"
     state: Completed
   - key: T2
-    text: 'core: batch source/original snapshot, duplicate-source skip (cascading), dry_run preview'
+    text: "core: batch source/original snapshot, duplicate-source skip (cascading), dry_run preview"
     state: Completed
   - key: T3
-    text: 'CLI: batch --dry-run preview, file-source revision, kanbanr sources [--write]'
+    text: "CLI: batch --dry-run preview, file-source revision, kanbanr sources [--write]"
     state: Completed
   - key: T4
-    text: 'web: feature page shows provenance (+ source no longer present)'
+    text: "web: feature page shows provenance (+ source no longer present)"
     state: Completed
   - key: T5
     text: skill import flow + USER_GUIDE + CHANGELOG

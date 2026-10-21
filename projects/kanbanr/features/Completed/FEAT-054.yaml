@@ -19,16 +19,16 @@ todo_lists:
   description: session 1 — wave retrospectives
   tasks:
   - key: T1
-    text: 'core: retro.rs — wave selection and the derived numbers'
+    text: "core: retro.rs — wave selection and the derived numbers"
     state: Completed
   - key: T2
-    text: 'record what the board cannot infer: split_from on an item'
+    text: "record what the board cannot infer: split_from on an item"
     state: Completed
   - key: T3
-    text: 'route + CLI: kanbanr retro [--since|--label|--write|--due]'
+    text: "route + CLI: kanbanr retro [--since|--label|--write|--due]"
     state: Completed
   - key: T4
-    text: 'eventing: milestone-completed; Stop hook surfaces a retro that is due'
+    text: "eventing: milestone-completed; Stop hook surfaces a retro that is due"
     state: Completed
   - key: T5
     text: tests + gates
@@ -49,7 +49,7 @@ definition:
   requirements:
   - id: R-1
     kind: functional
-    text: 'WHEN a retrospective is asked for a wave, THE SYSTEM SHALL report only numbers derived from what the board recorded: scope growth, defects and escapes, cycle time, rework, requirement evidence and estimate against actual.'
+    text: "WHEN a retrospective is asked for a wave, THE SYSTEM SHALL report only numbers derived from what the board recorded: scope growth, defects and escapes, cycle time, rework, requirement evidence and estimate against actual."
     tests:
     - name: retro::tests::the_numbers_come_from_the_board_and_nowhere_else
       kind: unit
@@ -98,8 +98,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:35.756107024Z
-    rev: e008f2d15f22a5e7
-  started_unapproved: 'auto-pilot: definition written before the work and left for review'
+    rev: 899a52481f0499a3
+  started_unapproved: "auto-pilot: definition written before the work and left for review"
 history:
 - at: 2026-09-25T07:47:42.616178971Z
   from: Planned

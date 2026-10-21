@@ -1,5 +1,5 @@
 code: FEAT-083
-title: 'Defect: the header shows Projects twice on any project page'
+title: "Defect: the header shows Projects twice on any project page"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -41,30 +41,30 @@ definition:
     kind: functional
     text: WHERE the app shell offers navigation, THE SYSTEM SHALL offer each destination at most once, so that no two links share both a destination and a label.
     tests:
-    - name: 'web: npm run check:ui asserts no two app-shell links share a destination and a label'
+    - name: "web: npm run check:ui asserts no two app-shell links share a destination and a label"
       kind: integration
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.643436451Z
-    rev: 036c9ac7400f1c95
+    rev: 27a39c4dba3fbf90
   approvals:
   - at: 2026-09-28T17:56:28.802160773Z
     by: unknown
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 036c9ac7400f1c95
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 27a39c4dba3fbf90
   - at: 2026-09-28T17:57:54.620776187Z
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
-    rev: 036c9ac7400f1c95
+    rev: 27a39c4dba3fbf90
   - at: 2026-09-28T17:57:54.643436451Z
     by: Venkatraman B
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 036c9ac7400f1c95
-  started_unapproved: 'auto-pilot: a duplicated link the user reported in the monitor'
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 27a39c4dba3fbf90
+  started_unapproved: "auto-pilot: a duplicated link the user reported in the monitor"
 defect:
   severity: low
   introduced_by: FEAT-044

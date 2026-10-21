@@ -1,10 +1,12 @@
 code: FEAT-033
-title: 'Store scale: lazy specs + per-project index'
+title: "Store scale: lazy specs + per-project index"
 status: Completed
 milestone: MS-005
 kind: refactor
 priority: medium
+start: null
 due: null
+estimate_days: null
 assignee: null
 team: null
 labels:

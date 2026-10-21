@@ -1,5 +1,5 @@
 - id: L-41
-  lesson: 'A test that runs the CLI must work in std::env::temp_dir(), never under the repository (target/, CARGO_TARGET_TMPDIR, a worktree): kanbanr walks up to the nearest .kanbanr marker and writes to the real board. Assert the board is the test''s own before the first write.'
+  lesson: "A test that runs the CLI must work in std::env::temp_dir(), never under the repository (target/, CARGO_TARGET_TMPDIR, a worktree): kanbanr walks up to the nearest .kanbanr marker and writes to the real board. Assert the board is the test's own before the first write."
   kind: pitfall
   at: 2026-10-19T10:39:54.066168165Z
   from_item: FEAT-183
@@ -16,11 +16,11 @@
   - at: 2026-10-20T06:32:49.666198048Z
     verdict: affirmed
 - id: L-40
-  lesson: 'Take an item''s code from what feature add prints, never assume the next number: another session can add items to the same board in between'
+  lesson: "Take an item's code from what feature add prints, never assume the next number: another session can add items to the same board in between"
   kind: pitfall
   at: 2026-10-19T02:37:18.441634538Z
   from_item: FEAT-186
-  evidence: '19 Oct: feature add created FEAT-186 while I defined FEAT-183, assuming the next code; it overwrote the approved FEAT-183 (from the katalogr session), reverted at board commit f615623'
+  evidence: "19 Oct: feature add created FEAT-186 while I defined FEAT-183, assuming the next code; it overwrote the approved FEAT-183 (from the katalogr session), reverted at board commit f615623"
   tags:
   - board
   - parallel-sessions
@@ -28,11 +28,11 @@
   last_affirmed: 2026-10-19T02:37:18.441634538Z
   status: candidate
 - id: L-39
-  lesson: 'An instruction Claude must act on at a particular moment belongs in the tool''s output at that moment, not only in the skill: a skill sentence lost to Claude''s own judgement three times, and a line in the command''s output won the first time'
+  lesson: "An instruction Claude must act on at a particular moment belongs in the tool's output at that moment, not only in the skill: a skill sentence lost to Claude's own judgement three times, and a line in the command's output won the first time"
   kind: practice
   at: 2026-10-06T17:51:10.024150316Z
   from_item: FEAT-171
-  evidence: 'FEAT-171 walkthrough, 6 Oct: the per-project update question was skipped twice with the skill saying to ask, and asked once process save printed the projects left behind; the setup''s process and git-identity questions were answered by Claude itself with the skill saying to ask'
+  evidence: "FEAT-171 walkthrough, 6 Oct: the per-project update question was skipped twice with the skill saying to ask, and asked once process save printed the projects left behind; the setup's process and git-identity questions were answered by Claude itself with the skill saying to ask"
   tags:
   - skill
   - guardrails
@@ -44,7 +44,7 @@
   kind: pitfall
   at: 2026-10-05T10:56:22.198037507Z
   from_item: FEAT-168
-  evidence: 'FEAT-168''s first make ci failed 1 of 56: docs/src/project/changelog.md was stale after the Unreleased entry was added'
+  evidence: "FEAT-168's first make ci failed 1 of 56: docs/src/project/changelog.md was stale after the Unreleased entry was added"
   tags:
   - docs
   - ci
@@ -65,12 +65,12 @@
   kind: pitfall
   at: 2026-10-02T11:48:53.115151982Z
   from_item: FEAT-155
-  evidence: 'v0.1.2 verify-install: init refused in the checkout on all four legs; make ci had run it from /'
+  evidence: "v0.1.2 verify-install: init refused in the checkout on all four legs; make ci had run it from /"
   confidence: 0.6
   last_affirmed: 2026-10-02T11:48:53.115151982Z
   status: candidate
 - id: L-35
-  lesson: 'Every way a binary is built needs the same provenance check: the image build had no .git and no check, so it shipped unknown while the archives were verified'
+  lesson: "Every way a binary is built needs the same provenance check: the image build had no .git and no check, so it shipped unknown while the archives were verified"
   kind: pitfall
   at: 2026-10-01T19:33:28.60958239Z
   from_item: FEAT-144
@@ -79,7 +79,7 @@
   last_affirmed: 2026-10-01T19:33:28.60958239Z
   status: candidate
 - id: L-34
-  lesson: 'A workflow step make ci cannot run is still checkable: run its script in the same container image, under the shell GitHub will use (sh in a container job, not bash)'
+  lesson: "A workflow step make ci cannot run is still checkable: run its script in the same container image, under the shell GitHub will use (sh in a container job, not bash)"
   kind: pitfall
   at: 2026-10-01T19:12:21.995794993Z
   from_item: FEAT-143
@@ -116,7 +116,7 @@
   kind: practice
   at: 2026-09-30T17:48:01.444790311Z
   from_item: FEAT-129
-  evidence: 'the first GitHub runs failed four ways that all passed locally: a monitor test against a binary built without web/dist, a macOS symlinked temp path, a Windows link error, and a mirrored changelog chapter that only docs.yml compared with its source (hand-edited, 213 lines behind)'
+  evidence: "the first GitHub runs failed four ways that all passed locally: a monitor test against a binary built without web/dist, a macOS symlinked temp path, a Windows link error, and a mirrored changelog chapter that only docs.yml compared with its source (hand-edited, 213 lines behind)"
   tags:
   - ci
   - testing
@@ -140,7 +140,7 @@
   last_affirmed: 2026-09-29T19:41:37.875096213Z
   status: candidate
 - id: L-28
-  lesson: 'Never chain commit and merge after a test run in one command: the suite reported 2 failures and the merge went ahead anyway'
+  lesson: "Never chain commit and merge after a test run in one command: the suite reported 2 failures and the merge went ahead anyway"
   kind: pitfall
   at: 2026-09-29T07:33:10.026640932Z
   from_item: FEAT-105
@@ -148,7 +148,7 @@
   last_affirmed: 2026-09-29T07:33:10.026640932Z
   status: candidate
 - id: L-27
-  lesson: 'The capture hook records nothing when a test run is wrapped (rtk proxy cargo test): feed the output to kanbanr capture, or run cargo test bare'
+  lesson: "The capture hook records nothing when a test run is wrapped (rtk proxy cargo test): feed the output to kanbanr capture, or run cargo test bare"
   kind: pitfall
   at: 2026-09-28T19:20:30.142108895Z
   from_item: FEAT-101
@@ -189,7 +189,7 @@
   last_affirmed: 2026-09-28T16:15:28.8267031Z
   status: candidate
 - id: L-23
-  lesson: 'Recognise a token with its boundary, never as a substring. Three defects on this board are the same mistake: [no-ref] matched in prose so a commit explaining the escape was read as taking it (FEAT-056); a test name''s / was passed into a route by a whole-path encoder used on one segment (FEAT-079); and the commit guard found ''-m'' anywhere in a command line, refusing correct commits and blocking a Python script that merely mentioned the flag (FEAT-082). Writing the rule down after the first one did not stop the next two — so when parsing anything out of free text, state what the boundary is before writing the match.'
+  lesson: "Recognise a token with its boundary, never as a substring. Three defects on this board are the same mistake: [no-ref] matched in prose so a commit explaining the escape was read as taking it (FEAT-056); a test name's / was passed into a route by a whole-path encoder used on one segment (FEAT-079); and the commit guard found '-m' anywhere in a command line, refusing correct commits and blocking a Python script that merely mentioned the flag (FEAT-082). Writing the rule down after the first one did not stop the next two — so when parsing anything out of free text, state what the boundary is before writing the match."
   kind: pitfall
   at: 2026-09-28T16:11:07.917895211Z
   from_item: FEAT-082
@@ -226,7 +226,7 @@
   last_affirmed: 2026-09-28T12:25:21.964388006Z
   status: candidate
 - id: L-20
-  lesson: 'When a second surface produces the same record as an existing one, make it read the first one''s source — do not write an equivalent. Three of the four defects in this review were that: the monitor invented an approver string instead of reading the commit identity `kanbanr approve` resolves; the review queue invented a scope filter instead of reusing the gate `doctor` had; and the test-state caller picked the whole-path encoder while the route it targets documented needing the segment one. Each looked correct in its own diff.'
+  lesson: "When a second surface produces the same record as an existing one, make it read the first one's source — do not write an equivalent. Three of the four defects in this review were that: the monitor invented an approver string instead of reading the commit identity `kanbanr approve` resolves; the review queue invented a scope filter instead of reusing the gate `doctor` had; and the test-state caller picked the whole-path encoder while the route it targets documented needing the segment one. Each looked correct in its own diff."
   kind: pitfall
   at: 2026-09-28T12:25:21.955506924Z
   from_item: FEAT-077
@@ -252,7 +252,7 @@
   last_affirmed: 2026-09-28T11:31:02.594440986Z
   status: candidate
 - id: L-18
-  lesson: 'One fact, one place: a convenience script that derives a path instead of asking the tool breaks the day someone renames it'
+  lesson: "One fact, one place: a convenience script that derives a path instead of asking the tool breaks the day someone renames it"
   kind: pitfall
   at: 2026-09-28T10:56:19.150249403Z
   from_item: FEAT-072

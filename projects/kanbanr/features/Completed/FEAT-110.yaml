@@ -1,5 +1,5 @@
 code: FEAT-110
-title: 'Defect: the CLI panics with a stack trace when its output is piped into head'
+title: "Defect: the CLI panics with a stack trace when its output is piped into head"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -43,16 +43,16 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T09:31:13.553515475Z
-    rev: 946c4ad835703165
+    rev: 99ece5eef2878c09
   approvals:
   - at: 2026-09-29T09:30:39.801306105Z
     by: Venkatraman B
     verdict: approved
-    rev: 946c4ad835703165
+    rev: 99ece5eef2878c09
   - at: 2026-09-29T09:31:13.553515475Z
     by: Venkatraman B
     verdict: approved
-    rev: 946c4ad835703165
+    rev: 99ece5eef2878c09
 defect:
   severity: low
   found_in: setup-test and FEAT-105 probe runs

@@ -89,7 +89,7 @@ definition:
     kind: functional
     text: WHEN the binary reports its version, THE SYSTEM SHALL also name the commit it was built from, so that an installed binary can be matched against the release page without running anything.
     tests:
-    - name: 'release.yml: the binary names the commit it was built from, and is neither dirty nor unknown'
+    - name: "release.yml: the binary names the commit it was built from, and is neither dirty nor unknown"
       kind: integration
       state: planned
   - id: R-8
@@ -108,30 +108,30 @@ definition:
       stimulus: self-update contacts api.github.com and the release download host
       environment: Any supported platform, with no system certificate configuration
       response: The connection is established and the certificate verified, or refused
-      measure: 'the step ''ci.yml: cargo tree -p kanbanr-cli -e normal -i rustls'' fails the build when the CLI has no TLS backend'
+      measure: "the step 'ci.yml: cargo tree -p kanbanr-cli -e normal -i rustls' fails the build when the CLI has no TLS backend"
     tests:
-    - name: 'ci.yml: cargo tree -p kanbanr-cli -e normal -i rustls'
+    - name: "ci.yml: cargo tree -p kanbanr-cli -e normal -i rustls"
       kind: integration
       state: planned
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:37:06.063814814Z
-    rev: c0b8936c3c58ff20
+    rev: 2806d98f4534996d
   approvals:
   - at: 2026-09-28T17:11:46.732678156Z
     by: Venkatraman B
     verdict: approved
-    rev: d4967a2cadfe21bc
+    rev: 645bce6937f40da7
   - at: 2026-09-28T17:24:36.795897695Z
     by: Venkatraman B
     verdict: approved
-    rev: 427f8cfe510c1b46
+    rev: 2806d98f4534996d
   - at: 2026-10-01T06:37:06.063814814Z
     by: Venkatraman B
     verdict: ratified
-    rev: c0b8936c3c58ff20
+    rev: 2806d98f4534996d
     status: Completed
-  started_unapproved: 'auto-pilot: the user asked for it directly — ''Please do a self-update feature. It should look at the checksum represented by the current version against the checksum in github'''
+  started_unapproved: "auto-pilot: the user asked for it directly — 'Please do a self-update feature. It should look at the checksum represented by the current version against the checksum in github'"
 history:
 - at: 2026-09-28T16:57:41.584717368Z
   from: Planned

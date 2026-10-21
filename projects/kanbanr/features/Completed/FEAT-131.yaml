@@ -1,5 +1,5 @@
 code: FEAT-131
-title: 'make ci: run every workflow check locally before a push'
+title: "make ci: run every workflow check locally before a push"
 status: Completed
 milestone: MS-002
 kind: chore
@@ -16,16 +16,16 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'scripts/ci_local.py + ci-local.sh + make ci: fresh tracked-tree copy at ~/.cache/kanbanr-ci/tree, per-job reset, run blocks read from the workflows, every run step classified, actionlint, action refs, docker build, pinned mdbook versions, not-verified summary'
+    text: "scripts/ci_local.py + ci-local.sh + make ci: fresh tracked-tree copy at ~/.cache/kanbanr-ci/tree, per-job reset, run blocks read from the workflows, every run step classified, actionlint, action refs, docker build, pinned mdbook versions, not-verified summary"
     state: Completed
   - key: T2
-    text: 'ci.yml: shellcheck install split from the check; release.yml: tag check named'
+    text: "ci.yml: shellcheck install split from the check; release.yml: tag check named"
     state: Completed
   - key: T3
-    text: 'Sabotage: broken format, stale mirror, macos-13, checkout@v99, edited run block, failing test -> each FAILs; clean -> all 32 pass'
+    text: "Sabotage: broken format, stale mirror, macos-13, checkout@v99, edited run block, failing test -> each FAILs; clean -> all 32 pass"
     state: Completed
   - key: T4
-    text: 'Per-job reset: a docs sync step had made the release build report -dirty'
+    text: "Per-job reset: a docs sync step had made the release build report -dirty"
     state: Completed
   - key: T5
     text: Docs (contributing) + changelog
@@ -38,7 +38,7 @@ definition:
   - G-5
   zachman:
     what: The checks in ci.yml, docs.yml and release.yml, plus actionlint and action-reference resolution
-    how: 'scripts/ci-local.sh behind make ci: a clean copy of the tracked tree at a fixed cache path, each workflow''s own run: blocks where they are scripts, pinned container images for missing tools, and a closing list of what was not verified'
+    how: "scripts/ci-local.sh behind make ci: a clean copy of the tracked tree at a fixed cache path, each workflow's own run: blocks where they are scripts, pinned container images for missing tools, and a closing list of what was not verified"
     where: scripts/ci-local.sh, Makefile, CONTRIBUTING.md
     when: Before every push; after any workflow change
     who: The maintainer, and Claude before saying anything is ready to push
@@ -62,7 +62,7 @@ definition:
     kind: functional
     text: WHEN make ci runs, THE SYSTEM SHALL lint every workflow with actionlint and resolve every action reference upstream.
     tests:
-    - name: 'make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99'
+    - name: "make ci fails on runs-on: macos-13 and on uses: actions/checkout@v99"
       kind: manual
       state: green
   - id: R-4
@@ -75,12 +75,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-30T18:06:38.139158656Z
-    rev: 95d308427c421600
+    rev: 51629f860ffc242f
   approvals:
   - at: 2026-09-30T18:06:38.139158656Z
     by: Venkatraman B
     verdict: approved
-    rev: 95d308427c421600
+    rev: 51629f860ffc242f
     status: Planned
 history:
 - at: 2026-09-30T18:07:06.29299571Z

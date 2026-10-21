@@ -1,5 +1,5 @@
 code: FEAT-147
-title: 'Release v0.1.2: features frozen until 1.0'
+title: "Release v0.1.2: features frozen until 1.0"
 status: Completed
 milestone: MS-009
 kind: null
@@ -42,12 +42,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T18:03:07.072547896Z
-    rev: 6b2d493b88d75df4
+    rev: 41ef5c9edf65c1f5
   approvals:
   - at: 2026-10-02T18:03:07.072547896Z
     by: Venkatraman B
     verdict: approved
-    rev: 6b2d493b88d75df4
+    rev: 41ef5c9edf65c1f5
     status: In Progress
 history:
 - at: 2026-10-02T09:01:02.416705679Z

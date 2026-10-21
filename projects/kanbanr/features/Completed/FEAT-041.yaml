@@ -20,13 +20,13 @@ todo_lists:
   description: session 1 — build sibling data folder
   tasks:
   - key: T1
-    text: 'core: YAML marker (+legacy), walk-up discovery, data-dir resolution order, unit tests'
+    text: "core: YAML marker (+legacy), walk-up discovery, data-dir resolution order, unit tests"
     state: Completed
   - key: T2
-    text: 'core: default sibling from git root, nearby *.kanbanr folders, inside-git-repo check'
+    text: "core: default sibling from git root, nearby *.kanbanr folders, inside-git-repo check"
     state: Completed
   - key: T3
-    text: 'CLI: init prompt/default + marker data_dir; project use keeps it; kanbanr where'
+    text: "CLI: init prompt/default + marker data_dir; project use keeps it; kanbanr where"
     state: Completed
   - key: T4
     text: CLI integration tests (sibling default, subfolder resolution, where)
@@ -38,7 +38,7 @@ todo_lists:
     text: Skill activation asks user; USER_GUIDE + CHANGELOG
     state: Completed
   - key: T7
-    text: 'Gates: fmt, clippy -D warnings, workspace tests'
+    text: "Gates: fmt, clippy -D warnings, workspace tests"
     state: Completed
   created_at: 2026-09-12T20:00:12.280843369Z
 created_at: 2026-09-12T20:00:12.258104044Z

@@ -17,7 +17,7 @@ goals:
   measure: no item reaches a terminal state having started unapproved without a recorded reason
 - id: G-4
   statement: Any line of code can be traced back to the requirement and goal it serves
-  measure: '`kanbanr why <file>` answers for code written after the method was adopted'
+  measure: "`kanbanr why <file>` answers for code written after the method was adopted"
 - id: G-5
   statement: The tool stays low-friction enough that it is never worth bypassing — getting it, keeping it current, and finding out how it works included
   measure: a routine update is one batch call and the board is never edited by hand to save time; installing is one command with nothing to build afterwards; staying current is one command; and a question about the tool is answered from a searchable book rather than by reading source
@@ -48,7 +48,7 @@ stakeholders:
   role: occasional
   interest: need the same bar explained, and cheap enough to meet
 constraints:
-- 'Local-first: plain YAML and markdown in a git repo, no database, no accounts, no server required'
+- "Local-first: plain YAML and markdown in a git repo, no database, no accounts, no server required"
 - The CLI is the single writer; the web monitor is read-only
 - Sharing happens through a git remote, which is also the access boundary
 - One binary, installable without a toolchain beyond cargo

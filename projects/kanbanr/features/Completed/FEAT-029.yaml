@@ -1,10 +1,14 @@
 code: FEAT-029
-title: 'Concurrency: write lock'
+title: "Concurrency: write lock"
 status: Completed
 milestone: MS-005
 kind: feature
 priority: high
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels:
 - enterprise
 - concurrency

@@ -1,5 +1,5 @@
 code: FEAT-045
-title: 'Bug: Stop hook reminder never reaches Claude'
+title: "Bug: Stop hook reminder never reaches Claude"
 status: Completed
 milestone: MS-004
 kind: bug
@@ -18,7 +18,7 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'stop-check.sh/.ps1: block-once JSON with staleness, project-change, per-session and stop_hook_active rules'
+    text: "stop-check.sh/.ps1: block-once JSON with staleness, project-change, per-session and stop_hook_active rules"
     state: Completed
   - key: T2
     text: verify scenarios (bash); docs + changelog

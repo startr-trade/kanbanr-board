@@ -21,19 +21,19 @@ todo_lists:
   description: session 1 — build GitHub mirror
   tasks:
   - key: T1
-    text: 'core: issue link + mirror.yaml; issue render + stable hash; reconcile planner'
+    text: "core: issue link + mirror.yaml; issue render + stable hash; reconcile planner"
     state: Completed
   - key: T2
-    text: 'CLI: gh tracker; mirror enable (public guard)/disable/status/sync/link/pull'
+    text: "CLI: gh tracker; mirror enable (public guard)/disable/status/sync/link/pull"
     state: Completed
   - key: T3
-    text: 'CLI: auto-sync after writes (best-effort, KANBANR_MIRROR=off), links written back'
+    text: "CLI: auto-sync after writes (best-effort, KANBANR_MIRROR=off), links written back"
     state: Completed
   - key: T4
     text: batch feature.add accepts issue link (GitHub imports reuse issues)
     state: Completed
   - key: T5
-    text: 'web: issue link on feature page'
+    text: "web: issue link on feature page"
     state: Completed
   - key: T6
     text: skill + USER_GUIDE + CHANGELOG

@@ -20,13 +20,13 @@ todo_lists:
   description: session 1 — automatic hook setup
   tasks:
   - key: T1
-    text: 'CLI hooks module: settings path, safe merge (order-preserving, atomic), idempotency, plugin detection, uninstall'
+    text: "CLI hooks module: settings path, safe merge (order-preserving, atomic), idempotency, plugin detection, uninstall"
     state: Completed
   - key: T2
     text: kanbanr hooks install|status|uninstall; init installs automatically (--no-hooks)
     state: Completed
   - key: T3
-    text: 'tests: merge unit tests + init end-to-end'
+    text: "tests: merge unit tests + init end-to-end"
     state: Completed
   - key: T4
     text: skill, hooks README, USER_GUIDE, CHANGELOG

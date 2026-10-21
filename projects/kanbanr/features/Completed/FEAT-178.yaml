@@ -76,28 +76,28 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T04:22:12.834638501Z
-    rev: b22b3dc972114517
+    rev: 80122afbb7f25841
   approvals:
   - at: 2026-10-19T04:19:27.655118101Z
     by: Venkatraman B
     verdict: approved
-    rev: b22b3dc972114517
+    rev: 80122afbb7f25841
     status: Planned
   - at: 2026-10-19T04:22:12.834638501Z
     by: Venkatraman B
     verdict: approved
-    rev: b22b3dc972114517
+    rev: 80122afbb7f25841
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:49:45.115252038Z
-    rev: b22b3dc972114517
+    rev: 80122afbb7f25841
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T11:06:32.05034672Z
-    rev: b22b3dc972114517
+    rev: 80122afbb7f25841
     status: In Progress
 history:
 - at: 2026-10-20T08:35:06.745344979Z

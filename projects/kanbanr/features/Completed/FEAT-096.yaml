@@ -1,5 +1,5 @@
 code: FEAT-096
-title: 'Defect: the portfolio is unreadable in dark mode'
+title: "Defect: the portfolio is unreadable in dark mode"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -38,25 +38,25 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL style the portfolio only with colour tokens the theme defines for both light and dark modes.
     tests:
-    - name: 'web: npm run check:ui fails when styles.css uses an undefined token'
+    - name: "web: npm run check:ui fails when styles.css uses an undefined token"
       kind: integration
       state: green
   - id: R-2
     kind: functional
     text: WHEN the portfolio is shown in dark mode, THE SYSTEM SHALL render its lanes and cards with the same surfaces as the project board.
     tests:
-    - name: 'tools/screenshots: portfolio-dark.png captured and inspected'
+    - name: "tools/screenshots: portfolio-dark.png captured and inspected"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:25:51.688880076Z
-    rev: 0de4c0e8b8614c79
+    rev: 21fe283ec0fc400a
   approvals:
   - at: 2026-09-28T18:25:51.688880076Z
     by: Venkatraman B
     verdict: approved
-    rev: 0de4c0e8b8614c79
+    rev: 21fe283ec0fc400a
   started_unapproved: reported by the user from the monitor and fixed on the spot; recorded as an item before committing
 defect:
   severity: medium

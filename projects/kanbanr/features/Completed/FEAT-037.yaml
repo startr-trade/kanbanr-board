@@ -4,7 +4,9 @@ status: Completed
 milestone: MS-005
 kind: feature
 priority: low
+start: null
 due: null
+estimate_days: null
 assignee: null
 team: null
 labels:

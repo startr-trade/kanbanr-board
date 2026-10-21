@@ -1,5 +1,5 @@
 code: FEAT-082
-title: 'Defect: the commit guard reads a stray -m out of prose and refuses a correct commit'
+title: "Defect: the commit guard reads a stray -m out of prose and refuses a correct commit"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -62,29 +62,29 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.600767541Z
-    rev: 3224fbe2d43a4cee
+    rev: 74537df865e98550
   approvals:
   - at: 2026-09-28T17:56:28.781721151Z
     by: unknown
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 3224fbe2d43a4cee
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 74537df865e98550
   - at: 2026-09-28T17:57:54.579643175Z
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
-    rev: 3224fbe2d43a4cee
+    rev: 74537df865e98550
   - at: 2026-09-28T17:57:54.600767541Z
     by: Venkatraman B
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: 3224fbe2d43a4cee
-  started_unapproved: 'auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work'
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 74537df865e98550
+  started_unapproved: "auto-pilot: the guard is refusing correct commits and blocking commands that are not commits — it is currently in the way of all work"
 defect:
   severity: high
   introduced_by: FEAT-056
   found_in: committing the docs sync — the guard refused a commit that carried a valid trailer
-  root_cause: 'a token recognised without its boundary: find("-m") matches two characters anywhere in a command line, the third instance of this shape after the [no-ref] prose match and the unencoded path segment'
+  root_cause: "a token recognised without its boundary: find(\"-m\") matches two characters anywhere in a command line, the third instance of this shape after the [no-ref] prose match and the unencoded path segment"
   escaped: true
 history:
 - at: 2026-09-28T16:11:07.891920649Z

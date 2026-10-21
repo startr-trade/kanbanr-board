@@ -1,5 +1,5 @@
 code: FEAT-160
-title: 'Release v0.1.5: decisions in Claude Code'
+title: "Release v0.1.5: decisions in Claude Code"
 status: Completed
 milestone: MS-009
 kind: null
@@ -18,7 +18,7 @@ todo_lists:
   description: v0.1.5
   tasks:
   - key: T1
-    text: 'Proof: the v0.1.5 run passes; release page opens with its notes; Open VSX lists 0.1.5'
+    text: "Proof: the v0.1.5 run passes; release page opens with its notes; Open VSX lists 0.1.5"
     state: Completed
   - key: T2
     text: Versions 0.1.5, notes page + index, changelog dated (FEAT-159, FEAT-161), make ci 56/56
@@ -54,12 +54,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T19:46:01.380198061Z
-    rev: fb291026e861c627
+    rev: 72428aadefce7713
   approvals:
   - at: 2026-10-02T19:46:01.380198061Z
     by: Venkatraman B
     verdict: approved
-    rev: fb291026e861c627
+    rev: 72428aadefce7713
     status: Planned
 history:
 - at: 2026-10-04T17:38:40.906718713Z

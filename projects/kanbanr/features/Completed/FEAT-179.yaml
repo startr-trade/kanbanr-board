@@ -1,5 +1,5 @@
 code: FEAT-179
-title: 'Design stage: a build-ready design in the spec (skill guidance and a spec-section gate check)'
+title: "Design stage: a build-ready design in the spec (skill guidance and a spec-section gate check)"
 status: Completed
 milestone: MS-007
 kind: feature
@@ -19,13 +19,13 @@ todo_lists:
   description: Implementation (after approval, on the branch from `kanbanr start FEAT-179`)
   tasks:
   - key: T1
-    text: 'Skill: add ''The design stage: the spec carries the build-ready design'' section (R-1). A draft exists in the item''s notes'
+    text: "Skill: add 'The design stage: the spec carries the build-ready design' section (R-1). A draft exists in the item's notes"
     state: Completed
   - key: T2
-    text: 'Docs: processes.md section and example gate (R-1)'
+    text: "Docs: processes.md section and example gate (R-1)"
     state: Completed
   - key: T3
-    text: 'Core: `spec_sections` gate check in readiness.rs (R-2), with readiness::spec_sections_gate'
+    text: "Core: `spec_sections` gate check in readiness.rs (R-2), with readiness::spec_sections_gate"
     state: Completed
   - key: T4
     text: Vocabulary and working agreement list `spec_sections` (R-3), with readiness::spec_sections_in_vocabulary
@@ -41,7 +41,7 @@ definition:
   - G-3
   zachman:
     what: Skill guidance for design-stage specs; a spec_sections gate check
-    how: 'A SpecSections check and a parameterized condition {spec_sections: [...]} evaluated over the spec''s headings (fenced code skipped, nested content counts), with spec bodies loaded only for gates that read them; the skill and processes.md say what a design-stage spec holds'
+    how: "A SpecSections check and a parameterized condition {spec_sections: [...]} evaluated over the spec's headings (fenced code skipped, nested content counts), with spec bodies loaded only for gates that read them; the skill and processes.md say what a design-stage spec holds"
     where: skill/kanbanr/SKILL.md, kanbanr-core readiness checks, docs
     when: On entering a stage whose gate asks for it
     who: Claude, the solo developer
@@ -51,7 +51,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state in the skill that, at a design stage, the item's spec carries an implementation-level Design section, and name what that section covers.
     tests:
-    - name: 'manual: skill design-stage guidance present and matches the docs'
+    - name: "manual: skill design-stage guidance present and matches the docs"
       kind: manual
       state: green
   - id: R-2
@@ -73,12 +73,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T05:47:04.036170275Z
-    rev: 905e75dd07e2726f
+    rev: 96bbf72c23a1d76a
   approvals:
   - at: 2026-10-19T05:47:04.036170275Z
     by: Venkatraman B
     verdict: approved
-    rev: 905e75dd07e2726f
+    rev: 96bbf72c23a1d76a
     status: Completed
 history:
 - at: 2026-10-16T13:22:16.003028543Z

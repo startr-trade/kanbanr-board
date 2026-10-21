@@ -1,5 +1,5 @@
 code: FEAT-107
-title: 'Defect: board columns scroll sideways inside a 1200px page while the screen has room either side'
+title: "Defect: board columns scroll sideways inside a 1200px page while the screen has room either side"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -35,35 +35,35 @@ definition:
     kind: functional
     text: WHILE the window is wide enough for every displayed column, THE SYSTEM SHALL show the board without horizontal scrolling.
     tests:
-    - name: 'manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar'
+    - name: "manual: a six-column TOGAF board at 1920px shows all columns without a scrollbar"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL keep reading pages at their 1200px measure.
     tests:
-    - name: 'manual: a feature page at 1920px keeps its 1200px width'
+    - name: "manual: a feature page at 1920px keeps its 1200px width"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T07:35:44.266236+00:00
-    rev: d3f44d5c6fe2a5cc
+    rev: 89789957483095d4
   approvals:
   - at: 2026-09-29T07:34:08.218056+00:00
     by: Venkatraman B
     verdict: approved
-    rev: d3f44d5c6fe2a5cc
+    rev: 89789957483095d4
   - at: 2026-09-29T07:35:44.266236+00:00
     by: Venkatraman B
     verdict: approved
-    rev: d3f44d5c6fe2a5cc
+    rev: 89789957483095d4
 defect:
   severity: low
   found_in: downstream project monitor (user report)
   root_cause: one 1200px cap for every page; the board's columns need 240px each plus gaps, so more than four statuses overflow
   escaped: false
-  fixed_by: 'headless Chromium at 1920px: board scrollWidth == clientWidth with 6 columns; charter content 1200px'
+  fixed_by: "headless Chromium at 1920px: board scrollWidth == clientWidth with 6 columns; charter content 1200px"
 history:
 - at: 2026-09-29T07:35:44.306795844Z
   from: Planned

@@ -1,5 +1,5 @@
 code: FEAT-084
-title: 'One binary that actually is one: install in a line, monitor included'
+title: "One binary that actually is one: install in a line, monitor included"
 status: Completed
 milestone: MS-004
 kind: null
@@ -25,13 +25,13 @@ todo_lists:
     text: scripts/install.sh and install.ps1, modelled on another project's — checksum-verified, three-source release resolution, timeouts and retries
     state: Completed
   - key: T4
-    text: 'release.yml: build the SPA first, add linux/aarch64, stage installers as release assets, publish SHA256SUMS over all of them'
+    text: "release.yml: build the SPA first, add linux/aarch64, stage installers as release assets, publish SHA256SUMS over all of them"
     state: Completed
   - key: T5
-    text: 'release.yml verify-install: run the published one-liner in two clean containers and assert the monitor is served'
+    text: "release.yml verify-install: run the published one-liner in two clean containers and assert the monitor is served"
     state: Completed
   - key: T6
-    text: 'ci.yml installers: shellcheck, a PowerShell parse, and a drift check that every target the scripts offer is one release.yml builds'
+    text: "ci.yml installers: shellcheck, a PowerShell parse, and a drift check that every target the scripts offer is one release.yml builds"
     state: Completed
   - key: T7
     text: Dockerfile and Makefile build the SPA before the binary, so every path embeds rather than one hiding a broken embed
@@ -78,7 +78,7 @@ definition:
     kind: functional
     text: WHEN the install script runs, THE SYSTEM SHALL detect the platform, verify the downloaded asset against a published checksum, and print the commands that follow.
     tests:
-    - name: 'release.yml verify-install: the published one-liner installs and serves the monitor in a clean container'
+    - name: "release.yml verify-install: the published one-liner installs and serves the monitor in a clean container"
       kind: e2e
       state: planned
   - id: R-5
@@ -90,21 +90,21 @@ definition:
       stimulus: The SPA is embedded in the release binary
       environment: A release build of kanbanr-cli
       response: The binary grows by about 1 MB, not 3.4 MB
-      measure: 'release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed — floor 12 MB, ceiling 20 MB; observed 12 MB without the assets and 13 MB with them'
+      measure: "release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed — floor 12 MB, ceiling 20 MB; observed 12 MB without the assets and 13 MB with them"
     tests:
-    - name: 'release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed'
+    - name: "release.yml: the binary is checked to be large enough to hold the monitor and small enough for it to be compressed"
       kind: integration
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T16:38:42.204127256Z
-    rev: 79e5a2a3e656a991
+    rev: ff0f48055171052e
   approvals:
   - at: 2026-09-28T16:38:42.204127256Z
     by: Venkatraman B
     verdict: approved
-    rev: 79e5a2a3e656a991
-  started_unapproved: 'auto-pilot: the user directed both halves — ''the UI must also be built-in so that it can serve the UI without me passing the dist folder'' and ''we might need one install script for kanbanr'', pointing at another project''s as the model'
+    rev: ff0f48055171052e
+  started_unapproved: "auto-pilot: the user directed both halves — 'the UI must also be built-in so that it can serve the UI without me passing the dist folder' and 'we might need one install script for kanbanr', pointing at another project's as the model"
 history:
 - at: 2026-09-28T16:22:46.653992254Z
   from: Planned

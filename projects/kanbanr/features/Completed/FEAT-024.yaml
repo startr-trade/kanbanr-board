@@ -37,10 +37,10 @@ todo_lists:
     text: verify <owner> placeholder fully replaced (venkatraman-b)
     state: Completed
   - key: T8
-    text: 'CHANGELOG: add MS-005 enterprise-scale features'
+    text: "CHANGELOG: add MS-005 enterprise-scale features"
     state: Completed
   - key: T9
-    text: 'THIRD_PARTY: note new fs2 dependency'
+    text: "THIRD_PARTY: note new fs2 dependency"
     state: Completed
   created_at: 2026-06-12T07:04:50.287647306Z
 - code: TL-002
@@ -54,23 +54,23 @@ todo_lists:
     text: sweep tracked tree AND full history for sensitive filenames, token shapes, credential literals, real emails, local paths
     state: Completed
   - key: T2
-    text: 'fix settings.snippet.json: absolute path into the author''s home, already rotted, silently registering dead hooks'
+    text: "fix settings.snippet.json: absolute path into the author's home, already rotted, silently registering dead hooks"
     state: Completed
   - key: T3
     text: record the sweep and its limits as notes/secrets-sweep.md
     state: Completed
   created_at: 2026-09-28T16:06:37.363546113Z
 - code: TL-004
-  description: 'crates.io: only ears-classifier; CODEOWNERS'
+  description: "crates.io: only ears-classifier; CODEOWNERS"
   tasks:
   - key: T1
     text: publish = false on kanbanr-cli, kanbanr-core, kanbanr-server (cargo refuses to publish them)
     state: Completed
   - key: T2
-    text: 'release.yml notes: ears-classifier is the only published crate; PUBLISH_CRATES guard described correctly'
+    text: "release.yml notes: ears-classifier is the only published crate; PUBLISH_CRATES guard described correctly"
     state: Completed
   - key: T3
-    text: 'Open-sourcing guide, installation page, VS Code extension README and message: no cargo install kanbanr'
+    text: "Open-sourcing guide, installation page, VS Code extension README and message: no cargo install kanbanr"
     state: Completed
   - key: T4
     text: ADR-0011 records the distribution decision
@@ -82,19 +82,19 @@ todo_lists:
     text: Changelog entries
     state: Completed
   - key: T7
-    text: 'release.yml: refuse a tag whose commit is not on main (probe: unmerged refused, merged passes; sabotaged guard passes the unmerged one)'
+    text: "release.yml: refuse a tag whose commit is not on main (probe: unmerged refused, merged passes; sabotaged guard passes the unmerged one)"
     state: Completed
   - key: T8
-    text: 'docs.yml: deploy only from main; drop master'
+    text: "docs.yml: deploy only from main; drop master"
     state: Completed
   - key: T9
-    text: 'Guide + changelog: releases from main, tag ruleset advice'
+    text: "Guide + changelog: releases from main, tag ruleset advice"
     state: Completed
   - key: T10
     text: Remove .github/dependabot.yml (18 PRs on first push; user chose no automated version updates); guide + changelog
     state: Completed
   - key: T11
-    text: 'Docs site is kanbanr.startr.trade: README, CONTRIBUTING and the plugin''s homepage point there'
+    text: "Docs site is kanbanr.startr.trade: README, CONTRIBUTING and the plugin's homepage point there"
     state: Completed
   created_at: 2026-09-30T17:06:22.530638042Z
 definition:
@@ -128,7 +128,7 @@ definition:
     kind: functional
     text: IF a secret has ever been written into the board, THEN THE SYSTEM SHALL keep it out of both repositories.
     tests:
-    - name: '`git ls-files | grep security.yaml` is empty in the code repo and in the board repo, and the file is deleted'
+    - name: "`git ls-files | grep security.yaml` is empty in the code repo and in the board repo, and the file is deleted"
       kind: manual
       state: green
   - id: R-4
@@ -149,7 +149,7 @@ definition:
     kind: functional
     text: IF a version tag points at a commit that is not on main, THEN THE SYSTEM SHALL refuse to release it.
     tests:
-    - name: 'release.yml''s tag check, run in a scratch repository: a v-tag on a side-branch commit is refused, the same tag on a commit merged into main passes'
+    - name: "release.yml's tag check, run in a scratch repository: a v-tag on a side-branch commit is refused, the same tag on a commit merged into main passes"
       kind: manual
       state: green
   - id: R-7
@@ -162,12 +162,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:16:18.259178994Z
-    rev: ddfa2780e72c77de
+    rev: a60fffc756cb0af3
   approvals:
   - at: 2026-09-30T17:16:18.259178994Z
     by: Venkatraman B
     verdict: approved
-    rev: ddfa2780e72c77de
+    rev: a60fffc756cb0af3
     status: In Progress
 history:
 - at: 2026-10-01T19:27:15.746732237Z

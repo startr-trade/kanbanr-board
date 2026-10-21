@@ -76,23 +76,23 @@ definition:
     kind: functional
     text: WHERE the installer scripts fetch over the network, THE SYSTEM SHALL pin the protocol to https for both the request and any redirect.
     tests:
-    - name: 'ci.yml installers: the scripts pin https on request and redirect'
+    - name: "ci.yml installers: the scripts pin https on request and redirect"
       kind: integration
       state: planned
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:24:39.947786032Z
-    rev: 816fb46397ff89db
+    rev: 3fa8121618c9622a
   approvals:
   - at: 2026-09-28T17:11:48.533033024Z
     by: Venkatraman B
     verdict: approved
-    rev: df7da01f691a6e4d
+    rev: c634b258c32c2d08
   - at: 2026-09-28T17:24:39.947786032Z
     by: Venkatraman B
     verdict: approved
-    rev: 816fb46397ff89db
-  started_unapproved: 'auto-pilot: the user asked directly — ''We need to make sure that the application can reach github using https. http for updates are not good'''
+    rev: 3fa8121618c9622a
+  started_unapproved: "auto-pilot: the user asked directly — 'We need to make sure that the application can reach github using https. http for updates are not good'"
 history:
 - at: 2026-09-28T17:11:23.634290076Z
   from: Planned

@@ -1,5 +1,5 @@
 code: FEAT-095
-title: 'Release guardrails: the tag is checked, and a re-run publish is not a failure'
+title: "Release guardrails: the tag is checked, and a re-run publish is not a failure"
 status: Completed
 milestone: MS-004
 kind: null
@@ -16,7 +16,7 @@ todo_lists:
   description: record the guardrails already merged in 27e62fa
   tasks:
   - key: T1
-    text: 'tag job: v-prefixed semver, version equal to the workspace, pre-releases do not move latest'
+    text: "tag job: v-prefixed semver, version equal to the workspace, pre-releases do not move latest"
     state: Completed
   - key: T2
     text: idempotent crates.io publish tolerating only 'already exists', token via CARGO_REGISTRY_TOKEN
@@ -39,7 +39,7 @@ definition:
     kind: functional
     text: IF a release tag is not v-prefixed semver or names a version other than the workspace version, THEN THE SYSTEM SHALL refuse the release before any artifact is built.
     tests:
-    - name: 'release.yml tag job, run locally against the real workspace: v0.1.0 accepted, 0.1.0 and v0.2.0 refused'
+    - name: "release.yml tag job, run locally against the real workspace: v0.1.0 accepted, 0.1.0 and v0.2.0 refused"
       kind: manual
       state: green
   - id: R-2
@@ -59,12 +59,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:08:13.708135588Z
-    rev: a1ef530c679aa2e1
+    rev: 883bf74c4957e9a1
   approvals:
   - at: 2026-09-28T18:08:13.708135588Z
     by: Venkatraman B
     verdict: approved
-    rev: a1ef530c679aa2e1
+    rev: 883bf74c4957e9a1
   started_unapproved: the code is already merged, in 27e62fa under FEAT-080's trailer; this item records it so it has a history of its own
 history:
 - at: 2026-09-28T18:07:24.550530799Z

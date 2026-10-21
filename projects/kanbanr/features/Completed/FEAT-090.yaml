@@ -25,13 +25,13 @@ todo_lists:
     text: docs.yml builds on every PR and deploys to Pages only from the default branch
     state: Completed
   - key: T4
-    text: 'diagram-open.js and mermaid-fix.css: a click opens a diagram full size in its own tab, where the browser''s zoom already works'
+    text: "diagram-open.js and mermaid-fix.css: a click opens a diagram full size in its own tab, where the browser's zoom already works"
     state: Completed
   - key: T5
     text: screenshots regenerated, adding charter, review, gantt and workflow — pages the method is practised on that no image showed
     state: Completed
   - key: T6
-    text: 'tools/demo/portfolio.sh: three projects with real cross-project dependencies, as the worked example and the portfolio screenshot fixture'
+    text: "tools/demo/portfolio.sh: three projects with real cross-project dependencies, as the worked example and the portfolio screenshot fixture"
     state: Completed
   - key: T7
     text: CONTRIBUTING.md becomes a pointer to its chapter; the changelog chapter is synced by tools/docs/sync.sh with CI failing on drift
@@ -57,14 +57,14 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL build the documentation as an mdBook whose every page is reachable from the table of contents.
     tests:
-    - name: 'docs: every file under src is listed in SUMMARY.md, and every SUMMARY entry exists'
+    - name: "docs: every file under src is listed in SUMMARY.md, and every SUMMARY entry exists"
       kind: integration
       state: planned
   - id: R-2
     kind: functional
     text: WHEN the documentation is restructured, THE SYSTEM SHALL carry every line of the original documents into the book, so that a move cannot silently drop content.
     tests:
-    - name: 'docs: the split parts account for every line of the originals'
+    - name: "docs: the split parts account for every line of the originals"
       kind: integration
       state: planned
   - id: R-3
@@ -78,21 +78,21 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL continue to reject a mermaid diagram that does not parse, at the book's new paths.
     tests:
-    - name: 'web: npm run check:docs over docs/src'
+    - name: "web: npm run check:docs over docs/src"
       kind: integration
       state: planned
   - id: R-5
     kind: functional
     text: WHERE a diagram is rendered in the book, THE SYSTEM SHALL let the reader open it full size, so that a diagram wider than the content column is legible.
     tests:
-    - name: 'docs: book.toml loads diagram-open.js and mermaid-fix.css; a built page carries a clickable pre.mermaid'
+    - name: "docs: book.toml loads diagram-open.js and mermaid-fix.css; a built page carries a clickable pre.mermaid"
       kind: manual
       state: planned
   - id: R-6
     kind: functional
     text: WHEN a page is added to the monitor, THE SYSTEM SHALL capture it in the documentation's screenshots, so that the images do not show the tool as it was two milestones ago.
     tests:
-    - name: 'tools/screenshots: every route in the monitor''s tab bar has a captured image'
+    - name: "tools/screenshots: every route in the monitor's tab bar has a captured image"
       kind: manual
       state: planned
   - id: R-7
@@ -105,13 +105,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:36:07.070668973Z
-    rev: 3ae6d19149207472
+    rev: c1236cad7f209643
   approvals:
   - at: 2026-09-28T17:36:07.070668973Z
     by: Venkatraman B
     verdict: approved
-    rev: 3ae6d19149207472
-  started_unapproved: 'auto-pilot: the user asked directly — ''I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'''
+    rev: c1236cad7f209643
+  started_unapproved: "auto-pilot: the user asked directly — 'I want the same model of mdbook for kanbanr instead of the docs folder containing independent md files'"
 history:
 - at: 2026-09-28T17:16:43.452973628Z
   from: Planned

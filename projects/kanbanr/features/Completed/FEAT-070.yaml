@@ -1,5 +1,5 @@
 code: FEAT-070
-title: 'Defect: the monitor serves a stale index.html after the UI is rebuilt'
+title: "Defect: the monitor serves a stale index.html after the UI is rebuilt"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -19,7 +19,7 @@ todo_lists:
     text: read index.html per request, keeping the last good copy as a mid-rebuild fallback
     state: Completed
   - key: T2
-    text: 'integration test: rebuild under a running daemon; a missing index serves the last copy'
+    text: "integration test: rebuild under a running daemon; a missing index serves the last copy"
     state: Completed
   created_at: 2026-09-28T06:41:31.02654032Z
 definition:
@@ -54,13 +54,13 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:43:48.900957543Z
-    rev: e8566d6cbe2a340e
+    rev: 40227dc15fd9d13a
   approvals:
   - at: 2026-09-28T06:43:48.900957543Z
     by: reviewed in the monitor
     verdict: approved
-    rev: e8566d6cbe2a340e
-  started_unapproved: 'auto-pilot: fixing what is blocking the user from seeing the UI at all'
+    rev: 40227dc15fd9d13a
+  started_unapproved: "auto-pilot: fixing what is blocking the user from seeing the UI at all"
 defect:
   severity: medium
   introduced_by: FEAT-002

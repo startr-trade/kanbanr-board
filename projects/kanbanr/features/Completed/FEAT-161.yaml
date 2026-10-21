@@ -1,5 +1,5 @@
 code: FEAT-161
-title: 'Defect: the container image ships Debian packages with known fixes'
+title: "Defect: the container image ships Debian packages with known fixes"
 status: Completed
 milestone: MS-009
 kind: null
@@ -21,7 +21,7 @@ definition:
     what: The runtime stage of the container image
     how: Both stages on Debian 13 trixie, and apt-get upgrade in the runtime stage before the binary is copied in
     where: docker/Dockerfile
-    when: 'On every image build: make ci and the release'
+    when: "On every image build: make ci and the release"
     who: Anyone running the kanbanr image
     why: The release's scan refuses CVE-2026-103111 in libpcre2-8-0, which the base image has not picked up
   requirements:
@@ -42,12 +42,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-04T17:50:53.948952495Z
-    rev: 08b14e698397d512
+    rev: 188e7f6075ca1e7a
   approvals:
   - at: 2026-10-04T17:50:53.948952495Z
     by: Venkatraman B
     verdict: approved
-    rev: 08b14e698397d512
+    rev: 188e7f6075ca1e7a
     status: In Progress
 defect:
   severity: high

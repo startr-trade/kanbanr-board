@@ -4,7 +4,11 @@ status: Completed
 milestone: MS-002
 kind: null
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists:
@@ -12,7 +16,7 @@ todo_lists:
   description: decision
   tasks:
   - key: T1
-    text: 'docs/decisions/MCP.md — recommend BOTH: keep skill+CLI, add thin optional local MCP over dispatch'
+    text: "docs/decisions/MCP.md — recommend BOTH: keep skill+CLI, add thin optional local MCP over dispatch"
     state: Completed
   created_at: 2026-06-12T05:37:04.8470681Z
 created_at: 2026-06-12T03:36:36.373109241Z

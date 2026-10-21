@@ -1,10 +1,19 @@
 code: FEAT-018
-title: 'Chore: tech-debt & cleanup (ongoing)'
+title: "Chore: tech-debt & cleanup (ongoing)"
 status: Ongoing
 milestone: MS-004
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
-  description: 'occurrence: post view-only pivot'
+  description: "occurrence: post view-only pivot"
   tasks:
   - key: T1
     text: Remove dead multi-user/auth code (security.rs + Store::load/save_security)

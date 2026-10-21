@@ -51,13 +51,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:35:47.428291966Z
-    rev: 91744df35598a595
+    rev: e180f5b479772adc
   approvals:
   - at: 2026-09-28T17:35:47.428291966Z
     by: Venkatraman B
     verdict: approved
-    rev: 91744df35598a595
-  started_unapproved: 'auto-pilot: the user asked directly — ''portfolio should also have paginated items in the kanban columns'''
+    rev: e180f5b479772adc
+  started_unapproved: "auto-pilot: the user asked directly — 'portfolio should also have paginated items in the kanban columns'"
 history:
 - at: 2026-09-28T17:35:33.340384606Z
   from: Planned

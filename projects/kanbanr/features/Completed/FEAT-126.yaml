@@ -1,5 +1,5 @@
 code: FEAT-126
-title: 'Publish from a fresh repository: one first commit as vb@startr.trade, history kept as a private archive'
+title: "Publish from a fresh repository: one first commit as vb@startr.trade, history kept as a private archive"
 status: Completed
 milestone: MS-004
 kind: chore
@@ -16,13 +16,13 @@ todo_lists:
   description: publish-prep
   tasks:
   - key: T1
-    text: 'In the archive: untrack .kanbanr, generic test path, startr-trade owner in the plugin, sibling-project names removed from comments'
+    text: "In the archive: untrack .kanbanr, generic test path, startr-trade owner in the plugin, sibling-project names removed from comments"
     state: Completed
   - key: T2
-    text: 'New folder kanbanr-public: one commit on main by Venkatraman B <vb@startr.trade> (rebuilt once so CLAUDE.md is current); sweep clean'
+    text: "New folder kanbanr-public: one commit on main by Venkatraman B <vb@startr.trade> (rebuilt once so CLAUDE.md is current); sweep clean"
     state: Completed
   - key: T3
-    text: 'Working setup moved: marker, git hooks, Claude Code hooks, skill link, binary and monitor; 239 tests pass there'
+    text: "Working setup moved: marker, git hooks, Claude Code hooks, skill link, binary and monitor; 239 tests pass there"
     state: Completed
   - key: T4
     text: Board folder renamed to kanbanr-board (backup in archive/), markers repointed, board commit identity set to vb@startr.trade; rewriting past board commits is left to the user
@@ -51,32 +51,32 @@ definition:
     kind: functional
     text: WHEN the public repository is created, THE SYSTEM SHALL contain exactly one commit, authored and committed as Venkatraman B <vb@startr.trade>.
     tests:
-    - name: 'manual: git log in kanbanr-public shows one commit by vb@startr.trade'
+    - name: "manual: git log in kanbanr-public shows one commit by vb@startr.trade"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: THE SYSTEM SHALL contain no work email, home-directory path, local board name or sibling-project name in the public repository's tracked files.
     tests:
-    - name: 'manual: identifier sweep over kanbanr-public is empty'
+    - name: "manual: identifier sweep over kanbanr-public is empty"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: WHEN work continues in the new folder, THE SYSTEM SHALL build, pass its tests, find the same board, and run the same hooks and skill.
     tests:
-    - name: 'manual: build, tests, board, hooks status and skill link from kanbanr-public'
+    - name: "manual: build, tests, board, hooks status and skill link from kanbanr-public"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-30T14:57:51.788092152Z
-    rev: ced79faeb47a6aee
+    rev: 22d43530b77d46fa
   approvals:
   - at: 2026-09-30T14:57:51.788092152Z
     by: Venkatraman B
     verdict: approved
-    rev: ced79faeb47a6aee
+    rev: 22d43530b77d46fa
     status: In Progress
   started_unapproved: the user chose each option in this session (fresh folder, startr-trade/kanbanr on main, sibling-project names removed)
 history:

@@ -19,7 +19,7 @@ todo_lists:
     text: verify-install.sh/.ps1 + verify-install-native job; make ci runs the script against the latest release (a19177d)
     state: Completed
   - key: T2
-    text: 'Proof: the v0.1.2 release run passes verify-install on macOS and Windows'
+    text: "Proof: the v0.1.2 release run passes verify-install on macOS and Windows"
     state: Completed
   created_at: 2026-10-02T08:58:50.517673464Z
 definition:
@@ -45,12 +45,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T18:03:07.936740345Z
-    rev: 193a38284daa8831
+    rev: 8bcca128f67daa5b
   approvals:
   - at: 2026-10-02T18:03:07.936740345Z
     by: Venkatraman B
     verdict: approved
-    rev: 193a38284daa8831
+    rev: 8bcca128f67daa5b
     status: In Progress
 history:
 - at: 2026-10-02T08:48:37.282410037Z

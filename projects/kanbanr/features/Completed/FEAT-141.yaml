@@ -1,5 +1,5 @@
 code: FEAT-141
-title: 'One install: the program carries its skill, and the installer installs both'
+title: "One install: the program carries its skill, and the installer installs both"
 status: Completed
 milestone: MS-002
 kind: feature
@@ -17,16 +17,16 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'build.rs embeds skill/kanbanr; src/skill.rs: install (staged, swapped in, stamped, scripts executable) / status / uninstall; a link or unstamped folder is left alone (unit tests; this machine''s link reported, not touched)'
+    text: "build.rs embeds skill/kanbanr; src/skill.rs: install (staged, swapped in, stamped, scripts executable) / status / uninstall; a link or unstamped folder is left alone (unit tests; this machine's link reported, not touched)"
     state: Completed
   - key: T2
     text: kanbanr skill install|status|uninstall; self-update asks the NEW binary to update a skill kanbanr installed (unit test with a stub binary)
     state: Completed
   - key: T3
-    text: 'install.sh / install.ps1: skill step when claude is on PATH, --no-skill / KANBANR_NO_SKILL, hint otherwise; header promise reworded. R-3 proven by a CI step that runs install.sh''s own skill block against stub kanbanr/claude in three cases (sabotage fails it) — the full download path waits for v0.1.0'
+    text: "install.sh / install.ps1: skill step when claude is on PATH, --no-skill / KANBANR_NO_SKILL, hint otherwise; header promise reworded. R-3 proven by a CI step that runs install.sh's own skill block against stub kanbanr/claude in three cases (sabotage fails it) — the full download path waits for v0.1.0"
     state: Completed
   - key: T4
-    text: 'session-start.sh/.ps1: in a tracked project without the program, one install hint (probed; .ps1 parses); SKILL.md setup interview checks the program first'
+    text: "session-start.sh/.ps1: in a tracked project without the program, one install hint (probed; .ps1 parses); SKILL.md setup interview checks the program first"
     state: Completed
   - key: T5
     text: README, installation chapter, command reference, changelog; make ci 45/45
@@ -83,12 +83,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:53:12.091902515Z
-    rev: 7ef0e75413e06d49
+    rev: 8c0a7c9a7058b5c9
   approvals:
   - at: 2026-10-01T07:53:12.091902515Z
     by: Venkatraman B
     verdict: approved
-    rev: 7ef0e75413e06d49
+    rev: 8c0a7c9a7058b5c9
     status: Planned
 history:
 - at: 2026-10-01T12:27:33.016086783Z

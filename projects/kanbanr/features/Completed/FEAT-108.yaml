@@ -1,5 +1,5 @@
 code: FEAT-108
-title: 'Defect: the commit guard reads text inside a heredoc as a git commit command'
+title: "Defect: the commit guard reads text inside a heredoc as a git commit command"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -49,16 +49,16 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T09:01:17.89192236Z
-    rev: 3242ce2bce7ba76b
+    rev: ec5fe1633621b443
   approvals:
   - at: 2026-09-29T09:01:00.18989591Z
     by: Venkatraman B
     verdict: approved
-    rev: 3242ce2bce7ba76b
+    rev: ec5fe1633621b443
   - at: 2026-09-29T09:01:17.89192236Z
     by: Venkatraman B
     verdict: approved
-    rev: 3242ce2bce7ba76b
+    rev: ec5fe1633621b443
 defect:
   severity: medium
   introduced_by: FEAT-056

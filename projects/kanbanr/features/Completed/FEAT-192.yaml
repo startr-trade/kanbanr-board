@@ -1,5 +1,5 @@
 code: FEAT-192
-title: 'Defect: the project marker''s relative board path breaks inside nested git worktrees'
+title: "Defect: the project marker's relative board path breaks inside nested git worktrees"
 status: Completed
 milestone: MS-004
 kind: feature
@@ -50,12 +50,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:34:01.808462687Z
-    rev: 46f84edf5070ef47
+    rev: e09327e94ea0d864
   approvals:
   - at: 2026-10-19T09:34:01.808462687Z
     by: Venkatraman B
     verdict: approved
-    rev: 46f84edf5070ef47
+    rev: e09327e94ea0d864
     status: Planned
 history:
 - at: 2026-10-19T09:34:01.913475073Z

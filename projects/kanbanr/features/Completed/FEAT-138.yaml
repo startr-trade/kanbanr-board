@@ -1,5 +1,5 @@
 code: FEAT-138
-title: 'Defect: the Releases page counts Done items as unfinished'
+title: "Defect: the Releases page counts Done items as unfinished"
 status: Completed
 milestone: MS-008
 kind: bug
@@ -16,7 +16,7 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'releases::report_all: items + finished by counts_as_done; GET releases returns it (test; sabotage with the old rule fails it)'
+    text: "releases::report_all: items + finished by counts_as_done; GET releases returns it (test; sabotage with the old rule fails it)"
     state: Completed
   - key: T2
     text: Releases page shows the daemon's items and count; its own copy of the rule is gone; screenshots retaken (v0.2.0 now 1/4)
@@ -48,12 +48,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:44:03.324115238Z
-    rev: e811df29b4f8b391
+    rev: ea6b2495f65934db
   approvals:
   - at: 2026-10-01T07:44:03.324115238Z
     by: Venkatraman B
     verdict: approved
-    rev: e811df29b4f8b391
+    rev: ea6b2495f65934db
     status: Planned
 history:
 - at: 2026-10-01T10:51:46.34088307Z

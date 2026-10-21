@@ -1,5 +1,5 @@
 code: FEAT-062
-title: 'Defect: the report reads as broken — 0.0-day cycle times and a stale-evidence list that fires on everything'
+title: "Defect: the report reads as broken — 0.0-day cycle times and a stale-evidence list that fires on everything"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -53,8 +53,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:51.351930183Z
-    rev: 2553b3bd6ab06dfa
-  started_unapproved: 'auto-pilot: presentation defect in work just merged'
+    rev: a986c684d5a93457
+  started_unapproved: "auto-pilot: presentation defect in work just merged"
 defect:
   severity: low
   introduced_by: FEAT-053

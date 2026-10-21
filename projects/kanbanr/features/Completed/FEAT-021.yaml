@@ -1,19 +1,28 @@
 code: FEAT-021
-title: 'Command: config rename-status (rename a status + migrate features)'
+title: "Command: config rename-status (rename a status + migrate features)"
 status: Completed
 milestone: MS-002
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: implement + test
   tasks:
   - key: T1
-    text: 'core: Store::rename_status (config + transitions + migrate feature folders/status)'
+    text: "core: Store::rename_status (config + transitions + migrate feature folders/status)"
     state: Completed
   - key: T2
     text: dispatch route + CLI `config rename-status <from> <to>`
     state: Completed
   - key: T3
-    text: 'unit test: migrate features; reject unknown / existing target'
+    text: "unit test: migrate features; reject unknown / existing target"
     state: Completed
   created_at: 2026-06-12T05:20:18.514087417Z
 created_at: 2026-06-12T05:20:18.4999373Z

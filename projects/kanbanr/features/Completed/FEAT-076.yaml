@@ -1,5 +1,5 @@
 code: FEAT-076
-title: 'Defect: the review queue runs items together and its approve action does not read as a button'
+title: "Defect: the review queue runs items together and its approve action does not read as a button"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -42,33 +42,33 @@ definition:
     kind: functional
     text: WHEN the review queue holds more than one item, THE SYSTEM SHALL present each as a separately collapsible card whose summary names the item and its approval state.
     tests:
-    - name: 'review page: each item is a details element with a summary carrying code, title and approval state; the first is open'
+    - name: "review page: each item is a details element with a summary carrying code, title and approval state; the first is open"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHERE an element performs an action, THE SYSTEM SHALL style it as a button rather than as a label.
     tests:
-    - name: 'web: npm run check:ui (scripts/check-affordance.mjs)'
+    - name: "web: npm run check:ui (scripts/check-affordance.mjs)"
       kind: integration
       state: green
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL keep the approve control inside the expanded brief, so that approving follows reading it.
     tests:
-    - name: 'review page: the approve button is inside the details body, not in the summary'
+    - name: "review page: the approve button is inside the details body, not in the summary"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:39:05.148019593Z
-    rev: dc1ed745e5bcc361
+    rev: b2e44a2afdb4f275
   approvals:
   - at: 2026-09-28T12:39:05.148019593Z
     by: Venkatraman B
     verdict: approved
-    rev: dc1ed745e5bcc361
-  started_unapproved: 'auto-pilot: the reviewer cannot find the action they are being asked to take'
+    rev: b2e44a2afdb4f275
+  started_unapproved: "auto-pilot: the reviewer cannot find the action they are being asked to take"
 defect:
   severity: medium
   introduced_by: FEAT-067

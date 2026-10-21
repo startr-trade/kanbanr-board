@@ -22,7 +22,7 @@ todo_lists:
     text: Check::ALL + descriptions; process checks
     state: Completed
   - key: T3
-    text: 'process check: validate, agreement, mermaid'
+    text: "process check: validate, agreement, mermaid"
     state: Completed
   - key: T4
     text: docs check table compared by check:docs
@@ -71,12 +71,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-05T10:48:40.538549985Z
-    rev: e54e5797041457b9
+    rev: 4669c9ca21f1ce58
   approvals:
   - at: 2026-10-05T10:48:40.538549985Z
     by: Venkatraman B
     verdict: approved
-    rev: e54e5797041457b9
+    rev: 4669c9ca21f1ce58
     status: In Progress
 history:
 - at: 2026-10-05T10:41:56.133668326Z

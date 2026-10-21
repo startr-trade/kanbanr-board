@@ -4,7 +4,11 @@ status: Completed
 milestone: MS-003
 kind: null
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists: []

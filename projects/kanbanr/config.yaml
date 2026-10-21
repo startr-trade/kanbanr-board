@@ -1,6 +1,6 @@
-schema_version: 4
+schema_version: 5
 name: kanbanr
-description: 'kanbanr''s own development board: every item with why it exists, its requirements and the tests that proved them — kanbanr is developed with kanbanr.'
+description: "kanbanr's own development board: every item with why it exists, its requirements and the tests that proved them — kanbanr is developed with kanbanr."
 statuses:
 - Deferred
 - Planned
@@ -53,13 +53,13 @@ no_op_states:
 - Out-of-Scope
 terminal_states: []
 gates:
-  '@build':
+  "@build":
     requires:
     - spec_sections:
       - Design
     signoffs:
     - design-review
-  '@integrate':
+  "@integrate":
     requires:
     - docs_updated
     signoffs:

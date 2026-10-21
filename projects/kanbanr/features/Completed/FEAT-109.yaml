@@ -1,5 +1,5 @@
 code: FEAT-109
-title: 'Ratify from the Review page: work finished without agreement is listed with a Ratify button'
+title: "Ratify from the Review page: work finished without agreement is listed with a Ratify button"
 status: Completed
 milestone: MS-006
 kind: null
@@ -49,18 +49,18 @@ definition:
     kind: functional
     text: WHEN the user clicks Ratify on a writable monitor, THE SYSTEM SHALL record the ratification as the board's commit identity and drop the item from the queue.
     tests:
-    - name: 'manual: ratify an unratified item from the Review page and see doctor go quiet'
+    - name: "manual: ratify an unratified item from the Review page and see doctor go quiet"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T09:06:08.393312044Z
-    rev: 5e823c24037d1c3d
+    rev: c001b709721bef1f
   approvals:
   - at: 2026-09-29T09:06:08.393312044Z
     by: Venkatraman B
     verdict: approved
-    rev: 5e823c24037d1c3d
+    rev: c001b709721bef1f
 history:
 - at: 2026-09-29T09:06:08.438240164Z
   from: Planned

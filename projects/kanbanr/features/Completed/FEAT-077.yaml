@@ -1,5 +1,5 @@
 code: FEAT-077
-title: 'Defect: an approval recorded in the monitor names a place, not a person'
+title: "Defect: an approval recorded in the monitor names a place, not a person"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -75,13 +75,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:39:07.739218349Z
-    rev: c0cd3cae7aeb2306
+    rev: a87a0697e9fd418e
   approvals:
   - at: 2026-09-28T12:39:07.739218349Z
     by: Venkatraman B
     verdict: approved
-    rev: c0cd3cae7aeb2306
-  started_unapproved: 'auto-pilot: a review the user asked for found a requirement already agreed (FEAT-069/R-2) being violated on the live board'
+    rev: a87a0697e9fd418e
+  started_unapproved: "auto-pilot: a review the user asked for found a requirement already agreed (FEAT-069/R-2) being violated on the live board"
 defect:
   severity: medium
   introduced_by: FEAT-067

@@ -16,7 +16,7 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'kanbanr-core: SESSIONS_DIR ignored by every board (ensure_repo), unit test (sabotage fails it)'
+    text: "kanbanr-core: SESSIONS_DIR ignored by every board (ensure_repo), unit test (sabotage fails it)"
     state: Completed
   - key: T2
     text: summarise_session.py writes <board>/.sessions/<project>/ via kanbanr where --json; no commit; exclusion list still applied (scratch-board probe)
@@ -55,12 +55,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T06:18:12.937948494Z
-    rev: efd846edf369b0c9
+    rev: 9afaa166157bfc3b
   approvals:
   - at: 2026-10-01T06:18:12.937948494Z
     by: Venkatraman B
     verdict: approved
-    rev: efd846edf369b0c9
+    rev: 9afaa166157bfc3b
     status: Planned
 history:
 - at: 2026-10-01T06:18:32.394715943Z

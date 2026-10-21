@@ -1,5 +1,5 @@
 code: FEAT-093
-title: 'Defect: a failed batch leaves the board mutated and uncommitted'
+title: "Defect: a failed batch leaves the board mutated and uncommitted"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -54,12 +54,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:14:18.009545735Z
-    rev: 29d95afd678bbb27
+    rev: 182e944a1ca001ed
   approvals:
   - at: 2026-09-28T18:14:18.009545735Z
     by: Venkatraman B
     verdict: approved
-    rev: 29d95afd678bbb27
+    rev: 182e944a1ca001ed
   started_unapproved: approval lapsed only because the test name was corrected to the path cargo prints; the approved behaviour is unchanged
 defect:
   severity: high

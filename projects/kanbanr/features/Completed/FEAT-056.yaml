@@ -1,5 +1,5 @@
 code: FEAT-056
-title: 'SCM traceability: branch per item, commit trailers, git hooks'
+title: "SCM traceability: branch per item, commit trailers, git hooks"
 status: Completed
 milestone: MS-006
 kind: feature
@@ -20,16 +20,16 @@ todo_lists:
   description: session 1 — SCM traceability
   tasks:
   - key: T1
-    text: 'core: trailer grammar, reference validation, branch naming (scm.rs)'
+    text: "core: trailer grammar, reference validation, branch naming (scm.rs)"
     state: Completed
   - key: T2
-    text: 'CLI: git install-hooks/uninstall-hooks/check-msg/check-branch/status'
+    text: "CLI: git install-hooks/uninstall-hooks/check-msg/check-branch/status"
     state: Completed
   - key: T3
-    text: 'CLI: start (branch + move), finish (gated), commit (trailer filled in)'
+    text: "CLI: start (branch + move), finish (gated), commit (trailer filled in)"
     state: Completed
   - key: T4
-    text: 'Claude Code PreToolUse guard: deny a commit that would be rejected, with the fix'
+    text: "Claude Code PreToolUse guard: deny a commit that would be rejected, with the fix"
     state: Completed
   - key: T5
     text: tests, skill update, gates; adopt the hooks on kanbanr's own repo
@@ -149,7 +149,7 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:28.489014314Z
-    rev: 6385912ff8862a7c
+    rev: 2cb99ec083ac7def
   started_unapproved: user asked for the planned milestone items to be completed on auto-pilot; the definition is written up front and left for review
 history:
 - at: 2026-09-25T01:28:33.988992057Z

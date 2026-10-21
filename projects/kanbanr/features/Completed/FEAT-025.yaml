@@ -1,10 +1,14 @@
 code: FEAT-025
-title: 'Docs: Mermaid diagrams + per-folder image embedding'
+title: "Docs: Mermaid diagrams + per-folder image embedding"
 status: Completed
 milestone: MS-002
 kind: feature
 priority: null
+start: null
 due: null
+estimate_days: null
+assignee: null
+team: null
 labels: []
 depends_on: []
 todo_lists: []

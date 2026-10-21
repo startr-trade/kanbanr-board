@@ -18,10 +18,10 @@ todo_lists:
   description: dialogue, docs, ADR, walkthrough
   tasks:
   - key: T1
-    text: 'Skill: setup c. Process offers saved first; Designing a process section'
+    text: "Skill: setup c. Process offers saved first; Designing a process section"
     state: Completed
   - key: T2
-    text: 'Docs: processes.md, with-claude.md, stability.md; changelog + sync'
+    text: "Docs: processes.md, with-claude.md, stability.md; changelog + sync"
     state: Completed
   - key: T3
     text: ADR-0013 proposed
@@ -30,10 +30,10 @@ todo_lists:
     text: make ci
     state: Completed
   - key: T5
-    text: 'Walkthrough (user runs): design, reuse, change'
+    text: "Walkthrough (user runs): design, reuse, change"
     state: Completed
   - key: T6
-    text: 'process check - (stdin); skill: agreement in the plan, --description'
+    text: "process check - (stdin); skill: agreement in the plan, --description"
     state: Completed
   created_at: 2026-10-05T12:17:26.95595112Z
 definition:
@@ -53,28 +53,28 @@ definition:
     kind: functional
     text: WHEN the user designs or changes a process, THE SYSTEM SHALL ask, in plan mode, one question per stage built from the checks kanbanr can evaluate, and turn anything else into a named sign-off.
     tests:
-    - name: 'walkthrough: a process designed through the dialogue in a scratch project'
+    - name: "walkthrough: a process designed through the dialogue in a scratch project"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHEN a process is set up, THE SYSTEM SHALL offer the board's and the personal saved processes before the built-in ones.
     tests:
-    - name: 'walkthrough: a second project picks the saved process from the list'
+    - name: "walkthrough: a second project picks the saved process from the list"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: WHEN a saved process changes, THE SYSTEM SHALL offer an update for each project that uses it, one question each.
     tests:
-    - name: 'walkthrough: changing the process offers the update per project'
+    - name: "walkthrough: changing the process offers the update per project"
       kind: manual
       state: green
   - id: R-4
     kind: functional
     text: THE SYSTEM SHALL document the dialogue, the libraries and their stability, with the decision recorded as ADR-0013.
     tests:
-    - name: 'make ci: check:docs and the Working with Claude coverage check pass'
+    - name: "make ci: check:docs and the Working with Claude coverage check pass"
       kind: manual
       state: green
   - id: R-5
@@ -84,25 +84,25 @@ definition:
     - name: process_check_reads_a_draft_from_stdin
       kind: integration
       state: green
-    - name: 'walkthrough: the setup plan shows the checked working agreement and diagram'
+    - name: "walkthrough: the setup plan shows the checked working agreement and diagram"
       kind: manual
       state: green
   - id: R-6
     kind: functional
     text: WHEN a designed process is saved, THE SYSTEM SHALL save it with a one-line description of what it is for.
     tests:
-    - name: 'walkthrough: process list shows the designed process with its description'
+    - name: "walkthrough: process list shows the designed process with its description"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-06T14:00:20.858444308Z
-    rev: 756e634ec6b13b79
+    rev: c8cff985965bdc7a
   approvals:
   - at: 2026-10-06T14:00:20.858444308Z
     by: Venkatraman B
     verdict: approved
-    rev: 756e634ec6b13b79
+    rev: c8cff985965bdc7a
     status: In Progress
 history:
 - at: 2026-10-05T12:17:26.868473056Z

@@ -1,5 +1,5 @@
 code: FEAT-119
-title: 'Sprints: timeboxes with a goal, capacity, burndown and carry-over'
+title: "Sprints: timeboxes with a goal, capacity, burndown and carry-over"
 status: Completed
 milestone: MS-008
 kind: null
@@ -17,7 +17,7 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'sprints.rs: side file, SP-001 codes, add/plan/start/close with carry-over, report with a burndown derived from history, velocity'
+    text: "sprints.rs: side file, SP-001 codes, add/plan/start/close with carry-over, report with a burndown derived from history, velocity"
     state: Completed
   - key: T2
     text: Evaluation context (unit, active sprint) threaded through gates; in_sprint check; sprint field on items
@@ -70,12 +70,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:53:12.801149746Z
-    rev: b803c6d771fd0387
+    rev: 6df359d9222e6207
   approvals:
   - at: 2026-09-29T17:53:12.801149746Z
     by: Venkatraman B
     verdict: approved
-    rev: b803c6d771fd0387
+    rev: 6df359d9222e6207
 history:
 - at: 2026-09-29T19:08:30.212893596Z
   from: Planned

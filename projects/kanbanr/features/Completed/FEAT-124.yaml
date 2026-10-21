@@ -36,29 +36,29 @@ definition:
     kind: functional
     text: WHEN a session is summarised, THE SYSTEM SHALL drop every transcript message containing a term from the exclusion list before sending the transcript to the model.
     tests:
-    - name: 'manual: excluded messages never reach the model (condensed input checked)'
+    - name: "manual: excluded messages never reach the model (condensed input checked)"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHEN a summary or a compaction summary is saved, THE SYSTEM SHALL remove every line containing a term from the exclusion list first.
     tests:
-    - name: 'manual: a compaction summary with an excluded term is saved without it'
+    - name: "manual: a compaction summary with an excluded term is saved without it"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:43:36.330108942Z
-    rev: ea0bf8644624d4ae
+    rev: a8e926aacb46c5bc
   approvals:
   - at: 2026-09-29T17:43:20.627514987Z
     by: Venkatraman B
     verdict: approved
-    rev: ea0bf8644624d4ae
+    rev: a8e926aacb46c5bc
   - at: 2026-09-29T17:43:36.330108942Z
     by: Venkatraman B
     verdict: ratified
-    rev: ea0bf8644624d4ae
+    rev: a8e926aacb46c5bc
   started_unapproved: the user asked for it directly in the session; privacy-urgent before the next summary runs
 history:
 - at: 2026-09-29T17:40:39.690451519Z

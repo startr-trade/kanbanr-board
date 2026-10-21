@@ -1,5 +1,5 @@
 code: FEAT-115
-title: 'Transition targets follow the workflow: start, finish and auto-advance'
+title: "Transition targets follow the workflow: start, finish and auto-advance"
 status: Completed
 milestone: MS-007
 kind: null
@@ -63,12 +63,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:35:58.761509974Z
-    rev: 2ecf8f9a1df96546
+    rev: fb4b0029894539bc
   approvals:
   - at: 2026-09-29T17:35:58.761509974Z
     by: Venkatraman B
     verdict: approved
-    rev: 2ecf8f9a1df96546
+    rev: fb4b0029894539bc
 history:
 - at: 2026-09-29T18:40:57.562379349Z
   from: Planned

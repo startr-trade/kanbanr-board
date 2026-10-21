@@ -1,5 +1,5 @@
 code: FEAT-117
-title: 'Surfacing: next-gate guidance in check, doctor, the review queue and the monitor'
+title: "Surfacing: next-gate guidance in check, doctor, the review queue and the monitor"
 status: Completed
 milestone: MS-007
 kind: null
@@ -19,13 +19,13 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'next_gates in the engine: forward one-step statuses with a gate, their gaps, warnings and sign-offs needed'
+    text: "next_gates in the engine: forward one-step statuses with a gate, their gaps, warnings and sign-offs needed"
     state: Completed
   - key: T2
     text: check prints the next stage; doctor stage-aware under declared gates (observed failing under sabotage); readiness routes carry next; review queue lists sign-offs; CLAUDE.md stage purposes
     state: Completed
   - key: T3
-    text: 'Monitor: card next-stage chip, Workflow page from the daemon''s diagram plus a Stages section, Review Sign off buttons (clicked in headless Chromium)'
+    text: "Monitor: card next-stage chip, Workflow page from the daemon's diagram plus a Stages section, Review Sign off buttons (clicked in headless Chromium)"
     state: Completed
   created_at: 2026-09-29T19:00:19.683602809Z
 definition:
@@ -60,18 +60,18 @@ definition:
     kind: functional
     text: WHERE a gate requires a sign-off, THE SYSTEM SHALL offer it on the Review page as a button recorded as the commit identity.
     tests:
-    - name: 'manual: sign off from the Review page'
+    - name: "manual: sign off from the Review page"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:24.05893304Z
-    rev: 886755d86b6723de
+    rev: d70caff773e12a26
   approvals:
   - at: 2026-09-29T17:36:24.05893304Z
     by: Venkatraman B
     verdict: approved
-    rev: 886755d86b6723de
+    rev: d70caff773e12a26
 history:
 - at: 2026-09-29T18:53:31.853262815Z
   from: Planned

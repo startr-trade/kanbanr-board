@@ -1,5 +1,5 @@
 code: FEAT-114
-title: 'Sign-offs: named, content-pinned agreements a gate can require'
+title: "Sign-offs: named, content-pinned agreements a gate can require"
 status: Completed
 milestone: MS-007
 kind: null
@@ -60,12 +60,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:35:54.593330173Z
-    rev: 58e92c3a85baa10b
+    rev: 8afba1e25a6b7e2d
   approvals:
   - at: 2026-09-29T17:35:54.593330173Z
     by: Venkatraman B
     verdict: approved
-    rev: 58e92c3a85baa10b
+    rev: 8afba1e25a6b7e2d
 history:
 - at: 2026-09-29T18:37:06.03396755Z
   from: Planned

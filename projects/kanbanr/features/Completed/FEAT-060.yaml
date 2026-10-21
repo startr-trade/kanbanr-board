@@ -1,5 +1,5 @@
 code: FEAT-060
-title: 'Defect: retro counts planned work as growth and current evidence as absent'
+title: "Defect: retro counts planned work as growth and current evidence as absent"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -68,13 +68,13 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:47.424852436Z
-    rev: 1a8ff1f42ede2fe4
-  started_unapproved: 'auto-pilot: a defect in work just merged; fixing it now with the definition written first'
+    rev: cab83b64a3b3f0c8
+  started_unapproved: "auto-pilot: a defect in work just merged; fixing it now with the definition written first"
 defect:
   severity: medium
   introduced_by: FEAT-054
   found_in: dogfooding on kanbanr's own board, minutes after merge
-  root_cause: 'two defaults chosen without testing them against a real board: a created_at fallback for the wave start, and the report''s HEAD-staleness rule reused in a historical account'
+  root_cause: "two defaults chosen without testing them against a real board: a created_at fallback for the wave start, and the report's HEAD-staleness rule reused in a historical account"
   escaped: true
   fixed_by: FEAT-060
 history:

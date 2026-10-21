@@ -1,5 +1,5 @@
 code: FEAT-087
-title: 'Defect: the released Linux binary would not run on Debian stable'
+title: "Defect: the released Linux binary would not run on Debian stable"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -42,7 +42,7 @@ definition:
     kind: functional
     text: WHEN a Linux binary is published, THE SYSTEM SHALL link a glibc no newer than the oldest distribution the documentation claims to support.
     tests:
-    - name: 'release.yml verify-install: the published one-liner installs and serves the monitor in a clean container'
+    - name: "release.yml verify-install: the published one-liner installs and serves the monitor in a clean container"
       kind: e2e
       state: planned
   - id: R-2
@@ -55,24 +55,24 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:57:54.684532782Z
-    rev: aad2145f8302e86e
+    rev: 7932c602567e2546
   approvals:
   - at: 2026-09-28T17:56:28.823380619Z
     by: unknown
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: aad2145f8302e86e
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 7932c602567e2546
   - at: 2026-09-28T17:57:54.662752541Z
     by: Venkatraman B
     verdict: withdrawn
     reason: recorded as 'unknown' by a CLI bug (the local path never read the commit identity); re-recording with the right name
-    rev: aad2145f8302e86e
+    rev: 7932c602567e2546
   - at: 2026-09-28T17:57:54.684532782Z
     by: Venkatraman B
     verdict: ratified
-    reason: 'ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests'
-    rev: aad2145f8302e86e
-  started_unapproved: 'auto-pilot: the published Linux binary would not start on Debian stable'
+    reason: "ratified in bulk after the fact, reviewed as a set: each was an auto-pilot fix to something already broken or in the way of work, and each is merged and covered by tests"
+    rev: 7932c602567e2546
+  started_unapproved: "auto-pilot: the published Linux binary would not start on Debian stable"
 defect:
   severity: high
   introduced_by: FEAT-084

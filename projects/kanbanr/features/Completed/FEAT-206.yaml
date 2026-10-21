@@ -30,7 +30,7 @@ definition:
     what: The trust store and certificate verifier ureq uses (webpki-roots, rustls-webpki)
     how: Patch-level lockfile update to the fixed releases; no code change
     where: api/Cargo.lock
-    when: 'Now: CI fails on every branch since the advisories were published'
+    when: "Now: CI fails on every branch since the advisories were published"
     who: Anyone running kanbanr's self-update or release check
     why: RUSTSEC-2026-0381 and RUSTSEC-2026-0382, published 19-20 Oct 2026
   requirements:
@@ -38,7 +38,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL depend on no crate version with a known RustSec vulnerability
     tests:
-    - name: 'ci.yml supply-chain: cargo deny and cargo audit'
+    - name: "ci.yml supply-chain: cargo deny and cargo audit"
       kind: integration
       state: green
       checked_rev: 6b46f40e83b4d7ce100f78a4981ed60dabaa8563
@@ -53,29 +53,29 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-21T09:16:04.668041266Z
-    rev: dc145c08f3d3e440
+    rev: 5bdade1d27775cb4
   approvals:
   - at: 2026-10-21T09:15:25.909636737Z
     by: Venkatraman B
     verdict: approved
-    rev: dc145c08f3d3e440
+    rev: 5bdade1d27775cb4
     status: Planned
   - at: 2026-10-21T09:16:04.668041266Z
     by: Venkatraman B
     verdict: approved
-    rev: dc145c08f3d3e440
+    rev: 5bdade1d27775cb4
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-21T09:16:04.74093753Z
-    rev: dc145c08f3d3e440
+    rev: 5bdade1d27775cb4
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-21T09:16:35.136227491Z
-    rev: dc145c08f3d3e440
+    rev: 5bdade1d27775cb4
     status: In Progress
 history:
 - at: 2026-10-21T09:16:13.644480816Z

@@ -16,10 +16,10 @@ todo_lists:
   description: session 1 — review in the monitor
   tasks:
   - key: T1
-    text: 'daemon: report the write mode; serve the pending-review queue it computes'
+    text: "daemon: report the write mode; serve the pending-review queue it computes"
     state: Completed
   - key: T2
-    text: 'web: a Review tab rendering each brief with an approve button when writes are on'
+    text: "web: a Review tab rendering each brief with an approve button when writes are on"
     state: Completed
   - key: T3
     text: kanbanr review --ui and --pending; integration test for both daemon modes
@@ -83,8 +83,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:38.007895913Z
-    rev: 66138d26391eb7c6
-  started_unapproved: 'auto-pilot: definition written before the work; this item exists to make approving the rest cheap'
+    rev: b34524c9138a3b77
+  started_unapproved: "auto-pilot: definition written before the work; this item exists to make approving the rest cheap"
 history:
 - at: 2026-09-28T05:55:51.651775268Z
   from: Planned

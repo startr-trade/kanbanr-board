@@ -1,5 +1,5 @@
 code: FEAT-097
-title: 'Defect: the portfolio shows items that their own board hides'
+title: "Defect: the portfolio shows items that their own board hides"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -42,17 +42,17 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:25:52.643409117Z
-    rev: 3d764fa8e714f352
+    rev: 5c4051227bca2ba4
   approvals:
   - at: 2026-09-28T18:25:52.643409117Z
     by: Venkatraman B
     verdict: approved
-    rev: 3d764fa8e714f352
+    rev: 5c4051227bca2ba4
   started_unapproved: reported by the user from the monitor and fixed on the spot; recorded as an item before committing
 defect:
   severity: medium
   introduced_by: FEAT-030
-  found_in: 'reported by the user: Deferred FEAT-074 shown as Not started on the portfolio'
+  found_in: "reported by the user: Deferred FEAT-074 shown as Not started on the portfolio"
   root_cause: the cross-project board placed every feature in a lane without applying the project's displayed_states
   escaped: true
 history:

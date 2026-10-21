@@ -25,10 +25,10 @@ todo_lists:
     text: doctor reports an unreconciled bypass past the terminal gate, naming the remedy
     state: Completed
   - key: T4
-    text: 'ratified renders differently everywhere: export, feature show, the review queue'
+    text: "ratified renders differently everywhere: export, feature show, the review queue"
     state: Completed
   - key: T5
-    text: 'the CLI resolves a verdict''s author from the commit identity and refuses when there is none — it had been writing by: unknown in local mode'
+    text: "the CLI resolves a verdict's author from the commit identity and refuses when there is none — it had been writing by: unknown in local mode"
     state: Completed
   - key: T6
     text: the six unreconciled items ratified, with the mis-attributed first attempt withdrawn on the record rather than rewritten
@@ -85,13 +85,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:58:53.993940972Z
-    rev: 2a79fa7eaa44aef9
+    rev: e658fbbfa4aac885
   approvals:
   - at: 2026-09-28T17:58:53.993940972Z
     by: Venkatraman B
     verdict: approved
-    rev: 2a79fa7eaa44aef9
-  started_unapproved: 'auto-pilot: the user chose all three options — a distinct verdict, doctor exempt from the terminal gate, and the six ratified in bulk'
+    rev: e658fbbfa4aac885
+  started_unapproved: "auto-pilot: the user chose all three options — a distinct verdict, doctor exempt from the terminal gate, and the six ratified in bulk"
 history:
 - at: 2026-09-28T17:58:39.090048665Z
   from: Planned

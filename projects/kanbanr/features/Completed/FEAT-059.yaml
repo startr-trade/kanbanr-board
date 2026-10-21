@@ -1,5 +1,5 @@
 code: FEAT-059
-title: 'Defect: events.yaml is always one write behind git'
+title: "Defect: events.yaml is always one write behind git"
 status: Completed
 milestone: MS-004
 kind: bug
@@ -21,7 +21,7 @@ todo_lists:
     text: split eventing::emit into record (before the commit) and deliver_all (after)
     state: Completed
   - key: T2
-    text: 'e2e: the board repo is clean after the last write and the event is in that commit'
+    text: "e2e: the board repo is clean after the last write and the event is in that commit"
     state: Completed
   - key: T3
     text: the daemon's own write path does the same — it was missed the first time
@@ -66,13 +66,13 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:43:50.180672321Z
-    rev: fdaeeb9f174aaf87
+    rev: 506d0f8ed4a5e2f6
   approvals:
   - at: 2026-09-28T06:43:50.180672321Z
     by: reviewed in the monitor
     verdict: approved
-    rev: fdaeeb9f174aaf87
-  started_unapproved: 'auto-pilot: small pre-existing defect on the way to the log restructure'
+    rev: 506d0f8ed4a5e2f6
+  started_unapproved: "auto-pilot: small pre-existing defect on the way to the log restructure"
 defect:
   severity: low
   introduced_by: FEAT-036

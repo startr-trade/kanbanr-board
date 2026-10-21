@@ -1,10 +1,12 @@
 code: FEAT-031
-title: 'Ownership: assignee/team fields + by-owner views'
+title: "Ownership: assignee/team fields + by-owner views"
 status: Completed
 milestone: MS-005
 kind: feature
 priority: medium
+start: null
 due: null
+estimate_days: null
 assignee: null
 team: null
 labels:

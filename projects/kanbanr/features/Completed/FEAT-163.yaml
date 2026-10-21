@@ -42,12 +42,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-04T18:30:29.703880612Z
-    rev: 8f92296345e0cf75
+    rev: 57808695e33a806f
   approvals:
   - at: 2026-10-04T18:30:29.703880612Z
     by: Venkatraman B
     verdict: approved
-    rev: 8f92296345e0cf75
+    rev: 57808695e33a806f
     status: Planned
 history:
 - at: 2026-10-04T18:30:29.782482122Z

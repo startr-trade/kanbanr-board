@@ -1,5 +1,5 @@
 code: FEAT-140
-title: 'Defect: the monitor renders board markdown unsanitised (CodeQL js/xss-through-dom)'
+title: "Defect: the monitor renders board markdown unsanitised (CodeQL js/xss-through-dom)"
 status: Completed
 milestone: MS-002
 kind: bug
@@ -16,16 +16,16 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'src/markdownHtml.ts: markdownToSafeHtml + safeSvg via DOMPurify (direct dependency); Markdown.tsx uses both'
+    text: "src/markdownHtml.ts: markdownToSafeHtml + safeSvg via DOMPurify (direct dependency); Markdown.tsx uses both"
     state: Completed
   - key: T2
-    text: 'npm run check:markdown renders a hostile document through the real function (sabotage: fails); added to ci.yml web job and make ci'
+    text: "npm run check:markdown renders a hostile document through the real function (sabotage: fails); added to ci.yml web job and make ci"
     state: Completed
   - key: T3
-    text: 'Rendered a Mermaid doc and an item page in Chromium: diagram labels and markdown intact'
+    text: "Rendered a Mermaid doc and an item page in Chromium: diagram labels and markdown intact"
     state: Completed
   - key: T4
-    text: 'CodeQL JS locally: main has the alert (1), the fix has 0; GitHub alert closes after push'
+    text: "CodeQL JS locally: main has the alert (1), the fix has 0; GitHub alert closes after push"
     state: Completed
   created_at: 2026-10-01T10:48:25.307192434Z
 definition:
@@ -42,9 +42,9 @@ definition:
   requirements:
   - id: R-1
     kind: functional
-    text: 'WHEN the monitor renders markdown, THE SYSTEM SHALL remove scripts, event-handler attributes and javascript: URLs, and keep ordinary markdown.'
+    text: "WHEN the monitor renders markdown, THE SYSTEM SHALL remove scripts, event-handler attributes and javascript: URLs, and keep ordinary markdown."
     tests:
-    - name: 'check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render'
+    - name: "check:markdown — a document with <script>, onerror= and a javascript: link renders without them, and headings, tables, code, links and images still render"
       kind: unit
       state: green
   - id: R-2
@@ -57,12 +57,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T07:53:09.627857723Z
-    rev: 14e4a7ff7871da23
+    rev: 34d1723708d6ef12
   approvals:
   - at: 2026-10-01T07:53:09.627857723Z
     by: Venkatraman B
     verdict: approved
-    rev: 14e4a7ff7871da23
+    rev: 34d1723708d6ef12
     status: Planned
 defect:
   severity: high

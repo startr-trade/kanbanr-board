@@ -1,5 +1,5 @@
 code: FEAT-081
-title: 'Defect: a button styled as a button still looked like a chip'
+title: "Defect: a button styled as a button still looked like a chip"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -42,14 +42,14 @@ definition:
     kind: functional
     text: WHERE an element performs an action, THE SYSTEM SHALL render it on a surface distinct from the label vocabulary, so that it is recognisable as a control without hovering.
     tests:
-    - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
+    - name: "web: npm run check:ui asserts .btn and .chip do not share a background"
       kind: integration
       state: green
   - id: R-2
     kind: functional
     text: WHERE an action removes something that was recorded, THE SYSTEM SHALL distinguish it from the primary action on the page.
     tests:
-    - name: 'web/src/pages/FeaturePage.tsx: the withdraw trigger and its confirm both carry btn-danger'
+    - name: "web/src/pages/FeaturePage.tsx: the withdraw trigger and its confirm both carry btn-danger"
       kind: manual
       state: green
   - id: R-3
@@ -61,21 +61,21 @@ definition:
       stimulus: The control surface is reverted to the label surface
       environment: The web monitor's stylesheet
       response: The affordance check fails
-      measure: 'web: npm run check:ui asserts .btn and .chip do not share a background — run against that exact revert, it exited 1 naming the shared background (ADR-0008)'
+      measure: "web: npm run check:ui asserts .btn and .chip do not share a background — run against that exact revert, it exited 1 naming the shared background (ADR-0008)"
     tests:
-    - name: 'web: npm run check:ui asserts .btn and .chip do not share a background'
+    - name: "web: npm run check:ui asserts .btn and .chip do not share a background"
       kind: integration
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T16:00:52.178243526Z
-    rev: 97a075efcce5b201
+    rev: b6051022d61758e0
   approvals:
   - at: 2026-09-28T16:00:52.178243526Z
     by: Venkatraman B
     verdict: approved
-    rev: 97a075efcce5b201
-  started_unapproved: 'auto-pilot: the user reported the same complaint a second time — the previous fix changed the class, not the appearance'
+    rev: b6051022d61758e0
+  started_unapproved: "auto-pilot: the user reported the same complaint a second time — the previous fix changed the class, not the appearance"
 defect:
   severity: medium
   introduced_by: FEAT-076

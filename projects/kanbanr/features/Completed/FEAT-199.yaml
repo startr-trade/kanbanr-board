@@ -44,30 +44,30 @@ definition:
     - name: mermaid::tests::gate_notes_name_real_states
       kind: unit
       state: green
-    - name: 'manual: the Workflow page draws the diagram and lists the method''s gates on this board'
+    - name: "manual: the Workflow page draws the diagram and lists the method's gates on this board"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-10-20T07:09:52.723247204Z
-    rev: dc7d575bb9de0c5e
+    rev: 854c986dd394737f
   approvals:
   - at: 2026-10-20T07:09:52.723247204Z
     by: Venkatraman B
     verdict: approved
-    rev: dc7d575bb9de0c5e
+    rev: 854c986dd394737f
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-20T07:09:52.789214875Z
-    rev: dc7d575bb9de0c5e
+    rev: 854c986dd394737f
     note: given in the session dialog
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-20T08:31:38.667829995Z
-    rev: dc7d575bb9de0c5e
+    rev: 854c986dd394737f
     status: In Progress
 history:
 - at: 2026-10-20T07:09:52.948396294Z

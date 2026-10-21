@@ -1,5 +1,5 @@
 code: FEAT-100
-title: 'Setup interview: kanbanr init runs through plan mode'
+title: "Setup interview: kanbanr init runs through plan mode"
 status: Completed
 milestone: MS-006
 kind: null
@@ -37,45 +37,45 @@ definition:
     where: skill/kanbanr/SKILL.md (Activation), docs/src/getting-started/quickstart.md
     when: The first time a user asks Claude to set up or start using kanbanr in a folder with no .kanbanr marker
     who: A developer adopting kanbanr on a new or existing project
-    why: 'Setup today is piecemeal: the charter is asked for before its board exists, and workflow and git hooks are left to be found later, so work starts before purpose and process are agreed'
+    why: "Setup today is piecemeal: the charter is asked for before its board exists, and workflow and git hooks are left to be found later, so work starts before purpose and process are agreed"
   requirements:
   - id: R-1
     kind: functional
     text: WHEN the user asks Claude to set up kanbanr in a folder that is not yet tracked, THE SYSTEM SHALL enter plan mode before running any command that writes.
     tests:
-    - name: 'manual: setup request on an untracked scratch repo enters plan mode first'
+    - name: "manual: setup request on an untracked scratch repo enters plan mode first"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHILE in the setup interview, THE SYSTEM SHALL collect the board folder, project name, commit identity, charter, workflow and enforcement choices, and write them into the plan with the exact commands that will run.
     tests:
-    - name: 'manual: the setup plan names every collected choice and its command'
+    - name: "manual: the setup plan names every collected choice and its command"
       kind: manual
       state: green
   - id: R-3
     kind: functional
     text: WHEN the setup plan is approved by exiting plan mode, THE SYSTEM SHALL run the full setup, save the plan as a board doc and verify it with doctor before starting any other work.
     tests:
-    - name: 'manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean'
+    - name: "manual: after approval the board, charter, workflow, Claude hooks and git hooks all exist and doctor is clean"
       kind: manual
       state: green
   - id: R-4
     kind: functional
     text: IF the folder already carries a .kanbanr marker whose board exists, THEN THE SYSTEM SHALL skip the interview and recover the board instead.
     tests:
-    - name: 'manual: a tracked folder goes straight to recovery'
+    - name: "manual: a tracked folder goes straight to recovery"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-28T19:12:46.363680681Z
-    rev: 55b2d8fd06d8422a
+    rev: 5835aa6e705972cd
   approvals:
   - at: 2026-09-28T19:12:46.363680681Z
     by: Venkatraman B
     verdict: approved
-    rev: 55b2d8fd06d8422a
+    rev: 5835aa6e705972cd
 history:
 - at: 2026-09-28T19:12:46.408694133Z
   from: Planned

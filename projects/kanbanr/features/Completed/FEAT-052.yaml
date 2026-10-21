@@ -24,10 +24,10 @@ todo_lists:
   description: session 1 — the enforcement contract
   tasks:
   - key: T1
-    text: 'SKILL.md: charter at activation, the one bar with kind shapes, the approval contract, subagent rule'
+    text: "SKILL.md: charter at activation, the one bar with kind shapes, the approval contract, subagent rule"
     state: Completed
   - key: T2
-    text: 'SKILL.md: command + batch op reference for charter/define/review/approve'
+    text: "SKILL.md: command + batch op reference for charter/define/review/approve"
     state: Completed
   - key: T3
     text: USER_GUIDE + CHANGELOG + DESIGN note
@@ -36,7 +36,7 @@ todo_lists:
     text: CONTRIBUTING bar, PR template, method doc as a kanbanr doc
     state: Completed
   - key: T5
-    text: 'Dogfood: kanbanr charter + define open items'
+    text: "Dogfood: kanbanr charter + define open items"
     state: Completed
   created_at: 2026-09-24T19:30:42.755725753Z
 definition:
@@ -57,7 +57,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL state the method in the skill, so an agent is held to it without being reminded.
     tests:
-    - name: 'skill states the contract: charter at activation, the one bar, approval before work, evidence not intent'
+    - name: "skill states the contract: charter at activation, the one bar, approval before work, evidence not intent"
       kind: manual
       state: green
   - id: R-2
@@ -72,7 +72,7 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL document every command the CLI has and every module the design describes.
     tests:
-    - name: 'mechanical audit: every command in `kanbanr --help` appears in the user guide, and every core module in the design note'
+    - name: "mechanical audit: every command in `kanbanr --help` appears in the user guide, and every core module in the design note"
       kind: manual
       state: green
   - id: R-4
@@ -92,12 +92,12 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T08:20:50.694275862Z
-    rev: 12f12b11870d55c5
+    rev: 7072054b4f0d9494
   approvals:
   - at: 2026-09-28T08:20:50.694275862Z
     by: reviewed in the monitor
     verdict: approved
-    rev: 12f12b11870d55c5
+    rev: 7072054b4f0d9494
 history:
 - at: 2026-09-28T07:09:03.121397907Z
   from: In Progress

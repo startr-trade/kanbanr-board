@@ -1,5 +1,5 @@
 code: FEAT-184
-title: 'Patch releases: a patch release branches from a cut release, records its parent release, and carries that release''s scope'
+title: "Patch releases: a patch release branches from a cut release, records its parent release, and carries that release's scope"
 status: Completed
 milestone: MS-008
 kind: feature
@@ -18,16 +18,16 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Model and add: parent, add --patch-of, branch from the parent''s tag, first stage (R-1)'
+    text: "1 Model and add: parent, add --patch-of, branch from the parent's tag, first stage (R-1)"
     state: Completed
   - key: T2
-    text: '2 Notes and scope: patch notes sections, included in the report (R-2)'
+    text: "2 Notes and scope: patch notes sections, included in the report (R-2)"
     state: Completed
   - key: T3
     text: 3 Forward merge list at production (R-3)
     state: Completed
   - key: T4
-    text: '4 No branch yet: make release/<V> before any forward promotion (R-4)'
+    text: "4 No branch yet: make release/<V> before any forward promotion (R-4)"
     state: Completed
   - key: T5
     text: 5 Patch production tags without moving main when main moved on (R-5)
@@ -86,29 +86,29 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T15:42:00.498972163Z
-    rev: 1ef984be6d03d659
+    rev: 7f0b58258d76b906
   approvals:
   - at: 2026-10-19T15:20:40.968618804Z
     by: Venkatraman B
     verdict: approved
-    rev: 1ef984be6d03d659
+    rev: 7f0b58258d76b906
     status: Planned
   - at: 2026-10-19T15:42:00.498972163Z
     by: Venkatraman B
     verdict: approved
-    rev: 1ef984be6d03d659
+    rev: 7f0b58258d76b906
     status: Planned
   signoffs:
   - id: design-review
     by: Venkatraman B
     at: 2026-10-19T16:34:14.082123189Z
-    rev: 1ef984be6d03d659
+    rev: 7f0b58258d76b906
     note: given in the session dialog, 19 Oct 2026
     status: Planned
   - id: docs-folded
     by: Venkatraman B
     at: 2026-10-19T17:16:24.32114466Z
-    rev: 1ef984be6d03d659
+    rev: 7f0b58258d76b906
     status: In Progress
 history:
 - at: 2026-10-19T17:03:13.399160147Z

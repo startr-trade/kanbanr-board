@@ -1,5 +1,5 @@
 code: FEAT-094
-title: 'Defect: the commit guard will not let you finish an interrupted merge'
+title: "Defect: the commit guard will not let you finish an interrupted merge"
 status: Completed
 milestone: MS-004
 kind: defect
@@ -44,12 +44,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:14:19.641044217Z
-    rev: 81f323b9669a1aa4
+    rev: 9bc65d5668f87243
   approvals:
   - at: 2026-09-28T18:14:19.641044217Z
     by: Venkatraman B
     verdict: approved
-    rev: 81f323b9669a1aa4
+    rev: 9bc65d5668f87243
   started_unapproved: approval lapsed only because the test name was corrected to the path cargo prints; the approved behaviour is unchanged
 defect:
   severity: medium

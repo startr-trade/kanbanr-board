@@ -1,5 +1,5 @@
 code: FEAT-068
-title: 'Defect: the unapproved-start warning keeps firing after the approval that answers it'
+title: "Defect: the unapproved-start warning keeps firing after the approval that answers it"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -19,7 +19,7 @@ todo_lists:
     text: gate the warning on the approval state in doctor and check; keep the record
     state: Completed
   - key: T2
-    text: 'test: answered stops it, a lapsed approval brings it back, the record survives'
+    text: "test: answered stops it, a lapsed approval brings it back, the record survives"
     state: Completed
   created_at: 2026-09-28T06:06:43.479825983Z
 definition:
@@ -62,7 +62,7 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:37:14.628391043Z
-    rev: 7c83ccca65087a44
+    rev: 881e86de5fec522a
 defect:
   severity: medium
   introduced_by: FEAT-048

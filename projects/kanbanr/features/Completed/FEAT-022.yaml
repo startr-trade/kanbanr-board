@@ -1,7 +1,16 @@
 code: FEAT-022
-title: 'Remote sync: conflict warnings + data-loss guidance'
+title: "Remote sync: conflict warnings + data-loss guidance"
 status: Completed
 milestone: MS-002
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: warnings + guidance
@@ -10,7 +19,7 @@ todo_lists:
     text: git::sync_all reports failures; CLI prints resolution commands
     state: Completed
   - key: T2
-    text: 'USER_GUIDE + SKILL: remotes/conflicts/data-safety guidance'
+    text: "USER_GUIDE + SKILL: remotes/conflicts/data-safety guidance"
     state: Completed
   created_at: 2026-06-12T05:20:18.574495817Z
 created_at: 2026-06-12T05:20:18.562924316Z

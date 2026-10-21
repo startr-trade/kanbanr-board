@@ -1,5 +1,5 @@
 code: FEAT-063
-title: 'Defect: retro demands retrospectives for waves the board never watched, and reports changelog timestamps as cycle time'
+title: "Defect: retro demands retrospectives for waves the board never watched, and reports changelog timestamps as cycle time"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -64,8 +64,8 @@ definition:
   approval:
     by: reviewed in the monitor
     at: 2026-09-28T06:02:52.209520748Z
-    rev: 316342ce340c5b8b
-  started_unapproved: 'auto-pilot: the tool asked for something it cannot support; fixing the claim'
+    rev: 65e7351a8876b17c
+  started_unapproved: "auto-pilot: the tool asked for something it cannot support; fixing the claim"
 defect:
   severity: medium
   introduced_by: FEAT-054

@@ -1,5 +1,5 @@
 code: FEAT-132
-title: 'Defect: dependency advisories in the binary, the monitor and the tests'
+title: "Defect: dependency advisories in the binary, the monitor and the tests"
 status: Completed
 milestone: MS-002
 kind: bug
@@ -22,19 +22,19 @@ todo_lists:
     text: git2 0.19 -> 0.21 (cred feature for the credential helper; StringArray and shorthand/name now Result)
     state: Completed
   - key: T3
-    text: 'testcontainers 0.23 -> 0.28: tokio-tar and rustls-pemfile gone; cargo audit 0 vulns 0 warnings; cargo deny (FEAT-130 policy) passes'
+    text: "testcontainers 0.23 -> 0.28: tokio-tar and rustls-pemfile gone; cargo audit 0 vulns 0 warnings; cargo deny (FEAT-130 policy) passes"
     state: Completed
   - key: T4
-    text: 'web: npm audit fix + react-router-dom 7.18.4; npm audit --omit=dev 0; monitor driven in headless Chromium (18 pages incl. docs + mermaid render)'
+    text: "web: npm audit fix + react-router-dom 7.18.4; npm audit --omit=dev 0; monitor driven in headless Chromium (18 pages incl. docs + mermaid render)"
     state: Completed
   - key: T5
-    text: 'tools/screenshots: quinn-proto updated'
+    text: "tools/screenshots: quinn-proto updated"
     state: Completed
   - key: T6
-    text: 'Dockerfile: USER 10001 + HEALTHCHECK on /healthz; container turned healthy against the real board (read-only mount)'
+    text: "Dockerfile: USER 10001 + HEALTHCHECK on /healthz; container turned healthy against the real board (read-only mount)"
     state: Completed
   - key: T7
-    text: 'Trivy fs over the tree: 0 findings; make ci: all 32 pass'
+    text: "Trivy fs over the tree: 0 findings; make ci: all 32 pass"
     state: Completed
   created_at: 2026-10-01T01:31:04.479988466Z
 definition:
@@ -80,12 +80,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T01:15:29.052982841Z
-    rev: a71b940c76e1c72a
+    rev: f2e689832fbf03db
   approvals:
   - at: 2026-10-01T01:15:29.052982841Z
     by: Venkatraman B
     verdict: approved
-    rev: a71b940c76e1c72a
+    rev: f2e689832fbf03db
     status: Planned
 history:
 - at: 2026-10-01T01:15:51.308865787Z

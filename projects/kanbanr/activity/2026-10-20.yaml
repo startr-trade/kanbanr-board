@@ -12,10 +12,10 @@
   item: FEAT-198
 - time: 2026-10-20T06:31:28.756082638Z
   actor: Venkatraman B
-  message: 'FEAT-198: tasks'
+  message: "FEAT-198: tasks"
 - time: 2026-10-20T06:32:36.386788267Z
   actor: Venkatraman B
-  message: 'FEAT-198: T1-T2 done'
+  message: "FEAT-198: T1-T2 done"
 - time: 2026-10-20T06:32:49.666919381Z
   actor: Venkatraman B
   message: affirm lesson L-41
@@ -40,10 +40,10 @@
   item: FEAT-199
 - time: 2026-10-20T07:09:53.084770111Z
   actor: Venkatraman B
-  message: 'FEAT-199: tasks'
+  message: "FEAT-199: tasks"
 - time: 2026-10-20T08:27:53.847176059Z
   actor: Venkatraman B
-  message: 'FEAT-199: T1-T2 done'
+  message: "FEAT-199: T1-T2 done"
 - time: 2026-10-20T08:31:34.368671205Z
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-198
@@ -66,7 +66,7 @@
   item: FEAT-191
 - time: 2026-10-20T08:35:15.602930537Z
   actor: Venkatraman B
-  message: 'FEAT-185, FEAT-178, FEAT-191: implementation tasks'
+  message: "FEAT-185, FEAT-178, FEAT-191: implementation tasks"
 - time: 2026-10-20T08:37:04.804221194Z
   actor: Venkatraman B
   message: add feature item
@@ -76,7 +76,7 @@
   item: FEAT-198
 - time: 2026-10-20T08:37:13.499383098Z
   actor: Venkatraman B
-  message: 'test manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run of FEAT-198/R-1 is now green'
+  message: "test manual: make ci passes with a sign-off made mid-run, and fails with a non-verdict commit mid-run of FEAT-198/R-1 is now green"
   item: FEAT-198
 - time: 2026-10-20T08:37:13.572140045Z
   actor: Venkatraman B
@@ -88,7 +88,7 @@
   item: FEAT-199
 - time: 2026-10-20T08:54:38.450390151Z
   actor: Venkatraman B
-  message: 'test manual: the Workflow page draws the diagram and lists the method''s gates on this board of FEAT-199/R-1 is now green'
+  message: "test manual: the Workflow page draws the diagram and lists the method's gates on this board of FEAT-199/R-1 is now green"
   item: FEAT-199
 - time: 2026-10-20T08:54:38.490361923Z
   actor: Venkatraman B
@@ -96,7 +96,7 @@
   item: FEAT-199
 - time: 2026-10-20T08:54:38.534108446Z
   actor: Venkatraman B
-  message: 'FEAT-191: T1-T7 done, T8 started'
+  message: "FEAT-191: T1-T7 done, T8 started"
 - time: 2026-10-20T09:12:48.003306751Z
   actor: Venkatraman B
   message: test git_doctor_unmerged_integrated_items of FEAT-191/R-1 is now green
@@ -115,7 +115,7 @@
   item: FEAT-191
 - time: 2026-10-20T09:12:48.524897901Z
   actor: Venkatraman B
-  message: 'FEAT-178: T1-T6 done (agent), T7 started'
+  message: "FEAT-178: T1-T6 done (agent), T7 started"
 - time: 2026-10-20T11:06:32.05325815Z
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-178
@@ -150,7 +150,7 @@
   item: FEAT-185
 - time: 2026-10-20T11:18:41.903202411Z
   actor: Venkatraman B
-  message: 'FEAT-185: T1-T5 done (agent), T6 in progress'
+  message: "FEAT-185: T1-T5 done (agent), T6 in progress"
 - time: 2026-10-20T11:25:59.791199812Z
   actor: Venkatraman B
   message: add feature item
@@ -176,7 +176,7 @@
   item: FEAT-185
 - time: 2026-10-20T11:43:02.106495924Z
   actor: Venkatraman B
-  message: 'test manual: skill release question present and matches the monitor of FEAT-185/R-3 is now green'
+  message: "test manual: skill release question present and matches the monitor of FEAT-185/R-3 is now green"
   item: FEAT-185
 - time: 2026-10-20T11:43:02.149430043Z
   actor: Venkatraman B
@@ -192,14 +192,14 @@
   item: FEAT-201
 - time: 2026-10-20T11:43:30.559850494Z
   actor: Venkatraman B
-  message: 'FEAT-201: implementation tasks'
+  message: "FEAT-201: implementation tasks"
 - time: 2026-10-20T11:43:43.201113996Z
   actor: Venkatraman B
   message: move feature FEAT-177
   item: FEAT-177
 - time: 2026-10-20T11:43:43.290647908Z
   actor: Venkatraman B
-  message: 'FEAT-177: implementation tasks'
+  message: "FEAT-177: implementation tasks"
 - time: 2026-10-20T11:50:10.566203154Z
   actor: Venkatraman B
   message: test boardreadme::tests::readme_walks_a_reader_to_the_board of FEAT-201/R-1 is now green
@@ -233,7 +233,7 @@
   item: FEAT-177
 - time: 2026-10-20T12:50:18.193368447Z
   actor: Venkatraman B
-  message: 'FEAT-177: T1-T7 done (agent); public set extended'
+  message: "FEAT-177: T1-T7 done (agent); public set extended"
 - time: 2026-10-20T13:00:14.369873882Z
   actor: Venkatraman B
   message: add feature item
@@ -282,7 +282,7 @@
   item: FEAT-202
 - time: 2026-10-20T13:10:05.72232482Z
   actor: Venkatraman B
-  message: 'FEAT-202: implementation tasks'
+  message: "FEAT-202: implementation tasks"
 - time: 2026-10-20T13:10:35.665195832Z
   actor: Venkatraman B
   message: move feature FEAT-191
@@ -339,7 +339,7 @@
   item: FEAT-204
 - time: 2026-10-20T13:17:45.226029452Z
   actor: Venkatraman B
-  message: 'FEAT-204, FEAT-205: tasks'
+  message: "FEAT-204, FEAT-205: tasks"
 - time: 2026-10-20T13:18:00.835228353Z
   actor: Venkatraman B
   message: edit feature FEAT-205
@@ -388,7 +388,7 @@
   message: update document
 - time: 2026-10-20T13:42:49.998647296Z
   actor: Venkatraman B
-  message: 'test manual: a release build reused from another folder through sccache still carries the monitor and the skill of FEAT-202/R-1 is now green'
+  message: "test manual: a release build reused from another folder through sccache still carries the monitor and the skill of FEAT-202/R-1 is now green"
   item: FEAT-202
 - time: 2026-10-20T13:42:50.051646653Z
   actor: Venkatraman B
@@ -396,7 +396,7 @@
   item: FEAT-202
 - time: 2026-10-20T13:57:34.96990415Z
   actor: Venkatraman B
-  message: 'test manual: the kanbanr board reads correctly in the monitor of FEAT-205/R-2 is now green'
+  message: "test manual: the kanbanr board reads correctly in the monitor of FEAT-205/R-2 is now green"
   item: FEAT-205
 - time: 2026-10-20T13:57:35.019544414Z
   actor: Venkatraman B

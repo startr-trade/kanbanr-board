@@ -23,7 +23,7 @@ definition:
     where: api/crates/kanbanr-core/src/models.rs, config.rs, charter.rs, store.rs, docs/src/project/stability.md
     when: Whenever any kanbanr rewrites a board file another version wrote
     who: Anyone whose board is written from more than one machine or version
-    why: 'Without it the 1.0 stability promise has a hole: a 1.0 binary deletes fields 1.1 adds'
+    why: "Without it the 1.0 stability promise has a hole: a 1.0 binary deletes fields 1.1 adds"
   requirements:
   - id: R-1
     kind: functional
@@ -35,12 +35,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-02T10:09:37.916686627Z
-    rev: 233495bdafad8e0f
+    rev: 76097ace9a982081
   approvals:
   - at: 2026-10-02T10:09:37.916686627Z
     by: Venkatraman B
     verdict: approved
-    rev: 233495bdafad8e0f
+    rev: 76097ace9a982081
     status: Planned
 defect:
   severity: medium

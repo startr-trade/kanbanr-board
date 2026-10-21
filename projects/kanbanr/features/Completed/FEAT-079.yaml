@@ -1,5 +1,5 @@
 code: FEAT-079
-title: 'Defect: a test named after a file cannot be flipped green'
+title: "Defect: a test named after a file cannot be flipped green"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -52,13 +52,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T12:39:11.411634344Z
-    rev: 62cdeb0d8018cca6
+    rev: 2a4567cd75f13132
   approvals:
   - at: 2026-09-28T12:39:11.411634344Z
     by: Venkatraman B
     verdict: approved
-    rev: 62cdeb0d8018cca6
-  started_unapproved: 'auto-pilot: found recording FEAT-076''s own evidence — the write was refused'
+    rev: 2a4567cd75f13132
+  started_unapproved: "auto-pilot: found recording FEAT-076's own evidence — the write was refused"
 defect:
   severity: medium
   introduced_by: FEAT-051

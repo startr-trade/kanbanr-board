@@ -1,28 +1,28 @@
 - time: 2026-09-12T19:35:20.22852737Z
   actor: Venkatraman B
-  message: 'Scope: docs default to kanbanr (skill contract)'
+  message: "Scope: docs default to kanbanr (skill contract)"
 - time: 2026-09-12T19:36:48.449991841Z
   actor: Venkatraman B
   message: edit feature FEAT-040
   item: FEAT-040
 - time: 2026-09-12T19:36:58.18155854Z
   actor: Venkatraman B
-  message: 'FEAT-040 done: docs default to kanbanr'
+  message: "FEAT-040 done: docs default to kanbanr"
 - time: 2026-09-12T20:00:12.350933603Z
   actor: Venkatraman B
-  message: 'Scope FEAT: sibling <project>.kanbanr data folder'
+  message: "Scope FEAT: sibling <project>.kanbanr data folder"
 - time: 2026-09-12T20:06:23.30331773Z
   actor: Venkatraman B
-  message: 'FEAT-041: core resolution done'
+  message: "FEAT-041: core resolution done"
 - time: 2026-09-12T20:10:49.306698247Z
   actor: Venkatraman B
-  message: 'FEAT-041: CLI + tests done'
+  message: "FEAT-041: CLI + tests done"
 - time: 2026-09-12T20:12:31.881978676Z
   actor: Venkatraman B
-  message: 'FEAT-041: hooks done'
+  message: "FEAT-041: hooks done"
 - time: 2026-09-12T20:21:47.244943898Z
   actor: Venkatraman B
-  message: 'FEAT-041 done: sibling <project>.kanbanr board folder'
+  message: "FEAT-041 done: sibling <project>.kanbanr board folder"
 - time: 2026-09-12T20:50:03.044519147Z
   actor: Venkatraman B
   message: Schedule FEAT-042 (import trackers) + FEAT-043 (GitHub mirror)
@@ -59,4 +59,4 @@
   message: batch update
 - time: 2026-09-12T21:31:32.145958892Z
   actor: Venkatraman B
-  message: 'FEAT-043 done: GitHub issue mirror'
+  message: "FEAT-043 done: GitHub issue mirror"

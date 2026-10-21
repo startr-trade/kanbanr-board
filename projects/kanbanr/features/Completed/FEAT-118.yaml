@@ -44,25 +44,25 @@ definition:
     kind: functional
     text: THE SYSTEM SHALL document every preset, check and gate field in the processes chapter.
     tests:
-    - name: 'manual: the processes chapter covers every check and preset (audited against the code)'
+    - name: "manual: the processes chapter covers every check and preset (audited against the code)"
       kind: manual
       state: green
   - id: R-2
     kind: functional
     text: WHEN a downstream board is moved to the togaf preset, THE SYSTEM SHALL keep its existing items loadable and its charter unchanged.
     tests:
-    - name: 'manual: a downstream board on progressive togaf, board and doctor clean'
+    - name: "manual: a downstream board on progressive togaf, board and doctor clean"
       kind: manual
       state: green
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:37.580895+00:00
-    rev: 4c418af8ef8a568d
+    rev: a008f84c6e422697
   approvals:
   - at: 2026-09-29T17:36:37.580895+00:00
     by: Venkatraman B
     verdict: approved
-    rev: 4c418af8ef8a568d
+    rev: a008f84c6e422697
 history:
 - at: 2026-09-29T19:00:19.917049219Z
   from: Planned

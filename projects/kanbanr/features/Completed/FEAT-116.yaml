@@ -1,5 +1,5 @@
 code: FEAT-116
-title: 'Presets as data: default, scheduled, togaf, pdca, design-control; import and export'
+title: "Presets as data: default, scheduled, togaf, pdca, design-control; import and export"
 status: Completed
 milestone: MS-007
 kind: null
@@ -64,12 +64,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:36:04.520141275Z
-    rev: 85b8be4b031f6a05
+    rev: a7385fec7f8540c9
   approvals:
   - at: 2026-09-29T17:36:04.520141275Z
     by: Venkatraman B
     verdict: approved
-    rev: 85b8be4b031f6a05
+    rev: a7385fec7f8540c9
 history:
 - at: 2026-09-29T18:45:11.961128382Z
   from: Planned

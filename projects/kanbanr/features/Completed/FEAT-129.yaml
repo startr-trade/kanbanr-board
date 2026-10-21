@@ -1,5 +1,5 @@
 code: FEAT-129
-title: 'Defect: CI fails on main on Linux, macOS and Windows'
+title: "Defect: CI fails on main on Linux, macOS and Windows"
 status: Completed
 milestone: MS-002
 kind: bug
@@ -16,34 +16,34 @@ todo_lists:
   description: fix
   tasks:
   - key: T1
-    text: 'ci.yml rust job builds web/dist before build and test (reproduced: KANBANR_UI_DIST=/nonexistent fails the monitor test, with dist it passes)'
+    text: "ci.yml rust job builds web/dist before build and test (reproduced: KANBANR_UI_DIST=/nonexistent fails the monitor test, with dist it passes)"
     state: Completed
   - key: T2
-    text: 'board_path_for resolves the existing path and the root on disk before comparing; unit test with a symlinked folder (sabotage: fails without the fix)'
+    text: "board_path_for resolves the existing path and the root on disk before comparing; unit test with a symlinked folder (sabotage: fails without the fix)"
     state: Completed
   - key: T3
-    text: 'kanbanr-core links advapi32 on Windows (not verifiable here: no MSVC; proven by the next CI run)'
+    text: "kanbanr-core links advapi32 on Windows (not verifiable here: no MSVC; proven by the next CI run)"
     state: Completed
   - key: T4
     text: Changelog
     state: Completed
   - key: T5
-    text: 'Docs job: the mirrored changelog chapter was stale (edited by hand and behind CHANGELOG.md); regenerated with tools/docs/sync.sh, the crates.io paragraph fixed at the source, and make check-docs now runs the same sync check'
+    text: "Docs job: the mirrored changelog chapter was stale (edited by hand and behind CHANGELOG.md); regenerated with tools/docs/sync.sh, the crates.io paragraph fixed at the source, and make check-docs now runs the same sync check"
     state: Completed
   - key: T6
-    text: 'Windows: every command overflowed the 1 MiB main-thread stack once linking worked; the CLI runs on a 16 MiB thread; regression test reproduces it on Linux with ulimit -s 1024 (sabotage: fails without the thread)'
+    text: "Windows: every command overflowed the 1 MiB main-thread stack once linking worked; the CLI runs on a 16 MiB thread; regression test reproduces it on Linux with ulimit -s 1024 (sabotage: fails without the thread)"
     state: Completed
   - key: T7
-    text: 'release.yml: macos-13 runner is retired (a job naming a missing label waits forever) -> macos-15-intel; shellcheck SC2001 fixed; found by actionlint'
+    text: "release.yml: macos-13 runner is retired (a job naming a missing label waits forever) -> macos-15-intel; shellcheck SC2001 fixed; found by actionlint"
     state: Completed
   - key: T8
-    text: 'Windows run on 82b33fd: 3 tests left. Markers written with backslashes (unreadable elsewhere) -> forward slashes; canonicalize''s \\?\ prefix leaked into messages -> stripped in normalize; two test checks assumed Unix (.claude/settings.json wording, a hook command starting with the home path). Unit test for both path forms (sabotage fails it); make ci all 42 pass'
+    text: "Windows run on 82b33fd: 3 tests left. Markers written with backslashes (unreadable elsewhere) -> forward slashes; canonicalize's \\\\?\\ prefix leaked into messages -> stripped in normalize; two test checks assumed Unix (.claude/settings.json wording, a hook command starting with the home path). Unit test for both path forms (sabotage fails it); make ci all 42 pass"
     state: Completed
   - key: T9
-    text: 'Windows run on c6761b6: 6 kanbanr-core tests. Five compared against raw canonicalize (still verbatim) after normalize stopped returning it — I missed the test helper when grepping; one expected ''/'' as the root (D:\ on Windows). Fixed both; CI tests now --no-fail-fast so every binary''s failures show in one run; scanned view_daemon and kanbanr-server tests (never yet run on Windows) for Unix assumptions: none found'
+    text: "Windows run on c6761b6: 6 kanbanr-core tests. Five compared against raw canonicalize (still verbatim) after normalize stopped returning it — I missed the test helper when grepping; one expected '/' as the root (D:\\ on Windows). Fixed both; CI tests now --no-fail-fast so every binary's failures show in one run; scanned view_daemon and kanbanr-server tests (never yet run on Windows) for Unix assumptions: none found"
     state: Completed
   - key: T10
-    text: 'GitHub CI on a6645ea: all jobs green on ubuntu-24.04, macos-15 and windows-2025'
+    text: "GitHub CI on a6645ea: all jobs green on ubuntu-24.04, macos-15 and windows-2025"
     state: Completed
   created_at: 2026-09-30T17:33:09.45459338Z
 definition:
@@ -52,7 +52,7 @@ definition:
   - G-0
   - G-5
   zachman:
-    what: 'The three failures of the first CI run: an untested embedded monitor, a symlinked temp path in the docs guard, and a missing Windows system library'
+    what: "The three failures of the first CI run: an untested embedded monitor, a symlinked temp path in the docs guard, and a missing Windows system library"
     how: Build web/dist in the rust job; resolve the existing part of a path on disk before comparing it with the repository root; link advapi32 wherever libgit2 is linked on Windows
     where: .github/workflows/ci.yml, kanbanr-cli main.rs (board_path_for), kanbanr-core (link directive)
     when: On every CI run
@@ -84,18 +84,18 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-30T17:30:42.960031903Z
-    rev: 43e2bef1ba3ae69c
+    rev: 5865412342258efe
   approvals:
   - at: 2026-09-30T17:30:42.960031903Z
     by: Venkatraman B
     verdict: approved
-    rev: 43e2bef1ba3ae69c
+    rev: 5865412342258efe
     status: Planned
 defect:
   severity: high
   introduced_by: FEAT-111
   found_in: CI (GitHub Actions)
-  root_cause: 'three: rust job tests a binary without web/dist; board_path_for compares a text-resolved path with a symlink-resolved root; libgit2-sys 0.17 does not link advapi32 under the current MSVC'
+  root_cause: "three: rust job tests a binary without web/dist; board_path_for compares a text-resolved path with a symlink-resolved root; libgit2-sys 0.17 does not link advapi32 under the current MSVC"
   escaped: true
 history:
 - at: 2026-09-30T17:31:14.984068102Z

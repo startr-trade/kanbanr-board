@@ -1,10 +1,12 @@
 code: FEAT-039
-title: 'Workflow state-chart: explicit terminal states + Mermaid I/O (YAML is truth)'
+title: "Workflow state-chart: explicit terminal states + Mermaid I/O (YAML is truth)"
 status: Completed
 milestone: MS-003
 kind: feature
 priority: null
+start: null
 due: null
+estimate_days: null
 assignee: null
 team: null
 labels: []

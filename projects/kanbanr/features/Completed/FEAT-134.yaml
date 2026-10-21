@@ -17,13 +17,13 @@ todo_lists:
   description: build
   tasks:
   - key: T1
-    text: 'README rewritten: pitch + badges, why, what you get (7 linked points), screenshots incl. sprint/releases, quick start (installer + ''set up kanbanr''), developed with kanbanr, how it works (new diagram), docs, contributing, licence'
+    text: "README rewritten: pitch + badges, why, what you get (7 linked points), screenshots incl. sprint/releases, quick start (installer + 'set up kanbanr'), developed with kanbanr, how it works (new diagram), docs, contributing, licence"
     state: Completed
   - key: T2
-    text: 'Monitor chapter: the screenshot gallery, sprint/release/portfolio views; command reference lists every command (it lacked 20)'
+    text: "Monitor chapter: the screenshot gallery, sprint/release/portfolio views; command reference lists every command (it lacked 20)"
     state: Completed
   - key: T3
-    text: 'Architecture chapter: the readiness engine, gates, agreement pinned to content, cadence; stale quickstart (hooks were said to be machine-wide) and links to retired DESIGN/USER_GUIDE/INSTALL/ROADMAP files fixed; repo-file links in the book point at GitHub'
+    text: "Architecture chapter: the readiness engine, gates, agreement pinned to content, cadence; stale quickstart (hooks were said to be machine-wide) and links to retired DESIGN/USER_GUIDE/INSTALL/ROADMAP files fixed; repo-file links in the book point at GitHub"
     state: Completed
   - key: T4
     text: make ci 42/42; mdbook builds without warnings
@@ -59,12 +59,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T05:54:33.667118689Z
-    rev: f6cc0884d5124823
+    rev: a9a4c4bd37bcbded
   approvals:
   - at: 2026-10-01T05:54:33.667118689Z
     by: Venkatraman B
     verdict: approved
-    rev: f6cc0884d5124823
+    rev: a9a4c4bd37bcbded
     status: Planned
 history:
 - at: 2026-10-01T07:06:48.176806592Z

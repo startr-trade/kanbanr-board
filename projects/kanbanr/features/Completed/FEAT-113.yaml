@@ -1,5 +1,5 @@
 code: FEAT-113
-title: 'Declarable gates: entry criteria per status, enforced block or warn'
+title: "Declarable gates: entry criteria per status, enforced block or warn"
 status: Completed
 milestone: MS-007
 kind: null
@@ -20,7 +20,7 @@ todo_lists:
     text: Gate/Enforce/Action config, Condition (check or zachman columns), effective_gates legacy synthesis, schema 3 only with gates
     state: Completed
   - key: T2
-    text: 'Store: one gated move for route and batch, warnings returned, override in history, set_gates + validation; terminal fallback and portfolio unified'
+    text: "Store: one gated move for route and batch, warnings returned, override in history, set_gates + validation; terminal fallback and portfolio unified"
     state: Completed
   - key: T3
     text: CLI --override (alias --unapproved) and gate warnings; five tests observed failing under sabotage; real board untouched
@@ -77,12 +77,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-29T17:35:51.569066801Z
-    rev: cd19b8398e69ac5b
+    rev: 8843a50cb8300aa7
   approvals:
   - at: 2026-09-29T17:35:51.569066801Z
     by: Venkatraman B
     verdict: approved
-    rev: cd19b8398e69ac5b
+    rev: 8843a50cb8300aa7
 history:
 - at: 2026-09-29T17:53:34.867549855Z
   from: Planned

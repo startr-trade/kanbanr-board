@@ -77,7 +77,7 @@
   item: FEAT-185
 - time: 2026-10-19T03:22:36.725347951Z
   actor: Venkatraman B
-  message: 'test make ci: cargo deny, cargo audit and Trivy pass of FEAT-186/R-1 is now green'
+  message: "test make ci: cargo deny, cargo audit and Trivy pass of FEAT-186/R-1 is now green"
   item: FEAT-186
 - time: 2026-10-19T03:22:36.781061246Z
   actor: Venkatraman B
@@ -85,7 +85,7 @@
   item: FEAT-186
 - time: 2026-10-19T03:34:26.274570605Z
   actor: Venkatraman B
-  message: 'FEAT-183: the cut records the release sign-off on shipped items'
+  message: "FEAT-183: the cut records the release sign-off on shipped items"
 - time: 2026-10-19T03:36:32.902146079Z
   actor: Venkatraman B
   message: edit feature FEAT-176
@@ -232,7 +232,7 @@
   item: FEAT-184
 - time: 2026-10-19T04:40:11.099772732Z
   actor: Venkatraman B
-  message: 'scope: stage roles; git model from cadence; stage-driven merges and carry-over; git drift check; worktree marker defect; method gates in every preset; one method in the skill'
+  message: "scope: stage roles; git model from cadence; stage-driven merges and carry-over; git drift check; worktree marker defect; method gates in every preset; one method in the skill"
 - time: 2026-10-19T04:42:34.328960314Z
   actor: Venkatraman B
   message: approve definition of FEAT-188
@@ -939,7 +939,7 @@
   item: FEAT-183
 - time: 2026-10-19T10:21:20.583989859Z
   actor: A
-  message: 'FEAT-181: T1-T4 done, T5 started'
+  message: "FEAT-181: T1-T4 done, T5 started"
 - time: 2026-10-19T10:26:29.364512553Z
   actor: Venkatraman B
   message: update task T6 (FEAT-183/TL-001)
@@ -954,7 +954,7 @@
   item: FEAT-183
 - time: 2026-10-19T10:38:32.925559151Z
   actor: Venkatraman B
-  message: 'FEAT-181: T5-T6 done, T7 started'
+  message: "FEAT-181: T5-T6 done, T7 started"
 - time: 2026-10-19T10:39:54.066796073Z
   actor: Venkatraman B
   message: record a lesson
@@ -975,7 +975,7 @@
   item: FEAT-181
 - time: 2026-10-19T11:18:22.527072714Z
   actor: Venkatraman B
-  message: 'test manual: skill linking rules present and match the docs of FEAT-181/R-4 is now green'
+  message: "test manual: skill linking rules present and match the docs of FEAT-181/R-4 is now green"
   item: FEAT-181
 - time: 2026-10-19T11:18:22.56972768Z
   actor: Venkatraman B
@@ -991,10 +991,10 @@
   item: FEAT-180
 - time: 2026-10-19T11:24:32.962230728Z
   actor: Venkatraman B
-  message: 'FEAT-180: implementation tasks from the Design'
+  message: "FEAT-180: implementation tasks from the Design"
 - time: 2026-10-19T11:30:16.850228429Z
   actor: Venkatraman B
-  message: 'FEAT-180: T1-T3 done'
+  message: "FEAT-180: T1-T3 done"
 - time: 2026-10-19T11:33:53.209069513Z
   actor: Venkatraman B
   message: add feature item
@@ -1016,14 +1016,14 @@
   item: FEAT-195
 - time: 2026-10-19T11:38:27.28464498Z
   actor: Venkatraman B
-  message: 'FEAT-195: implementation tasks'
+  message: "FEAT-195: implementation tasks"
 - time: 2026-10-19T13:13:16.496226275Z
   actor: Venkatraman B
   message: update task T6 (FEAT-195/TL-001)
   item: FEAT-195
 - time: 2026-10-19T13:13:35.271278938Z
   actor: Venkatraman B
-  message: 'FEAT-195: tasks done; evidence'
+  message: "FEAT-195: tasks done; evidence"
 - time: 2026-10-19T13:22:04.194984419Z
   actor: Venkatraman B
   message: test board_outside_the_fence_is_refused of FEAT-195/R-1 is now green
@@ -1034,7 +1034,7 @@
   item: FEAT-195
 - time: 2026-10-19T13:22:04.344022321Z
   actor: Venkatraman B
-  message: 'test manual: make ci fails when the real board moves of FEAT-195/R-3 is now green'
+  message: "test manual: make ci fails when the real board moves of FEAT-195/R-3 is now green"
   item: FEAT-195
 - time: 2026-10-19T13:22:04.41760213Z
   actor: Venkatraman B
@@ -1042,10 +1042,10 @@
   item: FEAT-195
 - time: 2026-10-19T13:27:16.509602849Z
   actor: Venkatraman B
-  message: 'FEAT-180: T4-T6 done'
+  message: "FEAT-180: T4-T6 done"
 - time: 2026-10-19T13:34:24.09794709Z
   actor: Venkatraman B
-  message: 'test manual: skill living-docs guidance present and matches the docs of FEAT-180/R-1 is now green'
+  message: "test manual: skill living-docs guidance present and matches the docs of FEAT-180/R-1 is now green"
   item: FEAT-180
 - time: 2026-10-19T13:34:24.167317363Z
   actor: Venkatraman B
@@ -1077,10 +1077,10 @@
   item: FEAT-193
 - time: 2026-10-19T13:37:23.498664799Z
   actor: Venkatraman B
-  message: 'FEAT-193: implementation tasks (as amended by Q7)'
+  message: "FEAT-193: implementation tasks (as amended by Q7)"
 - time: 2026-10-19T13:55:22.52324136Z
   actor: Venkatraman B
-  message: 'FEAT-193: T1-T4, T6 done'
+  message: "FEAT-193: T1-T4, T6 done"
 - time: 2026-10-19T13:57:57.006055586Z
   actor: Venkatraman B
   message: update task T5 (FEAT-193/TL-001)
@@ -1111,10 +1111,10 @@
   item: FEAT-189
 - time: 2026-10-19T14:15:52.02049248Z
   actor: Venkatraman B
-  message: 'FEAT-189: implementation tasks'
+  message: "FEAT-189: implementation tasks"
 - time: 2026-10-19T14:35:57.396203914Z
   actor: Venkatraman B
-  message: 'FEAT-189: T1, T5-T7 done'
+  message: "FEAT-189: T1, T5-T7 done"
 - time: 2026-10-19T14:47:27.026220448Z
   actor: Venkatraman B
   message: test git_model_follows_cadence of FEAT-189/R-1 is now green
@@ -1145,7 +1145,7 @@
   item: FEAT-190
 - time: 2026-10-19T14:57:59.931317844Z
   actor: Venkatraman B
-  message: 'FEAT-190: implementation tasks'
+  message: "FEAT-190: implementation tasks"
 - time: 2026-10-19T15:05:40.369555876Z
   actor: Venkatraman B
   message: edit feature FEAT-190
@@ -1206,7 +1206,7 @@
   message: method all on for kanbanr
 - time: 2026-10-19T15:48:07.249868817Z
   actor: Venkatraman B
-  message: 'update config: workflow'
+  message: "update config: workflow"
 - time: 2026-10-19T15:48:07.29801444Z
   actor: Venkatraman B
   message: method all on for kanbanr
@@ -1227,10 +1227,10 @@
   item: FEAT-196
 - time: 2026-10-19T16:34:22.331949192Z
   actor: Venkatraman B
-  message: 'FEAT-196: tasks'
+  message: "FEAT-196: tasks"
 - time: 2026-10-19T16:38:22.385999246Z
   actor: Venkatraman B
-  message: 'FEAT-196: T1-T2 done'
+  message: "FEAT-196: T1-T2 done"
 - time: 2026-10-19T16:48:10.39682018Z
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-176
@@ -1281,10 +1281,10 @@
   item: FEAT-184
 - time: 2026-10-19T17:03:13.488418987Z
   actor: Venkatraman B
-  message: 'FEAT-184: tasks'
+  message: "FEAT-184: tasks"
 - time: 2026-10-19T17:11:07.893978124Z
   actor: Venkatraman B
-  message: 'FEAT-184: T1-T5 done'
+  message: "FEAT-184: T1-T5 done"
 - time: 2026-10-19T17:16:24.325803256Z
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-184

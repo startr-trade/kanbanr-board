@@ -16,7 +16,7 @@ todo_lists:
   description: share what is shareable; claim only what is used
   tasks:
   - key: T1
-    text: 'extract ears-classifier: own licence, README whose example is a compiled test, one dependency'
+    text: "extract ears-classifier: own licence, README whose example is a compiled test, one dependency"
     state: Completed
   - key: T2
     text: kanbanr-core re-exports it as `ears`, so no call site changes
@@ -25,7 +25,7 @@ todo_lists:
     text: release.yml publishes only it, with a comment on why kanbanr-cli and kanbanr-core are deliberately absent
     state: Completed
   - key: T4
-    text: 'the method chapter: Zachman''s columns not its rows; TOGAF as an opt-in workflow preset; neither recommended'
+    text: "the method chapter: Zachman's columns not its rows; TOGAF as an opt-in workflow preset; neither recommended"
     state: Completed
   - key: T5
     text: the skill qualifies the six dimensions and describes the TOGAF preset it previously never mentioned
@@ -75,13 +75,13 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T17:44:53.110490634Z
-    rev: c4777ccd43d1b95e
+    rev: b05524d744fb50b8
   approvals:
   - at: 2026-09-28T17:44:53.110490634Z
     by: Venkatraman B
     verdict: approved
-    rev: c4777ccd43d1b95e
-  started_unapproved: 'auto-pilot: the user said yes to sharing the EARS/ISO vocabulary and asked what the tool recommends about Zachman and TOGAF'
+    rev: b05524d744fb50b8
+  started_unapproved: "auto-pilot: the user said yes to sharing the EARS/ISO vocabulary and asked what the tool recommends about Zachman and TOGAF"
 history:
 - at: 2026-09-28T17:43:35.827441613Z
   from: Planned

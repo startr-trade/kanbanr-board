@@ -1,5 +1,5 @@
 code: FEAT-098
-title: 'Defect: the commit guard ends a message at an escaped quote'
+title: "Defect: the commit guard ends a message at an escaped quote"
 status: Completed
 milestone: MS-006
 kind: defect
@@ -45,12 +45,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-09-28T18:27:20.321495892Z
-    rev: 1b842477cdadbdf6
+    rev: 857c36356a4a4646
   approvals:
   - at: 2026-09-28T18:27:20.321495892Z
     by: Venkatraman B
     verdict: approved
-    rev: 1b842477cdadbdf6
+    rev: 857c36356a4a4646
 defect:
   severity: medium
   introduced_by: FEAT-082

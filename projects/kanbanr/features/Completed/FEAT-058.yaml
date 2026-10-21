@@ -1,5 +1,5 @@
 code: FEAT-058
-title: 'Chore: Rust edition 2024, toolchain pin and MSRV'
+title: "Chore: Rust edition 2024, toolchain pin and MSRV"
 status: Completed
 milestone: MS-004
 kind: chore
@@ -47,7 +47,7 @@ definition:
     - name: cargo test --workspace
       kind: integration
       state: green
-    - name: 'legacy invariant: kanbanr board && feature show FEAT-001 rewrite no file'
+    - name: "legacy invariant: kanbanr board && feature show FEAT-001 rewrite no file"
       kind: manual
       state: green
   - id: R-2
@@ -72,8 +72,8 @@ definition:
       kind: e2e
       state: planned
   approval:
-    by: 'Venkatraman B (delegated: auto-pilot)'
+    by: "Venkatraman B (delegated: auto-pilot)"
     at: 2026-09-25T00:38:58.963722367Z
-    rev: 6c356c99317f58b7
+    rev: 25a96ff5b275c3a6
 created_at: 2026-09-24T19:06:45.256534589Z
 updated_at: 2026-09-25T00:43:37.247056283Z

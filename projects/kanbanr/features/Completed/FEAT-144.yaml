@@ -1,5 +1,5 @@
 code: FEAT-144
-title: 'Defect: the container image''s kanbanr reports an unknown build'
+title: "Defect: the container image's kanbanr reports an unknown build"
 status: Completed
 milestone: MS-002
 kind: null
@@ -41,12 +41,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-01T19:28:16.30968975Z
-    rev: 7dd33b10964b520c
+    rev: 41ca2217990ba603
   approvals:
   - at: 2026-10-01T19:28:16.30968975Z
     by: Venkatraman B
     verdict: approved
-    rev: 7dd33b10964b520c
+    rev: 41ca2217990ba603
     status: Planned
 defect:
   severity: low

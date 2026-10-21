@@ -8,7 +8,7 @@
   item: FEAT-118
 - time: 2026-10-16T03:20:42.101285142Z
   actor: Venkatraman B
-  message: 'docs: describe the first downstream run generically'
+  message: "docs: describe the first downstream run generically"
 - time: 2026-10-16T03:20:42.12844054Z
   actor: Venkatraman B
   message: update document
@@ -17,10 +17,10 @@
   message: update document
 - time: 2026-10-16T13:15:13.542718628Z
   actor: Venkatraman B
-  message: 'scope: design-stage specs carry the build-ready design'
+  message: "scope: design-stage specs carry the build-ready design"
 - time: 2026-10-16T13:19:06.078301931Z
   actor: Venkatraman B
-  message: 'FEAT-179: todo-list'
+  message: "FEAT-179: todo-list"
 - time: 2026-10-16T13:19:06.116839798Z
   actor: Venkatraman B
   message: update document
@@ -70,10 +70,10 @@
   item: FEAT-179
 - time: 2026-10-16T13:40:36.546932092Z
   actor: Venkatraman B
-  message: 'FEAT-179: test names as cargo prints them'
+  message: "FEAT-179: test names as cargo prints them"
 - time: 2026-10-16T13:41:04.340048853Z
   actor: Venkatraman B
-  message: 'scope: living architecture docs'
+  message: "scope: living architecture docs"
 - time: 2026-10-16T13:41:10.492103909Z
   actor: Venkatraman B
   message: approve definition of FEAT-179
@@ -92,18 +92,18 @@
   item: FEAT-179
 - time: 2026-10-16T14:00:04.954480084Z
   actor: Venkatraman B
-  message: 'scope: live, checked links between board artifacts; FEAT-180 links as dependency list'
+  message: "scope: live, checked links between board artifacts; FEAT-180 links as dependency list"
 - time: 2026-10-16T14:02:41.40049703Z
   actor: Venkatraman B
   message: approve definition of FEAT-181
   item: FEAT-181
 - time: 2026-10-16T15:12:32.563154193Z
   actor: Venkatraman B
-  message: 'scope: withdraw sign-offs; offer only next-stage sign-offs'
+  message: "scope: withdraw sign-offs; offer only next-stage sign-offs"
 - time: 2026-10-16T15:12:55.091777281Z
   actor: Venkatraman B
   message: approve definition of FEAT-182
   item: FEAT-182
 - time: 2026-10-16T18:17:31.392745707Z
   actor: Venkatraman B
-  message: 'FEAT-182: sign-offs are offered before their preconditions are met'
+  message: "FEAT-182: sign-offs are offered before their preconditions are met"

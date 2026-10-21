@@ -2,15 +2,24 @@ code: FEAT-002
 title: Frictionless onboarding (kanbanr init / open)
 status: Completed
 milestone: MS-001
+kind: null
+priority: null
+start: null
+due: null
+estimate_days: null
+assignee: null
+team: null
+labels: []
+depends_on: []
 todo_lists:
 - code: TL-001
   description: Onboarding commands
   tasks:
   - key: T1
-    text: 'kanbanr init: one-shot local scaffold (data dir+git+identity+project+marker)'
+    text: "kanbanr init: one-shot local scaffold (data dir+git+identity+project+marker)"
     state: Completed
   - key: T2
-    text: 'kanbanr open: launch the monitor URL in the browser'
+    text: "kanbanr open: launch the monitor URL in the browser"
     state: Completed
   - key: T3
     text: README 60-second quickstart + init/open tests

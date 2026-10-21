@@ -1,5 +1,5 @@
 code: FEAT-189
-title: 'Git model from the cadence: branch topology follows whether sprints and releases are on'
+title: "Git model from the cadence: branch topology follows whether sprints and releases are on"
 status: Completed
 milestone: MS-008
 kind: feature
@@ -20,25 +20,25 @@ todo_lists:
   description: Implementation tasks from the Design
   tasks:
   - key: T1
-    text: '1 Config: Cadence.git_model; cadence route; CLI --git-model'
+    text: "1 Config: Cadence.git_model; cadence route; CLI --git-model"
     state: Completed
   - key: T2
-    text: '2 scm: SPRINT_PREFIX, RELEASE_PREFIX, item_code_from_branch (fix twin)'
+    text: "2 scm: SPRINT_PREFIX, RELEASE_PREFIX, item_code_from_branch (fix twin)"
     state: Completed
   - key: T3
-    text: '3 coderepo: branch_facts, delete_branch, push refusal'
+    text: "3 coderepo: branch_facts, delete_branch, push refusal"
     state: Completed
   - key: T4
-    text: '4 gitmodel.rs pure: derive, line_for, bases, protection, verdicts'
+    text: "4 gitmodel.rs pure: derive, line_for, bases, protection, verdicts"
     state: Completed
   - key: T5
     text: 5 gitmodel load and sprint_start; routes
     state: Completed
   - key: T6
-    text: '6 Release base: promote''s first stage branches from release_base'
+    text: "6 Release base: promote's first stage branches from release_base"
     state: Completed
   - key: T7
-    text: '7 CLI: git model, start base, hooks, sprint start output; R-2..R-4 tests'
+    text: "7 CLI: git model, start base, hooks, sprint start output; R-2..R-4 tests"
     state: Completed
   - key: T8
     text: 8 Docs and make ci
@@ -95,12 +95,12 @@ definition:
   approval:
     by: Venkatraman B
     at: 2026-10-19T09:46:07.571081746Z
-    rev: 30511af44be4504a
+    rev: e2938af3896b0578
   approvals:
   - at: 2026-10-19T09:46:07.571081746Z
     by: Venkatraman B
     verdict: approved
-    rev: 30511af44be4504a
+    rev: e2938af3896b0578
     status: Planned
 history:
 - at: 2026-10-19T14:04:58.352562768Z

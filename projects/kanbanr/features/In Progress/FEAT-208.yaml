@@ -1,5 +1,5 @@
 code: FEAT-208
-title: "macOS: two daemon tests refuse their own scratch board"
+title: "macOS and Windows: CI fails on paths and line endings"
 status: In Progress
 milestone: MS-004
 kind: defect
@@ -61,4 +61,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T13:53:01.765060825Z
-updated_at: 2026-10-21T13:56:32.403985435Z
+updated_at: 2026-10-21T14:03:00.491517604Z

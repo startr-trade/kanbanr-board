@@ -228,7 +228,8 @@ definition:
     tests:
     - name: tests::rename_status_updates_coverage_rules
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   approval:
     by: Venkatraman B
     at: 2026-10-21T10:19:32.535758125Z
@@ -256,4 +257,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.603507953Z
+updated_at: 2026-10-21T12:59:26.68321124Z

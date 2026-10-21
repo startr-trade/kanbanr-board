@@ -596,3 +596,7 @@
   actor: Venkatraman B
   message: "test manual: skill coverage guidance present and matches docs/src/using/living-docs.md of FEAT-197/R-16 is now green"
   item: FEAT-197
+- time: 2026-10-21T12:59:26.687099075Z
+  actor: Venkatraman B
+  message: test tests::rename_status_updates_coverage_rules of FEAT-197/R-17 is now green
+  item: FEAT-197

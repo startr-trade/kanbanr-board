@@ -1822,3 +1822,7 @@
   actor: Venkatraman B
   message: "revoke agent scope SC-001: R-12 manual run done and reviewed"
   item: FEAT-214
+- time: 2026-10-21T19:53:22.957766889Z
+  actor: Venkatraman B
+  message: "test manual: an orchestrated build agent records its own tasks and is refused a move of FEAT-214/R-12 is now green"
+  item: FEAT-214

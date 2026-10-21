@@ -358,3 +358,7 @@
   actor: Venkatraman B
   message: test contract_matches_openapi of FEAT-200/R-14 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:17.475257867Z
+  actor: Venkatraman B
+  message: 'test manual: open Review with an item whose spec has a broken diagram, confirm Approve is disabled, the error is listed with a link,  of FEAT-200/R-14 is now green'
+  item: FEAT-200

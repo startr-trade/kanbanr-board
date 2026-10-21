@@ -93,7 +93,8 @@ definition:
     tests:
     - name: coverage::tests::stage_order_skips_no_ops_and_resolves_roles
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-4
     kind: functional
     text: WHILE a project configures no coverage rules, THE SYSTEM SHALL read no docs for coverage, and SHALL add no fields, gaps or doctor issues.
@@ -237,4 +238,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:25.290582135Z
+updated_at: 2026-10-21T12:59:25.361401633Z

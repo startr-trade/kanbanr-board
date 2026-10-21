@@ -330,27 +330,11 @@ never disagree with what is enforced.
 
 **As built ([FEAT-194](/p/kanbanr/feature/FEAT-194), 21 Oct 2026).** The cadence question is now
 asked for **every** process, not only those that switch sprints on: setup's questions
-(, which {
-  "data_dir": "/home/dev/Documents/Phiaura/Code/kanbanr-board",
-  "source": "marker",
-  "exists": true,
-  "inside_git_repo": null,
-  "marker": "/home/dev/Documents/Phiaura/Code/kanbanr/.kanbanr",
-  "project": "kanbanr",
-  "project_root": "/home/dev/Documents/Phiaura/Code/kanbanr",
-  "suggested_data_dir": "/home/dev/Documents/Phiaura/Code/kanbanr.kanbanr",
-  "suggested_inside_git_repo": null,
-  "existing_data_dirs": [],
-  "git_identity": {
-    "name": "Venkatraman B",
-    "email": "vb@startr.trade"
-  },
-  "ask_the_user": []
-} lists) are board, process, cadence, then
+(`project::setup_questions`, which `kanbanr where --json` lists) are board, process, cadence, then
 the git identity when git has none. After the answer the plan shows the git model that follows,
-from , which needs no board and gives the
-same model the board will derive once the cadence is applied (, ,
-, , ). The method itself (the build-ready design, the docs
+from `kanbanr git model --sprints on|off --releases on|off`, which needs no board and gives the
+same model the board will derive once the cadence is applied (`line`, `branch_from`,
+`production_at`, `kanbanr_merges`, `pushes`). The method itself (the build-ready design, the docs
 fold-in, live links, the git model, releases, carry-over and the milestone review) is stated
 once, by stage role, in the skill's "The method by stage role" and in the book's
 [The method by stage role](https://kanbanr.startr.trade/using/the-method.html#the-method-by-stage-role);
@@ -479,4 +463,5 @@ individual approvals.
 - Multi-approver quorum or roles (enterprise RBAC is a charter non-goal).
 - Workflow editing in the monitor (the monitor stays a viewer, except for the verdict buttons).
 - Any claim of ISO compliance.
+
 

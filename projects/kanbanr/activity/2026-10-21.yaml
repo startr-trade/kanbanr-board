@@ -246,3 +246,7 @@
   actor: Venkatraman B
   message: test store::tests::strict_diagrams_refuse_the_write of FEAT-200/R-3 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:15.973932621Z
+  actor: Venkatraman B
+  message: test store::tests::strict_diagrams_refuse_the_whole_batch of FEAT-200/R-3 is now green
+  item: FEAT-200

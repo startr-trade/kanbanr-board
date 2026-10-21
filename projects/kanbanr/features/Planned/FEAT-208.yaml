@@ -34,5 +34,15 @@ definition:
     - name: monitor_promote_matches_cli
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T13:53:55.509292941Z
+    rev: 38ce897567c911ca
+  approvals:
+  - at: 2026-10-21T13:53:55.509292941Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 38ce897567c911ca
+    status: Planned
 created_at: 2026-10-21T13:53:01.765060825Z
-updated_at: 2026-10-21T13:53:16.405143709Z
+updated_at: 2026-10-21T13:53:55.509292941Z

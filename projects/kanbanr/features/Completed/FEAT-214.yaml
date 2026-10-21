@@ -1,6 +1,6 @@
 code: FEAT-214
 title: "Agent scopes: what a sub-agent may do, enforced by kanbanr"
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: feature
 priority: High
@@ -252,5 +252,8 @@ history:
 - at: 2026-10-21T17:57:58.926779313Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T19:54:54.14406866Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T19:54:29.423827122Z
+updated_at: 2026-10-21T19:54:54.14406866Z

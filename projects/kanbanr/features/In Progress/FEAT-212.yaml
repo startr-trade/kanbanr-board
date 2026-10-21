@@ -186,7 +186,8 @@ definition:
     tests:
     - name: prepare_with_nothing_configured_makes_no_commit
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
   - id: R-11
     kind: functional
     text: IF a step or the board write fails after earlier steps, THEN THE SYSTEM SHALL undo every git step in reverse order
@@ -272,4 +273,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.244135976Z
+updated_at: 2026-10-21T19:38:51.321193511Z

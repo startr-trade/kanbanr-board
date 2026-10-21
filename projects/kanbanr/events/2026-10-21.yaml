@@ -737,3 +737,12 @@
   detail:
     status: In Progress
     terminal: false
+- time: 2026-10-21T20:04:16.948299287Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-216
+  message: Venkatraman B signed off docs-folded on FEAT-216
+  detail:
+    by: Venkatraman B
+    signoff: docs-folded
+    reason: ""

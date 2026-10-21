@@ -1912,3 +1912,7 @@
     scope: SC-002
     role: build
     item: FEAT-216
+- time: 2026-10-21T20:04:16.94014053Z
+  actor: Venkatraman B
+  message: sign off docs-folded on FEAT-216
+  item: FEAT-216

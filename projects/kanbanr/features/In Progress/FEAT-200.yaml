@@ -135,7 +135,8 @@ definition:
     tests:
     - name: diagrams::tests::flowchart_label_punctuation
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::lint_cases_fixture
       kind: unit
       state: planned
@@ -304,4 +305,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.192184391Z
+updated_at: 2026-10-21T11:51:16.244971393Z

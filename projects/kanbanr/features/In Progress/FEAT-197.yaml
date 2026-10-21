@@ -204,7 +204,8 @@ definition:
     tests:
     - name: readiness::tests::docs_cover_unknown_rule_is_error
       kind: unit
-      state: planned
+      state: green
+      checked_rev: a9599172440b23710a6c3c69fcbd5296fdd4da62
   - id: R-15
     kind: nfr
     text: "WHEN a move is judged, THE SYSTEM SHALL read only the rules' source docs, once each. Scenario: 2,000 items, 200 source docs; the snapshot is built in under 2 s in a debug test, and `docs_read` equals the number of distinct source docs."
@@ -253,4 +254,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.384199049Z
+updated_at: 2026-10-21T12:59:26.447349007Z

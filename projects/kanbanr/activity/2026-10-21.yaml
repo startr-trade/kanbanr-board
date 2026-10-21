@@ -584,3 +584,7 @@
   actor: Venkatraman B
   message: test coverage::tests::annotate_never_fails_a_write of FEAT-197/R-13 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:26.449913765Z
+  actor: Venkatraman B
+  message: test readiness::tests::docs_cover_unknown_rule_is_error of FEAT-197/R-14 is now green
+  item: FEAT-197

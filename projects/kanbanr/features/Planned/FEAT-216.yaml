@@ -59,5 +59,15 @@ definition:
     - name: "manual: v0.3.0's notes rewritten from the Releases page in light and dark"
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T20:03:13.523154916Z
+    rev: b5b10d88e67c15f2
+  approvals:
+  - at: 2026-10-21T20:03:13.523154916Z
+    by: Venkatraman B
+    verdict: approved
+    rev: b5b10d88e67c15f2
+    status: Planned
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:02:46.304804658Z
+updated_at: 2026-10-21T20:03:13.523154916Z

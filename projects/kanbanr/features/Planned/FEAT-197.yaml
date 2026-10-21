@@ -18,5 +18,160 @@ depends_on:
 - FEAT-180
 - FEAT-181
 todo_lists: []
+definition:
+  statement: Architecture coverage rules, checked whenever the board changes, keep the cross-cutting views (Zachman matrix, ADR index, component catalog) complete, so the architecture docs describe everything built and decided, not only what each item's own docs cover
+  goals:
+  - G-4
+  - G-2
+  - G-0
+  - G-5
+  zachman:
+    what: Project coverage rules over items, accepted ADRs and docs; a docs_cover gate check narrowable by rule id; default affects_docs per stage
+    how: A coverage snapshot built from refs::find over the rules' source docs only, judged at the target stage in check_gate, added to write responses, emitted as coverage_gap events, listed by doctor
+    where: kanbanr-core (coverage.rs, readiness.rs, config.rs, store.rs, dispatch.rs, doctor.rs, eventing.rs); the CLI's config coverage and printing; the skill and the docs
+    when: Item added, moved or edited; ADR accepted; doc written; sprint close; release cut; doctor on demand
+    who: The developer and collaborators who set the rules; Claude, who is warned and fixes the gaps; reviewers reading doctor
+    why: 'Per-item fold-in checks leave the cross-cutting views drifting unnoticed: in the observed case 24 items were missing from the Zachman matrix, 8 ADRs from every view, 13 entries from the catalog'
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL let a project configure coverage rules (id, subject kind, stage range, kinds, folder, source doc or folder, or listed doc, exceptions), and SHALL refuse a rule set that is invalid, naming the rule and the problem.
+    tests:
+    - name: coverage::tests::rules_parse_and_validate
+      kind: unit
+      state: planned
+    - name: tests::set_coverage_refuses_invalid_rules
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: 'THE SYSTEM SHALL count a subject as referenced only when a source doc names it as `refs::find` finds references: live links, including relative ones, and board-shaped tokens; a requirement reference covers its item.'
+    tests:
+    - name: coverage::tests::references_count_links_tokens_and_relative_links
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: THE SYSTEM SHALL take "stage S or later" as every status at or after S in the workflow's status order, no-op statuses excluded, with S given as a status or as `@role`.
+    tests:
+    - name: coverage::tests::stage_order_skips_no_ops_and_resolves_roles
+      kind: unit
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHILE a project configures no coverage rules, THE SYSTEM SHALL read no docs for coverage, and SHALL add no fields, gaps or doctor issues.
+    tests:
+    - name: coverage::tests::no_rules_no_effect
+      kind: unit
+      state: planned
+    - name: local_mode::coverage_silent_without_rules
+      kind: integration
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN an item is added, moved, edited or its definition set, THE SYSTEM SHALL report the coverage rules that item fails as warnings in the command's output.
+    tests:
+    - name: local_mode::coverage_warns_on_item_events
+      kind: integration
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHEN an ADR is accepted or a doc is written or deleted, THE SYSTEM SHALL report the rules that ADR or doc fails, or that the doc's subjects fail, as warnings.
+    tests:
+    - name: local_mode::coverage_warns_on_adr_accept_and_doc_write
+      kind: integration
+      state: planned
+  - id: R-7
+    kind: functional
+    text: WHEN a sprint closes or a release is cut or promoted, THE SYSTEM SHALL report every uncovered rule as a warning.
+    tests:
+    - name: tests::coverage_reports_all_at_sprint_close_and_cut
+      kind: unit
+      state: planned
+    - name: dispatch
+      kind: unit
+      state: planned
+  - id: R-8
+    kind: functional
+    text: WHERE a stage's gate requires `docs_cover`, optionally narrowed to rule ids, THE SYSTEM SHALL refuse a move into that stage, unless overridden, while the item fails one of those rules as judged at the target stage.
+    tests:
+    - name: readiness::tests::docs_cover_gate
+      kind: unit
+      state: planned
+    - name: tests::docs_cover_blocks_move_until_covered
+      kind: unit
+      state: planned
+  - id: R-9
+    kind: functional
+    text: WHEN a write reports coverage warnings, THE SYSTEM SHALL record a `coverage_gap` event in the events log and deliver it to configured webhooks.
+    tests:
+    - name: eventing::tests::coverage_gap_event
+      kind: unit
+      state: planned
+  - id: R-10
+    kind: functional
+    text: THE SYSTEM SHALL list every uncovered rule in `doctor`, and report invalid rules and unknown rule ids in gates as errors.
+    tests:
+    - name: doctor::tests::doctor_lists_uncovered_rules
+      kind: unit
+      state: planned
+  - id: R-11
+    kind: functional
+    text: WHERE a stage, or the role it holds, names default `affects_docs`, THE SYSTEM SHALL add them to the item's `affects_docs` when it enters the stage, without lapsing approval.
+    tests:
+    - name: tests::default_affects_docs_on_entry
+      kind: unit
+      state: planned
+    - name: config::tests::default_affects_docs_by_role
+      kind: unit
+      state: planned
+  - id: R-12
+    kind: functional
+    text: THE SYSTEM SHALL list `docs_cover` and its narrowing in `process checks` and in the guide's check table.
+    tests:
+    - name: readiness::tests::every_check_is_listed_with_a_description
+      kind: unit
+      state: planned
+    - name: readiness::tests::the_guides_check_table_matches_process_checks
+      kind: unit
+      state: planned
+    - name: readiness::tests::docs_cover_reads_and_narrows
+      kind: unit
+      state: planned
+  - id: R-13
+    kind: functional
+    text: IF coverage cannot be evaluated after a write, THEN THE SYSTEM SHALL keep the write and its normal output.
+    tests:
+    - name: coverage::tests::annotate_never_fails_a_write
+      kind: unit
+      state: planned
+  - id: R-14
+    kind: functional
+    text: IF a gate narrows `docs_cover` to a rule the project does not configure, THEN THE SYSTEM SHALL report an error gap naming it.
+    tests:
+    - name: readiness::tests::docs_cover_unknown_rule_is_error
+      kind: unit
+      state: planned
+  - id: R-15
+    kind: nfr
+    text: 'WHEN a move is judged, THE SYSTEM SHALL read only the rules'' source docs, once each. Scenario: 2,000 items, 200 source docs; the snapshot is built in under 2 s in a debug test, and `docs_read` equals the number of distinct source docs.'
+    tests:
+    - name: coverage::tests::snapshot_reads_only_source_docs_linearly
+      kind: unit
+      state: planned
+  - id: R-16
+    kind: functional
+    text: THE SYSTEM SHALL state in the skill when to list view docs, index new ADRs, fix coverage warnings before a move, and run `doctor` before a sprint merge or release cut.
+    tests:
+    - name: 'manual: skill coverage guidance present and matches docs/src/using/living-docs.md'
+      kind: manual
+      state: planned
+  - id: R-17
+    kind: functional
+    text: WHEN a status is renamed, THE SYSTEM SHALL rename it in coverage rules.
+    tests:
+    - name: tests::rename_status_updates_coverage_rules
+      kind: unit
+      state: planned
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T10:19:26.125609744Z
+updated_at: 2026-10-21T10:19:26.184147164Z

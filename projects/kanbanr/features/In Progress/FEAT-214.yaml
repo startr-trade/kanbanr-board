@@ -80,7 +80,7 @@ definition:
     - name: scope_claim_binds_a_worktree
       kind: integration
       state: green
-      checked_rev: 1f7713e46f8669585322e9d51c106be52c90928b
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
   - id: R-3
     kind: functional
     text: IF a board write under a scope is outside its operations or its item, THEN THE SYSTEM SHALL refuse it before anything changes and name the scope and the boundary crossed
@@ -246,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:36.968152282Z
+updated_at: 2026-10-21T18:53:37.037073188Z

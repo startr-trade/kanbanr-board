@@ -14,5 +14,159 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: Each release stage is a guarded state with conditions and entry actions, so a release prepares itself, moves main first, and is tagged only once main holds the release tip and that commit is pushed, with a one-click cut that says what it will do
+  goals:
+  - G-6
+  - G-5
+  - G-4
+  - G-0
+  zachman:
+    what: Conditions and entry actions per release stage, a release that prepares itself, and a one-click cut that shows its preview
+    how: A cadence.release_gates map keyed by stage name; promotion planned then applied in a fixed order (branch, prepare, move_main, tag, board) and undone in reverse on failure; the prepare commit written with git plumbing onto release/<V>; pushed read from remote-tracking refs
+    where: kanbanr-core (releases.rs, new releasegates.rs and releaseprep.rs, coderepo.rs, config.rs, dispatch.rs, openapi.rs), the CLI release and config commands, the daemon's read passthrough, web ReleasesPage.tsx
+    when: When a release enters or re-enters a stage, and whenever the Releases page or release promote --plan shows the next step
+    who: The developer, who pushes main and the tag by hand; Claude, who runs promote; reviewers reading the history
+    why: With 0.2.1 the tag would have existed before CI saw the commit, preparing a release needed its own item (FEAT-207, FEAT-211), and the cut needed a second confirmation panel
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL read each release stage's conditions and entry actions from cadence.release_gates, keyed by stage name, keeping cadence.release_stages a list of names
+    tests:
+    - name: release_gates_read_beside_stage_names
+      kind: unit
+      state: planned
+    - name: release_stage_routes_round_trip
+      kind: unit
+      state: planned
+  - id: R-2
+    kind: functional
+    text: IF a release gate names an unknown stage, check or action, or orders prepare, move_main and tag against the rules, THEN THE SYSTEM SHALL refuse the configuration and say why
+    tests:
+    - name: release_gates_validated
+      kind: unit
+      state: planned
+  - id: R-3
+    kind: functional
+    text: "WHILE a stage declares no gate, THE SYSTEM SHALL act as before: the first stage makes the branch, the last tags and fast-forwards main"
+    tests:
+    - name: default_release_gates_reproduce_today
+      kind: unit
+      state: planned
+    - name: promote_production_cuts_tags_merges
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: WHEN a release is promoted, THE SYSTEM SHALL work out every condition and step of the stages entered or passed before changing anything, and refuse with every missing condition and its fix if any fails
+    tests:
+    - name: promotion_refused_lists_every_missing_condition
+      kind: integration
+      state: planned
+    - name: condition_met_by_same_promotion_counts
+      kind: unit
+      state: planned
+  - id: R-5
+    kind: functional
+    text: WHEN a stage with move_main is entered, THE SYSTEM SHALL fast-forward main to the release tip without tagging, refusing if main has commits the release lacks
+    tests:
+    - name: move_main_stage_fast_forwards_without_tagging
+      kind: integration
+      state: planned
+  - id: R-6
+    kind: functional
+    text: WHEN a stage with tag is entered, THE SYSTEM SHALL tag the release tip only when main is at it and its required conditions hold
+    tests:
+    - name: cut_tags_main_only_when_pushed
+      kind: integration
+      state: planned
+  - id: R-7
+    kind: functional
+    text: THE SYSTEM SHALL judge pushed from main's remote-tracking branch, fetching first when applying, using the last-fetched refs when the fetch fails, and SHALL never push
+    tests:
+    - name: pushed_condition_reads_remote_tracking_ref
+      kind: unit
+      state: planned
+    - name: promote_fetches_and_works_offline
+      kind: integration
+      state: planned
+  - id: R-8
+    kind: functional
+    text: WHEN a stage with prepare is entered, THE SYSTEM SHALL commit the version files, the dated changelog heading, its copies, the notes draft and listings onto release/<V> in one commit, without checking anything out
+    tests:
+    - name: version_template_sets_first_or_every_match
+      kind: unit
+      state: planned
+    - name: changelog_heading_dated_with_compare_links
+      kind: unit
+      state: planned
+    - name: commit_files_moves_branch_without_checkout
+      kind: unit
+      state: planned
+    - name: prepare_commits_version_changelog_and_notes
+      kind: integration
+      state: planned
+  - id: R-9
+    kind: functional
+    text: IF a version file is missing or its match finds nothing, THEN THE SYSTEM SHALL refuse the promotion and change nothing
+    tests:
+    - name: prepare_refuses_unmatched_version_file
+      kind: integration
+      state: planned
+  - id: R-10
+    kind: functional
+    text: WHILE nothing is configured to prepare, THE SYSTEM SHALL bump no version, say so in the plan, and make no commit
+    tests:
+    - name: prepare_with_nothing_configured_makes_no_commit
+      kind: integration
+      state: planned
+  - id: R-11
+    kind: functional
+    text: IF a step or the board write fails after earlier steps, THEN THE SYSTEM SHALL undo every git step in reverse order
+    tests:
+    - name: failed_promotion_undoes_every_step
+      kind: integration
+      state: planned
+  - id: R-12
+    kind: functional
+    text: THE SYSTEM SHALL show on each unshipped release one button naming its next step, with what it will do and, for the cut, its preview, enabled only when the plan is ready, and otherwise what is missing
+    tests:
+    - name: web::release_button_says_what_it_does
+      kind: unit
+      state: planned
+    - name: release_plan_route_matches_promote
+      kind: integration
+      state: planned
+    - name: "manual: on kanbanr's board, v0.3.0 goes Promote to candidate, Promote to main, then Cut v0.3.0 disabled until main is pushed, then one click cuts it, in light and dark"
+      kind: manual
+      state: planned
+  - id: R-13
+    kind: functional
+    text: WHEN release promote --plan is run, THE SYSTEM SHALL print the plan and change nothing; after a promotion it SHALL print what is next
+    tests:
+    - name: promote_plan_changes_nothing
+      kind: integration
+      state: planned
+  - id: R-14
+    kind: functional
+    text: IF the release tip differs from the plan the caller saw, THEN THE SYSTEM SHALL refuse the promotion
+    tests:
+    - name: promote_refuses_when_release_moved_since_plan
+      kind: unit
+      state: planned
+  - id: R-15
+    kind: functional
+    text: THE SYSTEM SHALL keep release_gates and release_prepare across cadence writes that do not name them
+    tests:
+    - name: release_gates_survive_cadence_put
+      kind: unit
+      state: planned
+  - id: R-16
+    kind: functional
+    text: WHEN a release is taken through candidate, main and production as 0.2.1 was, THE SYSTEM SHALL prepare it, move main, refuse the cut until main is pushed, then tag main's tip without pushing
+    tests:
+    - name: release_flow_as_lived_with_0_2_1
+      kind: integration
+      state: planned
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T16:20:57.884968171Z
+updated_at: 2026-10-21T16:20:58.282671837Z

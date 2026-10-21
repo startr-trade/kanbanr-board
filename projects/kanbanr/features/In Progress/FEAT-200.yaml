@@ -91,7 +91,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: local_mode::cli_feature_add_prints_diagram_warning
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-3
     kind: functional
     text: WHILE `diagrams.strict` is on, IF the written text has a finding, THE SYSTEM SHALL refuse the write, change nothing (for a batch, nothing at all), and name each finding.
@@ -297,4 +298,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:15.812313226Z
+updated_at: 2026-10-21T11:51:15.863060724Z

@@ -1412,3 +1412,7 @@
   actor: Venkatraman B
   message: test agentscope::tests::commit_verdict_scoped of FEAT-214/R-5 is now green
   item: FEAT-214
+- time: 2026-10-21T18:18:24.632908446Z
+  actor: Venkatraman B
+  message: test store::tests::hold_skips_auto_advance of FEAT-214/R-14 is now green
+  item: FEAT-214

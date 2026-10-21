@@ -120,14 +120,16 @@
 - code: FEAT-206
   status: Planned
   milestone: MS-004
-  kind: null
-  priority: null
+  kind: chore
+  priority: High
   start: null
   due: null
   estimate_days: null
   assignee: null
   team: null
-  labels: []
+  labels:
+  - security
+  - dependencies
   depends_on: []
   done: 0
   total: 0

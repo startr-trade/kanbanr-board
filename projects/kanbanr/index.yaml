@@ -57,8 +57,8 @@
 - code: FEAT-215
   status: Planned
   milestone: MS-004
-  kind: null
-  priority: null
+  kind: docs
+  priority: High
   start: null
   due: null
   estimate_days: null

@@ -2,8 +2,8 @@ code: FEAT-215
 title: The skill states what each sub-agent may do
 status: Planned
 milestone: MS-004
-kind: null
-priority: null
+kind: docs
+priority: High
 start: null
 due: null
 estimate_days: null
@@ -37,4 +37,4 @@ definition:
       kind: manual
       state: planned
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:18:44.429717334Z
+updated_at: 2026-10-21T17:18:44.595759402Z

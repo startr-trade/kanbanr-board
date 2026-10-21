@@ -14,5 +14,155 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: "kanbanr enforces what each sub-agent may do: the coordinator issues a scope per agent with one command, recorded on the board and bound to the agent's worktree; every board write, commit and push from that worktree is checked against it, anything outside it is refused and named, and the agent's own progress is recorded and attributed"
+  goals:
+  - G-3
+  - G-1
+  - G-4
+  - G-0
+  - G-5
+  zachman:
+    what: Issued agent scopes (role, item, operations, branch, expiry, revocation), a pointer in the worktree, attribution, and a drift report
+    how: Core agentscope resolved in write::apply and checked before dispatch; the commit guard, the git hooks (with a new pre-push hook) and a CLI command gate refuse the rest; resolution fails closed for agent worktrees; drift from task timestamps against branch commits
+    where: kanbanr-core (agentscope, write, git, coderepo, store, gitdrift, guards); the CLI scope commands, guards and hooks; the monitor's item and Workflow pages; the skill and its hooks
+    when: Every time Claude starts a sub-agent, and on every write, commit and push from its worktree until the scope is revoked or expires
+    who: Claude as coordinator issues and revokes scopes; sub-agents work under them; the person reviews scopes and attribution on the board
+    why: On 21 Oct 2026 sub-agent limits lived only in prose briefs; one forbade all board writes and FEAT-212's tasks lagged six commits behind its code
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN the coordinator runs kanbanr scope issue <role> <CODE>, THE SYSTEM SHALL record the scope on the board with its issuer, item, operations, branch, issue time and expiry, and print the boundary table and claim command for the brief
+    tests:
+    - name: agentscope::tests::brief_names_item_branch_and_claim
+      kind: unit
+      state: planned
+    - name: scope_issue_records_and_prints_the_brief
+      kind: integration
+      state: planned
+  - id: R-2
+    kind: functional
+    text: WHEN kanbanr scope claim runs in a linked worktree, THE SYSTEM SHALL bind the scope to that worktree on the board and in the worktree's git directory
+    tests:
+    - name: scope_claim_binds_a_worktree
+      kind: integration
+      state: planned
+  - id: R-3
+    kind: functional
+    text: IF a board write under a scope is outside its operations or its item, THEN THE SYSTEM SHALL refuse it before anything changes and name the scope and the boundary crossed
+    tests:
+    - name: agentscope::tests::build_scope_allows_only_own_item_task_and_test_states
+      kind: unit
+      state: planned
+    - name: agentscope::tests::design_scope_refuses_every_write
+      kind: unit
+      state: planned
+    - name: agentscope::tests::requested_maps_routes_and_batch_ops
+      kind: unit
+      state: planned
+    - name: scoped_agent_records_task_and_test_but_cannot_move
+      kind: integration
+      state: planned
+  - id: R-4
+    kind: functional
+    text: IF a board write or commit comes from an agent worktree with no valid scope bound to it, THEN THE SYSTEM SHALL refuse it
+    tests:
+    - name: agentscope::tests::resolve_fails_closed
+      kind: unit
+      state: planned
+    - name: agent_worktree_without_scope_is_refused
+      kind: integration
+      state: planned
+  - id: R-5
+    kind: functional
+    text: IF a commit under a scope is on another branch, does not name the scope's item, or is made under a design, expired or revoked scope, THEN THE SYSTEM SHALL refuse it in the commit guard and the git hooks
+    tests:
+    - name: agentscope::tests::commit_verdict_scoped
+      kind: unit
+      state: planned
+    - name: scoped_commits_only_on_item_branch
+      kind: integration
+      state: planned
+  - id: R-6
+    kind: functional
+    text: IF a process in an agent worktree pushes the board or the code, THEN THE SYSTEM SHALL refuse it
+    tests:
+    - name: scoped_agent_cannot_push_or_sync
+      kind: integration
+      state: planned
+  - id: R-7
+    kind: functional
+    text: THE SYSTEM SHALL record each write and commit made under a scope as the person, by the agent for its item, in the activity entry, the event, the board commit and the code commit
+    tests:
+    - name: scoped_writes_are_attributed
+      kind: integration
+      state: planned
+  - id: R-8
+    kind: functional
+    text: WHEN a scope is revoked or its expiry passes, THE SYSTEM SHALL refuse every further write and commit under it
+    tests:
+    - name: agentscope::tests::scope_state_derives_issued_active_expired_revoked
+      kind: unit
+      state: planned
+    - name: revoked_and_expired_scopes_refuse
+      kind: integration
+      state: planned
+  - id: R-9
+    kind: functional
+    text: WHEN a build scope's branch has commits newer than its item's last task change, THE SYSTEM SHALL name them in the Stop hook, git doctor and session start
+    tests:
+    - name: agentscope::tests::drift_counts_commits_after_last_task_change
+      kind: unit
+      state: planned
+    - name: scope_drift_is_reported
+      kind: integration
+      state: planned
+  - id: R-10
+    kind: functional
+    text: THE SYSTEM SHALL show each project's scopes and their state on the monitor's item page and Workflow page
+    tests:
+    - name: web::check-agent-scopes
+      kind: unit
+      state: planned
+    - name: dispatch::tests::scopes_route_lists_state
+      kind: unit
+      state: planned
+  - id: R-11
+    kind: functional
+    text: WHERE no scope applies, THE SYSTEM SHALL behave as before
+    tests:
+    - name: main_session_unchanged_with_scopes_on_board
+      kind: integration
+      state: planned
+  - id: R-12
+    kind: functional
+    text: THE SYSTEM SHALL state in the skill that Claude issues a scope with one command before starting each sub-agent, starts it in its own worktree, and puts the generated brief into its brief
+    tests:
+    - name: skill::tests::skill_issues_a_scope_before_each_sub_agent
+      kind: unit
+      state: planned
+    - name: "manual: an orchestrated build agent records its own tasks and is refused a move"
+      kind: manual
+      state: planned
+  - id: R-13
+    kind: functional
+    text: IF a command run in an agent worktree would change kanbanr's own enforcement or write outside the board's write path, THEN THE SYSTEM SHALL refuse it
+    tests:
+    - name: outside_core_commands_refused_in_agent_worktree
+      kind: integration
+      state: planned
+    - name: architecture::tests::front_ends_are_thin
+      kind: unit
+      state: planned
+  - id: R-14
+    kind: functional
+    text: IF a task change under a scope would complete its item, THEN THE SYSTEM SHALL keep the item where it is and say the coordinator moves it
+    tests:
+    - name: scoped_task_completion_holds_auto_advance
+      kind: integration
+      state: planned
+    - name: store::tests::hold_skips_auto_advance
+      kind: unit
+      state: planned
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T17:31:47.745732021Z
+updated_at: 2026-10-21T17:32:08.029610684Z

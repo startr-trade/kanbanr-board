@@ -1,6 +1,6 @@
 code: FEAT-203
 title: Diagrams drawn by Pele, themed like the book and the monitor
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: null
 priority: null
@@ -72,5 +72,9 @@ definition:
     rev: d9e5f392aa86d20b
     note: given in the session dialog
     status: Planned
+history:
+- at: 2026-10-21T08:58:30.198410396Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-20T13:08:19.356770106Z
+updated_at: 2026-10-21T08:58:30.198410396Z

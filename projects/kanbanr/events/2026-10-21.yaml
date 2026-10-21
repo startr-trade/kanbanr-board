@@ -1,0 +1,8 @@
+- time: 2026-10-21T08:58:30.240470682Z
+  project: kanbanr
+  kind: feature_moved
+  feature: FEAT-203
+  message: feature FEAT-203 moved to In Progress
+  detail:
+    status: In Progress
+    terminal: false

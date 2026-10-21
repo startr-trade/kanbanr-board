@@ -173,5 +173,15 @@ definition:
     - name: tests::rename_status_updates_coverage_rules
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T10:19:32.535758125Z
+    rev: 00ed78e1460c4a5b
+  approvals:
+  - at: 2026-10-21T10:19:32.535758125Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 00ed78e1460c4a5b
+    status: Planned
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T10:19:26.184147164Z
+updated_at: 2026-10-21T10:19:32.535758125Z

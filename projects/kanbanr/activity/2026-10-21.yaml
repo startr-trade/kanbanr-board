@@ -454,3 +454,7 @@
   actor: Venkatraman B
   message: test migration_without_history_lapses_and_reports of FEAT-187/R-5 is now green
   item: FEAT-187
+- time: 2026-10-21T12:16:55.159385274Z
+  actor: Venkatraman B
+  message: test a_migrated_board_is_too_new_for_older_readers of FEAT-187/R-6 is now green
+  item: FEAT-187

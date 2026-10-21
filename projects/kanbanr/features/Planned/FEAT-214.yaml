@@ -7,10 +7,11 @@ priority: High
 start: null
 due: null
 estimate_days: null
+sprint: SP-001
 assignee: null
 team: null
 labels: []
 depends_on: []
 todo_lists: []
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T17:16:38.764621091Z
+updated_at: 2026-10-21T17:16:38.905256906Z

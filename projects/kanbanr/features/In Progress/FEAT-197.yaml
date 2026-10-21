@@ -29,7 +29,7 @@ todo_lists:
     state: Completed
   - key: T3
     text: "3 Readiness: docs_cover check and condition; evaluate_entering"
-    state: NotStarted
+    state: Completed
   - key: T4
     text: "4 Store: gate at the target stage; default docs on entry; set_coverage; rename_status"
     state: NotStarted
@@ -257,4 +257,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:26.819643897Z
+updated_at: 2026-10-21T12:59:26.88419093Z

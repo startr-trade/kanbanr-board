@@ -94,9 +94,14 @@ definition:
     rev: d9e5f392aa86d20b
     note: given in the session dialog
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-21T09:09:18.808075871Z
+    rev: d9e5f392aa86d20b
+    status: In Progress
 history:
 - at: 2026-10-21T08:58:30.198410396Z
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T09:06:17.991396691Z
+updated_at: 2026-10-21T09:09:18.808075871Z

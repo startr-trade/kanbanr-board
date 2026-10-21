@@ -1,6 +1,6 @@
 code: FEAT-211
 title: Release 0.2.1
-status: Planned
+status: In Progress
 milestone: MS-004
 kind: chore
 priority: High
@@ -57,5 +57,9 @@ definition:
     rev: f86e4755e660af89
     note: given in the session dialog, 21 Oct 2026
     status: Planned
+history:
+- at: 2026-10-21T15:02:15.400077034Z
+  from: Planned
+  to: In Progress
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:02:08.127059713Z
+updated_at: 2026-10-21T15:02:15.400077034Z

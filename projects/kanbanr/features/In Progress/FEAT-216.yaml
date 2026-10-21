@@ -35,7 +35,8 @@ todo_lists:
     changed_at: 2026-10-21T20:29:04.226329694Z
   - key: T5
     text: "5 kanbanr's board: index.md listing; v0.3.0's notes rewritten; manual check (coordinator)"
-    state: NotStarted
+    state: InProgress
+    changed_at: 2026-10-21T20:33:23.887439614Z
   created_at: 2026-10-21T20:03:14.187284127Z
 definition:
   statement: A release's notes are visible and editable from the release itself, in the CLI and on the Releases page, without switching branches or making a separate item
@@ -118,4 +119,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:29:04.226329694Z
+updated_at: 2026-10-21T20:33:23.887647754Z

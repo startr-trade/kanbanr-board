@@ -1698,3 +1698,7 @@
   actor: Venkatraman B
   message: test promotion_refused_lists_every_missing_condition of FEAT-212/R-4 is now green
   item: FEAT-212
+- time: 2026-10-21T19:38:50.396427472Z
+  actor: Venkatraman B
+  message: test condition_met_by_same_promotion_counts of FEAT-212/R-4 is now green
+  item: FEAT-212

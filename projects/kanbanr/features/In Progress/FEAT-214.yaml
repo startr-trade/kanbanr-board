@@ -84,7 +84,8 @@ definition:
     tests:
     - name: agentscope::tests::build_scope_allows_only_own_item_task_and_test_states
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 511fb0ecdf91ea6812c9cb252851649c802b4202
     - name: agentscope::tests::design_scope_refuses_every_write
       kind: unit
       state: planned
@@ -223,4 +224,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:18:24.088718344Z
+updated_at: 2026-10-21T18:18:24.161464984Z

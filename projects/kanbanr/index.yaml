@@ -41,7 +41,7 @@
   done: 0
   total: 0
 - code: FEAT-187
-  status: Planned
+  status: In Progress
   milestone: MS-004
   kind: chore
   priority: null
@@ -117,22 +117,6 @@
   depends_on: []
   done: 0
   total: 0
-- code: FEAT-176
-  status: Completed
-  milestone: MS-004
-  kind: refactor
-  priority: medium
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - architecture
-  - core
-  depends_on: []
-  done: 11
-  total: 11
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2660,6 +2644,22 @@
   depends_on: []
   done: 4
   total: 4
+- code: FEAT-176
+  status: Completed
+  milestone: MS-004
+  kind: refactor
+  priority: medium
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - architecture
+  - core
+  depends_on: []
+  done: 11
+  total: 11
 - code: FEAT-177
   status: Completed
   milestone: MS-003

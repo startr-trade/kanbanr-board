@@ -29,3 +29,5 @@
   issued_at: 2026-10-21T20:03:14.263265049Z
   expires_at: 2026-10-22T04:03:14.263265049Z
   note: tasks T1-T4
+  worktree: .claude/worktrees/agent-acc1dff5848a1c84e
+  claimed_at: 2026-10-21T20:03:49.741032973Z

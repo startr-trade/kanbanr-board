@@ -1627,3 +1627,7 @@
   actor: Venkatraman B
   message: test scoped_task_completion_holds_auto_advance of FEAT-214/R-14 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:44.934700622Z
+  actor: Venkatraman B
+  message: test store::tests::hold_skips_auto_advance of FEAT-214/R-14 is now green
+  item: FEAT-214

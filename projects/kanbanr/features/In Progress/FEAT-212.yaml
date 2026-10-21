@@ -55,7 +55,7 @@ todo_lists:
     state: Completed
   - key: T13
     text: 13 Several version-file entries per path, e.g. api/Cargo.lock's three crates (user's decision 21 Oct)
-    state: InProgress
+    state: Completed
   created_at: 2026-10-21T16:24:00.831640597Z
 definition:
   statement: Each release stage is a guarded state with conditions and entry actions, so a release prepares itself, moves main first, and is tagged only once main holds the release tip and that commit is pushed, with a one-click cut that says what it will do
@@ -275,4 +275,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T18:09:57.498349501Z
+updated_at: 2026-10-21T18:09:57.566220183Z

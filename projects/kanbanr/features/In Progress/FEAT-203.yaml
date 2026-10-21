@@ -20,7 +20,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: '2 Book: drop mdbook-mermaid; pele-init.js, pele-theme.css, diagram-open.js retargeted'
-    state: NotStarted
+    state: Completed
   - key: T3
     text: 3 check:docs renders every diagram with Pele (R-1)
     state: NotStarted
@@ -96,4 +96,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T13:07:20.661640122Z
-updated_at: 2026-10-21T09:06:17.656575705Z
+updated_at: 2026-10-21T09:06:17.698448106Z

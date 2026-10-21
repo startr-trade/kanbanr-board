@@ -573,3 +573,12 @@
     by: Venkatraman B
     signoff: docs-folded
     reason: ""
+- time: 2026-10-21T17:20:06.798672838Z
+  project: kanbanr
+  kind: signoff_recorded
+  feature: FEAT-215
+  message: Venkatraman B signed off docs-folded on FEAT-215
+  detail:
+    by: Venkatraman B
+    signoff: docs-folded
+    reason: ""

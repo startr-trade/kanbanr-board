@@ -564,3 +564,7 @@
   actor: Venkatraman B
   message: test tests::default_affects_docs_on_entry of FEAT-197/R-11 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:26.103153874Z
+  actor: Venkatraman B
+  message: test config::tests::default_affects_docs_by_role of FEAT-197/R-11 is now green
+  item: FEAT-197

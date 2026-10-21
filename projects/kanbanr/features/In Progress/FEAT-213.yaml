@@ -66,7 +66,8 @@ definition:
     tests:
     - name: web::workflow_shows_cadence_git_model_and_guards
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 2b321700edf0afb81ad232ba6c8ac3e90263c498
     - name: "manual: the Workflow page on kanbanr's board shows its sprint, releases, git model and guard rails, in light and dark"
       kind: manual
       state: planned
@@ -107,4 +108,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T16:02:15.359770841Z
-updated_at: 2026-10-21T16:25:19.046673669Z
+updated_at: 2026-10-21T16:25:19.118133537Z

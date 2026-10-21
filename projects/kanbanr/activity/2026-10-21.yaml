@@ -1472,3 +1472,7 @@
   actor: Venkatraman B
   message: test scope_issue_records_and_prints_the_brief of FEAT-214/R-1 is now green
   item: FEAT-214
+- time: 2026-10-21T18:46:30.748157349Z
+  actor: Venkatraman B
+  message: test scope_claim_binds_a_worktree of FEAT-214/R-2 is now green
+  item: FEAT-214

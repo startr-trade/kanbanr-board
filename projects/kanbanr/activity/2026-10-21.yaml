@@ -528,3 +528,7 @@
   actor: Venkatraman B
   message: test coverage::tests::no_rules_no_effect of FEAT-197/R-4 is now green
   item: FEAT-197
+- time: 2026-10-21T12:59:25.500606Z
+  actor: Venkatraman B
+  message: test local_mode::coverage_silent_without_rules of FEAT-197/R-4 is now green
+  item: FEAT-197

@@ -1718,3 +1718,7 @@
   actor: Venkatraman B
   message: test promote_fetches_and_works_offline of FEAT-212/R-7 is now green
   item: FEAT-212
+- time: 2026-10-21T19:38:50.759525169Z
+  actor: Venkatraman B
+  message: test version_template_sets_first_or_every_match of FEAT-212/R-8 is now green
+  item: FEAT-212

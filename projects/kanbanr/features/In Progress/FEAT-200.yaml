@@ -75,7 +75,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::ignores_mermaid_inside_other_fences
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: dispatch::tests::write_reports_diagram_warnings
       kind: unit
       state: planned
@@ -294,4 +295,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:15.668144484Z
+updated_at: 2026-10-21T11:51:15.715187056Z

@@ -226,3 +226,7 @@
   actor: Venkatraman B
   message: test diagrams::tests::extracts_mermaid_blocks_with_file_lines of FEAT-200/R-1 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:15.718309688Z
+  actor: Venkatraman B
+  message: test diagrams::tests::ignores_mermaid_inside_other_fences of FEAT-200/R-1 is now green
+  item: FEAT-200

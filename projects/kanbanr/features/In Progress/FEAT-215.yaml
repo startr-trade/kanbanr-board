@@ -45,7 +45,8 @@ definition:
       checked_rev: e7c9d69ef7fb106e63d41e004225f1b359dc0ce7
     - name: "manual: the skill's and the book's sub-agent subsections agree"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: e7c9d69ef7fb106e63d41e004225f1b359dc0ce7
   approval:
     by: Venkatraman B
     at: 2026-10-21T17:19:02.730224101Z
@@ -73,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:20:20.709080745Z
+updated_at: 2026-10-21T17:20:20.783957003Z

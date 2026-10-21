@@ -386,3 +386,7 @@
   actor: Venkatraman B
   message: test local_mode::cli_config_diagrams_strict_toggles of FEAT-200/R-17 is now green
   item: FEAT-200
+- time: 2026-10-21T11:51:17.859438987Z
+  actor: Venkatraman B
+  message: test skill::tests::skill_carries_diagram_guidance of FEAT-200/R-18 is now green
+  item: FEAT-200

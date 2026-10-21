@@ -40,5 +40,15 @@ definition:
     - name: cargo test --workspace
       kind: integration
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T13:40:31.583196171Z
+    rev: a8ca806af333cbf2
+  approvals:
+  - at: 2026-10-21T13:40:31.583196171Z
+    by: Venkatraman B
+    verdict: approved
+    rev: a8ca806af333cbf2
+    status: Planned
 created_at: 2026-10-21T13:38:57.261933677Z
-updated_at: 2026-10-21T13:39:08.708630551Z
+updated_at: 2026-10-21T13:40:31.583196171Z

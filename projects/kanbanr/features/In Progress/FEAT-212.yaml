@@ -250,7 +250,8 @@ definition:
     tests:
     - name: an_empty_release_cannot_be_promoted
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: web::release_button_says_what_it_does
       kind: unit
       state: planned
@@ -281,4 +282,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:51.94007899Z
+updated_at: 2026-10-21T19:38:52.014395977Z

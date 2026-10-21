@@ -84,5 +84,10 @@ cadence:
   - main
   - production
   git_model: true
+  release_gates:
+    candidate:
+      on_enter:
+      - branch
+      - prepare
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z

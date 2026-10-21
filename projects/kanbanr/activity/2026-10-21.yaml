@@ -1658,3 +1658,6 @@
 - time: 2026-10-21T19:37:46.87478588Z
   actor: Venkatraman B
   message: "update config: cadence"
+- time: 2026-10-21T19:37:47.769191603Z
+  actor: Venkatraman B
+  message: PUT /projects/kanbanr/config/release-stages/candidate

@@ -524,3 +524,10 @@
     by: Venkatraman B
     signoff: design-review
     reason: ""
+- time: 2026-10-21T17:16:38.662042374Z
+  project: kanbanr
+  kind: feature_added
+  feature: FEAT-214
+  message: feature FEAT-214 added
+  detail:
+    status: Planned

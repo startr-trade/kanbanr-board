@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Skill subsection and pointers; the book's subsection; guard test; changelog
-    state: InProgress
+    state: Completed
   created_at: 2026-10-21T17:19:03.310312429Z
 definition:
   statement: In every project using kanbanr, Claude briefs each sub-agent with precise boundaries for its role, build agents record their own progress, and the board never lags the code
@@ -74,4 +74,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:18:44.3198266Z
-updated_at: 2026-10-21T17:20:20.783957003Z
+updated_at: 2026-10-21T17:20:20.89417473Z

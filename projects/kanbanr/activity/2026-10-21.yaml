@@ -1714,3 +1714,7 @@
   actor: Venkatraman B
   message: test pushed_condition_reads_remote_tracking_ref of FEAT-212/R-7 is now green
   item: FEAT-212
+- time: 2026-10-21T19:38:50.692159666Z
+  actor: Venkatraman B
+  message: test promote_fetches_and_works_offline of FEAT-212/R-7 is now green
+  item: FEAT-212

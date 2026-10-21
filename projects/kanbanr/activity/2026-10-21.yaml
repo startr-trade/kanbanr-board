@@ -1623,3 +1623,7 @@
   actor: Venkatraman B
   message: test architecture::tests::front_ends_are_thin of FEAT-214/R-13 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:44.857164383Z
+  actor: Venkatraman B
+  message: test scoped_task_completion_holds_auto_advance of FEAT-214/R-14 is now green
+  item: FEAT-214

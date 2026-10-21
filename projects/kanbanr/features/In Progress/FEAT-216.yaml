@@ -19,8 +19,8 @@ todo_lists:
   tasks:
   - key: T1
     text: "1 Core: ReleaseNotes, release_notes, set_release_notes"
-    state: InProgress
-    changed_at: 2026-10-21T20:03:49.941445596Z
+    state: Completed
+    changed_at: 2026-10-21T20:14:58.551365358Z
   - key: T2
     text: 2 Routes, daemon read repo; CLI release notes (show, --file, --edit)
     state: NotStarted
@@ -111,4 +111,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:02:31.534402216Z
-updated_at: 2026-10-21T20:12:37.508278237Z
+updated_at: 2026-10-21T20:14:58.551365358Z

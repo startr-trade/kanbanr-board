@@ -151,7 +151,8 @@ definition:
       checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
     - name: diagrams::tests::lint_cases_fixture
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4f6048988d74cc96b4617230590b502f8b3b2cd6
   - id: R-8
     kind: functional
     text: THE SYSTEM SHALL report unbalanced subgraph/alt/loop/opt/par/critical/break/rect/box … `end`, misplaced `else`/`and`/`option`, and unbalanced `{}` in state and class diagrams (`unbalanced_block`).
@@ -307,4 +308,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T11:51:16.348207985Z
+updated_at: 2026-10-21T11:51:16.400814416Z

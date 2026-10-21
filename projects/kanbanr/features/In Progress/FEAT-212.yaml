@@ -219,7 +219,8 @@ definition:
     tests:
     - name: release_gates_survive_cadence_put
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 0483c58d9f0566ba0b36269be9ef5601c4d85989
   - id: R-16
     kind: functional
     text: WHEN a release is taken through candidate, main and production as 0.2.1 was, THE SYSTEM SHALL prepare it, move main, refuse the cut until main is pushed, then tag main's tip without pushing
@@ -259,4 +260,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:15:36.227938951Z
+updated_at: 2026-10-21T17:15:36.311054485Z

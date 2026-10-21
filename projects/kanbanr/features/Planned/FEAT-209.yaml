@@ -12,5 +12,24 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: A diagram opened full size from the book draws in the reader's theme, as it does in the page
+  goals:
+  - G-5
+  zachman:
+    what: The book's open-a-diagram-in-a-new-tab copy
+    how: Keep Pele's colour variables on the copied SVG and take the tab's colours from the diagram's theme
+    where: docs/diagram-open.js
+    when: Whenever a reader clicks or presses Enter on a diagram in the book
+    who: Readers of the kanbanr book
+    why: Since diagrams moved to Pele, the opened copy lost its colours and drew as black boxes on white
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN a reader opens a diagram from the book, THE SYSTEM SHALL show it with the shapes, labels and background colours of the theme it was opened from
+    tests:
+    - name: "manual: a diagram opened from the book draws in its theme"
+      kind: manual
+      state: planned
 created_at: 2026-10-21T14:32:32.591156215Z
-updated_at: 2026-10-21T14:32:32.591156215Z
+updated_at: 2026-10-21T14:32:32.668417794Z

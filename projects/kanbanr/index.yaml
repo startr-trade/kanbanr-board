@@ -43,8 +43,8 @@
 - code: FEAT-216
   status: Planned
   milestone: MS-004
-  kind: null
-  priority: null
+  kind: feature
+  priority: High
   start: null
   due: null
   estimate_days: null

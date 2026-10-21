@@ -98,7 +98,8 @@ definition:
     tests:
     - name: default_release_gates_reproduce_today
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: promote_production_cuts_tags_merges
       kind: integration
       state: planned
@@ -259,4 +260,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:50.096794479Z
+updated_at: 2026-10-21T19:38:50.162665713Z

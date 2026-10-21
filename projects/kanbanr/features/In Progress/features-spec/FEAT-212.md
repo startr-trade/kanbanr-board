@@ -25,7 +25,7 @@ main; the final stage (the cut) tags main. Pushing code and tags stays the user'
   FEAT-207 and FEAT-211 are the redundancy this removes.
 
 - **One click to cut** (the user, 21 Oct 2026, cutting 0.2.1): today "Promote to production (cut)"
-  opens a second panel with a "Cut <V>" button. The cut's button should say what it does ("Cut
+  opens a second panel with a "Cut \<V\>" button. The cut's button should say what it does ("Cut
   v0.2.1") and show its preview (the commit it will tag, what ships and what carries over) beside
   it, so one click cuts. The stage's conditions (main at the release tip, on `origin/main`) are what
   keep it safe: the button is offered only once they hold, and says what is missing until then.
@@ -103,9 +103,9 @@ The example above is kanbanr's own config. The Cargo.lock entry is repeated for 
 
 | check | holds when | fix shown |
 |---|---|---|
-| `items_finished` | `cut_preview` carries nothing over | "FEAT-x carries over: <why>. Finish it, or plan it into another release" |
-| `prepared` | at the release tip, every version file names `{number}`, the changelog has `## [{number}]`, and the notes file exists. Holds trivially when `release_prepare` is empty. | "promote to <stage holding prepare>" |
-| `main_at_release` | `rev(main) == rev(release/<V>)`, or a patch whose main has moved on | "promote to <stage with move_main>", or "merge main into release/<V> first" plus the commits |
+| `items_finished` | `cut_preview` carries nothing over | "FEAT-x carries over: \<why\>. Finish it, or plan it into another release" |
+| `prepared` | at the release tip, every version file names `{number}`, the changelog has `## [{number}]`, and the notes file exists. Holds trivially when `release_prepare` is empty. | "promote to \<stage holding prepare\>" |
+| `main_at_release` | `rev(main) == rev(release/<V>)`, or a patch whose main has moved on | "promote to \<stage with move_main\>", or "merge main into release/\<V\> first" plus the commits |
 | `pushed` | the release tip is an ancestor of main's remote-tracking branch (`main@{upstream}`, else `origin/<main>`). For a patch left behind: any remote-tracking branch contains it (`git branch -r --contains`). | "push main (`git push origin main`), then wait for CI" |
 
 **Rules:**
@@ -225,11 +225,11 @@ pub fn promote(...same as today...) -> Result<Promoted> // = promote_with(.., {e
 
 **Apply (`promote_with`):**
 1. `plan(…, Fetch::Try)`. A fetch happens only if a `pushed` condition is among the checked stages, and a failed fetch is recorded in `origin.fetch_error`. Refuse unless `ready`, joining `missing` with the fix sentences ("…: nothing was changed").
-2. If `expect_tip` is given and differs from `release_tip`, refuse: "release/<V> moved since the plan you saw (now <sha7>): look again".
+2. If `expect_tip` is given and differs from `release_tip`, refuse: "release/\<V\> moved since the plan you saw (now \<sha7\>): look again".
 3. Apply the git steps in `ReleaseAction` order and push each onto `Vec<Undo>`, where `enum Undo { DeleteBranch(String), UndoCommit{branch, old, new}, ResetMain{branch, to}, DeleteTag(String) }`.
 4. Board: for the cut, save the `branch` record first (as today), then `cut_with(store, id, version, Some(change))`. Otherwise push the `StageChange` and `save`.
 5. On any failure after a step: undo in reverse. Restore `original` releases if the branch record was saved. Return `rolled_back(e, first_undo_error)`, so the messages are unchanged.
-6. `next`: `plan(…, next stage, Fetch::No)` gives "next: `kanbanr release promote <V>` (<button>)" when ready, else "next: <first missing fix>, then <button>". After a tag: "push the tag: `git push origin <V>`".
+6. `next`: `plan(…, next stage, Fetch::No)` gives "next: `kanbanr release promote <V>` (\<button\>)" when ready, else "next: \<first missing fix\>, then \<button\>". After a tag: "push the tag: `git push origin <V>`".
 
 **Other changes in `releases.rs`:**
 - The forward-merge list (`commits_between(integration, branch)`) is reported for every release whose main moved or that was tagged, not only patches. It is appended to the notes doc only for patches, as today.

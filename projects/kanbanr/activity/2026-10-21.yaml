@@ -855,3 +855,7 @@
   actor: Venkatraman B
   message: sign off docs-folded on FEAT-210
   item: FEAT-210
+- time: 2026-10-21T14:42:49.70762375Z
+  actor: Venkatraman B
+  message: "test manual: verify-install.sh passes against the published v0.2.0 of FEAT-210/R-1 is now green"
+  item: FEAT-210

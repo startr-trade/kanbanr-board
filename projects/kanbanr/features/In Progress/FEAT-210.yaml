@@ -30,7 +30,8 @@ definition:
     tests:
     - name: "manual: verify-install.sh passes against the published v0.2.0"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: 7aeca8061a4d8f141219d1c2369d50c45660ed93
   approval:
     by: Venkatraman B
     at: 2026-10-21T14:41:36.886710053Z
@@ -58,4 +59,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T14:41:16.436390729Z
-updated_at: 2026-10-21T14:42:14.70207937Z
+updated_at: 2026-10-21T14:42:49.705741627Z

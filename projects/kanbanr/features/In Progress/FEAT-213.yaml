@@ -50,7 +50,8 @@ definition:
     tests:
     - name: guards_route_reports_every_guard_rail
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 2b321700edf0afb81ad232ba6c8ac3e90263c498
   - id: R-2
     kind: functional
     text: WHEN the monitor asks for the git model or git doctor, THE SYSTEM SHALL answer from the code repository the daemon was started in
@@ -105,4 +106,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T16:02:15.359770841Z
-updated_at: 2026-10-21T16:07:03.062464713Z
+updated_at: 2026-10-21T16:25:18.97274085Z

@@ -58,7 +58,8 @@ definition:
     tests:
     - name: daemon_serves_git_model_with_its_repository
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 2b321700edf0afb81ad232ba6c8ac3e90263c498
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL show on the Workflow page the cadence, the git model and the guard rails, each with the command that changes it, read-only
@@ -106,4 +107,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T16:02:15.359770841Z
-updated_at: 2026-10-21T16:25:18.97274085Z
+updated_at: 2026-10-21T16:25:19.046673669Z

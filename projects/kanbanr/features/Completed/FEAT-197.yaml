@@ -1,6 +1,6 @@
 code: FEAT-197
 title: Architecture coverage rules checked at lifecycle events (item added, moved or edited; ADR accepted; sprint close), with default affects_docs per stage and skill guidance
-status: In Progress
+status: Completed
 milestone: MS-007
 kind: feature
 priority: high
@@ -50,7 +50,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: 10 Skill guidance
-    state: NotStarted
+    state: Completed
   created_at: 2026-10-21T12:21:11.021010482Z
 definition:
   statement: Architecture coverage rules, checked whenever the board changes, keep the cross-cutting views (Zachman matrix, ADR index, component catalog) complete, so the architecture docs describe everything built and decided, not only what each item's own docs cover
@@ -256,5 +256,8 @@ history:
 - at: 2026-10-21T12:21:06.312700839Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T12:59:27.373360139Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-19T15:54:21.985654531Z
-updated_at: 2026-10-21T12:59:27.305803774Z
+updated_at: 2026-10-21T12:59:27.373360139Z

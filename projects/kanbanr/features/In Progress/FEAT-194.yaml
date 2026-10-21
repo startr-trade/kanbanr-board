@@ -67,7 +67,8 @@ definition:
     tests:
     - name: "manual: skill method by role present and matches the docs"
       kind: manual
-      state: planned
+      state: green
+      checked_rev: 5ad5d9d5233b3f1e8e85c6e84b1432af27e1ce9d
   - id: R-2
     kind: functional
     text: WHEN a project is set up, THE SYSTEM SHALL ask whether sprints and releases are on and show the resulting git model before applying it.
@@ -102,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T04:40:11.085162095Z
-updated_at: 2026-10-21T13:24:03.088134793Z
+updated_at: 2026-10-21T13:27:46.458576495Z

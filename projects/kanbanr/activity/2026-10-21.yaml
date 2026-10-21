@@ -1615,3 +1615,7 @@
   actor: Venkatraman B
   message: test skill::tests::skill_issues_a_scope_before_each_sub_agent of FEAT-214/R-12 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:44.709515772Z
+  actor: Venkatraman B
+  message: test outside_core_commands_refused_in_agent_worktree of FEAT-214/R-13 is now green
+  item: FEAT-214

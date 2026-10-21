@@ -12,5 +12,32 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: kanbanr 0.2.1 can be cut and released, carrying the two fixes found after 0.2.0, with notes that say what they fix
+  goals:
+  - G-6
+  - G-5
+  zachman:
+    what: The workspace and extension versions, the release notes, the changelog heading
+    how: One commit setting 0.2.1 everywhere the release workflow checks, and the notes page
+    where: api/Cargo.toml, editor/vscode/package.json, web/package.json, .claude-plugin/plugin.json, docs/src/releases, CHANGELOG.md
+    when: Before v0.2.1 is promoted to candidate
+    who: kanbanr users; the user, who promotes, pushes and tags
+    why: Two fixes are finished, and the release workflow refuses a tag whose version and notes are not in the tree
+  requirements:
+  - id: R-1
+    kind: functional
+    text: WHEN v0.2.1 is tagged, THE SYSTEM SHALL pass the release workflow's checks that the tag, the workspace version, the extension version and the release notes agree
+    tests:
+    - name: "manual: release.yml's tag checks pass for v0.2.1"
+      kind: manual
+      state: planned
+  - id: R-2
+    kind: functional
+    text: THE SYSTEM SHALL continue to pass its test suite and docs checks after the version change
+    tests:
+    - name: cargo test --workspace
+      kind: integration
+      state: planned
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:00:18.887286497Z
+updated_at: 2026-10-21T15:00:29.679341619Z

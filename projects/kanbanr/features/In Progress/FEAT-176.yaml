@@ -46,7 +46,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: 10 Server duplicates
-    state: InProgress
+    state: Completed
   - key: T11
     text: 11 Drop the CLI's serde_yaml; baseline empty; docs
     state: NotStarted
@@ -103,4 +103,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-15T15:21:38.931694424Z
-updated_at: 2026-10-21T10:21:17.148037758Z
+updated_at: 2026-10-21T10:21:17.195082757Z

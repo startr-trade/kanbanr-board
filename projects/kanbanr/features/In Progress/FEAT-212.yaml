@@ -151,7 +151,8 @@ definition:
       state: planned
     - name: version_files_allow_several_entries_per_path
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 7b361ee2b366388926f85d11eeabfcf29fd84611
     - name: prepare_applies_every_entry_for_a_file
       kind: integration
       state: planned
@@ -249,4 +250,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:36:38.058896528Z
+updated_at: 2026-10-21T19:36:38.159201036Z

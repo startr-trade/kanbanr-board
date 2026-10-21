@@ -19,7 +19,7 @@ todo_lists:
   tasks:
   - key: T1
     text: 1 Scope model and checks (core)
-    state: InProgress
+    state: Completed
   - key: T2
     text: 2 Resolution
     state: InProgress
@@ -222,4 +222,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:12:52.77297316Z
+updated_at: 2026-10-21T18:17:57.566731799Z

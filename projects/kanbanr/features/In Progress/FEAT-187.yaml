@@ -64,7 +64,7 @@ definition:
     - name: yaml::tests::board_files_round_trip
       kind: unit
       state: green
-      checked_rev: 4f74680dbda1
+      checked_rev: 010387ef5412
   - id: R-3
     kind: functional
     text: THE SYSTEM SHALL compute every content revision from a canonical form that does not depend on how YAML is written.
@@ -119,4 +119,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-21T11:15:49.586183898Z
+updated_at: 2026-10-21T11:29:23.079510773Z

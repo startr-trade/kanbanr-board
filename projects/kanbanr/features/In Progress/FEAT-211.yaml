@@ -68,9 +68,14 @@ definition:
     rev: f86e4755e660af89
     note: given in the session dialog, 21 Oct 2026
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-21T15:08:05.291422415Z
+    rev: f86e4755e660af89
+    status: In Progress
 history:
 - at: 2026-10-21T15:02:15.400077034Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.887286497Z
-updated_at: 2026-10-21T15:04:48.268539453Z
+updated_at: 2026-10-21T15:08:05.291662519Z

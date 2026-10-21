@@ -1543,3 +1543,7 @@
   actor: Venkatraman B
   message: test scope_claim_binds_a_worktree of FEAT-214/R-2 is now green
   item: FEAT-214
+- time: 2026-10-21T18:53:37.117731839Z
+  actor: Venkatraman B
+  message: test agentscope::tests::build_scope_allows_only_own_item_task_and_test_states of FEAT-214/R-3 is now green
+  item: FEAT-214

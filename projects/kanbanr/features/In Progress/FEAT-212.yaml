@@ -13,7 +13,44 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: "1 Config types and validation: releasegates.rs"
+    state: NotStarted
+  - key: T2
+    text: "2 Text transforms: releaseprep.rs"
+    state: NotStarted
+  - key: T3
+    text: 3 Git plumbing in coderepo.rs
+    state: NotStarted
+  - key: T4
+    text: "4 Plan: releases::plan"
+    state: NotStarted
+  - key: T5
+    text: "5 Apply: promote_with, undo engine, steps"
+    state: NotStarted
+  - key: T6
+    text: 6 Store, routes and OpenAPI
+    state: NotStarted
+  - key: T7
+    text: "7 Daemon: repository for reads"
+    state: NotStarted
+  - key: T8
+    text: "8 CLI: promote --plan, release stages, config release-stage/release-prepare"
+    state: NotStarted
+  - key: T9
+    text: "9 Web: one-button Releases page; check-release-action"
+    state: NotStarted
+  - key: T10
+    text: 10 Docs and skill; manual check
+    state: NotStarted
+  - key: T11
+    text: "11 kanbanr's own board: candidate, main, production with prepare (after the build)"
+    state: NotStarted
+  created_at: 2026-10-21T16:24:00.831640597Z
 definition:
   statement: Each release stage is a guarded state with conditions and entry actions, so a release prepares itself, moves main first, and is tagged only once main holds the release tip and that commit is pushed, with a one-click cut that says what it will do
   goals:
@@ -190,4 +227,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T16:24:00.523605485Z
+updated_at: 2026-10-21T16:24:00.831664586Z

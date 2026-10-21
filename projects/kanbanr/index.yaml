@@ -40,20 +40,6 @@
   - FEAT-185
   done: 0
   total: 0
-- code: FEAT-208
-  status: In Progress
-  milestone: MS-004
-  kind: defect
-  priority: High
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 0
-  total: 0
 - code: FEAT-200
   status: In Progress
   milestone: MS-007
@@ -87,6 +73,20 @@
   depends_on: []
   done: 1
   total: 1
+- code: FEAT-208
+  status: In Progress
+  milestone: MS-004
+  kind: defect
+  priority: High
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
 - code: FEAT-001
   status: Completed
   milestone: MS-001

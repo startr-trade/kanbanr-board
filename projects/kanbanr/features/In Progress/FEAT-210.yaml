@@ -11,7 +11,14 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 Both scripts accept ./assets/ and /assets/; verified against the published v0.2.0
+    state: Completed
+  created_at: 2026-10-21T14:42:49.76996167Z
 definition:
   statement: A release's install check confirms the installed binary serves its monitor, whether the monitor names its bundle by an absolute or a relative path
   goals:
@@ -59,4 +66,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T14:41:16.436390729Z
-updated_at: 2026-10-21T14:42:49.705741627Z
+updated_at: 2026-10-21T14:42:49.769982823Z

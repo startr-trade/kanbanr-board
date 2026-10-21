@@ -207,7 +207,7 @@ definition:
     - name: architecture::tests::front_ends_are_thin
       kind: unit
       state: green
-      checked_rev: ec027dac6fa3a05d4289dc0547cd9a66f7fc98bb
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
   - id: R-14
     kind: functional
     text: IF a task change under a scope would complete its item, THEN THE SYSTEM SHALL keep the item where it is and say the coordinator moves it
@@ -247,4 +247,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:44.706936553Z
+updated_at: 2026-10-21T18:53:44.779351779Z

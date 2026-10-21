@@ -41,7 +41,7 @@
   done: 0
   total: 0
 - code: FEAT-194
-  status: In Progress
+  status: Completed
   milestone: MS-009
   kind: feature
   priority: high
@@ -63,7 +63,7 @@
   - FEAT-182
   - FEAT-183
   - FEAT-184
-  done: 6
+  done: 7
   total: 7
 - code: FEAT-200
   status: In Progress

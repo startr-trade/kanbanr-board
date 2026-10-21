@@ -108,9 +108,14 @@ definition:
     at: 2026-10-19T16:50:30.496455036Z
     rev: b2d362e00b338732
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-21T10:49:16.215679141Z
+    rev: b2d362e00b338732
+    status: In Progress
 history:
 - at: 2026-10-21T10:48:02.502699982Z
   from: Planned
   to: In Progress
 created_at: 2026-10-19T02:53:02.044940203Z
-updated_at: 2026-10-21T10:48:22.523001102Z
+updated_at: 2026-10-21T10:49:16.215679141Z

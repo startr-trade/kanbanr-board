@@ -31,5 +31,15 @@ definition:
     - name: "manual: verify-install.sh passes against the published v0.2.0"
       kind: manual
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T14:41:36.886710053Z
+    rev: 5a5ca978c44dd2c9
+  approvals:
+  - at: 2026-10-21T14:41:36.886710053Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 5a5ca978c44dd2c9
+    status: Planned
 created_at: 2026-10-21T14:41:16.436390729Z
-updated_at: 2026-10-21T14:41:16.596131539Z
+updated_at: 2026-10-21T14:41:36.886710053Z

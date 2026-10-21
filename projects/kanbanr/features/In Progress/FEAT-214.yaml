@@ -22,7 +22,7 @@ todo_lists:
     state: Completed
   - key: T2
     text: 2 Resolution
-    state: InProgress
+    state: Completed
   - key: T3
     text: 3 Lifecycle and routes
     state: NotStarted
@@ -222,4 +222,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:17:57.566731799Z
+updated_at: 2026-10-21T18:17:57.638697304Z

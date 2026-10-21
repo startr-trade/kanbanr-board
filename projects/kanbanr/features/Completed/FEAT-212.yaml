@@ -1,6 +1,6 @@
 code: FEAT-212
 title: "Release stages that act: move main, then tag it"
-status: In Progress
+status: Completed
 milestone: MS-004
 kind: feature
 priority: High
@@ -282,5 +282,8 @@ history:
 - at: 2026-10-21T16:24:00.523605485Z
   from: Planned
   to: In Progress
+- at: 2026-10-21T19:39:05.185512143Z
+  from: In Progress
+  to: Completed
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T19:38:52.085931077Z
+updated_at: 2026-10-21T19:39:05.185512143Z

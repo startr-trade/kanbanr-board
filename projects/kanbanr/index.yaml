@@ -41,7 +41,7 @@
   done: 0
   total: 0
 - code: FEAT-212
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: feature
   priority: High

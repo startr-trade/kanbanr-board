@@ -46,7 +46,7 @@ todo_lists:
     state: Completed
   - key: T10
     text: 10 Docs and skill; manual check
-    state: InProgress
+    state: Completed
   - key: T11
     text: "11 kanbanr's own board: candidate, main, production with prepare (after the build)"
     state: NotStarted
@@ -269,4 +269,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T15:00:18.951679311Z
-updated_at: 2026-10-21T17:25:21.631733436Z
+updated_at: 2026-10-21T17:25:21.711081867Z

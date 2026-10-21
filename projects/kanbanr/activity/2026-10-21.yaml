@@ -1762,3 +1762,7 @@
   actor: Venkatraman B
   message: test release_plan_route_matches_promote of FEAT-212/R-12 is now green
   item: FEAT-212
+- time: 2026-10-21T19:38:51.650703985Z
+  actor: Venkatraman B
+  message: "test manual: on kanbanr's board, v0.3.0 goes Promote to candidate, Promote to main, then Cut v0.3.0 disabled until main is pushed, then one click cuts it, in light and dark of FEAT-212/R-12 is now green"
+  item: FEAT-212

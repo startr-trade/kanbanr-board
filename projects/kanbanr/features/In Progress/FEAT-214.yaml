@@ -114,6 +114,9 @@ definition:
       kind: integration
       state: green
       checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
+    - name: agentscope::tests::a_board_holding_scopes_is_governed_wherever_it_is
+      kind: unit
+      state: planned
   - id: R-5
     kind: functional
     text: IF a commit under a scope is on another branch, does not name the scope's item, or is made under a design, expired or revoked scope, THEN THE SYSTEM SHALL refuse it in the commit guard and the git hooks
@@ -226,27 +229,9 @@ definition:
     by: Venkatraman B
     at: 2026-10-21T17:57:53.035069096Z
     rev: 201ea5a68abc7264
-  approvals:
-  - at: 2026-10-21T17:57:53.035069096Z
-    by: Venkatraman B
-    verdict: approved
-    rev: 201ea5a68abc7264
-    status: Planned
-  signoffs:
-  - id: design-review
-    by: Venkatraman B
-    at: 2026-10-21T17:57:53.136658827Z
-    rev: 201ea5a68abc7264
-    note: given in the session dialog, 21 Oct 2026, with the recommended answers to Q1-Q4
-    status: Planned
-  - id: docs-folded
-    by: Venkatraman B
-    at: 2026-10-21T17:58:04.470446955Z
-    rev: 201ea5a68abc7264
-    status: In Progress
 history:
 - at: 2026-10-21T17:57:58.926779313Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T19:53:23.037820633Z
+updated_at: 2026-10-21T19:53:53.866411948Z

@@ -152,7 +152,7 @@ definition:
     - name: revoked_and_expired_scopes_refuse
       kind: integration
       state: green
-      checked_rev: 1f7713e46f8669585322e9d51c106be52c90928b
+      checked_rev: 07e6e9e0d77c7ccdc337bb18e7cf46546eb6e5eb
   - id: R-9
     kind: functional
     text: WHEN a build scope's branch has commits newer than its item's last task change, THE SYSTEM SHALL name them in the Stop hook, git doctor and session start
@@ -246,4 +246,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T17:16:38.620410017Z
-updated_at: 2026-10-21T18:53:44.131365667Z
+updated_at: 2026-10-21T18:53:44.195184842Z

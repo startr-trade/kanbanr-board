@@ -446,3 +446,7 @@
   actor: Venkatraman B
   message: test models::tests::content_rev_is_writer_independent of FEAT-187/R-3 is now green
   item: FEAT-187
+- time: 2026-10-21T12:16:55.055523165Z
+  actor: Venkatraman B
+  message: test migration_keeps_current_approvals_current of FEAT-187/R-4 is now green
+  item: FEAT-187

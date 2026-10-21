@@ -232,5 +232,15 @@ definition:
     - name: diagrams_valid
       kind: unit
       state: planned
+  approval:
+    by: Venkatraman B
+    at: 2026-10-21T10:19:32.966856075Z
+    rev: 37e816dabf8d24eb
+  approvals:
+  - at: 2026-10-21T10:19:32.966856075Z
+    by: Venkatraman B
+    verdict: approved
+    rev: 37e816dabf8d24eb
+    status: Planned
 created_at: 2026-10-20T08:37:04.774863548Z
-updated_at: 2026-10-21T10:19:26.291104968Z
+updated_at: 2026-10-21T10:19:32.966856075Z

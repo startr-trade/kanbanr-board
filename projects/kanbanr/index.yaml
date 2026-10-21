@@ -40,24 +40,6 @@
   - FEAT-185
   done: 0
   total: 0
-- code: FEAT-200
-  status: Completed
-  milestone: MS-007
-  kind: feature
-  priority: high
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels:
-  - docs
-  - review
-  - mermaid
-  - skill
-  depends_on: []
-  done: 10
-  total: 10
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -2991,6 +2973,24 @@
   depends_on: []
   done: 3
   total: 3
+- code: FEAT-200
+  status: Completed
+  milestone: MS-007
+  kind: feature
+  priority: high
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels:
+  - docs
+  - review
+  - mermaid
+  - skill
+  depends_on: []
+  done: 10
+  total: 10
 - code: FEAT-201
   status: Completed
   milestone: MS-004
@@ -3137,6 +3137,20 @@
 - code: FEAT-004
   status: Out-of-Scope
   milestone: MS-002
+  kind: null
+  priority: null
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 0
+  total: 0
+- code: FEAT-209
+  status: Planned
+  milestone: MS-004
   kind: null
   priority: null
   start: null

@@ -122,7 +122,8 @@ definition:
     tests:
     - name: tests::batch_numbers_each_kind_in_bundle_order
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-7
     kind: functional
     text: THE SYSTEM SHALL treat a prose token as an item reference only when its prefix is configured or used by an existing item, so SHA-256, RFC-3339, ISO-9001 and UTF-8 are not references; the monitor SHALL agree
@@ -196,4 +197,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.540930048Z
+updated_at: 2026-10-22T00:20:42.616222778Z

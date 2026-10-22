@@ -150,7 +150,8 @@ definition:
       state: planned
     - name: scm::tests::kind_prefixed_codes_round_trip_branch_and_trailer
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 63f2983
     - name: kind_coded_item_start_commit_why
       kind: integration
       state: planned
@@ -207,4 +208,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:07:13.058602183Z
+updated_at: 2026-10-22T01:07:13.139931795Z

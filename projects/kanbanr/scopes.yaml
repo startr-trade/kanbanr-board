@@ -47,3 +47,16 @@
   revoked_at: 2026-10-21T20:31:44.655509508Z
   revoked_by: Venkatraman B
   revoked_reason: FEAT-217 design delivered
+- id: SC-004
+  role: build
+  item: FEAT-217
+  operations:
+  - task.state
+  - test.state
+  - commit
+  branch: feat/FEAT-217-an-item-s-code-says-what-kind-of-work-it
+  base: 47b4c5e58222acf333bcf457b862aaf3b8b2e2ce
+  issued_by: Venkatraman B
+  issued_at: 2026-10-22T00:09:50.701835552Z
+  expires_at: 2026-10-22T08:09:50.701835552Z
+  note: tasks T1-T10

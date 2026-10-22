@@ -27,7 +27,8 @@ todo_lists:
     changed_at: 2026-10-22T00:20:42.022540167Z
   - key: T3
     text: "3 dispatch.rs: POST features passes the kind; GET/PUT config/codes"
-    state: NotStarted
+    state: InProgress
+    changed_at: 2026-10-22T00:20:42.12672075Z
   - key: T4
     text: "4 refs.rs: BoardIndex unions the configured prefixes; fixture index"
     state: NotStarted
@@ -190,4 +191,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.022540167Z
+updated_at: 2026-10-22T00:20:42.12672075Z

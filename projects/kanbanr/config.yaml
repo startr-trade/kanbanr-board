@@ -136,3 +136,13 @@ cadence:
       entry: "- **[{number}]({version}.md)**"
 method:
   chosen_at: 2026-10-19T15:48:07.297587475Z
+codes:
+  kinds:
+    bug: DEF
+    chore: MNT
+    defect: DEF
+    docs: DOC
+    feature: FTR
+    recurring: MNT
+    refactor: MNT
+    spike: SPK

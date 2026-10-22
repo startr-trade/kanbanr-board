@@ -328,3 +328,7 @@
     scope: SC-004
     role: build
     item: FEAT-217
+- time: 2026-10-22T01:15:19.924428095Z
+  actor: Venkatraman B
+  message: "revoke agent scope SC-004: FEAT-217 T1-T10 built and reviewed"
+  item: FEAT-217

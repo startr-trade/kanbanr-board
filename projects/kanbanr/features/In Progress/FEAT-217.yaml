@@ -155,7 +155,8 @@ definition:
       checked_rev: 63f2983
     - name: kind_coded_item_start_commit_why
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 6aed712
   - id: R-9
     kind: functional
     text: WHILE codes is unset, THE SYSTEM SHALL load, reference and allocate around existing kind-coded items
@@ -209,4 +210,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:12:20.08624099Z
+updated_at: 2026-10-22T01:12:20.168039777Z

@@ -80,22 +80,8 @@
   team: null
   labels: []
   depends_on: []
-  done: 10
+  done: 11
   total: 11
-- code: FEAT-219
-  status: Completed
-  milestone: MS-004
-  kind: defect
-  priority: High
-  start: null
-  due: null
-  estimate_days: null
-  assignee: null
-  team: null
-  labels: []
-  depends_on: []
-  done: 1
-  total: 1
 - code: FEAT-001
   status: Completed
   milestone: MS-001
@@ -3251,6 +3237,20 @@
   status: Completed
   milestone: MS-004
   kind: docs
+  priority: High
+  start: null
+  due: null
+  estimate_days: null
+  assignee: null
+  team: null
+  labels: []
+  depends_on: []
+  done: 1
+  total: 1
+- code: FEAT-219
+  status: Completed
+  milestone: MS-004
+  kind: defect
   priority: High
   start: null
   due: null

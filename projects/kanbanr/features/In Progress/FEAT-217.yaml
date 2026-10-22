@@ -59,7 +59,8 @@ todo_lists:
     changed_at: 2026-10-22T01:14:39.660571935Z
   - key: T11
     text: "11 kanbanr's board: config codes (coordinator)"
-    state: NotStarted
+    state: Completed
+    changed_at: 2026-10-22T01:59:50.94195967Z
   created_at: 2026-10-22T00:09:50.622946924Z
 definition:
   statement: An item's code names the kind of work it is (FTR, DEF, MNT, DOC, SPK, set per project) so a defect, a chore or a docs change is told from a feature at a glance, with a counter per prefix; existing FEAT- codes are kept and a later kind change never renames
@@ -218,4 +219,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:47:29.761164878Z
+updated_at: 2026-10-22T01:59:50.942116557Z

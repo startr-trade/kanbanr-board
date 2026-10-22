@@ -19,8 +19,8 @@ todo_lists:
   tasks:
   - key: T1
     text: "1 config.rs: CodesConfig, CodesChange, kind_key, ProjectConfig.codes"
-    state: InProgress
-    changed_at: 2026-10-22T00:10:08.167582093Z
+    state: Completed
+    changed_at: 2026-10-22T00:16:37.658442149Z
   - key: T2
     text: "2 store.rs: kind threaded into allocation; add_feature_of_kind; batch; set_codes"
     state: NotStarted
@@ -187,4 +187,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:10:08.167582093Z
+updated_at: 2026-10-22T00:16:37.658442149Z

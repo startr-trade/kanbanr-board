@@ -105,7 +105,8 @@ definition:
     tests:
     - name: config::tests::codes_problems_name_the_entry
       kind: unit
-      state: planned
+      state: green
+      checked_rev: e548aeb
     - name: tests::set_codes_refuses_and_changes_nothing
       kind: unit
       state: planned
@@ -189,4 +190,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:16:37.834206458Z
+updated_at: 2026-10-22T00:16:37.907098362Z

@@ -393,3 +393,6 @@
 - time: 2026-10-22T01:47:52.315352599Z
   actor: Venkatraman B
   message: promote release v0.3.0 to main
+- time: 2026-10-22T01:55:59.186380842Z
+  actor: Venkatraman B
+  message: promote release v0.3.0 to production

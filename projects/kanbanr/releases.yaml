@@ -1,7 +1,15 @@
 - version: v0.3.0
   name: After 0.2.0
-  state: planned
-  stage: main
+  state: shipped
+  shipped_at: 2026-10-22T01:55:59.149807515Z
+  shipped:
+  - FEAT-212
+  - FEAT-213
+  - FEAT-214
+  - FEAT-215
+  - FEAT-219
+  notes_doc: releases/v0.3.0.md
+  stage: production
   stages:
   - stage: candidate
     by: Venkatraman B
@@ -17,6 +25,9 @@
     by: Venkatraman B
     at: 2026-10-22T01:47:52.087063958Z
     reason: "again: move_main"
+  - stage: production
+    by: Venkatraman B
+    at: 2026-10-22T01:55:59.029370226Z
   branch: release/v0.3.0
 - version: v0.2.1
   name: Fixes after 0.2.0

@@ -2,8 +2,8 @@ code: FEAT-219
 title: "Windows: a release test assumes a push by path leaves origin/main alone"
 status: Planned
 milestone: MS-004
-kind: null
-priority: null
+kind: defect
+priority: High
 start: null
 due: null
 estimate_days: null
@@ -33,4 +33,4 @@ definition:
       kind: unit
       state: planned
 created_at: 2026-10-22T01:37:23.648483318Z
-updated_at: 2026-10-22T01:37:23.771152072Z
+updated_at: 2026-10-22T01:37:23.932050077Z

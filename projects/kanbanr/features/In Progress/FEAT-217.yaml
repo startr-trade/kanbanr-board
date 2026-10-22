@@ -134,7 +134,8 @@ definition:
     tests:
     - name: refs::tests::finder_matches_the_shared_fixture
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 0b214c9
     - name: check:markdown
       kind: integration
       state: planned
@@ -203,4 +204,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:04:40.391262568Z
+updated_at: 2026-10-22T01:04:40.543639973Z

@@ -2,8 +2,8 @@ code: FEAT-218
 title: make ci's board check trips on an agent's scoped progress writes
 status: Planned
 milestone: MS-004
-kind: null
-priority: null
+kind: defect
+priority: Medium
 start: null
 due: null
 estimate_days: null
@@ -13,4 +13,4 @@ labels: []
 depends_on: []
 todo_lists: []
 created_at: 2026-10-22T01:15:31.814050268Z
-updated_at: 2026-10-22T01:15:31.814050268Z
+updated_at: 2026-10-22T01:15:31.990605148Z

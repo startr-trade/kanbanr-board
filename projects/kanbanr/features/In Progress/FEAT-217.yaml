@@ -13,7 +13,44 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: "1 config.rs: CodesConfig, CodesChange, kind_key, ProjectConfig.codes"
+    state: NotStarted
+  - key: T2
+    text: "2 store.rs: kind threaded into allocation; add_feature_of_kind; batch; set_codes"
+    state: NotStarted
+  - key: T3
+    text: "3 dispatch.rs: POST features passes the kind; GET/PUT config/codes"
+    state: NotStarted
+  - key: T4
+    text: "4 refs.rs: BoardIndex unions the configured prefixes; fixture index"
+    state: NotStarted
+  - key: T5
+    text: "5 refs-fixture.json: codes, DEF-001, the two new cases"
+    state: NotStarted
+  - key: T6
+    text: "6 boardRefs.ts: codePrefixes; makeIndex codes; types; useBoardIndex; check-markdown"
+    state: NotStarted
+  - key: T7
+    text: 7 scm.rs fallback suggestion; doctor scan_codes
+    state: NotStarted
+  - key: T8
+    text: "8 CLI: config codes; --kind help; CLI and flow/scm tests"
+    state: NotStarted
+  - key: T9
+    text: 9 OpenAPI regenerated
+    state: NotStarted
+  - key: T10
+    text: 10 Docs and skill; changelog
+    state: NotStarted
+  - key: T11
+    text: "11 kanbanr's board: config codes (coordinator)"
+    state: NotStarted
+  created_at: 2026-10-22T00:09:50.622946924Z
 definition:
   statement: An item's code names the kind of work it is (FTR, DEF, MNT, DOC, SPK, set per project) so a defect, a chore or a docs change is told from a feature at a glance, with a counter per prefix; existing FEAT- codes are kept and a later kind change never renames
   goals:
@@ -149,4 +186,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:09:50.303212963Z
+updated_at: 2026-10-22T00:09:50.622975063Z

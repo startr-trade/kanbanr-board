@@ -43,8 +43,8 @@ todo_lists:
     changed_at: 2026-10-22T01:04:40.124218584Z
   - key: T7
     text: 7 scm.rs fallback suggestion; doctor scan_codes
-    state: InProgress
-    changed_at: 2026-10-22T01:04:40.391262568Z
+    state: Completed
+    changed_at: 2026-10-22T01:07:12.870877151Z
   - key: T8
     text: "8 CLI: config codes; --kind help; CLI and flow/scm tests"
     state: NotStarted
@@ -205,4 +205,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:04:40.669016031Z
+updated_at: 2026-10-22T01:07:12.870877151Z

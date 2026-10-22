@@ -208,9 +208,14 @@ definition:
     rev: 359fc7136c376a76
     note: given in the session dialog, 22 Oct 2026; refactor and recurring map to MNT
     status: Planned
+  - id: docs-folded
+    by: Venkatraman B
+    at: 2026-10-22T01:47:29.761164878Z
+    rev: 359fc7136c376a76
+    status: In Progress
 history:
 - at: 2026-10-22T00:09:50.303212963Z
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:14:39.660571935Z
+updated_at: 2026-10-22T01:47:29.761164878Z

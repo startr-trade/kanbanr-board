@@ -378,3 +378,7 @@
 - time: 2026-10-22T01:46:15.070854976Z
   actor: Venkatraman B
   message: batch update
+- time: 2026-10-22T01:47:29.763881564Z
+  actor: Venkatraman B
+  message: sign off docs-folded on FEAT-217
+  item: FEAT-217

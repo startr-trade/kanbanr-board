@@ -361,3 +361,6 @@
   actor: Venkatraman B
   message: sign off design-review on FEAT-219
   item: FEAT-219
+- time: 2026-10-22T01:43:56.211238768Z
+  actor: Venkatraman B
+  message: plan release v0.3.0

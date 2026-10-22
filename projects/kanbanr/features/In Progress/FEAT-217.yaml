@@ -90,7 +90,8 @@ definition:
     tests:
     - name: config::tests::prefix_for_falls_back_to_feature_then_default
       kind: unit
-      state: planned
+      state: green
+      checked_rev: e548aeb
   - id: R-4
     kind: functional
     text: WHEN an item's kind changes, THE SYSTEM SHALL keep its code
@@ -188,4 +189,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:16:37.762425149Z
+updated_at: 2026-10-22T00:16:37.834206458Z

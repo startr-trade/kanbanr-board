@@ -102,7 +102,8 @@ definition:
     tests:
     - name: tests::a_kind_change_never_renames
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-5
     kind: functional
     text: WHEN config codes would set a prefix that is not 2-6 uppercase letters, is reserved (MS, ADR, SC, SP, TL), or is used by a milestone, or a blank or duplicate kind, THE SYSTEM SHALL refuse it naming the entry and leave the config unchanged
@@ -194,4 +195,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.37300437Z
+updated_at: 2026-10-22T00:20:42.452223488Z

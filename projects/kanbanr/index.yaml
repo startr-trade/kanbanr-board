@@ -83,7 +83,7 @@
   done: 10
   total: 11
 - code: FEAT-219
-  status: In Progress
+  status: Completed
   milestone: MS-004
   kind: defect
   priority: High

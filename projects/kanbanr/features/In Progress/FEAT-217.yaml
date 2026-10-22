@@ -23,8 +23,8 @@ todo_lists:
     changed_at: 2026-10-22T00:16:37.658442149Z
   - key: T2
     text: "2 store.rs: kind threaded into allocation; add_feature_of_kind; batch; set_codes"
-    state: InProgress
-    changed_at: 2026-10-22T00:16:37.762425149Z
+    state: Completed
+    changed_at: 2026-10-22T00:20:42.022540167Z
   - key: T3
     text: "3 dispatch.rs: POST features passes the kind; GET/PUT config/codes"
     state: NotStarted
@@ -190,4 +190,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:16:37.907098362Z
+updated_at: 2026-10-22T00:20:42.022540167Z

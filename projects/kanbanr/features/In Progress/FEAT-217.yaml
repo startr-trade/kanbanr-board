@@ -51,7 +51,8 @@ todo_lists:
     changed_at: 2026-10-22T01:12:20.016879401Z
   - key: T9
     text: 9 OpenAPI regenerated
-    state: NotStarted
+    state: InProgress
+    changed_at: 2026-10-22T01:12:20.387362691Z
   - key: T10
     text: 10 Docs and skill; changelog
     state: NotStarted
@@ -211,4 +212,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:12:20.27545752Z
+updated_at: 2026-10-22T01:12:20.387362691Z

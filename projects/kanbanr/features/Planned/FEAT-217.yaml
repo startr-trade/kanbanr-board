@@ -137,5 +137,12 @@ definition:
     verdict: approved
     rev: 359fc7136c376a76
     status: Planned
+  signoffs:
+  - id: design-review
+    by: Venkatraman B
+    at: 2026-10-22T00:09:39.936875471Z
+    rev: 359fc7136c376a76
+    note: given in the session dialog, 22 Oct 2026; refactor and recurring map to MNT
+    status: Planned
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:08:34.750044924Z
+updated_at: 2026-10-22T00:09:39.936875471Z

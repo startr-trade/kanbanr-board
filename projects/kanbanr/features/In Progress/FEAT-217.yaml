@@ -55,8 +55,8 @@ todo_lists:
     changed_at: 2026-10-22T01:12:43.906237344Z
   - key: T10
     text: 10 Docs and skill; changelog
-    state: InProgress
-    changed_at: 2026-10-22T01:12:44.007159287Z
+    state: Completed
+    changed_at: 2026-10-22T01:14:39.660571935Z
   - key: T11
     text: "11 kanbanr's board: config codes (coordinator)"
     state: NotStarted
@@ -213,4 +213,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:12:44.007159287Z
+updated_at: 2026-10-22T01:14:39.660571935Z

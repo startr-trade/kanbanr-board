@@ -47,7 +47,8 @@ todo_lists:
     changed_at: 2026-10-22T01:07:12.870877151Z
   - key: T8
     text: "8 CLI: config codes; --kind help; CLI and flow/scm tests"
-    state: NotStarted
+    state: InProgress
+    changed_at: 2026-10-22T01:07:12.971648163Z
   - key: T9
     text: 9 OpenAPI regenerated
     state: NotStarted
@@ -205,4 +206,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:07:12.870877151Z
+updated_at: 2026-10-22T01:07:12.971648163Z

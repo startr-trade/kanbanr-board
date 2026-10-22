@@ -13,7 +13,15 @@ assignee: null
 team: null
 labels: []
 depends_on: []
-todo_lists: []
+todo_lists:
+- code: TL-001
+  description: Implementation tasks from the Design
+  tasks:
+  - key: T1
+    text: 1 The test change; the test run (Windows simulated by a push that moves origin/main)
+    state: Completed
+    changed_at: 2026-10-22T01:46:15.030433631Z
+  created_at: 2026-10-22T01:46:15.030421687Z
 definition:
   statement: The release tests behave the same on Windows, macOS and Linux, so CI can pass for v0.3.0
   goals:
@@ -57,4 +65,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-22T01:37:23.648483318Z
-updated_at: 2026-10-22T01:46:14.953167762Z
+updated_at: 2026-10-22T01:46:15.030447475Z

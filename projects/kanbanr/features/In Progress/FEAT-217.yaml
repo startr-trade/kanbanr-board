@@ -114,7 +114,8 @@ definition:
       checked_rev: e548aeb
     - name: tests::set_codes_refuses_and_changes_nothing
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-6
     kind: functional
     text: WHEN a batch creates several items, THE SYSTEM SHALL number each by its own prefix in bundle order, and ref aliases SHALL resolve to the assigned codes
@@ -195,4 +196,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.452223488Z
+updated_at: 2026-10-22T00:20:42.540930048Z

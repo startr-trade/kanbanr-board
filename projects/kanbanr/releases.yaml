@@ -13,6 +13,10 @@
     by: Venkatraman B
     at: 2026-10-22T00:57:54.205035433Z
     reason: "again: move_main"
+  - stage: main
+    by: Venkatraman B
+    at: 2026-10-22T01:47:52.087063958Z
+    reason: "again: move_main"
   branch: release/v0.3.0
 - version: v0.2.1
   name: Fixes after 0.2.0

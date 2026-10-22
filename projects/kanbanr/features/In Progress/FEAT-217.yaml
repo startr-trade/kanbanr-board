@@ -82,7 +82,8 @@ definition:
     tests:
     - name: tests::an_unconfigured_project_keeps_feat_codes
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
     - name: tests::code_generation_is_sequential
       kind: unit
       state: planned
@@ -192,4 +193,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.222226384Z
+updated_at: 2026-10-22T00:20:42.293157827Z

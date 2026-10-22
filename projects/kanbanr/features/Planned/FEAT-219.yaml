@@ -12,5 +12,25 @@ team: null
 labels: []
 depends_on: []
 todo_lists: []
+definition:
+  statement: The release tests behave the same on Windows, macOS and Linux, so CI can pass for v0.3.0
+  goals:
+  - G-0
+  - G-6
+  zachman:
+    what: The setup of promote_fetches_and_works_offline
+    how: Restore origin/main after the push so it is pushed but not yet fetched on every platform
+    where: api/crates/kanbanr-core/src/releases.rs (tests)
+    when: Every CI run
+    who: Contributors and the release
+    why: Windows git updated origin/main during a push by path, so the test failed and v0.3.0 could not be tagged
+  requirements:
+  - id: R-1
+    kind: functional
+    text: THE SYSTEM SHALL judge pushed from the last-fetched remote-tracking ref on every platform, and its test SHALL set up a pushed-but-not-fetched state the same way on Windows, macOS and Linux
+    tests:
+    - name: releases::tests::promote_fetches_and_works_offline
+      kind: unit
+      state: planned
 created_at: 2026-10-22T01:37:23.648483318Z
-updated_at: 2026-10-22T01:37:23.648483318Z
+updated_at: 2026-10-22T01:37:23.771152072Z

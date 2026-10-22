@@ -86,7 +86,8 @@ definition:
       checked_rev: 4ba47b0
     - name: tests::code_generation_is_sequential
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-3
     kind: functional
     text: WHEN an item has no kind, THE SYSTEM SHALL use the feature entry; WHEN its kind has no entry, THE SYSTEM SHALL use the default prefix, or FEAT when that is absent
@@ -193,4 +194,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.293157827Z
+updated_at: 2026-10-22T00:20:42.37300437Z

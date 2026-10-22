@@ -187,7 +187,8 @@ definition:
     tests:
     - name: config_codes_sets_shows_and_clears
       kind: integration
-      state: planned
+      state: green
+      checked_rev: 6aed712
   approval:
     by: Venkatraman B
     at: 2026-10-22T00:08:34.750044924Z
@@ -210,4 +211,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T01:12:20.168039777Z
+updated_at: 2026-10-22T01:12:20.27545752Z

@@ -74,7 +74,8 @@ definition:
     tests:
     - name: tests::codes_follow_the_kind_with_a_counter_per_prefix
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-2
     kind: functional
     text: WHERE a project sets no codes, THE SYSTEM SHALL code every new item FEAT-<n> as before
@@ -191,4 +192,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.12672075Z
+updated_at: 2026-10-22T00:20:42.222226384Z

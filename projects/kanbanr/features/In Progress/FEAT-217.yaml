@@ -161,7 +161,8 @@ definition:
     tests:
     - name: tests::other_config_writes_keep_codes
       kind: unit
-      state: planned
+      state: green
+      checked_rev: 4ba47b0
   - id: R-11
     kind: functional
     text: WHEN the config's codes are invalid, THE SYSTEM SHALL refuse code allocation naming the problem, and doctor SHALL report it as an error
@@ -198,4 +199,4 @@ history:
   from: Planned
   to: In Progress
 created_at: 2026-10-21T20:18:22.815971619Z
-updated_at: 2026-10-22T00:20:42.698803998Z
+updated_at: 2026-10-22T00:20:42.775449118Z

@@ -229,9 +229,8 @@ None. The new values are validated `[A-Z]{2,6}` strings and are written only by 
   - no new setup-interview question (G-5); new projects keep `FEAT-` unless the user asks.
 - Changelog entry, through the normal `tools/docs/sync.sh`.
 
-### Open question (needs the user)
-
-1. Should `refactor` (3 items) and `recurring` also map to `MNT` on kanbanr's own board, or fall through to `FEAT`? **Recommended: map both to `MNT`.** `definition_template` already treats `chore` and `refactor` alike (models.rs ~1083), and leftover `FEAT-` codes are exactly the confusion being fixed.
+### Decided (22 Oct 2026, by the user)
+- `refactor` and `recurring` map to **MNT**, as `chore` does.
 
 ### Implementation tasks (in order)
 
@@ -245,4 +244,4 @@ None. The new values are validated `[A-Z]{2,6}` strings and are written only by 
 8. **CLI:** add `ConfigCmd::Codes` and its handler next to `ConfigCmd::Diagrams` (main.rs:6809), and the `--kind` help text. CLI tests R-8 and R-12 in `tests/local_mode.rs`, temporary boards only. Add the flow and scm unit tests for R-8.
 9. Regenerate OpenAPI with `cargo run -p kanbanr-core --features schema --example openapi`, then confirm `--check` passes.
 10. Docs and skill edits from "Affects docs". Run `make check-docs`, `cargo test`, `cargo clippy`.
-11. After the merge and the user's answer to the open question, the coordinator (not the build agent; the board write needs scope) runs: `kanbanr config codes --set feature=FTR,defect=DEF,bug=DEF,chore=MNT,docs=DOC,spike=SPK[,refactor=MNT,recurring=MNT]`.
+11. After the merge and the user's answer to the open question, the coordinator (not the build agent; the board write needs scope) runs: `kanbanr config codes --set feature=FTR,defect=DEF,bug=DEF,chore=MNT,docs=DOC,spike=SPK,refactor=MNT,recurring=MNT`.
